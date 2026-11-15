@@ -124,6 +124,23 @@ export function createMajors(h) {
   setInterval(tick, 1000);
 
   // ---------------------------------------------------------------- ficha
+  // fase que toca enseñar al abrir un Major: la que se está jugando ahora (o la siguiente que va a empezar)
+  function currentStage(d, stages) {
+    if (!stages.length) return undefined;
+    const ms = d.matches || [];
+    const of = (s) => ms.filter((x) => x.stage === s.id);
+    const known = (x) => x.t1 && x.t1 !== 'TBD' && x.t2 && x.t2 !== 'TBD';
+    const now = Date.now();
+    const live = ms.find((x) => !x.done && known(x) && x.date && Date.parse(x.date) <= now);
+    if (live && stages.some((s) => s.id === live.stage)) return live.stage;
+    let last = -1;
+    stages.forEach((s, i) => { if (of(s).some((x) => x.done)) last = i; });
+    if (last < 0) return stages[0].id;                                  // aún no ha empezado: la primera fase
+    const cur = stages[last];
+    if (of(cur).some((x) => !x.done && known(x))) return cur.id;        // a medias
+    return (stages[last + 1] || cur).id;                                 // terminada: la siguiente
+  }
+
   async function detail(id) {
     const idx = await getIndex();
     const m = idx.majors.find((x) => x.id === id);
@@ -134,7 +151,7 @@ export function createMajors(h) {
     const extra = M.extra[id] || {};
     if (M.id !== id) { M.id = id; M.stage = null; }
     const stages = (d?.stages || []).filter((s) => s.matches || (d.matches || []).some((x) => x.stage === s.id));
-    if (!M.stage || (M.stage !== '__teams' && !stages.some((s) => s.id === M.stage))) M.stage = (stages.find((s) => s.id === 'po' && d.matches.some((x) => x.stage === 'po' && x.done)) || stages[stages.length - 1] || {}).id;
+    if (!M.stage || (M.stage !== '__teams' && !stages.some((s) => s.id === M.stage))) M.stage = currentStage(d, stages);
     const fact = (l, v) => (v ? `<div class="fact"><small>${l}</small><b>${v}</b></div>` : '');
     const champ = m.champion
       ? `<section class="mjchamp"><div class="mjchamp__cup" aria-hidden="true">🏆</div>${badge(m.champion, 'tb--xl')}<div><small>Campeón</small><h2><a href="#/equipos/${encodeURIComponent(m.champion)}">${esc(m.champion)}</a></h2>
