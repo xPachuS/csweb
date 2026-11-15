@@ -1,5 +1,5 @@
 // Clutch · service worker: la web se puede instalar como app y se abre sin conexión con lo último que se vio.
-const VERSION = 'clutch-v1';
+const VERSION = 'clutch-v2';
 const SHELL = ['./', 'index.html', 'css/styles.css', 'js/app.js', 'js/api.js', 'js/config.js', 'js/admin.js', 'js/majors.js', 'js/stats.js', 'js/extras.js',
   'manifest.webmanifest', 'img/icon.svg', 'img/icon-192.png', 'img/icon-512.png'];
 

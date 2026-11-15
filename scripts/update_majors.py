@@ -1296,6 +1296,9 @@ def build_stats(index: dict):
                     if t in teams:
                         teams[t]['maps'].setdefault(mp, [0, 0, 0])[2] += 1
         for t, r in (d.get('rosters') or {}).items():
+            t = re.sub(r'\s*<!--.*', '', t, flags=re.S).strip()
+            if places and t not in places:              # exhibiciones (Team France, all-stars…): no cuentan
+                continue
             for role, lst in (('player', r.get('players', [])), ('coach', [r['coach']] if r.get('coach') else [])):
                 for x in lst:
                     P = players.setdefault(x['n'], {'flag': x.get('flag', ''), 'majors': []})

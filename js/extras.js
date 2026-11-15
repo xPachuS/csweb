@@ -77,31 +77,72 @@ export function createExtras(h) {
 
   // ---------------------------------------------------------------- récords
   async function recordsPage() {
-    const [r, idx] = await Promise.all([getRecords(), majors.getIndex()]);
+    const [r, idx, st] = await Promise.all([getRecords(), majors.getIndex(), stats.getStats()]);
     if (!r) return `<div class="empty">Los récords se calculan con la próxima actualización de datos.</div>`;
+    const flagP = (p) => majors.flag(st.players[p]?.flag);
     const team = (t) => `<a class="tlink" href="#/equipos/${enc(t)}">${badge(t)}<span>${esc(t)}</span></a>`;
-    const player = (p) => `<a class="plink" href="#/jugadores/${enc(p)}">${esc(p)}</a>`;
-    const list = (rows, fmt) => `<ol class="rk">${rows.map((x, i) => `<li><i>${i + 1}</i>${fmt(x)}</li>`).join('')}</ol>`;
-    const box = (title, body, note = '') => `<section class="card rbox"><h3>${title}</h3>${body}${note ? `<p class="hint">${note}</p>` : ''}</section>`;
-    const matchLink = (x) => `<a href="#/majors/${esc(x[1])}/p/${esc(x[2])}">${esc(x[3])} ${x[6]}–${x[7]} ${esc(x[4])}</a> <small>${esc(x[5])} · ${esc(mName(idx, x[1]))}</small>`;
+    const player = (p) => `<a class="plink" href="#/jugadores/${enc(p)}">${flagP(p)} ${esc(p)}</a>`;
+    // lista con barra proporcional al primero
+    const list = (rows, fmt, n = 10) => { const max = Math.max(1, ...rows.map((x) => x[0]));
+      return `<ol class="rk rk--bars">${rows.slice(0, n).map((x, i) => `<li style="--w:${Math.round((x[0] / max) * 100)}%"><i>${i + 1}</i>${fmt(x)}<b>${x[0]}</b></li>`).join('')}</ol>`; };
+    const box = (title, body, note = '', cls = '') => `<section class="card rbox ${cls}"><h3>${title}</h3>${body}${note ? `<p class="hint">${note}</p>` : ''}</section>`;
+    const podium = (rows, item, unit) => rows.length < 3 ? '' : `<div class="rpod">${[rows[1], rows[0], rows[2]].map((x, i) => `<div class="rpod__it rpod__it--${[2, 1, 3][i]}">${item(x[1])}<b>${x[0]}</b><small>${unit}</small><div class="rpod__step">${[2, 1, 3][i]}</div></div>`).join('')}</div>`;
+    const teamBig = (t) => `<a href="#/equipos/${enc(t)}" class="rpod__who">${badge(t, 'tb--xl')}<span>${esc(t)}</span></a>`;
+    const playerBig = (p) => `<a href="#/jugadores/${enc(p)}" class="rpod__who"><span class="rpod__flag">${flagP(p) || '🎮'}</span><span>${esc(p)}</span></a>`;
+    const matchCard = (x, label) => `<a class="rmatch" href="#/majors/${esc(x[1])}/p/${esc(x[2])}">
+        <span class="rmatch__map">${stats.mapThumb(x[5])}</span>
+        <span class="rmatch__body"><small>${esc(x[5])} · ${esc(mName(idx, x[1]))}</small><span class="rmatch__teams">${badge(x[3])}<b>${esc(x[3])}</b><em>${x[6]}–${x[7]}</em><b>${esc(x[4])}</b>${badge(x[4])}</span></span>
+        <span class="rmatch__n"><b>${x[0]}</b><small>${label}</small></span></a>`;
     const eras = Object.entries(r.mapsByEra || {});
     const done = idx.majors.filter((m) => m.status === 'done').length;
-    return `<div class="xx"><section class="mjhead"><p class="kicker">Historial</p><h1 class="ghead__title">Récords de los Majors</h1>
-        <p class="lead">${done} Majors, ${r.series.toLocaleString('es-ES')} series y ${r.maps.toLocaleString('es-ES')} mapas desde 2013, con los datos de Liquipedia.</p></section>
+    const nTeams = Object.keys(st.teams).length;
+    const nPlayers = Object.values(st.players).filter((p) => p.majors.some((e) => e.role === 'player')).length;
+    const finals = (r.finals || []).slice().reverse();
+    const num = (n, l) => `<div class="rnum"><b>${Number(n).toLocaleString('es-ES')}</b><small>${l}</small></div>`;
+    const sec = (t, id) => `<h2 class="rsec" id="r-${id}">${t}</h2>`;
+    return `<div class="xx rec"><section class="rhero"><div><p class="kicker">Historial</p><h1 class="ghead__title">Récords de los Majors</h1>
+        <p class="lead">Todo lo que ha pasado en los Majors de Counter-Strike desde 2013, con los datos de Liquipedia.</p>
+        <nav class="rjump">${[['equipos', 'Equipos'], ['jugadores', 'Jugadores'], ['partidos', 'Partidos'], ['finales', 'Finales'], ['mapas', 'Mapas']].map(([id, l]) => `<a href="#r-${id}" data-rjump="${id}">${l}</a>`).join('')}</nav></div>
+        <div class="rnums">${num(done, 'Majors')}${num(r.series, 'series')}${num(r.maps, 'mapas')}${num(nTeams, 'equipos')}${num(nPlayers, 'jugadores')}</div></section>
+
+      ${sec('Equipos', 'equipos')}
+      <div class="rfeat">${box('🏆 Más títulos', podium(r.teamTitles, teamBig, 'títulos') + list(r.teamTitles.slice(3), (x) => team(x[1]), 7).replace(/<i>(\d+)<\/i>/g, (m, n) => `<i>${+n + 3}</i>`), '', 'rbox--wide')}</div>
       <div class="rgrid2">
-        ${box('🏆 Más títulos', list(r.teamTitles, (x) => `${team(x[1])}<b>${x[0]}</b>`))}
-        ${box('🥈 Más finales', list(r.teamFinals, (x) => `${team(x[1])}<b>${x[0]}</b>`))}
-        ${box('🗓 Más Majors jugados', list(r.teamMajors, (x) => `${team(x[1])}<b>${x[0]}</b>`))}
-        ${box('🔁 Más Majors seguidos', list(r.teamStreak, (x) => `${team(x[1])}<b>${x[0]}</b>`))}
-        ${box('🧹 Más 3-0 en fases suizas', list(r.teamSweeps, (x) => `${team(x[1])}<b>${x[0]}</b>`), 'Fases suizas terminadas sin perder ninguna serie.')}
-        ${box('👑 Jugadores con más títulos', list(r.playerTitles, (x) => `${player(x[1])}<b>${x[0]}</b>`))}
-        ${box('🎮 Jugadores con más Majors', list(r.playerMajors, (x) => `${player(x[1])}<b>${x[0]}</b>`))}
-        ${box('⏱ Mapas más largos', list(r.longestMaps, (x) => `<span>${matchLink(x)}</span><b>${x[0]}</b>`), 'Rondas totales del mapa, prórrogas incluidas.')}
-        ${r.overtimes?.length ? box('🔥 Más rondas de prórroga', list(r.overtimes, (x) => `<span>${matchLink(x)}</span><b>${x[0]}</b>`)) : ''}
-        ${r.finalPairs?.length ? box('⚔ Finales repetidas', list(r.finalPairs, (x) => `<span>${esc(x[1])}</span><b>${x[0]}×</b>`)) : ''}
-        ${eras.map(([era, rows]) => box(`🗺 Mapas más jugados · ${esc(era)}`, `<ol class="rk">${rows.slice(0, 8).map((x, i) => `<li><i>${i + 1}</i><span>${stats.mapThumb(x[1])}${esc(x[1])}</span><b>${x[0]}</b></li>`).join('')}</ol>`)).join('')}
-      </div></div>`;
+        ${box('🥈 Más finales', list(r.teamFinals, (x) => team(x[1])))}
+        ${box('🗓 Más Majors jugados', list(r.teamMajors, (x) => team(x[1])))}
+        ${box('🔁 Más Majors seguidos', list(r.teamStreak, (x) => team(x[1])))}
+        ${box('🧹 Más 3-0 en fases suizas', list(r.teamSweeps, (x) => team(x[1])), 'Fases suizas terminadas sin perder ninguna serie.')}
+      </div>
+
+      ${sec('Jugadores', 'jugadores')}
+      <div class="rgrid2 rgrid2--2">
+        ${box('👑 Más títulos', podium(r.playerTitles, playerBig, 'títulos') + list(r.playerTitles.slice(3), (x) => player(x[1]), 7).replace(/<i>(\d+)<\/i>/g, (m, n) => `<i>${+n + 3}</i>`))}
+        ${box('🎮 Más Majors jugados', podium(r.playerMajors, playerBig, 'Majors') + list(r.playerMajors.slice(3), (x) => player(x[1]), 7).replace(/<i>(\d+)<\/i>/g, (m, n) => `<i>${+n + 3}</i>`))}
+      </div>
+
+      ${sec('Partidos', 'partidos')}
+      <div class="rgrid2 rgrid2--2">
+        ${box('⏱ Mapas más largos', `<div class="rmatches">${r.longestMaps.slice(0, 6).map((x) => matchCard(x, 'rondas')).join('')}</div>`, 'Rondas totales del mapa, prórrogas incluidas.')}
+        ${r.overtimes?.length ? box('🔥 Más rondas de prórroga', `<div class="rmatches">${r.overtimes.slice(0, 6).map((x) => matchCard(x, 'en prórroga')).join('')}</div>`) : ''}
+      </div>
+
+      ${finals.length ? `${sec('Finales', 'finales')}
+      <section class="card rfinals">${finals.map((f) => { const w = f[5] === 1 ? f[1] : f[2]; const l = f[5] === 1 ? f[2] : f[1]; const m = idx.majors.find((x) => x.id === f[0]);
+        return `<a class="rfin" href="#/majors/${esc(f[0])}"><span class="rfin__y">${m?.year || ''}<small>${esc(m?.city || '')}</small></span>
+          <span class="rfin__w">${badge(w, 'tb--lg')}<b>${esc(w)}</b></span><span class="rfin__s">${Math.max(f[3], f[4])}–${Math.min(f[3], f[4])}</span><span class="rfin__l">${badge(l)}<span>${esc(l)}</span></span></a>`; }).join('')}
+        ${r.finalPairs?.length ? `<p class="hint">Finales repetidas: ${r.finalPairs.map((x) => `${esc(x[1])} (${x[0]}×)`).join(' · ')}.</p>` : ''}</section>` : ''}
+
+      ${sec('Mapas', 'mapas')}
+      <div class="rgrid2 rgrid2--2">${eras.map(([era, rows]) => { const max = Math.max(...rows.map((x) => x[0]));
+        return box(`🗺 Más jugados · ${esc(era)}`, `<div class="rmaps">${rows.slice(0, 8).map((x, i) => `<div class="rmap" style="--w:${Math.round((x[0] / max) * 100)}%">${stats.mapThumb(x[1])}<span><b>${esc(x[1])}</b><i class="rmap__bar"></i></span><em>${x[0]}</em></div>`).join('')}</div>`); }).join('')}</div>
+    </div>`;
   }
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('[data-rjump]');
+    if (!a) return;
+    e.preventDefault();
+    document.getElementById(`r-${a.dataset.rjump}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
 
   // ---------------------------------------------------------------- cara a cara
   async function h2h(a, b) {

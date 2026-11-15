@@ -31,20 +31,42 @@ export function createStats(h) {
   const isOpen = () => !!$app.querySelector('.st');
 
   // ---------------------------------------------------------------- equipos
+  const hue = (t) => { let x = 0; for (const ch of String(t)) x = (x * 31 + ch.charCodeAt(0)) % 360; return x; };
+  const lvlOf = (r) => (r == null ? 6 : r === 1 ? 0 : r === 2 ? 1 : r <= 3 ? 2 : r <= 5 ? 3 : r <= 9 ? 4 : 5);
+  // mini gráfico: una barra por Major jugado (más alta cuanto mejor quedó)
+  function spark(T, idx) {
+    const played = idx.majors.filter((m) => m.status !== 'upcoming');
+    const byId = Object.fromEntries(T.majors.map((e) => [e.id, e]));
+    return `<span class="spark" aria-hidden="true">${played.map((m) => { const e = byId[m.id]; const l = e ? lvlOf(e.rank) : null;
+      return `<i class="${l == null ? 'is-no' : l === 0 ? 'is-gold' : l === 1 ? 'is-silver' : l <= 3 ? 'is-top' : ''}" style="height:${l == null ? 2 : 100 - Math.min(l, 5) * 15}%"></i>`; }).join('')}</span>`;
+  }
+  const bestTxt = (r) => (r === 1 ? 'Campeón' : r === 2 ? 'Final' : r <= 3 ? 'Semis' : r <= 5 ? 'Cuartos' : r <= 9 ? 'Octavos' : 'Fase');
   async function teamsList() {
     const [st, idx] = await Promise.all([getStats(), majors.getIndex()]);
     const q = X.q.toLowerCase();
-    const rows = Object.entries(st.teams).map(([t, v]) => ({ t, ...v, n: v.majors.length }))
-      .filter((r) => !q || r.t.toLowerCase().includes(q));
+    const recent = idx.majors.filter((m) => m.status !== 'upcoming').slice(-2).map((m) => m.id);
+    const all = Object.entries(st.teams).map(([t, v]) => ({ t, ...v, n: v.majors.length, best: Math.min(...v.majors.map((e) => e.rank ?? 99)),
+      last: v.majors.map((e) => e.id).sort().pop(), active: v.majors.some((e) => recent.includes(e.id)), cs2: v.majors.some((e) => idx.majors.find((m) => m.id === e.id)?.game === 'CS2') }));
+    const filters = { '': () => true, champ: (r) => r.titles > 0, active: (r) => r.active, cs2: (r) => r.cs2 };
+    const rows = all.filter((r) => (!q || r.t.toLowerCase().includes(q)) && filters[X.tf || ''](r));
     const sorts = { titles: (a, b) => b.titles - a.titles || b.finals - a.finals || b.n - a.n, majors: (a, b) => b.n - a.n || b.titles - a.titles, name: (a, b) => a.t.localeCompare(b.t) };
     rows.sort((a, b) => sorts[X.sort](a, b) || a.t.localeCompare(b.t));
-    const best = (r) => Math.min(...r.majors.map((e) => e.rank ?? 99));
-    return `<div class="st"><section class="mjhead"><p class="kicker">Historial</p><h1 class="ghead__title">Equipos</h1>
-        <p class="lead">${Object.keys(st.teams).length} equipos han jugado al menos un Major desde ${idx.majors[0]?.year || 2013}. Toca uno para ver su trayectoria, sus mapas y sus plantillas.</p></section>
+    const podium = all.filter((r) => r.titles).sort(sorts.titles).slice(0, 3);
+    const yearOf = (id) => idx.majors.find((m) => m.id === id)?.year || '';
+    const pod = podium.length === 3 ? `<div class="podium">${[podium[1], podium[0], podium[2]].map((r, i) => `<a class="podium__it podium__it--${[2, 1, 3][i]}" href="#/equipos/${enc(r.t)}" style="--h:${hue(r.t)}">
+        ${badge(r.t, 'tb--xl')}<b>${esc(r.t)}</b><span>${'🏆'.repeat(Math.min(r.titles, 5))}</span><div class="podium__step">${[2, 1, 3][i]}</div></a>`).join('')}</div>` : '';
+    return `<div class="st"><section class="sthero"><div><p class="kicker">Historial</p><h1 class="ghead__title">Equipos</h1>
+          <p class="lead">${all.length} equipos han jugado al menos un Major desde ${idx.majors[0]?.year || 2013}. ${all.filter((r) => r.titles).length} lo han ganado alguna vez.</p>
+          <div class="stnums"><span><b>${all.length}</b>equipos</span><span><b>${all.filter((r) => r.titles).length}</b>campeones</span><span><b>${all.filter((r) => r.active).length}</b>en activo</span></div></div>${pod}</section>
       <div class="sttools"><input class="input" type="search" placeholder="Buscar equipo…" value="${esc(X.q)}" data-stq="team">
-        <div class="seg">${[['titles', 'Más títulos'], ['majors', 'Más Majors'], ['name', 'A–Z']].map(([v, l]) => `<button type="button" class="${X.sort === v ? 'is-on' : ''}" data-sts="${v}">${l}</button>`).join('')}</div></div>
-      <div class="tgrid">${rows.slice(0, 200).map((r) => `<a class="tcard" href="#/equipos/${enc(r.t)}">${badge(r.t, 'tb--lg')}<span><b>${esc(r.t)}</b>
-          <small>${r.n} Major${r.n === 1 ? '' : 's'}${r.titles ? ` · ${'🏆'.repeat(Math.min(r.titles, 5))}` : r.finals ? ' · finalista' : best(r) <= 5 ? ` · mejor: ${best(r) === 3 ? 'semis' : 'cuartos'}` : ''}</small></span></a>`).join('') || '<div class="empty">Ningún equipo con ese nombre.</div>'}</div>
+        <div class="seg">${[['', 'Todos'], ['champ', '🏆 Campeones'], ['active', 'En activo'], ['cs2', 'Era CS2']].map(([v, l]) => `<button type="button" class="${(X.tf || '') === v ? 'is-on' : ''}" data-stf="${v}">${l}</button>`).join('')}</div>
+        <div class="seg seg--sort">${[['titles', 'Más títulos'], ['majors', 'Más Majors'], ['name', 'A–Z']].map(([v, l]) => `<button type="button" class="${X.sort === v ? 'is-on' : ''}" data-sts="${v}">${l}</button>`).join('')}</div></div>
+      <p class="hint stcount">${rows.length} equipo${rows.length === 1 ? '' : 's'}</p>
+      <div class="tgrid">${rows.slice(0, 240).map((r) => `<a class="tcard2 ${r.titles ? 'is-champ' : ''}" href="#/equipos/${enc(r.t)}" style="--h:${hue(r.t)}">
+          <div class="tcard2__top">${badge(r.t, 'tb--lg')}<span class="tcard2__name"><b>${esc(r.t)}</b><small>${r.active ? '<i class="dotlive"></i>En activo' : `Último Major: ${yearOf(r.last)}`}</small></span>
+            ${r.titles ? `<span class="tcard2__cup" title="${r.titles} título${r.titles > 1 ? 's' : ''}">🏆<b>${r.titles}</b></span>` : ''}</div>
+          ${spark(r, idx)}
+          <div class="tcard2__stats"><span><b>${r.n}</b>Majors</span><span><b>${r.finals}</b>finales</span><span><b>${esc(bestTxt(r.best))}</b>mejor</span></div></a>`).join('') || '<div class="empty">Ningún equipo con esos filtros.</div>'}</div>
     </div>`;
   }
   async function getSeries() {
@@ -113,16 +135,36 @@ export function createStats(h) {
   async function playersList() {
     const [st, idx] = await Promise.all([getStats(), majors.getIndex()]);
     const q = X.pq.toLowerCase();
-    const rows = Object.entries(st.players).map(([n, v]) => ({ n, ...v, titles: v.majors.filter((e) => e.rank === 1 && e.role === 'player').length, pl: v.majors.filter((e) => e.role === 'player').length }))
-      .filter((r) => !q || r.n.toLowerCase().includes(q) || r.majors.some((e) => e.team.toLowerCase().includes(q)))
-      .sort((a, b) => b.titles - a.titles || b.pl - a.pl || a.n.localeCompare(b.n));
-    return `<div class="st"><section class="mjhead"><p class="kicker">Historial</p><h1 class="ghead__title">Jugadores</h1>
-        <p class="lead">${Object.keys(st.players).length} jugadores y entrenadores en las plantillas de los Majors. Busca por nombre o por equipo.</p></section>
-      <div class="sttools"><input class="input" type="search" placeholder="Buscar jugador o equipo…" value="${esc(X.pq)}" data-stq="player"></div>
-      ${rows.length ? `<div class="table-wrap"><table class="table ptable"><thead><tr><th>Jugador</th><th>Majors</th><th>Títulos</th><th>Último equipo</th></tr></thead><tbody>
-        ${rows.slice(0, 150).map((r) => { const last = r.majors[r.majors.length - 1]; return `<tr><td><a class="plink" href="#/jugadores/${enc(r.n)}">${flagOf(r.flag)} <b>${esc(r.n)}</b></a></td><td>${r.pl}${r.pl < r.majors.length ? ` <small>+${r.majors.length - r.pl} entr.</small>` : ''}</td>
-          <td>${r.titles ? '🏆'.repeat(Math.min(r.titles, 5)) : '—'}</td><td>${last ? `${teamLink(last.team)} <small>${esc(majorName(idx, last.id))}</small>` : ''}</td></tr>`; }).join('')}</tbody></table></div>
-        ${rows.length > 150 ? `<p class="hint">Se muestran 150 de ${rows.length}. Afina la búsqueda para ver el resto.</p>` : ''}` : '<div class="empty">Ningún jugador con ese nombre.</div>'}
+    const recent = idx.majors.filter((m) => m.status !== 'upcoming').slice(-2).map((m) => m.id);
+    const all = Object.entries(st.players).map(([n, v]) => {
+      const pl = v.majors.filter((e) => e.role === 'player');
+      const last = v.majors.slice().sort((a, b) => a.id.localeCompare(b.id)).pop();
+      return { n, ...v, pl: pl.length, titles: pl.filter((e) => e.rank === 1).length, finals: pl.filter((e) => e.rank != null && e.rank <= 2).length,
+        coach: !pl.length, last, active: v.majors.some((e) => recent.includes(e.id)), teams: [...new Set(v.majors.map((e) => e.team))] };
+    });
+    const filters = { '': (r) => !r.coach, champ: (r) => r.titles > 0, active: (r) => r.active && !r.coach, coach: (r) => r.coach || r.majors.some((e) => e.role === 'coach') };
+    const sorts = { titles: (a, b) => b.titles - a.titles || b.pl - a.pl, majors: (a, b) => b.pl - a.pl || b.titles - a.titles, name: (a, b) => a.n.localeCompare(b.n) };
+    const rows = all.filter((r) => filters[X.pf || ''](r) && (!q || r.n.toLowerCase().includes(q) || r.teams.some((t) => t.toLowerCase().includes(q))))
+      .sort((a, b) => sorts[X.psort || 'titles'](a, b) || a.n.localeCompare(b.n));
+    const top = all.filter((r) => r.titles).sort(sorts.titles).slice(0, 3);
+    const yearOf = (id) => idx.majors.find((m) => m.id === id);
+    const card = (r) => {
+      const lm = yearOf(r.last?.id);
+      return `<a class="pcard ${r.titles ? 'is-champ' : ''}" href="#/jugadores/${enc(r.n)}" style="--h:${hue(r.last?.team || r.n)}">
+        <span class="pcard__flag">${flagOf(r.flag) || '<span class="pcard__noflag">🎮</span>'}</span>
+        <span class="pcard__main"><b>${esc(r.n)}</b><small>${r.last ? `${badge(r.last.team)}<span>${esc(r.last.team)}${lm ? ` · ${lm.year}` : ''}</span>` : ''}</small></span>
+        <span class="pcard__nums">${r.titles ? `<span class="pcard__cup">🏆 ${r.titles}</span>` : ''}<span><b>${r.coach ? r.majors.length : r.pl}</b>${r.coach ? 'como entr.' : 'Majors'}</span></span></a>`;
+    };
+    return `<div class="st"><section class="sthero"><div><p class="kicker">Historial</p><h1 class="ghead__title">Jugadores</h1>
+          <p class="lead">${all.length} jugadores y entrenadores han pasado por las plantillas de los Majors. Busca por nombre o por equipo.</p>
+          <div class="stnums"><span><b>${all.filter((r) => !r.coach).length}</b>jugadores</span><span><b>${all.filter((r) => r.titles).length}</b>campeones</span><span><b>${all.filter((r) => r.active && !r.coach).length}</b>en activo</span></div></div>
+        ${top.length === 3 ? `<div class="podium">${[top[1], top[0], top[2]].map((r, i) => `<a class="podium__it podium__it--${[2, 1, 3][i]}" href="#/jugadores/${enc(r.n)}" style="--h:${hue(r.last?.team || r.n)}">
+          <span class="podium__flag">${flagOf(r.flag) || '🎮'}</span><b>${esc(r.n)}</b><span>${'🏆'.repeat(Math.min(r.titles, 5))}</span><div class="podium__step">${[2, 1, 3][i]}</div></a>`).join('')}</div>` : ''}</section>
+      <div class="sttools"><input class="input" type="search" placeholder="Buscar jugador o equipo…" value="${esc(X.pq)}" data-stq="player">
+        <div class="seg">${[['', 'Jugadores'], ['champ', '🏆 Campeones'], ['active', 'En activo'], ['coach', 'Entrenadores']].map(([v, l]) => `<button type="button" class="${(X.pf || '') === v ? 'is-on' : ''}" data-spf="${v}">${l}</button>`).join('')}</div>
+        <div class="seg seg--sort">${[['titles', 'Más títulos'], ['majors', 'Más Majors'], ['name', 'A–Z']].map(([v, l]) => `<button type="button" class="${(X.psort || 'titles') === v ? 'is-on' : ''}" data-sps="${v}">${l}</button>`).join('')}</div></div>
+      <p class="hint stcount">${rows.length} resultado${rows.length === 1 ? '' : 's'}${rows.length > 180 ? ' · se muestran 180, afina la búsqueda para ver el resto' : ''}</p>
+      ${rows.length ? `<div class="pgrid">${rows.slice(0, 180).map(card).join('')}</div>` : '<div class="empty">Ningún jugador con esos filtros.</div>'}
     </div>`;
   }
   async function player(name) {
@@ -133,14 +175,34 @@ export function createStats(h) {
     const asPlayer = P.majors.filter((e) => e.role === 'player');
     const titles = asPlayer.filter((e) => e.rank === 1).length;
     const finals = asPlayer.filter((e) => e.rank != null && e.rank <= 2).length;
-    const teams = [...new Set(P.majors.map((e) => e.team))];
+    const best = Math.min(...P.majors.map((e) => e.rank ?? 99));
+    // equipos en orden, con cuántos Majors jugó en cada uno
+    const stints = [];
+    for (const e of P.majors.slice().sort((a, b) => a.id.localeCompare(b.id))) {
+      const last = stints[stints.length - 1];
+      if (last && last.team === e.team) { last.n++; last.to = e.id; last.titles += e.rank === 1 ? 1 : 0; } else stints.push({ team: e.team, n: 1, from: e.id, to: e.id, titles: e.rank === 1 ? 1 : 0 });
+    }
+    const y = (id) => idx.majors.find((m) => m.id === id)?.year || '';
+    const mates = {};
+    for (const e of asPlayer) for (const t of (st.teams[e.team]?.majors.find((x) => x.id === e.id)?.roster || [])) if (t !== name) mates[t] = (mates[t] || 0) + 1;
+    const topMates = Object.entries(mates).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 8);
     const fact = (l, v) => `<div class="fact"><small>${l}</small><b>${v}</b></div>`;
+    const lastTeam = ms[0]?.team;
     return `<div class="st"><nav class="mjnav"><a href="#/jugadores">← Todos los jugadores</a></nav>
-      <header class="sthead"><span class="pflag" aria-hidden="true">${flagOf(P.flag) || '🎮'}</span><div><p class="kicker">${asPlayer.length ? 'Jugador' : 'Entrenador'}</p><h1 class="ghead__title">${esc(name)}</h1>
-        <div class="facts">${fact('Majors', asPlayer.length || P.majors.length)}${fact('Títulos', titles ? `🏆 ${titles}` : '0')}${fact('Finales', finals)}${fact('Equipos', teams.length)}</div></div></header>
-      <section class="card"><h3>Majors</h3><ol class="tl">${ms.map((e) => `<li class="${placeCls(e.rank)}"><a href="#/majors/${esc(e.id)}"><b>${esc(majorName(idx, e.id))}</b><span>${e.place ? esc(placeTxt(e)) : ''}</span></a>
-          <small>${teamLink(e.team)}${e.role === 'coach' ? ' · como entrenador' : ''}</small></li>`).join('')}</ol></section>
-      <p class="hint st__hltv">Kills, muertes y asistencias de cada partido: en HLTV, desde el botón de cada partido.</p></div>`;
+      <header class="phead" style="--h:${hue(lastTeam || name)}"><span class="phead__flag" aria-hidden="true">${flagOf(P.flag) || '🎮'}</span>
+        <div><p class="kicker">${asPlayer.length ? 'Jugador' : 'Entrenador'}${lastTeam ? ` · ${esc(lastTeam)}` : ''}</p><h1 class="ghead__title">${esc(name)}</h1>
+        <div class="facts">${fact('Majors', asPlayer.length || P.majors.length)}${fact('Títulos', titles ? `🏆 ${titles}` : '0')}${fact('Finales', finals)}${fact('Mejor', esc(bestTxt(best)))}${fact('Equipos', stints.length ? new Set(stints.map((x) => x.team)).size : 0)}</div></div>
+        ${lastTeam ? `<a class="phead__team" href="#/equipos/${enc(lastTeam)}">${badge(lastTeam, 'tb--xl')}</a>` : ''}</header>
+      <section class="card"><h3>Carrera por equipos</h3><div class="stints">${stints.map((x) => `<a class="stint ${x.titles ? 'is-champ' : ''}" href="#/equipos/${enc(x.team)}" style="--h:${hue(x.team)}; flex:${x.n} 0 175px">
+          ${badge(x.team)}<span><b>${esc(x.team)}</b><small>${y(x.from)}${y(x.to) !== y(x.from) ? `–${y(x.to)}` : ''} · ${x.n} Major${x.n === 1 ? '' : 's'}${x.titles ? ` · 🏆${x.titles > 1 ? x.titles : ''}` : ''}</small></span></a>`).join('')}</div></section>
+      <div class="stcols">
+        <section class="card"><h3>Majors</h3><ol class="tl">${ms.map((e) => `<li class="${placeCls(e.rank)}"><a href="#/majors/${esc(e.id)}"><b>${esc(majorName(idx, e.id))}</b><span>${e.place ? esc(placeTxt(e)) : ''}</span></a>
+            <small>${teamLink(e.team)}${e.role === 'coach' ? ' · como entrenador' : ''}</small></li>`).join('')}</ol></section>
+        <div class="stside">
+          ${topMates.length ? `<section class="card"><h3>Compañeros más habituales</h3><ol class="rk">${topMates.map(([n, c], i) => `<li><i>${i + 1}</i><span>${pLink({ n, flag: st.players[n]?.flag })}</span><b>${c}</b></li>`).join('')}</ol>
+            <p class="hint">Majors jugados en la misma plantilla.</p></section>` : ''}
+          <section class="card"><h3>Estadísticas individuales</h3><p class="hint">Liquipedia no guarda kills, muertes ni asistencias. Cada partido tiene un botón que las abre en HLTV.</p></section>
+        </div></div></div>`;
   }
 
   // ---------------------------------------------------------------- partido desglosado
@@ -198,9 +260,14 @@ export function createStats(h) {
   // ---------------------------------------------------------------- eventos
   $app.addEventListener('click', async (e) => {
     if (!isOpen()) return;
-    const b = e.target.closest('[data-sts]');
+    const b = e.target.closest('[data-sts],[data-stf],[data-spf],[data-sps]');
     if (!b) return;
-    X.sort = b.dataset.sts; $app.innerHTML = await teamsList();
+    const d = b.dataset;
+    if (d.sts !== undefined) X.sort = d.sts;
+    if (d.stf !== undefined) X.tf = d.stf;
+    if (d.spf !== undefined) X.pf = d.spf;
+    if (d.sps !== undefined) X.psort = d.sps;
+    $app.innerHTML = d.sts !== undefined || d.stf !== undefined ? await teamsList() : await playersList();
   });
   $app.addEventListener('input', (e) => {
     if (!isOpen() || !e.target.dataset.stq) return;
