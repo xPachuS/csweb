@@ -1,0 +1,47 @@
+{
+ "event": {
+  "name": "PGL Major Singapore 2026",
+  "page": "PGL/2026/Singapore",
+  "city": "Singapur"
+ },
+ "source": "Liquipedia (CC-BY-SA 3.0)",
+ "stages": [
+  {
+   "id": "s1",
+   "name": "Stage 1",
+   "page": "PGL/2026/Singapore/Stage_1",
+   "type": "swiss",
+   "teams": [],
+   "matches": 0
+  },
+  {
+   "id": "s2",
+   "name": "Stage 2",
+   "page": "PGL/2026/Singapore/Stage_2",
+   "type": "swiss",
+   "teams": [],
+   "matches": 0
+  },
+  {
+   "id": "s3",
+   "name": "Stage 3",
+   "page": "PGL/2026/Singapore/Stage_3",
+   "type": "swiss",
+   "teams": [],
+   "matches": 0
+  },
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "PGL/2026/Singapore/Playoffs",
+   "type": "bracket",
+   "teams": [],
+   "matches": 0
+  }
+ ],
+ "matches": [],
+ "checked": "2026-11-15T00:46:06Z",
+ "errors": [
+  "Todavía no se ha descargado nada de Liquipedia"
+ ]
+}
