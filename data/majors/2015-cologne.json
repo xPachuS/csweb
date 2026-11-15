@@ -9,14 +9,13 @@
  "source": "Liquipedia (CC-BY-SA 3.0)",
  "stages": [
   {
-   "id": "po",
-   "name": "Playoffs",
+   "id": "s1",
+   "name": "Fase de grupos",
    "page": "ESL/One/2015/Cologne",
-   "type": "bracket",
+   "type": "groups",
    "teams": [
     "Cloud9",
     "Counter Logic Gaming",
-    "ENVY",
     "FlipSid3 Tactics",
     "Fnatic",
     "Luminosity Gaming",
@@ -32,16 +31,33 @@
     "Titan",
     "Virtus.pro"
    ],
-   "matches": 27
+   "matches": 20
+  },
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "ESL/One/2015/Cologne",
+   "type": "bracket",
+   "teams": [
+    "Fnatic",
+    "Luminosity Gaming",
+    "Natus Vincere",
+    "Ninjas in Pyjamas",
+    "TSM",
+    "Team EnVyUs",
+    "Team Kinguin",
+    "Virtus.pro"
+   ],
+   "matches": 7
   }
  ],
  "matches": [
   {
-   "id": "po-GR6IRR5HSW-R1M1",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-GR6IRR5HSW-R1M1",
+   "stage": "s1",
+   "round": "Grupo A · Opening",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T12:15:00Z",
    "t1": "Ninjas in Pyjamas",
@@ -69,11 +85,11 @@
    "hltv": 2297432
   },
   {
-   "id": "po-P3PHXH5XDQ-R1M1",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-P3PHXH5XDQ-R1M1",
+   "stage": "s1",
+   "round": "Grupo B · Opening",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T12:15:00Z",
    "t1": "Team EnVyUs",
@@ -101,11 +117,11 @@
    "hltv": 2297433
   },
   {
-   "id": "po-P3PHXH5XDQ-R1M2",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-P3PHXH5XDQ-R1M2",
+   "stage": "s1",
+   "round": "Grupo B",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T13:25:00Z",
    "t1": "Luminosity Gaming",
@@ -133,11 +149,11 @@
    "hltv": 2297435
   },
   {
-   "id": "po-GR6IRR5HSW-R1M2",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-GR6IRR5HSW-R1M2",
+   "stage": "s1",
+   "round": "Grupo A",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T13:45:00Z",
    "t1": "Renegades",
@@ -165,11 +181,11 @@
    "hltv": 2297434
   },
   {
-   "id": "po-P3PHXH5XDQ-R2M1",
-   "stage": "po",
-   "round": "Semifinales",
+   "id": "s1-P3PHXH5XDQ-R2M1",
+   "stage": "s1",
+   "round": "Grupo B · Winners' Match",
    "slot": "",
-   "kind": "sf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T14:35:00Z",
    "t1": "Team EnVyUs",
@@ -201,11 +217,11 @@
    "hltv": 2297492
   },
   {
-   "id": "po-GR6IRR5HSW-R2M1",
-   "stage": "po",
-   "round": "Semifinales",
+   "id": "s1-GR6IRR5HSW-R2M1",
+   "stage": "s1",
+   "round": "Grupo A · Winners' Match",
    "slot": "",
-   "kind": "sf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T15:10:00Z",
    "t1": "Ninjas in Pyjamas",
@@ -233,11 +249,11 @@
    "hltv": 2297491
   },
   {
-   "id": "po-O8T54A5IP2-R1M1",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-O8T54A5IP2-R1M1",
+   "stage": "s1",
+   "round": "Grupo B · Opening",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T16:20:00Z",
    "t1": "Virtus.pro",
@@ -265,11 +281,11 @@
    "hltv": 2297437
   },
   {
-   "id": "po-VZ4YBIR3QB-R1M1",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-VZ4YBIR3QB-R1M1",
+   "stage": "s1",
+   "round": "Grupo A · Opening",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T16:35:00Z",
    "t1": "Fnatic",
@@ -297,11 +313,11 @@
    "hltv": 2297436
   },
   {
-   "id": "po-O8T54A5IP2-R1M2",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-O8T54A5IP2-R1M2",
+   "stage": "s1",
+   "round": "Grupo B",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T17:45:00Z",
    "t1": "MOUZ",
@@ -329,11 +345,11 @@
    "hltv": 2297439
   },
   {
-   "id": "po-VZ4YBIR3QB-R1M2",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-VZ4YBIR3QB-R1M2",
+   "stage": "s1",
+   "round": "Grupo A",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T17:50:00Z",
    "t1": "Titan",
@@ -365,11 +381,11 @@
    "hltv": 2297438
   },
   {
-   "id": "po-O8T54A5IP2-R2M1",
-   "stage": "po",
-   "round": "Semifinales",
+   "id": "s1-O8T54A5IP2-R2M1",
+   "stage": "s1",
+   "round": "Grupo B · Winners' Match",
    "slot": "",
-   "kind": "sf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T19:20:00Z",
    "t1": "Virtus.pro",
@@ -397,11 +413,11 @@
    "hltv": 2297494
   },
   {
-   "id": "po-VZ4YBIR3QB-R2M1",
-   "stage": "po",
-   "round": "Semifinales",
+   "id": "s1-VZ4YBIR3QB-R2M1",
+   "stage": "s1",
+   "round": "Grupo A · Winners' Match",
    "slot": "",
-   "kind": "sf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-20T20:25:00Z",
    "t1": "Fnatic",
@@ -429,11 +445,11 @@
    "hltv": 2297493
   },
   {
-   "id": "po-8K99TSI1OP-R1M1",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-8K99TSI1OP-R1M1",
+   "stage": "s1",
+   "round": "Grupo B · Loser's Match",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-21T10:30:00Z",
    "t1": "Team Immunity",
@@ -461,11 +477,11 @@
    "hltv": 2297502
   },
   {
-   "id": "po-8K99TSI1OP-R2M1",
-   "stage": "po",
-   "round": "Semifinales",
+   "id": "s1-8K99TSI1OP-R2M1",
+   "stage": "s1",
+   "round": "Grupo B · Decider Match",
    "slot": "",
-   "kind": "sf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-21T12:00:00Z",
    "t1": "Cloud9",
@@ -493,11 +509,11 @@
    "hltv": 2297503
   },
   {
-   "id": "po-C3SLQBUHQU-R1M1",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-C3SLQBUHQU-R1M1",
+   "stage": "s1",
+   "round": "Grupo A · Loser's Match",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-21T13:25:00Z",
    "t1": "Team eBettle",
@@ -525,11 +541,11 @@
    "hltv": 2297504
   },
   {
-   "id": "po-C3SLQBUHQU-R2M1",
-   "stage": "po",
-   "round": "Semifinales",
+   "id": "s1-C3SLQBUHQU-R2M1",
+   "stage": "s1",
+   "round": "Grupo A · Decider Match",
    "slot": "",
-   "kind": "sf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-21T15:00:00Z",
    "t1": "Natus Vincere",
@@ -557,11 +573,11 @@
    "hltv": 2297505
   },
   {
-   "id": "po-LN52YIDHKA-R1M1",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-LN52YIDHKA-R1M1",
+   "stage": "s1",
+   "round": "Grupo A · Loser's Match",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-21T16:30:00Z",
    "t1": "Renegades",
@@ -589,11 +605,11 @@
    "hltv": 2297498
   },
   {
-   "id": "po-LN52YIDHKA-R2M1",
-   "stage": "po",
-   "round": "Semifinales",
+   "id": "s1-LN52YIDHKA-R2M1",
+   "stage": "s1",
+   "round": "Grupo A · Decider Match",
    "slot": "",
-   "kind": "sf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-21T17:35:00Z",
    "t1": "Ninjas in Pyjamas",
@@ -621,11 +637,11 @@
    "hltv": 2297500
   },
   {
-   "id": "po-PF6CO80VXH-R1M1",
-   "stage": "po",
-   "round": "Cuartos de final",
+   "id": "s1-PF6CO80VXH-R1M1",
+   "stage": "s1",
+   "round": "Grupo B · Loser's Match",
    "slot": "",
-   "kind": "qf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-21T18:40:00Z",
    "t1": "FlipSid3 Tactics",
@@ -653,11 +669,11 @@
    "hltv": 2297501
   },
   {
-   "id": "po-PF6CO80VXH-R2M1",
-   "stage": "po",
-   "round": "Semifinales",
+   "id": "s1-PF6CO80VXH-R2M1",
+   "stage": "s1",
+   "round": "Grupo B · Decider Match",
    "slot": "",
-   "kind": "sf",
+   "kind": "",
    "bo": 1,
    "date": "2015-08-21T20:10:00Z",
    "t1": "Luminosity Gaming",
@@ -689,10 +705,10 @@
    "hltv": 2297499
   },
   {
-   "id": "po-A5VJ7JG2EMQuarterfinals-R1M1",
+   "id": "po-A5VJ7JG2EM-R1M1",
    "stage": "po",
    "round": "Cuartos de final",
-   "slot": "",
+   "slot": "R1M1",
    "kind": "qf",
    "bo": 3,
    "date": "2015-08-22T10:00:00Z",
@@ -730,21 +746,15 @@
      ],
      "first": "ct",
      "hltv": 22265
-    },
-    {
-     "map": "Dust II",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2297508
   },
   {
-   "id": "po-A5VJ7JG2EMQuarterfinals-R1M2",
+   "id": "po-A5VJ7JG2EM-R1M2",
    "stage": "po",
    "round": "Cuartos de final",
-   "slot": "",
+   "slot": "R1M2",
    "kind": "qf",
    "bo": 3,
    "date": "2015-08-22T13:55:00Z",
@@ -782,21 +792,15 @@
      ],
      "first": "t",
      "hltv": 22267
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2297509
   },
   {
-   "id": "po-A5VJ7JG2EMQuarterfinals-R1M3",
+   "id": "po-A5VJ7JG2EM-R1M3",
    "stage": "po",
    "round": "Cuartos de final",
-   "slot": "",
+   "slot": "R1M3",
    "kind": "qf",
    "bo": 3,
    "date": "2015-08-22T16:30:00Z",
@@ -834,21 +838,15 @@
      ],
      "first": "ct",
      "hltv": 22269
-    },
-    {
-     "map": "Cache",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2297510
   },
   {
-   "id": "po-A5VJ7JG2EMQuarterfinals-R1M4",
+   "id": "po-A5VJ7JG2EM-R1M4",
    "stage": "po",
    "round": "Cuartos de final",
-   "slot": "",
+   "slot": "R1M4",
    "kind": "qf",
    "bo": 3,
    "date": "2015-08-22T19:20:00Z",
@@ -886,25 +884,19 @@
      ],
      "first": "t",
      "hltv": 22271
-    },
-    {
-     "map": "Cache",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2297511
   },
   {
-   "id": "po-A5VJ7JG2EMQuarterfinals-R2M1",
+   "id": "po-A5VJ7JG2EM-R2M1",
    "stage": "po",
    "round": "Semifinales",
-   "slot": "",
+   "slot": "R2M1",
    "kind": "sf",
    "bo": 3,
    "date": "2015-08-23T10:25:00Z",
-   "t1": "ENVY",
+   "t1": "Team EnVyUs",
    "t2": "TSM",
    "s1": 2,
    "s2": 1,
@@ -957,10 +949,10 @@
    "hltv": 2297512
   },
   {
-   "id": "po-A5VJ7JG2EMQuarterfinals-R2M2",
+   "id": "po-A5VJ7JG2EM-R2M2",
    "stage": "po",
    "round": "Semifinales",
-   "slot": "",
+   "slot": "R2M2",
    "kind": "sf",
    "bo": 3,
    "date": "2015-08-23T13:50:00Z",
@@ -1017,14 +1009,14 @@
    "hltv": 2297513
   },
   {
-   "id": "po-A5VJ7JG2EMQuarterfinals-R3M1",
+   "id": "po-A5VJ7JG2EM-R3M1",
    "stage": "po",
    "round": "Gran final",
-   "slot": "",
+   "slot": "R3M1",
    "kind": "final",
    "bo": 3,
    "date": "2015-08-23T17:25:00Z",
-   "t1": "ENVY",
+   "t1": "Team EnVyUs",
    "t2": "Fnatic",
    "s1": 0,
    "s2": 2,
@@ -1062,12 +1054,6 @@
      ],
      "first": "ct",
      "hltv": 22282
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2297514
@@ -1503,6 +1489,6 @@
    ]
   }
  },
- "checked": "2026-11-15T10:29:39Z",
+ "checked": "2026-11-15T16:07:21Z",
  "errors": []
 }

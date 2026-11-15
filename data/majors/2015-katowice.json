@@ -693,7 +693,7 @@
    "hltv": 2294612
   },
   {
-   "id": "po-LRUNU0IP7RQuarterfinals-R1M3",
+   "id": "po-LRUNU0IP7R-R1M3",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M3",
@@ -753,7 +753,7 @@
    "hltv": 2294623
   },
   {
-   "id": "po-LRUNU0IP7RQuarterfinals-R1M1",
+   "id": "po-LRUNU0IP7R-R1M1",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M1",
@@ -794,18 +794,12 @@
      ],
      "first": "ct",
      "hltv": 19260
-    },
-    {
-     "map": "Mirage",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2294624
   },
   {
-   "id": "po-LRUNU0IP7RQuarterfinals-R1M2",
+   "id": "po-LRUNU0IP7R-R1M2",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M2",
@@ -869,7 +863,7 @@
    "hltv": 2294625
   },
   {
-   "id": "po-LRUNU0IP7RQuarterfinals-R1M4",
+   "id": "po-LRUNU0IP7R-R1M4",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M4",
@@ -929,7 +923,7 @@
    "hltv": 2294626
   },
   {
-   "id": "po-LRUNU0IP7RQuarterfinals-R2M1",
+   "id": "po-LRUNU0IP7R-R2M1",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M1",
@@ -974,18 +968,12 @@
      ],
      "first": "ct",
      "hltv": 19270
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2294627
   },
   {
-   "id": "po-LRUNU0IP7RQuarterfinals-R2M2",
+   "id": "po-LRUNU0IP7R-R2M2",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M2",
@@ -1026,18 +1014,12 @@
      ],
      "first": "ct",
      "hltv": 19272
-    },
-    {
-     "map": "Mirage",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2294628
   },
   {
-   "id": "po-LRUNU0IP7RQuarterfinals-R3M1",
+   "id": "po-LRUNU0IP7R-R3M1",
    "stage": "po",
    "round": "Gran final",
    "slot": "R3M1",
@@ -1503,6 +1485,6 @@
    ]
   }
  },
- "checked": "2026-11-15T10:29:39Z",
+ "checked": "2026-11-15T16:07:21Z",
  "errors": []
 }

@@ -697,7 +697,7 @@
    "hltv": 2290753
   },
   {
-   "id": "po-2S5GFQ82LAQuarterfinals-R1M2",
+   "id": "po-2S5GFQ82LA-R1M2",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M2",
@@ -738,18 +738,12 @@
      ],
      "first": "ct",
      "hltv": 16502
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2290755
   },
   {
-   "id": "po-2S5GFQ82LAQuarterfinals-R1M3",
+   "id": "po-2S5GFQ82LA-R1M3",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M3",
@@ -790,18 +784,12 @@
      ],
      "first": "ct",
      "hltv": 16504
-    },
-    {
-     "map": "Train",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2290757
   },
   {
-   "id": "po-2S5GFQ82LAQuarterfinals-R1M1",
+   "id": "po-2S5GFQ82LA-R1M1",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M1",
@@ -861,7 +849,7 @@
    "hltv": 2290758
   },
   {
-   "id": "po-2S5GFQ82LAQuarterfinals-R1M4",
+   "id": "po-2S5GFQ82LA-R1M4",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M4",
@@ -921,7 +909,7 @@
    "hltv": 2290759
   },
   {
-   "id": "po-2S5GFQ82LAQuarterfinals-R2M1",
+   "id": "po-2S5GFQ82LA-R2M1",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M1",
@@ -962,18 +950,12 @@
      ],
      "first": "t",
      "hltv": 16513
-    },
-    {
-     "map": "Unknown",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2290760
   },
   {
-   "id": "po-2S5GFQ82LAQuarterfinals-R2M2",
+   "id": "po-2S5GFQ82LA-R2M2",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M2",
@@ -1037,7 +1019,7 @@
    "hltv": 2290761
   },
   {
-   "id": "po-2S5GFQ82LAQuarterfinals-R3M1",
+   "id": "po-2S5GFQ82LA-R3M1",
    "stage": "po",
    "round": "Gran final",
    "slot": "R3M1",
@@ -1078,12 +1060,6 @@
      ],
      "first": "t",
      "hltv": 16520
-    },
-    {
-     "map": "Dust II",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2290762
@@ -1487,6 +1463,6 @@
    ]
   }
  },
- "checked": "2026-11-15T10:29:39Z",
+ "checked": "2026-11-15T16:07:21Z",
  "errors": []
 }

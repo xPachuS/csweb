@@ -1882,8 +1882,8 @@
     },
     {
      "id": "2015-cologne",
-     "rank": 3,
-     "place": "Semifinales",
+     "rank": 20,
+     "place": "Fase de grupos",
      "w": 1,
      "l": 2,
      "roster": [
@@ -2504,8 +2504,8 @@
     },
     {
      "id": "2015-cologne",
-     "rank": 3,
-     "place": "Semifinales",
+     "rank": 20,
+     "place": "Fase de grupos",
      "w": 1,
      "l": 2,
      "roster": [
@@ -3010,49 +3010,6 @@
    "rct": [
     566,
     480
-   ],
-   "titles": 0,
-   "finals": 1
-  },
-  "ENVY": {
-   "majors": [
-    {
-     "id": "2015-cologne",
-     "rank": 2,
-     "place": "Subcampeón",
-     "w": 1,
-     "l": 1
-    }
-   ],
-   "maps": {
-    "Cache": [
-     1,
-     0,
-     0
-    ],
-    "Dust II": [
-     0,
-     2,
-     0
-    ],
-    "Inferno": [
-     1,
-     0,
-     0
-    ],
-    "Cobblestone": [
-     0,
-     1,
-     0
-    ]
-   },
-   "rt": [
-    35,
-    27
-   ],
-   "rct": [
-    27,
-    41
    ],
    "titles": 0,
    "finals": 1
@@ -4163,8 +4120,8 @@
     },
     {
      "id": "2015-cologne",
-     "rank": 3,
-     "place": "Semifinales",
+     "rank": 20,
+     "place": "Fase de grupos",
      "w": 1,
      "l": 2,
      "roster": [
@@ -7055,8 +7012,8 @@
    "majors": [
     {
      "id": "2015-cologne",
-     "rank": 3,
-     "place": "Semifinales",
+     "rank": 5,
+     "place": "Cuartos de final",
      "w": 2,
      "l": 2,
      "roster": [
@@ -7597,8 +7554,8 @@
     },
     {
      "id": "2015-cologne",
-     "rank": 5,
-     "place": "Cuartos de final",
+     "rank": 20,
+     "place": "Fase de grupos",
      "w": 0,
      "l": 2,
      "roster": [
@@ -8382,8 +8339,8 @@
     },
     {
      "id": "2015-cologne",
-     "rank": 3,
-     "place": "Semifinales",
+     "rank": 5,
+     "place": "Cuartos de final",
      "w": 2,
      "l": 2,
      "roster": [
@@ -8883,8 +8840,8 @@
     },
     {
      "id": "2015-cologne",
-     "rank": 3,
-     "place": "Semifinales",
+     "rank": 5,
+     "place": "Cuartos de final",
      "w": 2,
      "l": 2,
      "roster": [
@@ -10176,8 +10133,8 @@
    "majors": [
     {
      "id": "2015-cologne",
-     "rank": 3,
-     "place": "Semifinales",
+     "rank": 20,
+     "place": "Fase de grupos",
      "w": 1,
      "l": 2,
      "roster": [
@@ -11125,10 +11082,10 @@
     },
     {
      "id": "2015-cologne",
-     "rank": 3,
-     "place": "Semifinales",
-     "w": 3,
-     "l": 0,
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 4,
+     "l": 1,
      "roster": [
       "Happy",
       "NBK-",
@@ -11209,21 +11166,21 @@
    "maps": {
     "Cobblestone": [
      6,
-     3,
+     4,
      0
     ],
     "Cache": [
-     6,
+     7,
      4,
      0
     ],
     "Dust II": [
      0,
-     3,
+     5,
      0
     ],
     "Inferno": [
-     4,
+     5,
      1,
      0
     ],
@@ -11244,15 +11201,15 @@
     ]
    },
    "rt": [
-    215,
-    196
+    250,
+    223
    ],
    "rct": [
-    235,
-    220
+    262,
+    261
    ],
    "titles": 1,
-   "finals": 1
+   "finals": 2
   },
   "Team Falcons": {
    "majors": [
@@ -11366,8 +11323,8 @@
    "majors": [
     {
      "id": "2015-cologne",
-     "rank": 5,
-     "place": "Cuartos de final",
+     "rank": 20,
+     "place": "Fase de grupos",
      "w": 0,
      "l": 2,
      "roster": [
@@ -11406,8 +11363,8 @@
    "majors": [
     {
      "id": "2015-cologne",
-     "rank": 3,
-     "place": "Semifinales",
+     "rank": 5,
+     "place": "Cuartos de final",
      "w": 2,
      "l": 2,
      "roster": [
@@ -12212,8 +12169,8 @@
    "majors": [
     {
      "id": "2015-cologne",
-     "rank": 5,
-     "place": "Cuartos de final",
+     "rank": 20,
+     "place": "Fase de grupos",
      "w": 0,
      "l": 2,
      "roster": [
@@ -12618,8 +12575,8 @@
     },
     {
      "id": "2015-cologne",
-     "rank": 5,
-     "place": "Cuartos de final",
+     "rank": 20,
+     "place": "Fase de grupos",
      "w": 0,
      "l": 2,
      "roster": [
@@ -14112,18 +14069,6 @@
   }
  },
  "players": {
-  "1eeR": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Nemiga Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "3k2": {
    "flag": "",
    "majors": [
@@ -14133,27 +14078,6 @@
      "role": "coach",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2014-katowice",
-     "team": "Team Dignitas",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-cologne",
-     "team": "Team Dignitas",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-jonkoping",
-     "team": "Team Dignitas",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -14282,13 +14206,6 @@
      "place": "Legends Stage"
     },
     {
-     "id": "2022-rio",
-     "team": "Team GamerLegion",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2023-paris",
      "team": "GamerLegion",
      "role": "player",
@@ -14384,20 +14301,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2016-columbus",
-     "team": "Gambit Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2016-cologne",
-     "team": "Gambit Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2017-atlanta",
@@ -14570,20 +14473,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2014-cologne",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cluj",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2016-columbus",
@@ -14800,13 +14689,6 @@
      "place": "Challengers Stage"
     },
     {
-     "id": "2022-rio",
-     "team": "Grayhound Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2023-paris",
      "team": "Grayhound Gaming",
      "role": "player",
@@ -14850,8 +14732,8 @@
      "id": "2015-cologne",
      "team": "Ninjas in Pyjamas",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -14899,18 +14781,6 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
-    }
-   ]
-  },
-  "Altekz": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "Danish Squad",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -15172,8 +15042,8 @@
      "id": "2015-cologne",
      "team": "Team EnVyUs",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2015-cluj",
@@ -15216,13 +15086,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2018-boston",
-     "team": "God Squad",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2019-katowice",
@@ -15300,18 +15163,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    }
-   ]
-  },
-  "Apoka": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2019-berlin",
-     "team": "INTZ eSports",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -15421,18 +15272,6 @@
     }
    ]
   },
-  "ArtFr0st": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-singapore",
-     "team": "The One",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "arya": {
    "flag": "us",
    "majors": [
@@ -15467,13 +15306,6 @@
   "ashhh": {
    "flag": "",
    "majors": [
-    {
-     "id": "2022-rio",
-     "team": "Team GamerLegion",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2023-paris",
      "team": "GamerLegion",
@@ -15589,18 +15421,6 @@
     }
    ]
   },
-  "Austin": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-budapest",
-     "team": "Team GOAT\n<!--",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "autimatic": {
    "flag": "",
    "majors": [
@@ -15631,13 +15451,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2019-berlin",
-     "team": "Forfeited Slot",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2022-rio",
@@ -15716,13 +15529,6 @@
      "role": "player",
      "rank": 19,
      "place": "Stage 2"
-    },
-    {
-     "id": "2026-singapore",
-     "team": "The One",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -15787,8 +15593,8 @@
      "id": "2015-cologne",
      "team": "Renegades",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2018-boston",
@@ -15881,8 +15687,8 @@
      "id": "2015-cologne",
      "team": "FlipSid3 Tactics",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -16127,32 +15933,6 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2025-budapest",
-     "team": "The Huns Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "beAst": {
-   "flag": "kz",
-   "majors": [
-    {
-     "id": "2016-columbus",
-     "team": "Gambit Gaming",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2016-cologne",
-     "team": "Gambit Gaming",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -16184,13 +15964,6 @@
      "role": "player",
      "rank": 18,
      "place": "Stage 3"
-    },
-    {
-     "id": "2026-singapore",
-     "team": "The One",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -16317,20 +16090,6 @@
      "role": "coach",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "9z Team",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "9z Team",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -16463,13 +16222,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2018-boston",
-     "team": "TYLOO",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2018-london",
      "team": "TYLOO",
      "role": "player",
@@ -16557,13 +16309,6 @@
      "place": "Legends Stage"
     },
     {
-     "id": "2023-paris",
-     "team": "Team France",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2024-shanghai",
      "team": "Fnatic",
      "role": "player",
@@ -16600,8 +16345,8 @@
      "id": "2015-cologne",
      "team": "Luminosity Gaming",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -16616,13 +16361,6 @@
      "role": "player",
      "rank": 2,
      "place": "Subcampeón"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Immortals",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2022-antwerp",
@@ -16661,8 +16399,8 @@
      "id": "2015-cologne",
      "team": "FlipSid3 Tactics",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -16686,13 +16424,6 @@
      "place": "Fase suiza"
     },
     {
-     "id": "2018-boston",
-     "team": "TYLOO",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2018-london",
      "team": "HellRaisers",
      "role": "player",
@@ -16710,13 +16441,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Team Killz",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2018-london",
@@ -16799,25 +16523,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    }
-   ]
-  },
-  "boX": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Nemiga Gaming",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "Nemiga Gaming",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -17065,30 +16770,6 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "bt0": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-budapest",
-     "team": "Team VACO\n<!--",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "buda": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2022-rio",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -17369,13 +17050,6 @@
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
-    },
-    {
-     "id": "2024-copenhagen",
-     "team": "Danish Squad",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -17383,53 +17057,11 @@
    "flag": "dk",
    "majors": [
     {
-     "id": "2013-jonkoping",
-     "team": "N!Faculty",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-katowice",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2014-cologne",
      "team": "Copenhagen Wolves",
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2014-jonkoping",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-katowice",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cologne",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cluj",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2016-columbus",
@@ -17548,37 +17180,6 @@
      "role": "coach",
      "rank": 20,
      "place": "Stage 1"
-    },
-    {
-     "id": "2025-budapest",
-     "team": "The Huns Esports",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "casle": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "ECSTATIC",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "cass1n": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "BESTIA",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -17700,13 +17301,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2019-berlin",
-     "team": "INTZ eSports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2022-antwerp",
      "team": "MIBR",
      "role": "player",
@@ -17771,13 +17365,6 @@
      "role": "player",
      "rank": 20,
      "place": "Opening Stage"
-    },
-    {
-     "id": "2024-shanghai",
-     "team": "Team BYE",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2025-budapest",
@@ -17874,13 +17461,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2024-copenhagen",
-     "team": "Danish Squad",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2025-austin",
      "team": "OG",
      "role": "player",
@@ -17917,8 +17497,8 @@
      "id": "2015-cologne",
      "team": "MOUZ",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -18023,49 +17603,6 @@
     }
    ]
   },
-  "clax": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "9Pandas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "cmtry": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-cologne",
-     "team": "FUT Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "FUT Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "Cnd": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2023-paris",
-     "team": "Team France",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "coachi": {
    "flag": "",
    "majors": [
@@ -18095,13 +17632,6 @@
   "cobrazera": {
    "flag": "",
    "majors": [
-    {
-     "id": "2025-budapest",
-     "team": "The Huns Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2026-cologne",
      "team": "The MongolZ",
@@ -18149,8 +17679,8 @@
      "id": "2015-cologne",
      "team": "Luminosity Gaming",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -18216,13 +17746,6 @@
      "place": "Challengers Stage"
     },
     {
-     "id": "2022-rio",
-     "team": "Team Brazil",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2024-copenhagen",
      "team": "Legacy",
      "role": "player",
@@ -18271,25 +17794,6 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "coolio": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-cologne",
-     "team": "FUT Esports",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "FUT Esports",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -18378,13 +17882,6 @@
      "place": "Cuartos de final"
     },
     {
-     "id": "2023-paris",
-     "team": "BLAST Dream Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2025-budapest",
      "team": "Fnatic",
      "role": "player",
@@ -18415,13 +17912,6 @@
   "d1Ledez": {
    "flag": "",
    "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "9Pandas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2026-singapore",
      "team": "BetBoom Team",
@@ -18572,28 +18062,9 @@
     }
    ]
   },
-  "dav1d": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2022-antwerp",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "dav1deuS": {
    "flag": "",
    "majors": [
-    {
-     "id": "2022-rio",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2025-austin",
      "team": "paiN Gaming",
@@ -18643,8 +18114,8 @@
      "id": "2015-cologne",
      "team": "FlipSid3 Tactics",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -18711,13 +18182,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2018-boston",
-     "team": "TYLOO",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2018-london",
      "team": "TYLOO",
      "role": "player",
@@ -18735,20 +18199,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Team Killz",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2018-london",
-     "team": "Team rain",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -18920,25 +18370,6 @@
     }
    ]
   },
-  "dem0n": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-cologne",
-     "team": "FUT Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "FUT Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "DeMars DeRover": {
    "flag": "us",
    "majors": [
@@ -18984,8 +18415,8 @@
      "id": "2015-cologne",
      "team": "MOUZ",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -19052,8 +18483,8 @@
      "id": "2015-cologne",
      "team": "Team Kinguin",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -19172,18 +18603,6 @@
     }
    ]
   },
-  "DeStiNy": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2019-berlin",
-     "team": "INTZ eSports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "Detrony": {
    "flag": "",
    "majors": [
@@ -19236,48 +18655,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2014-katowice",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-cologne",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-jonkoping",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-katowice",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cologne",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cluj",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2016-columbus",
@@ -19480,20 +18857,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2022-antwerp",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2022-rio",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2025-austin",
      "team": "paiN Gaming",
      "role": "player",
@@ -19506,20 +18869,6 @@
      "role": "player",
      "rank": 18,
      "place": "Stage 3"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -19666,18 +19015,6 @@
     }
    ]
   },
-  "dona": {
-   "flag": "de",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Stream Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "donk": {
    "flag": "",
    "majors": [
@@ -19769,20 +19106,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2016-columbus",
-     "team": "Gambit Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2016-cologne",
-     "team": "Gambit Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2017-atlanta",
@@ -19962,48 +19285,6 @@
      "place": "Cuartos de final"
     },
     {
-     "id": "2014-katowice",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-cologne",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-jonkoping",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-katowice",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cologne",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cluj",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2016-columbus",
      "team": "Astralis",
      "role": "player",
@@ -20134,25 +19415,6 @@
     }
    ]
   },
-  "dziugss": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-cologne",
-     "team": "FUT Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "FUT Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "Eddie": {
    "flag": "us",
    "majors": [
@@ -20200,8 +19462,8 @@
      "id": "2015-cologne",
      "team": "Natus Vincere",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -20507,13 +19769,6 @@
      "place": "Cuartos de final"
     },
     {
-     "id": "2025-austin",
-     "team": "Team USA",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2025-budapest",
      "team": "Team Liquid",
      "role": "player",
@@ -20543,8 +19798,8 @@
      "id": "2015-cologne",
      "team": "Team Immunity",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -20663,13 +19918,6 @@
      "place": "Cuartos de final"
     },
     {
-     "id": "2022-antwerp",
-     "team": "Team Smoke",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2022-rio",
      "team": "Ninjas in Pyjamas",
      "role": "player",
@@ -20732,25 +19980,6 @@
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
-    }
-   ]
-  },
-  "Evelone192": {
-   "flag": "ua",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Stream Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2025-budapest",
-     "team": "Team GOAT\n<!--",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -20834,8 +20063,8 @@
      "id": "2015-cologne",
      "team": "Titan",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -20954,8 +20183,8 @@
      "id": "2015-cologne",
      "team": "Ninjas in Pyjamas",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -20998,13 +20227,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2022-rio",
-     "team": "Team Sweden",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -21112,8 +20334,8 @@
      "id": "2015-cologne",
      "team": "Luminosity Gaming",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -21200,13 +20422,6 @@
      "place": "Challengers Stage"
     },
     {
-     "id": "2022-rio",
-     "team": "Team Brazil",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2024-copenhagen",
      "team": "FURIA",
      "role": "player",
@@ -21280,13 +20495,6 @@
      "role": "player",
      "rank": 18,
      "place": "Stage 3"
-    },
-    {
-     "id": "2026-singapore",
-     "team": "The One",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -21363,13 +20571,6 @@
      "role": "player",
      "rank": 19,
      "place": "Stage 2"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Team Germany",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -21479,13 +20680,6 @@
      "role": "player",
      "rank": 20,
      "place": "Opening Stage"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Gaimin Gladiators",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -21503,8 +20697,8 @@
      "id": "2015-cologne",
      "team": "Luminosity Gaming",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -21582,13 +20776,6 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2022-rio",
-     "team": "Team Brazil",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -21601,27 +20788,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2014-katowice",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-cologne",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-jonkoping",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -21702,13 +20868,6 @@
      "role": "player",
      "rank": 1,
      "place": "Campeón"
-    },
-    {
-     "id": "2021-stockholm",
-     "team": "Team GeT_RiGhT",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -21905,8 +21064,8 @@
      "id": "2015-cologne",
      "team": "Natus Vincere",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -22132,13 +21291,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2019-berlin",
-     "team": "Forfeited Slot",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -22156,8 +21308,8 @@
      "id": "2015-cologne",
      "team": "Counter Logic Gaming",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -22198,13 +21350,6 @@
      "role": "coach",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2022-rio",
-     "team": "Team Brazil",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -22241,8 +21386,8 @@
      "id": "2015-cologne",
      "team": "Team Kinguin",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -22286,18 +21431,6 @@
     }
    ]
   },
-  "Frankie": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2022-antwerp",
-     "team": "Team Smoke",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "fREAKAZOiD": {
    "flag": "us",
    "majors": [
@@ -22305,8 +21438,8 @@
      "id": "2015-cologne",
      "team": "Cloud9",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -22385,8 +21518,8 @@
      "id": "2015-cologne",
      "team": "Ninjas in Pyjamas",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -22408,13 +21541,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2022-rio",
-     "team": "Team Sweden",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -22538,8 +21664,8 @@
      "id": "2015-cologne",
      "team": "Team eBettle",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -22559,18 +21685,6 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "fxy0": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2014-cologne",
-     "team": "Epsilon eSports",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -22616,25 +21730,6 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "gAuLeS": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Stream Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2025-budapest",
-     "team": "Team VACO\n<!--",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -22699,8 +21794,8 @@
      "id": "2015-cologne",
      "team": "Ninjas in Pyjamas",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -22750,27 +21845,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2021-stockholm",
-     "team": "Team GeT_RiGhT",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2022-rio",
-     "team": "Team Sweden",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2023-paris",
-     "team": "BLAST Dream Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -22796,13 +21870,6 @@
   "gla1ve": {
    "flag": "dk",
    "majors": [
-    {
-     "id": "2013-jonkoping",
-     "team": "N!Faculty",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2014-katowice",
      "team": "3DMAX",
@@ -22903,18 +21970,6 @@
     }
    ]
   },
-  "glowiing": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "9Pandas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "GMX": {
    "flag": "",
    "majors": [
@@ -22931,13 +21986,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2014-cologne",
-     "team": "Epsilon eSports",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -22948,8 +21996,8 @@
      "id": "2015-cologne",
      "team": "MOUZ",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -23044,18 +22092,6 @@
      "role": "player",
      "rank": 20,
      "place": "Opening Stage"
-    }
-   ]
-  },
-  "Gooseman": {
-   "flag": "ca",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Team USA",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -23174,13 +22210,6 @@
      "place": "Stage 1"
     },
     {
-     "id": "2025-austin",
-     "team": "Team USA",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2025-budapest",
      "team": "Passion UA",
      "role": "player",
@@ -23233,13 +22262,6 @@
      "role": "coach",
      "rank": 20,
      "place": "Opening Stage"
-    },
-    {
-     "id": "2026-singapore",
-     "team": "The One",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -23262,8 +22284,8 @@
      "id": "2015-cologne",
      "team": "Team eBettle",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -23316,8 +22338,8 @@
      "id": "2015-cologne",
      "team": "Natus Vincere",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -23690,8 +22712,8 @@
      "id": "2015-cologne",
      "team": "Team EnVyUs",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2015-cluj",
@@ -23720,13 +22742,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Team Envy",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -23839,8 +22854,8 @@
      "id": "2015-cologne",
      "team": "Renegades",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -23858,8 +22873,8 @@
      "id": "2015-cologne",
      "team": "Counter Logic Gaming",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -23961,25 +22976,11 @@
      "place": "Subcampeón"
     },
     {
-     "id": "2018-boston",
-     "team": "Immortals",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2024-copenhagen",
      "team": "Imperial",
      "role": "player",
      "rank": 19,
      "place": "Elimination Stage"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Gaimin Gladiators",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -24222,22 +23223,8 @@
    ]
   },
   "hooch": {
-   "flag": "ru",
+   "flag": "",
    "majors": [
-    {
-     "id": "2016-columbus",
-     "team": "Gambit Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2016-cologne",
-     "team": "Gambit Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2021-stockholm",
      "team": "Entropiq",
@@ -24294,18 +23281,6 @@
     }
    ]
   },
-  "horvy": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-cologne",
-     "team": "Gaimin Gladiators",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "HS": {
    "flag": "",
    "majors": [
@@ -24315,25 +23290,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    }
-   ]
-  },
-  "HUASOPEEK": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-cologne",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -24481,8 +23437,8 @@
      "id": "2015-cologne",
      "team": "Team eBettle",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -24531,18 +23487,6 @@
     }
    ]
   },
-  "iDISBALANCE": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "9Pandas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "iksou": {
    "flag": "ru",
    "majors": [
@@ -24572,13 +23516,6 @@
   "iM": {
    "flag": "",
    "majors": [
-    {
-     "id": "2022-rio",
-     "team": "Team GamerLegion",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2023-paris",
      "team": "GamerLegion",
@@ -24720,13 +23657,6 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Team Poland",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -24739,13 +23669,6 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2022-rio",
-     "team": "Grayhound Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2023-paris",
@@ -24897,13 +23820,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2022-rio",
-     "team": "Team GamerLegion",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2023-paris",
      "team": "GamerLegion",
      "role": "player",
@@ -24961,13 +23877,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Team Poland",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -24980,13 +23889,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2022-antwerp",
-     "team": "Team Smoke",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -25072,20 +23974,6 @@
      "role": "player",
      "rank": 2,
      "place": "Subcampeón"
-    },
-    {
-     "id": "2023-paris",
-     "team": "Team France",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2024-shanghai",
-     "team": "Team HAI",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -25209,8 +24097,8 @@
      "id": "2015-cologne",
      "team": "Team Immunity",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2017-krakow",
@@ -25218,25 +24106,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    }
-   ]
-  },
-  "James Banks": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2022-antwerp",
-     "team": "Team Flash",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2023-paris",
-     "team": "BLAST Dream Team",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -25379,13 +24248,6 @@
      "role": "player",
      "rank": 19,
      "place": "Stage 2"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Team Germany",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -25396,8 +24258,8 @@
      "id": "2015-cologne",
      "team": "Counter Logic Gaming",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -25650,8 +24512,8 @@
      "id": "2015-cologne",
      "team": "Renegades",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2018-boston",
@@ -25757,13 +24619,6 @@
      "place": "Semifinales"
     },
     {
-     "id": "2025-budapest",
-     "team": "Team GOAT\n<!--",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2026-cologne",
      "team": "Natus Vincere",
      "role": "player",
@@ -25788,13 +24643,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Team Killz",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2018-london",
@@ -25838,8 +24686,8 @@
      "id": "2015-cologne",
      "team": "FlipSid3 Tactics",
      "role": "coach",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -25911,13 +24759,6 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Gaimin Gladiators",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -26286,20 +25127,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2018-boston",
-     "team": "God Squad",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2018-london",
-     "team": "Team smooya",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -26414,18 +25241,6 @@
     }
    ]
   },
-  "KaiR0N-": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-singapore",
-     "team": "Nemiga Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "kakafu": {
    "flag": "",
    "majors": [
@@ -26536,13 +25351,6 @@
    "flag": "dk",
    "majors": [
     {
-     "id": "2013-jonkoping",
-     "team": "N!Faculty",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2014-katowice",
      "team": "Reason Gaming",
      "role": "player",
@@ -26555,27 +25363,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2015-katowice",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cologne",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cluj",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2016-columbus",
@@ -26646,13 +25433,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2022-rio",
-     "team": "Team Sweden",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2023-paris",
@@ -26915,8 +25695,8 @@
      "id": "2015-cologne",
      "team": "Team EnVyUs",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2015-cluj",
@@ -26975,13 +25755,6 @@
      "place": "Cuartos de final"
     },
     {
-     "id": "2018-boston",
-     "team": "God Squad",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2018-london",
      "team": "G2 Esports",
      "role": "player",
@@ -27001,13 +25774,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2023-paris",
-     "team": "Team France",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -27053,20 +25819,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2019-berlin",
-     "team": "Syman Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2022-rio",
-     "team": "Team GamerLegion",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2023-paris",
      "team": "GamerLegion",
      "role": "player",
@@ -27098,25 +25850,6 @@
      "role": "player",
      "rank": 17,
      "place": "Legends Stage"
-    }
-   ]
-  },
-  "khaN": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Nemiga Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "Nemiga Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -27160,13 +25893,6 @@
      "role": "coach",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2022-rio",
-     "team": "Grayhound Gaming",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -27200,13 +25926,6 @@
      "place": "Fase de grupos"
     },
     {
-     "id": "2014-cologne",
-     "team": "Epsilon eSports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2014-jonkoping",
      "team": "Team LDLC.com",
      "role": "player",
@@ -27224,8 +25943,8 @@
      "id": "2015-cologne",
      "team": "Team EnVyUs",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2015-cluj",
@@ -27261,13 +25980,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2019-berlin",
-     "team": "Forfeited Slot",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -27280,13 +25992,6 @@
      "role": "player",
      "rank": 20,
      "place": "Stage 1"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Team Poland",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -27299,13 +26004,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2015-cluj",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2017-atlanta",
@@ -27341,13 +26039,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2024-copenhagen",
-     "team": "Danish Squad",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -27379,20 +26070,6 @@
      "role": "player",
      "rank": 2,
      "place": "Subcampeón"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Immortals",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2019-berlin",
-     "team": "INTZ eSports",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -27460,25 +26137,6 @@
     }
    ]
   },
-  "Krabeni": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-cologne",
-     "team": "FUT Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "FUT Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "Krad": {
    "flag": "",
    "majors": [
@@ -27509,18 +26167,6 @@
      "role": "player",
      "rank": 20,
      "place": "Opening Stage"
-    }
-   ]
-  },
-  "kraghen": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "ECSTATIC",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -28325,13 +26971,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "FUT Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -28349,8 +26988,8 @@
      "id": "2015-cologne",
      "team": "Team Kinguin",
      "role": "coach",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2017-krakow",
@@ -28473,13 +27112,6 @@
      "place": "Challengers Stage"
     },
     {
-     "id": "2022-rio",
-     "team": "Grayhound Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2023-paris",
      "team": "Grayhound Gaming",
      "role": "player",
@@ -28506,18 +27138,6 @@
      "role": "player",
      "rank": 20,
      "place": "Stage 1"
-    }
-   ]
-  },
-  "Liminha": {
-   "flag": "br",
-   "majors": [
-    {
-     "id": "2025-budapest",
-     "team": "Team VACO\n<!--",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -28700,13 +27320,6 @@
      "place": "Subcampeón"
     },
     {
-     "id": "2018-boston",
-     "team": "Immortals",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2019-berlin",
      "team": "MIBR",
      "role": "player",
@@ -28724,32 +27337,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    }
-   ]
-  },
-  "luchov": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "BESTIA",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-cologne",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -28797,30 +27384,6 @@
      "role": "player",
      "rank": 18,
      "place": "Stage 3"
-    }
-   ]
-  },
-  "luken": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2022-antwerp",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "Luken": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-cologne",
-     "team": "Gaimin Gladiators",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -29009,18 +27572,6 @@
      "role": "coach",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "MachineWJQ": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-shanghai",
-     "team": "Team BYE",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -29271,8 +27822,8 @@
      "id": "2015-cologne",
      "team": "Team Kinguin",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -29440,13 +27991,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2018-boston",
-     "team": "Team Envy",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2019-katowice",
      "team": "G2 Esports",
      "role": "coach",
@@ -29530,8 +28074,8 @@
      "id": "2015-cologne",
      "team": "Titan",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2016-columbus",
@@ -29615,8 +28159,8 @@
      "id": "2015-cologne",
      "team": "FlipSid3 Tactics",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -29707,39 +28251,6 @@
     }
    ]
   },
-  "max": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2022-antwerp",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2022-rio",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-cologne",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "maxxkor": {
    "flag": "",
    "majors": [
@@ -29771,18 +28282,6 @@
     }
    ]
   },
-  "mch": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-budapest",
-     "team": "Team VACO\n<!--",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "Mercury": {
    "flag": "",
    "majors": [
@@ -29806,25 +28305,6 @@
      "role": "player",
      "rank": 19,
      "place": "Stage 2"
-    }
-   ]
-  },
-  "meyern": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-cologne",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -29905,13 +28385,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2025-budapest",
-     "team": "Team GOAT\n<!--",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -30105,18 +28578,6 @@
     }
    ]
   },
-  "Mo": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2018-boston",
-     "team": "TYLOO",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "MODDII": {
    "flag": "",
    "majors": [
@@ -30247,13 +28708,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Team Killz",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -30284,22 +28738,8 @@
    ]
   },
   "mou": {
-   "flag": "kz",
+   "flag": "",
    "majors": [
-    {
-     "id": "2016-columbus",
-     "team": "Gambit Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2016-cologne",
-     "team": "Gambit Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2017-atlanta",
      "team": "Gambit Esports",
@@ -30365,13 +28805,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2015-cluj",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2016-cologne",
@@ -30556,8 +28989,8 @@
      "id": "2015-cologne",
      "team": "Cloud9",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -30586,13 +29019,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2025-austin",
-     "team": "Team USA",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -30781,13 +29207,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2026-singapore",
-     "team": "The One",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -30798,8 +29217,8 @@
      "id": "2015-cologne",
      "team": "Luminosity Gaming",
      "role": "coach",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -30831,8 +29250,8 @@
      "id": "2015-cologne",
      "team": "Ninjas in Pyjamas",
      "role": "coach",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2017-krakow",
@@ -30916,8 +29335,8 @@
      "id": "2015-cologne",
      "team": "Team EnVyUs",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2015-cluj",
@@ -30981,13 +29400,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2019-berlin",
-     "team": "Syman Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2022-rio",
      "team": "Evil Geniuses",
      "role": "player",
@@ -30999,13 +29411,6 @@
   "NeiL_M": {
    "flag": "",
    "majors": [
-    {
-     "id": "2018-london",
-     "team": "Team smooya",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2019-berlin",
      "team": "Grayhound Gaming",
@@ -31050,13 +29455,6 @@
      "role": "player",
      "rank": 20,
      "place": "Opening Stage"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Gaimin Gladiators",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -31337,8 +29735,8 @@
      "id": "2015-cologne",
      "team": "MOUZ",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -31438,8 +29836,8 @@
      "id": "2015-cologne",
      "team": "Team EnVyUs",
      "role": "coach",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2015-cluj",
@@ -31476,8 +29874,8 @@
      "id": "2015-cologne",
      "team": "Titan",
      "role": "coach",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -31570,13 +29968,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2022-antwerp",
-     "team": "Team Flash",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2022-rio",
@@ -31845,13 +30236,6 @@
      "place": "Challengers Stage"
     },
     {
-     "id": "2025-budapest",
-     "team": "The Huns Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2026-singapore",
      "team": "The MongolZ",
      "role": "player",
@@ -31982,30 +30366,6 @@
     }
    ]
   },
-  "Nodios": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "ECSTATIC",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "Noktse": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "BESTIA",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "Norwi": {
    "flag": "",
    "majors": [
@@ -32114,13 +30474,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2022-rio",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2024-copenhagen",
      "team": "paiN Gaming",
      "role": "player",
@@ -32204,18 +30557,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    }
-   ]
-  },
-  "ohnePixel": {
-   "flag": "de",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Stream Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -32319,13 +30660,6 @@
      "place": "Cuartos de final"
     },
     {
-     "id": "2018-london",
-     "team": "Team smooya",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2019-katowice",
      "team": "FaZe Clan",
      "role": "player",
@@ -32345,20 +30679,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2021-stockholm",
-     "team": "Team GeT_RiGhT",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2022-rio",
-     "team": "Team Sweden",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -32564,13 +30884,6 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2024-shanghai",
-     "team": "Team HAI",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -32597,30 +30910,11 @@
      "place": "Semifinales"
     },
     {
-     "id": "2022-antwerp",
-     "team": "Team Flash",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2022-rio",
      "team": "Team Spirit",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    }
-   ]
-  },
-  "Patti": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "ECSTATIC",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -32662,8 +30956,8 @@
      "id": "2015-cologne",
      "team": "Team eBettle",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -32677,13 +30971,6 @@
   "Perfecto": {
    "flag": "",
    "majors": [
-    {
-     "id": "2019-berlin",
-     "team": "Syman Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2021-stockholm",
      "team": "Natus Vincere",
@@ -32765,13 +31052,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2013-jonkoping",
-     "team": "N!Faculty",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2014-katowice",
      "team": "3DMAX",
      "role": "player",
@@ -32793,30 +31073,11 @@
      "place": "Fase de grupos"
     },
     {
-     "id": "2015-cluj",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2017-atlanta",
      "team": "Team Liquid",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    }
-   ]
-  },
-  "pino": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "BESTIA",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -33016,13 +31277,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Team Killz",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -33194,18 +31448,6 @@
     }
    ]
   },
-  "Queenix": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "ECSTATIC",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "r0bs3n": {
    "flag": "",
    "majors": [
@@ -33252,13 +31494,6 @@
   "raalz": {
    "flag": "",
    "majors": [
-    {
-     "id": "2013-jonkoping",
-     "team": "N!Faculty",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2014-katowice",
      "team": "3DMAX",
@@ -33313,8 +31548,8 @@
      "id": "2015-cologne",
      "team": "Team Kinguin",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -33371,13 +31606,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2018-london",
-     "team": "Team rain",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2019-katowice",
@@ -33484,8 +31712,8 @@
      "id": "2015-cologne",
      "team": "Team eBettle",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -33512,18 +31740,6 @@
      "role": "coach",
      "rank": 5,
      "place": "Cuartos de final"
-    }
-   ]
-  },
-  "Ramz1kBO$$": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2019-berlin",
-     "team": "Syman Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -33555,18 +31771,6 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "realition": {
-   "flag": "dk",
-   "majors": [
-    {
-     "id": "2015-cologne",
-     "team": "Team SoloMid",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -33631,13 +31835,6 @@
      "place": "Cuartos de final"
     },
     {
-     "id": "2022-antwerp",
-     "team": "Team Flash",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2022-rio",
      "team": "Sprout",
      "role": "player",
@@ -33698,8 +31895,8 @@
      "id": "2015-cologne",
      "team": "Counter Logic Gaming",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -33799,8 +31996,8 @@
      "id": "2015-cologne",
      "team": "Team Immunity",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2018-london",
@@ -33834,13 +32031,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2022-antwerp",
-     "team": "Team Flash",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2022-rio",
@@ -33909,18 +32099,6 @@
      "role": "coach",
      "rank": 19,
      "place": "Stage 2"
-    }
-   ]
-  },
-  "riskyb0b": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Nemiga Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -34018,18 +32196,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    }
-   ]
-  },
-  "robo": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-singapore",
-     "team": "Nemiga Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -34200,18 +32366,6 @@
     }
    ]
   },
-  "rox": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2022-antwerp",
-     "team": "9z Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "RpK": {
    "flag": "fr",
    "majors": [
@@ -34226,8 +32380,8 @@
      "id": "2015-cologne",
      "team": "Titan",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -34258,13 +32412,6 @@
      "place": "Fase suiza"
     },
     {
-     "id": "2018-boston",
-     "team": "Team Envy",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2019-katowice",
      "team": "Vitality",
      "role": "player",
@@ -34277,13 +32424,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2023-paris",
-     "team": "Team France",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -34425,13 +32565,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2019-berlin",
-     "team": "Forfeited Slot",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -34613,27 +32746,6 @@
      "place": "Legends Stage"
     },
     {
-     "id": "2023-paris",
-     "team": "BLAST Dream Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2024-shanghai",
-     "team": "Team HAI",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2025-budapest",
-     "team": "Team GOAT\n<!--",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2026-singapore",
      "team": "GOSH",
      "role": "player",
@@ -34665,13 +32777,6 @@
      "role": "player",
      "rank": 19,
      "place": "Stage 2"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Team Germany",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2026-singapore",
@@ -34831,18 +32936,6 @@
     }
    ]
   },
-  "salazar": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "ECSTATIC",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "SANJI": {
    "flag": "",
    "majors": [
@@ -34864,13 +32957,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    },
-    {
-     "id": "2018-boston",
-     "team": "God Squad",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -34996,8 +33082,8 @@
      "id": "2015-cologne",
      "team": "Team Kinguin",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -35026,13 +33112,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Team Envy",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -35144,8 +33223,8 @@
      "id": "2015-cologne",
      "team": "Natus Vincere",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -35188,13 +33267,6 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2024-copenhagen",
-     "team": "9Pandas",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -35349,13 +33421,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2014-cologne",
-     "team": "Epsilon eSports",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -35373,8 +33438,8 @@
      "id": "2015-cologne",
      "team": "Cloud9",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -35453,18 +33518,6 @@
     }
    ]
   },
-  "shadowkek": {
-   "flag": "ru",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Stream Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "ShahZaM": {
    "flag": "us",
    "majors": [
@@ -35488,13 +33541,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2018-london",
-     "team": "Team rain",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2019-katowice",
@@ -35580,13 +33626,6 @@
      "place": "Fase de grupos"
     },
     {
-     "id": "2014-cologne",
-     "team": "Epsilon eSports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2014-jonkoping",
      "team": "Team LDLC.com",
      "role": "player",
@@ -35604,8 +33643,8 @@
      "id": "2015-cologne",
      "team": "Titan",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -35683,13 +33722,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2023-paris",
-     "team": "Team France",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -35721,8 +33753,8 @@
      "id": "2015-cologne",
      "team": "Cloud9",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -35796,13 +33828,6 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2022-rio",
-     "team": "Grayhound Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2023-paris",
@@ -35919,13 +33944,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2022-rio",
-     "team": "Team GamerLegion",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2023-paris",
      "team": "GamerLegion",
      "role": "player",
@@ -35985,13 +34003,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Team Envy",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -36081,13 +34092,6 @@
      "place": "Challengers Stage"
     },
     {
-     "id": "2025-budapest",
-     "team": "The Huns Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2026-singapore",
      "team": "Chinggis Warriors",
      "role": "player",
@@ -36138,8 +34142,8 @@
      "id": "2015-cologne",
      "team": "Cloud9",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -36182,13 +34186,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2025-austin",
-     "team": "Team USA",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -36305,30 +34302,11 @@
      "place": "Stage 2"
     },
     {
-     "id": "2026-cologne",
-     "team": "Team Germany",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2026-singapore",
      "team": "M80",
      "role": "player",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "Sliggy": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2018-london",
-     "team": "Team smooya",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -36412,8 +34390,8 @@
      "id": "2015-cologne",
      "team": "Titan",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -36475,20 +34453,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2018-london",
-     "team": "Team smooya",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2023-paris",
-     "team": "BLAST Dream Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -36515,13 +34479,6 @@
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
-    },
-    {
-     "id": "2022-antwerp",
-     "team": "Team Smoke",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2022-rio",
@@ -36736,33 +34693,14 @@
      "id": "2015-cologne",
      "team": "Team Immunity",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
-    }
-   ]
-  },
-  "Solaar": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2019-berlin",
-     "team": "Syman Gaming",
-     "role": "coach",
-     "rank": null,
-     "place": ""
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
   "somebody": {
    "flag": "",
    "majors": [
-    {
-     "id": "2018-boston",
-     "team": "TYLOO",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2018-london",
      "team": "TYLOO",
@@ -36797,13 +34735,6 @@
      "role": "player",
      "rank": 20,
      "place": "Opening Stage"
-    },
-    {
-     "id": "2024-shanghai",
-     "team": "Team BYE",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -36878,18 +34809,6 @@
     }
    ]
   },
-  "spaze": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2016-cologne",
-     "team": "Gambit Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "speed4k": {
    "flag": "",
    "majors": [
@@ -36923,8 +34842,8 @@
      "id": "2015-cologne",
      "team": "MOUZ",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2016-columbus",
@@ -36979,13 +34898,6 @@
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
-    },
-    {
-     "id": "2022-antwerp",
-     "team": "Team Smoke",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2022-rio",
@@ -37097,15 +35009,8 @@
      "id": "2015-cologne",
      "team": "Renegades",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
-    },
-    {
-     "id": "2018-london",
-     "team": "Team rain",
-     "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -37264,8 +35169,8 @@
      "id": "2015-cologne",
      "team": "Natus Vincere",
      "role": "coach",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -37410,8 +35315,8 @@
      "id": "2015-cologne",
      "team": "Luminosity Gaming",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -37426,13 +35331,6 @@
      "role": "player",
      "rank": 2,
      "place": "Subcampeón"
-    },
-    {
-     "id": "2018-boston",
-     "team": "Immortals",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -37583,8 +35481,8 @@
      "id": "2015-cologne",
      "team": "Cloud9",
      "role": "coach",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -37627,30 +35525,11 @@
      "place": "Semifinales"
     },
     {
-     "id": "2023-paris",
-     "team": "BLAST Dream Team",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2024-copenhagen",
      "team": "Apeks",
      "role": "player",
      "rank": 20,
      "place": "Opening Stage"
-    }
-   ]
-  },
-  "Sukker": {
-   "flag": "dk",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "Danish Squad",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -37691,13 +35570,6 @@
      "role": "player",
      "rank": 20,
      "place": "Opening Stage"
-    },
-    {
-     "id": "2024-shanghai",
-     "team": "Team BYE",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2025-budapest",
@@ -37875,13 +35747,6 @@
      "role": "coach",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Team Germany",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -37943,13 +35808,6 @@
      "place": "Cuartos de final"
     },
     {
-     "id": "2024-copenhagen",
-     "team": "Danish Squad",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2024-shanghai",
      "team": "MOUZ",
      "role": "coach",
@@ -37983,18 +35841,6 @@
      "role": "coach",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "SYPH0": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-singapore",
-     "team": "Nemiga Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -38040,13 +35886,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Team Poland",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -38087,18 +35926,6 @@
      "role": "coach",
      "rank": 18,
      "place": "Stage 3"
-    }
-   ]
-  },
-  "t0rick": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2019-berlin",
-     "team": "Syman Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -38174,13 +36001,6 @@
      "role": "player",
      "rank": 19,
      "place": "Stage 2"
-    },
-    {
-     "id": "2026-cologne",
-     "team": "Team Germany",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -38289,20 +36109,6 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
-    },
-    {
-     "id": "2022-rio",
-     "team": "Team Brazil",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2025-budapest",
-     "team": "Team VACO\n<!--",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -38346,8 +36152,8 @@
      "id": "2015-cologne",
      "team": "Counter Logic Gaming",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -38629,13 +36435,6 @@
      "place": "Fase de grupos"
     },
     {
-     "id": "2015-cluj",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2016-cologne",
      "team": "Team Dignitas",
      "role": "player",
@@ -38660,13 +36459,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2022-antwerp",
-     "team": "Team Smoke",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2022-rio",
@@ -38768,13 +36560,6 @@
      "place": "Fase de grupos"
     },
     {
-     "id": "2018-london",
-     "team": "Team smooya",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2021-stockholm",
      "team": "Ninjas in Pyjamas",
      "role": "coach",
@@ -38804,30 +36589,6 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "timo": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "BESTIA",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "Timothy": {
-   "flag": "mn",
-   "majors": [
-    {
-     "id": "2025-budapest",
-     "team": "The Huns Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -38924,13 +36685,6 @@
   "tomaszin": {
    "flag": "",
    "majors": [
-    {
-     "id": "2025-austin",
-     "team": "BESTIA",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2026-singapore",
      "team": "MIBR",
@@ -39380,8 +37134,8 @@
      "id": "2015-cologne",
      "team": "Team Immunity",
      "role": "player",
-     "rank": 5,
-     "place": "Cuartos de final"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2018-boston",
@@ -39526,18 +37280,6 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "vexite": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2022-rio",
-     "team": "Grayhound Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -39896,15 +37638,8 @@
    ]
   },
   "wayLander": {
-   "flag": "fi",
+   "flag": "",
    "majors": [
-    {
-     "id": "2016-columbus",
-     "team": "Gambit Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2016-cologne",
      "team": "FlipSid3 Tactics",
@@ -40062,8 +37797,8 @@
      "id": "2015-cologne",
      "team": "FlipSid3 Tactics",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2015-cluj",
@@ -40196,37 +37931,6 @@
     }
    ]
   },
-  "xand": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2019-berlin",
-     "team": "INTZ eSports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "Xant3r": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-austin",
-     "team": "Nemiga Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2026-singapore",
-     "team": "Nemiga Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "XANTARES": {
    "flag": "",
    "majors": [
@@ -40326,18 +38030,6 @@
     }
    ]
   },
-  "xeedo": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2026-singapore",
-     "team": "The One",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "xelex": {
    "flag": "",
    "majors": [
@@ -40378,18 +38070,6 @@
      "role": "coach",
      "rank": 19,
      "place": "Stage 2"
-    }
-   ]
-  },
-  "xerolte": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2025-budapest",
-     "team": "The Huns Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -40477,13 +38157,6 @@
      "role": "player",
      "rank": 20,
      "place": "Stage 1"
-    },
-    {
-     "id": "2026-singapore",
-     "team": "FUT Esports",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -40555,8 +38228,8 @@
      "id": "2015-cologne",
      "team": "Ninjas in Pyjamas",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -40648,42 +38321,11 @@
      "place": "Stage 2"
     },
     {
-     "id": "2026-cologne",
-     "team": "Team Poland",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2026-singapore",
      "team": "Ninjas in Pyjamas",
      "role": "player",
      "rank": null,
      "place": "En juego"
-    }
-   ]
-  },
-  "xms": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2018-boston",
-     "team": "Team Envy",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
-  "XomA": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2024-copenhagen",
-     "team": "9Pandas",
-     "role": "coach",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -40816,48 +38458,6 @@
      "place": "Cuartos de final"
     },
     {
-     "id": "2014-katowice",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-cologne",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2014-jonkoping",
-     "team": "Team Dignitas",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-katowice",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cologne",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2015-cluj",
-     "team": "Team SoloMid",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2016-columbus",
      "team": "Astralis",
      "role": "player",
@@ -40936,20 +38536,8 @@
      "id": "2015-cologne",
      "team": "Renegades",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
-    }
-   ]
-  },
-  "Yatoro": {
-   "flag": "ua",
-   "majors": [
-    {
-     "id": "2024-shanghai",
-     "team": "Team HAI",
-     "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -40976,25 +38564,11 @@
      "place": "Cuartos de final"
     },
     {
-     "id": "2021-stockholm",
-     "team": "Team GeT_RiGhT",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2022-antwerp",
      "team": "Outsiders",
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2022-antwerp",
-     "team": "Team Flash",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2022-rio",
@@ -41040,18 +38614,6 @@
     }
    ]
   },
-  "yel": {
-   "flag": "",
-   "majors": [
-    {
-     "id": "2019-berlin",
-     "team": "INTZ eSports",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "YNk": {
    "flag": "",
    "majors": [
@@ -41061,13 +38623,6 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
-    },
-    {
-     "id": "2018-boston",
-     "team": "God Squad",
-     "role": "player",
-     "rank": null,
-     "place": ""
     },
     {
      "id": "2018-london",
@@ -41294,13 +38849,6 @@
      "place": "Subcampeón"
     },
     {
-     "id": "2022-rio",
-     "team": "9z Team",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2024-copenhagen",
      "team": "Imperial",
      "role": "coach",
@@ -41370,13 +38918,6 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
-    },
-    {
-     "id": "2019-berlin",
-     "team": "Forfeited Slot",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -41465,8 +39006,8 @@
      "id": "2015-cologne",
      "team": "Natus Vincere",
      "role": "player",
-     "rank": 3,
-     "place": "Semifinales"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-cluj",
@@ -41530,20 +39071,6 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
-    },
-    {
-     "id": "2021-stockholm",
-     "team": "Team GeT_RiGhT",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
-     "id": "2024-shanghai",
-     "team": "Team HAI",
-     "role": "player",
-     "rank": null,
-     "place": ""
     }
    ]
   },
@@ -41686,18 +39213,6 @@
     }
    ]
   },
-  "Zhou Guanyu": {
-   "flag": "cn",
-   "majors": [
-    {
-     "id": "2024-shanghai",
-     "team": "Team BYE",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    }
-   ]
-  },
   "znajder": {
    "flag": "",
    "majors": [
@@ -41725,13 +39240,6 @@
   "zonic": {
    "flag": "dk",
    "majors": [
-    {
-     "id": "2015-cluj",
-     "team": "Team Dignitas",
-     "role": "coach",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2016-columbus",
      "team": "Astralis",
@@ -41961,13 +39469,6 @@
    "flag": "",
    "majors": [
     {
-     "id": "2025-austin",
-     "team": "Nemiga Gaming",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
-    {
      "id": "2025-budapest",
      "team": "Team Spirit",
      "role": "player",
@@ -42019,13 +39520,6 @@
   "ZywOo": {
    "flag": "",
    "majors": [
-    {
-     "id": "2018-london",
-     "team": "Team rain",
-     "role": "player",
-     "rank": null,
-     "place": ""
-    },
     {
      "id": "2019-katowice",
      "team": "Vitality",

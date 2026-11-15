@@ -738,12 +738,6 @@
      ],
      "first": "t",
      "hltv": 18712
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2293632
@@ -790,12 +784,6 @@
      ],
      "first": "t",
      "hltv": 18714
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2293633
@@ -842,12 +830,6 @@
      ],
      "first": "ct",
      "hltv": 18716
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2293634
@@ -894,12 +876,6 @@
      ],
      "first": "ct",
      "hltv": 18719
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2293635
@@ -1010,12 +986,6 @@
      ],
      "first": "ct",
      "hltv": 18726
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2293637
@@ -1495,6 +1465,6 @@
    ]
   }
  },
- "checked": "2026-11-15T10:29:39Z",
+ "checked": "2026-11-15T16:07:21Z",
  "errors": []
 }

@@ -375,7 +375,7 @@
    "hltv": 2279210
   },
   {
-   "id": "po-NIHF6GZGMBQuarterfinals-R1M3",
+   "id": "po-NIHF6GZGMB-R1M3",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M3",
@@ -435,7 +435,7 @@
    "hltv": 2279219
   },
   {
-   "id": "po-NIHF6GZGMBQuarterfinals-R1M1",
+   "id": "po-NIHF6GZGMB-R1M1",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M1",
@@ -815,7 +815,7 @@
    "hltv": 2279294
   },
   {
-   "id": "po-NIHF6GZGMBQuarterfinals-R1M2",
+   "id": "po-NIHF6GZGMB-R1M2",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M2",
@@ -875,7 +875,7 @@
    "hltv": 2279295
   },
   {
-   "id": "po-NIHF6GZGMBQuarterfinals-R1M4",
+   "id": "po-NIHF6GZGMB-R1M4",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M4",
@@ -981,7 +981,7 @@
    "hltv": 2279343
   },
   {
-   "id": "po-NIHF6GZGMBQuarterfinals-R2M1",
+   "id": "po-NIHF6GZGMB-R2M1",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M1",
@@ -1041,7 +1041,7 @@
    "hltv": 2279338
   },
   {
-   "id": "po-NIHF6GZGMBQuarterfinals-R2M2",
+   "id": "po-NIHF6GZGMB-R2M2",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M2",
@@ -1087,7 +1087,7 @@
    "hltv": 2279339
   },
   {
-   "id": "po-NIHF6GZGMBQuarterfinals-R3M1",
+   "id": "po-NIHF6GZGMB-R3M1",
    "stage": "po",
    "round": "Gran final",
    "slot": "R3M1",
@@ -1589,6 +1589,6 @@
    ]
   }
  },
- "checked": "2026-11-15T10:36:33Z",
+ "checked": "2026-11-15T16:07:21Z",
  "errors": []
 }

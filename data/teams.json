@@ -143,7 +143,7 @@
    "dark": "img/teams/cphf-dark.png"
   },
   "Copenhagen Wolves": {
-   "tpl": "cw",
+   "tpl": "cphw",
    "logo": "img/teams/cphw.png"
   },
   "Counter Logic Gaming": {
@@ -255,7 +255,7 @@
   },
   "Fnatic": {
    "logo": "img/teams/fnatic.png",
-   "tpl": "fnc"
+   "tpl": "fnatic"
   },
   "Fnc": {
    "logo": "img/teams/fnc.png"
@@ -392,7 +392,7 @@
    "logo": "img/teams/l4o-au.png"
   },
   "Luminosity Gaming": {
-   "tpl": "lg",
+   "tpl": "luminosity",
    "logo": "img/teams/luminosity-gaming.png"
   },
   "Lynn Vision": {
@@ -720,7 +720,7 @@
    "logo": "img/teams/vici.png"
   },
   "Virtus.pro": {
-   "tpl": "vp",
+   "tpl": "virtus.pro",
    "logo": "img/teams/virtus-pro.png"
   },
   "Vit": {

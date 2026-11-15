@@ -52,11 +52,11 @@
   ],
   [
    18,
-   "Ninjas in Pyjamas"
+   "Fnatic"
   ],
   [
    18,
-   "Fnatic"
+   "Ninjas in Pyjamas"
   ],
   [
    18,
@@ -113,16 +113,16 @@
    "Virtus.pro"
   ],
   [
+   2,
+   "Team EnVyUs"
+  ],
+  [
    1,
    "SK Gaming"
   ],
   [
    1,
    "Team LDLC.com"
-  ],
-  [
-   1,
-   "Cloud9"
   ]
  ],
  "teamStreak": [
@@ -148,11 +148,11 @@
   ],
   [
    11,
-   "Vitality"
+   "FURIA"
   ],
   [
    11,
-   "FURIA"
+   "Vitality"
   ],
   [
    10,
@@ -276,10 +276,6 @@
   ],
   [
    4,
-   "gla1ve"
-  ],
-  [
-   4,
    "Xyp9x"
   ],
   [
@@ -289,6 +285,10 @@
   [
    4,
    "apEX"
+  ],
+  [
+   4,
+   "gla1ve"
   ],
   [
    4,
@@ -313,44 +313,44 @@
  ],
  "playerMajors": [
   [
-   23,
-   "karrigan"
-  ],
-  [
-   23,
+   22,
    "apEX"
   ],
   [
-   23,
+   22,
    "rain"
   ],
   [
-   21,
+   20,
    "FalleN"
-  ],
-  [
-   19,
-   "dupreeh"
-  ],
-  [
-   19,
-   "kennyS"
   ],
   [
    19,
    "NiKo"
   ],
   [
-   19,
+   18,
+   "karrigan"
+  ],
+  [
+   18,
    "EliGE"
   ],
   [
-   18,
+   17,
+   "Snax"
+  ],
+  [
+   17,
+   "kennyS"
+  ],
+  [
+   16,
    "shox"
   ],
   [
-   18,
-   "s1mple"
+   16,
+   "KRIMZ"
   ]
  ],
  "longestMaps": [
@@ -665,7 +665,7 @@
   ],
   [
    "2015-cologne",
-   "ENVY",
+   "Team EnVyUs",
    "Fnatic",
    0,
    2,
