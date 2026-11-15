@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T08:54:58Z",
- "calls": 17,
+ "checked": "2026-11-15T09:52:20Z",
+ "calls": 23,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -28,7 +28,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2014-katowice",
@@ -54,7 +55,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2014-cologne",
@@ -80,7 +82,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2014-jonkoping",
@@ -106,7 +109,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2015-katowice",
@@ -132,7 +136,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2015-cologne",
@@ -158,7 +163,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2015-cluj",
@@ -184,7 +190,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2016-columbus",
@@ -210,7 +217,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2016-cologne",
@@ -236,7 +244,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2017-atlanta",
@@ -262,7 +271,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2017-krakow",
@@ -286,7 +296,10 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T08:54:58Z"
+   "checked": "2026-11-15T08:54:58Z",
+   "error": "",
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2018-boston",
@@ -312,7 +325,8 @@
    "frozen": false,
    "checked": null,
    "error": "ELEAGUE Major: Boston 2018: no encuentro su página en Liquipedia (busqué «ELEAGUE Major Boston 2018»)",
-   "tries": 1
+   "tries": 1,
+   "parser": null
   },
   {
    "id": "2018-london",
@@ -338,7 +352,8 @@
    "frozen": false,
    "checked": null,
    "error": "FACEIT Major: London 2018: HTTP Error 429: Too Many Requests",
-   "tries": 1
+   "tries": 1,
+   "parser": null
   },
   {
    "id": "2019-katowice",
@@ -364,7 +379,8 @@
    "frozen": false,
    "checked": null,
    "error": "IEM Katowice Major 2019: HTTP Error 429: Too Many Requests",
-   "tries": 1
+   "tries": 1,
+   "parser": null
   },
   {
    "id": "2019-berlin",
@@ -390,7 +406,8 @@
    "frozen": true,
    "checked": "2026-11-15T02:10:31Z",
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2021-stockholm",
@@ -416,7 +433,8 @@
    "frozen": true,
    "checked": "2026-11-15T02:01:52Z",
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2022-antwerp",
@@ -442,7 +460,8 @@
    "frozen": true,
    "checked": "2026-11-15T02:10:31Z",
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2022-rio",
@@ -466,7 +485,10 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T08:54:58Z"
+   "checked": "2026-11-15T08:54:58Z",
+   "error": "",
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2023-paris",
@@ -490,7 +512,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T08:54:58Z"
+   "checked": "2026-11-15T09:52:20Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2024-copenhagen",
@@ -514,7 +538,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T08:54:58Z"
+   "checked": "2026-11-15T09:52:20Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2024-shanghai",
@@ -538,8 +564,8 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T01:55:56Z",
-   "error": "",
+   "checked": "2026-11-15T09:52:20Z",
+   "parser": 3,
    "tries": 0
   },
   {
@@ -553,9 +579,9 @@
    "year": 2025,
    "game": "CS2",
    "status": "done",
-   "champion": "Bestia",
-   "runnerup": "Legacy",
-   "final": "2-0",
+   "champion": "Vitality",
+   "runnerup": "The MongolZ",
+   "final": "2-1",
    "mvp": "",
    "prize": 1250000,
    "venue": "[https://moodycenteratx.com/ Moody Center]",
@@ -564,8 +590,8 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T01:55:56Z",
-   "error": "",
+   "checked": "2026-11-15T09:52:20Z",
+   "parser": 3,
    "tries": 0
   },
   {
@@ -590,8 +616,8 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T01:55:56Z",
-   "error": "",
+   "checked": "2026-11-15T09:52:20Z",
+   "parser": 3,
    "tries": 0
   },
   {
@@ -616,8 +642,8 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T01:55:56Z",
-   "error": "",
+   "checked": "2026-11-15T09:52:20Z",
+   "parser": 3,
    "tries": 0
   },
   {
@@ -642,7 +668,9 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T08:54:58Z"
+   "checked": "2026-11-15T09:52:20Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2027-buenos-aires",
@@ -668,7 +696,8 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   },
   {
    "id": "2027-shanghai",
@@ -694,10 +723,9 @@
    "frozen": false,
    "checked": null,
    "error": "",
-   "tries": 0
+   "tries": 0,
+   "parser": null
   }
  ],
- "errors": [
-  "ELEAGUE Major: Boston 2018: no encuentro su página en Liquipedia (busqué «ELEAGUE Major Boston 2018»)"
- ]
+ "errors": []
 }

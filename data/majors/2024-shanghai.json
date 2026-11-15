@@ -10,95 +10,54 @@
  "stages": [
   {
    "id": "s1",
-   "name": "Fase suiza",
-   "page": "Perfect_World/Major/2024/Shanghai",
+   "name": "Opening Stage",
+   "page": "Perfect_World/Major/2024/Shanghai/Opening_Stage",
    "type": "swiss",
    "teams": [
-    "Team BYE",
-    "Team HAI"
-   ],
-   "matches": 1
-  },
-  {
-   "id": "b1",
-   "name": "Americas",
-   "page": "Perfect_World/Major/2024/Shanghai/Americas",
-   "type": "bracket",
-   "teams": [
+    "BIG",
+    "Cloud9",
+    "Complexity",
     "FURIA",
-    "M80"
-   ],
-   "matches": 1
-  },
-  {
-   "id": "b2",
-   "name": "Asia-Pacific",
-   "page": "Perfect_World/Major/2024/Shanghai/Asia-Pacific",
-   "type": "bracket",
-   "teams": [
-    "Alter Ego",
-    "DRILLAS",
     "FlyQuest",
-    "Gr Gaming",
-    "Lynn Vision",
+    "Fnatic",
+    "Fnc",
+    "GamerLegion",
+    "Imperial",
+    "MIBR",
+    "Passion UA",
     "Rare Atom",
-    "TALON",
-    "The MongolZ"
+    "Team Liquid",
+    "The MongolZ",
+    "Virtus.pro",
+    "Wildcard",
+    "paiN Gaming"
    ],
-   "matches": 11
+   "matches": 33
   },
   {
    "id": "s2",
    "name": "Elimination Stage",
    "page": "Perfect_World/Major/2024/Shanghai/Elimination_Stage",
    "type": "swiss",
-   "teams": [],
-   "matches": 0
-  },
-  {
-   "id": "b3",
-   "name": "Europe",
-   "page": "Perfect_World/Major/2024/Shanghai/Europe",
-   "type": "bracket",
    "teams": [
-    "BetBoom Team",
-    "Cloud9",
+    "3DMAX",
+    "BIG",
+    "FURIA",
     "FaZe Clan",
-    "GamerLegion"
+    "G2 Esports",
+    "GamerLegion",
+    "HEROIC",
+    "MIBR",
+    "MOUZ",
+    "Natus Vincere",
+    "Team Liquid",
+    "Team Spirit",
+    "The MongolZ",
+    "Vitality",
+    "Wildcard",
+    "paiN Gaming"
    ],
-   "matches": 2
-  },
-  {
-   "id": "b4",
-   "name": "Europe A",
-   "page": "Perfect_World/Major/2024/Shanghai/Europe_A",
-   "type": "bracket",
-   "teams": [
-    "BetBoom Team",
-    "Cloud9",
-    "FaZe Clan",
-    "GamerLegion"
-   ],
-   "matches": 2
-  },
-  {
-   "id": "b5",
-   "name": "Europe B",
-   "page": "Perfect_World/Major/2024/Shanghai/Europe_B",
-   "type": "bracket",
-   "teams": [
-    "Ninjas in Pyjamas",
-    "Team Spirit"
-   ],
-   "matches": 1
-  },
-  {
-   "id": "s3",
-   "name": "Opening Stage",
-   "page": "Perfect_World/Major/2024/Shanghai/Opening_Stage",
-   "type": "swiss",
-   "teams": [],
-   "matches": 0
+   "matches": 33
   },
   {
    "id": "po",
@@ -120,15 +79,61 @@
  ],
  "matches": [
   {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R1M1",
-   "stage": "b2",
-   "round": "Cuartos de final",
-   "slot": "R1M1",
-   "kind": "qf",
-   "bo": 3,
-   "date": "2024-11-11T08:00:00Z",
-   "t1": "The MongolZ",
-   "t2": "Alter Ego",
+   "id": "s1-WbSCmjvfU9-M1",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T03:00:00Z",
+   "t1": "FURIA",
+   "t2": "GamerLegion",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 8,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-WbSCmjvfU9-M2",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T03:00:00Z",
+   "t1": "Virtus.pro",
+   "t2": "MIBR",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 7,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-WbSCmjvfU9-M3",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T04:25:00Z",
+   "t1": "Team Liquid",
+   "t2": "Cloud9",
    "s1": 1,
    "s2": 0,
    "winner": 1,
@@ -137,44 +142,228 @@
     {
      "map": "Ancient",
      "s1": 13,
-     "s2": 8,
+     "s2": 10,
      "winner": 1
     }
    ]
   },
   {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R1M2",
-   "stage": "b2",
-   "round": "Cuartos de final",
-   "slot": "R1M2",
-   "kind": "qf",
-   "bo": 3,
-   "date": "2024-11-11T10:10:00Z",
-   "t1": "DRILLAS",
-   "t2": "Lynn Vision",
+   "id": "s1-WbSCmjvfU9-M4",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T04:25:00Z",
+   "t1": "Complexity",
+   "t2": "FlyQuest",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Anubis",
+     "s1": 6,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-WbSCmjvfU9-M5",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T05:25:00Z",
+   "t1": "BIG",
+   "t2": "Passion UA",
    "s1": 1,
    "s2": 0,
-   "winner": 0,
-   "done": false,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-WbSCmjvfU9-M6",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T05:55:00Z",
+   "t1": "Fnatic",
+   "t2": "Wildcard",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 11,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-WbSCmjvfU9-M7",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T06:30:00Z",
+   "t1": "The MongolZ",
+   "t2": "Rare Atom",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Anubis",
+     "s1": 13,
+     "s2": 2,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-WbSCmjvfU9-M8",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T07:05:00Z",
+   "t1": "paiN Gaming",
+   "t2": "Imperial",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 13,
+     "s2": 5,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-HRqGvV6LAU-M1",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T08:50:00Z",
+   "t1": "Fnc",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-jZdZkOex9L-M1",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T08:55:00Z",
+   "t1": "BIG",
+   "t2": "FlyQuest",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-HRqGvV6LAU-M2",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T09:50:00Z",
+   "t1": "Complexity",
+   "t2": "Passion UA",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Anubis",
+     "s1": 9,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-jZdZkOex9L-M2",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T09:50:00Z",
+   "t1": "The MongolZ",
+   "t2": "MIBR",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
    "maps": [
     {
      "map": "Ancient",
      "s1": 13,
-     "s2": 11,
+     "s2": 6,
      "winner": 1
     }
    ]
   },
   {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R1M3",
-   "stage": "b2",
-   "round": "Cuartos de final",
-   "slot": "R1M3",
-   "kind": "qf",
-   "bo": 3,
-   "date": "2024-11-11T11:30:00Z",
-   "t1": "Rare Atom",
-   "t2": "Gr Gaming",
+   "id": "s1-HRqGvV6LAU-M3",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T10:50:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Rare Atom",
    "s1": 1,
    "s2": 0,
    "winner": 1,
@@ -189,15 +378,15 @@
    ]
   },
   {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R1M4",
-   "stage": "b2",
-   "round": "Cuartos de final",
-   "slot": "R1M4",
-   "kind": "qf",
-   "bo": 3,
-   "date": "2024-11-11T13:10:00Z",
-   "t1": "TALON",
-   "t2": "FlyQuest",
+   "id": "s1-jZdZkOex9L-M3",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T10:55:00Z",
+   "t1": "Team Liquid",
+   "t2": "Wildcard",
    "s1": 1,
    "s2": 0,
    "winner": 1,
@@ -206,127 +395,68 @@
     {
      "map": "Inferno",
      "s1": 13,
-     "s2": 9,
+     "s2": 10,
      "winner": 1
     }
    ]
   },
   {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R1M5",
-   "stage": "b2",
-   "round": "Cuartos de final",
-   "slot": "R1M5",
-   "kind": "qf",
-   "bo": 3,
-   "date": "2024-11-12T02:00:00Z",
-   "t1": "Alter Ego",
-   "t2": "Lynn Vision",
+   "id": "s1-HRqGvV6LAU-M4",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T11:50:00Z",
+   "t1": "FURIA",
+   "t2": "Imperial",
    "s1": 1,
-   "s2": 2,
-   "winner": 2,
-   "done": true,
-   "maps": [
-    {
-     "map": "Ancient",
-     "s1": 10,
-     "s2": 13,
-     "winner": 2
-    },
-    {
-     "map": "Dust II",
-     "s1": 13,
-     "s2": 9,
-     "winner": 1
-    },
-    {
-     "map": "Nuke",
-     "s1": 4,
-     "s2": 13,
-     "winner": 2
-    }
-   ]
-  },
-  {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R1M6",
-   "stage": "b2",
-   "round": "Cuartos de final",
-   "slot": "R1M6",
-   "kind": "qf",
-   "bo": 3,
-   "date": "2024-11-12T05:00:00Z",
-   "t1": "Gr Gaming",
-   "t2": "FlyQuest",
-   "s1": 0,
-   "s2": 2,
-   "winner": 2,
-   "done": true,
-   "maps": [
-    {
-     "map": "Ancient",
-     "s1": 8,
-     "s2": 13,
-     "winner": 2
-    },
-    {
-     "map": "Anubis",
-     "s1": 8,
-     "s2": 13,
-     "winner": 2
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
-    }
-   ]
-  },
-  {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R2M1",
-   "stage": "b2",
-   "round": "Semifinales",
-   "slot": "R2M1",
-   "kind": "sf",
-   "bo": 3,
-   "date": "2024-11-12T08:00:00Z",
-   "t1": "The MongolZ",
-   "t2": "DRILLAS",
-   "s1": 2,
-   "s2": 1,
+   "s2": 0,
    "winner": 1,
    "done": true,
    "maps": [
     {
-     "map": "Mirage",
-     "s1": 11,
-     "s2": 13,
-     "winner": 2
-    },
-    {
-     "map": "Ancient",
-     "s1": 13,
-     "s2": 2,
-     "winner": 1
-    },
-    {
      "map": "Anubis",
      "s1": 13,
-     "s2": 5,
+     "s2": 11,
      "winner": 1
     }
    ]
   },
   {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R2M2",
-   "stage": "b2",
-   "round": "Semifinales",
-   "slot": "R2M2",
-   "kind": "sf",
-   "bo": 3,
-   "date": "2024-11-12T11:00:00Z",
-   "t1": "Rare Atom",
-   "t2": "TALON",
-   "s1": 2,
+   "id": "s1-jZdZkOex9L-M4",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-11-30T12:00:00Z",
+   "t1": "paiN Gaming",
+   "t2": "GamerLegion",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 10,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-uBCdonFN8X-M1",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-01T03:00:00Z",
+   "t1": "BIG",
+   "t2": "Virtus.pro",
+   "s1": 1,
    "s2": 0,
    "winner": 1,
    "done": true,
@@ -334,17 +464,179 @@
     {
      "map": "Vertigo",
      "s1": 13,
-     "s2": 8,
+     "s2": 11,
      "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-uBCdonFN8X-M2",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-01T03:00:00Z",
+   "t1": "MIBR",
+   "t2": "Passion UA",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-uBCdonFN8X-M3",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-01T04:00:00Z",
+   "t1": "FURIA",
+   "t2": "Wildcard",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-uBCdonFN8X-M4",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-01T04:00:00Z",
+   "t1": "paiN Gaming",
+   "t2": "Cloud9",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Anubis",
+     "s1": 13,
+     "s2": 11,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-bZuDSy4HPB-M1",
+   "stage": "s1",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-01T05:10:00Z",
+   "t1": "Team Liquid",
+   "t2": "FlyQuest",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Anubis",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1
+    },
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 1,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-Tn8V5Qwugg-M1",
+   "stage": "s1",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-01T05:25:00Z",
+   "t1": "Rare Atom",
+   "t2": "Fnc",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 10,
+     "s2": 13,
+     "winner": 2
     },
     {
      "map": "Inferno",
      "s1": 13,
-     "s2": 8,
+     "s2": 10,
      "winner": 1
     },
     {
-     "map": "Anubis",
+     "map": "Vertigo",
+     "s1": 13,
+     "s2": 4,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-Tn8V5Qwugg-M2",
+   "stage": "s1",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-01T08:00:00Z",
+   "t1": "Complexity",
+   "t2": "Imperial",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 4,
+     "winner": 1
+    },
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Nuke",
      "s1": null,
      "s2": null,
      "winner": 0
@@ -352,63 +644,133 @@
    ]
   },
   {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R2M4",
-   "stage": "b2",
-   "round": "Semifinales",
-   "slot": "R2M4",
-   "kind": "sf",
+   "id": "s1-bZuDSy4HPB-M2",
+   "stage": "s1",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
    "bo": 3,
-   "date": "2024-11-13T04:00:00Z",
-   "t1": "DRILLAS",
-   "t2": "FlyQuest",
-   "s1": 1,
-   "s2": 2,
-   "winner": 2,
-   "done": true,
-   "maps": [
-    {
-     "map": "Anubis",
-     "s1": 9,
-     "s2": 13,
-     "winner": 2
-    },
-    {
-     "map": "Dust II",
-     "s1": 13,
-     "s2": 2,
-     "winner": 1
-    },
-    {
-     "map": "Ancient",
-     "s1": 19,
-     "s2": 22,
-     "winner": 2
-    }
-   ]
-  },
-  {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R2M3",
-   "stage": "b2",
-   "round": "Semifinales",
-   "slot": "R2M3",
-   "kind": "sf",
-   "bo": 3,
-   "date": "2024-11-13T07:45:00Z",
-   "t1": "TALON",
-   "t2": "Lynn Vision",
+   "date": "2024-12-01T08:40:00Z",
+   "t1": "GamerLegion",
+   "t2": "The MongolZ",
    "s1": 0,
    "s2": 2,
    "winner": 2,
    "done": true,
    "maps": [
     {
-     "map": "Inferno",
-     "s1": 10,
+     "map": "Mirage",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Anubis",
+     "s1": 2,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Ancient",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-1ifAsQV8nV-M1",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-02T03:00:00Z",
+   "t1": "BIG",
+   "t2": "FURIA",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 11,
      "s2": 13,
      "winner": 2
     },
     {
      "map": "Dust II",
+     "s1": 3,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-nCZymGqLbQ-M1",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-02T03:00:00Z",
+   "t1": "MIBR",
+   "t2": "Rare Atom",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1
+    },
+    {
+     "map": "Anubis",
+     "s1": 11,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 4,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-1ifAsQV8nV-M2",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-02T06:10:00Z",
+   "t1": "FlyQuest",
+   "t2": "paiN Gaming",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
      "s1": 6,
      "s2": 13,
      "winner": 2
@@ -422,15 +784,155 @@
    ]
   },
   {
-   "id": "b2-dQ7KCIZj6bUpperBracketRound1-R3M1",
-   "stage": "b2",
-   "round": "Gran final",
-   "slot": "R3M1",
-   "kind": "final",
+   "id": "s1-nCZymGqLbQ-M2",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
    "bo": 3,
-   "date": "2024-11-13T11:00:00Z",
-   "t1": "Lynn Vision",
-   "t2": "FlyQuest",
+   "date": "2024-12-02T06:15:00Z",
+   "t1": "Cloud9",
+   "t2": "Complexity",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Ancient",
+     "s1": 8,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-1ifAsQV8nV-M3",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-02T09:00:00Z",
+   "t1": "GamerLegion",
+   "t2": "Passion UA",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 6,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-nCZymGqLbQ-M3",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-02T09:15:00Z",
+   "t1": "Wildcard",
+   "t2": "Virtus.pro",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 10,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 7,
+     "winner": 1
+    },
+    {
+     "map": "Anubis",
+     "s1": 13,
+     "s2": 8,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-AYmrhNRukj-M1",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-03T03:00:00Z",
+   "t1": "BIG",
+   "t2": "Complexity",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Anubis",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-AYmrhNRukj-M2",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-03T06:05:00Z",
+   "t1": "FlyQuest",
+   "t2": "MIBR",
    "s1": 0,
    "s2": 2,
    "winner": 2,
@@ -438,13 +940,13 @@
    "maps": [
     {
      "map": "Nuke",
-     "s1": 2,
+     "s1": 4,
      "s2": 13,
      "winner": 2
     },
     {
-     "map": "Vertigo",
-     "s1": 8,
+     "map": "Inferno",
+     "s1": 5,
      "s2": 13,
      "winner": 2
     },
@@ -457,31 +959,666 @@
    ]
   },
   {
-   "id": "b1-fo42c7MVSPGrandFinal-R1M1",
-   "stage": "b1",
-   "round": "Gran final",
-   "slot": "R1M1",
-   "kind": "final",
+   "id": "s1-AYmrhNRukj-M3",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
    "bo": 3,
-   "date": "2024-11-15T12:00:00Z",
-   "t1": "M80",
+   "date": "2024-12-03T09:00:00Z",
+   "t1": "Passion UA",
+   "t2": "Wildcard",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 6,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 6,
+     "winner": 1
+    },
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-kafdxmUCcV-M1",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T03:00:00Z",
+   "t1": "G2 Esports",
+   "t2": "The MongolZ",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 10,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-kafdxmUCcV-M2",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T03:00:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Team Liquid",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-kafdxmUCcV-M4",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T04:05:00Z",
+   "t1": "Team Spirit",
    "t2": "FURIA",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 6,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-kafdxmUCcV-M3",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T04:10:00Z",
+   "t1": "Vitality",
+   "t2": "GamerLegion",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 7,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-kafdxmUCcV-M5",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T05:10:00Z",
+   "t1": "MOUZ",
+   "t2": "paiN Gaming",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 6,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-kafdxmUCcV-M6",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T05:10:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Wildcard",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-kafdxmUCcV-M7",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T06:00:00Z",
+   "t1": "HEROIC",
+   "t2": "BIG",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 7,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-kafdxmUCcV-M8",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T06:10:00Z",
+   "t1": "3DMAX",
+   "t2": "MIBR",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 11,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-xCer039LYC-M1",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T08:15:00Z",
+   "t1": "Vitality",
+   "t2": "FURIA",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-Kee9oSv7Xr-M1",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T08:25:00Z",
+   "t1": "Team Liquid",
+   "t2": "GamerLegion",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-Kee9oSv7Xr-M2",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T09:30:00Z",
+   "t1": "Team Spirit",
+   "t2": "Wildcard",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 6,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-xCer039LYC-M2",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T09:30:00Z",
+   "t1": "MOUZ",
+   "t2": "The MongolZ",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-xCer039LYC-M3",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T10:35:00Z",
+   "t1": "Natus Vincere",
+   "t2": "MIBR",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 11,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-Kee9oSv7Xr-M3",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T10:50:00Z",
+   "t1": "G2 Esports",
+   "t2": "BIG",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 5,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-Kee9oSv7Xr-M4",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T11:45:00Z",
+   "t1": "3DMAX",
+   "t2": "paiN Gaming",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 13,
+     "s2": 11,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-xCer039LYC-M4",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-05T11:50:00Z",
+   "t1": "FaZe Clan",
+   "t2": "HEROIC",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 8,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-o7MmBVQqnW-M1",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-06T03:00:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Team Spirit",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 2,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-o7MmBVQqnW-M2",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-06T03:00:00Z",
+   "t1": "FURIA",
+   "t2": "Team Liquid",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 9,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-o7MmBVQqnW-M3",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-06T04:00:00Z",
+   "t1": "G2 Esports",
+   "t2": "3DMAX",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 8,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-o7MmBVQqnW-M4",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2024-12-06T04:00:00Z",
+   "t1": "MOUZ",
+   "t2": "FaZe Clan",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 10,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-M9NLdJxH5d-M1",
+   "stage": "s2",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-06T05:10:00Z",
+   "t1": "GamerLegion",
+   "t2": "Wildcard",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 10,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Anubis",
+     "s1": 13,
+     "s2": 5,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-D0bacbxZ9M-M1",
+   "stage": "s2",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-06T05:25:00Z",
+   "t1": "MIBR",
+   "t2": "Vitality",
    "s1": 0,
    "s2": 2,
    "winner": 2,
    "done": true,
    "maps": [
     {
+     "map": "Mirage",
+     "s1": 3,
+     "s2": 13,
+     "winner": 2
+    },
+    {
      "map": "Anubis",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Nuke",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s2-M9NLdJxH5d-M2",
+   "stage": "s2",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-06T08:00:00Z",
+   "t1": "BIG",
+   "t2": "paiN Gaming",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 10,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Dust II",
+     "s1": 13,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 6,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-D0bacbxZ9M-M2",
+   "stage": "s2",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-06T08:10:00Z",
+   "t1": "The MongolZ",
+   "t2": "HEROIC",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
      "s1": 8,
      "s2": 13,
      "winner": 2
     },
     {
-     "map": "Vertigo",
-     "s1": 8,
-     "s2": 13,
-     "winner": 2
+     "map": "Anubis",
+     "s1": 19,
+     "s2": 17,
+     "winner": 1
+    },
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 6,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-3SvRo5obeH-M1",
+   "stage": "s2",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-07T03:00:00Z",
+   "t1": "G2 Esports",
+   "t2": "FaZe Clan",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 4,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 3,
+     "winner": 1
     },
     {
      "map": "Dust II",
@@ -492,155 +1629,190 @@
    ]
   },
   {
-   "id": "b3-oKmrvgUcB7GrandFinal-R1M1",
-   "stage": "b3",
-   "round": "Gran final",
+   "id": "s2-QlQ3Fos1fo-M1",
+   "stage": "s2",
+   "round": "Round 4 Low",
    "slot": "",
-   "kind": "final",
+   "kind": "",
    "bo": 3,
-   "date": "2024-11-19T12:00:00Z",
-   "t1": "FaZe Clan",
-   "t2": "Cloud9",
+   "date": "2024-12-07T03:00:00Z",
+   "t1": "MOUZ",
+   "t2": "3DMAX",
    "s1": 2,
-   "s2": 1,
+   "s2": 0,
    "winner": 1,
    "done": true,
    "maps": [
     {
-     "map": "Mirage",
+     "map": "Dust II",
      "s1": 13,
-     "s2": 6,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 11,
      "winner": 1
     },
     {
      "map": "Ancient",
-     "s1": 7,
-     "s2": 13,
-     "winner": 2
-    },
-    {
-     "map": "Inferno",
-     "s1": 13,
-     "s2": 6,
-     "winner": 1
+     "s1": null,
+     "s2": null,
+     "winner": 0
     }
    ]
   },
   {
-   "id": "b4-oKmrvgUcB7GrandFinal-R1M1",
-   "stage": "b4",
-   "round": "Gran final",
+   "id": "s2-3SvRo5obeH-M2",
+   "stage": "s2",
+   "round": "Round 4 High",
    "slot": "",
-   "kind": "final",
+   "kind": "",
    "bo": 3,
-   "date": "2024-11-19T12:00:00Z",
-   "t1": "FaZe Clan",
-   "t2": "Cloud9",
-   "s1": 2,
-   "s2": 1,
-   "winner": 1,
-   "done": true,
-   "maps": [
-    {
-     "map": "Mirage",
-     "s1": 13,
-     "s2": 6,
-     "winner": 1
-    },
-    {
-     "map": "Ancient",
-     "s1": 7,
-     "s2": 13,
-     "winner": 2
-    },
-    {
-     "map": "Inferno",
-     "s1": 13,
-     "s2": 6,
-     "winner": 1
-    }
-   ]
-  },
-  {
-   "id": "b3-XJbPuoji9qGrandFinal-R1M1",
-   "stage": "b3",
-   "round": "Gran final",
-   "slot": "",
-   "kind": "final",
-   "bo": 3,
-   "date": "2024-11-20T13:25:00Z",
-   "t1": "BetBoom Team",
-   "t2": "GamerLegion",
+   "date": "2024-12-07T06:00:00Z",
+   "t1": "MIBR",
+   "t2": "Team Liquid",
    "s1": 1,
    "s2": 2,
    "winner": 2,
    "done": true,
    "maps": [
     {
-     "map": "Ancient",
-     "s1": 16,
-     "s2": 12,
-     "winner": 1
-    },
-    {
-     "map": "Nuke",
-     "s1": 5,
+     "map": "Mirage",
+     "s1": 2,
      "s2": 13,
      "winner": 2
     },
     {
-     "map": "Mirage",
-     "s1": 9,
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Anubis",
+     "s1": 5,
      "s2": 13,
      "winner": 2
     }
    ]
   },
   {
-   "id": "b4-XJbPuoji9qGrandFinal-R1M1",
-   "stage": "b4",
-   "round": "Gran final",
+   "id": "s2-QlQ3Fos1fo-M2",
+   "stage": "s2",
+   "round": "Round 4 Low",
    "slot": "",
-   "kind": "final",
+   "kind": "",
    "bo": 3,
-   "date": "2024-11-20T13:25:00Z",
-   "t1": "BetBoom Team",
+   "date": "2024-12-07T06:00:00Z",
+   "t1": "Natus Vincere",
    "t2": "GamerLegion",
-   "s1": 1,
-   "s2": 2,
-   "winner": 2,
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
    "done": true,
    "maps": [
     {
-     "map": "Ancient",
-     "s1": 16,
-     "s2": 12,
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 6,
      "winner": 1
     },
     {
-     "map": "Nuke",
-     "s1": 5,
-     "s2": 13,
-     "winner": 2
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1
     },
     {
-     "map": "Mirage",
-     "s1": 9,
-     "s2": 13,
-     "winner": 2
+     "map": "Ancient",
+     "s1": null,
+     "s2": null,
+     "winner": 0
     }
    ]
   },
   {
-   "id": "b5-oBWp1zYDXVGrandFinal-R1M1",
-   "stage": "b5",
-   "round": "Gran final",
-   "slot": "R1M1",
-   "kind": "final",
+   "id": "s2-3SvRo5obeH-M3",
+   "stage": "s2",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
    "bo": 3,
-   "date": "2024-11-24T12:00:00Z",
-   "t1": "Ninjas in Pyjamas",
+   "date": "2024-12-07T09:00:00Z",
+   "t1": "HEROIC",
    "t2": "Team Spirit",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 7,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-QlQ3Fos1fo-M3",
+   "stage": "s2",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-07T09:00:00Z",
+   "t1": "FURIA",
+   "t2": "paiN Gaming",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 11,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 11,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-WkaAMaf9av-M1",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-08T03:05:00Z",
+   "t1": "MIBR",
+   "t2": "MOUZ",
    "s1": 0,
    "s2": 2,
    "winner": 2,
@@ -653,16 +1825,86 @@
      "winner": 2
     },
     {
-     "map": "Vertigo",
-     "s1": 11,
+     "map": "Nuke",
+     "s1": 6,
      "s2": 13,
      "winner": 2
     },
     {
-     "map": "Anubis",
+     "map": "Ancient",
      "s1": null,
      "s2": null,
      "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s2-WkaAMaf9av-M2",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-08T06:00:00Z",
+   "t1": "Natus Vincere",
+   "t2": "HEROIC",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 3,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Ancient",
+     "s1": 9,
+     "s2": 13,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-WkaAMaf9av-M3",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2024-12-08T09:10:00Z",
+   "t1": "FURIA",
+   "t2": "FaZe Clan",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 6,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 9,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Mirage",
+     "s1": 10,
+     "s2": 13,
+     "winner": 2
     }
    ]
   },
@@ -877,29 +2119,6 @@
    ]
   },
   {
-   "id": "s1-toii78nVA5-M1",
-   "stage": "s1",
-   "round": "Ronda 1",
-   "slot": "",
-   "kind": "",
-   "bo": 1,
-   "date": "2024-12-15T07:00:00Z",
-   "t1": "Team HAI",
-   "t2": "Team BYE",
-   "s1": 0,
-   "s2": 1,
-   "winner": 2,
-   "done": true,
-   "maps": [
-    {
-     "map": "Train",
-     "s1": 9,
-     "s2": 15,
-     "winner": 2
-    }
-   ]
-  },
-  {
    "id": "po-RSTxQ88PoQQuarterfinals-R3M1",
    "stage": "po",
    "round": "Gran final",
@@ -935,6 +2154,6 @@
    ]
   }
  ],
- "checked": "2026-11-15T01:55:56Z",
+ "checked": "2026-11-15T09:52:20Z",
  "errors": []
 }

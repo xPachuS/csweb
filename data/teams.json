@@ -15,10 +15,13 @@
    "tpl": "1w"
   },
   "3DMAX": {
-   "logo": "img/teams/3dmax.png"
+   "logo": "img/teams/3dmax.png",
+   "tpl": "3dmax"
   },
   "9INE": {
-   "tpl": "9ine"
+   "tpl": "9ine",
+   "logo": "img/teams/9ine.png",
+   "dark": "img/teams/9ine-dark.png"
   },
   "9Z": {
    "tpl": "9z",
@@ -172,7 +175,9 @@
    "dark": "img/teams/faze-clan-dark.png"
   },
   "FlipSid3 Tactics": {
-   "tpl": "f3"
+   "tpl": "f3",
+   "logo": "img/teams/flipsid3-tactics.png",
+   "dark": "img/teams/flipsid3-tactics-dark.png"
   },
   "Fluxo": {
    "logo": "img/teams/fluxo.png",
@@ -206,14 +211,15 @@
    "logo": "img/teams/gosh.png"
   },
   "Gaimin": {
-   "logo": "img/teams/gaimin.png"
+   "logo": "img/teams/gaimin.png",
+   "tpl": "gaimin"
   },
   "Gambit Esports": {
    "tpl": "gambit",
    "logo": "img/teams/gambit-esports.png"
   },
   "GamerLegion": {
-   "tpl": "gamerlegion",
+   "tpl": "gl",
    "logo": "img/teams/gamerlegion.png"
   },
   "Germany": {
@@ -290,7 +296,8 @@
    "dark": "img/teams/k23-dark.png"
   },
   "KOI": {
-   "tpl": "koi"
+   "tpl": "koi",
+   "logo": "img/teams/koi.png"
   },
   "Legacy": {
    "tpl": "legacy",
@@ -323,6 +330,10 @@
   "Marsborne": {
    "tpl": "marsborne",
    "logo": "img/teams/marsborne.png"
+  },
+  "Metizport": {
+   "tpl": "metizport",
+   "logo": "img/teams/metizport.png"
   },
   "Monte": {
    "tpl": "monte",
@@ -366,7 +377,8 @@
   },
   "Off Chops": {
    "logo": "img/teams/off-chops.png",
-   "dark": "img/teams/off-chops-dark.png"
+   "dark": "img/teams/off-chops-dark.png",
+   "tpl": "thunderdownunder"
   },
   "Outsiders": {
    "logo": "img/teams/outsiders.png"
@@ -376,18 +388,22 @@
    "tpl": "pvision"
   },
   "PENTA Sports": {
-   "tpl": "penta"
+   "tpl": "penta",
+   "logo": "img/teams/penta-sports.png",
+   "dark": "img/teams/penta-sports-dark.png"
   },
   "Passion UA": {
    "logo": "img/teams/passion-ua.png",
-   "dark": "img/teams/passion-ua-dark.png"
+   "dark": "img/teams/passion-ua-dark.png",
+   "tpl": "passion ua"
   },
   "Poland": {
    "tpl": "poland",
    "logo": "img/teams/poland.png"
   },
   "RED Canids": {
-   "logo": "img/teams/red-canids.png"
+   "logo": "img/teams/red-canids.png",
+   "tpl": "red canids"
   },
   "Rare Atom": {
    "tpl": "rare atom",
@@ -407,7 +423,8 @@
    "dark": "img/teams/saw-dark.png"
   },
   "SINNERS Esports": {
-   "logo": "img/teams/sinners-esports.png"
+   "logo": "img/teams/sinners-esports.png",
+   "tpl": "sinners"
   },
   "SK Gaming": {
    "logo": "img/teams/sk-gaming.png",
@@ -417,6 +434,10 @@
   "Semperfi": {
    "tpl": "semperfi",
    "logo": "img/teams/semperfi.png"
+  },
+  "Sharks Esports": {
+   "tpl": "sharks",
+   "logo": "img/teams/sharks-esports.png"
   },
   "Stream Team": {
    "tpl": "stream team",
@@ -436,7 +457,7 @@
   },
   "Team Bardolph": {
    "tpl": "team bardolph",
-   "tries": 1
+   "tries": 2
   },
   "Team EnVyUs": {
    "logo": "img/teams/team-envyus.png",
@@ -482,7 +503,7 @@
   },
   "Team ddk": {
    "tpl": "team ddk",
-   "tries": 1
+   "tries": 2
   },
   "The MongolZ": {
    "tpl": "mongolz",
@@ -498,7 +519,8 @@
    "dark": "img/teams/vertex-esports-club-dark.png"
   },
   "Vega Squadron": {
-   "tpl": "vega"
+   "tpl": "vega",
+   "logo": "img/teams/vega-squadron.png"
   },
   "Virtus.pro": {
    "tpl": "vp",
