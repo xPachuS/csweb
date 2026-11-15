@@ -1,0 +1,48 @@
+name: Actualizar Majors
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'      # cada 10 minutos (GitHub puede retrasarlo un poco)
+  workflow_dispatch:             # botón «Run workflow» para lanzarlo a mano
+    inputs:
+      majors:
+        description: 'Majors a volver a descargar: ids separados por comas (p. ej. 2025-austin) o «todos». Vacío = actualización normal'
+        required: false
+        default: ''
+      logos:
+        description: 'Logos: vacío = normal · «faltan» = reintentar los que no se encontraron · «todos» = volver a bajarlos todos'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-majors
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Descargar Majors de Liquipedia
+        env:
+          MAJORS: ${{ github.event.inputs.majors }}
+          LOGOS: ${{ github.event.inputs.logos }}
+        run: python scripts/update_majors.py ${MAJORS:+--force "$MAJORS"} ${LOGOS:+--logos "$LOGOS"}
+      - name: Guardar cambios
+        run: |
+          if [ -n "$(git status --porcelain data img)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A data img
+            git commit -m "Majors actualizados $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git push
+          else
+            echo "Sin cambios"
+          fi
