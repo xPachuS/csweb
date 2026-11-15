@@ -111,7 +111,9 @@ TEAM_NAMES = {
     'renegades': 'Renegades', 'clg': 'Counter Logic Gaming', 'flipsid3': 'FlipSid3 Tactics', 'hellraisers': 'HellRaisers',
     'godsent': 'GODSENT', 'vit': 'Vitality', 'tl': 'Team Liquid', 'gl': 'GamerLegion', 'lvg': 'Lynn Vision', 'fq': 'FlyQuest',
     'bb team': 'BetBoom Team', 'bb': 'BetBoom Team', 'mglz': 'The MongolZ', 'spirit academy': 'Spirit Academy', 'navi junior': 'NAVI Junior',
-    'pain gaming': 'paiN Gaming', 'fal': 'Team Falcons', 'mouz nxt': 'MOUZ NXT', 'ef': 'Eternal Fire', 'vp': 'Virtus.pro', 'mibr (2018)': 'MIBR', 'evil geniuses': 'Evil Geniuses', 'eg': 'Evil Geniuses',
+    'pain gaming': 'paiN Gaming', 'fal': 'Team Falcons', 'imp': 'Imperial', 'pvision': 'PARIVISION', '100t': '100 Thieves',
+    'chinggis': 'Chinggis Warriors', 'chinggis warriors': 'Chinggis Warriors', 'koi': 'KOI', 'amkal': 'Amkal Esports', 'amkal esports': 'Amkal Esports',
+    'sharks': 'Sharks Esports', 'sharks esports': 'Sharks Esports', 'oddik': 'ODDIK', 'dendele': 'DENDELE CS', 'gosh': 'GOSH', 'talon': 'TALON', 'mouz nxt': 'MOUZ NXT', 'ef': 'Eternal Fire', 'vp': 'Virtus.pro', 'mibr (2018)': 'MIBR', 'evil geniuses': 'Evil Geniuses', 'eg': 'Evil Geniuses',
 }
 TBD = {'', 'tbd', 'tba', 'bye', 'definitions'}
 TEAM_TPL: dict[str, str] = {}
@@ -270,7 +272,8 @@ def parse_map(raw: str):
 def parse_match(inner: str, sid: str, stype: str, mid: str, round_name: str, slot: str = ''):
     p = params(inner)
     o1, o2 = opponent(p.get('opponent1', '')), opponent(p.get('opponent2', ''))
-    bo = to_int(p.get('bestof')) or (1 if stype == 'swiss' else 3)
+    n_maps = len([k for k in p if re.fullmatch(r'map\d+', k)])     # Liquipedia deja preparados tantos mapas como el Bo
+    bo = to_int(p.get('bestof')) or (n_maps if n_maps in (1, 3, 5) else (1 if stype == 'swiss' else 3))
     maps = [m for m in (parse_map(p.get(f'map{i}', '')) for i in range(1, 8)) if m]
     s1 = sum(1 for m in maps if m['winner'] == 1)
     s2 = sum(1 for m in maps if m['winner'] == 2)
@@ -310,9 +313,13 @@ def scan_page(wikitext: str):
             if low.startswith('matchlist') or low.startswith('singlematch'):
                 p = params(inner)
                 items, header = [], ''
-                for k in sorted((k for k in p if re.fullmatch(r'M\d+', k)), key=lambda k: int(k[1:])):
+                # los partidos van como |M1={{Match…}} o, en las páginas nuevas, sin nombre: |{{Match…}}
+                named = sorted((k for k in p if re.fullmatch(r'M\d+', k)), key=lambda k: int(k[1:]))
+                pos = sorted((k for k in p if k.isdigit()), key=int)
+                slots = [(k, p[k]) for k in named] + [(f'M{i + 1 + len(named)}', p[k]) for i, k in enumerate(pos)]
+                for k, body in slots:
                     header = strip_markup(p.get(f'{k}header', '')) or header
-                    for n2, i2 in templates(p[k]):
+                    for n2, i2 in templates(body):
                         if n2.lower() == 'match':
                             items.append((k, header, i2))
                 if items:
@@ -326,6 +333,10 @@ def scan_page(wikitext: str):
                             slots[k] = (strip_markup(p.get(f'{k}header', '')), i2)
                 if slots:
                     brackets.append((re.sub(r'\W+', '', p.get('id', '')) or f'b{len(brackets)}', slots))
+            elif low.startswith('showbracket'):          # cuadro definido en otra página: se resuelve después
+                bid = re.sub(r'\W+', '', params(inner).get('id', ''))
+                if bid:
+                    brackets.append((bid, None))
             elif depth < 4 and low not in ('match', 'map'):
                 walk(inner, depth + 1)       # plantillas que envuelven otras (tabs, cajas…)
     walk(wikitext)
@@ -340,7 +351,7 @@ def list_matches(lists, sid: str, stype: str) -> list[dict]:
             rnd = base
             if header and stype != 'swiss':
                 rnd = f'{base} · {round_label(header, header)}'
-            elif header and stype == 'swiss' and not title:
+            elif header and stype == 'swiss' and not title and not re.match(r'[A-Z][a-z]+ \d', header):
                 rnd = round_label(header, base)
             out.append(parse_match(inner, sid, stype, f'{sid}-{lid}-{k}', rnd))
     return out
@@ -437,6 +448,11 @@ def build_major(cfg: dict, main_text: str, pages: dict[str, str], links: list[tu
     """Fases y partidos de un Major a partir de su página principal y sus subpáginas."""
     stages, matches = [], []
     subs = [(lk, nm, pages.get(lk)) for lk, nm in links]
+    known = {}                                             # cuadros por id, de todas las páginas (para {{ShowBracket}})
+    for t in [main_text] + [t for _, _, t in subs]:
+        for bid, slots in scan_page(t or '')[1]:
+            if slots:
+                known[bid] = slots
     sub_has = any(scan_page(t or '')[0] or scan_page(t or '')[1] for _, _, t in subs)
     sources = ([] if sub_has else [(cfg['page'], 'Principal', main_text)]) + subs
     n_list = 0
@@ -448,6 +464,8 @@ def build_major(cfg: dict, main_text: str, pages: dict[str, str], links: list[tu
             if sum(len(x[2]) for x in lists_) < 6 and not br_:
                 continue                                   # en la principal solo hay un showmatch o similar
         lists, brackets = scan_page(text or '')
+        brackets = [(bid, slots or known.get(bid)) for bid, slots in brackets]
+        brackets = [(bid, slots) for bid, slots in brackets if slots]
         if lists:
             swiss = bool(re.search(r'swiss', text, re.I)) or (bool(SWISS_HINT.search(name)) and not re.search(r'group', name, re.I))
             n_list += 1
@@ -822,6 +840,35 @@ def rename_teams(renames: dict[str, str]):
         write_json(f, d)
 
 
+def fix_saved_names():
+    """Corrige en los ficheros ya guardados los nombres sacados de plantillas cortas («Vit» → «Vitality»…)."""
+    canon = {**TEAM_NAMES, **ALIAS}
+    renames = {}
+    for key, good in canon.items():
+        bad = key if any(c.isupper() for c in key) else key.title()
+        if bad != good:
+            renames[bad] = good
+    seen = set()
+    for f in OUT.glob('*.json'):
+        d = json.loads(f.read_text('utf-8'))
+        for m in d.get('matches', []):
+            seen.update((m['t1'], m['t2']))
+        for m in d.get('majors', []):
+            seen.update((m.get('champion'), m.get('runnerup')))
+    todo = {a: b for a, b in renames.items() if a in seen and a not in canon.values()}
+    if todo:
+        rename_teams(todo)
+        if TEAMS_JSON.exists():
+            db = json.loads(TEAMS_JSON.read_text('utf-8'))
+            for a, b in todo.items():
+                if a in db.get('teams', {}):
+                    old = db['teams'].pop(a)
+                    db['teams'][b] = {**old, **{x: y for x, y in db['teams'].get(b, {}).items() if y}}
+            db['teams'] = dict(sorted(db['teams'].items()))
+            write_json(TEAMS_JSON, db)
+        log('Nombres corregidos: ' + ', '.join(f'{a} → {b}' for a, b in todo.items()))
+
+
 def save_debug():
     """Guarda (una vez) el wikitext de las fases en las que no se reconocieron partidos, para poder revisarlas."""
     folder = ROOT / 'data' / 'debug'
@@ -922,6 +969,7 @@ def main(argv: list[str]) -> int:
              'majors': [results[c['id']] for c in MAJORS], 'errors': errors}
     write_json(idx_path, index)
     save_debug()
+    fix_saved_names()
     seen = set()
     for f in OUT.glob('*.json'):
         if f.name == 'index.json':
