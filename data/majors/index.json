@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T10:08:46Z",
- "calls": 20,
+ "checked": "2026-11-15T10:15:14Z",
+ "calls": 2,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -216,8 +216,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:08:46Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2016-cologne",
@@ -242,8 +243,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:08:46Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2017-atlanta",
@@ -268,8 +270,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:08:46Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2017-krakow",
@@ -294,8 +297,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:08:46Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2018-boston",
@@ -509,8 +513,9 @@
    "loaded": true,
    "frozen": false,
    "checked": "2026-11-15T10:08:46Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2024-copenhagen",
@@ -535,8 +540,9 @@
    "loaded": true,
    "frozen": false,
    "checked": "2026-11-15T10:08:46Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2024-shanghai",
@@ -669,8 +675,9 @@
    "loaded": true,
    "frozen": false,
    "checked": "2026-11-15T10:08:46Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2027-buenos-aires",
@@ -727,5 +734,7 @@
    "parser": null
   }
  ],
- "errors": []
+ "errors": [
+  "PGL Major Singapore 2026: Liquipedia pidió esperar (429); se sigue en la próxima ejecución"
+ ]
 }

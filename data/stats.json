@@ -1,0 +1,7334 @@
+{
+ "teams": {
+  "00 Nation": {
+   "majors": [
+    {
+     "id": "2022-rio",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Vertigo": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ],
+    "Ancient": [
+     1,
+     0,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ],
+    "Overpass": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "100 Thieves": {
+   "majors": [
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {},
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "1W": {
+   "majors": [
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {},
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "3DMAX": {
+   "majors": [
+    {
+     "id": "2024-shanghai",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 4,
+     "l": 4
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 4,
+     "l": 5
+    }
+   ],
+   "maps": {
+    "Vertigo": [
+     0,
+     1,
+     0
+    ],
+    "Dust II": [
+     2,
+     4,
+     0
+    ],
+    "Ancient": [
+     2,
+     2,
+     0
+    ],
+    "Nuke": [
+     2,
+     5,
+     0
+    ],
+    "Anubis": [
+     1,
+     0,
+     0
+    ],
+    "Inferno": [
+     3,
+     5,
+     0
+    ],
+    "Train": [
+     3,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "9INE": {
+   "majors": [
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ],
+    "Anubis": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "9Z": {
+   "majors": [
+    {
+     "id": "2022-antwerp",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2022-rio",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 4
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     2,
+     5,
+     0
+    ],
+    "Overpass": [
+     4,
+     3,
+     0
+    ],
+    "Ancient": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     3,
+     2,
+     0
+    ],
+    "Nuke": [
+     2,
+     4,
+     0
+    ],
+    "Dust II": [
+     3,
+     4,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "AVANGAR": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 8,
+     "l": 4
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     3,
+     3,
+     0
+    ],
+    "Dust II": [
+     4,
+     3,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     2,
+     1,
+     0
+    ],
+    "Overpass": [
+     2,
+     1,
+     0
+    ],
+    "Vertigo": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 1
+  },
+  "All-Stars Europe": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 1
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "All-Stars North America": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Amkal Esports": {
+   "majors": [
+    {
+     "id": "2024-copenhagen",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     0,
+     2,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     1,
+     0,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Apeks": {
+   "majors": [
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 6,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Ancient": [
+     4,
+     2,
+     0
+    ],
+    "Mirage": [
+     2,
+     1,
+     0
+    ],
+    "Anubis": [
+     1,
+     1,
+     0
+    ],
+    "Inferno": [
+     0,
+     2,
+     0
+    ],
+    "Vertigo": [
+     1,
+     2,
+     0
+    ],
+    "Overpass": [
+     1,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Astralis": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 6,
+     "l": 2
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 2
+    },
+    {
+     "id": "2019-berlin",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 6,
+     "l": 1
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 4,
+     "l": 5
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Train": [
+     6,
+     4,
+     0
+    ],
+    "Overpass": [
+     11,
+     5,
+     0
+    ],
+    "Cache": [
+     4,
+     0,
+     0
+    ],
+    "Inferno": [
+     6,
+     3,
+     0
+    ],
+    "Dust II": [
+     4,
+     6,
+     0
+    ],
+    "Cobblestone": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     4,
+     3,
+     0
+    ],
+    "Nuke": [
+     6,
+     9,
+     0
+    ],
+    "Vertigo": [
+     4,
+     1,
+     0
+    ],
+    "Ancient": [
+     2,
+     4,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 2,
+   "finals": 2
+  },
+  "Aurora": {
+   "majors": [
+    {
+     "id": "2025-austin",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 2
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Anubis": [
+     4,
+     1,
+     0
+    ],
+    "Dust II": [
+     3,
+     3,
+     0
+    ],
+    "Inferno": [
+     1,
+     1,
+     0
+    ],
+    "Train": [
+     0,
+     2,
+     0
+    ],
+    "Mirage": [
+     0,
+     2,
+     0
+    ],
+    "Overpass": [
+     1,
+     1,
+     0
+    ],
+    "Nuke": [
+     4,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "B8": {
+   "majors": [
+    {
+     "id": "2025-austin",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 8,
+     "l": 5
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 6,
+     "l": 5
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     6,
+     3,
+     0
+    ],
+    "Train": [
+     0,
+     5,
+     0
+    ],
+    "Dust II": [
+     8,
+     2,
+     0
+    ],
+    "Ancient": [
+     9,
+     4,
+     0
+    ],
+    "Mirage": [
+     4,
+     8,
+     0
+    ],
+    "Anubis": [
+     0,
+     1,
+     0
+    ],
+    "Overpass": [
+     1,
+     2,
+     0
+    ],
+    "Nuke": [
+     2,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "BIG": {
+   "majors": [
+    {
+     "id": "2017-krakow",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2022-rio",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 4
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 3,
+     "l": 5
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 5,
+     "l": 5
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     6,
+     3,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     0,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ],
+    "Nuke": [
+     5,
+     8,
+     0
+    ],
+    "Dust II": [
+     7,
+     4,
+     0
+    ],
+    "Mirage": [
+     3,
+     10,
+     0
+    ],
+    "Ancient": [
+     2,
+     2,
+     0
+    ],
+    "Vertigo": [
+     4,
+     3,
+     0
+    ],
+    "Overpass": [
+     1,
+     3,
+     0
+    ],
+    "Anubis": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "BOT Bardolph": {
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Cache": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Bad News Eagles": {
+   "majors": [
+    {
+     "id": "2022-antwerp",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 3,
+     "l": 5
+    },
+    {
+     "id": "2022-rio",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 4,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     2,
+     1,
+     0
+    ],
+    "Inferno": [
+     0,
+     3,
+     0
+    ],
+    "Vertigo": [
+     4,
+     1,
+     0
+    ],
+    "Nuke": [
+     0,
+     4,
+     0
+    ],
+    "Ancient": [
+     3,
+     6,
+     0
+    ],
+    "Mirage": [
+     2,
+     2,
+     0
+    ],
+    "Overpass": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "BetBoom Team": {
+   "majors": [
+    {
+     "id": "2025-austin",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 3,
+     "l": 4
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 9,
+     "l": 4
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Train": [
+     1,
+     1,
+     0
+    ],
+    "Mirage": [
+     2,
+     4,
+     0
+    ],
+    "Anubis": [
+     2,
+     3,
+     0
+    ],
+    "Nuke": [
+     5,
+     2,
+     0
+    ],
+    "Dust II": [
+     5,
+     2,
+     0
+    ],
+    "Ancient": [
+     3,
+     0,
+     0
+    ],
+    "Overpass": [
+     0,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "CR4ZY": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 4
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     1,
+     1,
+     0
+    ],
+    "Train": [
+     2,
+     1,
+     0
+    ],
+    "Mirage": [
+     4,
+     1,
+     0
+    ],
+    "Inferno": [
+     0,
+     4,
+     0
+    ],
+    "Dust II": [
+     2,
+     0,
+     0
+    ],
+    "Vertigo": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Chinggis Warriors": {
+   "majors": [
+    {
+     "id": "2025-austin",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Anubis": [
+     0,
+     1,
+     0
+    ],
+    "Nuke": [
+     2,
+     1,
+     0
+    ],
+    "Ancient": [
+     0,
+     2,
+     0
+    ],
+    "Mirage": [
+     1,
+     0,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Cloud9": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2022-rio",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 6,
+     "l": 1
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Train": [
+     1,
+     2,
+     0
+    ],
+    "Dust II": [
+     1,
+     2,
+     0
+    ],
+    "Mirage": [
+     4,
+     2,
+     0
+    ],
+    "Inferno": [
+     2,
+     3,
+     0
+    ],
+    "Cobblestone": [
+     0,
+     1,
+     0
+    ],
+    "Nuke": [
+     1,
+     1,
+     0
+    ],
+    "Overpass": [
+     7,
+     2,
+     0
+    ],
+    "Vertigo": [
+     3,
+     1,
+     0
+    ],
+    "Ancient": [
+     3,
+     4,
+     0
+    ],
+    "Anubis": [
+     2,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Complexity": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     3,
+     8,
+     0
+    ],
+    "Overpass": [
+     1,
+     4,
+     0
+    ],
+    "Vertigo": [
+     5,
+     1,
+     0
+    ],
+    "Dust II": [
+     0,
+     2,
+     0
+    ],
+    "Nuke": [
+     1,
+     2,
+     0
+    ],
+    "Ancient": [
+     2,
+     4,
+     0
+    ],
+    "Anubis": [
+     1,
+     4,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Copenhagen Flames": {
+   "majors": [
+    {
+     "id": "2021-stockholm",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     2,
+     1,
+     0
+    ],
+    "Nuke": [
+     3,
+     4,
+     0
+    ],
+    "Vertigo": [
+     3,
+     1,
+     0
+    ],
+    "Ancient": [
+     4,
+     4,
+     0
+    ],
+    "Inferno": [
+     2,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Counter Logic Gaming": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2
+    }
+   ],
+   "maps": {
+    "Cobblestone": [
+     2,
+     1,
+     0
+    ],
+    "Overpass": [
+     0,
+     1,
+     0
+    ],
+    "Cache": [
+     0,
+     2,
+     0
+    ],
+    "Mirage": [
+     1,
+     1,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "DENDELE CS": {
+   "majors": [
+    {
+     "id": "2021-stockholm",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     0,
+     2,
+     0
+    ],
+    "Mirage": [
+     0,
+     2,
+     0
+    ],
+    "Vertigo": [
+     1,
+     0,
+     0
+    ],
+    "Ancient": [
+     0,
+     1,
+     0
+    ],
+    "Nuke": [
+     2,
+     1,
+     0
+    ],
+    "Overpass": [
+     0,
+     1,
+     0
+    ],
+    "Anubis": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Dignitas": {
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 1
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "DreamEaters": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 3,
+     "l": 5
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     2,
+     2,
+     0
+    ],
+    "Inferno": [
+     2,
+     0,
+     0
+    ],
+    "Dust II": [
+     0,
+     2,
+     0
+    ],
+    "Mirage": [
+     1,
+     2,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "ENCE": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 3,
+     "l": 4
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 7,
+     "l": 3
+    },
+    {
+     "id": "2022-rio",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 4,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     1,
+     3,
+     0
+    ],
+    "Inferno": [
+     1,
+     0,
+     0
+    ],
+    "Nuke": [
+     11,
+     4,
+     0
+    ],
+    "Dust II": [
+     2,
+     5,
+     0
+    ],
+    "Mirage": [
+     5,
+     6,
+     0
+    ],
+    "Vertigo": [
+     5,
+     4,
+     0
+    ],
+    "Ancient": [
+     2,
+     4,
+     0
+    ],
+    "Anubis": [
+     2,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Ecstatic": {
+   "majors": [
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 4,
+     "l": 4
+    }
+   ],
+   "maps": {
+    "Ancient": [
+     1,
+     1,
+     0
+    ],
+    "Nuke": [
+     1,
+     0,
+     0
+    ],
+    "Overpass": [
+     2,
+     2,
+     0
+    ],
+    "Anubis": [
+     1,
+     1,
+     0
+    ],
+    "Inferno": [
+     0,
+     3,
+     0
+    ],
+    "Vertigo": [
+     2,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Entropiq": {
+   "majors": [
+    {
+     "id": "2021-stockholm",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 4
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     2,
+     1,
+     0
+    ],
+    "Dust II": [
+     1,
+     2,
+     0
+    ],
+    "Mirage": [
+     2,
+     2,
+     0
+    ],
+    "Ancient": [
+     0,
+     2,
+     0
+    ],
+    "Vertigo": [
+     2,
+     1,
+     0
+    ],
+    "Overpass": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Eternal Fire": {
+   "majors": [
+    {
+     "id": "2022-antwerp",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 6,
+     "l": 2
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     0,
+     2,
+     0
+    ],
+    "Vertigo": [
+     3,
+     3,
+     0
+    ],
+    "Nuke": [
+     1,
+     1,
+     0
+    ],
+    "Anubis": [
+     1,
+     0,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ],
+    "Overpass": [
+     1,
+     2,
+     0
+    ],
+    "Inferno": [
+     3,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Evil Geniuses": {
+   "majors": [
+    {
+     "id": "2021-stockholm",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2022-rio",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     0,
+     3,
+     0
+    ],
+    "Nuke": [
+     1,
+     2,
+     0
+    ],
+    "Inferno": [
+     1,
+     0,
+     0
+    ],
+    "Vertigo": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ],
+    "Overpass": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "FORZE Esports": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     1,
+     4,
+     0
+    ],
+    "Train": [
+     1,
+     0,
+     0
+    ],
+    "Nuke": [
+     4,
+     1,
+     0
+    ],
+    "Dust II": [
+     1,
+     2,
+     0
+    ],
+    "Overpass": [
+     0,
+     4,
+     0
+    ],
+    "Mirage": [
+     0,
+     5,
+     0
+    ],
+    "Ancient": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "FURIA": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2022-rio",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 7,
+     "l": 2
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 3,
+     "l": 5
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 5,
+     "l": 4
+    },
+    {
+     "id": "2025-austin",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 2
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 5,
+     "l": 1
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     12,
+     11,
+     0
+    ],
+    "Train": [
+     2,
+     3,
+     0
+    ],
+    "Nuke": [
+     6,
+     9,
+     0
+    ],
+    "Vertigo": [
+     9,
+     4,
+     0
+    ],
+    "Ancient": [
+     6,
+     6,
+     0
+    ],
+    "Overpass": [
+     6,
+     2,
+     0
+    ],
+    "Mirage": [
+     9,
+     6,
+     0
+    ],
+    "Anubis": [
+     1,
+     2,
+     0
+    ],
+    "Dust II": [
+     8,
+     3,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 1
+  },
+  "FaZe Clan": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2019-berlin",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 6,
+     "l": 1
+    },
+    {
+     "id": "2022-rio",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 6,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 4
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 11,
+     "l": 5
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Cache": [
+     0,
+     2,
+     0
+    ],
+    "Inferno": [
+     14,
+     9,
+     0
+    ],
+    "Mirage": [
+     12,
+     14,
+     0
+    ],
+    "Cobblestone": [
+     0,
+     2,
+     0
+    ],
+    "Dust II": [
+     9,
+     6,
+     0
+    ],
+    "Nuke": [
+     21,
+     5,
+     0
+    ],
+    "Overpass": [
+     5,
+     10,
+     0
+    ],
+    "Train": [
+     0,
+     2,
+     0
+    ],
+    "Vertigo": [
+     0,
+     2,
+     0
+    ],
+    "Ancient": [
+     11,
+     5,
+     0
+    ],
+    "Anubis": [
+     7,
+     4,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 1,
+   "finals": 4
+  },
+  "FlipSid3 Tactics": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 2,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Cache": [
+     1,
+     1,
+     0
+    ],
+    "Cobblestone": [
+     0,
+     1,
+     0
+    ],
+    "Train": [
+     2,
+     4,
+     0
+    ],
+    "Overpass": [
+     0,
+     2,
+     0
+    ],
+    "Mirage": [
+     2,
+     2,
+     0
+    ],
+    "Nuke": [
+     0,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Fluxo": {
+   "majors": [
+    {
+     "id": "2023-paris",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 2,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     0,
+     3,
+     0
+    ],
+    "Overpass": [
+     0,
+     2,
+     0
+    ],
+    "Nuke": [
+     3,
+     2,
+     0
+    ],
+    "Inferno": [
+     0,
+     4,
+     0
+    ],
+    "Ancient": [
+     1,
+     2,
+     0
+    ],
+    "Train": [
+     1,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "FlyQuest": {
+   "majors": [
+    {
+     "id": "2024-shanghai",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 3,
+     "l": 5
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Anubis": [
+     4,
+     3,
+     0
+    ],
+    "Nuke": [
+     1,
+     3,
+     0
+    ],
+    "Inferno": [
+     6,
+     5,
+     0
+    ],
+    "Vertigo": [
+     0,
+     1,
+     0
+    ],
+    "Ancient": [
+     2,
+     2,
+     0
+    ],
+    "Mirage": [
+     1,
+     4,
+     0
+    ],
+    "Train": [
+     1,
+     1,
+     0
+    ],
+    "Overpass": [
+     1,
+     1,
+     0
+    ],
+    "Dust II": [
+     0,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Fnatic": {
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 0,
+     "l": 1
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 2
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 0,
+     "l": 1
+    },
+    {
+     "id": "2022-rio",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 4
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 2
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 0,
+     "l": 1
+    }
+   ],
+   "maps": {
+    "Cobblestone": [
+     2,
+     1,
+     0
+    ],
+    "Cache": [
+     1,
+     3,
+     0
+    ],
+    "Dust II": [
+     2,
+     0,
+     0
+    ],
+    "Overpass": [
+     0,
+     3,
+     0
+    ],
+    "Nuke": [
+     3,
+     1,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     1,
+     2,
+     0
+    ],
+    "Mirage": [
+     2,
+     4,
+     0
+    ],
+    "Vertigo": [
+     0,
+     2,
+     0
+    ],
+    "Ancient": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Fnc": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2022-rio",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 3,
+     "l": 0
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 1
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 0,
+     "l": 2
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 4,
+     "l": 4
+    }
+   ],
+   "maps": {
+    "Train": [
+     4,
+     1,
+     0
+    ],
+    "Dust II": [
+     1,
+     3,
+     0
+    ],
+    "Mirage": [
+     5,
+     1,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     0,
+     0
+    ],
+    "Overpass": [
+     2,
+     3,
+     0
+    ],
+    "Cache": [
+     2,
+     2,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     5,
+     3,
+     0
+    ],
+    "Ancient": [
+     3,
+     2,
+     0
+    ],
+    "Vertigo": [
+     1,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Fut": {
+   "majors": [
+    {
+     "id": "2026-cologne",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Ancient": [
+     5,
+     0,
+     0
+    ],
+    "Overpass": [
+     1,
+     3,
+     0
+    ],
+    "Anubis": [
+     2,
+     0,
+     0
+    ],
+    "Nuke": [
+     0,
+     2,
+     0
+    ],
+    "Mirage": [
+     2,
+     2,
+     0
+    ],
+    "Dust II": [
+     0,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "G2 Esports": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2019-berlin",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 4
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 5,
+     "l": 1
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 4,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 2
+    },
+    {
+     "id": "2025-austin",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 4
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Train": [
+     1,
+     4,
+     0
+    ],
+    "Dust II": [
+     11,
+     7,
+     0
+    ],
+    "Inferno": [
+     21,
+     7,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     2,
+     0
+    ],
+    "Cache": [
+     1,
+     1,
+     0
+    ],
+    "Nuke": [
+     1,
+     8,
+     0
+    ],
+    "Overpass": [
+     8,
+     6,
+     0
+    ],
+    "Vertigo": [
+     0,
+     7,
+     0
+    ],
+    "Ancient": [
+     3,
+     12,
+     0
+    ],
+    "Mirage": [
+     16,
+     3,
+     0
+    ],
+    "Anubis": [
+     4,
+     3,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 1
+  },
+  "GODSENT": {
+   "majors": [
+    {
+     "id": "2017-atlanta",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Train": [
+     1,
+     0,
+     0
+    ],
+    "Overpass": [
+     0,
+     2,
+     0
+    ],
+    "Cache": [
+     1,
+     1,
+     0
+    ],
+    "Nuke": [
+     0,
+     3,
+     0
+    ],
+    "Vertigo": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "GOSH": {
+   "majors": [
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {},
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Gaimin": {
+   "majors": [
+    {
+     "id": "2026-cologne",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     0,
+     2,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Gambit Esports": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 1
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 6,
+     "l": 0
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 2
+    }
+   ],
+   "maps": {
+    "Train": [
+     4,
+     3,
+     0
+    ],
+    "Cache": [
+     3,
+     2,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     2,
+     0
+    ],
+    "Mirage": [
+     0,
+     2,
+     0
+    ],
+    "Dust II": [
+     3,
+     1,
+     0
+    ],
+    "Overpass": [
+     6,
+     1,
+     0
+    ],
+    "Inferno": [
+     5,
+     1,
+     0
+    ],
+    "Vertigo": [
+     1,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 1,
+   "finals": 1
+  },
+  "GamerLegion": {
+   "majors": [
+    {
+     "id": "2022-rio",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 6,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 4,
+     "l": 4
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 3,
+     "l": 4
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     6,
+     6,
+     0
+    ],
+    "Vertigo": [
+     3,
+     3,
+     0
+    ],
+    "Ancient": [
+     5,
+     4,
+     0
+    ],
+    "Mirage": [
+     3,
+     9,
+     0
+    ],
+    "Overpass": [
+     10,
+     2,
+     0
+    ],
+    "Nuke": [
+     1,
+     6,
+     0
+    ],
+    "Anubis": [
+     1,
+     1,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 1
+  },
+  "Grayhound": {
+   "majors": [
+    {
+     "id": "2022-rio",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     0,
+     2,
+     0
+    ],
+    "Dust II": [
+     1,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Grayhound Gaming": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     1,
+     2,
+     0
+    ],
+    "Train": [
+     1,
+     1,
+     0
+    ],
+    "Dust II": [
+     2,
+     1,
+     0
+    ],
+    "Inferno": [
+     1,
+     3,
+     0
+    ],
+    "Overpass": [
+     1,
+     0,
+     0
+    ],
+    "Mirage": [
+     1,
+     2,
+     0
+    ],
+    "Anubis": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "HEROIC": {
+   "majors": [
+    {
+     "id": "2021-stockholm",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 7,
+     "l": 4
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2022-rio",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 5,
+     "l": 2
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 3,
+     "l": 0
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 4,
+     "l": 3
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     8,
+     4,
+     0
+    ],
+    "Nuke": [
+     6,
+     9,
+     0
+    ],
+    "Vertigo": [
+     5,
+     3,
+     0
+    ],
+    "Overpass": [
+     7,
+     3,
+     0
+    ],
+    "Ancient": [
+     9,
+     8,
+     0
+    ],
+    "Mirage": [
+     13,
+     9,
+     0
+    ],
+    "Anubis": [
+     1,
+     2,
+     0
+    ],
+    "Dust II": [
+     2,
+     5,
+     0
+    ],
+    "Train": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 1
+  },
+  "HellRaisers": {
+   "majors": [
+    {
+     "id": "2017-atlanta",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2019-berlin",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     0,
+     3,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     1,
+     2,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Huns": {
+   "majors": [
+    {
+     "id": "2025-budapest",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     0,
+     2,
+     0
+    ],
+    "Ancient": [
+     1,
+     1,
+     0
+    ],
+    "Dust II": [
+     1,
+     0,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "IHC Esports": {
+   "majors": [
+    {
+     "id": "2022-antwerp",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2022-rio",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     0,
+     3,
+     0
+    ],
+    "Inferno": [
+     2,
+     2,
+     0
+    ],
+    "Dust II": [
+     1,
+     0,
+     0
+    ],
+    "Mirage": [
+     1,
+     0,
+     0
+    ],
+    "Overpass": [
+     1,
+     2,
+     0
+    ],
+    "Ancient": [
+     0,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "INTZ": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Train": [
+     0,
+     2,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ],
+    "Nuke": [
+     1,
+     0,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Immortals": {
+   "majors": [
+    {
+     "id": "2017-krakow",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 5,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     1,
+     2,
+     0
+    ],
+    "Train": [
+     3,
+     1,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     1,
+     0
+    ],
+    "Inferno": [
+     2,
+     1,
+     0
+    ],
+    "Mirage": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 1
+  },
+  "Imperial": {
+   "majors": [
+    {
+     "id": "2022-antwerp",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 5
+    },
+    {
+     "id": "2022-rio",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 4,
+     "l": 5
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 7,
+     "l": 6
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     5,
+     5,
+     0
+    ],
+    "Inferno": [
+     5,
+     7,
+     0
+    ],
+    "Vertigo": [
+     0,
+     5,
+     0
+    ],
+    "Mirage": [
+     6,
+     9,
+     0
+    ],
+    "Overpass": [
+     4,
+     3,
+     0
+    ],
+    "Nuke": [
+     5,
+     2,
+     0
+    ],
+    "Anubis": [
+     2,
+     2,
+     0
+    ],
+    "Ancient": [
+     0,
+     1,
+     0
+    ],
+    "Train": [
+     2,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Into The Breach": {
+   "majors": [
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 3,
+     "l": 2
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     1,
+     1,
+     0
+    ],
+    "Vertigo": [
+     2,
+     0,
+     0
+    ],
+    "Overpass": [
+     1,
+     1,
+     0
+    ],
+    "Anubis": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "K23": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     1,
+     1,
+     0
+    ],
+    "Train": [
+     1,
+     1,
+     0
+    ],
+    "Inferno": [
+     1,
+     2,
+     0
+    ],
+    "Mirage": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "KOI": {
+   "majors": [
+    {
+     "id": "2024-copenhagen",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     0,
+     2,
+     0
+    ],
+    "Overpass": [
+     0,
+     1,
+     0
+    ],
+    "Vertigo": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Legacy": {
+   "majors": [
+    {
+     "id": "2024-copenhagen",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 8,
+     "l": 5
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 4,
+     "l": 5
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Ancient": [
+     3,
+     5,
+     0
+    ],
+    "Overpass": [
+     0,
+     2,
+     0
+    ],
+    "Vertigo": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     10,
+     2,
+     0
+    ],
+    "Anubis": [
+     0,
+     3,
+     0
+    ],
+    "Dust II": [
+     5,
+     7,
+     0
+    ],
+    "Nuke": [
+     5,
+     3,
+     0
+    ],
+    "Mirage": [
+     3,
+     1,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Luminosity Gaming": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 5,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     4,
+     0,
+     0
+    ],
+    "Cache": [
+     1,
+     1,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     0,
+     0
+    ],
+    "Overpass": [
+     2,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 1,
+   "finals": 1
+  },
+  "Lynn Vision": {
+   "majors": [
+    {
+     "id": "2024-copenhagen",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 7,
+     "l": 7
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     2,
+     8,
+     0
+    ],
+    "Overpass": [
+     1,
+     1,
+     0
+    ],
+    "Ancient": [
+     1,
+     4,
+     0
+    ],
+    "Anubis": [
+     2,
+     2,
+     0
+    ],
+    "Dust II": [
+     6,
+     4,
+     0
+    ],
+    "Inferno": [
+     2,
+     4,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "M80": {
+   "majors": [
+    {
+     "id": "2025-austin",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 4,
+     "l": 4
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Train": [
+     1,
+     3,
+     0
+    ],
+    "Ancient": [
+     3,
+     2,
+     0
+    ],
+    "Dust II": [
+     2,
+     5,
+     0
+    ],
+    "Mirage": [
+     6,
+     2,
+     0
+    ],
+    "Inferno": [
+     2,
+     3,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "MIBR": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 5,
+     "l": 5
+    },
+    {
+     "id": "2025-austin",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 4,
+     "l": 4
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     1,
+     1,
+     0
+    ],
+    "Inferno": [
+     5,
+     6,
+     0
+    ],
+    "Mirage": [
+     2,
+     8,
+     0
+    ],
+    "Overpass": [
+     1,
+     1,
+     0
+    ],
+    "Vertigo": [
+     2,
+     1,
+     0
+    ],
+    "Nuke": [
+     7,
+     4,
+     0
+    ],
+    "Ancient": [
+     2,
+     6,
+     0
+    ],
+    "Anubis": [
+     2,
+     4,
+     0
+    ],
+    "Train": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "MOUZ": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2019-berlin",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 4,
+     "l": 5
+    },
+    {
+     "id": "2022-rio",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 7,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 3,
+     "l": 0
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     7,
+     18,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     4,
+     0
+    ],
+    "Cache": [
+     2,
+     0,
+     0
+    ],
+    "Overpass": [
+     6,
+     5,
+     0
+    ],
+    "Train": [
+     4,
+     4,
+     0
+    ],
+    "Dust II": [
+     6,
+     3,
+     0
+    ],
+    "Nuke": [
+     12,
+     7,
+     0
+    ],
+    "Inferno": [
+     12,
+     12,
+     0
+    ],
+    "Vertigo": [
+     5,
+     2,
+     0
+    ],
+    "Ancient": [
+     6,
+     6,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Metizport": {
+   "majors": [
+    {
+     "id": "2025-austin",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Monte": {
+   "majors": [
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 6,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 4,
+     "l": 5
+    }
+   ],
+   "maps": {
+    "Ancient": [
+     3,
+     2,
+     0
+    ],
+    "Overpass": [
+     1,
+     0,
+     0
+    ],
+    "Nuke": [
+     5,
+     3,
+     0
+    ],
+    "Anubis": [
+     2,
+     3,
+     0
+    ],
+    "Mirage": [
+     3,
+     3,
+     0
+    ],
+    "Vertigo": [
+     1,
+     0,
+     0
+    ],
+    "Dust II": [
+     2,
+     2,
+     0
+    ],
+    "Inferno": [
+     1,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Movistar Riders": {
+   "majors": [
+    {
+     "id": "2021-stockholm",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     1,
+     0,
+     0
+    ],
+    "Vertigo": [
+     1,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     2,
+     0
+    ],
+    "Inferno": [
+     1,
+     1,
+     0
+    ],
+    "Overpass": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "NRG": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 7,
+     "l": 2
+    },
+    {
+     "id": "2025-austin",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 2,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     1,
+     2,
+     0
+    ],
+    "Train": [
+     3,
+     2,
+     0
+    ],
+    "Inferno": [
+     2,
+     4,
+     0
+    ],
+    "Dust II": [
+     5,
+     5,
+     0
+    ],
+    "Nuke": [
+     3,
+     2,
+     0
+    ],
+    "Mirage": [
+     3,
+     3,
+     0
+    ],
+    "Anubis": [
+     1,
+     0,
+     0
+    ],
+    "Ancient": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Natus Vincere": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 4,
+     "l": 1
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 1
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2019-berlin",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 6,
+     "l": 0
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 5,
+     "l": 1
+    },
+    {
+     "id": "2022-rio",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 7,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Train": [
+     9,
+     2,
+     0
+    ],
+    "Cobblestone": [
+     4,
+     1,
+     0
+    ],
+    "Inferno": [
+     8,
+     8,
+     0
+    ],
+    "Mirage": [
+     18,
+     13,
+     0
+    ],
+    "Dust II": [
+     7,
+     4,
+     0
+    ],
+    "Overpass": [
+     6,
+     6,
+     0
+    ],
+    "Nuke": [
+     14,
+     8,
+     0
+    ],
+    "Ancient": [
+     11,
+     5,
+     0
+    ],
+    "Anubis": [
+     0,
+     6,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 2,
+   "finals": 4
+  },
+  "Nemiga": {
+   "majors": [
+    {
+     "id": "2025-austin",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 6,
+     "l": 6
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Train": [
+     1,
+     2,
+     0
+    ],
+    "Dust II": [
+     3,
+     4,
+     0
+    ],
+    "Ancient": [
+     4,
+     0,
+     0
+    ],
+    "Inferno": [
+     1,
+     0,
+     0
+    ],
+    "Mirage": [
+     1,
+     0,
+     0
+    ],
+    "Anubis": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Ninjas in Pyjamas": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2
+    },
+    {
+     "id": "2019-berlin",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2022-rio",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 4
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 5,
+     "l": 4
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Cache": [
+     1,
+     2,
+     0
+    ],
+    "Mirage": [
+     5,
+     5,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     1,
+     0
+    ],
+    "Overpass": [
+     5,
+     3,
+     0
+    ],
+    "Inferno": [
+     6,
+     7,
+     0
+    ],
+    "Dust II": [
+     1,
+     4,
+     0
+    ],
+    "Train": [
+     2,
+     4,
+     0
+    ],
+    "Nuke": [
+     5,
+     5,
+     0
+    ],
+    "Ancient": [
+     2,
+     4,
+     0
+    ],
+    "Vertigo": [
+     0,
+     3,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "North": {
+   "majors": [
+    {
+     "id": "2017-atlanta",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2019-berlin",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 4,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Cobblestone": [
+     1,
+     4,
+     0
+    ],
+    "Mirage": [
+     3,
+     3,
+     0
+    ],
+    "Overpass": [
+     2,
+     1,
+     0
+    ],
+    "Cache": [
+     1,
+     0,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ],
+    "Train": [
+     4,
+     0,
+     0
+    ],
+    "Inferno": [
+     1,
+     2,
+     0
+    ],
+    "Dust II": [
+     1,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "OG": {
+   "majors": [
+    {
+     "id": "2022-rio",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 3,
+     "l": 4
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     3,
+     2,
+     0
+    ],
+    "Mirage": [
+     2,
+     3,
+     0
+    ],
+    "Overpass": [
+     0,
+     2,
+     0
+    ],
+    "Ancient": [
+     4,
+     2,
+     0
+    ],
+    "Vertigo": [
+     0,
+     1,
+     0
+    ],
+    "Dust II": [
+     1,
+     1,
+     0
+    ],
+    "Anubis": [
+     0,
+     1,
+     0
+    ],
+    "Nuke": [
+     1,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Off Chops": {
+   "majors": [
+    {
+     "id": "2026-cologne",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     1,
+     2,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
+     0
+    ],
+    "Anubis": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "OpTic Gaming": {
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     0,
+     1,
+     0
+    ],
+    "Train": [
+     1,
+     2,
+     0
+    ],
+    "Cobblestone": [
+     0,
+     1,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Outsiders": {
+   "majors": [
+    {
+     "id": "2022-antwerp",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 4,
+     "l": 4
+    },
+    {
+     "id": "2022-rio",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 9,
+     "l": 2
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     2,
+     2,
+     0
+    ],
+    "Vertigo": [
+     1,
+     1,
+     0
+    ],
+    "Overpass": [
+     6,
+     2,
+     0
+    ],
+    "Mirage": [
+     6,
+     2,
+     0
+    ],
+    "Inferno": [
+     4,
+     2,
+     0
+    ],
+    "Ancient": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 1,
+   "finals": 1
+  },
+  "PARIVISION": {
+   "majors": [
+    {
+     "id": "2025-budapest",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 6,
+     "l": 6
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     2,
+     2,
+     0
+    ],
+    "Inferno": [
+     0,
+     6,
+     0
+    ],
+    "Overpass": [
+     2,
+     2,
+     0
+    ],
+    "Ancient": [
+     2,
+     3,
+     0
+    ],
+    "Dust II": [
+     5,
+     1,
+     0
+    ],
+    "Train": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "PENTA Sports": {
+   "majors": [
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     1,
+     1,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Passion UA": {
+   "majors": [
+    {
+     "id": "2024-shanghai",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 5,
+     "l": 5
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     5,
+     4,
+     0
+    ],
+    "Anubis": [
+     1,
+     0,
+     0
+    ],
+    "Inferno": [
+     3,
+     2,
+     0
+    ],
+    "Ancient": [
+     0,
+     2,
+     0
+    ],
+    "Dust II": [
+     1,
+     1,
+     0
+    ],
+    "Train": [
+     2,
+     1,
+     0
+    ],
+    "Overpass": [
+     1,
+     1,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "RED Canids": {
+   "majors": [
+    {
+     "id": "2025-budapest",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Ancient": [
+     0,
+     1,
+     0
+    ],
+    "Train": [
+     1,
+     0,
+     0
+    ],
+    "Nuke": [
+     0,
+     2,
+     0
+    ],
+    "Mirage": [
+     1,
+     0,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Rare Atom": {
+   "majors": [
+    {
+     "id": "2024-shanghai",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Anubis": [
+     1,
+     2,
+     0
+    ],
+    "Ancient": [
+     0,
+     2,
+     0
+    ],
+    "Inferno": [
+     1,
+     2,
+     0
+    ],
+    "Vertigo": [
+     1,
+     0,
+     0
+    ],
+    "Dust II": [
+     0,
+     2,
+     0
+    ],
+    "Overpass": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Renegades": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 3
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     0,
+     4,
+     0
+    ],
+    "Vertigo": [
+     2,
+     3,
+     0
+    ],
+    "Mirage": [
+     4,
+     1,
+     0
+    ],
+    "Train": [
+     1,
+     0,
+     0
+    ],
+    "Nuke": [
+     2,
+     3,
+     0
+    ],
+    "Inferno": [
+     1,
+     3,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "SAW": {
+   "majors": [
+    {
+     "id": "2024-copenhagen",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 2,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     1,
+     2,
+     0
+    ],
+    "Vertigo": [
+     1,
+     2,
+     0
+    ],
+    "Anubis": [
+     0,
+     1,
+     0
+    ],
+    "Ancient": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "SINNERS Esports": {
+   "majors": [
+    {
+     "id": "2026-cologne",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Ancient": [
+     0,
+     2,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "SK Gaming": {
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 5,
+     "l": 0
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 2
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 2
+    }
+   ],
+   "maps": {
+    "Cobblestone": [
+     3,
+     2,
+     0
+    ],
+    "Mirage": [
+     4,
+     1,
+     0
+    ],
+    "Nuke": [
+     2,
+     0,
+     0
+    ],
+    "Train": [
+     2,
+     1,
+     0
+    ],
+    "Dust II": [
+     1,
+     1,
+     0
+    ],
+    "Overpass": [
+     2,
+     1,
+     0
+    ],
+    "Inferno": [
+     2,
+     1,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 1,
+   "finals": 1
+  },
+  "Splyce": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2
+    }
+   ],
+   "maps": {
+    "Train": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Sprout": {
+   "majors": [
+    {
+     "id": "2022-rio",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Vertigo": [
+     1,
+     2,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ],
+    "Ancient": [
+     1,
+     0,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "TYLOO": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 4,
+     "l": 5
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 5,
+     "l": 5
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     0,
+     5,
+     0
+    ],
+    "Train": [
+     2,
+     4,
+     0
+    ],
+    "Vertigo": [
+     0,
+     2,
+     0
+    ],
+    "Inferno": [
+     4,
+     6,
+     0
+    ],
+    "Mirage": [
+     6,
+     3,
+     0
+    ],
+    "Anubis": [
+     2,
+     3,
+     0
+    ],
+    "Ancient": [
+     4,
+     1,
+     0
+    ],
+    "Nuke": [
+     1,
+     3,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Team Bardolph": {
+   "majors": [
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 0,
+     "l": 1
+    }
+   ],
+   "maps": {
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Team Dignitas": {
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 1
+    }
+   ],
+   "maps": {
+    "Cobblestone": [
+     2,
+     0,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Team EnVyUs": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 2,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Cobblestone": [
+     0,
+     3,
+     0
+    ],
+    "Cache": [
+     2,
+     1,
+     0
+    ],
+    "Train": [
+     0,
+     2,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Team Falcons": {
+   "majors": [
+    {
+     "id": "2025-austin",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 6,
+     "l": 1
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Ancient": [
+     2,
+     4,
+     0
+    ],
+    "Nuke": [
+     2,
+     5,
+     0
+    ],
+    "Dust II": [
+     5,
+     3,
+     0
+    ],
+    "Mirage": [
+     5,
+     2,
+     0
+    ],
+    "Inferno": [
+     3,
+     4,
+     0
+    ],
+    "Anubis": [
+     4,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 1,
+   "finals": 1
+  },
+  "Team Liquid": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 4,
+     "l": 2
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2019-berlin",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 3,
+     "l": 5
+    },
+    {
+     "id": "2022-rio",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 6,
+     "l": 3
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 2
+    },
+    {
+     "id": "2025-austin",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 0,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 3,
+     "l": 5
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Cache": [
+     3,
+     2,
+     0
+    ],
+    "Dust II": [
+     4,
+     7,
+     0
+    ],
+    "Mirage": [
+     11,
+     8,
+     0
+    ],
+    "Train": [
+     2,
+     4,
+     0
+    ],
+    "Cobblestone": [
+     3,
+     2,
+     0
+    ],
+    "Nuke": [
+     7,
+     5,
+     0
+    ],
+    "Overpass": [
+     5,
+     3,
+     0
+    ],
+    "Vertigo": [
+     2,
+     5,
+     0
+    ],
+    "Inferno": [
+     10,
+     9,
+     0
+    ],
+    "Ancient": [
+     6,
+     6,
+     0
+    ],
+    "Anubis": [
+     5,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 1
+  },
+  "Team Spirit": {
+   "majors": [
+    {
+     "id": "2021-stockholm",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 7,
+     "l": 2
+    },
+    {
+     "id": "2022-rio",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 3,
+     "l": 0
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 6,
+     "l": 1
+    },
+    {
+     "id": "2025-austin",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 1
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 7,
+     "l": 1
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     3,
+     5,
+     0
+    ],
+    "Nuke": [
+     8,
+     3,
+     0
+    ],
+    "Inferno": [
+     0,
+     2,
+     0
+    ],
+    "Ancient": [
+     11,
+     1,
+     0
+    ],
+    "Dust II": [
+     12,
+     9,
+     0
+    ],
+    "Vertigo": [
+     3,
+     2,
+     0
+    ],
+    "Mirage": [
+     13,
+     5,
+     0
+    ],
+    "Anubis": [
+     4,
+     1,
+     0
+    ],
+    "Train": [
+     2,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 1,
+   "finals": 1
+  },
+  "Team ddk": {
+   "majors": [
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 1,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Cache": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Team juliano": {
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 1
+    }
+   ],
+   "maps": {
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "The MongolZ": {
+   "majors": [
+    {
+     "id": "2023-paris",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 3,
+     "l": 5
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 1
+    },
+    {
+     "id": "2025-austin",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     5,
+     5,
+     0
+    ],
+    "Nuke": [
+     3,
+     8,
+     0
+    ],
+    "Anubis": [
+     7,
+     2,
+     0
+    ],
+    "Mirage": [
+     8,
+     6,
+     0
+    ],
+    "Ancient": [
+     7,
+     4,
+     0
+    ],
+    "Dust II": [
+     4,
+     3,
+     0
+    ],
+    "Overpass": [
+     1,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 1
+  },
+  "Vega Squadron": {
+   "majors": [
+    {
+     "id": "2017-krakow",
+     "rank": 20,
+     "place": "Fase suiza",
+     "w": 0,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     0,
+     1,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Virtus.pro": {
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2
+    },
+    {
+     "id": "2016-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2017-atlanta",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 5,
+     "l": 1
+    },
+    {
+     "id": "2017-krakow",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 3
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 4
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 20,
+     "place": "Opening Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2025-austin",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 5,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Train": [
+     7,
+     4,
+     0
+    ],
+    "Cobblestone": [
+     7,
+     2,
+     0
+    ],
+    "Inferno": [
+     8,
+     8,
+     0
+    ],
+    "Cache": [
+     2,
+     1,
+     0
+    ],
+    "Overpass": [
+     6,
+     3,
+     0
+    ],
+    "Nuke": [
+     4,
+     1,
+     0
+    ],
+    "Mirage": [
+     2,
+     7,
+     0
+    ],
+    "Vertigo": [
+     2,
+     3,
+     0
+    ],
+    "Ancient": [
+     5,
+     4,
+     0
+    ],
+    "Anubis": [
+     1,
+     2,
+     0
+    ],
+    "Dust II": [
+     1,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 1
+  },
+  "Vitality": {
+   "majors": [
+    {
+     "id": "2019-berlin",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 4
+    },
+    {
+     "id": "2021-stockholm",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3
+    },
+    {
+     "id": "2022-antwerp",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 3
+    },
+    {
+     "id": "2022-rio",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 4,
+     "l": 5
+    },
+    {
+     "id": "2023-paris",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 3,
+     "l": 0
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2025-austin",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 6,
+     "l": 1
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 6,
+     "l": 1
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     14,
+     7,
+     0
+    ],
+    "Mirage": [
+     17,
+     8,
+     0
+    ],
+    "Inferno": [
+     16,
+     8,
+     0
+    ],
+    "Overpass": [
+     5,
+     5,
+     0
+    ],
+    "Nuke": [
+     11,
+     6,
+     0
+    ],
+    "Vertigo": [
+     4,
+     5,
+     0
+    ],
+    "Anubis": [
+     3,
+     3,
+     0
+    ],
+    "Train": [
+     3,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 3,
+   "finals": 3
+  },
+  "Wildcard": {
+   "majors": [
+    {
+     "id": "2024-shanghai",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 3,
+     "l": 5
+    },
+    {
+     "id": "2025-austin",
+     "rank": 20,
+     "place": "Stage 1",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2026-singapore",
+     "rank": null,
+     "place": "En juego",
+     "w": 0,
+     "l": 0
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     1,
+     1,
+     0
+    ],
+    "Inferno": [
+     3,
+     3,
+     0
+    ],
+    "Vertigo": [
+     0,
+     1,
+     0
+    ],
+    "Ancient": [
+     1,
+     4,
+     0
+    ],
+    "Anubis": [
+     1,
+     2,
+     0
+    ],
+    "Dust II": [
+     1,
+     1,
+     0
+    ],
+    "Nuke": [
+     1,
+     2,
+     0
+    ],
+    "Train": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "paiN Gaming": {
+   "majors": [
+    {
+     "id": "2021-stockholm",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2023-paris",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3
+    },
+    {
+     "id": "2024-copenhagen",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 5,
+     "l": 4
+    },
+    {
+     "id": "2024-shanghai",
+     "rank": 19,
+     "place": "Elimination Stage",
+     "w": 4,
+     "l": 4
+    },
+    {
+     "id": "2025-austin",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 7,
+     "l": 4
+    },
+    {
+     "id": "2025-budapest",
+     "rank": 18,
+     "place": "Stage 3",
+     "w": 1,
+     "l": 3
+    },
+    {
+     "id": "2026-cologne",
+     "rank": 19,
+     "place": "Stage 2",
+     "w": 2,
+     "l": 3
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     4,
+     4,
+     0
+    ],
+    "Nuke": [
+     11,
+     9,
+     0
+    ],
+    "Vertigo": [
+     6,
+     2,
+     0
+    ],
+    "Ancient": [
+     1,
+     4,
+     0
+    ],
+    "Mirage": [
+     4,
+     7,
+     0
+    ],
+    "Anubis": [
+     5,
+     3,
+     0
+    ],
+    "Dust II": [
+     6,
+     9,
+     0
+    ],
+    "Overpass": [
+     1,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    0,
+    0
+   ],
+   "rct": [
+    0,
+    0
+   ],
+   "titles": 0,
+   "finals": 0
+  }
+ },
+ "players": {}
+}
