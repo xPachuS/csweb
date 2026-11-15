@@ -69,8 +69,8 @@ MAJORS = [
     M('2016-cologne', 'ESL One Cologne 2016', 'Colonia', 'DE', 'ESL', '2016-07-05', '2016-07-10', 'CS:GO', 'ESL One Cologne 2016', 'SK Gaming', 'Team Liquid', '2-0'),
     M('2017-atlanta', 'ELEAGUE Major 2017', 'Atlanta', 'US', 'ELEAGUE', '2017-01-22', '2017-01-29', 'CS:GO', 'ELEAGUE Major 2017', 'Astralis', 'Virtus.pro', '2-1'),
     M('2017-krakow', 'PGL Major Kraków 2017', 'Cracovia', 'PL', 'PGL', '2017-07-16', '2017-07-23', 'CS:GO', 'PGL Major Krakow 2017', 'Gambit Esports', 'Immortals', '2-1'),
-    M('2018-boston', 'ELEAGUE Major: Boston 2018', 'Boston', 'US', 'ELEAGUE', '2018-01-12', '2018-01-28', 'CS:GO', 'ELEAGUE Major Boston 2018', 'Cloud9', 'FaZe Clan', '2-1'),
-    M('2018-london', 'FACEIT Major: London 2018', 'Londres', 'GB', 'FACEIT', '2018-09-05', '2018-09-23', 'CS:GO', 'FACEIT Major London 2018', 'Astralis', 'Natus Vincere', '2-0'),
+    M('2018-boston', 'ELEAGUE Major: Boston 2018', 'Boston', 'US', 'ELEAGUE', '2018-01-12', '2018-01-28', 'CS:GO', 'ELEAGUE Major Boston 2018', 'Cloud9', 'FaZe Clan', '2-1', page='ELEAGUE/2018/Major'),
+    M('2018-london', 'FACEIT Major: London 2018', 'Londres', 'GB', 'FACEIT', '2018-09-05', '2018-09-23', 'CS:GO', 'FACEIT Major London 2018', 'Astralis', 'Natus Vincere', '2-0', page='FACEIT/2018/Major'),
     M('2019-katowice', 'IEM Katowice Major 2019', 'Katowice', 'PL', 'ESL', '2019-02-13', '2019-03-03', 'CS:GO', 'IEM Katowice Major 2019', 'Astralis', 'ENCE', '2-0'),
     M('2019-berlin', 'StarLadder Major: Berlin 2019', 'Berlín', 'DE', 'StarLadder', '2019-08-23', '2019-09-08', 'CS:GO', 'StarLadder Major Berlin 2019', 'Astralis', 'AVANGAR', '2-0'),
     M('2021-stockholm', 'PGL Major Stockholm 2021', 'Estocolmo', 'SE', 'PGL', '2021-10-26', '2021-11-07', 'CS:GO', 'PGL Major Stockholm 2021', 'Natus Vincere', 'G2 Esports', '2-0'),
@@ -351,6 +351,8 @@ def round_label(title: str, fallback: str) -> str:
 def scan_page(wikitext: str):
     """Plantillas de partidos de una página: ([(id, título, [(clave, cabecera, cuerpo)])], [(id, {RxMy: (cabecera, cuerpo)})])."""
     lists, brackets = [], []
+    wikitext = re.sub(r'<!--.*?-->', '', wikitext or '', flags=re.S)   # comentarios fuera (a veces van pegados al id)
+
     def walk(text: str, depth: int = 0):
         for name, inner in templates(text):
             low = name.lower()
@@ -827,6 +829,7 @@ def is_major_page(text: str, cfg: dict) -> bool:
 
 
 NAVBOX: dict = {}
+LAST_SEARCH: dict = {}
 
 
 def navbox_links(src) -> list[tuple[str, str]]:
@@ -861,9 +864,11 @@ def navbox_candidates(src, cfg: dict) -> list[str]:
 
 def resolve_page(src, cfg: dict, known: str) -> tuple[str, str]:
     """Busca la página principal del Major. Devuelve (página, texto)."""
-    tries = [x for x in (cfg.get('page'), known) if x]
+    y = cfg['start'][:4]
+    guess = [cfg.get('page'), known] + [f'{o}/{y}/Major' for o in (cfg['organizer'].replace(' ', '_'), cfg['organizer'].upper())]
+    tries = list(dict.fromkeys(x for x in guess if x))
+    got = src.pages(tries)
     for t in tries:
-        got = src.pages([t])
         if is_major_page(got.get(t, ''), cfg):
             return t, got[t]
     nav = navbox_candidates(src, cfg)                     # 1.º: la plantilla de navegación de los Majors
@@ -873,6 +878,7 @@ def resolve_page(src, cfg: dict, known: str) -> tuple[str, str]:
             if is_major_page(got.get(c, ''), cfg):
                 return c, got[c]
     found = src.search(cfg['search'])
+    LAST_SEARCH[cfg['id']] = found[:4]
     cands = []
     for t in found:
         parts = t.split('/')
@@ -897,7 +903,8 @@ def process(src, cfg: dict, prev: dict, prev_index: dict) -> dict | None:
     known = prev_index.get('page', '')
     page, text = resolve_page(src, cfg, known)
     if not page:
-        raise RuntimeError(f"no encuentro su página en Liquipedia (busqué «{cfg['search']}»)")
+        seen = ', '.join(LAST_SEARCH.get(cfg['id'], [])) or 'nada'
+        raise RuntimeError(f"no encuentro su página en Liquipedia (busqué «{cfg['search']}»; salió: {seen})")
     cfg = {**cfg, 'page': page}
     links = main_event_links(stage_links(text, page))
     if not links:
@@ -1296,11 +1303,13 @@ def main(argv: list[str]) -> int:
         detail_prev = json.loads(dpath.read_text('utf-8')) if dpath.exists() else {}
         st = status_of(cfg)
         is_cur = cfg['id'] == cur
+        # fase sin partidos en un Major ya jugado (p. ej. un cuadro que no se pudo leer): se reintenta
+        empty_prev = st == 'done' and any(not any(m['stage'] == x['id'] for m in detail_prev.get('matches', [])) for x in detail_prev.get('stages', []))
         if is_cur or cfg['id'] in force:
             need = True
         elif src.blocked:
             need = False
-        elif st == 'upcoming' or (prev.get('frozen') and prev.get('parser') == PARSER) or prev.get('tries', 0) >= 3:
+        elif st == 'upcoming' or (prev.get('frozen') and prev.get('parser') == PARSER and not empty_prev and prev.get('tries_empty', 0) < 2) or prev.get('tries', 0) >= 3:
             need = False                                  # congelado, futuro o sin página tras 3 intentos
         elif backfill < BACKFILL:
             need = True; backfill += 1
@@ -1320,7 +1329,8 @@ def main(argv: list[str]) -> int:
                 log('  !', err)
         if data:
             fin = final_of(data)
-            frozen = st == 'done' and bool(fin and fin['done']) and date.fromisoformat(cfg['end']) + timedelta(days=3) < today()
+            empty_stage = any(not any(m['stage'] == x['id'] for m in data['matches']) for x in data['stages'])
+            frozen = st == 'done' and bool(fin and fin['done']) and not empty_stage and date.fromisoformat(cfg['end']) + timedelta(days=3) < today()
             if not data['matches'] and detail_prev.get('matches') and detail_prev.get('event', {}).get('page') == data['page']:
                 data = {**data, 'stages': detail_prev['stages'], 'matches': detail_prev['matches']}   # se conserva lo último bueno
             detail = {
@@ -1332,6 +1342,8 @@ def main(argv: list[str]) -> int:
             write_json(dpath, detail)
             s = summary(cfg, data, prev)
             s['frozen'] = frozen
+            s['empty'] = [x['name'] for x in data['stages'] if not any(m['stage'] == x['id'] for m in data['matches'])] if st == 'done' else []
+            s['tries_empty'] = prev.get('tries_empty', 0) + 1 if s['empty'] else 0     # se deja de insistir tras 2 intentos
             s['parser'] = PARSER
             s['tries'] = 0
             s['checked'] = now
@@ -1348,6 +1360,8 @@ def main(argv: list[str]) -> int:
             s['error'] = (err or prev.get('error', '')) if not s['loaded'] else ''
             s['tries'] = prev.get('tries', 0) + (1 if err and not s['loaded'] else 0)
             s['parser'] = prev.get('parser')
+            s['empty'] = prev.get('empty', [])
+            s['tries_empty'] = prev.get('tries_empty', 0)
         results[cfg['id']] = s
     index = {'current': cur, 'source': 'Liquipedia (CC-BY-SA 3.0)', 'checked': now, 'calls': src.calls,
              'majors': [results[c['id']] for c in MAJORS], 'errors': errors}
