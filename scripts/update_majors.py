@@ -45,7 +45,7 @@ REPO = os.environ.get('GITHUB_REPOSITORY', 'clutch-pickem')
 USER_AGENT = f'ClutchPickem/1.1 (fan site; https://github.com/{REPO})'
 WAIT = 3.0            # segundos entre consultas a Liquipedia
 BACKFILL = 6          # Majors antiguos que se rellenan como mucho en cada ejecución
-PARSER = 4            # versión del lector: si sube, los Majors ya guardados se vuelven a leer solos
+PARSER = 5            # versión del lector: si sube, los Majors ya guardados se vuelven a leer solos
 PICKEM_FROM = '2026-singapore'   # desde este Major (incluido) hay Pick'em en la web
 
 # ---------------------------------------------------------------- lista de Majors
@@ -114,7 +114,9 @@ TEAM_NAMES = {
     'renegades': 'Renegades', 'clg': 'Counter Logic Gaming', 'flipsid3': 'FlipSid3 Tactics', 'hellraisers': 'HellRaisers',
     'godsent': 'GODSENT', 'vit': 'Vitality', 'tl': 'Team Liquid', 'gl': 'GamerLegion', 'lvg': 'Lynn Vision', 'fq': 'FlyQuest',
     'bb team': 'BetBoom Team', 'bb': 'BetBoom Team', 'mglz': 'The MongolZ', 'spirit academy': 'Spirit Academy', 'navi junior': 'NAVI Junior',
-    'pain gaming': 'paiN Gaming', 'fal': 'Team Falcons', 'imp': 'Imperial', 'pvision': 'PARIVISION', '100t': '100 Thieves',
+    'pain gaming': 'paiN Gaming', 'fal': 'Team Falcons', 'fnc': 'Fnatic', 'envy': 'Team EnVyUs', 'env': 'Team EnVyUs',
+    'nv.gg': 'Team EnVyUs', 'tsm': 'TSM', 'kinguin': 'Team Kinguin', 'team kinguin': 'Team Kinguin', 'lg': 'Luminosity Gaming',
+    'clg': 'Counter Logic Gaming', 'fs': 'FlipSid3 Tactics', 'fls': 'FlipSid3 Tactics', 'vp.': 'Virtus.pro', 'imp': 'Imperial', 'pvision': 'PARIVISION', '100t': '100 Thieves',
     'chinggis': 'Chinggis Warriors', 'chinggis warriors': 'Chinggis Warriors', 'koi': 'KOI', 'amkal': 'Amkal Esports', 'amkal esports': 'Amkal Esports',
     'sharks': 'Sharks Esports', 'sharks esports': 'Sharks Esports', 'oddik': 'ODDIK', 'dendele': 'DENDELE CS', 'gosh': 'GOSH', 'talon': 'TALON', 'mouz nxt': 'MOUZ NXT', 'ef': 'Eternal Fire', 'vp': 'Virtus.pro', 'mibr (2018)': 'MIBR', 'evil geniuses': 'Evil Geniuses', 'eg': 'Evil Geniuses',
 }
@@ -403,6 +405,42 @@ def list_matches(lists, sid: str, stype: str) -> list[dict]:
     return out
 
 
+GSL_ROUND = {'R1M1': 'Partido inicial', 'R1M2': 'Partido inicial', 'R2M1': 'Partido de ganadores', 'R2M2': 'Partido de eliminación', 'R3M1': 'Partido decisivo'}
+
+
+def gsl_matches(brackets, sid: str) -> list[dict]:
+    """Grupos guardados como cuadros pequeños (GSL de los Majors antiguos): «Grupo A · Partido inicial»…
+    Si un grupo está partido en varios cuadros (ganadores / perdedores), se juntan por los equipos que comparten."""
+    parsed = []
+    for bid, slots in brackets:
+        ms = []
+        for k in sorted(slots, key=lambda k: (int(k[1:k.index('M')]), int(k[k.index('M') + 1:]))):
+            header, inner = slots[k]
+            ms.append((k, header, parse_match(inner, sid, 'groups', f'{sid}-{bid}-{k}', '')))
+        teams = {t for _, _, m in ms for t in (m['t1'], m['t2']) if t != 'TBD'}
+        parsed.append([bid, ms, teams])
+    groups = []                                            # componentes conexas por equipos compartidos
+    for item in parsed:
+        hit = [g for g in groups if g['teams'] & item[2]]
+        merged = {'items': [item], 'teams': set(item[2])}
+        for g in hit:
+            merged['items'] = g['items'] + merged['items']
+            merged['teams'] |= g['teams']
+            groups.remove(g)
+        groups.append(merged)
+    groups.sort(key=lambda g: min(parsed.index(i) for i in g['items']))
+    out = []
+    for n, g in enumerate(groups):
+        name = f'Grupo {chr(65 + n)}'
+        multi = len(g['items']) > 1
+        for bid, ms, _ in g['items']:
+            for k, header, m in ms:
+                rnd = round_label(header, '') if header else ('' if multi else GSL_ROUND.get(k, ''))
+                m['round'] = f'{name} · {rnd}' if rnd else name
+                out.append(m)
+    return out
+
+
 def bracket_matches(brackets, sid: str) -> list[dict]:
     out = []
     for bid, slots in brackets:
@@ -583,6 +621,16 @@ def build_major(cfg: dict, main_text: str, pages: dict[str, str], links: list[tu
             ms = list_matches(lists, sid, 'swiss' if swiss else 'groups')
             stages.append({'id': sid, 'name': nm, 'page': page, 'type': 'swiss' if swiss else 'groups', 'text': text})
             matches += ms
+        if len(brackets) > 1:
+            # varios cuadros en una página: los pequeños son grupos (formato GSL de los Majors antiguos), el grande los playoffs
+            big = max(brackets, key=lambda b: (len(b[1]), brackets.index(b)))
+            groups = [b for b in brackets if b is not big]
+            if groups and len(big[1]) > max(len(b[1]) for b in groups):
+                n_list += 1
+                gid = f's{n_list}'
+                stages.append({'id': gid, 'name': 'Fase de grupos', 'page': page, 'type': 'groups', 'text': text})
+                matches += gsl_matches(groups, gid)
+                brackets = [big]
         if brackets:
             sid = f'b{len([s for s in stages if s["type"] == "bracket"]) + 1}'
             nm = name if (name != 'Principal' and not lists) else 'Playoffs'
@@ -1133,9 +1181,9 @@ def fix_saved_names():
     canon = {**TEAM_NAMES, **ALIAS}
     renames = {}
     for key, good in canon.items():
-        bad = key if any(c.isupper() for c in key) else key.title()
-        if bad != good:
-            renames[bad] = good
+        for bad in {key, key.title(), key.upper()}:          # como pudo quedar guardado («Fnc», «ENVY»…)
+            if bad != good:
+                renames[bad] = good
     seen = set()
     for f in OUT.glob('*.json'):
         d = json.loads(f.read_text('utf-8'))
