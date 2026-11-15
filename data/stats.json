@@ -366,6 +366,21 @@
   "AVANGAR": {
    "majors": [
     {
+     "id": "2019-katowice",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 4,
+     "roster": [
+      "buster",
+      "KrizzeN",
+      "qikert",
+      "Jame",
+      "fitch"
+     ],
+     "coach": "dastan"
+    },
+    {
      "id": "2019-berlin",
      "rank": 2,
      "place": "Subcampeón",
@@ -382,29 +397,34 @@
     }
    ],
    "maps": {
+    "Train": [
+     0,
+     4,
+     0
+    ],
+    "Mirage": [
+     4,
+     2,
+     0
+    ],
+    "Overpass": [
+     4,
+     2,
+     0
+    ],
+    "Cache": [
+     1,
+     0,
+     0
+    ],
     "Inferno": [
-     3,
+     4,
      3,
      0
     ],
     "Dust II": [
      4,
-     3,
-     0
-    ],
-    "Train": [
-     0,
-     1,
-     0
-    ],
-    "Mirage": [
-     2,
-     1,
-     0
-    ],
-    "Overpass": [
-     2,
-     1,
+     4,
      0
     ],
     "Vertigo": [
@@ -414,12 +434,12 @@
     ]
    },
    "rt": [
-    137,
-    150
+    208,
+    246
    ],
    "rct": [
-    126,
-    117
+    207,
+    193
    ],
    "titles": 0,
    "finals": 1
@@ -431,7 +451,14 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 0,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "GeT_RiGhT",
+      "kennyS",
+      "rain",
+      "Maikelele",
+      "NiKo"
+     ]
     }
    ],
    "maps": {
@@ -442,12 +469,12 @@
     ]
    },
    "rt": [
-    0,
-    0
+    4,
+    11
    ],
    "rct": [
-    0,
-    0
+    11,
+    4
    ],
    "titles": 0,
    "finals": 0
@@ -459,7 +486,14 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 1,
-     "l": 0
+     "l": 0,
+     "roster": [
+      "Hiko",
+      "s1mple",
+      "tarik",
+      "Skadoodle",
+      "shroud"
+     ]
     }
    ],
    "maps": {
@@ -470,12 +504,12 @@
     ]
    },
    "rt": [
-    0,
-    0
+    4,
+    11
    ],
    "rct": [
-    0,
-    0
+    11,
+    4
    ],
    "titles": 0,
    "finals": 0
@@ -659,21 +693,44 @@
      "rank": 3,
      "place": "Semifinales",
      "w": 3,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "device",
+      "dupreeh",
+      "Xyp9x",
+      "cajunb",
+      "karrigan"
+     ],
+     "coach": "zonic"
     },
     {
      "id": "2016-cologne",
      "rank": 5,
      "place": "Cuartos de final",
      "w": 2,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "device",
+      "dupreeh",
+      "Xyp9x",
+      "karrigan",
+      "gla1ve"
+     ]
     },
     {
      "id": "2017-atlanta",
      "rank": 1,
      "place": "Campeón",
      "w": 6,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "device",
+      "dupreeh",
+      "Xyp9x",
+      "Kjaerbye",
+      "gla1ve"
+     ],
+     "coach": "zonic"
     },
     {
      "id": "2017-krakow",
@@ -687,6 +744,21 @@
       "Xyp9x",
       "Kjaerbye",
       "gla1ve"
+     ],
+     "coach": "zonic"
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 6,
+     "l": 0,
+     "roster": [
+      "device",
+      "dupreeh",
+      "Xyp9x",
+      "gla1ve",
+      "Magisk"
      ],
      "coach": "zonic"
     },
@@ -784,12 +856,12 @@
    ],
    "maps": {
     "Train": [
-     6,
+     8,
      4,
      0
     ],
     "Overpass": [
-     11,
+     12,
      5,
      0
     ],
@@ -799,12 +871,12 @@
      0
     ],
     "Inferno": [
-     6,
+     9,
      3,
      0
     ],
     "Dust II": [
-     4,
+     5,
      6,
      0
     ],
@@ -814,12 +886,12 @@
      0
     ],
     "Mirage": [
+     5,
      4,
-     3,
      0
     ],
     "Nuke": [
-     6,
+     8,
      9,
      0
     ],
@@ -835,15 +907,15 @@
     ]
    },
    "rt": [
-    341,
-    366
+    603,
+    582
    ],
    "rct": [
-    372,
-    300
+    657,
+    479
    ],
-   "titles": 2,
-   "finals": 2
+   "titles": 3,
+   "finals": 3
   },
   "Aurora": {
    "majors": [
@@ -1077,6 +1149,20 @@
      "coach": "kakafu"
     },
     {
+     "id": "2019-katowice",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 0,
+     "l": 3,
+     "roster": [
+      "gob b",
+      "tabseN",
+      "nex",
+      "tiziaN",
+      "XANTARES"
+     ]
+    },
+    {
      "id": "2021-stockholm",
      "rank": 20,
      "place": "Challengers Stage",
@@ -1166,22 +1252,27 @@
     ],
     "Train": [
      0,
+     2,
+     0
+    ],
+    "Mirage": [
+     3,
+     12,
+     0
+    ],
+    "Dust II": [
+     8,
+     4,
+     0
+    ],
+    "Overpass": [
      1,
+     4,
      0
     ],
     "Nuke": [
      5,
      8,
-     0
-    ],
-    "Dust II": [
-     7,
-     4,
-     0
-    ],
-    "Mirage": [
-     3,
-     10,
      0
     ],
     "Ancient": [
@@ -1194,11 +1285,6 @@
      3,
      0
     ],
-    "Overpass": [
-     1,
-     3,
-     0
-    ],
     "Anubis": [
      0,
      1,
@@ -1206,12 +1292,12 @@
     ]
    },
    "rt": [
-    314,
-    437
+    342,
+    480
    ],
    "rct": [
-    422,
-    346
+    458,
+    372
    ],
    "titles": 0,
    "finals": 0
@@ -1223,7 +1309,14 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 1,
-     "l": 0
+     "l": 0,
+     "roster": [
+      "missharvey",
+      "moses",
+      "HenryG",
+      "Spiidi",
+      "KrowNii"
+     ]
     }
    ],
    "maps": {
@@ -1234,12 +1327,12 @@
     ]
    },
    "rt": [
-    0,
+    5,
     0
    ],
    "rct": [
-    0,
-    0
+    11,
+    4
    ],
    "titles": 0,
    "finals": 0
@@ -1747,7 +1840,14 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 0,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "n0thing",
+      "shroud",
+      "Skadoodle",
+      "fREAKAZOiD",
+      "Stewie2K"
+     ]
     },
     {
      "id": "2017-krakow",
@@ -1763,6 +1863,20 @@
       "autimatic"
      ],
      "coach": "valens"
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 5,
+     "roster": [
+      "autimatic",
+      "RUSH",
+      "flusha",
+      "kioShiMa",
+      "Zellsis"
+     ]
     },
     {
      "id": "2022-antwerp",
@@ -1828,16 +1942,16 @@
    "maps": {
     "Dust II": [
      2,
-     7,
+     8,
      0
     ],
     "Mirage": [
-     5,
-     2,
+     6,
+     4,
      0
     ],
     "Nuke": [
-     3,
+     4,
      1,
      0
     ],
@@ -1847,23 +1961,23 @@
      0
     ],
     "Inferno": [
-     2,
      5,
+     6,
      0
     ],
     "Cache": [
+     3,
      1,
-     0,
      0
     ],
     "Overpass": [
-     8,
-     4,
+     9,
+     5,
      0
     ],
     "Train": [
      1,
-     2,
+     3,
      0
     ],
     "Vertigo": [
@@ -1883,12 +1997,12 @@
     ]
    },
    "rt": [
-    331,
-    417
+    412,
+    540
    ],
    "rct": [
-    429,
-    321
+    534,
+    409
    ],
    "titles": 0,
    "finals": 0
@@ -1922,6 +2036,21 @@
       "swag",
       "n0thing"
      ]
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 3,
+     "roster": [
+      "dephh",
+      "stanislaw",
+      "ShahZaM",
+      "Rickeh",
+      "n0thing"
+     ],
+     "coach": "Warden"
     },
     {
      "id": "2019-berlin",
@@ -2021,23 +2150,28 @@
      0
     ],
     "Nuke": [
-     2,
-     4,
+     3,
+     5,
      0
     ],
     "Dust II": [
      2,
-     3,
+     4,
      0
     ],
     "Mirage": [
      0,
-     1,
+     3,
      0
     ],
     "Train": [
      0,
      2,
+     0
+    ],
+    "Cache": [
+     2,
+     0,
      0
     ],
     "Overpass": [
@@ -2062,12 +2196,12 @@
     ]
    },
    "rt": [
-    253,
-    350
+    302,
+    395
    ],
    "rct": [
-    279,
-    299
+    316,
+    356
    ],
    "titles": 0,
    "finals": 0
@@ -2281,14 +2415,29 @@
      "rank": 5,
      "place": "Cuartos de final",
      "w": 2,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "hazed",
+      "jdm64",
+      "FugLy",
+      "tarik",
+      "reltuC"
+     ],
+     "coach": "pita"
     },
     {
      "id": "2016-cologne",
      "rank": 20,
      "place": "Fase de grupos",
      "w": 0,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "reltuC",
+      "hazed",
+      "tarik",
+      "koosta",
+      "pita"
+     ]
     }
    ],
    "maps": {
@@ -2334,12 +2483,12 @@
     ]
    },
    "rt": [
-    66,
-    82
+    122,
+    132
    ],
    "rct": [
-    69,
-    82
+    116,
+    157
    ],
    "titles": 0,
    "finals": 0
@@ -2513,12 +2662,12 @@
     ]
    },
    "rt": [
-    91,
-    127
+    96,
+    135
    ],
    "rct": [
-    155,
-    94
+    162,
+    102
    ],
    "titles": 0,
    "finals": 0
@@ -2581,6 +2730,21 @@
   },
   "ENCE": {
    "majors": [
+    {
+     "id": "2019-katowice",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 8,
+     "l": 4,
+     "roster": [
+      "allu",
+      "Aleksib",
+      "sergej",
+      "Aerial",
+      "xseveN"
+     ],
+     "coach": "Twista"
+    },
     {
      "id": "2019-berlin",
      "rank": 5,
@@ -2673,29 +2837,34 @@
     }
    ],
    "maps": {
+    "Nuke": [
+     12,
+     5,
+     0
+    ],
     "Overpass": [
-     1,
+     3,
      3,
      0
     ],
-    "Inferno": [
-     1,
-     0,
-     0
-    ],
-    "Nuke": [
-     11,
-     4,
+    "Mirage": [
+     9,
+     8,
      0
     ],
     "Dust II": [
-     2,
-     5,
+     4,
+     8,
      0
     ],
-    "Mirage": [
-     5,
-     6,
+    "Train": [
+     4,
+     1,
+     0
+    ],
+    "Inferno": [
+     2,
+     2,
      0
     ],
     "Vertigo": [
@@ -2715,15 +2884,15 @@
     ]
    },
    "rt": [
-    295,
-    355
+    425,
+    519
    ],
    "rct": [
-    398,
-    338
+    566,
+    480
    ],
    "titles": 0,
-   "finals": 0
+   "finals": 1
   },
   "ENVY": {
    "majors": [
@@ -3236,6 +3405,21 @@
   "FURIA": {
    "majors": [
     {
+     "id": "2019-katowice",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3,
+     "roster": [
+      "yuurih",
+      "arT",
+      "VINI",
+      "KSCERATO",
+      "ableJ"
+     ],
+     "coach": "guerri"
+    },
+    {
      "id": "2019-berlin",
      "rank": 20,
      "place": "Challengers Stage",
@@ -3402,19 +3586,29 @@
     }
    ],
    "maps": {
+    "Mirage": [
+     11,
+     8,
+     0
+    ],
+    "Nuke": [
+     7,
+     9,
+     0
+    ],
     "Inferno": [
      12,
-     11,
+     12,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
      0
     ],
     "Train": [
      2,
      3,
-     0
-    ],
-    "Nuke": [
-     6,
-     9,
      0
     ],
     "Vertigo": [
@@ -3432,11 +3626,6 @@
      2,
      0
     ],
-    "Mirage": [
-     9,
-     6,
-     0
-    ],
     "Anubis": [
      1,
      2,
@@ -3449,12 +3638,12 @@
     ]
    },
    "rt": [
-    580,
-    595
+    609,
+    645
    ],
    "rct": [
-    648,
-    533
+    698,
+    571
    ],
    "titles": 0,
    "finals": 1
@@ -3466,21 +3655,45 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 1,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "Maikelele",
+      "rain",
+      "fox",
+      "jkaem",
+      "aizy"
+     ],
+     "coach": "RobbaN"
     },
     {
      "id": "2016-cologne",
      "rank": 20,
      "place": "Fase de grupos",
      "w": 1,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "rain",
+      "fox",
+      "jkaem",
+      "aizy",
+      "kioShiMa"
+     ],
+     "coach": "RobbaN"
     },
     {
      "id": "2017-atlanta",
      "rank": 5,
      "place": "Cuartos de final",
      "w": 3,
-     "l": 3
+     "l": 3,
+     "roster": [
+      "rain",
+      "aizy",
+      "allu",
+      "karrigan",
+      "kioShiMa"
+     ],
+     "coach": "RobbaN"
     },
     {
      "id": "2017-krakow",
@@ -3496,6 +3709,21 @@
       "NiKo"
      ],
      "coach": "RobbaN"
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 3,
+     "roster": [
+      "rain",
+      "NiKo",
+      "GuardiaN",
+      "olofmeister",
+      "AdreN"
+     ],
+     "coach": "YNk"
     },
     {
      "id": "2019-berlin",
@@ -3651,18 +3879,18 @@
    ],
    "maps": {
     "Cache": [
-     0,
-     2,
+     1,
+     3,
      0
     ],
     "Inferno": [
      14,
-     9,
+     11,
      0
     ],
     "Mirage": [
-     12,
-     14,
+     13,
+     16,
      0
     ],
     "Cobblestone": [
@@ -3671,7 +3899,7 @@
      0
     ],
     "Dust II": [
-     9,
+     11,
      6,
      0
     ],
@@ -3686,7 +3914,7 @@
      0
     ],
     "Train": [
-     0,
+     1,
      2,
      0
     ],
@@ -3707,12 +3935,12 @@
     ]
    },
    "rt": [
-    707,
-    715
+    879,
+    895
    ],
    "rct": [
-    772,
-    680
+    916,
+    850
    ],
    "titles": 1,
    "finals": 4
@@ -3782,21 +4010,43 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 0,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "B1ad3",
+      "bondik",
+      "markeloff",
+      "Shara",
+      "WorldEdit"
+     ]
     },
     {
      "id": "2016-cologne",
      "rank": 5,
      "place": "Cuartos de final",
      "w": 2,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "B1ad3",
+      "WorldEdit",
+      "markeloff",
+      "Shara",
+      "wayLander"
+     ],
+     "coach": "kane"
     },
     {
      "id": "2017-atlanta",
      "rank": 20,
      "place": "Fase suiza",
      "w": 0,
-     "l": 3
+     "l": 3,
+     "roster": [
+      "B1ad3",
+      "markeloff",
+      "WorldEdit",
+      "wayLander",
+      "electronic"
+     ]
     },
     {
      "id": "2017-krakow",
@@ -3851,12 +4101,12 @@
     ]
    },
    "rt": [
-    82,
-    126
+    160,
+    208
    ],
    "rct": [
-    68,
-    96
+    147,
+    181
    ],
    "titles": 0,
    "finals": 0
@@ -4141,14 +4391,30 @@
      "rank": 3,
      "place": "Semifinales",
      "w": 0,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "JW",
+      "flusha",
+      "olofmeister",
+      "KRIMZ",
+      "dennis"
+     ],
+     "coach": "vuggo"
     },
     {
      "id": "2017-atlanta",
      "rank": 3,
      "place": "Semifinales",
      "w": 4,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "olofmeister",
+      "dennis",
+      "twist",
+      "KRIMZ",
+      "disco doplan"
+     ],
+     "coach": "Jumpy"
     },
     {
      "id": "2017-krakow",
@@ -4264,12 +4530,12 @@
     ]
    },
    "rt": [
-    167,
-    224
+    241,
+    290
    ],
    "rct": [
-    209,
-    153
+    274,
+    231
    ],
    "titles": 1,
    "finals": 1
@@ -4340,6 +4606,13 @@
      "l": 2
     },
     {
+     "id": "2019-katowice",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3
+    },
+    {
      "id": "2022-rio",
      "rank": 19,
      "place": "Legends Stage",
@@ -4370,23 +4643,23 @@
    ],
    "maps": {
     "Mirage": [
-     11,
+     12,
      3,
      0
     ],
     "Inferno": [
-     14,
+     15,
      6,
      0
     ],
     "Dust II": [
      6,
-     6,
+     7,
      0
     ],
     "Train": [
      7,
-     1,
+     2,
      0
     ],
     "Nuke": [
@@ -4395,8 +4668,8 @@
      0
     ],
     "Overpass": [
-     4,
-     3,
+     5,
+     5,
      0
     ],
     "Cobblestone": [
@@ -4421,12 +4694,12 @@
     ]
    },
    "rt": [
-    437,
-    456
+    579,
+    568
    ],
    "rct": [
-    562,
-    392
+    673,
+    493
    ],
    "titles": 2,
    "finals": 3
@@ -4513,21 +4786,45 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 1,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "Ex6TenZ",
+      "RpK",
+      "shox",
+      "SmithZz",
+      "ScreaM"
+     ],
+     "coach": "NiaK"
     },
     {
      "id": "2016-cologne",
      "rank": 20,
      "place": "Fase de grupos",
      "w": 0,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "RpK",
+      "SmithZz",
+      "shox",
+      "ScreaM",
+      "bodyy"
+     ],
+     "coach": "NiaK"
     },
     {
      "id": "2017-atlanta",
      "rank": 20,
      "place": "Fase suiza",
      "w": 1,
-     "l": 3
+     "l": 3,
+     "roster": [
+      "shox",
+      "RpK",
+      "SmithZz",
+      "ScreaM",
+      "bodyy"
+     ],
+     "coach": "NiaK"
     },
     {
      "id": "2017-krakow",
@@ -4543,6 +4840,21 @@
       "apEX"
      ],
      "coach": "SmithZz"
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 4,
+     "l": 5,
+     "roster": [
+      "shox",
+      "bodyy",
+      "kennyS",
+      "Lucky",
+      "JACKZ"
+     ],
+     "coach": "maLeK"
     },
     {
      "id": "2019-berlin",
@@ -4701,21 +5013,21 @@
    "maps": {
     "Inferno": [
      22,
-     9,
+     11,
      0
     ],
     "Dust II": [
-     12,
-     8,
+     14,
+     9,
      0
     ],
     "Mirage": [
-     17,
-     3,
+     18,
+     6,
      0
     ],
     "Cache": [
-     3,
+     5,
      2,
      0
     ],
@@ -4735,8 +5047,8 @@
      0
     ],
     "Overpass": [
+     9,
      8,
-     6,
      0
     ],
     "Vertigo": [
@@ -4756,12 +5068,12 @@
     ]
    },
    "rt": [
-    771,
-    743
+    905,
+    891
    ],
    "rct": [
-    796,
-    694
+    955,
+    872
    ],
    "titles": 0,
    "finals": 1
@@ -4773,7 +5085,15 @@
      "rank": 20,
      "place": "Fase suiza",
      "w": 2,
-     "l": 3
+     "l": 3,
+     "roster": [
+      "pronax",
+      "znajder",
+      "flusha",
+      "JW",
+      "Lekr0"
+     ],
+     "coach": "rdl"
     },
     {
      "id": "2021-stockholm",
@@ -4819,12 +5139,12 @@
     ]
    },
    "rt": [
-    17,
-    32
+    45,
+    71
    ],
    "rct": [
-    19,
-    32
+    50,
+    54
    ],
    "titles": 0,
    "finals": 0
@@ -4919,7 +5239,15 @@
      "rank": 5,
      "place": "Cuartos de final",
      "w": 3,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "Dosia",
+      "AdreN",
+      "mou",
+      "Zeus",
+      "HObbit"
+     ],
+     "coach": "kane"
     },
     {
      "id": "2017-krakow",
@@ -4995,12 +5323,12 @@
     ]
    },
    "rt": [
-    120,
-    139
+    214,
+    237
    ],
    "rct": [
-    151,
-    102
+    248,
+    211
    ],
    "titles": 1,
    "finals": 1
@@ -5190,6 +5518,20 @@
   "Grayhound Gaming": {
    "majors": [
     {
+     "id": "2019-katowice",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3,
+     "roster": [
+      "erkaSt",
+      "dexter",
+      "DickStacy",
+      "malta",
+      "sterling"
+     ]
+    },
+    {
      "id": "2019-berlin",
      "rank": 20,
      "place": "Challengers Stage",
@@ -5220,9 +5562,24 @@
     }
    ],
    "maps": {
+    "Mirage": [
+     1,
+     3,
+     0
+    ],
     "Nuke": [
      1,
-     2,
+     3,
+     0
+    ],
+    "Inferno": [
+     1,
+     4,
+     0
+    ],
+    "Overpass": [
+     1,
+     1,
      0
     ],
     "Train": [
@@ -5235,21 +5592,6 @@
      1,
      0
     ],
-    "Inferno": [
-     1,
-     3,
-     0
-    ],
-    "Overpass": [
-     1,
-     0,
-     0
-    ],
-    "Mirage": [
-     1,
-     2,
-     0
-    ],
     "Anubis": [
      0,
      1,
@@ -5257,12 +5599,12 @@
     ]
    },
    "rt": [
-    74,
-    134
+    94,
+    166
    ],
    "rct": [
-    130,
-    91
+    156,
+    122
    ],
    "titles": 0,
    "finals": 0
@@ -5528,7 +5870,30 @@
      "rank": 20,
      "place": "Fase suiza",
      "w": 0,
-     "l": 3
+     "l": 3,
+     "roster": [
+      "ANGE1",
+      "STYKO",
+      "Zero",
+      "bondik",
+      "DeadFox"
+     ],
+     "coach": "Johnta"
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 1,
+     "l": 3,
+     "roster": [
+      "ANGE1",
+      "DeadFox",
+      "woxic",
+      "ISSAA",
+      "Hobbit"
+     ],
+     "coach": "ami"
     },
     {
      "id": "2019-berlin",
@@ -5552,18 +5917,18 @@
      0
     ],
     "Dust II": [
-     1,
+     2,
      3,
      0
     ],
     "Inferno": [
      3,
-     5,
+     6,
      0
     ],
     "Overpass": [
      0,
-     1,
+     2,
      0
     ],
     "Nuke": [
@@ -5573,17 +5938,22 @@
     ],
     "Cache": [
      0,
+     2,
+     0
+    ],
+    "Train": [
+     0,
      1,
      0
     ]
    },
    "rt": [
-    101,
-    149
+    144,
+    207
    ],
    "rct": [
-    110,
-    109
+    141,
+    174
    ],
    "titles": 0,
    "finals": 0
@@ -6467,7 +6837,15 @@
      "rank": 1,
      "place": "Campeón",
      "w": 5,
-     "l": 0
+     "l": 0,
+     "roster": [
+      "FalleN",
+      "fer",
+      "coldzera",
+      "fnx",
+      "TACO"
+     ],
+     "coach": "zews"
     }
    ],
    "maps": {
@@ -6508,12 +6886,12 @@
     ]
    },
    "rt": [
-    56,
-    66
+    116,
+    115
    ],
    "rct": [
-    68,
-    58
+    148,
+    110
    ],
    "titles": 1,
    "finals": 1
@@ -6751,6 +7129,21 @@
   "MIBR": {
    "majors": [
     {
+     "id": "2019-katowice",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 2,
+     "roster": [
+      "FalleN",
+      "fer",
+      "coldzera",
+      "TACO",
+      "felps"
+     ],
+     "coach": "zews"
+    },
+    {
      "id": "2019-berlin",
      "rank": 19,
      "place": "Legends Stage",
@@ -6858,24 +7251,29 @@
     }
    ],
    "maps": {
-    "Dust II": [
-     1,
-     1,
-     0
-    ],
     "Inferno": [
-     5,
-     6,
+     7,
+     8,
      0
     ],
     "Mirage": [
-     2,
+     3,
      8,
+     0
+    ],
+    "Train": [
+     3,
+     0,
+     0
+    ],
+    "Dust II": [
+     2,
+     1,
      0
     ],
     "Overpass": [
      1,
-     1,
+     2,
      0
     ],
     "Vertigo": [
@@ -6897,20 +7295,15 @@
      2,
      4,
      0
-    ],
-    "Train": [
-     1,
-     0,
-     0
     ]
    },
    "rt": [
-    221,
-    333
+    275,
+    384
    ],
    "rct": [
-    320,
-    302
+    386,
+    358
    ],
    "titles": 0,
    "finals": 0
@@ -6965,21 +7358,45 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 1,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "NiKo",
+      "chrisJ",
+      "nex",
+      "denis",
+      "Spiidi"
+     ],
+     "coach": "Kapio"
     },
     {
      "id": "2016-cologne",
      "rank": 20,
      "place": "Fase de grupos",
      "w": 1,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "chrisJ",
+      "NiKo",
+      "denis",
+      "nex",
+      "Spiidi"
+     ],
+     "coach": "kassad"
     },
     {
      "id": "2017-atlanta",
      "rank": 20,
      "place": "Fase suiza",
      "w": 1,
-     "l": 3
+     "l": 3,
+     "roster": [
+      "chrisJ",
+      "NiKo",
+      "denis",
+      "Spiidi",
+      "loWel"
+     ],
+     "coach": "lmbt"
     },
     {
      "id": "2017-krakow",
@@ -7202,12 +7619,12 @@
     ]
    },
    "rt": [
-    659,
-    752
+    720,
+    863
    ],
    "rct": [
-    721,
-    640
+    795,
+    719
    ],
    "titles": 0,
    "finals": 0
@@ -7407,6 +7824,21 @@
   "NRG": {
    "majors": [
     {
+     "id": "2019-katowice",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 3,
+     "l": 3,
+     "roster": [
+      "FugLy",
+      "daps",
+      "Brehze",
+      "CeRq",
+      "Ethan"
+     ],
+     "coach": "ImAPet"
+    },
+    {
      "id": "2019-berlin",
      "rank": 3,
      "place": "Semifinales",
@@ -7467,9 +7899,29 @@
     }
    ],
    "maps": {
+    "Nuke": [
+     4,
+     4,
+     0
+    ],
     "Overpass": [
-     1,
      2,
+     3,
+     0
+    ],
+    "Inferno": [
+     3,
+     4,
+     0
+    ],
+    "Mirage": [
+     4,
+     3,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
      0
     ],
     "Train": [
@@ -7477,24 +7929,9 @@
      2,
      0
     ],
-    "Inferno": [
-     2,
-     4,
-     0
-    ],
     "Dust II": [
      5,
      5,
-     0
-    ],
-    "Nuke": [
-     3,
-     2,
-     0
-    ],
-    "Mirage": [
-     3,
-     3,
      0
     ],
     "Anubis": [
@@ -7509,12 +7946,12 @@
     ]
    },
    "rt": [
-    185,
-    224
+    238,
+    290
    ],
    "rct": [
-    228,
-    183
+    296,
+    221
    ],
    "titles": 0,
    "finals": 0
@@ -7627,21 +8064,45 @@
      "rank": 2,
      "place": "Subcampeón",
      "w": 4,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "Zeus",
+      "Edward",
+      "seized",
+      "flamie",
+      "GuardiaN"
+     ],
+     "coach": "starix"
     },
     {
      "id": "2016-cologne",
      "rank": 5,
      "place": "Cuartos de final",
      "w": 2,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "Zeus",
+      "seized",
+      "Edward",
+      "GuardiaN",
+      "flamie"
+     ],
+     "coach": "starix"
     },
     {
      "id": "2017-atlanta",
      "rank": 5,
      "place": "Cuartos de final",
      "w": 3,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "seized",
+      "Edward",
+      "GuardiaN",
+      "flamie",
+      "s1mple"
+     ],
+     "coach": "starix"
     },
     {
      "id": "2017-krakow",
@@ -7657,6 +8118,21 @@
       "s1mple"
      ],
      "coach": "Andi"
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 4,
+     "l": 2,
+     "roster": [
+      "Edward",
+      "flamie",
+      "s1mple",
+      "Zeus",
+      "electronic"
+     ],
+     "coach": "kane"
     },
     {
      "id": "2019-berlin",
@@ -7829,18 +8305,18 @@
    ],
    "maps": {
     "Mirage": [
-     21,
-     17,
+     23,
+     19,
      0
     ],
     "Inferno": [
-     11,
+     13,
      14,
      0
     ],
     "Dust II": [
-     12,
-     6,
+     14,
+     7,
      0
     ],
     "Nuke": [
@@ -7864,8 +8340,8 @@
      0
     ],
     "Train": [
-     11,
-     3,
+     12,
+     4,
      0
     ],
     "Ancient": [
@@ -7880,12 +8356,12 @@
     ]
    },
    "rt": [
-    818,
-    904
+    1014,
+    1077
    ],
    "rct": [
-    1038,
-    827
+    1264,
+    982
    ],
    "titles": 2,
    "finals": 5
@@ -8058,14 +8534,44 @@
      "rank": 5,
      "place": "Cuartos de final",
      "w": 2,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "THREAT"
+     ]
     },
     {
      "id": "2016-cologne",
      "rank": 20,
      "place": "Fase de grupos",
      "w": 1,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "pyth"
+     ],
+     "coach": "THREAT"
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 5,
+     "roster": [
+      "f0rest",
+      "GeT_RiGhT",
+      "REZ",
+      "dennis",
+      "Lekr0"
+     ],
+     "coach": "pita"
     },
     {
      "id": "2019-berlin",
@@ -8177,26 +8683,26 @@
    "maps": {
     "Inferno": [
      17,
-     13,
+     15,
      0
     ],
     "Dust II": [
      11,
-     10,
+     11,
      0
     ],
     "Train": [
-     5,
      7,
+     9,
      0
     ],
     "Mirage": [
+     12,
      8,
-     6,
      0
     ],
     "Nuke": [
-     11,
+     12,
      6,
      0
     ],
@@ -8206,12 +8712,12 @@
      0
     ],
     "Overpass": [
-     7,
-     5,
+     8,
+     8,
      0
     ],
     "Cache": [
-     5,
+     6,
      5,
      0
     ],
@@ -8227,12 +8733,12 @@
     ]
    },
    "rt": [
-    686,
-    794
+    879,
+    1022
    ],
    "rct": [
-    861,
-    629
+    1056,
+    794
    ],
    "titles": 1,
    "finals": 5
@@ -8244,7 +8750,15 @@
      "rank": 5,
      "place": "Cuartos de final",
      "w": 3,
-     "l": 3
+     "l": 3,
+     "roster": [
+      "MSL",
+      "k0nfig",
+      "RUBINO",
+      "cajunb",
+      "Magisk"
+     ],
+     "coach": "ruggah"
     },
     {
      "id": "2017-krakow",
@@ -8320,12 +8834,12 @@
     ]
    },
    "rt": [
-    91,
-    119
+    138,
+    183
    ],
    "rct": [
-    129,
-    108
+    182,
+    159
    ],
    "titles": 0,
    "finals": 0
@@ -8484,14 +8998,28 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 0,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "daps",
+      "RUSH",
+      "NAF",
+      "stanislaw",
+      "mixwell"
+     ]
     },
     {
      "id": "2017-atlanta",
      "rank": 20,
      "place": "Fase suiza",
      "w": 1,
-     "l": 3
+     "l": 3,
+     "roster": [
+      "NAF",
+      "RUSH",
+      "mixwell",
+      "tarik",
+      "stanislaw"
+     ]
     }
    ],
    "maps": {
@@ -8517,12 +9045,12 @@
     ]
    },
    "rt": [
-    0,
-    0
+    39,
+    34
    ],
    "rct": [
-    0,
-    0
+    27,
+    59
    ],
    "titles": 0,
    "finals": 0
@@ -9159,6 +9687,21 @@
      ]
     },
     {
+     "id": "2019-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 2,
+     "roster": [
+      "AZR",
+      "jks",
+      "jkaem",
+      "Liazz",
+      "Gratisfaction"
+     ],
+     "coach": "kassad"
+    },
+    {
      "id": "2019-berlin",
      "rank": 3,
      "place": "Semifinales",
@@ -9206,43 +9749,48 @@
    ],
    "maps": {
     "Train": [
-     1,
-     1,
+     2,
+     2,
      0
     ],
     "Mirage": [
-     5,
+     8,
      1,
      0
     ],
     "Inferno": [
-     1,
+     4,
+     5,
+     0
+    ],
+    "Nuke": [
+     3,
      4,
      0
     ],
     "Dust II": [
+     1,
+     5,
+     0
+    ],
+    "Cache": [
      0,
-     4,
+     1,
      0
     ],
     "Vertigo": [
      2,
      3,
      0
-    ],
-    "Nuke": [
-     2,
-     3,
-     0
     ]
    },
    "rt": [
-    141,
-    211
+    220,
+    319
    ],
    "rct": [
-    183,
-    165
+    287,
+    238
    ],
    "titles": 0,
    "finals": 0
@@ -9366,14 +9914,30 @@
      "rank": 1,
      "place": "Campeón",
      "w": 5,
-     "l": 0
+     "l": 0,
+     "roster": [
+      "FalleN",
+      "fer",
+      "coldzera",
+      "fnx",
+      "TACO"
+     ],
+     "coach": "zews"
     },
     {
      "id": "2017-atlanta",
      "rank": 3,
      "place": "Semifinales",
      "w": 4,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "FalleN",
+      "fer",
+      "coldzera",
+      "TACO",
+      "fox"
+     ],
+     "coach": "dead"
     },
     {
      "id": "2017-krakow",
@@ -9433,12 +9997,12 @@
     ]
    },
    "rt": [
-    44,
-    51
+    167,
+    154
    ],
    "rct": [
-    50,
-    59
+    186,
+    148
    ],
    "titles": 1,
    "finals": 1
@@ -9450,7 +10014,15 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 0,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "arya",
+      "abE",
+      "jasonR",
+      "Professor_Chaos",
+      "DAVEY"
+     ],
+     "coach": "Grt"
     }
    ],
    "maps": {
@@ -9466,12 +10038,12 @@
     ]
    },
    "rt": [
-    0,
-    0
+    3,
+    7
    ],
    "rct": [
-    0,
-    0
+    5,
+    25
    ],
    "titles": 0,
    "finals": 0
@@ -9597,6 +10169,21 @@
   "TYLOO": {
    "majors": [
     {
+     "id": "2019-katowice",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3,
+     "roster": [
+      "somebody",
+      "BnTeT",
+      "xccurate",
+      "Summer",
+      "Attacker"
+     ],
+     "coach": "Johnta"
+    },
+    {
      "id": "2019-berlin",
      "rank": 20,
      "place": "Challengers Stage",
@@ -9673,9 +10260,29 @@
     }
    ],
    "maps": {
-    "Overpass": [
-     0,
+    "Inferno": [
      5,
+     8,
+     0
+    ],
+    "Overpass": [
+     1,
+     5,
+     0
+    ],
+    "Mirage": [
+     7,
+     4,
+     0
+    ],
+    "Cache": [
+     0,
+     2,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
      0
     ],
     "Train": [
@@ -9686,16 +10293,6 @@
     "Vertigo": [
      0,
      2,
-     0
-    ],
-    "Inferno": [
-     4,
-     6,
-     0
-    ],
-    "Mirage": [
-     6,
-     3,
      0
     ],
     "Anubis": [
@@ -9715,12 +10312,12 @@
     ]
    },
    "rt": [
-    220,
-    278
+    259,
+    349
    ],
    "rct": [
-    253,
-    242
+    324,
+    290
    ],
    "titles": 0,
    "finals": 0
@@ -9767,7 +10364,15 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 1,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "MSL",
+      "tenzki",
+      "k0nfig",
+      "RUBINO",
+      "cajunb"
+     ],
+     "coach": "ruggah"
     }
    ],
    "maps": {
@@ -9788,12 +10393,12 @@
     ]
    },
    "rt": [
-    0,
-    0
+    33,
+    23
    ],
    "rct": [
-    0,
-    0
+    22,
+    25
    ],
    "titles": 0,
    "finals": 0
@@ -9850,21 +10455,45 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 0,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "Happy",
+      "NBK-",
+      "kennyS",
+      "apEX",
+      "DEVIL"
+     ],
+     "coach": "Maniac"
     },
     {
      "id": "2016-cologne",
      "rank": 20,
      "place": "Fase de grupos",
      "w": 0,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "Happy",
+      "NBK-",
+      "kennyS",
+      "apEX",
+      "DEVIL"
+     ],
+     "coach": "Next"
     },
     {
      "id": "2017-atlanta",
      "rank": 20,
      "place": "Fase suiza",
      "w": 2,
-     "l": 3
+     "l": 3,
+     "roster": [
+      "Happy",
+      "NBK-",
+      "kennyS",
+      "apEX",
+      "SIXER"
+     ],
+     "coach": "enkay J"
     }
    ],
    "maps": {
@@ -9905,12 +10534,12 @@
     ]
    },
    "rt": [
-    134,
-    111
+    188,
+    171
    ],
    "rct": [
-    172,
-    114
+    217,
+    184
    ],
    "titles": 1,
    "finals": 1
@@ -10222,21 +10851,60 @@
      "rank": 3,
      "place": "Semifinales",
      "w": 3,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "nitr0",
+      "EliGE",
+      "Hiko",
+      "s1mple",
+      "adreN"
+     ],
+     "coach": "GBJame^s"
     },
     {
      "id": "2016-cologne",
      "rank": 2,
      "place": "Subcampeón",
      "w": 4,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "nitr0",
+      "EliGE",
+      "Hiko",
+      "s1mple",
+      "jdm64"
+     ],
+     "coach": "peacemaker"
     },
     {
      "id": "2017-atlanta",
      "rank": 20,
      "place": "Fase suiza",
      "w": 2,
-     "l": 3
+     "l": 3,
+     "roster": [
+      "nitr0",
+      "EliGE",
+      "Hiko",
+      "jdm64",
+      "Pimp"
+     ],
+     "coach": "zews"
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 3,
+     "l": 1,
+     "roster": [
+      "nitr0",
+      "EliGE",
+      "Twistzz",
+      "NAF",
+      "Stewie2K"
+     ],
+     "coach": "adreN"
     },
     {
      "id": "2019-berlin",
@@ -10397,8 +11065,8 @@
      0
     ],
     "Mirage": [
-     11,
-     9,
+     12,
+     10,
      0
     ],
     "Cache": [
@@ -10407,7 +11075,7 @@
      0
     ],
     "Dust II": [
-     4,
+     5,
      7,
      0
     ],
@@ -10422,18 +11090,18 @@
      0
     ],
     "Overpass": [
-     5,
+     7,
      3,
+     0
+    ],
+    "Inferno": [
+     10,
+     10,
      0
     ],
     "Vertigo": [
      2,
      5,
-     0
-    ],
-    "Inferno": [
-     10,
-     9,
      0
     ],
     "Ancient": [
@@ -10448,18 +11116,33 @@
     ]
    },
    "rt": [
-    504,
-    597
+    708,
+    763
    ],
    "rct": [
-    589,
-    496
+    781,
+    680
    ],
    "titles": 0,
    "finals": 1
   },
   "Team Spirit": {
    "majors": [
+    {
+     "id": "2019-katowice",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 0,
+     "l": 3,
+     "roster": [
+      "COLDYY1",
+      "S0tF1k",
+      "DavCost",
+      "Dima",
+      "somedieyoung"
+     ],
+     "coach": "Certus"
+    },
     {
      "id": "2021-stockholm",
      "rank": 20,
@@ -10597,14 +11280,19 @@
     }
    ],
    "maps": {
-    "Overpass": [
-     3,
+    "Nuke": [
+     8,
      5,
      0
     ],
-    "Nuke": [
-     8,
+    "Mirage": [
+     13,
+     7,
+     0
+    ],
+    "Overpass": [
      3,
+     5,
      0
     ],
     "Inferno": [
@@ -10627,11 +11315,6 @@
      2,
      0
     ],
-    "Mirage": [
-     13,
-     5,
-     0
-    ],
     "Anubis": [
      4,
      1,
@@ -10644,12 +11327,12 @@
     ]
    },
    "rt": [
-    500,
-    462
+    517,
+    501
    ],
    "rct": [
-    586,
-    384
+    616,
+    409
    ],
    "titles": 1,
    "finals": 1
@@ -10911,7 +11594,14 @@
      "rank": 20,
      "place": "Fase de grupos",
      "w": 0,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "juliano",
+      "Sadokist",
+      "JZFB",
+      "kennyS",
+      "aNtrex"
+     ]
     }
    ],
    "maps": {
@@ -10922,12 +11612,12 @@
     ]
    },
    "rt": [
-    0,
-    0
+    4,
+    11
    ],
    "rct": [
     0,
-    0
+    5
    ],
    "titles": 0,
    "finals": 0
@@ -11312,6 +12002,21 @@
       "hutji"
      ],
      "coach": "Lk-"
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3,
+     "roster": [
+      "chopper",
+      "jR",
+      "hutji",
+      "crush",
+      "tonyblack"
+     ],
+     "coach": "Fierce"
     }
    ],
    "maps": {
@@ -11322,22 +12027,32 @@
     ],
     "Train": [
      0,
-     1,
+     2,
      0
     ],
     "Mirage": [
+     1,
+     2,
+     0
+    ],
+    "Cache": [
      0,
+     1,
+     0
+    ],
+    "Overpass": [
+     1,
      1,
      0
     ]
    },
    "rt": [
-    4,
-    21
+    35,
+    79
    ],
    "rct": [
-    18,
-    27
+    52,
+    62
    ],
    "titles": 0,
    "finals": 0
@@ -11423,6 +12138,61 @@
    "rct": [
     17,
     13
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "ViCi Gaming": {
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3,
+     "roster": [
+      "zhokiNg",
+      "Freeman",
+      "aumaN",
+      "advent",
+      "kaze"
+     ]
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     1,
+     1,
+     0
+    ],
+    "Inferno": [
+     2,
+     1,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    36,
+    50
+   ],
+   "rct": [
+    62,
+    57
    ],
    "titles": 0,
    "finals": 0
@@ -11521,21 +12291,45 @@
      "rank": 5,
      "place": "Cuartos de final",
      "w": 2,
-     "l": 2
+     "l": 2,
+     "roster": [
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+     ],
+     "coach": "kuben"
     },
     {
      "id": "2016-cologne",
      "rank": 3,
      "place": "Semifinales",
      "w": 3,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+     ],
+     "coach": "kuben"
     },
     {
      "id": "2017-atlanta",
      "rank": 2,
      "place": "Subcampeón",
      "w": 5,
-     "l": 1
+     "l": 1,
+     "roster": [
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+     ],
+     "coach": "kuben"
     },
     {
      "id": "2017-krakow",
@@ -11671,18 +12465,33 @@
     ]
    },
    "rt": [
-    556,
-    567
+    725,
+    747
    ],
    "rct": [
-    669,
-    488
+    858,
+    646
    ],
    "titles": 1,
    "finals": 2
   },
   "Vitality": {
    "majors": [
+    {
+     "id": "2019-katowice",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 5,
+     "l": 4,
+     "roster": [
+      "NBK-",
+      "apEX",
+      "RpK",
+      "ZywOo",
+      "ALEX"
+     ],
+     "coach": "XTQZZZ"
+    },
     {
      "id": "2019-berlin",
      "rank": 5,
@@ -11851,29 +12660,34 @@
     }
    ],
    "maps": {
-    "Dust II": [
-     14,
-     7,
-     0
-    ],
-    "Mirage": [
-     17,
-     8,
-     0
-    ],
     "Inferno": [
-     16,
-     8,
-     0
-    ],
-    "Overpass": [
-     5,
-     5,
+     17,
+     10,
      0
     ],
     "Nuke": [
-     11,
+     13,
      6,
+     0
+    ],
+    "Overpass": [
+     7,
+     5,
+     0
+    ],
+    "Mirage": [
+     19,
+     10,
+     0
+    ],
+    "Dust II": [
+     14,
+     8,
+     0
+    ],
+    "Cache": [
+     1,
+     1,
      0
     ],
     "Vertigo": [
@@ -11893,12 +12707,12 @@
     ]
    },
    "rt": [
-    664,
-    654
+    730,
+    761
    ],
    "rct": [
-    801,
-    569
+    915,
+    644
    ],
    "titles": 3,
    "finals": 3
@@ -12078,6 +12892,62 @@
    "rct": [
     120,
     122
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Winstrike Team": {
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 2,
+     "l": 3,
+     "roster": [
+      "Boombl4",
+      "Kvik",
+      "n0rb3r7",
+      "WorldEdit",
+      "wayLander"
+     ],
+     "coach": "iksou"
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     0,
+     2,
+     0
+    ],
+    "Train": [
+     2,
+     1,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     1,
+     0,
+     0
+    ],
+    "Overpass": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    27,
+    70
+   ],
+   "rct": [
+    76,
+    33
    ],
    "titles": 0,
    "finals": 0
@@ -12507,9 +13377,28 @@
     }
    ]
   },
+  "abE": {
+   "flag": "us",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Splyce",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "ableJ": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "FURIA",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "FURIA",
@@ -12658,11 +13547,39 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "Gambit Gaming",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Gambit Gaming",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Gambit Esports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "Gambit Esports",
      "role": "player",
      "rank": 1,
      "place": "Campeón"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -12674,7 +13591,7 @@
    ]
   },
   "adreN": {
-   "flag": "",
+   "flag": "us",
    "majors": [
     {
      "id": "2013-jonkoping",
@@ -12696,6 +13613,20 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Team Liquid",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -12720,9 +13651,28 @@
     }
    ]
   },
+  "advent": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "ViCi Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    }
+   ]
+  },
   "Aerial": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "ENCE",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
     {
      "id": "2019-berlin",
      "team": "ENCE",
@@ -12752,7 +13702,7 @@
    ]
   },
   "aizy": {
-   "flag": "",
+   "flag": "dk",
    "majors": [
     {
      "id": "2013-jonkoping",
@@ -12783,6 +13733,27 @@
      "place": ""
     },
     {
+     "id": "2016-columbus",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "North",
      "role": "player",
@@ -12801,6 +13772,13 @@
   "Aleksib": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "ENCE",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
     {
      "id": "2019-berlin",
      "team": "ENCE",
@@ -12876,6 +13854,13 @@
   "ALEX": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Vitality",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "Vitality",
@@ -13009,11 +13994,25 @@
      "place": "Semifinales"
     },
     {
+     "id": "2017-atlanta",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "FaZe Clan",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "ENCE",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2019-berlin",
@@ -13064,6 +14063,18 @@
      "role": "player",
      "rank": 2,
      "place": "Subcampeón"
+    }
+   ]
+  },
+  "ami": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "HellRaisers",
+     "role": "coach",
+     "rank": 19,
+     "place": "Legends Stage"
     }
    ]
   },
@@ -13142,6 +14153,20 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2017-atlanta",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "HellRaisers",
      "role": "player",
@@ -13195,6 +14220,18 @@
     }
    ]
   },
+  "aNtrex": {
+   "flag": "de",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "Team juliano",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "apEX": {
    "flag": "fr",
    "majors": [
@@ -13241,11 +14278,39 @@
      "place": "Campeón"
     },
     {
+     "id": "2016-columbus",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "G2 Esports",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Vitality",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-berlin",
@@ -13359,6 +14424,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "FURIA",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "FURIA",
      "role": "player",
@@ -13439,6 +14511,18 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "arya": {
+   "flag": "us",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Splyce",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -13524,6 +14608,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "TYLOO",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "TYLOO",
      "role": "player",
@@ -13560,6 +14651,18 @@
     }
    ]
   },
+  "aumaN": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "ViCi Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    }
+   ]
+  },
   "Austin": {
    "flag": "",
    "majors": [
@@ -13581,6 +14684,13 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-berlin",
@@ -13729,6 +14839,13 @@
      "place": "Semifinales"
     },
     {
+     "id": "2019-katowice",
+     "team": "Renegades",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2019-berlin",
      "team": "Renegades",
      "role": "player",
@@ -13807,6 +14924,27 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     },
     {
      "id": "2017-krakow",
@@ -13995,6 +15133,25 @@
      "id": "2025-budapest",
      "team": "The Huns Esports",
      "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
+  "beAst": {
+   "flag": "kz",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Gambit Gaming",
+     "role": "coach",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Gambit Gaming",
+     "role": "coach",
      "rank": null,
      "place": ""
     }
@@ -14307,6 +15464,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "TYLOO",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "TYLOO",
      "role": "player",
@@ -14338,11 +15502,32 @@
    "flag": "",
    "majors": [
     {
+     "id": "2016-cologne",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "G2 Esports",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2023-paris",
@@ -14451,12 +15636,33 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
   "Boombl4": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Winstrike Team",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "Natus Vincere",
@@ -14575,6 +15781,13 @@
   "Brehze": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "NRG",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "NRG",
@@ -14715,6 +15928,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
      "id": "2022-antwerp",
      "team": "Ninjas in Pyjamas",
      "role": "player",
@@ -14807,6 +16027,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "AVANGAR",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "AVANGAR",
      "role": "player",
@@ -14892,6 +16119,27 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2017-krakow",
@@ -15087,6 +16335,27 @@
      "place": ""
     },
     {
+     "id": "2016-columbus",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "North",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "North",
      "role": "player",
@@ -15216,6 +16485,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "NRG",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "NRG",
      "role": "player",
@@ -15241,6 +16517,13 @@
   "Certus": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Team Spirit",
+     "role": "coach",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2021-stockholm",
      "team": "Team Spirit",
@@ -15372,6 +16655,13 @@
      "place": "Fase suiza"
     },
     {
+     "id": "2019-katowice",
+     "team": "Vega Squadron",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
+    {
      "id": "2021-stockholm",
      "team": "Team Spirit",
      "role": "player",
@@ -15456,7 +16746,7 @@
    ]
   },
   "chrisJ": {
-   "flag": "",
+   "flag": "nl",
    "majors": [
     {
      "id": "2014-katowice",
@@ -15478,6 +16768,27 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     },
     {
      "id": "2017-krakow",
@@ -15635,8 +16946,20 @@
     }
    ]
   },
-  "coldzera": {
+  "COLDYY1": {
    "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Team Spirit",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    }
+   ]
+  },
+  "coldzera": {
+   "flag": "br",
    "majors": [
     {
      "id": "2015-cologne",
@@ -15653,11 +16976,39 @@
      "place": "Cuartos de final"
     },
     {
+     "id": "2016-columbus",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "SK Gaming",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "SK Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
      "id": "2017-krakow",
      "team": "SK Gaming",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "MIBR",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     },
     {
      "id": "2022-rio",
@@ -15753,6 +17104,18 @@
      "role": "player",
      "rank": 19,
      "place": "Legends Stage"
+    }
+   ]
+  },
+  "crush": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Vega Squadron",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -15867,6 +17230,20 @@
    "flag": "",
    "majors": [
     {
+     "id": "2016-cologne",
+     "team": "OpTic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "NRG",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2021-stockholm",
      "team": "Evil Geniuses",
      "role": "coach",
@@ -15906,6 +17283,13 @@
   "dastan": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "AVANGAR",
+     "role": "coach",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "AVANGAR",
@@ -16044,6 +17428,25 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Team Spirit",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    }
+   ]
+  },
+  "DAVEY": {
+   "flag": "ca",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Splyce",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -16082,6 +17485,37 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    }
+   ]
+  },
+  "dead": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2017-atlanta",
+     "team": "SK Gaming",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
+  "DeadFox": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2017-atlanta",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     }
    ]
   },
@@ -16283,6 +17717,27 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "MOUZ",
      "role": "player",
@@ -16292,7 +17747,7 @@
    ]
   },
   "dennis": {
-   "flag": "",
+   "flag": "se",
    "majors": [
     {
      "id": "2013-jonkoping",
@@ -16323,8 +17778,36 @@
      "place": "Semifinales"
     },
     {
+     "id": "2016-columbus",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
      "id": "2017-krakow",
      "team": "Fnatic",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Ninjas in Pyjamas",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
@@ -16334,6 +17817,13 @@
   "dephh": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Complexity",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "Complexity",
@@ -16491,11 +17981,39 @@
      "place": ""
     },
     {
+     "id": "2016-columbus",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
      "id": "2017-krakow",
      "team": "Astralis",
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2019-berlin",
@@ -16510,6 +18028,25 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    }
+   ]
+  },
+  "DEVIL": {
+   "flag": "fr",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -16563,6 +18100,13 @@
   "dexter": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Grayhound Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "Grayhound Gaming",
@@ -16658,11 +18202,42 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "Grayhound Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "Grayhound Gaming",
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
+    }
+   ]
+  },
+  "Dima": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Team Spirit",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    }
+   ]
+  },
+  "disco doplan": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2017-atlanta",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     }
    ]
   },
@@ -16852,6 +18427,27 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "Gambit Gaming",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Gambit Gaming",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Gambit Esports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "Gambit Esports",
      "role": "player",
@@ -17038,11 +18634,39 @@
      "place": ""
     },
     {
+     "id": "2016-columbus",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
      "id": "2017-krakow",
      "team": "Astralis",
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2019-berlin",
@@ -17203,11 +18827,39 @@
      "place": "Subcampeón"
     },
     {
+     "id": "2016-columbus",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "Natus Vincere",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     }
    ]
   },
@@ -17251,11 +18903,25 @@
    "flag": "",
    "majors": [
     {
+     "id": "2017-atlanta",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "FlipSid3 Tactics",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     },
     {
      "id": "2019-berlin",
@@ -17321,7 +18987,7 @@
    ]
   },
   "EliGE": {
-   "flag": "",
+   "flag": "us",
    "majors": [
     {
      "id": "2015-cluj",
@@ -17329,6 +18995,34 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -17484,6 +19178,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2017-atlanta",
+     "team": "Team EnVyUs",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2026-singapore",
      "team": "FaZe Clan",
      "role": "coach",
@@ -17495,6 +19196,13 @@
   "erkaSt": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Grayhound Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "Grayhound Gaming",
@@ -17585,6 +19293,13 @@
   "Ethan": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "NRG",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "NRG",
@@ -17702,6 +19417,13 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -17808,6 +19530,27 @@
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -17940,11 +19683,39 @@
      "place": "Cuartos de final"
     },
     {
+     "id": "2016-columbus",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "SK Gaming",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "SK Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
      "id": "2017-krakow",
      "team": "SK Gaming",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "MIBR",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     },
     {
      "id": "2019-berlin",
@@ -18214,6 +19985,13 @@
      "place": "Cuartos de final"
     },
     {
+     "id": "2019-katowice",
+     "team": "MIBR",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
      "id": "2021-stockholm",
      "team": "GODSENT",
      "role": "player",
@@ -18275,11 +20053,39 @@
      "place": "Cuartos de final"
     },
     {
+     "id": "2016-columbus",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "SK Gaming",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "SK Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
      "id": "2017-krakow",
      "team": "SK Gaming",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "MIBR",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     },
     {
      "id": "2019-berlin",
@@ -18348,6 +20154,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "Vega Squadron",
+     "role": "coach",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
+    {
      "id": "2022-antwerp",
      "team": "FORZE Esports",
      "role": "coach",
@@ -18407,6 +20220,18 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "fitch": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "AVANGAR",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     }
    ]
   },
@@ -18595,11 +20420,39 @@
      "place": "Subcampeón"
     },
     {
+     "id": "2016-columbus",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "Natus Vincere",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     },
     {
      "id": "2019-berlin",
@@ -18722,11 +20575,39 @@
      "place": ""
     },
     {
+     "id": "2016-columbus",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "GODSENT",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "Fnatic",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-berlin",
@@ -18764,8 +20645,22 @@
    ]
   },
   "fnx": {
-   "flag": "",
+   "flag": "br",
    "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "SK Gaming",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
     {
      "id": "2022-antwerp",
      "team": "Imperial",
@@ -18816,7 +20711,7 @@
    ]
   },
   "fox": {
-   "flag": "",
+   "flag": "pt",
    "majors": [
     {
      "id": "2015-cologne",
@@ -18828,6 +20723,27 @@
     {
      "id": "2015-cluj",
      "team": "G2 Esports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "SK Gaming",
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
@@ -18859,7 +20775,7 @@
    ]
   },
   "fREAKAZOiD": {
-   "flag": "",
+   "flag": "us",
    "majors": [
     {
      "id": "2015-cologne",
@@ -18874,12 +20790,26 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
   "Freeman": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "ViCi Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "TYLOO",
@@ -18940,6 +20870,20 @@
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     },
     {
      "id": "2022-rio",
@@ -19038,7 +20982,7 @@
    ]
   },
   "FugLy": {
-   "flag": "",
+   "flag": "us",
    "majors": [
     {
      "id": "2015-cluj",
@@ -19046,6 +20990,20 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "NRG",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     }
    ]
   },
@@ -19150,7 +21108,7 @@
    ]
   },
   "GBJame^s": {
-   "flag": "",
+   "flag": "us",
    "majors": [
     {
      "id": "2015-cluj",
@@ -19158,6 +21116,13 @@
      "role": "coach",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Team Liquid",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
     }
    ]
   },
@@ -19214,6 +21179,34 @@
      "place": "Semifinales"
     },
     {
+     "id": "2016-columbus",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "All-Stars Europe",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2019-berlin",
      "team": "Ninjas in Pyjamas",
      "role": "player",
@@ -19263,7 +21256,7 @@
    ]
   },
   "gla1ve": {
-   "flag": "",
+   "flag": "dk",
    "majors": [
     {
      "id": "2013-jonkoping",
@@ -19294,11 +21287,32 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-cologne",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
      "id": "2017-krakow",
      "team": "Astralis",
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2019-berlin",
@@ -19400,6 +21414,13 @@
      "place": "Cuartos de final"
     },
     {
+     "id": "2019-katowice",
+     "team": "BIG",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2022-antwerp",
      "team": "BIG",
      "role": "coach",
@@ -19485,6 +21506,13 @@
   "Gratisfaction": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Renegades",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2019-berlin",
      "team": "Renegades",
@@ -19635,6 +21663,18 @@
     }
    ]
   },
+  "Grt": {
+   "flag": "ca",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Splyce",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "GruBy": {
    "flag": "",
    "majors": [
@@ -19707,11 +21747,39 @@
      "place": "Subcampeón"
     },
     {
+     "id": "2016-columbus",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "Natus Vincere",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -19725,6 +21793,13 @@
   "guerri": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "FURIA",
+     "role": "coach",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "FURIA",
@@ -20030,6 +22105,27 @@
      "role": "player",
      "rank": 1,
      "place": "Campeón"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
@@ -20151,6 +22247,20 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -20247,8 +22357,15 @@
    ]
   },
   "HenryG": {
-   "flag": "",
+   "flag": "uk",
    "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "BOT Bardolph",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2017-krakow",
      "team": "Team Bardolph",
@@ -20292,7 +22409,7 @@
    ]
   },
   "Hiko": {
-   "flag": "",
+   "flag": "us",
    "majors": [
     {
      "id": "2013-jonkoping",
@@ -20328,6 +22445,34 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "All-Stars North America",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
@@ -20354,6 +22499,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2017-atlanta",
+     "team": "Gambit Esports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "Gambit Esports",
      "role": "player",
@@ -20379,6 +22531,13 @@
   "Hobbit": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2022-antwerp",
      "team": "Cloud9",
@@ -20415,8 +22574,22 @@
    ]
   },
   "hooch": {
-   "flag": "",
+   "flag": "ru",
    "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Gambit Gaming",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Gambit Gaming",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
     {
      "id": "2021-stockholm",
      "team": "Entropiq",
@@ -20617,6 +22790,13 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Vega Squadron",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -20701,6 +22881,18 @@
     }
    ]
   },
+  "iksou": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Winstrike Team",
+     "role": "coach",
+     "rank": 20,
+     "place": "Challengers Stage"
+    }
+   ]
+  },
   "iM": {
    "flag": "",
    "majors": [
@@ -20765,6 +22957,13 @@
   "ImAPet": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "NRG",
+     "role": "coach",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "NRG",
@@ -21048,6 +23247,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "HellRaisers",
      "role": "player",
@@ -21157,6 +23363,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "G2 Esports",
      "role": "player",
@@ -21220,6 +23433,13 @@
   "Jame": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "AVANGAR",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "AVANGAR",
@@ -21349,6 +23569,18 @@
     }
    ]
   },
+  "jasonR": {
+   "flag": "ca",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Splyce",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "JBa": {
    "flag": "",
    "majors": [
@@ -21461,7 +23693,7 @@
    ]
   },
   "jdm64": {
-   "flag": "",
+   "flag": "us",
    "majors": [
     {
      "id": "2015-cologne",
@@ -21476,6 +23708,27 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
@@ -21622,6 +23875,27 @@
      "place": "Semifinales"
     },
     {
+     "id": "2016-columbus",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Renegades",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2019-berlin",
      "team": "Renegades",
      "role": "player",
@@ -21667,6 +23941,13 @@
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Renegades",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -21815,6 +24096,20 @@
      "role": "coach",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "HellRaisers",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "TYLOO",
+     "role": "coach",
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -21910,6 +24205,13 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Vega Squadron",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -22005,15 +24307,41 @@
     }
    ]
   },
+  "juliano": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "Team juliano",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "Jumpy": {
    "flag": "",
    "majors": [
+    {
+     "id": "2017-atlanta",
+     "team": "Fnatic",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
     {
      "id": "2017-krakow",
      "team": "Fnatic",
      "role": "coach",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Fnatic",
+     "role": "coach",
+     "rank": null,
+     "place": ""
     }
    ]
   },
@@ -22106,17 +24434,71 @@
      "place": ""
     },
     {
+     "id": "2016-columbus",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "GODSENT",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "Fnatic",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
+  "JZFB": {
+   "flag": "uk",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "Team juliano",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
   "k0nfig": {
    "flag": "",
    "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "North",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2017-krakow",
      "team": "North",
@@ -22239,11 +24621,32 @@
    "flag": "",
    "majors": [
     {
+     "id": "2016-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Gambit Esports",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "Gambit Esports",
      "role": "coach",
      "rank": 1,
      "place": "Campeón"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Natus Vincere",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
     },
     {
      "id": "2019-berlin",
@@ -22258,6 +24661,18 @@
      "role": "coach",
      "rank": 20,
      "place": "Opening Stage"
+    }
+   ]
+  },
+  "Kapio": {
+   "flag": "de",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "MOUZ",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -22305,6 +24720,27 @@
      "role": "player",
      "rank": null,
      "place": ""
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2017-krakow",
@@ -22415,6 +24851,20 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-cologne",
+     "team": "MOUZ",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Renegades",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2019-berlin",
      "team": "Renegades",
      "role": "coach",
@@ -22452,6 +24902,13 @@
   "kaze": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "ViCi Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2024-shanghai",
      "team": "Rare Atom",
@@ -22571,11 +25028,53 @@
      "place": "Campeón"
     },
     {
+     "id": "2016-columbus",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "All-Stars Europe",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team juliano",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "G2 Esports",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-berlin",
@@ -22810,11 +25309,32 @@
      "place": "Campeón"
     },
     {
+     "id": "2016-cologne",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "FaZe Clan",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-berlin",
@@ -22845,7 +25365,7 @@
    ]
   },
   "Kjaerbye": {
-   "flag": "",
+   "flag": "dk",
    "majors": [
     {
      "id": "2014-jonkoping",
@@ -22860,6 +25380,13 @@
      "role": "player",
      "rank": null,
      "place": ""
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2017-krakow",
@@ -22938,6 +25465,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "koosta": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -23148,11 +25687,39 @@
      "place": ""
     },
     {
+     "id": "2016-columbus",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
      "id": "2017-krakow",
      "team": "Fnatic",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
     },
     {
      "id": "2022-rio",
@@ -23181,6 +25748,30 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "KrizzeN": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "AVANGAR",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    }
+   ]
+  },
+  "KrowNii": {
+   "flag": "de",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "BOT Bardolph",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -23213,6 +25804,13 @@
   "KSCERATO": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "FURIA",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "FURIA",
@@ -23317,6 +25915,27 @@
      "place": "Cuartos de final"
     },
     {
+     "id": "2016-columbus",
+     "team": "Virtus.pro",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Virtus.pro",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Virtus.pro",
+     "role": "coach",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
      "id": "2017-krakow",
      "team": "Virtus.pro",
      "role": "coach",
@@ -23407,6 +26026,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "Kvik": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Winstrike Team",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -23738,6 +26369,20 @@
    "flag": "",
    "majors": [
     {
+     "id": "2017-atlanta",
+     "team": "GODSENT",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2019-berlin",
      "team": "Ninjas in Pyjamas",
      "role": "player",
@@ -23775,6 +26420,13 @@
   "Liazz": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Renegades",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2019-berlin",
      "team": "Renegades",
@@ -23854,6 +26506,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2017-atlanta",
+     "team": "MOUZ",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "MOUZ",
      "role": "coach",
@@ -23917,6 +26576,13 @@
   "loWel": {
    "flag": "",
    "majors": [
+    {
+     "id": "2017-atlanta",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
     {
      "id": "2017-krakow",
      "team": "MOUZ",
@@ -24026,6 +26692,13 @@
   "Lucky": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "G2 Esports",
@@ -24348,11 +27021,25 @@
    "flag": "",
    "majors": [
     {
+     "id": "2017-atlanta",
+     "team": "North",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "North",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2019-berlin",
@@ -24500,7 +27187,7 @@
    ]
   },
   "Maikelele": {
-   "flag": "",
+   "flag": "se",
    "majors": [
     {
      "id": "2014-jonkoping",
@@ -24522,6 +27209,20 @@
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "All-Stars Europe",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -24654,6 +27355,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "G2 Esports",
+     "role": "coach",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "G2 Esports",
      "role": "coach",
@@ -24672,6 +27380,13 @@
   "malta": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Grayhound Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "Grayhound Gaming",
@@ -24725,6 +27440,13 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Team EnVyUs",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -24810,6 +27532,27 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     },
     {
      "id": "2017-krakow",
@@ -25104,6 +27847,18 @@
     }
    ]
   },
+  "missharvey": {
+   "flag": "ca",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "BOT Bardolph",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "MisteM": {
    "flag": "",
    "majors": [
@@ -25177,6 +27932,25 @@
      "role": "coach",
      "rank": 5,
      "place": "Cuartos de final"
+    }
+   ]
+  },
+  "mixwell": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "OpTic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "OpTic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
@@ -25314,8 +28088,15 @@
    ]
   },
   "moses": {
-   "flag": "",
+   "flag": "us",
    "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "BOT Bardolph",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2017-krakow",
      "team": "Team ddk",
@@ -25352,8 +28133,29 @@
    ]
   },
   "mou": {
-   "flag": "",
+   "flag": "kz",
    "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Gambit Gaming",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Gambit Gaming",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Gambit Esports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2017-krakow",
      "team": "Gambit Esports",
@@ -25405,6 +28207,20 @@
      "role": "player",
      "rank": null,
      "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "North",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2017-krakow",
@@ -25490,6 +28306,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "Winstrike Team",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
+    {
      "id": "2022-rio",
      "team": "Outsiders",
      "role": "player",
@@ -25565,11 +28388,25 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
      "id": "2017-krakow",
      "team": "Cloud9",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Complexity",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2025-austin",
@@ -25635,6 +28472,27 @@
   "NAF": {
    "flag": "",
    "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "OpTic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "OpTic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2019-berlin",
      "team": "Team Liquid",
@@ -25876,11 +28734,39 @@
      "place": "Campeón"
     },
     {
+     "id": "2016-columbus",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "G2 Esports",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Vitality",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-berlin",
@@ -26030,6 +28916,27 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2017-krakow",
@@ -26220,11 +29127,32 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
      "id": "2017-krakow",
      "team": "BIG",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "BIG",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     }
    ]
   },
@@ -26284,11 +29212,18 @@
      "role": "coach",
      "rank": 1,
      "place": "Campeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team EnVyUs",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
   "NiaK": {
-   "flag": "",
+   "flag": "fr",
    "majors": [
     {
      "id": "2015-cologne",
@@ -26303,6 +29238,27 @@
      "role": "coach",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "G2 Esports",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "G2 Esports",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "G2 Esports",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
@@ -26418,7 +29374,7 @@
    ]
   },
   "NiKo": {
-   "flag": "",
+   "flag": "ba",
    "majors": [
     {
      "id": "2015-cluj",
@@ -26428,11 +29384,46 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "All-Stars Europe",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "FaZe Clan",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -26576,7 +29567,7 @@
    ]
   },
   "nitr0": {
-   "flag": "",
+   "flag": "us",
    "majors": [
     {
      "id": "2014-jonkoping",
@@ -26591,6 +29582,34 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -26950,8 +29969,36 @@
      "place": ""
     },
     {
+     "id": "2016-columbus",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
      "id": "2017-krakow",
      "team": "Fnatic",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "FaZe Clan",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
@@ -27134,6 +30181,27 @@
      "place": "Cuartos de final"
     },
     {
+     "id": "2016-columbus",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
      "id": "2017-krakow",
      "team": "Virtus.pro",
      "role": "player",
@@ -27196,6 +30264,18 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "peacemaker": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "Team Liquid",
+     "role": "coach",
+     "rank": 2,
+     "place": "Subcampeón"
     }
    ]
   },
@@ -27342,6 +30422,13 @@
      "role": "player",
      "rank": null,
      "place": ""
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
@@ -27377,7 +30464,7 @@
    ]
   },
   "pita": {
-   "flag": "",
+   "flag": "ba",
    "majors": [
     {
      "id": "2013-jonkoping",
@@ -27399,6 +30486,27 @@
      "role": "coach",
      "rank": 2,
      "place": "Subcampeón"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Counter Logic Gaming",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -27528,6 +30636,18 @@
     }
    ]
   },
+  "Professor_Chaos": {
+   "flag": "us",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Splyce",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "pronax": {
    "flag": "se",
    "majors": [
@@ -27579,6 +30699,13 @@
      "role": "player",
      "rank": null,
      "place": ""
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "GODSENT",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
@@ -27606,9 +30733,28 @@
     }
    ]
   },
+  "pyth": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "qikert": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "AVANGAR",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "AVANGAR",
@@ -27781,11 +30927,46 @@
      "place": "Semifinales"
     },
     {
+     "id": "2016-columbus",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "All-Stars Europe",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "FaZe Clan",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "FaZe Clan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -27913,6 +31094,18 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "rdl": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2017-atlanta",
+     "team": "GODSENT",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
@@ -28084,12 +31277,33 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
   "REZ": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2019-berlin",
      "team": "Ninjas in Pyjamas",
@@ -28150,6 +31364,13 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Complexity",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-berlin",
@@ -28284,8 +31505,29 @@
    ]
   },
   "RobbaN": {
-   "flag": "",
+   "flag": "se",
    "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "FaZe Clan",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "FaZe Clan",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "FaZe Clan",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2017-krakow",
      "team": "FaZe Clan",
@@ -28523,6 +31765,34 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Vitality",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "Vitality",
      "role": "player",
@@ -28554,12 +31824,40 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "North",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
   "ruggah": {
    "flag": "",
    "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "Team Dignitas",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "North",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2017-krakow",
      "team": "North",
@@ -28600,6 +31898,27 @@
   "RUSH": {
    "flag": "",
    "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "OpTic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "OpTic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "Forfeited Slot",
@@ -28644,6 +31963,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "Team Spirit",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
+    {
      "id": "2026-cologne",
      "team": "Team Spirit",
      "role": "player",
@@ -28660,11 +31986,39 @@
    ]
   },
   "s1mple": {
-   "flag": "",
+   "flag": "ua",
    "majors": [
     {
      "id": "2014-jonkoping",
      "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "All-Stars North America",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Natus Vincere",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
@@ -28675,6 +32029,13 @@
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     },
     {
      "id": "2019-berlin",
@@ -28871,6 +32232,18 @@
     }
    ]
   },
+  "Sadokist": {
+   "flag": "ca",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "Team juliano",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "saffee": {
    "flag": "",
    "majors": [
@@ -29049,7 +32422,7 @@
    ]
   },
   "ScreaM": {
-   "flag": "",
+   "flag": "be",
    "majors": [
     {
      "id": "2013-jonkoping",
@@ -29085,6 +32458,27 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
@@ -29198,6 +32592,27 @@
      "role": "player",
      "rank": 2,
      "place": "Subcampeón"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2017-krakow",
@@ -29341,6 +32756,13 @@
   "sergej": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "ENCE",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
     {
      "id": "2019-berlin",
      "team": "ENCE",
@@ -29486,6 +32908,13 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2019-katowice",
+     "team": "Complexity",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "Complexity",
      "role": "player",
@@ -29510,6 +32939,25 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
+    }
+   ]
+  },
+  "Shara": {
+   "flag": "ua",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
@@ -29578,11 +33026,39 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "G2 Esports",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-berlin",
@@ -29648,6 +33124,20 @@
     {
      "id": "2015-cluj",
      "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "All-Stars North America",
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
@@ -29869,6 +33359,18 @@
     }
    ]
   },
+  "SIXER": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2017-atlanta",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    }
+   ]
+  },
   "sjuush": {
    "flag": "",
    "majors": [
@@ -29971,7 +33473,7 @@
    ]
   },
   "Skadoodle": {
-   "flag": "",
+   "flag": "us",
    "majors": [
     {
      "id": "2013-jonkoping",
@@ -30018,6 +33520,20 @@
     {
      "id": "2015-cluj",
      "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "All-Stars North America",
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
@@ -30257,6 +33773,27 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "G2 Esports",
      "role": "coach",
@@ -30384,6 +33921,27 @@
      "place": "Cuartos de final"
     },
     {
+     "id": "2016-columbus",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
      "id": "2017-krakow",
      "team": "Virtus.pro",
      "role": "player",
@@ -30488,6 +34046,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "TYLOO",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "TYLOO",
      "role": "player",
@@ -30514,6 +34079,18 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "somedieyoung": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Team Spirit",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -30569,6 +34146,18 @@
     }
    ]
   },
+  "spaze": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2016-cologne",
+     "team": "Gambit Gaming",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
   "speed4k": {
    "flag": "",
    "majors": [
@@ -30604,6 +34193,34 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "BOT Bardolph",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
     }
    ]
   },
@@ -30795,6 +34412,27 @@
    "flag": "",
    "majors": [
     {
+     "id": "2016-cologne",
+     "team": "OpTic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "OpTic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Complexity",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "NRG",
      "role": "player",
@@ -30882,6 +34520,27 @@
      "role": "coach",
      "rank": 2,
      "place": "Subcampeón"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Natus Vincere",
+     "role": "coach",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Natus Vincere",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Natus Vincere",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
@@ -31017,15 +34676,41 @@
     }
    ]
   },
-  "Stewie2K": {
+  "sterling": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Grayhound Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    }
+   ]
+  },
+  "Stewie2K": {
+   "flag": "us",
+   "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2017-krakow",
      "team": "Cloud9",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2019-berlin",
@@ -31140,6 +34825,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2017-atlanta",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2023-paris",
      "team": "Apeks",
      "role": "player",
@@ -31177,6 +34869,13 @@
   "Summer": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "TYLOO",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "TYLOO",
@@ -31612,6 +35311,13 @@
      "place": "Cuartos de final"
     },
     {
+     "id": "2019-katowice",
+     "team": "BIG",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2021-stockholm",
      "team": "BIG",
      "role": "player",
@@ -31689,14 +35395,42 @@
    ]
   },
   "TACO": {
-   "flag": "",
+   "flag": "br",
    "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "SK Gaming",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "SK Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
     {
      "id": "2017-krakow",
      "team": "SK Gaming",
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "MIBR",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     },
     {
      "id": "2019-berlin",
@@ -31786,6 +35520,34 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "All-Stars North America",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "OpTic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2019-berlin",
      "team": "NRG",
      "role": "player",
@@ -31871,6 +35633,27 @@
      "role": "player",
      "rank": 5,
      "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2017-krakow",
@@ -31993,6 +35776,13 @@
      "role": "player",
      "rank": null,
      "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -32103,8 +35893,22 @@
    ]
   },
   "THREAT": {
-   "flag": "",
+   "flag": "se",
    "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2021-stockholm",
      "team": "Ninjas in Pyjamas",
@@ -32171,6 +35975,13 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "BIG",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2021-stockholm",
@@ -32254,6 +36065,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "tonyblack": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Vega Squadron",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -32472,12 +36295,33 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
     }
    ]
   },
   "Twista": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "ENCE",
+     "role": "coach",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
     {
      "id": "2019-berlin",
      "team": "ENCE",
@@ -32490,6 +36334,13 @@
   "Twistzz": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2019-berlin",
      "team": "Team Liquid",
@@ -32794,6 +36645,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "FURIA",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "FURIA",
      "role": "player",
@@ -32942,7 +36800,7 @@
    ]
   },
   "vuggo": {
-   "flag": "",
+   "flag": "se",
    "majors": [
     {
      "id": "2015-cologne",
@@ -32957,6 +36815,20 @@
      "role": "coach",
      "rank": null,
      "place": ""
+    },
+    {
+     "id": "2016-columbus",
+     "team": "Fnatic",
+     "role": "coach",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Fnatic",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
     }
    ]
   },
@@ -33014,6 +36886,18 @@
     }
    ]
   },
+  "Warden": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Complexity",
+     "role": "coach",
+     "rank": 19,
+     "place": "Legends Stage"
+    }
+   ]
+  },
   "wasiNk": {
    "flag": "",
    "majors": [
@@ -33034,14 +36918,42 @@
    ]
   },
   "wayLander": {
-   "flag": "",
+   "flag": "fi",
    "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Gambit Gaming",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2016-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
     {
      "id": "2017-krakow",
      "team": "FlipSid3 Tactics",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Winstrike Team",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -33176,11 +37088,39 @@
      "place": "Fase de grupos"
     },
     {
+     "id": "2016-columbus",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
      "id": "2017-krakow",
      "team": "FlipSid3 Tactics",
      "role": "player",
      "rank": 20,
      "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Winstrike Team",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -33199,6 +37139,13 @@
   "woxic": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "MOUZ",
@@ -33285,6 +37232,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "BIG",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2022-antwerp",
      "team": "Eternal Fire",
      "role": "player",
@@ -33337,6 +37291,18 @@
      "role": "player",
      "rank": 20,
      "place": "Fase de grupos"
+    }
+   ]
+  },
+  "xccurate": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "TYLOO",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -33580,6 +37546,27 @@
      "place": "Semifinales"
     },
     {
+     "id": "2016-columbus",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
      "id": "2021-stockholm",
      "team": "HEROIC",
      "role": "coach",
@@ -33689,6 +37676,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "ENCE",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
      "id": "2019-berlin",
      "team": "ENCE",
      "role": "player",
@@ -33700,6 +37694,13 @@
   "XTQZZZ": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Vitality",
+     "role": "coach",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "Vitality",
@@ -33818,11 +37819,39 @@
      "place": ""
     },
     {
+     "id": "2016-columbus",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
      "id": "2017-krakow",
      "team": "Astralis",
      "role": "player",
      "rank": 3,
      "place": "Semifinales"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Astralis",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2019-berlin",
@@ -33969,6 +37998,13 @@
      "place": "Fase suiza"
     },
     {
+     "id": "2019-katowice",
+     "team": "FaZe Clan",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2019-berlin",
      "team": "FaZe Clan",
      "role": "coach",
@@ -33992,6 +38028,13 @@
   "yuurih": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "FURIA",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "FURIA",
@@ -34229,6 +38272,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2019-katowice",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
+    {
      "id": "2019-berlin",
      "team": "Forfeited Slot",
      "role": "player",
@@ -34252,6 +38302,13 @@
   "Zero": {
    "flag": "",
    "majors": [
+    {
+     "id": "2017-atlanta",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
     {
      "id": "2026-cologne",
      "team": "TYLOO",
@@ -34326,11 +38383,39 @@
      "place": "Subcampeón"
     },
     {
+     "id": "2016-columbus",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Gambit Esports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2017-krakow",
      "team": "Gambit Esports",
      "role": "player",
      "rank": 1,
      "place": "Campeón"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     },
     {
      "id": "2019-berlin",
@@ -34401,8 +38486,36 @@
    ]
   },
   "zews": {
-   "flag": "",
+   "flag": "br",
    "majors": [
+    {
+     "id": "2016-columbus",
+     "team": "Luminosity Gaming",
+     "role": "coach",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2016-cologne",
+     "team": "SK Gaming",
+     "role": "coach",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Team Liquid",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase suiza"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "MIBR",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
     {
      "id": "2019-berlin",
      "team": "MIBR",
@@ -34422,6 +38535,13 @@
   "zhokiNg": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "ViCi Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Challengers Stage"
+    },
     {
      "id": "2025-austin",
      "team": "TYLOO",
@@ -34457,6 +38577,18 @@
     }
    ]
   },
+  "znajder": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2017-atlanta",
+     "team": "GODSENT",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase suiza"
+    }
+   ]
+  },
   "zoneR": {
    "flag": "",
    "majors": [
@@ -34470,7 +38602,7 @@
    ]
   },
   "zonic": {
-   "flag": "",
+   "flag": "dk",
    "majors": [
     {
      "id": "2015-cluj",
@@ -34480,11 +38612,32 @@
      "place": ""
     },
     {
+     "id": "2016-columbus",
+     "team": "Astralis",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2017-atlanta",
+     "team": "Astralis",
+     "role": "coach",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
      "id": "2017-krakow",
      "team": "Astralis",
      "role": "coach",
      "rank": 3,
      "place": "Semifinales"
+    },
+    {
+     "id": "2019-katowice",
+     "team": "Astralis",
+     "role": "coach",
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2019-berlin",
@@ -34731,6 +38884,13 @@
   "ZywOo": {
    "flag": "",
    "majors": [
+    {
+     "id": "2019-katowice",
+     "team": "Vitality",
+     "role": "player",
+     "rank": 19,
+     "place": "Legends Stage"
+    },
     {
      "id": "2019-berlin",
      "team": "Vitality",

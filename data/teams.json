@@ -626,7 +626,7 @@
   },
   "Team Thorin": {
    "tpl": "team thorin",
-   "tries": 1
+   "tries": 2
   },
   "Team Usa Blast": {
    "tpl": "team usa blast",
@@ -659,7 +659,7 @@
   },
   "Team lurppis": {
    "tpl": "team lurppis",
-   "tries": 1
+   "tries": 2
   },
   "The MongolZ": {
    "tpl": "mongolz",
@@ -695,6 +695,10 @@
    "tpl": "vexed",
    "logo": "img/teams/vexed.png"
   },
+  "ViCi Gaming": {
+   "tpl": "vici",
+   "logo": "img/teams/vici.png"
+  },
   "Virtus.pro": {
    "tpl": "vp",
    "logo": "img/teams/virtus-pro.png"
@@ -716,6 +720,10 @@
    "tpl": "wildcard",
    "logo": "img/teams/wildcard.png",
    "dark": "img/teams/wildcard-dark.png"
+  },
+  "Winstrike Team": {
+   "tpl": "winstrike",
+   "logo": "img/teams/winstrike.png"
   },
   "Xapso": {
    "tpl": "xapso",
@@ -816,7 +824,9 @@
   "vertex": "VERTEX Esports Club",
   "vexed": "Vexed Gaming",
   "vg": "VeryGames",
+  "vici": "ViCi Gaming",
   "vox": "Vox Eminor",
+  "winstrike": "Winstrike Team",
   "wolf": "Team Wolf"
  }
 }

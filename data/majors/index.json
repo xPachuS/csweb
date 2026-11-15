@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T10:36:33Z",
- "calls": 20,
+ "checked": "2026-11-15T10:45:57Z",
+ "calls": 21,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -27,8 +27,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:36:33Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2014-katowice",
@@ -214,10 +215,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:08:46Z",
-   "error": "",
-   "tries": 0,
-   "parser": 3
+   "checked": "2026-11-15T10:45:57Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2016-cologne",
@@ -241,10 +241,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:08:46Z",
-   "error": "",
-   "tries": 0,
-   "parser": 3
+   "checked": "2026-11-15T10:45:57Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2017-atlanta",
@@ -268,10 +267,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:08:46Z",
-   "error": "",
-   "tries": 0,
-   "parser": 3
+   "checked": "2026-11-15T10:45:57Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2017-krakow",
@@ -296,8 +294,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:36:33Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2018-boston",
@@ -368,17 +367,16 @@
    "runnerup": "ENCE",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 1000000,
+   "venue": "ESL Arena",
+   "teams": 24,
+   "page": "Intel_Extreme_Masters/Season_XIII/World_Championship",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "IEM Katowice Major 2019: HTTP Error 429: Too Many Requests",
-   "tries": 1,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:45:57Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2019-berlin",
@@ -403,8 +401,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:36:33Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2021-stockholm",
@@ -429,8 +428,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:36:33Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2022-antwerp",
@@ -455,8 +455,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:36:33Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2022-rio",
@@ -481,8 +482,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:36:33Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2023-paris",
@@ -506,10 +508,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T10:23:13Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4
+   "checked": "2026-11-15T10:45:57Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2024-copenhagen",
@@ -533,10 +534,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T10:23:13Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4
+   "checked": "2026-11-15T10:45:57Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2024-shanghai",
@@ -668,7 +668,7 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T10:36:33Z",
+   "checked": "2026-11-15T10:45:57Z",
    "parser": 4,
    "tries": 0
   },

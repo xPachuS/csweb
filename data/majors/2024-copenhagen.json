@@ -774,12 +774,6 @@
      ],
      "first": "t",
      "hltv": 172207
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370615
@@ -890,12 +884,6 @@
      ],
      "first": "ct",
      "hltv": 172215
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370617
@@ -942,12 +930,6 @@
      ],
      "first": "ct",
      "hltv": 172216
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370618
@@ -994,12 +976,6 @@
      ],
      "first": "ct",
      "hltv": 172227
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370620
@@ -1106,12 +1082,6 @@
      ],
      "first": "t",
      "hltv": 172232
-    },
-    {
-     "map": "Anubis",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370622
@@ -1158,12 +1128,6 @@
      ],
      "first": "t",
      "hltv": 172235
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370621
@@ -1210,12 +1174,6 @@
      ],
      "first": "t",
      "hltv": 172239
-    },
-    {
-     "map": "Vertigo",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370624
@@ -1322,12 +1280,6 @@
      ],
      "first": "ct",
      "hltv": 172261
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370625
@@ -1438,12 +1390,6 @@
      ],
      "first": "t",
      "hltv": 172271
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370627
@@ -2134,12 +2080,6 @@
      ],
      "first": "t",
      "hltv": 172353
-    },
-    {
-     "map": "Vertigo",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370648
@@ -2622,12 +2562,6 @@
      ],
      "first": "t",
      "hltv": 172406
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370657
@@ -2738,12 +2672,6 @@
      ],
      "first": "t",
      "hltv": 172426
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370658
@@ -2854,12 +2782,6 @@
      ],
      "first": "t",
      "hltv": 172436
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2370660
@@ -3595,6 +3517,6 @@
    }
   }
  },
- "checked": "2026-11-15T10:23:13Z",
+ "checked": "2026-11-15T10:45:57Z",
  "errors": []
 }
