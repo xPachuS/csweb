@@ -1,0 +1,294 @@
+{
+ "event": {
+  "id": "2021-stockholm",
+  "name": "PGL Major Stockholm 2021",
+  "page": "PGL/2021/Stockholm",
+  "city": "Estocolmo",
+  "country": "SE"
+ },
+ "source": "Liquipedia (CC-BY-SA 3.0)",
+ "stages": [
+  {
+   "id": "s1",
+   "name": "Challengers Stage",
+   "page": "PGL/2021/Stockholm/Challengers_Stage",
+   "type": "swiss",
+   "teams": [],
+   "matches": 0
+  },
+  {
+   "id": "po",
+   "name": "Champions Stage",
+   "page": "PGL/2021/Stockholm/Champions_Stage",
+   "type": "bracket",
+   "teams": [
+    "FURIA",
+    "G2 Esports",
+    "Gambit Esports",
+    "HEROIC",
+    "Natus Vincere",
+    "Ninjas in Pyjamas",
+    "Virtus.pro",
+    "Vit"
+   ],
+   "matches": 7
+  },
+  {
+   "id": "s2",
+   "name": "Legends Stage",
+   "page": "PGL/2021/Stockholm/Legends_Stage",
+   "type": "swiss",
+   "teams": [],
+   "matches": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "po-S4Y6OM31OEQuarterfinals-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2021-11-04T15:30:00Z",
+   "t1": "HEROIC",
+   "t2": "Virtus.pro",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "po-S4Y6OM31OEQuarterfinals-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2021-11-04T20:00:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Mirage",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Ancient",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-S4Y6OM31OEQuarterfinals-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2021-11-05T15:30:00Z",
+   "t1": "FURIA",
+   "t2": "Gambit Esports",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 17,
+     "s2": 19,
+     "winner": 2
+    },
+    {
+     "map": "Overpass",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-S4Y6OM31OEQuarterfinals-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2021-11-05T19:05:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Vit",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-S4Y6OM31OEQuarterfinals-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2021-11-06T15:30:00Z",
+   "t1": "HEROIC",
+   "t2": "G2 Esports",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 15,
+     "s2": 19,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "po-S4Y6OM31OEQuarterfinals-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2021-11-06T20:10:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Gambit Esports",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-S4Y6OM31OEQuarterfinals-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2021-11-07T19:00:00Z",
+   "t1": "Natus Vincere",
+   "t2": "G2 Esports",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Nuke",
+     "s1": 22,
+     "s2": 19,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  }
+ ],
+ "checked": "2026-11-15T02:01:52Z",
+ "errors": []
+}

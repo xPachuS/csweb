@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T01:55:56Z",
- "calls": 23,
+ "checked": "2026-11-15T02:01:52Z",
+ "calls": 22,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -409,16 +409,14 @@
    "runnerup": "G2 Esports",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 2000000,
+   "venue": "[https://www.stockholmlive.com/en/avicii-arena Avicii Arena]",
+   "teams": 24,
+   "page": "PGL/2021/Stockholm",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T02:01:52Z"
   },
   {
    "id": "2022-antwerp",
@@ -435,16 +433,14 @@
    "runnerup": "Natus Vincere",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 1000000,
+   "venue": "[https://www.sportpaleis.be/en/home Antwerps Sportpaleis]",
+   "teams": 24,
+   "page": "PGL/2022/Antwerp",
    "pickem": false,
-   "loaded": false,
+   "loaded": true,
    "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0
+   "checked": "2026-11-15T02:01:52Z"
   },
   {
    "id": "2022-rio",
@@ -461,16 +457,14 @@
    "runnerup": "HEROIC",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
+   "prize": 1250000,
    "venue": "",
-   "teams": null,
-   "page": "",
+   "teams": 24,
+   "page": "BLAST/Major/2023/Paris",
    "pickem": false,
-   "loaded": false,
+   "loaded": true,
    "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0
+   "checked": "2026-11-15T02:01:52Z"
   },
   {
    "id": "2023-paris",
@@ -487,16 +481,14 @@
    "runnerup": "GamerLegion",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
+   "prize": 1250000,
    "venue": "",
-   "teams": null,
-   "page": "",
+   "teams": 24,
+   "page": "BLAST/Major/2023/Paris",
    "pickem": false,
-   "loaded": false,
+   "loaded": true,
    "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0
+   "checked": "2026-11-15T02:01:52Z"
   },
   {
    "id": "2024-copenhagen",
@@ -520,7 +512,7 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T01:55:56Z"
+   "checked": "2026-11-15T02:01:52Z"
   },
   {
    "id": "2024-shanghai",
@@ -544,7 +536,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T01:55:56Z"
+   "checked": "2026-11-15T01:55:56Z",
+   "error": "",
+   "tries": 0
   },
   {
    "id": "2025-austin",
@@ -568,7 +562,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T01:55:56Z"
+   "checked": "2026-11-15T01:55:56Z",
+   "error": "",
+   "tries": 0
   },
   {
    "id": "2025-budapest",
@@ -592,7 +588,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T01:55:56Z"
+   "checked": "2026-11-15T01:55:56Z",
+   "error": "",
+   "tries": 0
   },
   {
    "id": "2026-cologne",
@@ -616,7 +614,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T01:55:56Z"
+   "checked": "2026-11-15T01:55:56Z",
+   "error": "",
+   "tries": 0
   },
   {
    "id": "2026-singapore",
@@ -640,7 +640,7 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T01:55:56Z"
+   "checked": "2026-11-15T02:01:52Z"
   },
   {
    "id": "2027-buenos-aires",

@@ -1,24 +1,39 @@
 {
  "source": "Liquipedia · los logos son marcas de sus equipos",
  "teams": {
-  "100T": {},
-  "1W": {},
-  "3DMAX": {},
+  "100T": {
+   "logo": "img/teams/100t.png",
+   "dark": "img/teams/100t-dark.png"
+  },
+  "1W": {
+   "logo": "img/teams/1w.png"
+  },
+  "3DMAX": {
+   "logo": "img/teams/3dmax.png"
+  },
   "9Z": {
    "tpl": "9z",
    "logo": "img/teams/9z.png",
    "dark": "img/teams/9z-dark.png"
   },
-  "AVANGAR": {},
+  "AVANGAR": {
+   "logo": "img/teams/avangar.png"
+  },
   "Alter Ego": {
-   "tpl": "alter ego"
+   "tpl": "alter ego",
+   "logo": "img/teams/alter-ego.png"
+  },
+  "Apeks": {
+   "tpl": "apeks"
   },
   "Astralis": {
    "tpl": "astralis",
    "logo": "img/teams/astralis.png"
   },
   "Atox": {
-   "tpl": "atox"
+   "tpl": "atox",
+   "logo": "img/teams/atox.png",
+   "dark": "img/teams/atox-dark.png"
   },
   "Aurora": {
    "tpl": "aurora",
@@ -29,60 +44,88 @@
    "logo": "img/teams/b8.png",
    "dark": "img/teams/b8-dark.png"
   },
-  "BIG": {},
+  "BIG": {
+   "logo": "img/teams/big.png",
+   "dark": "img/teams/big-dark.png"
+  },
   "Bb Team": {
-   "tpl": "bb team"
+   "tpl": "bb team",
+   "logo": "img/teams/bb-team.png"
   },
   "Bestia": {
-   "tpl": "bestia"
+   "tpl": "bestia",
+   "logo": "img/teams/bestia.png",
+   "dark": "img/teams/bestia-dark.png"
   },
   "BetBoom Team": {
    "tpl": "betboom",
    "logo": "img/teams/betboom-team.png"
   },
+  "Blast Dream Team": {
+   "tpl": "blast dream team"
+  },
   "Bluejays": {
    "tpl": "bluejays",
    "logo": "img/teams/bluejays.png"
   },
-  "Chinggis": {},
+  "Bne": {
+   "tpl": "bne"
+  },
+  "Chinggis": {
+   "logo": "img/teams/chinggis.png"
+  },
   "Chinggis Warriors": {
    "tpl": "chinggis warriors",
    "logo": "img/teams/chinggis-warriors.png"
   },
   "Cloud9": {
-   "tpl": "c9"
+   "tpl": "c9",
+   "logo": "img/teams/cloud9.png"
+  },
+  "Cphf": {
+   "tpl": "cphf"
   },
   "Danish Squad": {
-   "tpl": "danish squad"
+   "tpl": "danish squad",
+   "logo": "img/teams/danish-squad.png"
   },
-  "Dendele": {},
+  "Dendele": {
+   "logo": "img/teams/dendele.png"
+  },
   "Dogevil": {
    "tpl": "dogevil",
    "logo": "img/teams/dogevil.png"
   },
   "Drillas": {
    "tpl": "drillas",
-   "tries": 1
+   "tries": 2
   },
   "ENCE": {
    "tpl": "ence",
    "logo": "img/teams/ence.png"
   },
   "Ecstatic": {
-   "tpl": "ecstatic"
+   "tpl": "ecstatic",
+   "logo": "img/teams/ecstatic.png"
   },
-  "Ef": {},
+  "Ef": {
+   "logo": "img/teams/ef.png"
+  },
   "Eruption": {
    "tpl": "eruption",
    "logo": "img/teams/eruption.png",
    "dark": "img/teams/eruption-dark.png"
   },
   "Eternal Fire": {
-   "tpl": "eternal fire"
+   "tpl": "eternal fire",
+   "logo": "img/teams/eternal-fire.png"
+  },
+  "Evil Geniuses": {
+   "tpl": "eg"
   },
   "Ex-Talon": {
    "tpl": "ex-talon",
-   "tries": 1
+   "tries": 2
   },
   "FURIA": {
    "tpl": "furia",
@@ -93,60 +136,110 @@
    "logo": "img/teams/faze-clan.png",
    "dark": "img/teams/faze-clan-dark.png"
   },
-  "Fluxo": {},
+  "Fluxo": {
+   "logo": "img/teams/fluxo.png",
+   "dark": "img/teams/fluxo-dark.png"
+  },
   "FlyQuest": {
-   "tpl": "flyquest"
+   "tpl": "flyquest",
+   "logo": "img/teams/flyquest.png"
   },
-  "Fnatic": {},
-  "Fnc": {},
+  "Fnatic": {
+   "logo": "img/teams/fnatic.png"
+  },
+  "Fnc": {
+   "logo": "img/teams/fnc.png"
+  },
+  "Forze": {
+   "tpl": "forze"
+  },
   "Fq": {
-   "tpl": "fq"
+   "tpl": "fq",
+   "logo": "img/teams/fq.png"
   },
-  "Fut": {},
+  "Fut": {
+   "logo": "img/teams/fut.png",
+   "dark": "img/teams/fut-dark.png"
+  },
   "G2 Esports": {
    "tpl": "g2",
    "logo": "img/teams/g2-esports.png",
    "dark": "img/teams/g2-esports-dark.png"
   },
-  "Gaimin": {},
-  "Gambit Esports": {},
-  "GamerLegion": {},
+  "Gaimin": {
+   "logo": "img/teams/gaimin.png"
+  },
+  "Gambit Esports": {
+   "tpl": "gambit",
+   "logo": "img/teams/gambit-esports.png"
+  },
+  "GamerLegion": {
+   "tpl": "gamerlegion",
+   "logo": "img/teams/gamerlegion.png"
+  },
   "Germany": {
    "tpl": "germany",
    "logo": "img/teams/germany.png"
   },
   "Getting Info": {
    "tpl": "getting info",
-   "tries": 1
+   "tries": 2
+  },
+  "Ghg": {
+   "tpl": "ghg"
   },
   "Gl": {
-   "tpl": "gl"
+   "tpl": "gl",
+   "logo": "img/teams/gl.png"
   },
   "Gods Reign": {
    "tpl": "gods reign",
    "logo": "img/teams/gods-reign.png"
   },
-  "Gosh": {},
+  "Gosh": {
+   "logo": "img/teams/gosh.png"
+  },
   "Gr Gaming": {
-   "tpl": "gr gaming"
+   "tpl": "gr gaming",
+   "logo": "img/teams/gr-gaming.png"
   },
   "Grayhound": {
-   "tpl": "grayhound"
+   "tpl": "grayhound",
+   "logo": "img/teams/grayhound.png"
   },
   "HEROIC": {
-   "tpl": "heroic"
+   "tpl": "heroic",
+   "logo": "img/teams/heroic.png"
   },
   "Huns": {
    "tpl": "huns",
    "logo": "img/teams/huns.png"
   },
-  "Immortals": {},
-  "Imp": {},
+  "Ig Int": {
+   "tpl": "ig int"
+  },
+  "Ihc": {
+   "tpl": "ihc"
+  },
+  "Immortals": {
+   "logo": "img/teams/immortals.png"
+  },
+  "Imp": {
+   "logo": "img/teams/imp.png"
+  },
+  "Itb": {
+   "tpl": "itb"
+  },
   "Jijiehao": {
-   "tpl": "jijiehao"
+   "tpl": "jijiehao",
+   "logo": "img/teams/jijiehao.png"
+  },
+  "L4O Au": {
+   "tpl": "l4o au"
   },
   "Legacy": {
-   "tpl": "legacy"
+   "tpl": "legacy",
+   "logo": "img/teams/legacy.png"
   },
   "Luminosity Gaming": {},
   "Lvg": {
@@ -156,7 +249,9 @@
   "M80": {
    "tpl": "m80"
   },
-  "MIBR": {},
+  "MIBR": {
+   "tpl": "mibr"
+  },
   "MOUZ": {
    "tpl": "mouz",
    "logo": "img/teams/mouz.png"
@@ -165,7 +260,12 @@
    "tpl": "marsborne",
    "logo": "img/teams/marsborne.png"
   },
-  "Monte": {},
+  "Monte": {
+   "tpl": "monte"
+  },
+  "Monte.Ua": {
+   "tpl": "monte.ua"
+  },
   "Myth Avenue Gaming": {
    "tpl": "myth avenue gaming"
   },
@@ -200,6 +300,12 @@
    "tpl": "rare atom",
    "logo": "img/teams/rare-atom.png"
   },
+  "Renegades": {
+   "tpl": "renegades"
+  },
+  "Rng": {
+   "tpl": "rng"
+  },
   "Rooster": {
    "tpl": "rooster"
   },
@@ -232,15 +338,20 @@
    "tpl": "falcons",
    "logo": "img/teams/team-falcons.png"
   },
+  "Team France Blast": {
+   "tpl": "team france blast"
+  },
   "Team Goat": {
    "tpl": "team goat",
-   "tries": 1
+   "tries": 2
   },
   "Team Hai": {
    "tpl": "team hai"
   },
   "Team LDLC.com": {},
-  "Team Liquid": {},
+  "Team Liquid": {
+   "tpl": "liquid"
+  },
   "Team Spirit": {
    "tpl": "spirit",
    "logo": "img/teams/team-spirit.png",
@@ -252,7 +363,7 @@
   },
   "Team Vaco": {
    "tpl": "team vaco",
-   "tries": 1
+   "tries": 2
   },
   "The MongolZ": {
    "tpl": "mongolz",
@@ -265,7 +376,12 @@
   "Twisted Minds": {
    "tpl": "twisted minds"
   },
-  "Virtus.pro": {},
+  "Vertex": {
+   "tpl": "vertex"
+  },
+  "Virtus.pro": {
+   "tpl": "vp"
+  },
   "Vit": {
    "tpl": "vit",
    "logo": "img/teams/vit.png",
