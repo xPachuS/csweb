@@ -671,6 +671,33 @@ class Live:
                     out[back[t].replace(' ', '_')] = text
         return out
 
+    def page_images(self, titles: list[str]) -> dict[str, str]:
+        """Imagen principal de cada página (p. ej. la foto del mapa en «Mirage»): {título: url}."""
+        data = self._get({'action': 'query', 'prop': 'pageimages|images', 'piprop': 'thumbnail|name', 'pithumbsize': '800',
+                          'imlimit': '50', 'redirects': '1', 'titles': '|'.join(titles)})
+        q = data.get('query', {})
+        back = {x['to']: x['from'] for x in q.get('redirects', []) + q.get('normalized', [])}
+        out, need = {}, {}
+        for pg in q.get('pages', []):
+            t = back.get(pg['title'], pg['title'])
+            if pg.get('thumbnail', {}).get('source'):
+                out[t] = pg['thumbnail']['source']
+            else:                                            # sin PageImages: primera imagen con el nombre del mapa
+                key = re.sub(r'[^a-z0-9]', '', t.lower())
+                for im in pg.get('images', []):
+                    f = im['title']
+                    if key and key in re.sub(r'[^a-z0-9]', '', f.lower()) and re.search(r'\.(jpe?g|png|webp)$', f, re.I):
+                        need[f] = t
+                        break
+        if need:
+            info = self._get({'action': 'query', 'prop': 'imageinfo', 'iiprop': 'url', 'iiurlwidth': '800', 'titles': '|'.join(need)})
+            for pg in info.get('query', {}).get('pages', []):
+                ii = (pg.get('imageinfo') or [{}])[0]
+                url = ii.get('thumburl') or ii.get('url')
+                if url and pg['title'] in need:
+                    out[need[pg['title']]] = url
+        return {t: (u if u.startswith('http') else 'https://liquipedia.net' + u) for t, u in out.items()}
+
     def search(self, text: str) -> list[str]:
         data = self._get({'action': 'query', 'list': 'search', 'srsearch': text, 'srnamespace': '0', 'srlimit': '8'})
         return [x['title'].replace(' ', '_') for x in data.get('query', {}).get('search', [])]
@@ -742,6 +769,10 @@ class Offline:
 
     def download(self, url):
         return b'\x89PNG\r\n\x1a\n' + url.encode()
+
+    def page_images(self, titles):
+        self.calls += 1
+        return {t: f'https://liquipedia.net/commons/images/x/{t.replace(" ", "_")}.jpg' for t in titles if t != 'Cobblestone'}
 
 
 # ---------------------------------------------------------------- proceso
@@ -950,6 +981,45 @@ def team_logos(html: str, keys: list[str]) -> dict[int, dict]:
         if found:
             out[k] = found
     return out
+
+
+MAPS_JSON = ROOT / 'data' / 'maps.json'
+MAPS_DIR = ROOT / 'img' / 'maps'
+
+
+def update_maps(src):
+    """Imagen de cada mapa (de su página en Liquipedia), una vez. data/maps.json + img/maps/."""
+    names = set()
+    for f in OUT.glob('2*.json'):
+        for m in json.loads(f.read_text('utf-8')).get('matches', []):
+            names.update(x['map'] for x in m.get('maps', []) if x.get('map'))
+    db = json.loads(MAPS_JSON.read_text('utf-8')) if MAPS_JSON.exists() else {}
+    maps = db.get('maps', {})
+    todo = [n for n in sorted(names) if not maps.get(n, {}).get('img') and maps.get(n, {}).get('tries', 0) < 3]
+    if not todo:
+        return
+    try:
+        urls = src.page_images(todo[:40])
+    except Exception as e:  # noqa: BLE001
+        log(f'  ! mapas: {e}')
+        return
+    MAPS_DIR.mkdir(parents=True, exist_ok=True)
+    for n in todo[:40]:
+        v = maps.setdefault(n, {})
+        url = urls.get(n)
+        if not url:
+            v['tries'] = v.get('tries', 0) + 1
+            continue
+        m_ext = re.search(r'\.(png|jpe?g|webp)$', url.split('?')[0], re.I)
+        path = MAPS_DIR / f"{slug(n)}.{(m_ext.group(1).lower().replace('jpeg', 'jpg') if m_ext else 'jpg')}"
+        try:
+            path.write_bytes(src.download(url))
+            v['img'] = f'img/maps/{path.name}'
+            v.pop('tries', None)
+        except Exception as e:  # noqa: BLE001
+            log(f'  ! imagen de {n}: {e}')
+    write_json(MAPS_JSON, {'source': 'Liquipedia', 'maps': dict(sorted(maps.items()))})
+    log(f"Mapas: {sum(1 for v in maps.values() if v.get('img'))}/{len(names)} con imagen")
 
 
 def update_logos(src, teams_seen: set[str], log_only: bool = False):
@@ -1287,6 +1357,8 @@ def main(argv: list[str]) -> int:
             RETRY_LOGOS = ''
     if '--no-logos' not in argv and not src.blocked:
         update_logos(src, seen)
+    if '--no-logos' not in argv and not src.blocked:
+        update_maps(src)
     build_stats(json.loads(idx_path.read_text('utf-8')))
     log(f'Hecho: {src.calls} consultas a Liquipedia · Pick\'em: {cur} · {sum(1 for m in index["majors"] if m["loaded"])}/{len(MAJORS)} Majors con datos')
     return 0

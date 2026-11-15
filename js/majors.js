@@ -23,7 +23,14 @@ export function createMajors(h) {
     M.details.set(id, { t: Date.now(), data });
     return data;
   }
-  const flag = (cc) => (cc && cc.length === 2 ? String.fromCodePoint(...[...cc.toUpperCase()].map((c) => 0x1f1a5 + c.charCodeAt(0))) : '');
+  // Banderas como imágenes (flag-icons): los emojis de bandera no se ven en Windows.
+  const FLAG_ALIAS = { uk: 'gb', en: 'gb-eng', sc: 'gb-sct', wa: 'gb-wls', ni: 'gb-nir' };
+  const flag = (cc) => {
+    const c = String(cc || '').toLowerCase().trim();
+    const k = FLAG_ALIAS[c] || c;
+    return /^[a-z]{2}(-[a-z]{3})?$/.test(k) ? `<span class="fi fi-${k} flag" aria-hidden="true"></span>` : '';
+  };
+  const hue = (s) => { let x = 0; for (const ch of String(s)) x = (x * 31 + ch.charCodeAt(0)) % 360; return x; };
   const COUNTRY = { SE: 'Suecia', PL: 'Polonia', DE: 'Alemania', RO: 'Rumanía', US: 'Estados Unidos', GB: 'Reino Unido', BE: 'Bélgica', BR: 'Brasil',
     FR: 'Francia', DK: 'Dinamarca', CN: 'China', HU: 'Hungría', SG: 'Singapur', AR: 'Argentina', ES: 'España' };
   const MONTHS = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
@@ -50,15 +57,19 @@ export function createMajors(h) {
     const shown = all.filter((m) => !M.filter || m.game === M.filter);
     const card = (m) => {
       const cur = m.id === idx.current;
-      const pill = cur ? '<span class="pill">Pick\'em abierto</span>' : m.status === 'live' ? '<span class="pill pill--live">en juego</span>' : m.status === 'upcoming' ? '<span class="pill pill--soft">próximo</span>' : '';
-      const body = m.champion
-        ? `<div class="mjc__champ">${badge(m.champion, 'tb--lg')}<span><small>Campeón</small><b>${esc(m.champion)}</b></span></div>
-           <p class="mjc__final">${m.final ? `<b>${esc(m.final.replace('-', '–'))}</b> en la final a ` : 'Final contra '}${esc(m.runnerup)}</p>`
-        : `<p class="mjc__final">${m.status === 'upcoming' ? `Empieza el ${esc(dRange(m.start, m.end).split(' – ')[0])}` : m.status === 'live' ? 'Se está jugando ahora' : 'Datos pendientes'}</p>`;
-      return `<a class="mjc ${cur ? 'is-cur' : ''} ${m.champion ? '' : 'is-empty'}" href="#/majors/${esc(m.id)}">
-          <header class="mjc__head"><span class="mjc__year">${m.year}</span><span class="mjc__where">${flag(m.country)} ${esc(m.city)}</span>${pill}</header>
-          <h3 class="mjc__name">${esc(m.name)}</h3>${body}
-          <footer class="mjc__foot"><span>${esc(m.organizer)}</span><span>${esc(m.game)}</span></footer></a>`;
+      const pill = cur ? '<span class="pill">Pick\'em abierto</span>' : m.status === 'live' ? '<span class="pill pill--live">En juego</span>' : m.status === 'upcoming' ? '<span class="pill pill--soft">Próximo</span>' : '';
+      const final = m.champion
+        ? `<div class="mjc__final"><span class="mjc__team is-win">${badge(m.champion)}<b>${esc(m.champion)}</b></span>
+             <span class="mjc__score">${m.final ? esc(m.final.replace('-', '–')) : 'vs'}</span>
+             <span class="mjc__team">${badge(m.runnerup)}<b>${esc(m.runnerup)}</b></span></div>`
+        : `<p class="mjc__soon">${m.status === 'upcoming' ? `Empieza el ${esc(dRange(m.start, m.end).split(' – ')[0])}` : m.status === 'live' ? 'Se está jugando ahora' : 'Datos pendientes'}</p>`;
+      const chips = [m.game, money(m.prize), m.teams ? `${m.teams} equipos` : ''].filter(Boolean);
+      return `<a class="mjc ${cur ? 'is-cur' : ''} ${m.champion ? '' : 'is-empty'}" href="#/majors/${esc(m.id)}" style="--h:${hue(m.champion || m.city)}">
+          <div class="mjc__top"><span class="mjc__year">${m.year}</span>${pill}
+            ${m.champion ? `<span class="mjc__cup">${badge(m.champion, 'tb--xl')}<small>🏆 Campeón</small></span>` : `<span class="mjc__cup mjc__cup--tbd">🏆</span>`}</div>
+          <div class="mjc__body"><p class="mjc__where">${flag(m.country)}<span>${esc(m.city)} · ${esc(dRange(m.start, m.end))}</span></p>
+            <h3 class="mjc__name">${esc(m.name)}</h3>${final}</div>
+          <footer class="mjc__foot">${chips.map((c) => `<span>${esc(c)}</span>`).join('')}<span class="mjc__org">${esc(m.organizer)}</span></footer></a>`;
     };
     const cs2 = idx.majors.filter((m) => m.game === 'CS2' && m.status === 'done').length;
     return `<div class="mj">
@@ -108,7 +119,7 @@ export function createMajors(h) {
   function rostersHtml(d) {
     const r = Object.entries(d.rosters || {}).sort((a, b) => a[0].localeCompare(b[0]));
     if (!r.length) return '<div class="empty">Liquipedia todavía no tiene las plantillas de este Major.</div>';
-    const fl = (c) => { const x = String(c || '').toLowerCase(); const k = { uk: 'gb' }[x] || x; return /^[a-z]{2}$/.test(k) ? flag(k.toUpperCase()) : ''; };
+    const fl = flag;
     const pl = (x) => `<a class="plink" href="#/jugadores/${encodeURIComponent(x.n)}">${fl(x.flag)} ${esc(x.n)}</a>`;
     return `<div class="rgrid">${r.map(([t, v]) => `<section class="card"><h3><a class="tlink" href="#/equipos/${encodeURIComponent(t)}">${badge(t)}<span>${esc(t)}</span></a></h3>
         <div class="roster">${v.players.map(pl).join('')}${v.coach ? `<span class="roster__coach">Entrenador: ${pl(v.coach)}</span>` : ''}</div></section>`).join('')}</div>`;

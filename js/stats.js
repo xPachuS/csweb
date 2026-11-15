@@ -5,6 +5,7 @@ export function createStats(h) {
   const X = { stats: null, t: 0, q: '', pq: '', sort: 'titles' };
   const minute = () => Math.floor(Date.now() / 60_000);
   async function getStats() {
+    await mapsReady;
     if (X.stats && Date.now() - X.t < 120_000) return X.stats;
     const r = await fetch(`data/stats.json?v=${minute()}`);
     X.stats = r.ok ? await r.json() : { teams: {}, players: {} };
@@ -13,11 +14,13 @@ export function createStats(h) {
   }
   const enc = (s) => encodeURIComponent(s);
   const teamLink = (t, cls = '') => (t && t !== 'TBD' ? `<a class="tlink ${cls}" href="#/equipos/${enc(t)}">${badge(t)}<span>${esc(t)}</span></a>` : `<span class="tlink">${badge('TBD')}<span>Por decidir</span></span>`);
-  const flagOf = (cc) => {
-    const c = String(cc || '').toLowerCase();
-    const code = { uk: 'gb', en: 'gb', sc: 'gb', wa: 'gb' }[c] || c;
-    return /^[a-z]{2}$/.test(code) ? majors.flag(code.toUpperCase()) : '';
-  };
+  const flagOf = (cc) => majors.flag(cc);
+  // Imágenes de los mapas (data/maps.json); si falta alguna, un degradado con el nombre
+  let MAPS = {};
+  const mapsReady = fetch(`data/maps.json?v=${Math.floor(Date.now() / 600_000)}`).then((r) => (r.ok ? r.json() : {})).then((d) => { MAPS = d.maps || {}; }).catch(() => {});
+  const mhue = (s) => { let x = 7; for (const ch of String(s)) x = (x * 37 + ch.charCodeAt(0)) % 360; return x; };
+  const mapBg = (name) => (MAPS[name]?.img ? `background-image:linear-gradient(180deg, rgba(11,14,19,.15), rgba(11,14,19,.92)), url('${esc(MAPS[name].img)}')` : `--mh:${mhue(name)}`);
+  const mapThumb = (name) => `<span class="mthumb ${MAPS[name]?.img ? '' : 'is-fake'}" style="${MAPS[name]?.img ? `background-image:url('${esc(MAPS[name].img)}')` : `--mh:${mhue(name)}`}" aria-hidden="true"></span>`;
   const pLink = (p) => `<a class="plink" href="#/jugadores/${enc(p.n || p)}">${flagOf(p.flag)} ${esc(p.n || p)}</a>`;
   const pct = (a, b) => (a + b ? Math.round((a / (a + b)) * 100) : 0);
   const majorName = (idx, id) => { const m = idx.majors.find((x) => x.id === id); return m ? `${m.city} ${m.year}` : id; };
@@ -65,7 +68,7 @@ export function createStats(h) {
           ${lastRoster ? `<section class="card"><h3>Última plantilla <small>${esc(majorName(idx, lastRoster.id))}</small></h3><div class="roster">${lastRoster.roster.map((p) => pLink({ n: p, flag: st.players[p]?.flag })).join('')}${lastRoster.coach ? `<span class="roster__coach">Entrenador: ${pLink({ n: lastRoster.coach, flag: st.players[lastRoster.coach]?.flag })}</span>` : ''}</div></section>` : ''}
           ${T.rt[0] + T.rt[1] ? `<section class="card"><h3>Por lado</h3>${bar('Terrorista', T.rt[0], T.rt[1], 'is-t')}${bar('Antiterrorista', T.rct[0], T.rct[1], 'is-ct')}<p class="hint">Rondas ganadas sin contar prórrogas.</p></section>` : ''}
           ${maps.length ? `<section class="card"><h3>Mapas</h3><table class="mtab"><thead><tr><th>Mapa</th><th>Jug.</th><th>Vict.</th><th></th><th>Elegido</th></tr></thead><tbody>
-            ${maps.map((x) => `<tr><td>${esc(x.m)}</td><td>${x.n}</td><td>${x.w}–${x.l}</td><td><span class="wbar"><i style="width:${pct(x.w, x.l)}%"></i></span>${pct(x.w, x.l)}%</td><td>${x.p || '—'}</td></tr>`).join('')}</tbody></table>
+            ${maps.map((x) => `<tr><td>${mapThumb(x.m)}${esc(x.m)}</td><td>${x.n}</td><td>${x.w}–${x.l}</td><td><span class="wbar"><i style="width:${pct(x.w, x.l)}%"></i></span>${pct(x.w, x.l)}%</td><td>${x.p || '—'}</td></tr>`).join('')}</tbody></table>
             <p class="hint">«Elegido»: veces que lo eligió en la selección de mapas, cuando Liquipedia la tiene.</p></section>` : ''}
         </div></div></div>`;
   }
@@ -113,7 +116,7 @@ export function createStats(h) {
     const stage = d.stages.find((s) => s.id === m.stage);
     const w = m.winner === 1 ? m.t1 : m.winner === 2 ? m.t2 : null;
     const side = (n, team) => `<div class="mxteam ${w === team ? 'is-won' : w ? 'is-lost' : ''} ${n === 2 ? 'mxteam--r' : ''}">${team !== 'TBD' ? `<a href="#/equipos/${enc(team)}">${badge(team, 'tb--xl')}</a>` : badge('TBD', 'tb--xl')}<b>${esc(team === 'TBD' ? 'Por decidir' : team)}</b></div>`;
-    const veto = (m.veto || []).map(([t, a, mp]) => `<li class="vt vt--${a}"><span>${a === 'decider' ? 'Decisivo' : a === 'pick' ? 'Elige' : 'Veta'}</span><b>${esc(mp)}</b><small>${t ? esc(t === 1 ? m.t1 : m.t2) : 'el que queda'}</small></li>`).join('');
+    const veto = (m.veto || []).map(([t, a, mp]) => `<li class="vt vt--${a}">${mapThumb(mp)}<span>${a === 'decider' ? 'Decisivo' : a === 'pick' ? 'Elige' : 'Veta'}</span><b>${esc(mp)}</b><small>${t ? esc(t === 1 ? m.t1 : m.t2) : 'el que queda'}</small></li>`).join('');
     const pickOf = (mp) => (m.veto || []).find(([, a, x]) => (a === 'pick' || a === 'decider') && x === mp);
     const mapCard = (x, i) => {
       const pk = pickOf(x.map);
@@ -129,7 +132,7 @@ export function createStats(h) {
           <tr><td>${esc(m.t1)}</td><td>${h1[0]} ${lab(m.t1, f)}</td><td>${h2[0]} ${lab(m.t1, f === 't' ? 'ct' : 't')}</td>${x.ot ? `<td>${x.ot[0]}</td>` : ''}<td><b>${x.s1 ?? ''}</b></td></tr>
           <tr><td>${esc(m.t2)}</td><td>${h1[1]} ${lab(m.t2, f === 't' ? 'ct' : 't')}</td><td>${h2[1]} ${lab(m.t2, f)}</td>${x.ot ? `<td>${x.ot[1]}</td>` : ''}<td><b>${x.s2 ?? ''}</b></td></tr></tbody></table>`;
       }
-      return `<section class="mxmap ${x.winner ? '' : 'is-pending'}"><header><span class="mxmap__n">Mapa ${i + 1}</span><h3>${esc(x.map || 'Por decidir')}</h3>
+      return `<section class="mxmap ${x.winner ? '' : 'is-pending'}"><header class="mxmap__img ${MAPS[x.map]?.img ? '' : 'is-fake'}" style="${mapBg(x.map)}"><span class="mxmap__n">Mapa ${i + 1}${x.winner ? ` · gana ${esc(x.winner === 1 ? m.t1 : m.t2)}` : ''}</span><h3>${esc(x.map || 'Por decidir')}</h3>
           ${pk ? `<span class="pill ${pk[1] === 'decider' ? 'pill--soft' : ''}">${pk[1] === 'decider' ? 'Decisivo' : `Elige ${esc(pk[0] === 1 ? m.t1 : m.t2)}`}</span>` : ''}
           <span class="mxmap__score"><b class="${x.winner === 1 ? 'w' : ''}">${x.s1 ?? '–'}</b>–<b class="${x.winner === 2 ? 'w' : ''}">${x.s2 ?? '–'}</b></span></header>
         ${halves}
