@@ -14,7 +14,7 @@
    "img": "img/maps/cobblestone.jpg"
   },
   "Dust II": {
-   "tries": 2
+   "tries": 3
   },
   "Inferno": {
    "img": "img/maps/inferno.jpg"
@@ -31,8 +31,11 @@
   "Train": {
    "img": "img/maps/train.png"
   },
-  "Unknown": {
+  "Train SE": {
    "tries": 1
+  },
+  "Unknown": {
+   "tries": 2
   },
   "Vertigo": {
    "img": "img/maps/vertigo.jpg"

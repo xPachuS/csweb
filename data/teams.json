@@ -57,6 +57,10 @@
    "tpl": "apeks",
    "logo": "img/teams/apeks.png"
   },
+  "Astana Dragons": {
+   "tpl": "astana",
+   "logo": "img/teams/astana.png"
+  },
   "Astralis": {
    "tpl": "astralis",
    "logo": "img/teams/astralis.png"
@@ -134,12 +138,12 @@
    "logo": "img/teams/complexity.png"
   },
   "Copenhagen Flames": {
-   "tpl": "cphf",
+   "tpl": "cph flames",
    "logo": "img/teams/cphf.png",
    "dark": "img/teams/cphf-dark.png"
   },
   "Copenhagen Wolves": {
-   "tpl": "cphw",
+   "tpl": "cw",
    "logo": "img/teams/cphw.png"
   },
   "Counter Logic Gaming": {
@@ -281,7 +285,7 @@
    "logo": "img/teams/gambit-esports.png"
   },
   "GamerLegion": {
-   "tpl": "gl",
+   "tpl": "gamerlegion",
    "logo": "img/teams/gamerlegion.png"
   },
   "Germany": {
@@ -505,6 +509,10 @@
    "tpl": "reason",
    "logo": "img/teams/reason.png"
   },
+  "Recursive eSports": {
+   "tpl": "recursive",
+   "logo": "img/teams/recursive.png"
+  },
   "Renegades": {
    "tpl": "rng",
    "logo": "img/teams/renegades.png"
@@ -532,7 +540,7 @@
    "logo": "img/teams/semperfi.png"
   },
   "Sharks Esports": {
-   "tpl": "sharks",
+   "tpl": "sharks esports",
    "logo": "img/teams/sharks-esports.png"
   },
   "Splyce": {
@@ -616,6 +624,10 @@
    "logo": "img/teams/team-spirit.png",
    "dark": "img/teams/team-spirit-dark.png"
   },
+  "Team Thorin": {
+   "tpl": "team thorin",
+   "tries": 1
+  },
   "Team Usa Blast": {
    "tpl": "team usa blast",
    "logo": "img/teams/team-usa-blast.png"
@@ -645,6 +657,10 @@
    "tpl": "team juliano",
    "tries": 3
   },
+  "Team lurppis": {
+   "tpl": "team lurppis",
+   "tries": 1
+  },
   "The MongolZ": {
    "tpl": "mongolz",
    "logo": "img/teams/the-mongolz.png"
@@ -658,6 +674,10 @@
    "tpl": "twisted minds",
    "logo": "img/teams/twisted-minds.png"
   },
+  "Universal Soldiers": {
+   "tpl": "us",
+   "logo": "img/teams/us.png"
+  },
   "VERTEX Esports Club": {
    "tpl": "vertex",
    "logo": "img/teams/vertex-esports-club.png",
@@ -666,6 +686,10 @@
   "Vega Squadron": {
    "tpl": "vega",
    "logo": "img/teams/vega-squadron.png"
+  },
+  "VeryGames": {
+   "tpl": "vg",
+   "logo": "img/teams/vg.png"
   },
   "Vexed Gaming": {
    "tpl": "vexed",
@@ -693,6 +717,10 @@
    "logo": "img/teams/wildcard.png",
    "dark": "img/teams/wildcard-dark.png"
   },
+  "Xapso": {
+   "tpl": "xapso",
+   "logo": "img/teams/xapso.png"
+  },
   "dAT Team": {
    "tpl": "dat",
    "logo": "img/teams/dat.png"
@@ -705,6 +733,10 @@
    "tpl": "myxmg",
    "logo": "img/teams/myxmg.png"
   },
+  "n!faculty": {
+   "tpl": "n!",
+   "logo": "img/teams/n.png"
+  },
   "paiN Gaming": {
    "tpl": "pain",
    "logo": "img/teams/pain-gaming.png",
@@ -713,6 +745,7 @@
  },
  "alias": {
   "9ine": "9INE",
+  "astana": "Astana Dragons",
   "blast dream team": "BLAST Dream Team",
   "bne": "Bad News Eagles",
   "bot bardolph": "BOT Bardolph",
@@ -754,12 +787,14 @@
   "movistar": "Movistar Riders",
   "mystik": "Clan-Mystik",
   "myxmg": "myXMG",
+  "n!": "n!faculty",
   "na`vi": "Natus Vincere",
   "oddik": "ODDIK",
   "penta": "PENTA Sports",
   "pkd": "Planetkey Dynamics",
   "pvision": "PARIVISION",
   "reason": "Reason Gaming",
+  "recursive": "Recursive eSports",
   "riders": "Movistar Riders",
   "rng": "Renegades",
   "sharks": "DENDELE CS",
@@ -773,11 +808,14 @@
   "team goat": "Team GOAT",
   "team hai": "Team HAI",
   "team juliano": "Team juliano",
+  "team lurppis": "Team lurppis",
   "team vaco": "Team VACO",
   "thunderdownunder": "Off Chops",
+  "us": "Universal Soldiers",
   "vega": "Vega Squadron",
   "vertex": "VERTEX Esports Club",
   "vexed": "Vexed Gaming",
+  "vg": "VeryGames",
   "vox": "Vox Eminor",
   "wolf": "Team Wolf"
  }

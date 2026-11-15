@@ -96,9 +96,18 @@
      "map": "Inferno",
      "s1": 16,
      "s2": 1,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      2,
+      14,
+      1,
+      0
+     ],
+     "first": "ct",
+     "hltv": 137940
     }
-   ]
+   ],
+   "hltv": 2356097
   },
   {
    "id": "s1-IDMP4W2RRA-M2",
@@ -119,9 +128,18 @@
      "map": "Dust II",
      "s1": 16,
      "s2": 14,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      7,
+      7
+     ],
+     "first": "ct",
+     "hltv": 137942
     }
-   ]
+   ],
+   "hltv": 2356101
   },
   {
    "id": "s1-IDMP4W2RRA-M3",
@@ -142,9 +160,18 @@
      "map": "Inferno",
      "s1": 16,
      "s2": 6,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      4
+     ],
+     "first": "ct",
+     "hltv": 137943
     }
-   ]
+   ],
+   "hltv": 2356098
   },
   {
    "id": "s1-IDMP4W2RRA-M4",
@@ -165,9 +192,18 @@
      "map": "Nuke",
      "s1": 16,
      "s2": 9,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      7
+     ],
+     "first": "ct",
+     "hltv": 137944
     }
-   ]
+   ],
+   "hltv": 2356102
   },
   {
    "id": "s1-IDMP4W2RRA-M5",
@@ -188,9 +224,18 @@
      "map": "Nuke",
      "s1": 16,
      "s2": 2,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      0
+     ],
+     "first": "ct",
+     "hltv": 137945
     }
-   ]
+   ],
+   "hltv": 2356099
   },
   {
    "id": "s1-IDMP4W2RRA-M6",
@@ -211,9 +256,18 @@
      "map": "Dust II",
      "s1": 6,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      1,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 137946
     }
-   ]
+   ],
+   "hltv": 2356103
   },
   {
    "id": "s1-IDMP4W2RRA-M7",
@@ -234,9 +288,18 @@
      "map": "Dust II",
      "s1": 14,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      7,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 137947
     }
-   ]
+   ],
+   "hltv": 2356100
   },
   {
    "id": "s1-IDMP4W2RRA-M8",
@@ -257,9 +320,18 @@
      "map": "Mirage",
      "s1": 16,
      "s2": 7,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      1
+     ],
+     "first": "ct",
+     "hltv": 137948
     }
-   ]
+   ],
+   "hltv": 2356104
   },
   {
    "id": "s1-FTSFHT2P75-M1",
@@ -280,9 +352,22 @@
      "map": "Dust II",
      "s1": 19,
      "s2": 17,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      4,
+      11,
+      4,
+      11
+     ],
+     "ot": [
+      4,
+      2
+     ],
+     "first": "ct",
+     "hltv": 137950
     }
-   ]
+   ],
+   "hltv": 2356105
   },
   {
    "id": "s1-ZJ8EO71ZTD-M1",
@@ -303,9 +388,18 @@
      "map": "Vertigo",
      "s1": 16,
      "s2": 2,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      0
+     ],
+     "first": "ct",
+     "hltv": 137949
     }
-   ]
+   ],
+   "hltv": 2356109
   },
   {
    "id": "s1-ZJ8EO71ZTD-M2",
@@ -326,9 +420,18 @@
      "map": "Nuke",
      "s1": 16,
      "s2": 13,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      8,
+      5
+     ],
+     "first": "ct",
+     "hltv": 137952
     }
-   ]
+   ],
+   "hltv": 2356110
   },
   {
    "id": "s1-FTSFHT2P75-M2",
@@ -349,9 +452,18 @@
      "map": "Inferno",
      "s1": 16,
      "s2": 7,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      1
+     ],
+     "first": "ct",
+     "hltv": 137953
     }
-   ]
+   ],
+   "hltv": 2356106
   },
   {
    "id": "s1-ZJ8EO71ZTD-M3",
@@ -372,9 +484,18 @@
      "map": "Inferno",
      "s1": 16,
      "s2": 10,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      7,
+      3
+     ],
+     "first": "ct",
+     "hltv": 137954
     }
-   ]
+   ],
+   "hltv": 2356111
   },
   {
    "id": "s1-FTSFHT2P75-M3",
@@ -395,9 +516,18 @@
      "map": "Vertigo",
      "s1": 16,
      "s2": 6,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      1
+     ],
+     "first": "ct",
+     "hltv": 137955
     }
-   ]
+   ],
+   "hltv": 2356107
   },
   {
    "id": "s1-ZJ8EO71ZTD-M4",
@@ -418,9 +548,18 @@
      "map": "Overpass",
      "s1": 16,
      "s2": 14,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      8,
+      6
+     ],
+     "first": "ct",
+     "hltv": 137957
     }
-   ]
+   ],
+   "hltv": 2356112
   },
   {
    "id": "s1-FTSFHT2P75-M4",
@@ -441,9 +580,18 @@
      "map": "Mirage",
      "s1": 8,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      2,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 137956
     }
-   ]
+   ],
+   "hltv": 2356108
   },
   {
    "id": "s1-TKI2HOAEGZ-M1",
@@ -464,9 +612,18 @@
      "map": "Dust II",
      "s1": 16,
      "s2": 11,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      5,
+      6
+     ],
+     "first": "t",
+     "hltv": 137959
     }
-   ]
+   ],
+   "hltv": 2356113
   },
   {
    "id": "s1-TKI2HOAEGZ-M2",
@@ -487,9 +644,18 @@
      "map": "Vertigo",
      "s1": 16,
      "s2": 12,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      10
+     ],
+     "first": "ct",
+     "hltv": 137958
     }
-   ]
+   ],
+   "hltv": 2356115
   },
   {
    "id": "s1-TKI2HOAEGZ-M4",
@@ -510,9 +676,18 @@
      "map": "Overpass",
      "s1": 9,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      7,
+      2,
+      8,
+      8
+     ],
+     "first": "t",
+     "hltv": 137960
     }
-   ]
+   ],
+   "hltv": 2356116
   },
   {
    "id": "s1-TKI2HOAEGZ-M3",
@@ -533,9 +708,18 @@
      "map": "Overpass",
      "s1": 16,
      "s2": 13,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      10
+     ],
+     "first": "ct",
+     "hltv": 137961
     }
-   ]
+   ],
+   "hltv": 2356114
   },
   {
    "id": "s1-OMSHBLAKTR-M1",
@@ -556,13 +740,29 @@
      "map": "Inferno",
      "s1": 10,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      3,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 137962
     },
     {
      "map": "Dust II",
      "s1": 12,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      6,
+      6,
+      7,
+      9
+     ],
+     "first": "t",
+     "hltv": 137964
     },
     {
      "map": "Mirage",
@@ -570,7 +770,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356119
   },
   {
    "id": "s1-QXGOGDRUQ2-M1",
@@ -591,21 +792,46 @@
      "map": "Nuke",
      "s1": 12,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      6,
+      6,
+      7,
+      9
+     ],
+     "first": "t",
+     "hltv": 137963
     },
     {
      "map": "Dust II",
      "s1": 16,
      "s2": 9,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      7
+     ],
+     "first": "ct",
+     "hltv": 137965
     },
     {
      "map": "Mirage",
      "s1": 16,
      "s2": 12,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      6,
+      6
+     ],
+     "first": "t",
+     "hltv": 137967
     }
-   ]
+   ],
+   "hltv": 2356117
   },
   {
    "id": "s1-OMSHBLAKTR-M2",
@@ -626,13 +852,29 @@
      "map": "Ancient",
      "s1": 16,
      "s2": 11,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      3,
+      8
+     ],
+     "first": "t",
+     "hltv": 137966
     },
     {
      "map": "Overpass",
      "s1": 16,
      "s2": 11,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      8,
+      3
+     ],
+     "first": "ct",
+     "hltv": 137968
     },
     {
      "map": "Mirage",
@@ -640,7 +882,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356120
   },
   {
    "id": "s1-QXGOGDRUQ2-M2",
@@ -661,21 +904,50 @@
      "map": "Dust II",
      "s1": 7,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      1,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 137969
     },
     {
      "map": "Ancient",
      "s1": 19,
      "s2": 16,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      8,
+      7,
+      8,
+      7
+     ],
+     "ot": [
+      4,
+      1
+     ],
+     "first": "t",
+     "hltv": 137975
     },
     {
      "map": "Mirage",
      "s1": 9,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      2,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 137980
     }
-   ]
+   ],
+   "hltv": 2356118
   },
   {
    "id": "s1-TR4CK3062K-M1",
@@ -696,21 +968,46 @@
      "map": "Mirage",
      "s1": 11,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      4,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 137995
     },
     {
      "map": "Overpass",
      "s1": 16,
      "s2": 10,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      2,
+      8
+     ],
+     "first": "t",
+     "hltv": 137998
     },
     {
      "map": "Inferno",
      "s1": 16,
      "s2": 12,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      7
+     ],
+     "first": "ct",
+     "hltv": 138000
     }
-   ]
+   ],
+   "hltv": 2356124
   },
   {
    "id": "s1-VU1LOIC6XC-M1",
@@ -731,13 +1028,29 @@
      "map": "Overpass",
      "s1": 12,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      2,
+      10,
+      5,
+      11
+     ],
+     "first": "ct",
+     "hltv": 137996
     },
     {
      "map": "Ancient",
      "s1": 6,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      5,
+      1,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 137997
     },
     {
      "map": "Nuke",
@@ -745,7 +1058,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356121
   },
   {
    "id": "s1-VU1LOIC6XC-M2",
@@ -766,21 +1080,46 @@
      "map": "Dust II",
      "s1": 16,
      "s2": 12,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      9
+     ],
+     "first": "ct",
+     "hltv": 137999
     },
     {
      "map": "Mirage",
      "s1": 10,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      7,
+      3,
+      8,
+      8
+     ],
+     "first": "t",
+     "hltv": 138001
     },
     {
      "map": "Inferno",
      "s1": 11,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      3,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 138003
     }
-   ]
+   ],
+   "hltv": 2356122
   },
   {
    "id": "s1-TR4CK3062K-M2",
@@ -801,13 +1140,29 @@
      "map": "Ancient",
      "s1": 12,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      4,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 138002
     },
     {
      "map": "Vertigo",
      "s1": 12,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      3,
+      9,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 138004
     },
     {
      "map": "Overpass",
@@ -815,7 +1170,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356125
   },
   {
    "id": "s1-VU1LOIC6XC-M3",
@@ -836,13 +1192,29 @@
      "map": "Dust II",
      "s1": 16,
      "s2": 13,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      10
+     ],
+     "first": "ct",
+     "hltv": 138005
     },
     {
      "map": "Nuke",
      "s1": 16,
      "s2": 9,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      3,
+      6
+     ],
+     "first": "t",
+     "hltv": 138008
     },
     {
      "map": "Ancient",
@@ -850,7 +1222,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356123
   },
   {
    "id": "s1-TR4CK3062K-M3",
@@ -871,13 +1244,29 @@
      "map": "Vertigo",
      "s1": 16,
      "s2": 13,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      9
+     ],
+     "first": "ct",
+     "hltv": 138006
     },
     {
      "map": "Nuke",
      "s1": 16,
      "s2": 11,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      2,
+      9
+     ],
+     "first": "t",
+     "hltv": 138011
     },
     {
      "map": "Dust II",
@@ -885,7 +1274,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356126
   },
   {
    "id": "s1-ZAAQFLR6NS-M1",
@@ -906,13 +1296,29 @@
      "map": "Vertigo",
      "s1": 14,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      7,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 138024
     },
     {
      "map": "Ancient",
      "s1": 13,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      7,
+      6,
+      8,
+      8
+     ],
+     "first": "t",
+     "hltv": 138025
     },
     {
      "map": "Overpass",
@@ -920,7 +1326,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356127
   },
   {
    "id": "s1-ZAAQFLR6NS-M2",
@@ -941,21 +1348,46 @@
      "map": "Nuke",
      "s1": 13,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      2,
+      11,
+      4,
+      12
+     ],
+     "first": "ct",
+     "hltv": 138026
     },
     {
      "map": "Ancient",
      "s1": 16,
      "s2": 8,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      3,
+      5
+     ],
+     "first": "t",
+     "hltv": 138027
     },
     {
      "map": "Vertigo",
      "s1": 16,
      "s2": 10,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      4
+     ],
+     "first": "ct",
+     "hltv": 138028
     }
-   ]
+   ],
+   "hltv": 2356129
   },
   {
    "id": "s1-ZAAQFLR6NS-M3",
@@ -976,13 +1408,29 @@
      "map": "Overpass",
      "s1": 5,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      4,
+      1,
+      5,
+      11
+     ],
+     "first": "ct",
+     "hltv": 138029
     },
     {
      "map": "Mirage",
      "s1": 5,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      5,
+      0,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 138030
     },
     {
      "map": "Inferno",
@@ -990,7 +1438,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356128
   },
   {
    "id": "s2-MMNSY2N20C-M1",
@@ -1011,9 +1460,18 @@
      "map": "Vertigo",
      "s1": 16,
      "s2": 11,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      5
+     ],
+     "first": "ct",
+     "hltv": 138042
     }
-   ]
+   ],
+   "hltv": 2356130
   },
   {
    "id": "s2-MMNSY2N20C-M2",
@@ -1034,9 +1492,18 @@
      "map": "Ancient",
      "s1": 16,
      "s2": 14,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      9,
+      5
+     ],
+     "first": "ct",
+     "hltv": 138043
     }
-   ]
+   ],
+   "hltv": 2356134
   },
   {
    "id": "s2-MMNSY2N20C-M3",
@@ -1057,9 +1524,18 @@
      "map": "Overpass",
      "s1": 16,
      "s2": 4,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      0
+     ],
+     "first": "ct",
+     "hltv": 138044
     }
-   ]
+   ],
+   "hltv": 2356131
   },
   {
    "id": "s2-MMNSY2N20C-M4",
@@ -1080,9 +1556,18 @@
      "map": "Mirage",
      "s1": 16,
      "s2": 12,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      4,
+      8
+     ],
+     "first": "t",
+     "hltv": 138045
     }
-   ]
+   ],
+   "hltv": 2356135
   },
   {
    "id": "s2-MMNSY2N20C-M5",
@@ -1103,9 +1588,18 @@
      "map": "Mirage",
      "s1": 8,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      3,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 138046
     }
-   ]
+   ],
+   "hltv": 2356132
   },
   {
    "id": "s2-MMNSY2N20C-M6",
@@ -1126,9 +1620,18 @@
      "map": "Nuke",
      "s1": 12,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      2,
+      10,
+      5,
+      11
+     ],
+     "first": "ct",
+     "hltv": 138047
     }
-   ]
+   ],
+   "hltv": 2356136
   },
   {
    "id": "s2-MMNSY2N20C-M7",
@@ -1149,9 +1652,22 @@
      "map": "Mirage",
      "s1": 19,
      "s2": 17,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      8,
+      7,
+      8,
+      7
+     ],
+     "ot": [
+      4,
+      2
+     ],
+     "first": "ct",
+     "hltv": 138048
     }
-   ]
+   ],
+   "hltv": 2356133
   },
   {
    "id": "s2-MMNSY2N20C-M8",
@@ -1172,9 +1688,18 @@
      "map": "Nuke",
      "s1": 16,
      "s2": 11,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      9
+     ],
+     "first": "ct",
+     "hltv": 138049
     }
-   ]
+   ],
+   "hltv": 2356137
   },
   {
    "id": "s2-4Y4FKPMLA8-M1",
@@ -1195,9 +1720,18 @@
      "map": "Nuke",
      "s1": 12,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      2,
+      10,
+      5,
+      11
+     ],
+     "first": "ct",
+     "hltv": 138052
     }
-   ]
+   ],
+   "hltv": 2356138
   },
   {
    "id": "s2-ZBHCDBLB97-M1",
@@ -1218,9 +1752,18 @@
      "map": "Mirage",
      "s1": 8,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      1,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 138051
     }
-   ]
+   ],
+   "hltv": 2356142
   },
   {
    "id": "s2-ZBHCDBLB97-M2",
@@ -1241,9 +1784,18 @@
      "map": "Ancient",
      "s1": 16,
      "s2": 4,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      0
+     ],
+     "first": "ct",
+     "hltv": 138053
     }
-   ]
+   ],
+   "hltv": 2356143
   },
   {
    "id": "s2-4Y4FKPMLA8-M2",
@@ -1264,9 +1816,18 @@
      "map": "Ancient",
      "s1": 16,
      "s2": 8,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      3
+     ],
+     "first": "ct",
+     "hltv": 138054
     }
-   ]
+   ],
+   "hltv": 2356139
   },
   {
    "id": "s2-ZBHCDBLB97-M3",
@@ -1287,9 +1848,18 @@
      "map": "Ancient",
      "s1": 16,
      "s2": 9,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      4
+     ],
+     "first": "ct",
+     "hltv": 138055
     }
-   ]
+   ],
+   "hltv": 2356144
   },
   {
    "id": "s2-4Y4FKPMLA8-M3",
@@ -1310,9 +1880,18 @@
      "map": "Ancient",
      "s1": 8,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      1,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 138056
     }
-   ]
+   ],
+   "hltv": 2356140
   },
   {
    "id": "s2-ZBHCDBLB97-M4",
@@ -1333,9 +1912,18 @@
      "map": "Mirage",
      "s1": 16,
      "s2": 12,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      7,
+      5
+     ],
+     "first": "ct",
+     "hltv": 138057
     }
-   ]
+   ],
+   "hltv": 2356145
   },
   {
    "id": "s2-4Y4FKPMLA8-M4",
@@ -1356,9 +1944,18 @@
      "map": "Inferno",
      "s1": 14,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      7,
+      7,
+      8,
+      8
+     ],
+     "first": "t",
+     "hltv": 138058
     }
-   ]
+   ],
+   "hltv": 2356141
   },
   {
    "id": "s2-DCHT925J49-M1",
@@ -1379,9 +1976,22 @@
      "map": "Vertigo",
      "s1": 19,
      "s2": 17,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      8,
+      7,
+      8
+     ],
+     "ot": [
+      4,
+      2
+     ],
+     "first": "ct",
+     "hltv": 138062
     }
-   ]
+   ],
+   "hltv": 2356146
   },
   {
    "id": "s2-DCHT925J49-M2",
@@ -1402,9 +2012,18 @@
      "map": "Mirage",
      "s1": 16,
      "s2": 8,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      4
+     ],
+     "first": "ct",
+     "hltv": 138061
     }
-   ]
+   ],
+   "hltv": 2356148
   },
   {
    "id": "s2-DCHT925J49-M4",
@@ -1425,9 +2044,18 @@
      "map": "Vertigo",
      "s1": 10,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      7,
+      3,
+      12,
+      4
+     ],
+     "first": "ct",
+     "hltv": 138064
     }
-   ]
+   ],
+   "hltv": 2356149
   },
   {
    "id": "s2-DCHT925J49-M3",
@@ -1448,9 +2076,18 @@
      "map": "Nuke",
      "s1": 8,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      1,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 138065
     }
-   ]
+   ],
+   "hltv": 2356147
   },
   {
    "id": "s2-ZQLG8X5QCK-M1",
@@ -1471,13 +2108,29 @@
      "map": "Mirage",
      "s1": 16,
      "s2": 7,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      5
+     ],
+     "first": "ct",
+     "hltv": 138066
     },
     {
      "map": "Dust II",
      "s1": 16,
      "s2": 11,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      4,
+      7
+     ],
+     "first": "t",
+     "hltv": 138071
     },
     {
      "map": "Vertigo",
@@ -1485,7 +2138,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356152
   },
   {
    "id": "s2-Z0FWSY1YNJ-M1",
@@ -1506,21 +2160,46 @@
      "map": "Vertigo",
      "s1": 10,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      3,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 138067
     },
     {
      "map": "Mirage",
      "s1": 16,
      "s2": 8,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      2,
+      6
+     ],
+     "first": "t",
+     "hltv": 138070
     },
     {
      "map": "Ancient",
      "s1": 16,
      "s2": 6,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      2
+     ],
+     "first": "ct",
+     "hltv": 138075
     }
-   ]
+   ],
+   "hltv": 2356150
   },
   {
    "id": "s2-ZQLG8X5QCK-M2",
@@ -1541,13 +2220,29 @@
      "map": "Inferno",
      "s1": 13,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      5,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 138078
     },
     {
      "map": "Mirage",
      "s1": 14,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      5,
+      9,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 138082
     },
     {
      "map": "Vertigo",
@@ -1555,7 +2250,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356153
   },
   {
    "id": "s2-Z0FWSY1YNJ-M2",
@@ -1576,21 +2272,46 @@
      "map": "Inferno",
      "s1": 16,
      "s2": 6,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      1
+     ],
+     "first": "ct",
+     "hltv": 138080
     },
     {
      "map": "Mirage",
      "s1": 14,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      8,
+      6,
+      9,
+      7
+     ],
+     "first": "t",
+     "hltv": 138084
     },
     {
      "map": "Ancient",
      "s1": 16,
      "s2": 4,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      2
+     ],
+     "first": "ct",
+     "hltv": 138086
     }
-   ]
+   ],
+   "hltv": 2356151
   },
   {
    "id": "s2-BNYUY6MHHH-M1",
@@ -1611,21 +2332,46 @@
      "map": "Inferno",
      "s1": 16,
      "s2": 13,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      8
+     ],
+     "first": "ct",
+     "hltv": 138091
     },
     {
      "map": "Ancient",
      "s1": 13,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      3,
+      10,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 138092
     },
     {
      "map": "Nuke",
      "s1": 6,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      4,
+      2,
+      13,
+      3
+     ],
+     "first": "ct",
+     "hltv": 138096
     }
-   ]
+   ],
+   "hltv": 2356154
   },
   {
    "id": "s2-HSGH8W96IM-M1",
@@ -1646,21 +2392,54 @@
      "map": "Mirage",
      "s1": 9,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      4,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 138090
     },
     {
      "map": "Vertigo",
      "s1": 22,
      "s2": 19,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      11,
+      4,
+      11,
+      4
+     ],
+     "ot": [
+      7,
+      4
+     ],
+     "first": "t",
+     "hltv": 138093
     },
     {
      "map": "Nuke",
      "s1": 17,
      "s2": 19,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      8,
+      7,
+      8,
+      7
+     ],
+     "ot": [
+      2,
+      4
+     ],
+     "first": "ct",
+     "hltv": 138098
     }
-   ]
+   ],
+   "hltv": 2356157
   },
   {
    "id": "s2-BNYUY6MHHH-M2",
@@ -1681,13 +2460,29 @@
      "map": "Nuke",
      "s1": 16,
      "s2": 2,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      0
+     ],
+     "first": "ct",
+     "hltv": 138097
     },
     {
      "map": "Inferno",
      "s1": 16,
      "s2": 10,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      2,
+      8
+     ],
+     "first": "t",
+     "hltv": 138100
     },
     {
      "map": "Ancient",
@@ -1695,7 +2490,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356155
   },
   {
    "id": "s2-HSGH8W96IM-M2",
@@ -1716,21 +2512,46 @@
      "map": "Inferno",
      "s1": 16,
      "s2": 10,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      7,
+      3
+     ],
+     "first": "ct",
+     "hltv": 138101
     },
     {
      "map": "Vertigo",
      "s1": 10,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      8,
+      2,
+      9,
+      7
+     ],
+     "first": "t",
+     "hltv": 138103
     },
     {
      "map": "Dust II",
      "s1": 16,
      "s2": 11,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      3,
+      8
+     ],
+     "first": "t",
+     "hltv": 138105
     }
-   ]
+   ],
+   "hltv": 2356158
   },
   {
    "id": "s2-BNYUY6MHHH-M3",
@@ -1751,21 +2572,46 @@
      "map": "Overpass",
      "s1": 14,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      7,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 138102
     },
     {
      "map": "Mirage",
      "s1": 16,
      "s2": 12,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      4,
+      8
+     ],
+     "first": "t",
+     "hltv": 138104
     },
     {
      "map": "Nuke",
      "s1": 16,
      "s2": 6,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      3
+     ],
+     "first": "ct",
+     "hltv": 138106
     }
-   ]
+   ],
+   "hltv": 2356156
   },
   {
    "id": "s2-HSGH8W96IM-M3",
@@ -1786,21 +2632,50 @@
      "map": "Overpass",
      "s1": 23,
      "s2": 25,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      5,
+      10,
+      5,
+      10
+     ],
+     "ot": [
+      8,
+      10
+     ],
+     "first": "ct",
+     "hltv": 138107
     },
     {
      "map": "Vertigo",
      "s1": 16,
      "s2": 9,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      2,
+      7
+     ],
+     "first": "t",
+     "hltv": 138111
     },
     {
      "map": "Mirage",
      "s1": 3,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      3,
+      0,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 138112
     }
-   ]
+   ],
+   "hltv": 2356159
   },
   {
    "id": "s2-3LZ81SHLX9-M1",
@@ -1821,21 +2696,46 @@
      "map": "Mirage",
      "s1": 16,
      "s2": 7,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      5
+     ],
+     "first": "ct",
+     "hltv": 138113
     },
     {
      "map": "Overpass",
      "s1": 14,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      8,
+      6,
+      9,
+      7
+     ],
+     "first": "t",
+     "hltv": 138114
     },
     {
      "map": "Inferno",
      "s1": 16,
      "s2": 12,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      7
+     ],
+     "first": "ct",
+     "hltv": 138115
     }
-   ]
+   ],
+   "hltv": 2356160
   },
   {
    "id": "s2-3LZ81SHLX9-M2",
@@ -1856,21 +2756,46 @@
      "map": "Vertigo",
      "s1": 12,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      4,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 138116
     },
     {
      "map": "Inferno",
      "s1": 16,
      "s2": 14,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      8
+     ],
+     "first": "t",
+     "hltv": 138117
     },
     {
      "map": "Ancient",
      "s1": 11,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      1,
+      10,
+      5,
+      11
+     ],
+     "first": "ct",
+     "hltv": 138118
     }
-   ]
+   ],
+   "hltv": 2356161
   },
   {
    "id": "s2-3LZ81SHLX9-M3",
@@ -1891,13 +2816,33 @@
      "map": "Inferno",
      "s1": 16,
      "s2": 2,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      0
+     ],
+     "first": "ct",
+     "hltv": 138120
     },
     {
      "map": "Vertigo",
      "s1": 22,
      "s2": 18,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      9,
+      6,
+      9,
+      6
+     ],
+     "ot": [
+      7,
+      3
+     ],
+     "first": "t",
+     "hltv": 138121
     },
     {
      "map": "Overpass",
@@ -1905,7 +2850,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356162
   },
   {
    "id": "po-H15RQEHUCLQuarterfinals-R1M2",
@@ -1926,21 +2872,46 @@
      "map": "Nuke",
      "s1": 16,
      "s2": 10,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      1,
+      9
+     ],
+     "first": "t",
+     "hltv": 138140
     },
     {
      "map": "Overpass",
      "s1": 13,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      5,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 138141
     },
     {
      "map": "Inferno",
      "s1": 16,
      "s2": 8,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      0,
+      8
+     ],
+     "first": "t",
+     "hltv": 138142
     }
-   ]
+   ],
+   "hltv": 2356163
   },
   {
    "id": "po-H15RQEHUCLQuarterfinals-R1M1",
@@ -1961,13 +2932,29 @@
      "map": "Vertigo",
      "s1": 16,
      "s2": 12,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      4,
+      8
+     ],
+     "first": "t",
+     "hltv": 138143
     },
     {
      "map": "Ancient",
      "s1": 16,
      "s2": 8,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      1,
+      7
+     ],
+     "first": "t",
+     "hltv": 138144
     },
     {
      "map": "Mirage",
@@ -1975,7 +2962,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356164
   },
   {
    "id": "po-H15RQEHUCLQuarterfinals-R1M3",
@@ -1996,13 +2984,29 @@
      "map": "Vertigo",
      "s1": 16,
      "s2": 10,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      7
+     ],
+     "first": "ct",
+     "hltv": 138176
     },
     {
      "map": "Nuke",
      "s1": 16,
      "s2": 12,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      3,
+      9
+     ],
+     "first": "t",
+     "hltv": 138177
     },
     {
      "map": "Ancient",
@@ -2010,7 +3014,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356165
   },
   {
    "id": "po-H15RQEHUCLQuarterfinals-R1M4",
@@ -2031,21 +3036,46 @@
      "map": "Inferno",
      "s1": 16,
      "s2": 10,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      4
+     ],
+     "first": "ct",
+     "hltv": 138184
     },
     {
      "map": "Ancient",
      "s1": 14,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      8,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 138187
     },
     {
      "map": "Nuke",
      "s1": 8,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      3,
+      5,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 1
     }
-   ]
+   ],
+   "hltv": 2356166
   },
   {
    "id": "po-H15RQEHUCLQuarterfinals-R2M1",
@@ -2066,13 +3096,33 @@
      "map": "Mirage",
      "s1": 13,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      8,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 138211
     },
     {
      "map": "Dust II",
      "s1": 23,
      "s2": 25,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      6,
+      9,
+      6,
+      9
+     ],
+     "ot": [
+      8,
+      10
+     ],
+     "first": "t",
+     "hltv": 138215
     },
     {
      "map": "Nuke",
@@ -2080,7 +3130,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356167
   },
   {
    "id": "po-H15RQEHUCLQuarterfinals-R2M2",
@@ -2101,13 +3152,29 @@
      "map": "Nuke",
      "s1": 7,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      4,
+      3,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 138219
     },
     {
      "map": "Dust II",
      "s1": 12,
      "s2": 16,
-     "winner": 2
+     "winner": 2,
+     "h": [
+      6,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 138220
     },
     {
      "map": "Mirage",
@@ -2115,7 +3182,8 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356168
   },
   {
    "id": "po-H15RQEHUCLQuarterfinals-R3M1",
@@ -2136,13 +3204,33 @@
      "map": "Inferno",
      "s1": 19,
      "s2": 16,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      10,
+      5,
+      10,
+      5
+     ],
+     "ot": [
+      4,
+      1
+     ],
+     "first": "t",
+     "hltv": 138273
     },
     {
      "map": "Nuke",
      "s1": 16,
      "s2": 10,
-     "winner": 1
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      5
+     ],
+     "first": "ct",
+     "hltv": 138277
     },
     {
      "map": "Ancient",
@@ -2150,9 +3238,728 @@
      "s2": null,
      "winner": 0
     }
-   ]
+   ],
+   "hltv": 2356169
   }
  ],
- "checked": "2026-11-15T10:01:09Z",
+ "rosters": {
+  "HEROIC": {
+   "players": [
+    {
+     "n": "stavn",
+     "flag": ""
+    },
+    {
+     "n": "cadiaN",
+     "flag": ""
+    },
+    {
+     "n": "TeSeS",
+     "flag": ""
+    },
+    {
+     "n": "refrezh",
+     "flag": ""
+    },
+    {
+     "n": "sjuush",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Xizt",
+    "flag": ""
+   }
+  },
+  "Copenhagen Flames": {
+   "players": [
+    {
+     "n": "jabbi",
+     "flag": ""
+    },
+    {
+     "n": "nicoodoz",
+     "flag": ""
+    },
+    {
+     "n": "roeJ",
+     "flag": ""
+    },
+    {
+     "n": "HooXi",
+     "flag": ""
+    },
+    {
+     "n": "Zyphon",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "vorborg",
+    "flag": ""
+   }
+  },
+  "BIG": {
+   "players": [
+    {
+     "n": "tabseN",
+     "flag": ""
+    },
+    {
+     "n": "tiziaN",
+     "flag": ""
+    },
+    {
+     "n": "syrsoN",
+     "flag": ""
+    },
+    {
+     "n": "faveN",
+     "flag": ""
+    },
+    {
+     "n": "Krimbo",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "gob b",
+    "flag": ""
+   }
+  },
+  "Cloud9": {
+   "players": [
+    {
+     "n": "nafany",
+     "flag": ""
+    },
+    {
+     "n": "sh1ro",
+     "flag": ""
+    },
+    {
+     "n": "interz",
+     "flag": ""
+    },
+    {
+     "n": "Ax1Le",
+     "flag": ""
+    },
+    {
+     "n": "Hobbit",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "groove",
+    "flag": ""
+   }
+  },
+  "FURIA": {
+   "players": [
+    {
+     "n": "yuurih",
+     "flag": ""
+    },
+    {
+     "n": "arT",
+     "flag": ""
+    },
+    {
+     "n": "KSCERATO",
+     "flag": ""
+    },
+    {
+     "n": "drop",
+     "flag": ""
+    },
+    {
+     "n": "saffee",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "tacitus",
+    "flag": ""
+   }
+  },
+  "FaZe Clan": {
+   "players": [
+    {
+     "n": "rain",
+     "flag": ""
+    },
+    {
+     "n": "broky",
+     "flag": ""
+    },
+    {
+     "n": "Twistzz",
+     "flag": ""
+    },
+    {
+     "n": "karrigan",
+     "flag": ""
+    },
+    {
+     "n": "ropz",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Eddie",
+    "flag": "us"
+   }
+  },
+  "Ninjas in Pyjamas": {
+   "players": [
+    {
+     "n": "REZ",
+     "flag": ""
+    },
+    {
+     "n": "Plopski",
+     "flag": ""
+    },
+    {
+     "n": "hampus",
+     "flag": ""
+    },
+    {
+     "n": "es3tag",
+     "flag": ""
+    },
+    {
+     "n": "Brollan",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "djL",
+    "flag": ""
+   }
+  },
+  "Natus Vincere": {
+   "players": [
+    {
+     "n": "s1mple",
+     "flag": ""
+    },
+    {
+     "n": "electronic",
+     "flag": ""
+    },
+    {
+     "n": "Boombl4",
+     "flag": ""
+    },
+    {
+     "n": "Perfecto",
+     "flag": ""
+    },
+    {
+     "n": "b1t",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "B1ad3",
+    "flag": ""
+   }
+  },
+  "ENCE": {
+   "players": [
+    {
+     "n": "Snappi",
+     "flag": ""
+    },
+    {
+     "n": "Spinx",
+     "flag": ""
+    },
+    {
+     "n": "dycha",
+     "flag": ""
+    },
+    {
+     "n": "hades",
+     "flag": ""
+    },
+    {
+     "n": "maden",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "sAw",
+    "flag": ""
+   }
+  },
+  "G2 Esports": {
+   "players": [
+    {
+     "n": "JaCkz",
+     "flag": ""
+    },
+    {
+     "n": "huNter",
+     "flag": ""
+    },
+    {
+     "n": "NiKo",
+     "flag": ""
+    },
+    {
+     "n": "m0NESY",
+     "flag": ""
+    },
+    {
+     "n": "Aleksib",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "XTQZZZ",
+    "flag": ""
+   }
+  },
+  "FORZE Esports": {
+   "players": [
+    {
+     "n": "Jerry",
+     "flag": ""
+    },
+    {
+     "n": "KENSi",
+     "flag": ""
+    },
+    {
+     "n": "zorte",
+     "flag": ""
+    },
+    {
+     "n": "Norwi",
+     "flag": ""
+    },
+    {
+     "n": "shalfey",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Fierce",
+    "flag": ""
+   }
+  },
+  "Astralis": {
+   "players": [
+    {
+     "n": "Xyp9x",
+     "flag": ""
+    },
+    {
+     "n": "gla1ve",
+     "flag": ""
+    },
+    {
+     "n": "k0nfig",
+     "flag": ""
+    },
+    {
+     "n": "blameF",
+     "flag": ""
+    },
+    {
+     "n": "Farlig",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "trace",
+    "flag": ""
+   }
+  },
+  "Vitality": {
+   "players": [
+    {
+     "n": "apEX",
+     "flag": ""
+    },
+    {
+     "n": "ZywOo",
+     "flag": ""
+    },
+    {
+     "n": "misutaaa",
+     "flag": ""
+    },
+    {
+     "n": "dupreeh",
+     "flag": ""
+    },
+    {
+     "n": "Magisk",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "zonic",
+    "flag": ""
+   }
+  },
+  "MIBR": {
+   "players": [
+    {
+     "n": "chelo",
+     "flag": ""
+    },
+    {
+     "n": "exit",
+     "flag": ""
+    },
+    {
+     "n": "WOOD7",
+     "flag": ""
+    },
+    {
+     "n": "Tuurtle",
+     "flag": ""
+    },
+    {
+     "n": "JOTA",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "BIT",
+    "flag": ""
+   }
+  },
+  "Imperial": {
+   "players": [
+    {
+     "n": "FalleN",
+     "flag": ""
+    },
+    {
+     "n": "fer",
+     "flag": ""
+    },
+    {
+     "n": "fnx",
+     "flag": ""
+    },
+    {
+     "n": "boltz",
+     "flag": ""
+    },
+    {
+     "n": "VINI",
+     "flag": ""
+    }
+   ]
+  },
+  "Bad News Eagles": {
+   "players": [
+    {
+     "n": "SENER1",
+     "flag": ""
+    },
+    {
+     "n": "gxx-",
+     "flag": ""
+    },
+    {
+     "n": "juanflatroo",
+     "flag": ""
+    },
+    {
+     "n": "sinnopsyy",
+     "flag": ""
+    },
+    {
+     "n": "rigoN",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "stikle-",
+    "flag": ""
+   }
+  },
+  "Eternal Fire": {
+   "players": [
+    {
+     "n": "XANTARES",
+     "flag": ""
+    },
+    {
+     "n": "woxic",
+     "flag": ""
+    },
+    {
+     "n": "Calyx",
+     "flag": ""
+    },
+    {
+     "n": "imoRR",
+     "flag": ""
+    },
+    {
+     "n": "xfl0ud",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "bishop",
+    "flag": ""
+   }
+  },
+  "Team Spirit": {
+   "players": [
+    {
+     "n": "chopper",
+     "flag": ""
+    },
+    {
+     "n": "magixx",
+     "flag": ""
+    },
+    {
+     "n": "degster",
+     "flag": ""
+    },
+    {
+     "n": "Patsi",
+     "flag": ""
+    },
+    {
+     "n": "S1ren",
+     "flag": ""
+    }
+   ]
+  },
+  "Outsiders": {
+   "players": [
+    {
+     "n": "buster",
+     "flag": ""
+    },
+    {
+     "n": "qikert",
+     "flag": ""
+    },
+    {
+     "n": "Jame",
+     "flag": ""
+    },
+    {
+     "n": "YEKINDAR",
+     "flag": ""
+    },
+    {
+     "n": "FL1T",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "dastan",
+    "flag": ""
+   }
+  },
+  "Complexity": {
+   "players": [
+    {
+     "n": "JT",
+     "flag": ""
+    },
+    {
+     "n": "FaNg",
+     "flag": ""
+    },
+    {
+     "n": "floppy",
+     "flag": ""
+    },
+    {
+     "n": "Grim",
+     "flag": ""
+    },
+    {
+     "n": "junior",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "T.c",
+    "flag": ""
+   }
+  },
+  "IHC Esports": {
+   "players": [
+    {
+     "n": "bLitz",
+     "flag": ""
+    },
+    {
+     "n": "Techno4K",
+     "flag": ""
+    },
+    {
+     "n": "kabal",
+     "flag": ""
+    },
+    {
+     "n": "nin9",
+     "flag": ""
+    },
+    {
+     "n": "sk0R",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "maaRaa",
+    "flag": ""
+   }
+  },
+  "Renegades": {
+   "players": [
+    {
+     "n": "sico",
+     "flag": ""
+    },
+    {
+     "n": "ins",
+     "flag": ""
+    },
+    {
+     "n": "hatz",
+     "flag": ""
+    },
+    {
+     "n": "aliStair",
+     "flag": ""
+    },
+    {
+     "n": "Liazz",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Kingfisher",
+    "flag": ""
+   }
+  },
+  "Team Liquid": {
+   "players": [
+    {
+     "n": "EliGE",
+     "flag": ""
+    },
+    {
+     "n": "NAF",
+     "flag": ""
+    },
+    {
+     "n": "oSee",
+     "flag": ""
+    },
+    {
+     "n": "shox",
+     "flag": ""
+    },
+    {
+     "n": "nitr0",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "adreN",
+    "flag": ""
+   }
+  },
+  "9z Team": {
+   "players": [
+    {
+     "n": "dgt",
+     "flag": ""
+    },
+    {
+     "n": "max",
+     "flag": ""
+    },
+    {
+     "n": "rox",
+     "flag": ""
+    },
+    {
+     "n": "luken",
+     "flag": ""
+    },
+    {
+     "n": "dav1d",
+     "flag": ""
+    }
+   ]
+  },
+  "Team Smoke": {
+   "players": [
+    {
+     "n": "es3tag",
+     "flag": ""
+    },
+    {
+     "n": "Spinx",
+     "flag": ""
+    },
+    {
+     "n": "Snappi",
+     "flag": ""
+    },
+    {
+     "n": "Jabbi",
+     "flag": ""
+    },
+    {
+     "n": "TeSeS",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Frankie",
+    "flag": ""
+   }
+  },
+  "Team Flash": {
+   "players": [
+    {
+     "n": "YEKINDAR",
+     "flag": ""
+    },
+    {
+     "n": "rigoN",
+     "flag": ""
+    },
+    {
+     "n": "Patsi",
+     "flag": ""
+    },
+    {
+     "n": "nicoodoz",
+     "flag": ""
+    },
+    {
+     "n": "refrezh",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "James Banks",
+    "flag": ""
+   }
+  }
+ },
+ "checked": "2026-11-15T10:36:33Z",
  "errors": []
 }

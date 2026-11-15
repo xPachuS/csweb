@@ -1,0 +1,1594 @@
+{
+ "event": {
+  "id": "2013-jonkoping",
+  "name": "DreamHack Winter 2013",
+  "page": "DreamHack/2013/Winter",
+  "city": "Jönköping",
+  "country": "SE"
+ },
+ "source": "Liquipedia (CC-BY-SA 3.0)",
+ "stages": [
+  {
+   "id": "s1",
+   "name": "Fase de grupos",
+   "page": "DreamHack/2013/Winter",
+   "type": "groups",
+   "teams": [
+    "Astana Dragons",
+    "Clan-Mystik",
+    "Complexity",
+    "Copenhagen Wolves",
+    "Fnc",
+    "LGB eSports",
+    "Natus Vincere",
+    "Ninjas in Pyjamas",
+    "Reason Gaming",
+    "Recursive eSports",
+    "SK Gaming",
+    "Team Thorin",
+    "Team iBUYPOWER",
+    "Team lurppis",
+    "Universal Soldiers",
+    "VeryGames",
+    "Xapso",
+    "n!faculty"
+   ],
+   "matches": 21
+  },
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "DreamHack/2013/Winter",
+   "type": "bracket",
+   "teams": [
+    "Astana Dragons",
+    "Complexity",
+    "Copenhagen Wolves",
+    "Fnc",
+    "LGB eSports",
+    "Ninjas in Pyjamas",
+    "Recursive eSports",
+    "VeryGames"
+   ],
+   "matches": 7
+  }
+ ],
+ "matches": [
+  {
+   "id": "s1-Z9GWVZZV0U-M1",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-28T10:00:00Z",
+   "t1": "Fnc",
+   "t2": "Natus Vincere",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      12,
+      4,
+      6,
+      3
+     ],
+     "first": "t",
+     "hltv": 15816
+    }
+   ],
+   "hltv": 2279032
+  },
+  {
+   "id": "s1-Z9GWVZZV0U-M2",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-28T10:00:00Z",
+   "t1": "Clan-Mystik",
+   "t2": "LGB eSports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      7,
+      7
+     ],
+     "first": "ct",
+     "hltv": 15815
+    }
+   ],
+   "hltv": 2279033
+  },
+  {
+   "id": "s1-Z9GWVZZV0U-M3",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-28T11:15:00Z",
+   "t1": "LGB eSports",
+   "t2": "Natus Vincere",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      7
+     ],
+     "first": "ct",
+     "hltv": 15817
+    }
+   ],
+   "hltv": 2279182
+  },
+  {
+   "id": "s1-Z9GWVZZV0U-M4",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-28T11:15:00Z",
+   "t1": "Clan-Mystik",
+   "t2": "Fnc",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 15818
+    }
+   ],
+   "hltv": 2279181
+  },
+  {
+   "id": "s1-Z9GWVZZV0U-M5",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-28T12:30:00Z",
+   "t1": "Clan-Mystik",
+   "t2": "LGB eSports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 2,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      2,
+      0,
+      3,
+      13
+     ],
+     "first": "t",
+     "hltv": 15819
+    }
+   ],
+   "hltv": 2279185
+  },
+  {
+   "id": "s1-WHM32NCRCP-M1",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-28T14:30:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "Recursive eSports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      9
+     ],
+     "first": "ct",
+     "hltv": 15820
+    }
+   ],
+   "hltv": 2279034
+  },
+  {
+   "id": "s1-WHM32NCRCP-M2",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-28T14:45:00Z",
+   "t1": "Team iBUYPOWER",
+   "t2": "Universal Soldiers",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      4,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 15821
+    }
+   ],
+   "hltv": 2279035
+  },
+  {
+   "id": "s1-WHM32NCRCP-M3",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-28T16:30:00Z",
+   "t1": "Team iBUYPOWER",
+   "t2": "Recursive eSports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 15822
+    }
+   ],
+   "hltv": 2279195
+  },
+  {
+   "id": "s1-WHM32NCRCP-M4",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-28T17:15:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "Universal Soldiers",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 4,
+     "winner": 1,
+     "h": [
+      12,
+      4,
+      1,
+      3
+     ],
+     "first": "t",
+     "hltv": 15823
+    }
+   ],
+   "hltv": 2279194
+  },
+  {
+   "id": "s1-WHM32NCRCP-M5",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-28T18:30:00Z",
+   "t1": "Universal Soldiers",
+   "t2": "Recursive eSports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      12,
+      3,
+      13
+     ],
+     "first": "ct",
+     "hltv": 15824
+    }
+   ],
+   "hltv": 2279210
+  },
+  {
+   "id": "po-NIHF6GZGMBQuarterfinals-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2013-11-28T21:30:00Z",
+   "t1": "Fnc",
+   "t2": "Recursive eSports",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      6
+     ],
+     "first": "ct",
+     "hltv": 15825
+    },
+    {
+     "map": "Dust II",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      7,
+      6,
+      8,
+      8
+     ],
+     "first": "t",
+     "hltv": 15826
+    },
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      5
+     ],
+     "first": "ct",
+     "hltv": 15827
+    }
+   ],
+   "hltv": 2279219
+  },
+  {
+   "id": "po-NIHF6GZGMBQuarterfinals-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2013-11-28T21:45:00Z",
+   "t1": "LGB eSports",
+   "t2": "Ninjas in Pyjamas",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      12,
+      4,
+      11,
+      3
+     ],
+     "first": "ct",
+     "hltv": 15828
+    },
+    {
+     "map": "Train",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      9,
+      6,
+      10
+     ],
+     "first": "ct",
+     "hltv": 15829
+    },
+    {
+     "map": "Mirage",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 15830
+    }
+   ],
+   "hltv": 2279213
+  },
+  {
+   "id": "s1-6K5J627HH0-M1",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-29T09:00:00Z",
+   "t1": "VeryGames",
+   "t2": "Xapso",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      1,
+      7
+     ],
+     "first": "t",
+     "hltv": 15832
+    }
+   ],
+   "hltv": 2279251
+  },
+  {
+   "id": "s1-6K5J627HH0-M2",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-29T09:00:00Z",
+   "t1": "n!faculty",
+   "t2": "Complexity",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 5,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      0,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 15831
+    }
+   ],
+   "hltv": 2279036
+  },
+  {
+   "id": "s1-6K5J627HH0-M3",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-29T10:30:00Z",
+   "t1": "n!faculty",
+   "t2": "Xapso",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      0,
+      5
+     ],
+     "first": "t",
+     "hltv": 15833
+    }
+   ],
+   "hltv": 2279266
+  },
+  {
+   "id": "s1-6K5J627HH0-M4",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-29T10:30:00Z",
+   "t1": "Complexity",
+   "t2": "VeryGames",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      8
+     ],
+     "first": "ct",
+     "hltv": 15834
+    }
+   ],
+   "hltv": 2279265
+  },
+  {
+   "id": "s1-6K5J627HH0-M5",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-29T12:00:00Z",
+   "t1": "n!faculty",
+   "t2": "VeryGames",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 15835
+    }
+   ],
+   "hltv": 2279267
+  },
+  {
+   "id": "s1-HBZZ9KW19Z-M1",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-29T14:15:00Z",
+   "t1": "Astana Dragons",
+   "t2": "Reason Gaming",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      5
+     ],
+     "first": "ct",
+     "hltv": 15839
+    }
+   ],
+   "hltv": 2279253
+  },
+  {
+   "id": "s1-HBZZ9KW19Z-M2",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-29T14:15:00Z",
+   "t1": "Copenhagen Wolves",
+   "t2": "SK Gaming",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      5
+     ],
+     "first": "ct",
+     "hltv": 15837
+    }
+   ],
+   "hltv": 2279037
+  },
+  {
+   "id": "s1-HBZZ9KW19Z-M3",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-29T15:30:00Z",
+   "t1": "SK Gaming",
+   "t2": "Reason Gaming",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 3,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      2,
+      13,
+      3
+     ],
+     "first": "ct",
+     "hltv": 15838
+    }
+   ],
+   "hltv": 2279280
+  },
+  {
+   "id": "s1-HBZZ9KW19Z-M4",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-29T15:30:00Z",
+   "t1": "Astana Dragons",
+   "t2": "Copenhagen Wolves",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      4,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 15840
+    }
+   ],
+   "hltv": 2279279
+  },
+  {
+   "id": "s1-HBZZ9KW19Z-M5",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2013-11-29T16:30:00Z",
+   "t1": "Astana Dragons",
+   "t2": "Reason Gaming",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      2,
+      11
+     ],
+     "first": "t",
+     "hltv": 15839
+    }
+   ],
+   "hltv": 2279294
+  },
+  {
+   "id": "po-NIHF6GZGMBQuarterfinals-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2013-11-29T19:00:00Z",
+   "t1": "Copenhagen Wolves",
+   "t2": "VeryGames",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      1,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 15841
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      0,
+      5
+     ],
+     "first": "t",
+     "hltv": 15842
+    },
+    {
+     "map": "Mirage",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      8,
+      4,
+      9,
+      7
+     ],
+     "first": "t",
+     "hltv": 15843
+    }
+   ],
+   "hltv": 2279295
+  },
+  {
+   "id": "po-NIHF6GZGMBQuarterfinals-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2013-11-29T19:00:00Z",
+   "t1": "Complexity",
+   "t2": "Astana Dragons",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 15844
+    },
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      1
+     ],
+     "first": "ct",
+     "hltv": 15845
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      6,
+      6
+     ],
+     "first": "t",
+     "hltv": 15846
+    }
+   ],
+   "hltv": 2279297
+  },
+  {
+   "id": "s1-MUI6QDA57M-M1",
+   "stage": "s1",
+   "round": "Grupo E",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2013-11-30T11:15:00Z",
+   "t1": "Team lurppis",
+   "t2": "Team Thorin",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      1,
+      6
+     ],
+     "first": "t",
+     "hltv": 15847
+    },
+    {
+     "map": "Train SE",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      3,
+      10
+     ],
+     "first": "t",
+     "hltv": 15848
+    }
+   ],
+   "hltv": 2279343
+  },
+  {
+   "id": "po-NIHF6GZGMBQuarterfinals-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2013-11-30T13:30:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "VeryGames",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      11,
+      5,
+      10,
+      3
+     ],
+     "first": "ct",
+     "hltv": 15849
+    },
+    {
+     "map": "Inferno",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      3,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 15850
+    },
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      1
+     ],
+     "first": "ct",
+     "hltv": 15851
+    }
+   ],
+   "hltv": 2279338
+  },
+  {
+   "id": "po-NIHF6GZGMBQuarterfinals-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2013-11-30T17:00:00Z",
+   "t1": "Fnc",
+   "t2": "Complexity",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      2,
+      14,
+      1,
+      6
+     ],
+     "first": "ct",
+     "hltv": 15852
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      2,
+      5
+     ],
+     "first": "t",
+     "hltv": 15853
+    }
+   ],
+   "hltv": 2279339
+  },
+  {
+   "id": "po-NIHF6GZGMBQuarterfinals-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2013-11-30T21:30:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "Fnc",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      12,
+      2,
+      13,
+      3
+     ],
+     "first": "t",
+     "hltv": 15854
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      2
+     ],
+     "first": "ct",
+     "hltv": 15855
+    },
+    {
+     "map": "Train",
+     "s1": 2,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      2,
+      0,
+      3,
+      13
+     ],
+     "first": "t",
+     "hltv": 15856
+    }
+   ],
+   "hltv": 2279438
+  }
+ ],
+ "rosters": {
+  "Ninjas in Pyjamas": {
+   "players": [
+    {
+     "n": "f0rest",
+     "flag": ""
+    },
+    {
+     "n": "GeT_RiGhT",
+     "flag": ""
+    },
+    {
+     "n": "Xizt",
+     "flag": ""
+    },
+    {
+     "n": "Fifflaren",
+     "flag": ""
+    },
+    {
+     "n": "friberg",
+     "flag": ""
+    }
+   ]
+  },
+  "N!Faculty": {
+   "players": [
+    {
+     "n": "gla1ve",
+     "flag": ""
+    },
+    {
+     "n": "karrigan",
+     "flag": ""
+    },
+    {
+     "n": "cajunb",
+     "flag": ""
+    },
+    {
+     "n": "Pimp",
+     "flag": ""
+    },
+    {
+     "n": "raalz",
+     "flag": ""
+    }
+   ]
+  },
+  "SK Gaming": {
+   "players": [
+    {
+     "n": "pita",
+     "flag": ""
+    },
+    {
+     "n": "twist",
+     "flag": ""
+    },
+    {
+     "n": "xelos",
+     "flag": ""
+    },
+    {
+     "n": "Delpan",
+     "flag": ""
+    },
+    {
+     "n": "MODDII",
+     "flag": ""
+    }
+   ]
+  },
+  "Copenhagen Wolves": {
+   "players": [
+    {
+     "n": "FeTiSh",
+     "flag": ""
+    },
+    {
+     "n": "dupreeh",
+     "flag": ""
+    },
+    {
+     "n": "Xyp9x",
+     "flag": ""
+    },
+    {
+     "n": "device",
+     "flag": ""
+    },
+    {
+     "n": "Nico",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "3k2",
+    "flag": ""
+   }
+  },
+  "Universal Soldiers": {
+   "players": [
+    {
+     "n": "TaZ",
+     "flag": ""
+    },
+    {
+     "n": "NEO",
+     "flag": ""
+    },
+    {
+     "n": "pashaBiceps",
+     "flag": ""
+    },
+    {
+     "n": "Snax",
+     "flag": ""
+    },
+    {
+     "n": "byali",
+     "flag": ""
+    }
+   ]
+  },
+  "Astana Dragons": {
+   "players": [
+    {
+     "n": "ANGE1",
+     "flag": ""
+    },
+    {
+     "n": "Dosia",
+     "flag": ""
+    },
+    {
+     "n": "AdreN",
+     "flag": ""
+    },
+    {
+     "n": "markeloff",
+     "flag": ""
+    },
+    {
+     "n": "kUcheR",
+     "flag": ""
+    }
+   ]
+  },
+  "Complexity": {
+   "players": [
+    {
+     "n": "Hiko",
+     "flag": ""
+    },
+    {
+     "n": "seang@res",
+     "flag": ""
+    },
+    {
+     "n": "Semphis",
+     "flag": ""
+    },
+    {
+     "n": "swag",
+     "flag": ""
+    },
+    {
+     "n": "n0thing",
+     "flag": ""
+    }
+   ]
+  },
+  "VeryGames": {
+   "players": [
+    {
+     "n": "Ex6TenZ",
+     "flag": ""
+    },
+    {
+     "n": "NBK-",
+     "flag": ""
+    },
+    {
+     "n": "SmithZz",
+     "flag": ""
+    },
+    {
+     "n": "ScreaM",
+     "flag": ""
+    },
+    {
+     "n": "shox",
+     "flag": ""
+    }
+   ]
+  },
+  "Clan-Mystik": {
+   "players": [
+    {
+     "n": "HaRts",
+     "flag": ""
+    },
+    {
+     "n": "ioRek",
+     "flag": ""
+    },
+    {
+     "n": "kioShiMa",
+     "flag": ""
+    },
+    {
+     "n": "KQLY",
+     "flag": ""
+    },
+    {
+     "n": "apEX",
+     "flag": ""
+    }
+   ]
+  },
+  "Fnatic": {
+   "players": [
+    {
+     "n": "JW",
+     "flag": ""
+    },
+    {
+     "n": "flusha",
+     "flag": ""
+    },
+    {
+     "n": "schneider",
+     "flag": ""
+    },
+    {
+     "n": "Devilwalk",
+     "flag": ""
+    },
+    {
+     "n": "pronax",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "cArn",
+    "flag": ""
+   }
+  },
+  "Team iBUYPOWER": {
+   "players": [
+    {
+     "n": "anger",
+     "flag": ""
+    },
+    {
+     "n": "Skadoodle",
+     "flag": ""
+    },
+    {
+     "n": "adreN",
+     "flag": ""
+    },
+    {
+     "n": "AZK",
+     "flag": ""
+    },
+    {
+     "n": "DaZeD",
+     "flag": ""
+    }
+   ]
+  },
+  "Natus Vincere": {
+   "players": [
+    {
+     "n": "Zeus",
+     "flag": ""
+    },
+    {
+     "n": "starix",
+     "flag": ""
+    },
+    {
+     "n": "ceh9",
+     "flag": ""
+    },
+    {
+     "n": "seized",
+     "flag": ""
+    },
+    {
+     "n": "kibaken",
+     "flag": ""
+    }
+   ]
+  },
+  "LGB eSports": {
+   "players": [
+    {
+     "n": "SKYTTEN",
+     "flag": ""
+    },
+    {
+     "n": "eksem",
+     "flag": ""
+    },
+    {
+     "n": "KRiMZ",
+     "flag": ""
+    },
+    {
+     "n": "dennis",
+     "flag": ""
+    },
+    {
+     "n": "olofm",
+     "flag": ""
+    }
+   ]
+  },
+  "Recursive eSports": {
+   "players": [
+    {
+     "n": "Happy",
+     "flag": ""
+    },
+    {
+     "n": "GMX",
+     "flag": ""
+    },
+    {
+     "n": "kennyS",
+     "flag": ""
+    },
+    {
+     "n": "Uzzziii",
+     "flag": ""
+    },
+    {
+     "n": "Maniac",
+     "flag": ""
+    }
+   ]
+  },
+  "Xapso": {
+   "players": [
+    {
+     "n": "ultra",
+     "flag": ""
+    },
+    {
+     "n": "centeks",
+     "flag": ""
+    },
+    {
+     "n": "cadiaN",
+     "flag": ""
+    },
+    {
+     "n": "aizy",
+     "flag": ""
+    },
+    {
+     "n": "robiin",
+     "flag": ""
+    }
+   ]
+  },
+  "Reason Gaming": {
+   "players": [
+    {
+     "n": "MSL",
+     "flag": ""
+    },
+    {
+     "n": "coloN",
+     "flag": ""
+    },
+    {
+     "n": "smF",
+     "flag": ""
+    },
+    {
+     "n": "EXR",
+     "flag": ""
+    },
+    {
+     "n": "LOMME",
+     "flag": ""
+    }
+   ]
+  },
+  "Team lurppis": {
+   "players": [
+    {
+     "n": "markeloff",
+     "flag": ""
+    },
+    {
+     "n": "Skadoodle",
+     "flag": ""
+    },
+    {
+     "n": "anger",
+     "flag": ""
+    },
+    {
+     "n": "pasha",
+     "flag": ""
+    },
+    {
+     "n": "KQLY",
+     "flag": ""
+    }
+   ]
+  },
+  "Team Thorin": {
+   "players": [
+    {
+     "n": "Dosia",
+     "flag": ""
+    },
+    {
+     "n": "kennyS",
+     "flag": ""
+    },
+    {
+     "n": "TaZ",
+     "flag": ""
+    },
+    {
+     "n": "starix",
+     "flag": ""
+    },
+    {
+     "n": "Delpan",
+     "flag": ""
+    }
+   ]
+  }
+ },
+ "checked": "2026-11-15T10:36:33Z",
+ "errors": []
+}
