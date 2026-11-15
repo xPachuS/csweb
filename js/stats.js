@@ -114,6 +114,8 @@ export function createStats(h) {
     const m = d?.matches.find((x) => x.id === mid);
     if (!M || !m) return `<div class="state state--error"><p><b>No encuentro ese partido.</b></p><a class="btn" href="#/majors/${esc(id)}">Volver al Major</a></div>`;
     const stage = d.stages.find((s) => s.id === m.stage);
+    // solo los mapas jugados (o en juego): fuera el 3.º de un 2-0, el 4.º y 5.º de un 3-0…
+    const played = (m.maps || []).filter((x) => x.winner || x.s1 != null || x.s2 != null);
     const w = m.winner === 1 ? m.t1 : m.winner === 2 ? m.t2 : null;
     const side = (n, team) => `<div class="mxteam ${w === team ? 'is-won' : w ? 'is-lost' : ''} ${n === 2 ? 'mxteam--r' : ''}">${team !== 'TBD' ? `<a href="#/equipos/${enc(team)}">${badge(team, 'tb--xl')}</a>` : badge('TBD', 'tb--xl')}<b>${esc(team === 'TBD' ? 'Por decidir' : team)}</b></div>`;
     const veto = (m.veto || []).map(([t, a, mp]) => `<li class="vt vt--${a}">${mapThumb(mp)}<span>${a === 'decider' ? 'Decisivo' : a === 'pick' ? 'Elige' : 'Veta'}</span><b>${esc(mp)}</b><small>${t ? esc(t === 1 ? m.t1 : m.t2) : 'el que queda'}</small></li>`).join('');
@@ -148,7 +150,7 @@ export function createStats(h) {
         <div class="mxhead">${side(1, m.t1)}<div class="mxscore">${m.done ? `<b class="${m.winner === 1 ? 'w' : ''}">${m.s1}</b><i>–</i><b class="${m.winner === 2 ? 'w' : ''}">${m.s2}</b>` : '<i>vs</i>'}</div>${side(2, m.t2)}</div>
         ${m.hltv ? `<p class="mxlinks"><a class="btn btn--primary btn--sm" href="${hltvMatch(m.hltv)}" target="_blank" rel="noopener">Estadísticas completas en HLTV ↗</a></p>` : ''}</section>
       ${veto ? `<section class="card"><h3>Selección de mapas</h3><ol class="veto">${veto}</ol></section>` : ''}
-      ${m.maps.length ? `<div class="mxmaps">${m.maps.map(mapCard).join('')}</div>` : '<div class="empty">Todavía no hay mapas jugados.</div>'}
+      ${played.length ? `<div class="mxmaps">${played.map(mapCard).join('')}</div>` : '<div class="empty">Todavía no hay mapas jugados.</div>'}
       ${d.rosters?.[m.t1] || d.rosters?.[m.t2] ? `<h2 class="h2">Plantillas</h2><div class="duo duo--wide">${roster(m.t1)}${roster(m.t2)}</div>` : ''}
       <p class="hint mj__src">Datos de Liquipedia (CC-BY-SA 3.0). Las estadísticas de los jugadores están en HLTV.</p></div>`;
   }

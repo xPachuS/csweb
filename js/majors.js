@@ -135,7 +135,7 @@ export function createMajors(h) {
   const row = (m) => {
     const w = winnerTeam(m);
     const side = (t, sc, right) => `<span class="mr__t ${w === t ? 'is-won' : w ? 'is-lost' : ''} ${right ? 'mr__t--r' : ''}">${badge(t)}<b>${esc(t)}</b></span>`;
-    const maps = (m.maps || []).filter((x) => x.map || x.s1 != null);
+    const maps = (m.maps || []).filter((x) => x.winner || x.s1 != null);
     return `<li class="mr"><a class="mr__link" href="#/majors/${esc(M.id)}/p/${esc(m.id)}" aria-label="Ver el partido ${esc(m.t1)} contra ${esc(m.t2)}"></a>
         <span class="mr__when">${m.time ? fmtDate(m.time) : ''}<small>Bo${m.bo}</small></span>
         ${side(m.t1, m.s1)}<span class="mr__score">${m.done ? `<b class="${m.winner === 1 ? 'w' : ''}">${m.s1}</b>–<b class="${m.winner === 2 ? 'w' : ''}">${m.s2}</b>` : '<i>vs</i>'}</span>${side(m.t2, m.s2, true)}

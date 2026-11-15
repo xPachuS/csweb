@@ -491,7 +491,7 @@ function tabPlayed() {
     return `<article class="pl">
       <header><span>${esc(stageName(m.stage))} · ${esc(roundEs(m.round))} · ${fmtDayTime(m.time)}</span>${m.done ? (m.fixed ? '<span class="pill pill--warn">corregido</span>' : '') : '<span class="pill pill--live">en juego</span>'}</header>
       <div class="pl__teams">${side(m.t1, m.s1)}<span class="pk__vs">vs</span>${side(m.t2, m.s2)}</div>
-      ${m.maps?.length ? `<p class="pl__maps">${m.maps.map((x) => `${esc(x.map)} ${x.s1 ?? ''}–${x.s2 ?? ''}`).join(' · ')}</p>` : ''}
+      ${m.maps?.some((x) => x.winner || x.s1 != null) ? `<p class="pl__maps">${m.maps.filter((x) => x.winner || x.s1 != null).map((x) => `${esc(x.map)} ${x.s1 ?? ''}–${x.s2 ?? ''}`).join(' · ')}</p>` : ''}
       ${String(m.id).startsWith('x-') ? '' : `<a class="pl__more" href="#/majors/${esc(S.data.ev)}/p/${esc(m.id)}">Mapas, rondas y plantillas →</a>`}
       <footer>${p ? `Tu pronóstico: <b>${esc(p.team)}${p.score ? ' ' + p.score.replace('-', '–') : ''}</b>${r ? (r.ok ? ` <span class="ok">+${r.points}${r.exact ? ' exacto' : ''}</span>` : ' <span class="ko">0</span>') : ''}` : '<span class="hint">No lo pronosticaste</span>'}
         ${others.length ? `<span class="pl__others">${others.map((o) => `<span class="mini ${m.done ? (o.team === winnerTeam(m) ? 'is-ok' : 'is-ko') : ''}" title="${esc(o.team)}">${esc(o.nick)}: ${esc(shortOf(o.team))}${o.score ? ' ' + o.score.replace('-', '–') : ''}</span>`).join('')}</span>` : ''}</footer>

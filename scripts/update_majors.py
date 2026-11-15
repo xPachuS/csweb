@@ -335,7 +335,8 @@ def parse_match(inner: str, sid: str, stype: str, mid: str, round_name: str, slo
         'id': mid, 'stage': sid, 'round': round_name, 'slot': slot, 'kind': '', 'bo': bo,
         'date': parse_date(p.get('date', '')), 't1': o1['team'], 't2': o2['team'],
         's1': s1, 's2': s2, 'winner': w if w in (1, 2) else 0, 'done': bool(w in (1, 2)),
-        'maps': [m for m in maps if m['map'] or m['winner']],
+        # sin los mapas que no se llegaron a jugar (p. ej. el 3.º de un 2-0)
+        'maps': [m for m in maps if m['winner'] or m['s1'] is not None or (not (w in (1, 2)) and m['map'])],
         **({'hltv': to_int(p.get('hltv'))} if to_int(p.get('hltv')) else {}),
         **({'veto': v} if (v := parse_veto(p.get('mapveto', ''))) else {}),
     }
@@ -984,6 +985,8 @@ def team_logos(html: str, keys: list[str]) -> dict[int, dict]:
 
 
 MAPS_JSON = ROOT / 'data' / 'maps.json'
+MAP_PAGES = {'Dust II': ['Dust2', 'Dust II', 'Dust 2'], 'Train SE': ['Train'], 'Cobblestone': ['Cobblestone', 'Cbble'],
+             'Cache': ['Cache'], 'Season': ['Season'], 'Tuscan': ['Tuscan']}   # página de Liquipedia de cada mapa
 MAPS_DIR = ROOT / 'img' / 'maps'
 
 
@@ -992,21 +995,26 @@ def update_maps(src):
     names = set()
     for f in OUT.glob('2*.json'):
         for m in json.loads(f.read_text('utf-8')).get('matches', []):
-            names.update(x['map'] for x in m.get('maps', []) if x.get('map'))
+            names.update(x['map'] for x in m.get('maps', []) if x.get('map') and x['map'].lower() not in ('unknown', 'tbd', 'tba', 'default'))
     db = json.loads(MAPS_JSON.read_text('utf-8')) if MAPS_JSON.exists() else {}
-    maps = db.get('maps', {})
-    todo = [n for n in sorted(names) if not maps.get(n, {}).get('img') and maps.get(n, {}).get('tries', 0) < 3]
+    maps = {k: v for k, v in db.get('maps', {}).items() if k in names}
+    for n, v in maps.items():                          # si cambió la página a consultar, se vuelve a intentar
+        if not v.get('img') and v.get('q') != MAP_PAGES.get(n, [n]):
+            v.pop('tries', None)
+    todo = [n for n in sorted(names) if not maps.get(n, {}).get('img') and maps.get(n, {}).get('tries', 0) < 3][:15]
     if not todo:
         return
+    titles = [t for n in todo for t in MAP_PAGES.get(n, [n])]
     try:
-        urls = src.page_images(todo[:40])
+        found = src.page_images(titles[:40])
     except Exception as e:  # noqa: BLE001
         log(f'  ! mapas: {e}')
         return
     MAPS_DIR.mkdir(parents=True, exist_ok=True)
-    for n in todo[:40]:
+    for n in todo:
         v = maps.setdefault(n, {})
-        url = urls.get(n)
+        v['q'] = MAP_PAGES.get(n, [n])
+        url = next((found[t] for t in v['q'] if found.get(t)), None)
         if not url:
             v['tries'] = v.get('tries', 0) + 1
             continue
