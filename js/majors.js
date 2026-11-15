@@ -101,7 +101,7 @@ export function createMajors(h) {
       ? `<section class="mjchamp"><div class="mjchamp__cup" aria-hidden="true">🏆</div>${badge(m.champion, 'tb--xl')}<div><small>Campeón</small><h2><a href="#/equipos/${encodeURIComponent(m.champion)}">${esc(m.champion)}</a></h2>
           <p>${m.final ? `Ganó la final <b>${esc(m.final.replace('-', '–'))}</b> a ` : 'Ganó la final a '}${badge(m.runnerup)} <b>${esc(m.runnerup)}</b></p></div></section>`
       : `<section class="mjchamp mjchamp--tbd"><div class="mjchamp__cup" aria-hidden="true">🏆</div><div><small>Campeón</small><h2>${m.status === 'upcoming' ? 'Por jugar' : 'Por decidir'}</h2>
-          <p>${m.id === idx.current ? 'Es el Major del Pick\'em: <a href="#/">haz tus pronósticos</a>.' : 'Todavía no hay campeón.'}</p></div></section>`;
+          <p>${m.id === idx.current ? 'Es el Major del Pick\'em: <a href="#/pickem">haz tus pronósticos</a>.' : 'Todavía no hay campeón.'}</p></div></section>`;
     return `<div class="mj mj--detail">
       <nav class="mjnav"><a href="#/majors">← Todos los Majors</a><span>${prev ? `<a href="#/majors/${esc(prev.id)}">‹ ${esc(prev.city)} ${prev.year}</a>` : ''}${next ? `<a href="#/majors/${esc(next.id)}">${esc(next.city)} ${next.year} ›</a>` : ''}</span></nav>
       <header class="mjhead"><p class="kicker">${m.game} · ${esc(m.organizer)}${m.id === idx.current ? ' · Pick\'em abierto' : ''}</p><h1 class="ghead__title">${esc(m.name)}</h1>

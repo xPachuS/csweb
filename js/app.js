@@ -61,8 +61,9 @@ const adminView = () => (admin = admin || createAdmin({ call, esc, $app, badge, 
 async function route() {
   await logosReady;
   const hash = location.hash.replace(/^#\/?/, '');
-  const [page, arg, arg2, arg3] = hash.split('/');
-  document.body.dataset.page = page || 'home';
+  let [page, arg, arg2, arg3] = hash.split('/');
+  if (!page) page = 'majors';                         // la portada es el historial de Majors; el Pick'em está en #/pickem
+  document.body.dataset.page = page;
   const nav = ['majors', 'equipos', 'jugadores'].includes(page) ? page : page === 'admin' ? '' : 'pickem';
   document.querySelectorAll('[data-nav]').forEach((a) => a.classList.toggle('is-on', a.dataset.nav === nav));
   if (page === 'admin') { renderTop(); $app.innerHTML = await adminView().view(arg || 'resumen'); return; }
@@ -247,7 +248,7 @@ function viewHub(idx) {
 async function viewInvite(code) {
   let lg;
   try { lg = (await call('GET', `/league/${code}`)).league; } catch (err) {
-    return `<div class="state state--error"><p><b>${esc(err.message)}</b></p><a class="btn" href="#/">Ir al inicio</a></div>`;
+    return `<div class="state state--error"><p><b>${esc(err.message)}</b></p><a class="btn" href="#/pickem">Volver al Pick'em</a></div>`;
   }
   return `<section class="hero">
       <div class="hero__text">
@@ -283,7 +284,7 @@ async function viewGroup(code) {
       </div>
       <div class="ghead__act">
         <button class="btn btn--primary btn--sm" type="button" data-invite="${esc(code)}" data-name="${esc(lg.name)}">Invitar amigos</button>
-        <a class="btn btn--sm" href="#/">Mis grupos</a>
+        <a class="btn btn--sm" href="#/pickem">Mis grupos</a>
         <button class="btn btn--ghost btn--sm" type="button" data-leave="${esc(code)}">Salir del grupo</button>
       </div>
     </section>
@@ -514,7 +515,7 @@ $app.addEventListener('click', async (e) => {
     if (ds.authGo) { e.preventDefault(); document.getElementById('auth')?.scrollIntoView({ behavior: 'smooth' }); }
     return;
   }
-  if (ds.act === 'logout') { saveSession({}); location.hash = '#/'; route(); return; }
+  if (ds.act === 'logout') { saveSession({}); location.hash = '#/pickem'; route(); return; }
   if (ds.tab) { S.tab = ds.tab; document.querySelectorAll('[data-tab]').forEach((b) => { b.classList.toggle('is-on', b.dataset.tab === S.tab); b.setAttribute('aria-selected', b.dataset.tab === S.tab); }); rerender(); return; }
   if (ds.mfilter !== undefined) { S.mfilter = ds.mfilter; rerender(); return; }
   if (ds.pfilter) { S.pfilter = ds.pfilter; rerender(); return; }
@@ -524,7 +525,7 @@ $app.addEventListener('click', async (e) => {
   }
   if (ds.leave) {
     if (!confirm('¿Salir de este grupo? Tus pronósticos no se borran.')) return;
-    try { await call('POST', '/leave', { code: ds.leave }); location.hash = '#/'; } catch (err) { alert(err.message); }
+    try { await call('POST', '/leave', { code: ds.leave }); location.hash = '#/pickem'; } catch (err) { alert(err.message); }
     return;
   }
   if (ds.invite) {
