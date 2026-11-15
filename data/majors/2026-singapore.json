@@ -190,6 +190,8 @@
    "maps": []
   }
  ],
- "checked": "2026-11-15T02:10:31Z",
- "errors": []
+ "checked": "2026-11-15T02:19:12Z",
+ "errors": [
+  "PGL Major Singapore 2026: HTTP Error 429: Too Many Requests"
+ ]
 }

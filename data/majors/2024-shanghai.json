@@ -40,7 +40,7 @@
     "DRILLAS",
     "FlyQuest",
     "Gr Gaming",
-    "Lvg",
+    "Lynn Vision",
     "Rare Atom",
     "TALON",
     "The MongolZ"
@@ -61,10 +61,10 @@
    "page": "Perfect_World/Major/2024/Shanghai/Europe",
    "type": "bracket",
    "teams": [
-    "Bb Team",
+    "BetBoom Team",
     "Cloud9",
     "FaZe Clan",
-    "Gl"
+    "GamerLegion"
    ],
    "matches": 2
   },
@@ -74,10 +74,10 @@
    "page": "Perfect_World/Major/2024/Shanghai/Europe_A",
    "type": "bracket",
    "teams": [
-    "Bb Team",
+    "BetBoom Team",
     "Cloud9",
     "FaZe Clan",
-    "Gl"
+    "GamerLegion"
    ],
    "matches": 2
   },
@@ -110,10 +110,10 @@
     "G2 Esports",
     "HEROIC",
     "MOUZ",
+    "Team Liquid",
     "Team Spirit",
     "The MongolZ",
-    "Tl",
-    "Vit"
+    "Vitality"
    ],
    "matches": 7
   }
@@ -151,7 +151,7 @@
    "bo": 3,
    "date": "2024-11-11T10:10:00Z",
    "t1": "DRILLAS",
-   "t2": "Lvg",
+   "t2": "Lynn Vision",
    "s1": 1,
    "s2": 0,
    "winner": 0,
@@ -220,7 +220,7 @@
    "bo": 3,
    "date": "2024-11-12T02:00:00Z",
    "t1": "Alter Ego",
-   "t2": "Lvg",
+   "t2": "Lynn Vision",
    "s1": 1,
    "s2": 2,
    "winner": 2,
@@ -395,7 +395,7 @@
    "bo": 3,
    "date": "2024-11-13T07:45:00Z",
    "t1": "TALON",
-   "t2": "Lvg",
+   "t2": "Lynn Vision",
    "s1": 0,
    "s2": 2,
    "winner": 2,
@@ -429,7 +429,7 @@
    "kind": "final",
    "bo": 3,
    "date": "2024-11-13T11:00:00Z",
-   "t1": "Lvg",
+   "t1": "Lynn Vision",
    "t2": "FlyQuest",
    "s1": 0,
    "s2": 2,
@@ -569,8 +569,8 @@
    "kind": "final",
    "bo": 3,
    "date": "2024-11-20T13:25:00Z",
-   "t1": "Bb Team",
-   "t2": "Gl",
+   "t1": "BetBoom Team",
+   "t2": "GamerLegion",
    "s1": 1,
    "s2": 2,
    "winner": 2,
@@ -604,8 +604,8 @@
    "kind": "final",
    "bo": 3,
    "date": "2024-11-20T13:25:00Z",
-   "t1": "Bb Team",
-   "t2": "Gl",
+   "t1": "BetBoom Team",
+   "t2": "GamerLegion",
    "s1": 1,
    "s2": 2,
    "winner": 2,
@@ -709,7 +709,7 @@
    "kind": "qf",
    "bo": 3,
    "date": "2024-12-12T09:30:00Z",
-   "t1": "Tl",
+   "t1": "Team Liquid",
    "t2": "Team Spirit",
    "s1": 0,
    "s2": 2,
@@ -780,7 +780,7 @@
    "bo": 3,
    "date": "2024-12-13T10:25:00Z",
    "t1": "FaZe Clan",
-   "t2": "Vit",
+   "t2": "Vitality",
    "s1": 2,
    "s2": 1,
    "winner": 1,

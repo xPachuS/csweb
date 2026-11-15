@@ -58,10 +58,6 @@
    "tpl": "bne",
    "logo": "img/teams/bne.png"
   },
-  "Bb Team": {
-   "tpl": "bb team",
-   "logo": "img/teams/bb-team.png"
-  },
   "Bestia": {
    "tpl": "bestia",
    "logo": "img/teams/bestia.png",
@@ -166,10 +162,6 @@
   "Fnc": {
    "logo": "img/teams/fnc.png"
   },
-  "Fq": {
-   "tpl": "fq",
-   "logo": "img/teams/fq.png"
-  },
   "Fut": {
    "logo": "img/teams/fut.png",
    "dark": "img/teams/fut-dark.png"
@@ -197,10 +189,6 @@
   "Getting Info": {
    "tpl": "getting info",
    "tries": 3
-  },
-  "Gl": {
-   "tpl": "gl",
-   "logo": "img/teams/gl.png"
   },
   "Gods Reign": {
    "tpl": "gods reign",
@@ -267,11 +255,10 @@
   "Luminosity Gaming": {
    "logo": "img/teams/luminosity-gaming.png"
   },
-  "Lvg": {
+  "Lynn Vision": {
    "tpl": "lvg",
    "logo": "img/teams/lvg.png"
   },
-  "Lynn Vision": {},
   "M80": {
    "tpl": "m80",
    "logo": "img/teams/m80.png"
@@ -412,9 +399,6 @@
    "tpl": "mongolz",
    "logo": "img/teams/the-mongolz.png"
   },
-  "Tl": {
-   "tpl": "tl"
-  },
   "Twisted Minds": {
    "tpl": "twisted minds"
   },
@@ -424,13 +408,11 @@
   "Virtus.pro": {
    "tpl": "vp"
   },
-  "Vit": {
+  "Vit": {},
+  "Vitality": {
    "tpl": "vit",
    "logo": "img/teams/vit.png",
    "dark": "img/teams/vit-dark.png"
-  },
-  "Vitality": {
-   "tpl": "vit"
   },
   "Wildcard": {},
   "ex-TALON": {

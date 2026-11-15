@@ -32,7 +32,7 @@
     "G2 Esports",
     "Team Falcons",
     "Team Spirit",
-    "Vit"
+    "Vitality"
    ],
    "matches": 7
   },
@@ -46,18 +46,18 @@
     "BIG",
     "BetBoom Team",
     "DENDELE CS",
-    "Fq",
+    "FlyQuest",
     "Gaimin",
-    "Gl",
+    "GamerLegion",
     "HEROIC",
-    "Lvg",
+    "Lynn Vision",
     "M80",
     "MIBR",
     "NRG",
     "Off Chops",
     "SINNERS Esports",
     "TYLOO",
-    "Tl"
+    "Team Liquid"
    ],
    "matches": 0
   },
@@ -72,10 +72,10 @@
     "B8",
     "BIG",
     "BetBoom Team",
-    "Fq",
+    "FlyQuest",
     "Fut",
     "G2 Esports",
-    "Gl",
+    "GamerLegion",
     "Legacy",
     "M80",
     "MIBR",
@@ -107,7 +107,7 @@
     "Team Falcons",
     "Team Spirit",
     "The MongolZ",
-    "Vit"
+    "Vitality"
    ],
    "matches": 0
   }
@@ -227,7 +227,7 @@
    "bo": 3,
    "date": "2026-06-19T19:25:00Z",
    "t1": "Team Falcons",
-   "t2": "Vit",
+   "t2": "Vitality",
    "s1": 2,
    "s2": 1,
    "winner": 1,

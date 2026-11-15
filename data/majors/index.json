@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T02:10:31Z",
- "calls": 19,
+ "checked": "2026-11-15T02:19:12Z",
+ "calls": 6,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -339,8 +339,8 @@
    "loaded": false,
    "frozen": false,
    "checked": null,
-   "error": "",
-   "tries": 0
+   "error": "FACEIT Major: London 2018: HTTP Error 429: Too Many Requests",
+   "tries": 1
   },
   {
    "id": "2019-katowice",
@@ -365,8 +365,8 @@
    "loaded": false,
    "frozen": false,
    "checked": null,
-   "error": "",
-   "tries": 0
+   "error": "IEM Katowice Major 2019: HTTP Error 429: Too Many Requests",
+   "tries": 1
   },
   {
    "id": "2019-berlin",
@@ -390,7 +390,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T02:10:31Z"
+   "checked": "2026-11-15T02:10:31Z",
+   "error": "",
+   "tries": 0
   },
   {
    "id": "2021-stockholm",
@@ -440,7 +442,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T02:10:31Z"
+   "checked": "2026-11-15T02:10:31Z",
+   "error": "",
+   "tries": 0
   },
   {
    "id": "2022-rio",
@@ -464,7 +468,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T02:10:31Z"
+   "checked": "2026-11-15T02:10:31Z",
+   "error": "",
+   "tries": 0
   },
   {
    "id": "2023-paris",
@@ -488,7 +494,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T02:10:31Z"
+   "checked": "2026-11-15T02:10:31Z",
+   "error": "",
+   "tries": 0
   },
   {
    "id": "2024-copenhagen",
@@ -512,7 +520,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T02:10:31Z"
+   "checked": "2026-11-15T02:10:31Z",
+   "error": "",
+   "tries": 0
   },
   {
    "id": "2024-shanghai",
@@ -577,7 +587,7 @@
    "year": 2025,
    "game": "CS2",
    "status": "done",
-   "champion": "Vit",
+   "champion": "Vitality",
    "runnerup": "FaZe Clan",
    "final": "3-1",
    "mvp": "",
@@ -640,7 +650,9 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T02:10:31Z"
+   "checked": "2026-11-15T02:10:31Z",
+   "error": "",
+   "tries": 0
   },
   {
    "id": "2027-buenos-aires",
@@ -695,5 +707,12 @@
    "tries": 0
   }
  ],
- "errors": []
+ "errors": [
+  "PGL Major Singapore 2026: HTTP Error 429: Too Many Requests",
+  "PGL Major Copenhagen 2024: HTTP Error 429: Too Many Requests",
+  "BLAST.tv Paris Major 2023: HTTP Error 429: Too Many Requests",
+  "IEM Rio Major 2022: HTTP Error 429: Too Many Requests",
+  "IEM Katowice Major 2019: HTTP Error 429: Too Many Requests",
+  "FACEIT Major: London 2018: HTTP Error 429: Too Many Requests"
+ ]
 }
