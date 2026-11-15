@@ -1,0 +1,840 @@
+{
+ "teamTitles": [
+  [
+   4,
+   "Astralis"
+  ],
+  [
+   3,
+   "Fnatic"
+  ],
+  [
+   3,
+   "Vitality"
+  ],
+  [
+   2,
+   "Natus Vincere"
+  ],
+  [
+   1,
+   "SK Gaming"
+  ],
+  [
+   1,
+   "Ninjas in Pyjamas"
+  ],
+  [
+   1,
+   "Virtus.pro"
+  ],
+  [
+   1,
+   "Team LDLC.com"
+  ],
+  [
+   1,
+   "Cloud9"
+  ],
+  [
+   1,
+   "Team EnVyUs"
+  ]
+ ],
+ "teamMajors": [
+  [
+   25,
+   "Natus Vincere"
+  ],
+  [
+   19,
+   "MOUZ"
+  ],
+  [
+   18,
+   "Ninjas in Pyjamas"
+  ],
+  [
+   18,
+   "Fnatic"
+  ],
+  [
+   18,
+   "G2 Esports"
+  ],
+  [
+   17,
+   "Team Liquid"
+  ],
+  [
+   17,
+   "FaZe Clan"
+  ],
+  [
+   16,
+   "Virtus.pro"
+  ],
+  [
+   14,
+   "Cloud9"
+  ],
+  [
+   13,
+   "Astralis"
+  ]
+ ],
+ "teamFinals": [
+  [
+   6,
+   "Natus Vincere"
+  ],
+  [
+   5,
+   "Ninjas in Pyjamas"
+  ],
+  [
+   5,
+   "FaZe Clan"
+  ],
+  [
+   4,
+   "Fnatic"
+  ],
+  [
+   4,
+   "Astralis"
+  ],
+  [
+   3,
+   "Vitality"
+  ],
+  [
+   2,
+   "Virtus.pro"
+  ],
+  [
+   1,
+   "SK Gaming"
+  ],
+  [
+   1,
+   "Team LDLC.com"
+  ],
+  [
+   1,
+   "Cloud9"
+  ]
+ ],
+ "teamStreak": [
+  [
+   24,
+   "Natus Vincere"
+  ],
+  [
+   16,
+   "FaZe Clan"
+  ],
+  [
+   14,
+   "Fnatic"
+  ],
+  [
+   12,
+   "Virtus.pro"
+  ],
+  [
+   11,
+   "G2 Esports"
+  ],
+  [
+   11,
+   "Vitality"
+  ],
+  [
+   11,
+   "FURIA"
+  ],
+  [
+   10,
+   "Astralis"
+  ],
+  [
+   9,
+   "Ninjas in Pyjamas"
+  ],
+  [
+   9,
+   "FlipSid3 Tactics"
+  ]
+ ],
+ "teamSweeps": [
+  [
+   6,
+   "G2 Esports",
+   [
+    "2018-boston",
+    "2018-boston",
+    "2018-boston",
+    "2021-stockholm",
+    "2022-antwerp",
+    "2023-paris"
+   ]
+  ],
+  [
+   6,
+   "Team Spirit",
+   [
+    "2022-antwerp",
+    "2024-copenhagen",
+    "2025-austin",
+    "2025-budapest",
+    "2026-cologne",
+    "2026-cologne"
+   ]
+  ],
+  [
+   4,
+   "Natus Vincere",
+   [
+    "2017-atlanta",
+    "2021-stockholm",
+    "2022-antwerp",
+    "2025-budapest"
+   ]
+  ],
+  [
+   4,
+   "FaZe Clan",
+   [
+    "2018-boston",
+    "2018-boston",
+    "2021-stockholm",
+    "2025-budapest"
+   ]
+  ],
+  [
+   4,
+   "Team Liquid",
+   [
+    "2018-london",
+    "2018-london",
+    "2019-katowice",
+    "2024-shanghai"
+   ]
+  ],
+  [
+   4,
+   "FURIA",
+   [
+    "2022-rio",
+    "2025-austin",
+    "2025-budapest",
+    "2026-cologne"
+   ]
+  ],
+  [
+   3,
+   "Cloud9",
+   [
+    "2018-boston",
+    "2022-rio",
+    "2024-copenhagen"
+   ]
+  ],
+  [
+   3,
+   "MOUZ",
+   [
+    "2019-berlin",
+    "2022-rio",
+    "2024-copenhagen"
+   ]
+  ],
+  [
+   3,
+   "Vitality",
+   [
+    "2022-antwerp",
+    "2023-paris",
+    "2024-shanghai"
+   ]
+  ],
+  [
+   3,
+   "HEROIC",
+   [
+    "2023-paris",
+    "2024-copenhagen",
+    "2025-austin"
+   ]
+  ]
+ ],
+ "playerTitles": [
+  [
+   5,
+   "dupreeh"
+  ],
+  [
+   4,
+   "gla1ve"
+  ],
+  [
+   4,
+   "Xyp9x"
+  ],
+  [
+   4,
+   "device"
+  ],
+  [
+   4,
+   "apEX"
+  ],
+  [
+   4,
+   "Magisk"
+  ],
+  [
+   3,
+   "JW"
+  ],
+  [
+   3,
+   "flusha"
+  ],
+  [
+   3,
+   "pronax"
+  ],
+  [
+   3,
+   "ropz"
+  ]
+ ],
+ "playerMajors": [
+  [
+   23,
+   "karrigan"
+  ],
+  [
+   23,
+   "apEX"
+  ],
+  [
+   23,
+   "rain"
+  ],
+  [
+   21,
+   "FalleN"
+  ],
+  [
+   19,
+   "dupreeh"
+  ],
+  [
+   19,
+   "kennyS"
+  ],
+  [
+   19,
+   "NiKo"
+  ],
+  [
+   19,
+   "EliGE"
+  ],
+  [
+   18,
+   "shox"
+  ],
+  [
+   18,
+   "s1mple"
+  ]
+ ],
+ "longestMaps": [
+  [
+   60,
+   "2019-berlin",
+   "s2-XCOS4V47FO-M3",
+   "Astralis",
+   "CR4ZY",
+   "Dust II",
+   29,
+   31
+  ],
+  [
+   59,
+   "2016-columbus",
+   "s1-WPRACQZW6J-M3",
+   "FlipSid3 Tactics",
+   "MOUZ",
+   "Cobblestone",
+   28,
+   31
+  ],
+  [
+   59,
+   "2019-berlin",
+   "s2-X22TFJ1698-M2",
+   "Astralis",
+   "NRG",
+   "Train",
+   28,
+   31
+  ],
+  [
+   54,
+   "2018-london",
+   "s1-01AKU257CJ-M2",
+   "Astralis",
+   "Ninjas in Pyjamas",
+   "Mirage",
+   26,
+   28
+  ],
+  [
+   54,
+   "2018-london",
+   "s1-77MPD9FUWQ-M4",
+   "TYLOO",
+   "OpTic Gaming",
+   "Inferno",
+   26,
+   28
+  ],
+  [
+   54,
+   "2019-berlin",
+   "s1-VOC142D3VG-M2",
+   "North",
+   "CR4ZY",
+   "Inferno",
+   28,
+   26
+  ],
+  [
+   53,
+   "2019-berlin",
+   "s1-R06BHK1FQ6-M1",
+   "G2 Esports",
+   "FORZE Esports",
+   "Dust II",
+   28,
+   25
+  ],
+  [
+   53,
+   "2025-austin",
+   "s3-8DSxWjM82b-M2",
+   "The MongolZ",
+   "G2 Esports",
+   "Dust II",
+   28,
+   25
+  ]
+ ],
+ "overtimes": [
+  [
+   30,
+   "2019-berlin",
+   "s2-XCOS4V47FO-M3",
+   "Astralis",
+   "CR4ZY",
+   "Dust II",
+   29,
+   31
+  ],
+  [
+   29,
+   "2016-columbus",
+   "s1-WPRACQZW6J-M3",
+   "FlipSid3 Tactics",
+   "MOUZ",
+   "Cobblestone",
+   28,
+   31
+  ],
+  [
+   29,
+   "2019-berlin",
+   "s2-X22TFJ1698-M2",
+   "Astralis",
+   "NRG",
+   "Train",
+   28,
+   31
+  ],
+  [
+   29,
+   "2025-austin",
+   "s3-8DSxWjM82b-M2",
+   "The MongolZ",
+   "G2 Esports",
+   "Dust II",
+   28,
+   25
+  ],
+  [
+   24,
+   "2018-london",
+   "s1-01AKU257CJ-M2",
+   "Astralis",
+   "Ninjas in Pyjamas",
+   "Mirage",
+   26,
+   28
+  ],
+  [
+   24,
+   "2018-london",
+   "s1-77MPD9FUWQ-M4",
+   "TYLOO",
+   "OpTic Gaming",
+   "Inferno",
+   26,
+   28
+  ],
+  [
+   24,
+   "2019-berlin",
+   "s1-VOC142D3VG-M2",
+   "North",
+   "CR4ZY",
+   "Inferno",
+   28,
+   26
+  ],
+  [
+   23,
+   "2019-berlin",
+   "s1-R06BHK1FQ6-M1",
+   "G2 Esports",
+   "FORZE Esports",
+   "Dust II",
+   28,
+   25
+  ]
+ ],
+ "mapsByEra": {
+  "CS:GO": [
+   [
+    274,
+    "Inferno"
+   ],
+   [
+    261,
+    "Mirage"
+   ],
+   [
+    161,
+    "Overpass"
+   ],
+   [
+    150,
+    "Dust II"
+   ],
+   [
+    142,
+    "Nuke"
+   ],
+   [
+    107,
+    "Train"
+   ],
+   [
+    82,
+    "Cache"
+   ],
+   [
+    75,
+    "Cobblestone"
+   ],
+   [
+    69,
+    "Vertigo"
+   ],
+   [
+    65,
+    "Ancient"
+   ],
+   [
+    14,
+    "Anubis"
+   ],
+   [
+    1,
+    "Train SE"
+   ]
+  ],
+  "CS2": [
+   [
+    136,
+    "Mirage"
+   ],
+   [
+    132,
+    "Inferno"
+   ],
+   [
+    122,
+    "Nuke"
+   ],
+   [
+    115,
+    "Dust II"
+   ],
+   [
+    104,
+    "Ancient"
+   ],
+   [
+    67,
+    "Anubis"
+   ],
+   [
+    53,
+    "Overpass"
+   ],
+   [
+    38,
+    "Train"
+   ],
+   [
+    27,
+    "Vertigo"
+   ]
+  ]
+ },
+ "finalPairs": [
+  [
+   3,
+   "Fnatic vs Ninjas in Pyjamas"
+  ],
+  [
+   2,
+   "FaZe Clan vs Natus Vincere"
+  ]
+ ],
+ "finals": [
+  [
+   "2013-jonkoping",
+   "Ninjas in Pyjamas",
+   "Fnatic",
+   1,
+   2,
+   2,
+   3
+  ],
+  [
+   "2014-katowice",
+   "Ninjas in Pyjamas",
+   "Virtus.pro",
+   0,
+   2,
+   2,
+   2
+  ],
+  [
+   "2014-cologne",
+   "Fnatic",
+   "Ninjas in Pyjamas",
+   1,
+   2,
+   2,
+   3
+  ],
+  [
+   "2014-jonkoping",
+   "Ninjas in Pyjamas",
+   "Team LDLC.com",
+   1,
+   2,
+   2,
+   3
+  ],
+  [
+   "2015-katowice",
+   "Fnatic",
+   "Ninjas in Pyjamas",
+   2,
+   1,
+   1,
+   3
+  ],
+  [
+   "2015-cologne",
+   "ENVY",
+   "Fnatic",
+   0,
+   2,
+   2,
+   2
+  ],
+  [
+   "2015-cluj",
+   "Team EnVyUs",
+   "Natus Vincere",
+   2,
+   0,
+   1,
+   2
+  ],
+  [
+   "2016-columbus",
+   "Natus Vincere",
+   "Luminosity Gaming",
+   0,
+   2,
+   2,
+   2
+  ],
+  [
+   "2016-cologne",
+   "SK Gaming",
+   "Team Liquid",
+   2,
+   0,
+   1,
+   2
+  ],
+  [
+   "2017-atlanta",
+   "Astralis",
+   "Virtus.pro",
+   2,
+   1,
+   1,
+   3
+  ],
+  [
+   "2017-krakow",
+   "Gambit Esports",
+   "Immortals",
+   2,
+   1,
+   1,
+   3
+  ],
+  [
+   "2018-boston",
+   "FaZe Clan",
+   "Cloud9",
+   1,
+   2,
+   2,
+   3
+  ],
+  [
+   "2018-london",
+   "Natus Vincere",
+   "Astralis",
+   0,
+   2,
+   2,
+   2
+  ],
+  [
+   "2019-katowice",
+   "ENCE",
+   "Astralis",
+   0,
+   2,
+   2,
+   2
+  ],
+  [
+   "2019-berlin",
+   "AVANGAR",
+   "Astralis",
+   0,
+   2,
+   2,
+   2
+  ],
+  [
+   "2021-stockholm",
+   "Natus Vincere",
+   "G2 Esports",
+   2,
+   0,
+   1,
+   2
+  ],
+  [
+   "2022-antwerp",
+   "FaZe Clan",
+   "Natus Vincere",
+   2,
+   0,
+   1,
+   2
+  ],
+  [
+   "2022-rio",
+   "Outsiders",
+   "HEROIC",
+   2,
+   0,
+   1,
+   2
+  ],
+  [
+   "2023-paris",
+   "GamerLegion",
+   "Vitality",
+   0,
+   2,
+   2,
+   2
+  ],
+  [
+   "2024-copenhagen",
+   "FaZe Clan",
+   "Natus Vincere",
+   1,
+   2,
+   2,
+   3
+  ],
+  [
+   "2024-shanghai",
+   "Team Spirit",
+   "FaZe Clan",
+   2,
+   1,
+   1,
+   3
+  ],
+  [
+   "2025-austin",
+   "Vitality",
+   "The MongolZ",
+   2,
+   1,
+   1,
+   3
+  ],
+  [
+   "2025-budapest",
+   "Vitality",
+   "FaZe Clan",
+   3,
+   1,
+   1,
+   4
+  ],
+  [
+   "2026-cologne",
+   "Team Falcons",
+   "FURIA",
+   3,
+   0,
+   1,
+   3
+  ]
+ ],
+ "series": 1419,
+ "maps": 2195
+}

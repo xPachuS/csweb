@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T11:38:10Z",
- "calls": 16,
+ "checked": "2026-11-15T11:58:19Z",
+ "calls": 2,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -201,10 +201,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:38:10Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2016-columbus",
@@ -229,10 +230,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:38:10Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2016-cologne",
@@ -257,10 +259,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:38:10Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2017-atlanta",
@@ -285,10 +288,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:38:10Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2017-krakow",
@@ -313,10 +317,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:38:10Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2018-boston",
@@ -341,10 +346,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:38:10Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2018-london",
@@ -717,10 +723,11 @@
    "loaded": true,
    "frozen": false,
    "checked": "2026-11-15T11:38:10Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2027-buenos-aires",
@@ -781,5 +788,11 @@
    "tries_empty": 0
   }
  ],
- "errors": []
+ "errors": [
+  "PGL Major Singapore 2026: Liquipedia pidió esperar (429); se sigue en la próxima ejecución"
+ ],
+ "alerts": [
+  "El Major del Pick'em no se pudo actualizar: PGL Major Singapore 2026: Liquipedia pidió esperar (429); se sigue en la próxima ejecución"
+ ],
+ "alertRuns": 1
 }
