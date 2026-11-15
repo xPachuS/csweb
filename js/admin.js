@@ -1,9 +1,17 @@
 // Panel de administración (#/admin/<sección>). Solo para los apodos de la variable ADMINS del Worker.
 export function createAdmin(h) {
-  const { call, esc, $app, badge, fmtDate, fmtTime, fmtDayTime, roundEs, stageName, clearMatches, route, isTbd } = h;
-  const A = { section: 'resumen', cache: {} };
-  const get = (p) => call('GET', `/admin/${p}`);
-  const post = (p, body = {}) => call('POST', `/admin/${p}`, body);
+  const { call, esc, $app, badge, fmtDate, fmtTime, fmtDayTime, roundEs, clearMatches, route, isTbd } = h;
+  const A = { section: 'resumen', cache: {}, ev: '', st: null };
+  const evq = (p) => (A.ev ? `${p}${p.includes('?') ? '&' : '?'}ev=${encodeURIComponent(A.ev)}` : p);
+  const get = (p) => call('GET', evq(`/admin/${p}`));
+  const post = (p, body = {}) => call('POST', `/admin/${p}`, A.ev ? { ev: A.ev, ...body } : body);
+  const stageName = (id) => A.st?.names[id] || { s1: 'Stage 1', s2: 'Stage 2', s3: 'Stage 3', po: 'Playoffs' }[id] || id;
+  async function loadEvent() {                                   // fases y lista de Majors del Pick'em (para nombres y selector)
+    if (A.st && A.st.ev === A.ev && Date.now() - A.st.t < 30_000) return A.st;
+    const d = await call('GET', evq('/matches'));
+    A.st = { ev: A.ev, t: Date.now(), names: Object.fromEntries(d.stages.map((x) => [x.id, x.name])), events: d.events || [], current: d.current, cur: d.ev, event: d.event, stages: d.stages };
+    return A.st;
+  }
   const pill = (t, k = '') => `<span class="adm-badge ${k ? 'adm-badge--' + k : ''}">${esc(t)}</span>`;
   const empty = (t) => `<div class="adm-empty">${t}</div>`;
   const ago = (s) => { const d = (Date.now() - Date.parse(s)) / 60000; return !s ? '—' : d < 1 ? 'ahora' : d < 60 ? `hace ${Math.round(d)} min` : d < 1440 ? `hace ${Math.round(d / 60)} h` : fmtDate(new Date(s)); };
@@ -14,7 +22,8 @@ export function createAdmin(h) {
     ['jugadores', 'Jugadores', 'Cuentas: PIN, apodo, bloqueos, sesiones y sus pronósticos.'],
     ['grupos', 'Grupos', 'Grupos de amigos, sus jugadores, su clasificación y los ajustes de puntos.'],
     ['registro', 'Registro', 'Todo lo que pasa: cuentas, grupos y cada cambio hecho desde este panel.'],
-    ['ajustes', 'Ajustes', 'Reglas y puntos del juego, avisos y copia de seguridad.'],
+    ['majors', 'Majors', 'Historial de Majors: qué se ha descargado de Liquipedia, MVP y notas de cada uno, y qué Major usa el Pick\'em.'],
+    ['ajustes', 'Ajustes', 'Reglas y puntos del juego, Major del Pick\'em, avisos y copia de seguridad.'],
   ];
   const isOpen = () => !!$app.querySelector('.adm');
 
@@ -22,7 +31,7 @@ export function createAdmin(h) {
   async function view(section) {
     A.section = SECTIONS.some((s) => s[0] === section) ? section : 'resumen';
     let body;
-    try { body = await RENDER[A.section](); } catch (err) {
+    try { await loadEvent(); body = await RENDER[A.section](); } catch (err) {
       if (err.status === 401 || err.status === 403) {
         return `<div class="state state--error"><p><b>${esc(err.message)}</b></p><a class="btn" href="#/">Volver</a></div>`;
       }
@@ -34,13 +43,18 @@ export function createAdmin(h) {
         <nav class="adm-nav">${SECTIONS.map(([id, l]) => `<a class="adm-nav__item ${id === A.section ? 'is-on' : ''}" href="#/admin/${id}">${l}</a>`).join('')}</nav>
         <a class="adm-side__back" href="#/">← Volver a la web</a></aside>
       <section class="adm-main">
-        <header class="adm-head"><div><p class="adm-head__crumb">Administración</p><h1 class="adm-head__title">${sec[1]}</h1><p class="adm-head__desc">${sec[2]}</p></div>
-          <button class="btn btn--sm" type="button" data-adm="reload">Actualizar</button></header>
+        <header class="adm-head"><div><p class="adm-head__crumb">Administración${A.st ? ` · ${esc(A.st.event?.name || A.st.cur)}${A.st.cur === A.st.current ? '' : ' (cerrado)'}` : ''}</p><h1 class="adm-head__title">${sec[1]}</h1><p class="adm-head__desc">${sec[2]}</p></div>
+          <div class="adm-head__act">${evPicker()}<button class="btn btn--sm" type="button" data-adm="reload">Actualizar</button></div></header>
         <div class="adm-body" id="admBody">${body}</div>
       </section>
       <dialog class="adm-dialog" id="admDialog"><div class="adm-dialog__box" id="admBox"></div></dialog>
       <div class="adm-toast" id="admToast" role="status"></div>
     </div>`;
+  }
+  function evPicker() {
+    const evs = (A.st?.events || []).filter((e) => e.status !== 'upcoming' || e.id === A.st.current);
+    if (!['resumen', 'partidos', 'fases', 'jugadores', 'grupos'].includes(A.section) || evs.length < 2) return '';
+    return `<label class="adm-evpick"><span>Major</span><select class="input" data-adm-ev>${evs.map((e) => `<option value="${e.id === A.st.current ? '' : esc(e.id)}" ${e.id === A.st.cur ? 'selected' : ''}>${esc(e.name)}${e.id === A.st.current ? ' (actual)' : ''}</option>`).join('')}</select></label>`;
   }
   async function reloadBody() { const el = document.getElementById('admBody'); if (el) el.innerHTML = await RENDER[A.section](); }
   function toast(t, kind = 'ok') {
@@ -102,7 +116,7 @@ export function createAdmin(h) {
         ${seg('state', f.state, [['', 'Todos'], ['upcoming', 'Por jugar'], ['live', 'En juego'], ['done', 'Jugados'], ['fixed', 'Corregidos'], ['manual', 'A mano']])}
         <button class="btn btn--primary btn--sm" type="button" data-adm="add">＋ Añadir partido</button></div>
       ${list.length ? `<div class="adm-table adm-table--m"><div class="adm-tr adm-tr--head"><span>Partido</span><span>Fecha</span><span>Resultado</span><span>Pron.</span><span></span></div>
-        ${list.map((m) => `<div class="adm-tr ${m.fix ? 'is-fixed' : ''}"><span class="adm-td-main"><b>${badge(m.t1)} ${esc(m.t1)} <i>vs</i> ${badge(m.t2)} ${esc(m.t2)}</b><small>${esc(stageName(m.stage))} · ${esc(roundEs(m.round))} · Bo${m.bo}${m.slot ? ' · ' + m.slot : ''}${m.done ? ` · <b class="adm-res">${res(m)}</b>` : ''}${m.manual ? ' · ' + pill('a mano', 'soft') : ''}${m.fix ? ' · ' + pill('corregido', 'gold') : ''}</small></span>
+        ${list.map((m) => `<div class="adm-tr ${m.fix ? 'is-fixed' : ''}"><span class="adm-td-main"><b>${badge(m.t1)} ${esc(m.t1)} <i>vs</i> ${badge(m.t2)} ${esc(m.t2)}</b><small>${esc(stageName(m.stage))} · ${esc(roundEs(m.round))} · Bo${m.bo}${m.slot ? ' · ' + m.slot : ''}${m.done ? `<b class="adm-res"> · ${res(m)}</b>` : ''}${m.manual ? ' · ' + pill('a mano', 'soft') : ''}${m.fix ? ' · ' + pill('corregido', 'gold') : ''}</small></span>
           <span>${m.date ? fmtDayTime(new Date(m.date)) : '—'}</span><span><b>${res(m)}</b></span><span>${m.picks}</span>
           <span class="adm-td-act"><button class="btn btn--sm" type="button" data-adm="fix" data-id="${esc(m.id)}">Editar</button></span></div>`).join('')}</div>` : empty('Ningún partido con esos filtros.')}
       ${d.hidden.length ? `<h3 class="adm-h3">Partidos ocultos</h3><ul class="adm-list">${d.hidden.map((m) => `<li><span><b>${esc(m.t1 || '?')} vs ${esc(m.t2 || '?')}</b><small>${esc(m.id)}</small></span><button class="btn btn--sm" data-adm="unhide" data-id="${esc(m.id)}">Volver a mostrar</button></li>`).join('')}</ul>` : ''}`;
@@ -148,7 +162,7 @@ export function createAdmin(h) {
 
   // ---------------------------------------------------------------- FASES
   async function renderFases() {
-    const d = await call('GET', '/matches');
+    const d = await call('GET', evq('/matches'));
     A.cache.stages = d.stages;
     return d.stages.map((s) => `<section class="adm-card"><h3 class="adm-card__title">${esc(s.name)} ${s.type === 'swiss' ? (s.locked ? pill('Pick\'em cerrado') : s.ready ? pill('Pick\'em abierto', 'ok') : pill('esperando equipos', 'warn')) : ''} ${s.teamsManual ? pill('equipos a mano', 'gold') : ''}</h3>
         <p class="adm-sub">${s.teams.length} equipos${s.start ? ` · empieza ${fmtDayTime(new Date(s.start))}` : ''}${s.type === 'swiss' ? ' · el Pick\'em de Valve necesita los 16' : ''}</p>
@@ -223,6 +237,32 @@ export function createAdmin(h) {
       <input class="input" type="search" data-adm-q="lq" placeholder="Buscar…" value="${esc(f.q)}"></div><section class="adm-card">${logList(d.log)}</section>`;
   }
 
+  // ---------------------------------------------------------------- MAJORS
+  async function renderMajors() {
+    const d = await get('majors');
+    A.cache.majors = d.majors;
+    const loaded = d.majors.filter((m) => m.loaded).length;
+    const stat = (m) => (m.id === d.current ? pill('Pick\'em', 'gold') : '') + (m.status === 'upcoming' ? pill('próximo', 'soft') : m.status === 'live' ? pill('en juego', 'ok') : '')
+      + (m.loaded ? (m.frozen ? pill('completo') : pill('con datos', 'ok')) : m.status === 'upcoming' ? '' : pill(m.error ? 'error' : 'pendiente', m.error ? 'warn' : ''));
+    return `<section class="adm-card"><h3 class="adm-card__title">Descarga desde Liquipedia</h3>
+        <p class="adm-sub">${loaded} de ${d.majors.length} Majors con partidos · última comprobación ${d.checked ? fmtDayTime(new Date(d.checked)) : 'nunca'}.</p>
+        <p class="adm-hint">Los Majors antiguos se descargan poco a poco (unos 5 cada 10 minutos) y luego se quedan guardados. El del Pick'em se actualiza siempre.
+          Para añadir un Major nuevo, añade una línea a la lista MAJORS de <code>scripts/update_majors.py</code>.</p>
+        ${d.errors.length ? `<ul class="adm-list">${d.errors.map((e) => `<li><span>${pill('aviso', 'warn')} ${esc(e)}</span></li>`).join('')}</ul>` : ''}</section>
+      <div class="adm-table adm-table--mj"><div class="adm-tr adm-tr--head"><span>Major</span><span>Campeón</span><span>MVP</span><span>Estado</span><span></span></div>
+        ${d.majors.slice().reverse().map((m) => `<div class="adm-tr"><span class="adm-td-main"><b>${esc(m.name)}</b><small>${esc(m.city)} · ${esc(m.start)}${m.page ? ` · <a href="https://liquipedia.net/counterstrike/${encodeURI(m.page)}" target="_blank" rel="noopener">${esc(m.page)}</a>` : ''}${m.error ? ` · <span class="adm-err">${esc(m.error)}</span>` : ''}</small></span>
+          <span>${m.champion ? `${badge(m.champion)} ${esc(m.champion)}` : '—'}</span><span>${esc(m.extra?.mvp || m.mvp || '—')}</span><span class="adm-badges">${stat(m)}</span>
+          <span class="adm-td-act"><button class="btn btn--sm" type="button" data-adm="mjedit" data-id="${esc(m.id)}">Editar</button></span></div>`).join('')}</div>`;
+  }
+  function openMajor(id) {
+    const m = A.cache.majors.find((x) => x.id === id);
+    openDialog(esc(m.name), `<form class="adm-form" data-adm-form="majorinfo" data-id="${esc(m.id)}">
+        <label>MVP<input class="input" name="mvp" maxlength="40" value="${esc(m.extra?.mvp || '')}" placeholder="${esc(m.mvp || 'Ej.: ZywOo')}"></label>
+        <label>Nota (se muestra en la ficha del Major)<textarea class="input" name="note" rows="3" maxlength="400">${esc(m.extra?.note || '')}</textarea></label>
+        <p class="adm-hint">Campeón, final, fechas y partidos salen de Liquipedia. Si dejas los dos campos vacíos se borra lo que pusiste.</p>
+        <div class="adm-actions adm-actions--end"><a class="btn" href="#/majors/${esc(m.id)}">Ver la ficha</a><button class="btn btn--primary" type="submit">Guardar</button></div></form>`);
+  }
+
   // ---------------------------------------------------------------- AJUSTES
   async function renderAjustes() {
     const d = await get('settings');
@@ -231,7 +271,11 @@ export function createAdmin(h) {
     const g = (o, p) => p.split('.').reduce((x, k) => x?.[k], o);
     const num = (name, label, min, max) => `<label class="adm-setrow"><span><b>${label}</b><small>por defecto ${g(df, name)}</small></span><input class="input adm-num" type="number" name="${name}" min="${min}" max="${max}" value="${g(s, name)}" required></label>`;
     const chk = (name, label, hint) => `<label class="adm-setrow"><span><b>${label}</b><small>${hint}</small></span><span class="adm-switch"><input type="checkbox" name="${name}" ${g(s, name) ? 'checked' : ''}><span></span></span></label>`;
+    const evOpts = [['', `Automático (ahora: ${(d.events.find((e) => e.id === d.autoCurrent) || {}).name || d.autoCurrent})`], ...d.events.map((e) => [e.id, e.name])];
     return `<form class="adm-settings" data-adm-form="settings"><div class="adm-grid2">
+        <section class="adm-card"><h3 class="adm-card__title">Major del Pick'em</h3>
+          <label class="adm-setrow adm-setrow--col"><span><b>¿Qué Major se pronostica?</b><small>En automático, el Pick'em pasa solo al siguiente Major una semana después de que termine el anterior. Los grupos y las cuentas se mantienen y cada Major guarda su clasificación.</small></span>
+            <select class="input" name="currentEvent">${evOpts.map(([v, l]) => `<option value="${esc(v)}" ${s.currentEvent === v ? 'selected' : ''}>${esc(l)}</option>`).join('')}</select></label></section>
         <section class="adm-card"><h3 class="adm-card__title">General</h3>
           ${chk('picksOpen', 'Pronósticos abiertos', 'Si lo apagas, nadie puede pronosticar.')}${chk('registrationOpen', 'Se pueden crear cuentas', 'Si lo apagas, solo entran las que ya existen.')}
           ${num('maxPlayers', 'Jugadores por grupo (máx.)', 2, 500)}${num('maxGroups', 'Grupos por cuenta (máx.)', 1, 100)}
@@ -247,7 +291,7 @@ export function createAdmin(h) {
       <div class="adm-actions adm-actions--end"><button class="btn" type="button" data-adm="export">Descargar copia (JSON)</button><button class="btn adm-danger" type="button" data-adm="sreset">Valores por defecto</button><button class="btn btn--primary" type="submit">Guardar ajustes</button></div></form>`;
   }
 
-  const RENDER = { resumen: renderResumen, partidos: renderPartidos, fases: renderFases, jugadores: renderJugadores, grupos: renderGrupos, registro: renderRegistro, ajustes: renderAjustes };
+  const RENDER = { resumen: renderResumen, partidos: renderPartidos, fases: renderFases, jugadores: renderJugadores, grupos: renderGrupos, registro: renderRegistro, majors: renderMajors, ajustes: renderAjustes };
 
   // ---------------------------------------------------------------- eventos
   const changed = async () => { clearMatches(); await reloadBody(); };
@@ -256,12 +300,13 @@ export function createAdmin(h) {
     const b = e.target.closest('[data-adm]');
     if (!b || b.matches('input')) return;
     const ds = b.dataset; const k = ds.adm;
-    if (k === 'reload') { clearMatches(); reloadBody(); return; }
+    if (k === 'reload') { clearMatches(); A.st = null; $app.innerHTML = await view(A.section); return; }
     if (k === 'close') { closeDialog(); return; }
     if (k === 'mf') { A.cache.mf = { ...(A.cache.mf || { stage: '', state: '' }), [ds.k]: ds.v }; reloadBody(); return; }
     if (k === 'lf') { A.cache.lf = { ...(A.cache.lf || { q: '' }), kind: ds.v }; reloadBody(); return; }
     if (k === 'fix') { await act(() => openFix(ds.id)); return; }
     if (k === 'add') { openAdd(); return; }
+    if (k === 'mjedit') { openMajor(ds.id); return; }
     if (k === 'user') { await act(() => openUser(ds.id)); return; }
     if (k === 'league') { await act(() => openLeague(ds.code)); return; }
     if (k === 'hide') { if (confirm('¿Ocultar este partido? Desaparece de la web y no cuenta (se puede volver a mostrar).') && await act(() => post('fix', { mid: ds.id, hidden: true }), 'Partido ocultado')) { closeDialog(); changed(); } return; }
@@ -288,6 +333,7 @@ export function createAdmin(h) {
   $app.addEventListener('change', async (e) => {
     if (!isOpen()) return;
     const t = e.target;
+    if (t.matches('[data-adm-ev]')) { A.ev = t.value; A.st = null; A.cache.mf = null; $app.innerHTML = await view(A.section); return; }
     if (t.dataset.adm === 'toggle') {
       const s = structuredClone(A.cache.settings); s[t.dataset.field] = t.checked;
       if (!await act(async () => { A.cache.settings = (await post('settings', { settings: s })).settings; }, 'Guardado')) t.checked = !t.checked;
@@ -332,13 +378,15 @@ export function createAdmin(h) {
     if (k === 'adjust') { if (await act(() => post('adjust-add', { code: ds.code, user: Number(fd.user), points: Number(fd.points), reason: fd.reason }), 'Ajuste añadido')) openLeague(ds.code); return; }
     if (k === 'settings') {
       const s = structuredClone(A.cache.settings);
-      for (const el of f.querySelectorAll('input[name], textarea[name]')) {
+      for (const el of f.querySelectorAll('input[name], textarea[name], select[name]')) {
         const path = el.name.split('.'); let o = s;
         while (path.length > 1) o = o[path.shift()];
         o[path[0]] = el.type === 'checkbox' ? el.checked : el.type === 'number' ? Number(el.value) : el.value;
       }
-      if (await act(async () => { A.cache.settings = (await post('settings', { settings: s })).settings; }, 'Ajustes guardados')) changed();
+      if (await act(async () => { A.cache.settings = (await post('settings', { settings: s })).settings; }, 'Ajustes guardados')) { A.st = null; A.ev = ''; changed(); }
+      return;
     }
+    if (k === 'majorinfo') { if (await act(() => post('majorinfo', { id: ds.id, mvp: fd.mvp, note: fd.note }), 'Major guardado')) { closeDialog(); reloadBody(); } }
   });
   return { view, isOpen };
 }

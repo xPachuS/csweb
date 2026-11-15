@@ -1,5 +1,6 @@
 import { call, getMatches, clearMatches, session, saveSession, ApiError } from './api.js';
 import { createAdmin } from './admin.js';
+import { createMajors } from './majors.js';
 
 const $app = document.getElementById('app');
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -28,7 +29,7 @@ function roundEs(r) {
     .replace(/Round\s*(\d+)/i, 'Ronda $1').replace(/\s*Matches?\b/gi, '').replace(/\bHigh\b/i, 'alta').replace(/\bLow\b/i, 'baja')
     .replace(/\bMid\b/i, 'media').replace(/Advancement/i, 'clasificación').replace(/Elimination/i, 'eliminación').replace(/:\s*/, ' · ').trim();
 }
-const stageName = (id) => ({ s1: 'Stage 1', s2: 'Stage 2', s3: 'Stage 3', po: 'Playoffs' }[id] || id);
+const stageName = (id) => S.data?.stages?.find((s) => s.id === id)?.name || { s1: 'Stage 1', s2: 'Stage 2', s3: 'Stage 3', po: 'Playoffs' }[id] || id;
 const scoresFor = (bo) => { const need = Math.floor(bo / 2) + 1; return bo > 1 ? Array.from({ length: need }, (_, l) => `${need}-${l}`) : []; };
 const started = (m, now = S.now()) => m.done || (m.time && now >= m.time.getTime());
 const winnerTeam = (m) => (m.winner === 1 ? m.t1 : m.winner === 2 ? m.t2 : null);
@@ -37,26 +38,37 @@ const plural = (n, a, b) => `${n} ${n === 1 ? a : b}`;
 
 // ---------------------------------------------------------------- estado
 const S = {
-  data: null, me: null, board: null, code: null, tab: 'partidos', stage: null, stageDraft: {}, bracketDraft: null, combo: null, skew: 0,
+  data: null, me: null, board: null, code: null, ev: '', tab: 'partidos', stage: null, stageDraft: {}, bracketDraft: null, combo: null, skew: 0,
   now: () => Date.now() + S.skew,
 };
 let admin = null;
-const adminView = () => (admin = admin || createAdmin({ call, esc, $app, badge, fmtDate, fmtTime, fmtDayTime, roundEs, stageName, getMatches, clearMatches, route, isTbd }));
+const majors = createMajors({ esc, badge, fmtDate, fmtDayTime, call, $app });
+const past = () => !!S.data && S.data.ev !== S.data.current;          // Major ya cerrado: solo lectura
+const adminView = () => (admin = admin || createAdmin({ call, esc, $app, badge, fmtDate, fmtTime, fmtDayTime, roundEs, getMatches, clearMatches, route, isTbd }));
 
 // ---------------------------------------------------------------- router
 async function route() {
   const hash = location.hash.replace(/^#\/?/, '');
-  const [page, arg] = hash.split('/');
+  const [page, arg, arg2] = hash.split('/');
   document.body.dataset.page = page || 'home';
+  document.querySelectorAll('[data-nav]').forEach((a) => a.classList.toggle('is-on', a.dataset.nav === (page === 'majors' ? 'majors' : page === 'admin' ? '' : 'pickem')));
   if (page === 'admin') { renderTop(); $app.innerHTML = await adminView().view(arg || 'resumen'); return; }
-  if (!admin?.isOpen?.()) $app.innerHTML = `<div class="loading" role="status"><span></span>Cargando…</div>`;
+  if (!admin?.isOpen?.() && !majors.isOpen()) $app.innerHTML = `<div class="loading" role="status"><span></span>Cargando…</div>`;
+  if (page === 'majors') {
+    try { $app.innerHTML = arg ? await majors.detail(decodeURIComponent(arg)) : await majors.list(); window.scrollTo(0, 0); } catch (err) {
+      $app.innerHTML = `<div class="state state--error"><p><b>No se pudo cargar el historial (${esc(err.message)}).</b></p><button class="btn" type="button" onclick="location.reload()">Reintentar</button></div>`;
+    }
+    if (!S.me && session().token) call('GET', '/me').then((me) => { S.me = me; renderTop(); }).catch(() => {});
+    return;
+  }
   try {
-    S.data = await getMatches();
+    S.ev = page === 'g' && arg2 ? decodeURIComponent(arg2) : '';
+    S.data = await getMatches(S.ev);
     S.skew = S.data.now - Date.now();
     const s = session();
     S.me = null;
     if (s.token) {
-      try { S.me = await call('GET', '/me'); S.skew = S.me.now - Date.now(); } catch (err) { if (err.status === 401) saveSession({}); else throw err; }
+      try { S.me = await call('GET', `/me${S.ev ? `?ev=${encodeURIComponent(S.ev)}` : ''}`); S.skew = S.me.now - Date.now(); } catch (err) { if (err.status === 401) saveSession({}); else throw err; }
     }
     renderTop();
     if (page === 'g' && arg) {
@@ -64,13 +76,14 @@ async function route() {
       if (S.me && S.me.leagues.some((l) => l.code === code)) { S.code = code; $app.innerHTML = await viewGroup(code); }
       else $app.innerHTML = await viewInvite(code);
     } else {
-      $app.innerHTML = S.me ? viewHub() : viewLanding();
+      const idx = await majors.getIndex().catch(() => null);
+      $app.innerHTML = S.me ? viewHub(idx) : viewLanding(idx);
     }
   } catch (err) {
     $app.innerHTML = `<div class="state state--error"><p><b>${esc(err.message)}</b></p><button class="btn" type="button" onclick="location.reload()">Reintentar</button></div>`;
   }
 }
-window.addEventListener('hashchange', () => { S.board = null; route(); });
+window.addEventListener('hashchange', () => { S.board = null; S.stageDraft = {}; S.bracketDraft = null; S.combo = null; route(); });
 
 function renderTop() {
   const me = S.me;
@@ -143,7 +156,14 @@ function bannerHtml() {
   return (s.banner ? `<div class="notice"><span aria-hidden="true">📣</span><p>${esc(s.banner)}</p></div>` : '')
     + (s.picksOpen === false ? '<div class="notice notice--warn"><span aria-hidden="true">⏸</span><p>Los pronósticos están cerrados temporalmente por el administrador.</p></div>' : '');
 }
-function viewLanding() {
+function historyTeaser(idx) {
+  if (!idx) return '';
+  const done = idx.majors.filter((m) => m.status === 'done' && m.champion).slice(-4).reverse();
+  if (!done.length) return '';
+  return `<section class="teaser"><div class="teaser__head"><h2 class="h2">Historial de Majors</h2><a class="btn btn--sm" href="#/majors">Ver los ${idx.majors.filter((m) => m.status === 'done').length} Majors</a></div>
+      <div class="teaser__grid">${done.map((m) => `<a class="tz" href="#/majors/${esc(m.id)}"><small>${m.year} · ${majors.flag(m.country)} ${esc(m.city)}</small>${badge(m.champion)}<b>${esc(m.champion)}</b><span>${esc(m.final ? m.final.replace('-', '–') : '')} a ${esc(m.runnerup)}</span></a>`).join('')}</div></section>`;
+}
+function viewLanding(idx) {
   const ev = S.data.event || {};
   const teams = S.data.teams;
   return `${bannerHtml()}<section class="hero">
@@ -162,6 +182,7 @@ function viewLanding() {
       <li><b>Pronostica</b><span>Partidos, Pick'em de fases y cuadro. La web suma los puntos sola.</span></li>
     </ol>
     <div class="duo">${authBox()}${pointsHtml()}</div>
+    ${historyTeaser(idx)}
     ${teams.length ? `<section><h2 class="h2">${plural(teams.length, 'equipo', 'equipos')}</h2><div class="teams">${teams.map((t) => `<span class="teams__item">${badge(t)}<span>${esc(t)}</span></span>`).join('')}</div></section>` : ''}`;
 }
 function heroArt() {
@@ -177,7 +198,7 @@ function heroArt() {
 }
 
 // ---------------------------------------------------------------- inicio con cuenta
-function viewHub() {
+function viewHub(idx) {
   const me = S.me;
   const groups = me.leagues.map((l) => `<a class="group" href="#/g/${esc(l.code)}"><b>${esc(l.name)}</b><small>${plural(l.players, 'jugador', 'jugadores')} · código ${esc(l.code)}</small><span aria-hidden="true">›</span></a>`).join('');
   return `${bannerHtml()}<section class="hero hero--hub">
@@ -199,6 +220,7 @@ function viewHub() {
         <label>Código del grupo<input class="input code" name="code" maxlength="6" placeholder="ABC123" autocapitalize="characters" required></label>
         <button class="btn" type="submit">Unirme</button><p class="form__msg" role="alert"></p></form>
     </div>
+    ${historyTeaser(idx)}
     ${pointsHtml()}`;
 }
 async function viewInvite(code) {
@@ -221,16 +243,20 @@ async function viewInvite(code) {
 // ---------------------------------------------------------------- grupo
 const TABS = [['partidos', 'Partidos'], ['fases', "Pick'em de fases"], ['cuadro', 'Cuadro'], ['combinadas', 'Combinadas'], ['clasificacion', 'Clasificación'], ['jugados', 'Jugados'], ['reglas', 'Reglas']];
 async function viewGroup(code) {
-  S.board = await call('GET', `/board/${code}`);
+  S.board = await call('GET', `/board/${code}${S.ev ? `?ev=${encodeURIComponent(S.ev)}` : ''}`);
   const lg = S.me.leagues.find((l) => l.code === code);
   const mine = S.board.board.find((r) => r.nick === S.me.user.nick);
   const set = S.data.settings;
   const tabs = TABS.filter(([k]) => (k !== 'combinadas' || set.combo.enabled) && (k !== 'fases' || set.valve.enabled) && (k !== 'cuadro' || set.bracket.enabled));
   if (!tabs.some(([k]) => k === S.tab)) S.tab = 'partidos';
-  const pend = openMatches().filter((m) => !pickOf(m.id)).length;
+  if (past() && S.tab === 'partidos') S.tab = 'clasificacion';
+  const evs = (S.data.events || []).filter((e) => e.status !== 'upcoming' || e.id === S.data.current);
+  const evNav = evs.length > 1 ? `<div class="seg seg--ev">${evs.map((e) => `<a class="${e.id === S.data.ev ? 'is-on' : ''}" href="#/g/${esc(code)}${e.id === S.data.current ? '' : '/' + esc(e.id)}">${esc(e.city)} ${e.start.slice(0, 4)}${e.id === S.data.current ? '<small>actual</small>' : ''}</a>`).join('')}</div>` : '';
+  const pend = past() ? 0 : openMatches().filter((m) => !pickOf(m.id)).length;
   return `${bannerHtml()}<section class="ghead">
       <div class="ghead__main">
         <p class="kicker">${esc(S.data.event?.name || '')} · código <b class="code">${esc(code)}</b></p>
+        ${evNav}
         <h1 class="ghead__title">${esc(lg.name)}</h1>
         <p class="lead">Juegas como <b>${esc(S.me.user.nick)}</b>${mine ? ` · vas <b>${mine.pos}.º</b> con <b>${mine.points}</b> ${mine.points === 1 ? 'punto' : 'puntos'}` : ''}</p>
       </div>
@@ -240,6 +266,7 @@ async function viewGroup(code) {
         <button class="btn btn--ghost btn--sm" type="button" data-leave="${esc(code)}">Salir del grupo</button>
       </div>
     </section>
+    ${past() ? `<div class="notice"><span aria-hidden="true">🗂</span><p>Estás viendo el Pick'em del <b>${esc(S.data.event?.name || '')}</b>, que ya está cerrado. <a href="#/g/${esc(code)}">Volver al Major actual</a> · <a href="#/majors/${esc(S.data.ev)}">Ver el Major</a></p></div>` : ''}
     <nav class="tabs" role="tablist">${tabs.map(([k, l]) => `<button type="button" role="tab" class="tabs__btn ${k === S.tab ? 'is-on' : ''}" data-tab="${k}" aria-selected="${k === S.tab}">${l}${k === 'partidos' && pend ? `<span class="dot">${pend}</span>` : ''}</button>`).join('')}</nav>
     <div id="tabBody">${tabBody()}</div>`;
 }
@@ -256,12 +283,12 @@ function tabBody() {
 }
 const rerender = () => { const el = document.getElementById('tabBody'); if (el) el.innerHTML = tabBody(); };
 const pickOf = (mid) => S.me.picks.find((p) => p.mid === mid);
-const openMatches = () => S.data.matches.filter((m) => !started(m) && !isTbd(m.t1) && !isTbd(m.t2));
+const openMatches = () => (past() ? [] : S.data.matches.filter((m) => !started(m) && !isTbd(m.t1) && !isTbd(m.t2)));
 
 // ---- partidos
 function championPanel() {
   const start = S.data.start;
-  const locked = start && S.now() >= start;
+  const locked = past() || (start && S.now() >= start);
   const mine = S.me.champion;
   const champ = S.data.champion;
   const pts = S.data.settings.points.champion;
@@ -310,10 +337,10 @@ function tabStages() {
   const counts = S.data.settings.valveCounts;
   const saved = S.me.stagepicks[st.id];
   const rec = S.data.records[st.id] || {};
-  if (!st.ready && !st.locked) {
+  if (!st.ready && !st.locked && !past()) {
     return seg + `<div class="empty">El Pick'em de <b>${esc(st.name)}</b> se abre cuando se conozcan sus 16 equipos${st.id !== 's1' ? ' (al terminar la fase anterior)' : ''}.</div>`;
   }
-  if (st.locked) {
+  if (st.locked || past()) {
     const ev = saved || { picks: [], points: 0 };
     const group = (S.board.stages?.[st.id] || []).filter((x) => x.nick !== S.me.user.nick);
     const rows = Object.entries(rec).sort((a, b) => b[1].w - a[1].w || a[1].l - b[1].l || a[0].localeCompare(b[0]));
@@ -348,11 +375,11 @@ function tabStages() {
 // ---- cuadro
 const QF = ['R1M1', 'R1M2', 'R1M3', 'R1M4']; const FEED = { R2M1: ['R1M1', 'R1M2'], R2M2: ['R1M3', 'R1M4'], R3M1: ['R2M1', 'R2M2'] };
 function tabBracket() {
-  const b = S.data.bracket;
+  const b = past() ? { ...S.data.bracket, locked: true } : S.data.bracket;
   const po = S.data.matches.filter((m) => m.stage === 'po');
   const bySlot = Object.fromEntries(po.filter((m) => m.slot).map((m) => [m.slot, m]));
   const saved = S.me.bracket;
-  if (!b.ready && !b.locked) return `<div class="empty">El cuadro se abre cuando se conozcan los cruces de cuartos de final (al terminar el Stage 3).</div>`;
+  if (!b.ready && !b.locked && !past()) return `<div class="empty">El cuadro se abre cuando se conozcan los cruces de cuartos de final (al terminar el Stage 3).</div>`;
   const d = b.locked ? { ...(saved?.data || {}) } : (S.bracketDraft = S.bracketDraft || { ...(saved?.data || {}) });
   const stateOf = (slot) => saved?.picks?.find((p) => p.slot === slot);
   const opts = (slot) => (slot.startsWith('R1') ? [bySlot[slot]?.t1, bySlot[slot]?.t2] : FEED[slot].map((k) => d[k] || null));
@@ -399,7 +426,7 @@ function tabCombos() {
   const value = (base + S.combo.legs.filter((l) => l.score).length * set.exact) * (ko ? set.koMult : 1);
   const saved = mine.find((c) => c.rkey === S.combo.rkey);
   const dirty = JSON.stringify(S.combo.legs) !== JSON.stringify(saved ? saved.legs.map((l) => ({ mid: l.mid, team: l.team, score: l.score })) : []);
-  const builder = rounds.length ? `<div class="combo">
+  const builder = past() ? '' : rounds.length ? `<div class="combo">
       <div class="combo__list">${ms.map((m) => {
         const l = leg(m.id);
         return `<article class="cleg ${l ? 'is-on' : ''}"><span class="cleg__meta">${fmtDayTime(m.time)} · Bo${m.bo}</span>
@@ -415,7 +442,7 @@ function tabCombos() {
     </div>` : '<div class="empty">No hay rondas con partidos abiertos ahora mismo.</div>';
   const list = mine.length ? `<h3 class="day">Tus combinadas</h3><div class="others">${mine.map((c) => `<article class="card other is-${c.status}"><h4>${esc(roundEs(c.rkey.split('|')[1]))} <span class="pill">${c.status === 'win' ? `+${c.points}` : c.status === 'lose' ? '0' : `${c.potential} en juego`}</span></h4>
       <ul class="clist">${c.legs.map((l) => `<li class="is-${l.result}">${badge(l.team)}<span>${esc(l.team)}${l.score ? ' ' + l.score.replace('-', '–') : ''}</span><i>${l.result === 'ok' ? '✓' : l.result === 'ko' ? '✗' : '…'}</i></li>`).join('')}</ul></article>`).join('')}</div>` : '';
-  return roundSel + builder + list;
+  return (past() ? '' : roundSel) + builder + (list || (past() ? '<div class="empty">No hiciste combinadas en este Major.</div>' : ''));
 }
 
 // ---- clasificación
@@ -593,7 +620,7 @@ $app.addEventListener('submit', async (e) => {
 
 // Refresco suave cada 2 minutos (si no se está editando nada)
 setInterval(() => {
-  if (document.hidden || admin?.isOpen?.() || document.querySelector('.is-dirty') || document.activeElement?.matches('input, select, textarea')) return;
+  if (document.hidden || admin?.isOpen?.() || majors.isOpen() || document.querySelector('.is-dirty') || document.activeElement?.matches('input, select, textarea')) return;
   clearMatches(); route();
 }, 120_000);
 

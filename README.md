@@ -1,19 +1,25 @@
-# Clutch · Pick'em del PGL Major Singapore 2026
+# Clutch · Pick'em e historial de los Majors de Counter-Strike
 
-Una web de aficionados para jugar al Pick'em del Major de Counter-Strike 2 con amigos. No hay apuestas ni dinero, solo puntos.
+Una web de aficionados con dos partes. No hay apuestas ni dinero, solo puntos.
+
+1. **Pick'em** del Major que toque (ahora el PGL Major Singapore 2026) para jugar con amigos. Cuando termina un Major, el Pick'em pasa solo al siguiente. Los grupos y las cuentas se mantienen y cada Major guarda su clasificación.
+2. **Historial de Majors** (`#/majors`): todos los Majors desde DreamHack Winter 2013, con su campeón, la final, el palmarés de equipos, las fases (suizo o grupos), el cuadro y todos los partidos con sus mapas. Los Majors nuevos se añaden según se juegan.
+
+En el Pick'em:
 
 - **Partido a partido:** eliges el ganador de cada partido y, en los Bo3 y Bo5, también el resultado exacto. El pronóstico se puede cambiar hasta que empieza el partido.
 - **Pick'em de cada fase (estilo Valve):** en cada Stage suizo eliges dos equipos que acabarán 3-0, seis que pasarán con 3-1 o 3-2 y dos que caerán 0-3. Se cierra al empezar la fase.
 - **Cuadro de playoffs:** eliges los ganadores de cuartos, semifinales y la final. Se cierra al empezar los playoffs.
 - **Combinadas:** juntas de 2 a 4 partidos de una misma ronda. Solo puntúan si aciertas todos.
 - **Campeón del Major:** lo eliges antes del primer partido.
-- **Grupos de amigos:** cada grupo tiene un código de 6 letras y un enlace de invitación. Tus pronósticos cuentan en todos tus grupos.
+- **Grupos de amigos:** cada grupo tiene un código de 6 letras y un enlace de invitación. Tus pronósticos cuentan en todos tus grupos. Arriba del grupo se puede cambiar de Major para ver la clasificación y los pronósticos de los anteriores.
 - **Panel de administración** (`#/admin`):
   - corregir resultados, equipos y horas, ocultar partidos o añadirlos a mano;
   - poner los equipos de cada fase;
   - gestionar cuentas (PIN, apodo, bloqueos) y grupos;
   - ajustar puntos;
   - consultar el registro de actividad;
+  - ver qué Majors se han descargado, poner el MVP o una nota a cada uno y elegir a mano el Major del Pick'em;
   - cambiar las reglas y puntos;
   - descargar una copia de seguridad.
 
@@ -22,18 +28,18 @@ Una web de aficionados para jugar al Pick'em del Major de Counter-Strike 2 con a
 | Pieza | Dónde | Qué hace |
 |---|---|---|
 | Web (`index.html`, `css/`, `js/`, `img/`) | GitHub Pages | La página que ven los jugadores |
-| `scripts/update_major.py` + `.github/workflows/update.yml` | GitHub Actions, cada 10 min | Lee las páginas del Major en Liquipedia y escribe `data/major.json` |
+| `scripts/update_majors.py` + `.github/workflows/update.yml` | GitHub Actions, cada 10 min | Lee los Majors en Liquipedia y escribe `data/majors/index.json` y un `data/majors/<id>.json` por Major |
 | `worker/worker.js` | Cloudflare Workers + base D1 | Cuentas, grupos, pronósticos, puntos y panel de admin |
 
-El Worker lee `data/major.json` desde la propia web y le aplica las correcciones que hagas en el panel. Todas sus tablas empiezan por `cs_` y se crean solas la primera vez que se usa.
+El historial lo lee la web directamente de `data/majors/`. El Worker lee de ahí el Major del Pick'em y le aplica las correcciones que hagas en el panel. Todas sus tablas empiezan por `cs_` y se crean solas la primera vez que se usa. Si vienes de la primera versión, el Worker rehace solo las tablas de pronósticos: las cuentas y los grupos se conservan.
 
 ## Puesta en marcha (una sola vez)
 
 ### 1. Repositorio y GitHub Pages
 1. Crea un repositorio nuevo en GitHub (por ejemplo `clutch`) y sube todos estos archivos.
 2. Ve a **Settings → Pages**. En *Source* elige **Deploy from a branch**, luego la rama `main` y la carpeta `/ (root)`. La web quedará en `https://TU-USUARIO.github.io/clutch/`.
-3. Ve a **Settings → Actions → General → Workflow permissions** y marca **Read and write permissions**, para que la acción pueda guardar `data/major.json`.
-4. Ve a la pestaña **Actions**, entra en «Actualizar partidos del Major» y pulsa **Run workflow** para la primera descarga. A partir de ahí se ejecuta sola cada 10 minutos.
+3. Ve a **Settings → Actions → General → Workflow permissions** y marca **Read and write permissions**, para que la acción pueda guardar la carpeta `data/majors/`.
+4. Ve a la pestaña **Actions**, entra en «Actualizar Majors» y pulsa **Run workflow** para la primera descarga. A partir de ahí se ejecuta sola cada 10 minutos. El historial completo tarda alrededor de una hora en llenarse, porque cada ejecución descarga como mucho 5 Majors antiguos para no cargar a Liquipedia.
 
 ### 2. Base de datos y Worker en Cloudflare
 1. En **Storage & Databases → D1** crea una base de datos, por ejemplo `clutch`.
@@ -53,6 +59,14 @@ export const WORKER_URL = 'https://clutch-pickem.TU-SUBDOMINIO.workers.dev';
 
 Sube el cambio. Después entra en la web, crea tu cuenta con el apodo que pusiste en `ADMINS` y verás el botón **Admin** arriba.
 
+## Majors: historial y Major del Pick'em
+
+- La lista está al principio de `scripts/update_majors.py` (`MAJORS`): los 24 Majors desde 2013, Singapur 2026 y los ya anunciados (Buenos Aires y Shanghái 2027).
+- **Para añadir un Major nuevo**, copia una línea de la lista y cambia el id, el nombre, la ciudad, las fechas y el texto de búsqueda. El script busca solo su página en Liquipedia. Si la encuentra mal, escribe la página a mano en `page`.
+- Cada Major antiguo se descarga una vez y queda guardado. Si Liquipedia no tiene sus partidos, la ficha se muestra igualmente con el campeón y la final de la lista.
+- **El Major del Pick'em** cambia solo una semana después de que termine el anterior. Si quieres adelantarlo o retrasarlo, elígelo en **Admin → Ajustes → Major del Pick'em**.
+- En **Admin → Majors** ves qué se ha descargado y los avisos de cada Major, y puedes ponerle a cada uno el MVP y una nota.
+
 ## Si Liquipedia no tiene algo
 
 Al principio Liquipedia solo tiene los equipos y cruces que ya se conocen, y las páginas de cada fase aparecen poco a poco. Mientras falte algo, puedes resolverlo desde el panel:
@@ -65,15 +79,15 @@ Si una página de Liquipedia falla, el script conserva los últimos datos buenos
 
 ## Uso de Liquipedia
 
-- El script hace **una sola petición** cada 10 minutos (todas las páginas a la vez, con gzip) e identifica la web con el User-Agent `ClutchPickem/1.0 (fan site; https://github.com/TU-USUARIO/clutch)`. Es lo que pide la política de uso de su API.
+- Para el Major del Pick'em, el script hace **una o dos consultas** cada 10 minutos (con gzip) e identifica la web con el User-Agent `ClutchPickem/1.1 (fan site; https://github.com/TU-USUARIO/clutch)`. Es lo que pide la política de uso de su API.
 - Los datos son de Liquipedia y tienen licencia CC-BY-SA 3.0. El pie de página lo indica.
-- Si el Major cambia de nombre de página, edita `EVENT` y `STAGES` al principio de `scripts/update_major.py`.
+- Para los Majors antiguos hace falta una búsqueda y dos lecturas por Major, una sola vez. Entre consultas espera 2,5 segundos.
 
 ## Probar en local
 
 ```bash
 python3 -m http.server 8000          # la web en http://localhost:8000
-python3 scripts/update_major.py      # descarga data/major.json (necesita internet)
+python3 scripts/update_majors.py     # descarga data/majors/ (necesita internet)
 ```
 
 El Worker acepta peticiones de `http://localhost:8000` además de `SITE_URL`.

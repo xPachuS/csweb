@@ -1,4 +1,7 @@
-import { WORKER_URL } from './config.js';
+import { WORKER_URL as RAW_URL } from './config.js';
+
+// Admite la dirección con o sin «https://» y con o sin barra final.
+const WORKER_URL = (/^https?:\/\//i.test(RAW_URL.trim()) ? RAW_URL.trim() : `https://${RAW_URL.trim()}`).replace(/\/+$/, '');
 
 export class ApiError extends Error { constructor(status, msg) { super(msg); this.status = status; } }
 
@@ -32,13 +35,14 @@ export async function call(method, path, body) {
   return data;
 }
 
-let matchesCache = null;
-/** Partidos, fases y reglas (con las correcciones del administrador). Se guarda 30 s. */
-export async function getMatches(force = false) {
-  if (!force && matchesCache && Date.now() - matchesCache.t < 30_000) return matchesCache.data;
-  const data = await call('GET', '/matches');
+const matchesCache = new Map();
+/** Partidos, fases y reglas de un Major (el del Pick'em si no se indica), con las correcciones del administrador. Se guarda 30 s. */
+export async function getMatches(ev = '', force = false) {
+  const c = matchesCache.get(ev);
+  if (!force && c && Date.now() - c.t < 30_000) return c.data;
+  const data = await call('GET', `/matches${ev ? `?ev=${encodeURIComponent(ev)}` : ''}`);
   for (const m of data.matches) m.time = m.date ? new Date(m.date) : null;
-  matchesCache = { t: Date.now(), data };
+  matchesCache.set(ev, { t: Date.now(), data });
   return data;
 }
-export const clearMatches = () => { matchesCache = null; };
+export const clearMatches = () => { matchesCache.clear(); };
