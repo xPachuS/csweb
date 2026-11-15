@@ -1,0 +1,382 @@
+{
+ "event": {
+  "id": "2025-budapest",
+  "name": "StarLadder Budapest Major 2025",
+  "page": "StarLadder/2025/Major",
+  "city": "Budapest",
+  "country": "HU"
+ },
+ "source": "Liquipedia (CC-BY-SA 3.0)",
+ "stages": [
+  {
+   "id": "s1",
+   "name": "Fase suiza",
+   "page": "StarLadder/2025/Major",
+   "type": "swiss",
+   "teams": [
+    "Team Goat",
+    "Team Vaco"
+   ],
+   "matches": 1
+  },
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "StarLadder/2025/Major/Playoffs",
+   "type": "bracket",
+   "teams": [
+    "FURIA",
+    "FaZe Clan",
+    "MOUZ",
+    "Natus Vincere",
+    "Team Falcons",
+    "Team Spirit",
+    "The MongolZ",
+    "Vit"
+   ],
+   "matches": 7
+  },
+  {
+   "id": "s2",
+   "name": "Stage 1",
+   "page": "StarLadder/2025/Major/Stage_1",
+   "type": "swiss",
+   "teams": [
+    "B8",
+    "FaZe Clan",
+    "Fluxo",
+    "Fnc",
+    "Fq",
+    "Gl",
+    "Huns",
+    "Imp",
+    "Legacy",
+    "Lvg",
+    "M80",
+    "NRG",
+    "Ninjas in Pyjamas",
+    "PARIVISION",
+    "RED Canids",
+    "Rare Atom"
+   ],
+   "matches": 0
+  },
+  {
+   "id": "s3",
+   "name": "Stage 2",
+   "page": "StarLadder/2025/Major/Stage_2",
+   "type": "swiss",
+   "teams": [
+    "3DMAX",
+    "Astralis",
+    "Aurora",
+    "B8",
+    "FaZe Clan",
+    "Fnc",
+    "Fq",
+    "Imp",
+    "M80",
+    "MIBR",
+    "Natus Vincere",
+    "Ninjas in Pyjamas",
+    "PARIVISION",
+    "Passion UA",
+    "TYLOO",
+    "Tl"
+   ],
+   "matches": 0
+  },
+  {
+   "id": "s4",
+   "name": "Stage 3",
+   "page": "StarLadder/2025/Major/Stage_3",
+   "type": "swiss",
+   "teams": [],
+   "matches": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "po-gxunBmdnImQuarterfinals-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2025-12-11T16:00:00Z",
+   "t1": "Team Spirit",
+   "t2": "Team Falcons",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 4,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1
+    },
+    {
+     "map": "Ancient",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-gxunBmdnImQuarterfinals-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2025-12-11T19:10:00Z",
+   "t1": "The MongolZ",
+   "t2": "Vit",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Dust II",
+     "s1": 4,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Nuke",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-gxunBmdnImQuarterfinals-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2025-12-12T16:00:00Z",
+   "t1": "MOUZ",
+   "t2": "FaZe Clan",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 11,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 2,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-gxunBmdnImQuarterfinals-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2025-12-12T19:00:00Z",
+   "t1": "Natus Vincere",
+   "t2": "FURIA",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Train",
+     "s1": 13,
+     "s2": 3,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "po-gxunBmdnImQuarterfinals-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2025-12-13T16:00:00Z",
+   "t1": "Team Spirit",
+   "t2": "Vit",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 17,
+     "s2": 19,
+     "winner": 2
+    },
+    {
+     "map": "Dust II",
+     "s1": 8,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Overpass",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-gxunBmdnImQuarterfinals-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2025-12-13T20:00:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Natus Vincere",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 8,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-ed5oBCAgcV-M1",
+   "stage": "s1",
+   "round": "Ronda 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2025-12-14T15:00:00Z",
+   "t1": "Team Goat",
+   "t2": "Team Vaco",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Contact",
+     "s1": 13,
+     "s2": 8,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "po-gxunBmdnImQuarterfinals-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2025-12-14T17:00:00Z",
+   "t1": "Vit",
+   "t2": "FaZe Clan",
+   "s1": 3,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 6,
+     "s2": 13,
+     "winner": 2
+    },
+    {
+     "map": "Dust II",
+     "s1": 13,
+     "s2": 3,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1
+    },
+    {
+     "map": "Overpass",
+     "s1": 13,
+     "s2": 2,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  }
+ ],
+ "checked": "2026-11-15T01:55:56Z",
+ "errors": []
+}

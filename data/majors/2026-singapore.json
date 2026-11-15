@@ -7,10 +7,189 @@
   "country": "SG"
  },
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "stages": [],
- "matches": [],
- "checked": "2026-11-15T01:39:12Z",
- "errors": [
-  "Todavía no se ha descargado nada de Liquipedia."
- ]
+ "stages": [
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "PGL/2026/Singapore/Playoffs",
+   "type": "bracket",
+   "teams": [],
+   "matches": 7
+  },
+  {
+   "id": "s1",
+   "name": "Stage 1",
+   "page": "PGL/2026/Singapore/Stage_1",
+   "type": "swiss",
+   "teams": [
+    "100T",
+    "9Z",
+    "Chinggis",
+    "Dendele",
+    "Ef",
+    "FaZe Clan",
+    "Fq",
+    "Gosh",
+    "HEROIC",
+    "Imp",
+    "Lvg",
+    "M80",
+    "Ninjas in Pyjamas",
+    "Pvision",
+    "Tl",
+    "Wildcard"
+   ],
+   "matches": 0
+  },
+  {
+   "id": "s2",
+   "name": "Stage 2",
+   "page": "PGL/2026/Singapore/Stage_2",
+   "type": "swiss",
+   "teams": [
+    "1W",
+    "Astralis",
+    "Fut",
+    "G2 Esports",
+    "MIBR",
+    "Natus Vincere",
+    "Nemiga",
+    "The MongolZ"
+   ],
+   "matches": 0
+  },
+  {
+   "id": "s3",
+   "name": "Stage 3",
+   "page": "PGL/2026/Singapore/Stage_3",
+   "type": "swiss",
+   "teams": [
+    "Aurora",
+    "Bb Team",
+    "FURIA",
+    "Legacy",
+    "MOUZ",
+    "Team Falcons",
+    "Team Spirit",
+    "Vit"
+   ],
+   "matches": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "po-2rF0kBRwaCQuarterfinals-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": null,
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": []
+  },
+  {
+   "id": "po-2rF0kBRwaCQuarterfinals-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": null,
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": []
+  },
+  {
+   "id": "po-2rF0kBRwaCQuarterfinals-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": null,
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": []
+  },
+  {
+   "id": "po-2rF0kBRwaCQuarterfinals-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": null,
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": []
+  },
+  {
+   "id": "po-2rF0kBRwaCQuarterfinals-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": null,
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": []
+  },
+  {
+   "id": "po-2rF0kBRwaCQuarterfinals-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": null,
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": []
+  },
+  {
+   "id": "po-2rF0kBRwaCQuarterfinals-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": null,
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": []
+  }
+ ],
+ "checked": "2026-11-15T01:55:56Z",
+ "errors": []
 }
