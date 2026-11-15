@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T10:45:57Z",
- "calls": 21,
+ "checked": "2026-11-15T10:54:35Z",
+ "calls": 15,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -29,7 +29,9 @@
    "checked": "2026-11-15T10:36:33Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2014-katowice",
@@ -56,7 +58,9 @@
    "checked": "2026-11-15T10:29:39Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2014-cologne",
@@ -83,7 +87,9 @@
    "checked": "2026-11-15T10:29:39Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2014-jonkoping",
@@ -110,7 +116,9 @@
    "checked": "2026-11-15T10:29:39Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2015-katowice",
@@ -137,7 +145,9 @@
    "checked": "2026-11-15T10:29:39Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2015-cologne",
@@ -164,7 +174,9 @@
    "checked": "2026-11-15T10:29:39Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2015-cluj",
@@ -191,7 +203,9 @@
    "checked": "2026-11-15T10:29:39Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2016-columbus",
@@ -216,8 +230,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:45:57Z",
+   "error": "",
+   "tries": 0,
    "parser": 4,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2016-cologne",
@@ -242,8 +259,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:45:57Z",
+   "error": "",
+   "tries": 0,
    "parser": 4,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2017-atlanta",
@@ -268,8 +288,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:45:57Z",
+   "error": "",
+   "tries": 0,
    "parser": 4,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2017-krakow",
@@ -296,7 +319,9 @@
    "checked": "2026-11-15T10:36:33Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2018-boston",
@@ -313,17 +338,18 @@
    "runnerup": "FaZe Clan",
    "final": "2-1",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 1000000,
+   "venue": "[http://www.eleague.com/news/state-of-the-art-tournament-facility G-FUEL ELEAGUE Arena]",
+   "teams": 23,
+   "page": "ELEAGUE/2018/Major",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "ELEAGUE Major: Boston 2018: no encuentro su página en Liquipedia (busqué «ELEAGUE Major Boston 2018»)",
-   "tries": 1,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:54:35Z",
+   "empty": [],
+   "tries_empty": 0,
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2018-london",
@@ -340,17 +366,18 @@
    "runnerup": "Natus Vincere",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 1000000,
+   "venue": "SSE Arena, Wembley",
+   "teams": 24,
+   "page": "FACEIT/2018/Major",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "FACEIT Major: London 2018: HTTP Error 429: Too Many Requests",
-   "tries": 1,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:54:35Z",
+   "empty": [],
+   "tries_empty": 0,
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2019-katowice",
@@ -375,8 +402,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:45:57Z",
+   "error": "",
+   "tries": 0,
    "parser": 4,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2019-berlin",
@@ -403,7 +433,9 @@
    "checked": "2026-11-15T10:36:33Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2021-stockholm",
@@ -430,7 +462,9 @@
    "checked": "2026-11-15T10:36:33Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2022-antwerp",
@@ -457,7 +491,9 @@
    "checked": "2026-11-15T10:36:33Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2022-rio",
@@ -484,7 +520,9 @@
    "checked": "2026-11-15T10:36:33Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2023-paris",
@@ -507,8 +545,10 @@
    "page": "BLAST/Major/2023/Paris",
    "pickem": false,
    "loaded": true,
-   "frozen": false,
-   "checked": "2026-11-15T10:45:57Z",
+   "frozen": true,
+   "checked": "2026-11-15T10:54:35Z",
+   "empty": [],
+   "tries_empty": 0,
    "parser": 4,
    "tries": 0
   },
@@ -533,8 +573,10 @@
    "page": "PGL/2024/Copenhagen",
    "pickem": false,
    "loaded": true,
-   "frozen": false,
-   "checked": "2026-11-15T10:45:57Z",
+   "frozen": true,
+   "checked": "2026-11-15T10:54:35Z",
+   "empty": [],
+   "tries_empty": 0,
    "parser": 4,
    "tries": 0
   },
@@ -563,7 +605,9 @@
    "checked": "2026-11-15T10:23:13Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2025-austin",
@@ -590,7 +634,9 @@
    "checked": "2026-11-15T10:23:13Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2025-budapest",
@@ -617,7 +663,9 @@
    "checked": "2026-11-15T10:23:13Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2026-cologne",
@@ -644,7 +692,9 @@
    "checked": "2026-11-15T10:23:13Z",
    "error": "",
    "tries": 0,
-   "parser": 4
+   "parser": 4,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2026-singapore",
@@ -668,7 +718,9 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T10:45:57Z",
+   "checked": "2026-11-15T10:54:35Z",
+   "empty": [],
+   "tries_empty": 0,
    "parser": 4,
    "tries": 0
   },
@@ -697,7 +749,9 @@
    "checked": null,
    "error": "",
    "tries": 0,
-   "parser": null
+   "parser": null,
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2027-shanghai",
@@ -724,7 +778,9 @@
    "checked": null,
    "error": "",
    "tries": 0,
-   "parser": null
+   "parser": null,
+   "empty": [],
+   "tries_empty": 0
   }
  ],
  "errors": []

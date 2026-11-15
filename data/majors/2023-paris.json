@@ -64,8 +64,17 @@
    "name": "Champions Stage",
    "page": "BLAST/Major/2023/Paris/Champions_Stage",
    "type": "bracket",
-   "teams": [],
-   "matches": 0
+   "teams": [
+    "Apeks",
+    "FaZe Clan",
+    "GamerLegion",
+    "HEROIC",
+    "Into The Breach",
+    "Monte",
+    "Team Liquid",
+    "Vitality"
+   ],
+   "matches": 7
   }
  ],
  "matches": [
@@ -2716,6 +2725,356 @@
     }
    ],
    "hltv": 2363892
+  },
+  {
+   "id": "po-z8GFN6kpnw-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2023-05-18T13:00:00Z",
+   "t1": "HEROIC",
+   "t2": "FaZe Clan",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      9
+     ],
+     "first": "ct",
+     "hltv": 156933
+    },
+    {
+     "map": "Overpass",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      7,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 156935
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      3
+     ],
+     "first": "ct",
+     "hltv": 156936
+    }
+   ],
+   "hltv": 2364286
+  },
+  {
+   "id": "po-z8GFN6kpnw-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2023-05-18T17:15:00Z",
+   "t1": "Into The Breach",
+   "t2": "Vitality",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      9,
+      2,
+      10,
+      6
+     ],
+     "first": "t",
+     "hltv": 156937
+    },
+    {
+     "map": "Anubis",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 156938
+    }
+   ],
+   "hltv": 2364289
+  },
+  {
+   "id": "po-z8GFN6kpnw-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2023-05-19T13:00:00Z",
+   "t1": "GamerLegion",
+   "t2": "Monte",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      8,
+      2
+     ],
+     "first": "ct",
+     "hltv": 156946
+    },
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1,
+     "h": [
+      12,
+      4,
+      0,
+      3
+     ],
+     "first": "t",
+     "hltv": 156947
+    }
+   ],
+   "hltv": 2364287
+  },
+  {
+   "id": "po-z8GFN6kpnw-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2023-05-19T15:55:00Z",
+   "t1": "Team Liquid",
+   "t2": "Apeks",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 156948
+    },
+    {
+     "map": "Overpass",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      7,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 156950
+    }
+   ],
+   "hltv": 2364288
+  },
+  {
+   "id": "po-z8GFN6kpnw-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2023-05-20T13:00:00Z",
+   "t1": "HEROIC",
+   "t2": "GamerLegion",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      11,
+      5,
+      10,
+      3
+     ],
+     "first": "ct",
+     "hltv": 156980
+    },
+    {
+     "map": "Inferno",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      8,
+      7,
+      9
+     ],
+     "first": "t",
+     "hltv": 156986
+    },
+    {
+     "map": "Mirage",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 156991
+    }
+   ],
+   "hltv": 2364290
+  },
+  {
+   "id": "po-z8GFN6kpnw-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2023-05-20T17:35:00Z",
+   "t1": "Apeks",
+   "t2": "Vitality",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      7,
+      7,
+      8,
+      8
+     ],
+     "first": "t",
+     "hltv": 156992
+    },
+    {
+     "map": "Vertigo",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      7,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 156993
+    }
+   ],
+   "hltv": 2364291
+  },
+  {
+   "id": "po-z8GFN6kpnw-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2023-05-21T15:00:00Z",
+   "t1": "GamerLegion",
+   "t2": "Vitality",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      2,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 157010
+    },
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      10,
+      5,
+      11
+     ],
+     "first": "ct",
+     "hltv": 157014
+    }
+   ],
+   "hltv": 2364292
   }
  ],
  "rosters": {
@@ -3440,6 +3799,6 @@
    }
   }
  },
- "checked": "2026-11-15T10:45:57Z",
+ "checked": "2026-11-15T10:54:35Z",
  "errors": []
 }

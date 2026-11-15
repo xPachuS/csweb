@@ -63,8 +63,17 @@
    "name": "Playoff Stage",
    "page": "PGL/2024/Copenhagen/Playoff_Stage",
    "type": "bracket",
-   "teams": [],
-   "matches": 0
+   "teams": [
+    "Cloud9",
+    "Eternal Fire",
+    "FaZe Clan",
+    "G2 Esports",
+    "MOUZ",
+    "Natus Vincere",
+    "Team Spirit",
+    "Vitality"
+   ],
+   "matches": 7
   }
  ],
  "matches": [
@@ -2785,6 +2794,400 @@
     }
    ],
    "hltv": 2370660
+  },
+  {
+   "id": "po-zNMqliWfdo-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2024-03-28T16:00:00Z",
+   "t1": "Vitality",
+   "t2": "Cloud9",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      7,
+      6,
+      6,
+      2
+     ],
+     "first": "ct",
+     "hltv": 172556
+    },
+    {
+     "map": "Anubis",
+     "s1": 13,
+     "s2": 2,
+     "winner": 1,
+     "h": [
+      10,
+      3,
+      0,
+      2
+     ],
+     "first": "t",
+     "hltv": 172562
+    }
+   ],
+   "hltv": 2370721
+  },
+  {
+   "id": "po-zNMqliWfdo-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2024-03-28T18:55:00Z",
+   "t1": "Team Spirit",
+   "t2": "FaZe Clan",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 7,
+     "s2": 13,
+     "winner": 2,
+     "h": [
+      4,
+      3,
+      5,
+      8
+     ],
+     "first": "t",
+     "hltv": 172573
+    },
+    {
+     "map": "Nuke",
+     "s1": 19,
+     "s2": 16,
+     "winner": 1,
+     "h": [
+      4,
+      8,
+      4,
+      8
+     ],
+     "ot": [
+      7,
+      4
+     ],
+     "first": "ct",
+     "hltv": 172577
+    },
+    {
+     "map": "Vertigo",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      8,
+      4,
+      8
+     ],
+     "ot": [
+      2,
+      4
+     ],
+     "first": "t",
+     "hltv": 172583
+    }
+   ],
+   "hltv": 2370722
+  },
+  {
+   "id": "po-zNMqliWfdo-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2024-03-29T16:00:00Z",
+   "t1": "Eternal Fire",
+   "t2": "Natus Vincere",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      9,
+      3,
+      9,
+      3
+     ],
+     "ot": [
+      1,
+      4
+     ],
+     "first": "ct",
+     "hltv": 172603
+    },
+    {
+     "map": "Inferno",
+     "s1": 9,
+     "s2": 13,
+     "winner": 2,
+     "h": [
+      6,
+      3,
+      7,
+      6
+     ],
+     "first": "t",
+     "hltv": 172609
+    }
+   ],
+   "hltv": 2370723
+  },
+  {
+   "id": "po-zNMqliWfdo-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2024-03-29T19:20:00Z",
+   "t1": "G2 Esports",
+   "t2": "MOUZ",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      8,
+      5,
+      5,
+      4
+     ],
+     "first": "t",
+     "hltv": 172612
+    },
+    {
+     "map": "Vertigo",
+     "s1": 13,
+     "s2": 6,
+     "winner": 1,
+     "h": [
+      6,
+      7,
+      5,
+      1
+     ],
+     "first": "ct",
+     "hltv": 172615
+    }
+   ],
+   "hltv": 2370724
+  },
+  {
+   "id": "po-zNMqliWfdo-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2024-03-30T16:00:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Vitality",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      9,
+      4,
+      4,
+      3
+     ],
+     "first": "t",
+     "hltv": 172626
+    },
+    {
+     "map": "Vertigo",
+     "s1": 5,
+     "s2": 13,
+     "winner": 2,
+     "h": [
+      4,
+      1,
+      11,
+      2
+     ],
+     "first": "ct",
+     "hltv": 172627
+    },
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      7,
+      6,
+      3,
+      5
+     ],
+     "first": "t",
+     "hltv": 172628
+    }
+   ],
+   "hltv": 2370725
+  },
+  {
+   "id": "po-zNMqliWfdo-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2024-03-30T19:50:00Z",
+   "t1": "Natus Vincere",
+   "t2": "G2 Esports",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Anubis",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      8,
+      4,
+      8,
+      4
+     ],
+     "ot": [
+      4,
+      1
+     ],
+     "first": "t",
+     "hltv": 172629
+    },
+    {
+     "map": "Nuke",
+     "s1": 7,
+     "s2": 13,
+     "winner": 2,
+     "h": [
+      3,
+      4,
+      4,
+      9
+     ],
+     "first": "t",
+     "hltv": 172631
+    },
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      5,
+      8,
+      4,
+      7
+     ],
+     "first": "ct",
+     "hltv": 172632
+    }
+   ],
+   "hltv": 2370726
+  },
+  {
+   "id": "po-zNMqliWfdo-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2024-03-31T18:00:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Natus Vincere",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 9,
+     "s2": 13,
+     "winner": 2,
+     "h": [
+      5,
+      4,
+      6,
+      7
+     ],
+     "first": "t",
+     "hltv": 172645
+    },
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 2,
+     "winner": 1,
+     "h": [
+      3,
+      10,
+      2,
+      0
+     ],
+     "first": "ct",
+     "hltv": 172646
+    },
+    {
+     "map": "Inferno",
+     "s1": 3,
+     "s2": 13,
+     "winner": 2,
+     "h": [
+      3,
+      0,
+      4,
+      9
+     ],
+     "first": "t",
+     "hltv": 172647
+    }
+   ],
+   "hltv": 2370727
   }
  ],
  "rosters": {
@@ -3517,6 +3920,6 @@
    }
   }
  },
- "checked": "2026-11-15T10:45:57Z",
+ "checked": "2026-11-15T10:54:35Z",
  "errors": []
 }

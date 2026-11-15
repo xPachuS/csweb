@@ -235,6 +235,10 @@
    "logo": "img/teams/faze-clan.png",
    "dark": "img/teams/faze-clan-dark.png"
   },
+  "Flash Gaming": {
+   "tpl": "flash gaming",
+   "logo": "img/teams/flash-gaming.png"
+  },
   "FlipSid3 Tactics": {
    "tpl": "f3",
    "logo": "img/teams/flipsid3-tactics.png",
@@ -417,6 +421,10 @@
    "tpl": "metizport",
    "logo": "img/teams/metizport.png"
   },
+  "Misfits Gaming": {
+   "tpl": "misfits",
+   "logo": "img/teams/misfits.png"
+  },
   "Monte": {
    "tpl": "monte",
    "logo": "img/teams/monte.png"
@@ -497,6 +505,10 @@
    "tpl": "poland",
    "logo": "img/teams/poland.png"
   },
+  "Quantum Bellator Fire": {
+   "tpl": "qbf",
+   "logo": "img/teams/qbf.png"
+  },
   "RED Canids": {
    "logo": "img/teams/red-canids.png",
    "tpl": "red canids"
@@ -516,6 +528,10 @@
   "Renegades": {
    "tpl": "rng",
    "logo": "img/teams/renegades.png"
+  },
+  "Rogue": {
+   "tpl": "rogue",
+   "logo": "img/teams/rogue.png"
   },
   "Rooster": {
    "tpl": "rooster",
@@ -542,6 +558,11 @@
   "Sharks Esports": {
    "tpl": "sharks esports",
    "logo": "img/teams/sharks-esports.png"
+  },
+  "Space Soldiers": {
+   "tpl": "ss",
+   "logo": "img/teams/ss.png",
+   "dark": "img/teams/ss-dark.png"
   },
   "Splyce": {
    "tpl": "splyce",
@@ -626,7 +647,7 @@
   },
   "Team Thorin": {
    "tpl": "team thorin",
-   "tries": 2
+   "tries": 3
   },
   "Team Usa Blast": {
    "tpl": "team usa blast",
@@ -659,7 +680,7 @@
   },
   "Team lurppis": {
    "tpl": "team lurppis",
-   "tries": 2
+   "tries": 3
   },
   "The MongolZ": {
    "tpl": "mongolz",
@@ -791,6 +812,7 @@
   "lc": "London Conspiracy",
   "lg": "Luminosity Gaming",
   "lgb": "LGB eSports",
+  "misfits": "Misfits Gaming",
   "monte.ua": "Monte",
   "movistar": "Movistar Riders",
   "mystik": "Clan-Mystik",
@@ -801,6 +823,7 @@
   "penta": "PENTA Sports",
   "pkd": "Planetkey Dynamics",
   "pvision": "PARIVISION",
+  "qbf": "Quantum Bellator Fire",
   "reason": "Reason Gaming",
   "recursive": "Recursive eSports",
   "riders": "Movistar Riders",
@@ -808,6 +831,7 @@
   "sharks": "DENDELE CS",
   "sharks esports": "DENDELE CS",
   "sinners": "SINNERS Esports",
+  "ss": "Space Soldiers",
   "syman": "K23",
   "talon": "TALON",
   "team bye (showmatch team)": "Team BYE",

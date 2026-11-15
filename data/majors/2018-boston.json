@@ -1,0 +1,4939 @@
+{
+ "event": {
+  "id": "2018-boston",
+  "name": "ELEAGUE Major: Boston 2018",
+  "page": "ELEAGUE/2018/Major",
+  "city": "Boston",
+  "country": "US"
+ },
+ "source": "Liquipedia (CC-BY-SA 3.0)",
+ "stages": [
+  {
+   "id": "s1",
+   "name": "Challengers Stage",
+   "page": "ELEAGUE/2018/Major/Challengers_Stage",
+   "type": "swiss",
+   "teams": [
+    "AVANGAR",
+    "Cloud9",
+    "FaZe Clan",
+    "Flash Gaming",
+    "FlipSid3 Tactics",
+    "G2 Esports",
+    "MOUZ",
+    "Misfits Gaming",
+    "Natus Vincere",
+    "Quantum Bellator Fire",
+    "Renegades",
+    "Space Soldiers",
+    "Sprout",
+    "Team EnVyUs",
+    "Team Liquid",
+    "Vega Squadron"
+   ],
+   "matches": 33
+  },
+  {
+   "id": "b1",
+   "name": "Playoffs",
+   "page": "ELEAGUE/2018/Major/Challengers_Stage",
+   "type": "bracket",
+   "teams": [
+    "AVANGAR",
+    "Renegades",
+    "Team Liquid"
+   ],
+   "matches": 4
+  },
+  {
+   "id": "s2",
+   "name": "Group Stage",
+   "page": "ELEAGUE/2018/Major/Group_Stage",
+   "type": "swiss",
+   "teams": [
+    "Astralis",
+    "BIG",
+    "Cloud9",
+    "FaZe Clan",
+    "Fnatic",
+    "Fnc",
+    "G2 Esports",
+    "Gambit Esports",
+    "MOUZ",
+    "Natus Vincere",
+    "North",
+    "Quantum Bellator Fire",
+    "SK Gaming",
+    "Space Soldiers",
+    "Team Liquid",
+    "Vega Squadron",
+    "Virtus.pro"
+   ],
+   "matches": 33
+  },
+  {
+   "id": "s3",
+   "name": "Legends Stage",
+   "page": "ELEAGUE/2018/Major/Legends_Stage",
+   "type": "swiss",
+   "teams": [
+    "Astralis",
+    "BIG",
+    "Cloud9",
+    "FaZe Clan",
+    "Fnatic",
+    "Fnc",
+    "G2 Esports",
+    "Gambit Esports",
+    "MOUZ",
+    "Natus Vincere",
+    "North",
+    "Quantum Bellator Fire",
+    "SK Gaming",
+    "Space Soldiers",
+    "Team Liquid",
+    "Vega Squadron",
+    "Virtus.pro"
+   ],
+   "matches": 33
+  },
+  {
+   "id": "b2",
+   "name": "Champions Stage",
+   "page": "ELEAGUE/2018/Major/Champions_Stage",
+   "type": "bracket",
+   "teams": [
+    "Cloud9",
+    "FaZe Clan",
+    "Fnc",
+    "G2 Esports",
+    "MOUZ",
+    "Natus Vincere",
+    "Quantum Bellator Fire",
+    "SK Gaming"
+   ],
+   "matches": 7
+  },
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "ELEAGUE/2018/Major/Playoffs",
+   "type": "bracket",
+   "teams": [
+    "Cloud9",
+    "FaZe Clan",
+    "Fnc",
+    "G2 Esports",
+    "MOUZ",
+    "Natus Vincere",
+    "Quantum Bellator Fire",
+    "SK Gaming"
+   ],
+   "matches": 7
+  }
+ ],
+ "matches": [
+  {
+   "id": "s1-N35LF8HKAK-M1",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-12T15:25:00Z",
+   "t1": "Vega Squadron",
+   "t2": "Renegades",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      9
+     ],
+     "first": "ct",
+     "hltv": 59706
+    }
+   ],
+   "hltv": 2318522
+  },
+  {
+   "id": "s1-N35LF8HKAK-M2",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-12T16:40:00Z",
+   "t1": "MOUZ",
+   "t2": "AVANGAR",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      4,
+      8
+     ],
+     "first": "t",
+     "hltv": 59723
+    }
+   ],
+   "hltv": 2318523
+  },
+  {
+   "id": "s1-N35LF8HKAK-M3",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-12T17:55:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Team Liquid",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      7,
+      7
+     ],
+     "first": "t",
+     "hltv": 59730
+    }
+   ],
+   "hltv": 2318524
+  },
+  {
+   "id": "s1-N35LF8HKAK-M4",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-12T19:35:00Z",
+   "t1": "FlipSid3 Tactics",
+   "t2": "Misfits Gaming",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      1,
+      14,
+      2
+     ],
+     "first": "ct",
+     "hltv": 59731
+    }
+   ],
+   "hltv": 2318525
+  },
+  {
+   "id": "s1-N35LF8HKAK-M5",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-12T20:35:00Z",
+   "t1": "Sprout",
+   "t2": "Space Soldiers",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      9,
+      2
+     ],
+     "first": "ct",
+     "hltv": 59734
+    }
+   ],
+   "hltv": 2318526
+  },
+  {
+   "id": "s1-N35LF8HKAK-M6",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-12T21:50:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Quantum Bellator Fire",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      1,
+      7
+     ],
+     "first": "t",
+     "hltv": 59736
+    }
+   ],
+   "hltv": 2318527
+  },
+  {
+   "id": "s1-N35LF8HKAK-M7",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-12T23:00:00Z",
+   "t1": "G2 Esports",
+   "t2": "Flash Gaming",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      9,
+      2
+     ],
+     "first": "ct",
+     "hltv": 59737
+    }
+   ],
+   "hltv": 2318528
+  },
+  {
+   "id": "s1-N35LF8HKAK-M8",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-13T00:25:00Z",
+   "t1": "Cloud9",
+   "t2": "Team EnVyUs",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      7
+     ],
+     "first": "ct",
+     "hltv": 59738
+    }
+   ],
+   "hltv": 2318529
+  },
+  {
+   "id": "s1-0VD4PFKCOP-M1",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-13T15:20:00Z",
+   "t1": "FlipSid3 Tactics",
+   "t2": "Team Liquid",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      8,
+      2,
+      9,
+      7
+     ],
+     "first": "t",
+     "hltv": 59771
+    }
+   ],
+   "hltv": 2318537
+  },
+  {
+   "id": "s1-QAC70JJGE9-M1",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-13T16:40:00Z",
+   "t1": "MOUZ",
+   "t2": "Natus Vincere",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 2,
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      0
+     ],
+     "first": "ct",
+     "hltv": 59774
+    }
+   ],
+   "hltv": 2318538
+  },
+  {
+   "id": "s1-0VD4PFKCOP-M2",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-13T17:30:00Z",
+   "t1": "Space Soldiers",
+   "t2": "AVANGAR",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      2,
+      7
+     ],
+     "first": "t",
+     "hltv": 59777
+    }
+   ],
+   "hltv": 2318539
+  },
+  {
+   "id": "s1-0VD4PFKCOP-M3",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-13T18:40:00Z",
+   "t1": "Team EnVyUs",
+   "t2": "Renegades",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 59779
+    }
+   ],
+   "hltv": 2318540
+  },
+  {
+   "id": "s1-0VD4PFKCOP-M4",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-13T19:40:00Z",
+   "t1": "Flash Gaming",
+   "t2": "Quantum Bellator Fire",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 59784
+    }
+   ],
+   "hltv": 2318541
+  },
+  {
+   "id": "s1-QAC70JJGE9-M2",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-13T21:00:00Z",
+   "t1": "Sprout",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 5,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      2,
+      3,
+      3,
+      13
+     ],
+     "first": "t",
+     "hltv": 59786
+    }
+   ],
+   "hltv": 2318542
+  },
+  {
+   "id": "s1-QAC70JJGE9-M3",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-13T22:05:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Vega Squadron",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      3,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 59790
+    }
+   ],
+   "hltv": 2318543
+  },
+  {
+   "id": "s1-QAC70JJGE9-M4",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-13T23:10:00Z",
+   "t1": "Misfits Gaming",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 5,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      4,
+      2,
+      14
+     ],
+     "first": "t",
+     "hltv": 59793
+    }
+   ],
+   "hltv": 2318544
+  },
+  {
+   "id": "s1-ZB9EBA1FDL-M1",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-14T15:10:00Z",
+   "t1": "Quantum Bellator Fire",
+   "t2": "FaZe Clan",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      2,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 59808
+    }
+   ],
+   "hltv": 2318545
+  },
+  {
+   "id": "s1-EVXKP92A2K-M1",
+   "stage": "s1",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-14T16:05:00Z",
+   "t1": "Flash Gaming",
+   "t2": "Team EnVyUs",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      10,
+      3,
+      12,
+      4
+     ],
+     "first": "ct",
+     "hltv": 59812
+    }
+   ],
+   "hltv": 2318546
+  },
+  {
+   "id": "s1-ZB9EBA1FDL-M2",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-14T17:35:00Z",
+   "t1": "Misfits Gaming",
+   "t2": "Space Soldiers",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      7,
+      7,
+      9
+     ],
+     "first": "t",
+     "hltv": 59813
+    }
+   ],
+   "hltv": 2318547
+  },
+  {
+   "id": "s1-ZB9EBA1FDL-M3",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-14T18:45:00Z",
+   "t1": "Sprout",
+   "t2": "Natus Vincere",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 3,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      0,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 59814
+    }
+   ],
+   "hltv": 2318548
+  },
+  {
+   "id": "s1-SESH6D8B24-M1",
+   "stage": "s1",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-14T19:40:00Z",
+   "t1": "Vega Squadron",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 19,
+     "winner": 2,
+     "h": [
+      3,
+      12,
+      3,
+      12
+     ],
+     "ot": [
+      1,
+      4
+     ],
+     "first": "t",
+     "hltv": 59815
+    }
+   ],
+   "hltv": 2318549
+  },
+  {
+   "id": "s1-ZB9EBA1FDL-M4",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-14T21:10:00Z",
+   "t1": "Renegades",
+   "t2": "Team Liquid",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      9,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 59817
+    }
+   ],
+   "hltv": 2318550
+  },
+  {
+   "id": "s1-EVXKP92A2K-M2",
+   "stage": "s1",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-14T22:30:00Z",
+   "t1": "FlipSid3 Tactics",
+   "t2": "AVANGAR",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      3,
+      11,
+      5
+     ],
+     "first": "t",
+     "hltv": 59818
+    }
+   ],
+   "hltv": 2318551
+  },
+  {
+   "id": "s1-SESH6D8B24-M2",
+   "stage": "s1",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-14T23:35:00Z",
+   "t1": "MOUZ",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 5,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      1,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 59819
+    }
+   ],
+   "hltv": 2318552
+  },
+  {
+   "id": "s1-9OZO70F7F7-M1",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-15T15:10:00Z",
+   "t1": "Misfits Gaming",
+   "t2": "AVANGAR",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      10,
+      5,
+      11
+     ],
+     "first": "ct",
+     "hltv": 59820
+    }
+   ],
+   "hltv": 2318553
+  },
+  {
+   "id": "s1-H2A3Q6LFWZ-M1",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-15T16:30:00Z",
+   "t1": "Team Liquid",
+   "t2": "Vega Squadron",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      8,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 59821
+    }
+   ],
+   "hltv": 2318554
+  },
+  {
+   "id": "s1-H2A3Q6LFWZ-M2",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-15T18:25:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Natus Vincere",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 4,
+     "winner": 1,
+     "h": [
+      12,
+      4,
+      1,
+      3
+     ],
+     "first": "t",
+     "hltv": 59822
+    }
+   ],
+   "hltv": 2318555
+  },
+  {
+   "id": "s1-H2A3Q6LFWZ-M3",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-15T19:20:00Z",
+   "t1": "Space Soldiers",
+   "t2": "MOUZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 19,
+     "s2": 17,
+     "winner": 1,
+     "h": [
+      10,
+      5,
+      10,
+      5
+     ],
+     "ot": [
+      4,
+      2
+     ],
+     "first": "t",
+     "hltv": 59823
+    }
+   ],
+   "hltv": 2318556
+  },
+  {
+   "id": "s1-9OZO70F7F7-M2",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-15T20:45:00Z",
+   "t1": "Renegades",
+   "t2": "Sprout",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      0,
+      10
+     ],
+     "first": "t",
+     "hltv": 59825
+    }
+   ],
+   "hltv": 2318557
+  },
+  {
+   "id": "s1-9OZO70F7F7-M3",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-15T22:00:00Z",
+   "t1": "Quantum Bellator Fire",
+   "t2": "Team EnVyUs",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      11,
+      5,
+      10,
+      2
+     ],
+     "first": "ct",
+     "hltv": 59826
+    }
+   ],
+   "hltv": 2318558
+  },
+  {
+   "id": "s1-F9WM2PJGI2-M1",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-15T23:35:00Z",
+   "t1": "MOUZ",
+   "t2": "Renegades",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 4,
+     "winner": 1,
+     "h": [
+      12,
+      4,
+      1,
+      3
+     ],
+     "first": "t",
+     "hltv": 59827
+    }
+   ],
+   "hltv": 2318559
+  },
+  {
+   "id": "s1-F9WM2PJGI2-M2",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-16T00:25:00Z",
+   "t1": "AVANGAR",
+   "t2": "Quantum Bellator Fire",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      0,
+      7,
+      9
+     ],
+     "first": "t",
+     "hltv": 59828
+    }
+   ],
+   "hltv": 2318560
+  },
+  {
+   "id": "s1-F9WM2PJGI2-M3",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-16T01:30:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Team Liquid",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      3
+     ],
+     "first": "ct",
+     "hltv": 59829
+    }
+   ],
+   "hltv": 2318561
+  },
+  {
+   "id": "b1-4AO1JL0URQ-R1M1",
+   "stage": "b1",
+   "round": "Semifinales",
+   "slot": "",
+   "kind": "sf",
+   "bo": 1,
+   "date": "2018-01-16T02:25:00Z",
+   "t1": "Renegades",
+   "t2": "AVANGAR",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      4,
+      7,
+      9
+     ],
+     "first": "t",
+     "hltv": 59830
+    }
+   ],
+   "hltv": 2318577
+  },
+  {
+   "id": "b1-4AO1JL0URQ-R1M1",
+   "stage": "b1",
+   "round": "Semifinales",
+   "slot": "",
+   "kind": "sf",
+   "bo": 1,
+   "date": "2018-01-16T02:25:00Z",
+   "t1": "Renegades",
+   "t2": "AVANGAR",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      4,
+      7,
+      9
+     ],
+     "first": "t",
+     "hltv": 59830
+    }
+   ],
+   "hltv": 2318577
+  },
+  {
+   "id": "b1-4AO1JL0URQ-R2M1",
+   "stage": "b1",
+   "round": "Gran final",
+   "slot": "",
+   "kind": "final",
+   "bo": 1,
+   "date": "2018-01-16T03:35:00Z",
+   "t1": "Team Liquid",
+   "t2": "AVANGAR",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 19,
+     "s2": 15,
+     "winner": 1,
+     "h": [
+      9,
+      6,
+      9,
+      6
+     ],
+     "ot": [
+      4,
+      0
+     ],
+     "first": "ct",
+     "hltv": 59831
+    }
+   ],
+   "hltv": 2318578
+  },
+  {
+   "id": "b1-4AO1JL0URQ-R2M1",
+   "stage": "b1",
+   "round": "Gran final",
+   "slot": "",
+   "kind": "final",
+   "bo": 1,
+   "date": "2018-01-16T03:35:00Z",
+   "t1": "Team Liquid",
+   "t2": "AVANGAR",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 19,
+     "s2": 15,
+     "winner": 1,
+     "h": [
+      9,
+      6,
+      9,
+      6
+     ],
+     "ot": [
+      4,
+      0
+     ],
+     "first": "ct",
+     "hltv": 59831
+    }
+   ],
+   "hltv": 2318578
+  },
+  {
+   "id": "s2-PH48TK5QY2-M1",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T15:10:00Z",
+   "t1": "North",
+   "t2": "Vega Squadron",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      7,
+      3,
+      8,
+      8
+     ],
+     "first": "t",
+     "hltv": 59930
+    }
+   ],
+   "hltv": 2318592
+  },
+  {
+   "id": "s3-PH48TK5QY2-M1",
+   "stage": "s3",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T15:10:00Z",
+   "t1": "North",
+   "t2": "Vega Squadron",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      7,
+      3,
+      8,
+      8
+     ],
+     "first": "t",
+     "hltv": 59930
+    }
+   ],
+   "hltv": 2318592
+  },
+  {
+   "id": "s2-PH48TK5QY2-M2",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T17:05:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Quantum Bellator Fire",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 3,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      3,
+      12,
+      4
+     ],
+     "first": "ct",
+     "hltv": 59926
+    }
+   ],
+   "hltv": 2318593
+  },
+  {
+   "id": "s3-PH48TK5QY2-M2",
+   "stage": "s3",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T17:05:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Quantum Bellator Fire",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 3,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      3,
+      12,
+      4
+     ],
+     "first": "ct",
+     "hltv": 59926
+    }
+   ],
+   "hltv": 2318593
+  },
+  {
+   "id": "s2-PH48TK5QY2-M3",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T18:00:00Z",
+   "t1": "BIG",
+   "t2": "Team Liquid",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 5,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      1,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 59927
+    }
+   ],
+   "hltv": 2318594
+  },
+  {
+   "id": "s3-PH48TK5QY2-M3",
+   "stage": "s3",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T18:00:00Z",
+   "t1": "BIG",
+   "t2": "Team Liquid",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 5,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      1,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 59927
+    }
+   ],
+   "hltv": 2318594
+  },
+  {
+   "id": "s2-PH48TK5QY2-M4",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T19:05:00Z",
+   "t1": "Fnc",
+   "t2": "FaZe Clan",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 59929
+    }
+   ],
+   "hltv": 2318595
+  },
+  {
+   "id": "s3-PH48TK5QY2-M4",
+   "stage": "s3",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T19:05:00Z",
+   "t1": "Fnc",
+   "t2": "FaZe Clan",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 59929
+    }
+   ],
+   "hltv": 2318595
+  },
+  {
+   "id": "s2-PH48TK5QY2-M5",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T20:10:00Z",
+   "t1": "Astralis",
+   "t2": "MOUZ",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 2,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      2,
+      13,
+      3
+     ],
+     "first": "ct",
+     "hltv": 59932
+    }
+   ],
+   "hltv": 2318596
+  },
+  {
+   "id": "s3-PH48TK5QY2-M5",
+   "stage": "s3",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T20:10:00Z",
+   "t1": "Astralis",
+   "t2": "MOUZ",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 2,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      2,
+      13,
+      3
+     ],
+     "first": "ct",
+     "hltv": 59932
+    }
+   ],
+   "hltv": 2318596
+  },
+  {
+   "id": "s2-PH48TK5QY2-M6",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T21:15:00Z",
+   "t1": "Cloud9",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      3,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 59934
+    }
+   ],
+   "hltv": 2318597
+  },
+  {
+   "id": "s3-PH48TK5QY2-M6",
+   "stage": "s3",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T21:15:00Z",
+   "t1": "Cloud9",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      3,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 59934
+    }
+   ],
+   "hltv": 2318597
+  },
+  {
+   "id": "s2-PH48TK5QY2-M7",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T22:20:00Z",
+   "t1": "Gambit Esports",
+   "t2": "Natus Vincere",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1,
+     "h": [
+      13,
+      3,
+      3,
+      2
+     ],
+     "first": "t",
+     "hltv": 59935
+    }
+   ],
+   "hltv": 2318598
+  },
+  {
+   "id": "s3-PH48TK5QY2-M7",
+   "stage": "s3",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T22:20:00Z",
+   "t1": "Gambit Esports",
+   "t2": "Natus Vincere",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1,
+     "h": [
+      13,
+      3,
+      3,
+      2
+     ],
+     "first": "t",
+     "hltv": 59935
+    }
+   ],
+   "hltv": 2318598
+  },
+  {
+   "id": "s2-PH48TK5QY2-M8",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T23:20:00Z",
+   "t1": "SK Gaming",
+   "t2": "Space Soldiers",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      4,
+      9
+     ],
+     "first": "t",
+     "hltv": 59936
+    }
+   ],
+   "hltv": 2318599
+  },
+  {
+   "id": "s3-PH48TK5QY2-M8",
+   "stage": "s3",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-19T23:20:00Z",
+   "t1": "SK Gaming",
+   "t2": "Space Soldiers",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      4,
+      9
+     ],
+     "first": "t",
+     "hltv": 59936
+    }
+   ],
+   "hltv": 2318599
+  },
+  {
+   "id": "s2-P8PVEFRV8Q-M1",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T15:15:00Z",
+   "t1": "Quantum Bellator Fire",
+   "t2": "Gambit Esports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 19,
+     "s2": 16,
+     "winner": 1,
+     "h": [
+      6,
+      9,
+      6,
+      9
+     ],
+     "ot": [
+      4,
+      1
+     ],
+     "first": "ct",
+     "hltv": 59958
+    }
+   ],
+   "hltv": 2318600
+  },
+  {
+   "id": "s3-P8PVEFRV8Q-M1",
+   "stage": "s3",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T15:15:00Z",
+   "t1": "Quantum Bellator Fire",
+   "t2": "Gambit Esports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 19,
+     "s2": 16,
+     "winner": 1,
+     "h": [
+      6,
+      9,
+      6,
+      9
+     ],
+     "ot": [
+      4,
+      1
+     ],
+     "first": "ct",
+     "hltv": 59958
+    }
+   ],
+   "hltv": 2318600
+  },
+  {
+   "id": "s2-XV5J67FRPD-M1",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T16:50:00Z",
+   "t1": "Space Soldiers",
+   "t2": "Cloud9",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      11,
+      5,
+      9,
+      4
+     ],
+     "first": "t",
+     "hltv": 59964
+    }
+   ],
+   "hltv": 2318601
+  },
+  {
+   "id": "s3-XV5J67FRPD-M1",
+   "stage": "s3",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T16:50:00Z",
+   "t1": "Space Soldiers",
+   "t2": "Cloud9",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      11,
+      5,
+      9,
+      4
+     ],
+     "first": "t",
+     "hltv": 59964
+    }
+   ],
+   "hltv": 2318601
+  },
+  {
+   "id": "s2-P8PVEFRV8Q-M2",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T18:20:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Vega Squadron",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      0
+     ],
+     "first": "ct",
+     "hltv": 59965
+    }
+   ],
+   "hltv": 2318602
+  },
+  {
+   "id": "s3-P8PVEFRV8Q-M2",
+   "stage": "s3",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T18:20:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Vega Squadron",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      0
+     ],
+     "first": "ct",
+     "hltv": 59965
+    }
+   ],
+   "hltv": 2318602
+  },
+  {
+   "id": "s2-P8PVEFRV8Q-M3",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T19:10:00Z",
+   "t1": "G2 Esports",
+   "t2": "Team Liquid",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      5
+     ],
+     "first": "ct",
+     "hltv": 59966
+    }
+   ],
+   "hltv": 2318603
+  },
+  {
+   "id": "s3-P8PVEFRV8Q-M3",
+   "stage": "s3",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T19:10:00Z",
+   "t1": "G2 Esports",
+   "t2": "Team Liquid",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      5
+     ],
+     "first": "ct",
+     "hltv": 59966
+    }
+   ],
+   "hltv": 2318603
+  },
+  {
+   "id": "s2-P8PVEFRV8Q-M4",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T20:15:00Z",
+   "t1": "SK Gaming",
+   "t2": "MOUZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      4,
+      8
+     ],
+     "first": "t",
+     "hltv": 59967
+    }
+   ],
+   "hltv": 2318604
+  },
+  {
+   "id": "s3-P8PVEFRV8Q-M4",
+   "stage": "s3",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T20:15:00Z",
+   "t1": "SK Gaming",
+   "t2": "MOUZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      4,
+      8
+     ],
+     "first": "t",
+     "hltv": 59967
+    }
+   ],
+   "hltv": 2318604
+  },
+  {
+   "id": "s2-XV5J67FRPD-M2",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T21:40:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Fnc",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 59968
+    }
+   ],
+   "hltv": 2318605
+  },
+  {
+   "id": "s3-XV5J67FRPD-M2",
+   "stage": "s3",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T21:40:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Fnc",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      5,
+      10,
+      6
+     ],
+     "first": "ct",
+     "hltv": 59968
+    }
+   ],
+   "hltv": 2318605
+  },
+  {
+   "id": "s2-XV5J67FRPD-M3",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T22:50:00Z",
+   "t1": "BIG",
+   "t2": "Natus Vincere",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 1,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      0,
+      2,
+      14
+     ],
+     "first": "t",
+     "hltv": 59969
+    }
+   ],
+   "hltv": 2318606
+  },
+  {
+   "id": "s3-XV5J67FRPD-M3",
+   "stage": "s3",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T22:50:00Z",
+   "t1": "BIG",
+   "t2": "Natus Vincere",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 1,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      0,
+      2,
+      14
+     ],
+     "first": "t",
+     "hltv": 59969
+    }
+   ],
+   "hltv": 2318606
+  },
+  {
+   "id": "s2-XV5J67FRPD-M4",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T23:45:00Z",
+   "t1": "Astralis",
+   "t2": "North",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      12,
+      4,
+      11,
+      3
+     ],
+     "first": "ct",
+     "hltv": 59970
+    }
+   ],
+   "hltv": 2318607
+  },
+  {
+   "id": "s3-XV5J67FRPD-M4",
+   "stage": "s3",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-20T23:45:00Z",
+   "t1": "Astralis",
+   "t2": "North",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      12,
+      4,
+      11,
+      3
+     ],
+     "first": "ct",
+     "hltv": 59970
+    }
+   ],
+   "hltv": 2318607
+  },
+  {
+   "id": "s2-CTOY75PUYL-M1",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T15:10:00Z",
+   "t1": "Vega Squadron",
+   "t2": "MOUZ",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 3,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      2,
+      1,
+      3,
+      13
+     ],
+     "first": "t",
+     "hltv": 59977
+    }
+   ],
+   "hltv": 2318608
+  },
+  {
+   "id": "s3-CTOY75PUYL-M1",
+   "stage": "s3",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T15:10:00Z",
+   "t1": "Vega Squadron",
+   "t2": "MOUZ",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 3,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      2,
+      1,
+      3,
+      13
+     ],
+     "first": "t",
+     "hltv": 59977
+    }
+   ],
+   "hltv": 2318608
+  },
+  {
+   "id": "s2-CTOY75PUYL-M2",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T16:10:00Z",
+   "t1": "Team Liquid",
+   "t2": "Natus Vincere",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 59985
+    }
+   ],
+   "hltv": 2318609
+  },
+  {
+   "id": "s3-CTOY75PUYL-M2",
+   "stage": "s3",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T16:10:00Z",
+   "t1": "Team Liquid",
+   "t2": "Natus Vincere",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 59985
+    }
+   ],
+   "hltv": 2318609
+  },
+  {
+   "id": "s2-9P8VUM32A5-M1",
+   "stage": "s2",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T17:30:00Z",
+   "t1": "Quantum Bellator Fire",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 59993
+    }
+   ],
+   "hltv": 2318610
+  },
+  {
+   "id": "s3-9P8VUM32A5-M1",
+   "stage": "s3",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T17:30:00Z",
+   "t1": "Quantum Bellator Fire",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 59993
+    }
+   ],
+   "hltv": 2318610
+  },
+  {
+   "id": "s2-CTOY75PUYL-M3",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T18:35:00Z",
+   "t1": "Fnc",
+   "t2": "Astralis",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      5
+     ],
+     "first": "ct",
+     "hltv": 59997
+    }
+   ],
+   "hltv": 2318611
+  },
+  {
+   "id": "s3-CTOY75PUYL-M3",
+   "stage": "s3",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T18:35:00Z",
+   "t1": "Fnc",
+   "t2": "Astralis",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      5
+     ],
+     "first": "ct",
+     "hltv": 59997
+    }
+   ],
+   "hltv": 2318611
+  },
+  {
+   "id": "s2-PU99DP0FS7-M1",
+   "stage": "s2",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T19:45:00Z",
+   "t1": "BIG",
+   "t2": "North",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      9,
+      3
+     ],
+     "first": "ct",
+     "hltv": 59999
+    }
+   ],
+   "hltv": 2318612
+  },
+  {
+   "id": "s3-PU99DP0FS7-M1",
+   "stage": "s3",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T19:45:00Z",
+   "t1": "BIG",
+   "t2": "North",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      9,
+      3
+     ],
+     "first": "ct",
+     "hltv": 59999
+    }
+   ],
+   "hltv": 2318612
+  },
+  {
+   "id": "s2-9P8VUM32A5-M2",
+   "stage": "s2",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T21:10:00Z",
+   "t1": "SK Gaming",
+   "t2": "FaZe Clan",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      10,
+      2,
+      11,
+      5
+     ],
+     "first": "t",
+     "hltv": 60000
+    }
+   ],
+   "hltv": 2318613
+  },
+  {
+   "id": "s3-9P8VUM32A5-M2",
+   "stage": "s3",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T21:10:00Z",
+   "t1": "SK Gaming",
+   "t2": "FaZe Clan",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      10,
+      2,
+      11,
+      5
+     ],
+     "first": "t",
+     "hltv": 60000
+    }
+   ],
+   "hltv": 2318613
+  },
+  {
+   "id": "s2-PU99DP0FS7-M2",
+   "stage": "s2",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T22:35:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      2,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 60001
+    }
+   ],
+   "hltv": 2318614
+  },
+  {
+   "id": "s3-PU99DP0FS7-M2",
+   "stage": "s3",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T22:35:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      2,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 60001
+    }
+   ],
+   "hltv": 2318614
+  },
+  {
+   "id": "s2-CTOY75PUYL-M4",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T23:40:00Z",
+   "t1": "Space Soldiers",
+   "t2": "Gambit Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      2,
+      11,
+      3,
+      13
+     ],
+     "first": "t",
+     "hltv": 60003
+    }
+   ],
+   "hltv": 2318615
+  },
+  {
+   "id": "s3-CTOY75PUYL-M4",
+   "stage": "s3",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-21T23:40:00Z",
+   "t1": "Space Soldiers",
+   "t2": "Gambit Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      2,
+      11,
+      3,
+      13
+     ],
+     "first": "t",
+     "hltv": 60003
+    }
+   ],
+   "hltv": 2318615
+  },
+  {
+   "id": "s2-N2KMPNOIYK-M1",
+   "stage": "s2",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T15:15:00Z",
+   "t1": "Space Soldiers",
+   "t2": "BIG",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      14,
+      2,
+      7,
+      1
+     ],
+     "first": "t",
+     "hltv": 60015
+    }
+   ],
+   "hltv": 2318616
+  },
+  {
+   "id": "s3-N2KMPNOIYK-M1",
+   "stage": "s3",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T15:15:00Z",
+   "t1": "Space Soldiers",
+   "t2": "BIG",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      14,
+      2,
+      7,
+      1
+     ],
+     "first": "t",
+     "hltv": 60015
+    }
+   ],
+   "hltv": 2318616
+  },
+  {
+   "id": "s2-WIN1VZPFWE-M1",
+   "stage": "s2",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T16:20:00Z",
+   "t1": "Quantum Bellator Fire",
+   "t2": "MOUZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      2,
+      14,
+      1,
+      13
+     ],
+     "first": "t",
+     "hltv": 60016
+    }
+   ],
+   "hltv": 2318617
+  },
+  {
+   "id": "s3-WIN1VZPFWE-M1",
+   "stage": "s3",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T16:20:00Z",
+   "t1": "Quantum Bellator Fire",
+   "t2": "MOUZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      2,
+      14,
+      1,
+      13
+     ],
+     "first": "t",
+     "hltv": 60016
+    }
+   ],
+   "hltv": 2318617
+  },
+  {
+   "id": "s2-N2KMPNOIYK-M2",
+   "stage": "s2",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T17:40:00Z",
+   "t1": "Astralis",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 60017
+    }
+   ],
+   "hltv": 2318618
+  },
+  {
+   "id": "s3-N2KMPNOIYK-M2",
+   "stage": "s3",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T17:40:00Z",
+   "t1": "Astralis",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 60017
+    }
+   ],
+   "hltv": 2318618
+  },
+  {
+   "id": "s2-N2KMPNOIYK-M3",
+   "stage": "s2",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T19:20:00Z",
+   "t1": "Team Liquid",
+   "t2": "Vega Squadron",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      8,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 60021
+    }
+   ],
+   "hltv": 2318619
+  },
+  {
+   "id": "s3-N2KMPNOIYK-M3",
+   "stage": "s3",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T19:20:00Z",
+   "t1": "Team Liquid",
+   "t2": "Vega Squadron",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      8,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 60021
+    }
+   ],
+   "hltv": 2318619
+  },
+  {
+   "id": "s2-WIN1VZPFWE-M2",
+   "stage": "s2",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T20:40:00Z",
+   "t1": "Gambit Esports",
+   "t2": "SK Gaming",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      2,
+      8,
+      3,
+      13
+     ],
+     "first": "t",
+     "hltv": 60023
+    }
+   ],
+   "hltv": 2318620
+  },
+  {
+   "id": "s3-WIN1VZPFWE-M2",
+   "stage": "s3",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T20:40:00Z",
+   "t1": "Gambit Esports",
+   "t2": "SK Gaming",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      2,
+      8,
+      3,
+      13
+     ],
+     "first": "t",
+     "hltv": 60023
+    }
+   ],
+   "hltv": 2318620
+  },
+  {
+   "id": "s2-WIN1VZPFWE-M3",
+   "stage": "s2",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T22:00:00Z",
+   "t1": "Fnatic",
+   "t2": "Natus Vincere",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      4,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 60025
+    }
+   ],
+   "hltv": 2318621
+  },
+  {
+   "id": "s3-WIN1VZPFWE-M3",
+   "stage": "s3",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T22:00:00Z",
+   "t1": "Fnatic",
+   "t2": "Natus Vincere",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      4,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 60025
+    }
+   ],
+   "hltv": 2318621
+  },
+  {
+   "id": "s2-2MWO5AATTI-M1",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T23:25:00Z",
+   "t1": "Fnatic",
+   "t2": "Gambit Esports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 2,
+     "winner": 1,
+     "h": [
+      13,
+      3,
+      0,
+      2
+     ],
+     "first": "t",
+     "hltv": 60026
+    }
+   ],
+   "hltv": 2318622
+  },
+  {
+   "id": "s3-2MWO5AATTI-M1",
+   "stage": "s3",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-22T23:25:00Z",
+   "t1": "Fnatic",
+   "t2": "Gambit Esports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 2,
+     "winner": 1,
+     "h": [
+      13,
+      3,
+      0,
+      2
+     ],
+     "first": "t",
+     "hltv": 60026
+    }
+   ],
+   "hltv": 2318622
+  },
+  {
+   "id": "s2-2MWO5AATTI-M2",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-23T00:15:00Z",
+   "t1": "Vega Squadron",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      3,
+      2,
+      14
+     ],
+     "first": "t",
+     "hltv": 60031
+    }
+   ],
+   "hltv": 2318623
+  },
+  {
+   "id": "s3-2MWO5AATTI-M2",
+   "stage": "s3",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-23T00:15:00Z",
+   "t1": "Vega Squadron",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      3,
+      2,
+      14
+     ],
+     "first": "t",
+     "hltv": 60031
+    }
+   ],
+   "hltv": 2318623
+  },
+  {
+   "id": "s2-2MWO5AATTI-M3",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-23T01:10:00Z",
+   "t1": "MOUZ",
+   "t2": "Space Soldiers",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      8,
+      5
+     ],
+     "first": "ct",
+     "hltv": 60032
+    }
+   ],
+   "hltv": 2318624
+  },
+  {
+   "id": "s3-2MWO5AATTI-M3",
+   "stage": "s3",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2018-01-23T01:10:00Z",
+   "t1": "MOUZ",
+   "t2": "Space Soldiers",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      8,
+      5
+     ],
+     "first": "ct",
+     "hltv": 60032
+    }
+   ],
+   "hltv": 2318624
+  },
+  {
+   "id": "b2-ZM573HHCHS-R1M2",
+   "stage": "b2",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2018-01-26T14:35:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Quantum Bellator Fire",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 4,
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      2
+     ],
+     "first": "ct",
+     "hltv": 60171
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      11,
+      5,
+      3,
+      4
+     ],
+     "first": "t",
+     "hltv": 60172
+    }
+   ],
+   "hltv": 2318626
+  },
+  {
+   "id": "po-ZM573HHCHS-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2018-01-26T14:35:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Quantum Bellator Fire",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 4,
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      2
+     ],
+     "first": "ct",
+     "hltv": 60171
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      11,
+      5,
+      3,
+      4
+     ],
+     "first": "t",
+     "hltv": 60172
+    }
+   ],
+   "hltv": 2318626
+  },
+  {
+   "id": "b2-ZM573HHCHS-R1M1",
+   "stage": "b2",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2018-01-26T15:00:00Z",
+   "t1": "FaZe Clan",
+   "t2": "MOUZ",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 19,
+     "s2": 16,
+     "winner": 1,
+     "h": [
+      9,
+      6,
+      9,
+      6
+     ],
+     "ot": [
+      4,
+      1
+     ],
+     "first": "ct",
+     "hltv": 60167
+    },
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      4,
+      5
+     ],
+     "first": "t",
+     "hltv": 60170
+    }
+   ],
+   "hltv": 2318625
+  },
+  {
+   "id": "po-ZM573HHCHS-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2018-01-26T15:00:00Z",
+   "t1": "FaZe Clan",
+   "t2": "MOUZ",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 19,
+     "s2": 16,
+     "winner": 1,
+     "h": [
+      9,
+      6,
+      9,
+      6
+     ],
+     "ot": [
+      4,
+      1
+     ],
+     "first": "ct",
+     "hltv": 60167
+    },
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      4,
+      5
+     ],
+     "first": "t",
+     "hltv": 60170
+    }
+   ],
+   "hltv": 2318625
+  },
+  {
+   "id": "b2-ZM573HHCHS-R1M3",
+   "stage": "b2",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2018-01-26T16:30:00Z",
+   "t1": "G2 Esports",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 60173
+    },
+    {
+     "map": "Overpass",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      4,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 60174
+    }
+   ],
+   "hltv": 2318627
+  },
+  {
+   "id": "po-ZM573HHCHS-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2018-01-26T16:30:00Z",
+   "t1": "G2 Esports",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 60173
+    },
+    {
+     "map": "Overpass",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      4,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 60174
+    }
+   ],
+   "hltv": 2318627
+  },
+  {
+   "id": "b2-ZM573HHCHS-R1M4",
+   "stage": "b2",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2018-01-27T15:00:00Z",
+   "t1": "SK Gaming",
+   "t2": "Fnc",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 19,
+     "s2": 22,
+     "winner": 2,
+     "h": [
+      9,
+      6,
+      9,
+      6
+     ],
+     "ot": [
+      4,
+      7
+     ],
+     "first": "ct",
+     "hltv": 60183
+    },
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      8,
+      6
+     ],
+     "first": "t",
+     "hltv": 60188
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      8,
+      4
+     ],
+     "first": "ct",
+     "hltv": 60189
+    }
+   ],
+   "hltv": 2318628
+  },
+  {
+   "id": "po-ZM573HHCHS-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2018-01-27T15:00:00Z",
+   "t1": "SK Gaming",
+   "t2": "Fnc",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 19,
+     "s2": 22,
+     "winner": 2,
+     "h": [
+      9,
+      6,
+      9,
+      6
+     ],
+     "ot": [
+      4,
+      7
+     ],
+     "first": "ct",
+     "hltv": 60183
+    },
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      8,
+      6
+     ],
+     "first": "t",
+     "hltv": 60188
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      8,
+      4
+     ],
+     "first": "ct",
+     "hltv": 60189
+    }
+   ],
+   "hltv": 2318628
+  },
+  {
+   "id": "b2-ZM573HHCHS-R2M1",
+   "stage": "b2",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2018-01-27T21:00:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Natus Vincere",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      7,
+      2
+     ],
+     "first": "ct",
+     "hltv": 60194
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      2,
+      5
+     ],
+     "first": "t"
+    }
+   ],
+   "hltv": 2318630
+  },
+  {
+   "id": "po-ZM573HHCHS-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2018-01-27T21:00:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Natus Vincere",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      7,
+      2
+     ],
+     "first": "ct",
+     "hltv": 60194
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      2,
+      5
+     ],
+     "first": "t"
+    }
+   ],
+   "hltv": 2318630
+  },
+  {
+   "id": "b2-ZM573HHCHS-R2M2",
+   "stage": "b2",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2018-01-27T23:30:00Z",
+   "t1": "Cloud9",
+   "t2": "SK Gaming",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1,
+     "h": [
+      13,
+      3,
+      1,
+      2
+     ],
+     "first": "t",
+     "hltv": 60196
+    },
+    {
+     "map": "Cobblestone",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 60197
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      6
+     ],
+     "first": "ct",
+     "hltv": 60198
+    }
+   ],
+   "hltv": 2318631
+  },
+  {
+   "id": "po-ZM573HHCHS-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2018-01-27T23:30:00Z",
+   "t1": "Cloud9",
+   "t2": "SK Gaming",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1,
+     "h": [
+      13,
+      3,
+      1,
+      2
+     ],
+     "first": "t",
+     "hltv": 60196
+    },
+    {
+     "map": "Cobblestone",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 60197
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      6
+     ],
+     "first": "ct",
+     "hltv": 60198
+    }
+   ],
+   "hltv": 2318631
+  },
+  {
+   "id": "b2-ZM573HHCHS-R3M1",
+   "stage": "b2",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2018-01-28T19:00:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Cloud9",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      9,
+      5
+     ],
+     "first": "ct",
+     "hltv": 60217
+    },
+    {
+     "map": "Overpass",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      7,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 60218
+    },
+    {
+     "map": "Inferno",
+     "s1": 19,
+     "s2": 22,
+     "winner": 2,
+     "h": [
+      7,
+      8,
+      7,
+      8
+     ],
+     "ot": [
+      4,
+      7
+     ],
+     "first": "ct",
+     "hltv": 60219
+    }
+   ],
+   "hltv": 2318632
+  },
+  {
+   "id": "po-ZM573HHCHS-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2018-01-28T19:00:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Cloud9",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      9,
+      5
+     ],
+     "first": "ct",
+     "hltv": 60217
+    },
+    {
+     "map": "Overpass",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      7,
+      4,
+      12
+     ],
+     "first": "t",
+     "hltv": 60218
+    },
+    {
+     "map": "Inferno",
+     "s1": 19,
+     "s2": 22,
+     "winner": 2,
+     "h": [
+      7,
+      8,
+      7,
+      8
+     ],
+     "ot": [
+      4,
+      7
+     ],
+     "first": "ct",
+     "hltv": 60219
+    }
+   ],
+   "hltv": 2318632
+  }
+ ],
+ "rosters": {
+  "Gambit Esports": {
+   "players": [
+    {
+     "n": "Dosia",
+     "flag": ""
+    },
+    {
+     "n": "AdreN",
+     "flag": ""
+    },
+    {
+     "n": "mou",
+     "flag": ""
+    },
+    {
+     "n": "Hobbit",
+     "flag": ""
+    },
+    {
+     "n": "fitch",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Andi",
+    "flag": ""
+   }
+  },
+  "Astralis": {
+   "players": [
+    {
+     "n": "device",
+     "flag": ""
+    },
+    {
+     "n": "dupreeh",
+     "flag": ""
+    },
+    {
+     "n": "Xyp9x",
+     "flag": ""
+    },
+    {
+     "n": "Kjaerbye",
+     "flag": ""
+    },
+    {
+     "n": "gla1ve",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "zonic",
+    "flag": ""
+   }
+  },
+  "Virtus.pro": {
+   "players": [
+    {
+     "n": "TaZ",
+     "flag": ""
+    },
+    {
+     "n": "NEO",
+     "flag": ""
+    },
+    {
+     "n": "pashaBiceps",
+     "flag": ""
+    },
+    {
+     "n": "Snax",
+     "flag": ""
+    },
+    {
+     "n": "byali",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "kuben",
+    "flag": ""
+   }
+  },
+  "Fnatic": {
+   "players": [
+    {
+     "n": "KRIMZ",
+     "flag": ""
+    },
+    {
+     "n": "JW",
+     "flag": ""
+    },
+    {
+     "n": "flusha",
+     "flag": ""
+    },
+    {
+     "n": "Golden",
+     "flag": ""
+    },
+    {
+     "n": "Lekr0",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Jumpy",
+    "flag": ""
+   }
+  },
+  "SK Gaming": {
+   "players": [
+    {
+     "n": "FalleN",
+     "flag": ""
+    },
+    {
+     "n": "fer",
+     "flag": ""
+    },
+    {
+     "n": "coldzera",
+     "flag": ""
+    },
+    {
+     "n": "TACO",
+     "flag": ""
+    },
+    {
+     "n": "felps",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "dead",
+    "flag": ""
+   }
+  },
+  "BIG": {
+   "players": [
+    {
+     "n": "gob b",
+     "flag": ""
+    },
+    {
+     "n": "LEGIJA",
+     "flag": ""
+    },
+    {
+     "n": "tabseN",
+     "flag": ""
+    },
+    {
+     "n": "nex",
+     "flag": ""
+    },
+    {
+     "n": "keev",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "kakafu",
+    "flag": ""
+   }
+  },
+  "North": {
+   "players": [
+    {
+     "n": "MSL",
+     "flag": ""
+    },
+    {
+     "n": "k0nfig",
+     "flag": ""
+    },
+    {
+     "n": "cajunb",
+     "flag": ""
+    },
+    {
+     "n": "aizy",
+     "flag": ""
+    },
+    {
+     "n": "valde",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "ruggah",
+    "flag": ""
+   }
+  },
+  "Immortals": {
+   "players": [
+    {
+     "n": "HEN1",
+     "flag": ""
+    },
+    {
+     "n": "LUCAS1",
+     "flag": ""
+    },
+    {
+     "n": "boltz",
+     "flag": ""
+    },
+    {
+     "n": "steel",
+     "flag": ""
+    },
+    {
+     "n": "kNgV-",
+     "flag": ""
+    }
+   ]
+  },
+  "Cloud9": {
+   "players": [
+    {
+     "n": "Skadoodle",
+     "flag": ""
+    },
+    {
+     "n": "Stewie2K",
+     "flag": ""
+    },
+    {
+     "n": "autimatic",
+     "flag": ""
+    },
+    {
+     "n": "RUSH",
+     "flag": ""
+    },
+    {
+     "n": "tarik",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "valens",
+    "flag": ""
+   }
+  },
+  "FlipSid3 Tactics": {
+   "players": [
+    {
+     "n": "B1ad3",
+     "flag": ""
+    },
+    {
+     "n": "WorldEdit",
+     "flag": ""
+    },
+    {
+     "n": "markeloff",
+     "flag": ""
+    },
+    {
+     "n": "wayLander",
+     "flag": ""
+    },
+    {
+     "n": "seized",
+     "flag": ""
+    }
+   ]
+  },
+  "G2 Esports": {
+   "players": [
+    {
+     "n": "shox",
+     "flag": ""
+    },
+    {
+     "n": "bodyy",
+     "flag": ""
+    },
+    {
+     "n": "NBK-",
+     "flag": ""
+    },
+    {
+     "n": "kennyS",
+     "flag": ""
+    },
+    {
+     "n": "apEX",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "SmithZz",
+    "flag": ""
+   }
+  },
+  "Natus Vincere": {
+   "players": [
+    {
+     "n": "Edward",
+     "flag": ""
+    },
+    {
+     "n": "flamie",
+     "flag": ""
+    },
+    {
+     "n": "s1mple",
+     "flag": ""
+    },
+    {
+     "n": "Zeus",
+     "flag": ""
+    },
+    {
+     "n": "electronic",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "kane",
+    "flag": ""
+   }
+  },
+  "MOUZ": {
+   "players": [
+    {
+     "n": "chrisJ",
+     "flag": ""
+    },
+    {
+     "n": "oskar",
+     "flag": ""
+    },
+    {
+     "n": "ropz",
+     "flag": ""
+    },
+    {
+     "n": "suNny",
+     "flag": ""
+    },
+    {
+     "n": "STYKO",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "lmbt",
+    "flag": ""
+   }
+  },
+  "Sprout": {
+   "players": [
+    {
+     "n": "kRYSTAL",
+     "flag": ""
+    },
+    {
+     "n": "innocent",
+     "flag": ""
+    },
+    {
+     "n": "zehN",
+     "flag": ""
+    },
+    {
+     "n": "denis",
+     "flag": ""
+    },
+    {
+     "n": "Spiidi",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "tow b",
+    "flag": ""
+   }
+  },
+  "FaZe Clan": {
+   "players": [
+    {
+     "n": "rain",
+     "flag": ""
+    },
+    {
+     "n": "karrigan",
+     "flag": ""
+    },
+    {
+     "n": "NiKo",
+     "flag": ""
+    },
+    {
+     "n": "GuardiaN",
+     "flag": ""
+    },
+    {
+     "n": "olofmeister",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "RobbaN",
+    "flag": ""
+   }
+  },
+  "Vega Squadron": {
+   "players": [
+    {
+     "n": "mir",
+     "flag": ""
+    },
+    {
+     "n": "chopper",
+     "flag": ""
+    },
+    {
+     "n": "jR",
+     "flag": ""
+    },
+    {
+     "n": "keshandr",
+     "flag": ""
+    },
+    {
+     "n": "hutji",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Fierce",
+    "flag": ""
+   }
+  },
+  "Space Soldiers": {
+   "players": [
+    {
+     "n": "XANTARES",
+     "flag": ""
+    },
+    {
+     "n": "ngiN",
+     "flag": ""
+    },
+    {
+     "n": "paz",
+     "flag": ""
+    },
+    {
+     "n": "MAJ3R",
+     "flag": ""
+    },
+    {
+     "n": "Calyx",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "hardstyle",
+    "flag": ""
+   }
+  },
+  "Team Liquid": {
+   "players": [
+    {
+     "n": "nitr0",
+     "flag": ""
+    },
+    {
+     "n": "EliGE",
+     "flag": ""
+    },
+    {
+     "n": "jdm64",
+     "flag": ""
+    },
+    {
+     "n": "Twistzz",
+     "flag": ""
+    },
+    {
+     "n": "zews",
+     "flag": ""
+    }
+   ]
+  },
+  "AVANGAR": {
+   "players": [
+    {
+     "n": "buster",
+     "flag": ""
+    },
+    {
+     "n": "KrizzeN",
+     "flag": ""
+    },
+    {
+     "n": "qikert",
+     "flag": ""
+    },
+    {
+     "n": "dimasick",
+     "flag": ""
+    },
+    {
+     "n": "Jame",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "dastan",
+    "flag": ""
+   }
+  },
+  "Renegades": {
+   "players": [
+    {
+     "n": "AZR",
+     "flag": ""
+    },
+    {
+     "n": "jks",
+     "flag": ""
+    },
+    {
+     "n": "USTILO",
+     "flag": ""
+    },
+    {
+     "n": "Nifty",
+     "flag": ""
+    },
+    {
+     "n": "NAF",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "kassad",
+    "flag": ""
+   }
+  },
+  "Team Envy": {
+   "players": [
+    {
+     "n": "Happy",
+     "flag": ""
+    },
+    {
+     "n": "SIXER",
+     "flag": ""
+    },
+    {
+     "n": "RpK",
+     "flag": ""
+    },
+    {
+     "n": "xms",
+     "flag": ""
+    },
+    {
+     "n": "ScreaM",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "maLeK",
+    "flag": ""
+   }
+  },
+  "Misfits Gaming": {
+   "players": [
+    {
+     "n": "seang@res",
+     "flag": ""
+    },
+    {
+     "n": "SicK",
+     "flag": ""
+    },
+    {
+     "n": "ShahZaM",
+     "flag": ""
+    },
+    {
+     "n": "AmaNEk",
+     "flag": ""
+    },
+    {
+     "n": "devoduvek",
+     "flag": ""
+    }
+   ]
+  },
+  "Quantum Bellator Fire": {
+   "players": [
+    {
+     "n": "balblna",
+     "flag": ""
+    },
+    {
+     "n": "Kvik",
+     "flag": ""
+    },
+    {
+     "n": "jmqa",
+     "flag": ""
+    },
+    {
+     "n": "waterfaLLZ",
+     "flag": ""
+    },
+    {
+     "n": "Boombl4",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "iksou",
+    "flag": "ru"
+   }
+  },
+  "Flash Gaming": {
+   "players": [
+    {
+     "n": "Summer",
+     "flag": ""
+    },
+    {
+     "n": "Karsa",
+     "flag": ""
+    },
+    {
+     "n": "LOVEYY",
+     "flag": ""
+    },
+    {
+     "n": "Attacker",
+     "flag": ""
+    },
+    {
+     "n": "kaze",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "z8z",
+    "flag": "cn"
+   }
+  },
+  "TYLOO": {
+   "players": [
+    {
+     "n": "Mo",
+     "flag": ""
+    },
+    {
+     "n": "DD",
+     "flag": ""
+    },
+    {
+     "n": "somebody",
+     "flag": ""
+    },
+    {
+     "n": "BnTeT",
+     "flag": ""
+    },
+    {
+     "n": "bondik",
+     "flag": ""
+    }
+   ]
+  },
+  "God Squad": {
+   "players": [
+    {
+     "n": "JZFB",
+     "flag": "uk"
+    },
+    {
+     "n": "sapphiRe",
+     "flag": ""
+    },
+    {
+     "n": "kennyS",
+     "flag": ""
+    },
+    {
+     "n": "apEX",
+     "flag": ""
+    },
+    {
+     "n": "YNk",
+     "flag": ""
+    }
+   ]
+  },
+  "Team Killz": {
+   "players": [
+    {
+     "n": "ddk",
+     "flag": ""
+    },
+    {
+     "n": "Prius",
+     "flag": ""
+    },
+    {
+     "n": "moses",
+     "flag": ""
+    },
+    {
+     "n": "Boombl4",
+     "flag": ""
+    },
+    {
+     "n": "jmqa",
+     "flag": ""
+    }
+   ]
+  }
+ },
+ "checked": "2026-11-15T10:54:35Z",
+ "errors": []
+}
