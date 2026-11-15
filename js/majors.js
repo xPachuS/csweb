@@ -168,7 +168,7 @@ export function createMajors(h) {
     };
     return `<div class="mjbr" style="--cols:${cols.length}">${cols.map((c) => {
       const own = main.filter((m) => Number(m.slot.match(/^R(\d+)/)[1]) === c).sort((a, b) => Number(a.slot.split('M')[1]) - Number(b.slot.split('M')[1]));
-      return `<div class="mjbr__col"><h4>${esc(own[0]?.round || '')}</h4>${own.map(box).join('')}</div>`;
+      return `<div class="mjbr__col ${c === cols[cols.length - 1] ? 'is-last' : ''}"><h4>${esc(own[0]?.round || '')}</h4><div class="mjbr__slots">${own.map((m) => `<div class="mjbr__slot">${box(m)}</div>`).join('')}</div></div>`;
     }).join('')}</div>
     ${third.length ? `<h3 class="day">Tercer puesto</h3><div class="mjbr__third">${third.map(box).join('')}</div>` : ''}`;
   }

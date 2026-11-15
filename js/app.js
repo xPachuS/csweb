@@ -407,9 +407,9 @@ function tabBracket() {
   const others = b.locked ? (S.board.brackets || []).filter((x) => x.nick !== S.me.user.nick) : [];
   return `<p class="vhead">${b.locked ? `Cuadro cerrado${saved ? ` · llevas <b>${saved.points}</b> puntos` : ' · no hiciste el cuadro'}.` : `Elige quién gana cada cruce hasta la final. Se cierra cuando empiecen los playoffs${b.lockAt ? ` (${fmtDayTime(new Date(b.lockAt))})` : ''}.`}</p>
     <div class="bracket">
-      <div class="bracket__col"><h4>Cuartos <small>${S.data.settings.bracket.qf} pts</small></h4>${QF.map((s, i) => box(s, `Cuartos ${i + 1}`)).join('')}</div>
-      <div class="bracket__col"><h4>Semifinales <small>${S.data.settings.bracket.sf} pts</small></h4>${box('R2M1', 'Semifinal 1')}${box('R2M2', 'Semifinal 2')}</div>
-      <div class="bracket__col bracket__col--final"><h4>Gran final <small>${S.data.settings.bracket.final} pts</small></h4>${box('R3M1', 'Campeón')}</div>
+      <div class="bracket__col"><h4>Cuartos <small>${S.data.settings.bracket.qf} pts</small></h4><div class="bracket__slots">${QF.map((s, i) => `<div class="bracket__slot">${box(s, `Cuartos ${i + 1}`)}</div>`).join('')}</div></div>
+      <div class="bracket__col"><h4>Semifinales <small>${S.data.settings.bracket.sf} pts</small></h4><div class="bracket__slots"><div class="bracket__slot">${box('R2M1', 'Semifinal 1')}</div><div class="bracket__slot">${box('R2M2', 'Semifinal 2')}</div></div></div>
+      <div class="bracket__col bracket__col--final"><h4>Gran final <small>${S.data.settings.bracket.final} pts</small></h4><div class="bracket__slots"><div class="bracket__slot">${box('R3M1', 'Campeón')}</div></div></div>
     </div>
     ${b.locked ? '' : `<div class="savebar ${dirty ? 'is-dirty' : ''}"><span><b>${dirty ? 'Cambios sin guardar' : saved ? 'Guardado' : 'Aún no has hecho el cuadro'}</b><small>Si cambias un cruce, los siguientes que dependan de él se vacían.</small></span>
       <button class="btn btn--primary" type="button" data-save-bracket ${dirty ? '' : 'disabled'}>Guardar cuadro</button></div><p class="form__msg" id="bracketMsg" role="alert"></p>`}

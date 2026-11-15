@@ -605,3 +605,23 @@ body[data-page="admin"] .wrap { max-width: 1320px; }
 .tb--logo img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .tb--light { background: #e9edf3; border-color: #cfd6e0; }
 .tb--lg.tb--logo, .tb--xl.tb--logo { padding: 5px; }
+
+/* cuadros alineados: cada partido ocupa su hueco y queda centrado entre los dos de los que viene */
+.bracket, .mjbr { align-items: stretch; }
+.bracket__col, .mjbr__col { display: flex; flex-direction: column; justify-content: flex-start; gap: 0; }
+.bracket__col h4, .mjbr__col h4 { margin: 0 0 10px; min-height: 18px; }
+.bracket__slots, .mjbr__slots { flex: 1; display: flex; flex-direction: column; }
+.bracket__slot, .mjbr__slot { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 6px 0; position: relative; }
+.bracket__slot > .bm, .mjbr__slot > .bx { position: relative; }
+@media (min-width: 761px) {
+  /* líneas que unen cada cruce con el siguiente */
+  .bracket__col:not(.bracket__col--final) .bracket__slot::after, .mjbr__col:not(.is-last) .mjbr__slot::after {
+    content: ''; position: absolute; right: -8px; width: 8px; border-color: var(--line-2); border-style: solid; border-width: 0; }
+  .bracket__col:not(.bracket__col--final) .bracket__slot:nth-child(odd)::after, .mjbr__col:not(.is-last) .mjbr__slot:nth-child(odd)::after {
+    top: 50%; bottom: 0; border-top-width: 2px; border-right-width: 2px; border-top-right-radius: 6px; }
+  .bracket__col:not(.bracket__col--final) .bracket__slot:nth-child(even)::after, .mjbr__col:not(.is-last) .mjbr__slot:nth-child(even)::after {
+    top: 0; bottom: 50%; border-bottom-width: 2px; border-right-width: 2px; border-bottom-right-radius: 6px; }
+  .bracket__col + .bracket__col .bracket__slot::before, .mjbr__col + .mjbr__col .mjbr__slot::before {
+    content: ''; position: absolute; left: -8px; top: 50%; width: 8px; border-top: 2px solid var(--line-2); }
+  .bracket, .mjbr { column-gap: 16px; }
+}

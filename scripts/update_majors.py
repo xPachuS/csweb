@@ -109,10 +109,14 @@ TEAM_NAMES = {
     'immortals': 'Immortals', 'avangar': 'AVANGAR', 'outsiders': 'Outsiders', 'titan': 'Titan', 'dignitas': 'Team Dignitas',
     'team dignitas': 'Team Dignitas', 'north': 'North', 'optic': 'OpTic Gaming', 'optic gaming': 'OpTic Gaming',
     'renegades': 'Renegades', 'clg': 'Counter Logic Gaming', 'flipsid3': 'FlipSid3 Tactics', 'hellraisers': 'HellRaisers',
-    'godsent': 'GODSENT', 'mibr (2018)': 'MIBR', 'evil geniuses': 'Evil Geniuses', 'eg': 'Evil Geniuses',
+    'godsent': 'GODSENT', 'vit': 'Vitality', 'tl': 'Team Liquid', 'gl': 'GamerLegion', 'lvg': 'Lynn Vision', 'fq': 'FlyQuest',
+    'bb team': 'BetBoom Team', 'bb': 'BetBoom Team', 'mglz': 'The MongolZ', 'spirit academy': 'Spirit Academy', 'navi junior': 'NAVI Junior',
+    'pain gaming': 'paiN Gaming', 'fal': 'Team Falcons', 'mouz nxt': 'MOUZ NXT', 'ef': 'Eternal Fire', 'vp': 'Virtus.pro', 'mibr (2018)': 'MIBR', 'evil geniuses': 'Evil Geniuses', 'eg': 'Evil Geniuses',
 }
 TBD = {'', 'tbd', 'tba', 'bye', 'definitions'}
-TEAM_TPL: dict[str, str] = {}          # nombre bonito -> plantilla de Liquipedia (se rellena al leer partidos)
+TEAM_TPL: dict[str, str] = {}
+ALIAS: dict[str, str] = {}
+DEBUG: list[tuple[str, str]] = []       # páginas de fases en las que no se reconocieron partidos              # plantilla -> nombre que muestra Liquipedia (data/teams.json)          # nombre bonito -> plantilla de Liquipedia (se rellena al leer partidos)
 LOGOS = ROOT / 'img' / 'teams'
 TEAMS_JSON = ROOT / 'data' / 'teams.json'
 LOGO_BATCH = 50       # equipos por consulta a Liquipedia
@@ -196,6 +200,8 @@ def team_name(raw: str) -> str:
         return 'TBD'
     if key in TEAM_NAMES:
         return TEAM_NAMES[key]
+    if key in ALIAS:                       # nombre que Liquipedia da a la plantilla (aprendido al bajar logos)
+        return ALIAS[key]
     return s if any(c.isupper() for c in s) else s.title()
 
 
@@ -376,6 +382,25 @@ def infobox(wikitext: str) -> dict:
     return {}
 
 
+STAGE_NAME = re.compile(r'stage|playoff|swiss|group|challengers|legends|champions|main[ _]event|knockout|elimination|opening|decider|bracket', re.I)
+NOT_STAGE = re.compile(r'qualif|closed|open[ _]q|rmr|regional|showmatch|statistic|ticket', re.I)
+
+
+def stage_order(name: str) -> int:
+    n = name.lower()
+    for k, rx in ((1, r'opening|stage[ _]?1\b|challengers|group'), (2, r'elimination|stage[ _]?2\b|legends'), (3, r'stage[ _]?3\b'),
+                  (9, r'playoff|champions|knockout|bracket|main[ _]event')):
+        if re.search(rx, n):
+            return k
+    return 5
+
+
+def main_event_links(links: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    """Se quedan las fases del torneo (no las clasificatorias regionales), ordenadas."""
+    keep = [(lk, nm) for lk, nm in links if STAGE_NAME.search(lk.rsplit('/', 1)[-1] + ' ' + nm) and not NOT_STAGE.search(lk + ' ' + nm)]
+    return sorted(keep, key=lambda x: (stage_order(x[1] or x[0]), links.index(x)))
+
+
 def stage_links(wikitext: str, main: str) -> list[tuple[str, str]]:
     """Subpáginas en orden, según las pestañas {{Tabs static|name1=…|link1=…}} de la página principal."""
     for name, inner in templates(wikitext or ''):
@@ -411,11 +436,17 @@ SWISS_HINT = re.compile(r'swiss|stage|opening|elimination|challengers|legends|ch
 def build_major(cfg: dict, main_text: str, pages: dict[str, str], links: list[tuple[str, str]]) -> dict:
     """Fases y partidos de un Major a partir de su página principal y sus subpáginas."""
     stages, matches = [], []
-    sources = [(cfg['page'], 'Principal', main_text)] + [(lk, nm, pages.get(lk)) for lk, nm in links]
+    subs = [(lk, nm, pages.get(lk)) for lk, nm in links]
+    sub_has = any(scan_page(t or '')[0] or scan_page(t or '')[1] for _, _, t in subs)
+    sources = ([] if sub_has else [(cfg['page'], 'Principal', main_text)]) + subs
     n_list = 0
     for page, name, text in sources:
         if not text and page == cfg['page']:
             continue
+        if page == cfg['page'] and subs:
+            lists_, br_ = scan_page(text)
+            if sum(len(x[2]) for x in lists_) < 6 and not br_:
+                continue                                   # en la principal solo hay un showmatch o similar
         lists, brackets = scan_page(text or '')
         if lists:
             swiss = bool(re.search(r'swiss', text, re.I)) or (bool(SWISS_HINT.search(name)) and not re.search(r'group', name, re.I))
@@ -430,11 +461,13 @@ def build_major(cfg: dict, main_text: str, pages: dict[str, str], links: list[tu
             nm = name if (name != 'Principal' and not lists) else 'Playoffs'
             stages.append({'id': sid, 'name': nm, 'page': page, 'type': 'bracket', 'text': text})
             matches += bracket_matches(brackets, sid)
-        if not lists and not brackets and page != cfg['page'] and SWISS_HINT.search(name):
+        if not lists and not brackets and page != cfg['page'] and re.search(r'playoff|champions stage|knockout', name, re.I):
+            stages.append({'id': f'b{len([s for s in stages if s["type"] == "bracket"]) + 1}', 'name': name, 'page': page, 'type': 'bracket', 'text': text})
+        elif not lists and not brackets and page != cfg['page'] and SWISS_HINT.search(name):
             n_list += 1                                   # fase anunciada sin partidos todavía
             stages.append({'id': f's{n_list}', 'name': name, 'page': page, 'type': 'swiss' if not re.search(r'group', name, re.I) else 'groups', 'text': text})
-        if not lists and not brackets and page != cfg['page'] and re.search(r'playoff', name, re.I):
-            stages.append({'id': f'b{len([s for s in stages if s["type"] == "bracket"]) + 1}', 'name': name, 'page': page, 'type': 'bracket', 'text': text})
+        if not lists and not brackets and text and page != cfg['page']:
+            DEBUG.append((page, text))                    # fase sin partidos reconocibles: se guarda para revisarla
     # el último cuadro es «po» (lo que usa el Pick'em); se renombran los ids de los partidos
     brk = [s for s in stages if s['type'] == 'bracket']
     if brk:
@@ -562,6 +595,7 @@ class Offline:
                     f'<img alt="" src="/commons/images/thumb/a/ab/{f}_lightmode.png/50px-{f}_lightmode.png" srcset="/commons/images/thumb/a/ab/{f}_lightmode.png/100px-{f}_lightmode.png 2x" width="50" height="50"></a></span></span>'
                     f'<span class="team-template-team-icon team-template-darkmode"><span class="team-template-image-icon"><a href="/counterstrike/{f}">'
                     f'<img alt="" src="/commons/images/thumb/c/cd/{f}_darkmode.png/50px-{f}_darkmode.png" width="50" height="50"></a></span></span>')
+        text = re.sub(r'\{\{Team\|([^}]+)\}\}', lambda m: f'<span class="team-template-text"><a href="/counterstrike/X">{ {"vit": "Team Vitality", "tl": "Team Liquid"}.get(m.group(1), m.group(1).title()) }</a></span>', text)
         return re.sub(r'\{\{TeamIcon\|([^}]+)\}\}', one, text)
 
     def download(self, url):
@@ -628,10 +662,10 @@ def process(src, cfg: dict, prev: dict, prev_index: dict) -> dict | None:
     if not page:
         raise RuntimeError(f"no encuentro su página en Liquipedia (busqué «{cfg['search']}»)")
     cfg = {**cfg, 'page': page}
-    links = stage_links(text, page)
+    links = main_event_links(stage_links(text, page))
     if not links:
         subs = [s for s in src.subpages(page) if s.count('/') == page.count('/') + 1 and not STAGE_PAGE_SKIP.search(s)]
-        links = [(s, s.rsplit('/', 1)[-1].replace('_', ' ')) for s in subs]
+        links = main_event_links([(s, s.rsplit('/', 1)[-1].replace('_', ' ')) for s in subs])
     pages = src.pages([lk for lk, _ in links]) if links else {}
     data = build_major(cfg, text, pages, links)
     data['info'] = infobox(text)
@@ -717,13 +751,20 @@ def update_logos(src, teams_seen: set[str], log_only: bool = False):
     for i in range(0, min(len(todo), LOGO_BATCH * 2), LOGO_BATCH):
         batch = todo[i:i + LOGO_BATCH]
         keys = [teams[t].get('tpl') or t.lower() for t in batch]
-        text = ''.join(f'<span class="clutch-t" data-k="{n}">{{{{TeamIcon|{k}}}}}</span>' for n, k in enumerate(keys))
+        text = ''.join(f'<span class="clutch-t" data-k="{n}">{{{{TeamIcon|{k}}}}}</span><span class="clutch-n" data-n="{n}">{{{{Team|{k}}}}}</span>'
+                       for n, k in enumerate(keys))
         try:
             html = src.parse(text)
         except Exception as e:  # noqa: BLE001
             log(f'  ! logos: Liquipedia no responde ({e})')
             break
         res = team_logos(html, keys)
+        for n, t in enumerate(batch):                # nombre con el que Liquipedia muestra la plantilla
+            m = re.search(rf'<span[^>]*\bdata-n="{n}"[^>]*>(.*?)(?=<span[^>]*\bdata-[kn]="|$)', html, re.S)
+            shown = next((strip_markup(x) for x in re.findall(r'<a\b[^>]*>([^<]+)</a>', m.group(1) if m else '') if strip_markup(x)), '')
+            k = keys[n]
+            if shown and shown != t and k not in TEAM_NAMES and len(shown) <= 40:
+                ALIAS[k] = shown
         for n, t in enumerate(batch):
             if n in res:
                 found[t] = res[n]
@@ -747,10 +788,52 @@ def update_logos(src, teams_seen: set[str], log_only: bool = False):
                 teams[t]['logo' if mode == 'light' else 'dark'] = f'img/teams/{path.name}'
             except Exception as e:  # noqa: BLE001
                 log(f'  ! logo de {t}: {e}')
-    db = {'source': 'Liquipedia · los logos son marcas de sus equipos', 'teams': dict(sorted(teams.items()))}
+    # equipos con nombre sacado de una plantilla corta («Vit», «Tl»…): se renombran en todos los ficheros
+    renames = {}
+    for t, v in list(teams.items()):
+        k = v.get('tpl') or t.lower()
+        new = ALIAS.get(k)
+        if new and new != t and k not in TEAM_NAMES:
+            renames[t] = new
+            old = teams.pop(t)
+            teams[new] = {**old, **{x: y for x, y in teams.get(new, {}).items() if y}}
+    if renames:
+        rename_teams(renames)
+        log(f'Nombres corregidos: ' + ', '.join(f'{a} → {b}' for a, b in renames.items()))
+    db = {'source': 'Liquipedia · los logos son marcas de sus equipos', 'teams': dict(sorted(teams.items())),
+          'alias': dict(sorted(ALIAS.items()))}
     write_json(TEAMS_JSON, db)
     have = sum(1 for v in teams.values() if v.get('logo'))
     log(f'Logos: {have}/{len(teams)} equipos con logo ({downloads} imágenes nuevas)')
+
+
+def rename_teams(renames: dict[str, str]):
+    for f in OUT.glob('*.json'):
+        d = json.loads(f.read_text('utf-8'))
+        if f.name == 'index.json':
+            for m in d.get('majors', []):
+                for k in ('champion', 'runnerup'):
+                    m[k] = renames.get(m.get(k), m.get(k))
+        else:
+            for m in d.get('matches', []):
+                m['t1'] = renames.get(m['t1'], m['t1']); m['t2'] = renames.get(m['t2'], m['t2'])
+            for st in d.get('stages', []):
+                st['teams'] = sorted({renames.get(t, t) for t in st.get('teams', [])})
+        write_json(f, d)
+
+
+def save_debug():
+    """Guarda (una vez) el wikitext de las fases en las que no se reconocieron partidos, para poder revisarlas."""
+    folder = ROOT / 'data' / 'debug'
+    done = 0
+    for page, text in DEBUG:
+        path = folder / (re.sub(r'[^A-Za-z0-9]+', '_', page).strip('_') + '.wiki')
+        if path.exists() or done >= 6:
+            continue
+        folder.mkdir(parents=True, exist_ok=True)
+        path.write_text(text[:200_000], 'utf-8')
+        done += 1
+        log(f'  · guardada para revisar: data/debug/{path.name}')
 
 
 def write_json(path: Path, obj) -> bool:
@@ -772,6 +855,8 @@ def main(argv: list[str]) -> int:
         force = {c['id'] for c in MAJORS if status_of(c) != 'upcoming'}
     src = Offline(offline) if offline else Live()
     OUT.mkdir(parents=True, exist_ok=True)
+    if TEAMS_JSON.exists():
+        ALIAS.update(json.loads(TEAMS_JSON.read_text('utf-8')).get('alias', {}))
     idx_path = OUT / 'index.json'
     old_index = json.loads(idx_path.read_text('utf-8')) if idx_path.exists() else {}
     old_by = {m['id']: m for m in old_index.get('majors', [])}
@@ -836,6 +921,7 @@ def main(argv: list[str]) -> int:
     index = {'current': cur, 'source': 'Liquipedia (CC-BY-SA 3.0)', 'checked': now, 'calls': src.calls,
              'majors': [results[c['id']] for c in MAJORS], 'errors': errors}
     write_json(idx_path, index)
+    save_debug()
     seen = set()
     for f in OUT.glob('*.json'):
         if f.name == 'index.json':
