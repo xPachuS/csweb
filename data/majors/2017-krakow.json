@@ -1,0 +1,1087 @@
+{
+ "event": {
+  "id": "2017-krakow",
+  "name": "PGL Major Kraków 2017",
+  "page": "PGL/2017/Krakow",
+  "city": "Cracovia",
+  "country": "PL"
+ },
+ "source": "Liquipedia (CC-BY-SA 3.0)",
+ "stages": [
+  {
+   "id": "s1",
+   "name": "Fase suiza",
+   "page": "PGL/2017/Krakow",
+   "type": "swiss",
+   "teams": [
+    "Astralis",
+    "BIG",
+    "Cloud9",
+    "FaZe Clan",
+    "FlipSid3 Tactics",
+    "Fnc",
+    "G2 Esports",
+    "Gambit Esports",
+    "Immortals",
+    "MOUZ",
+    "Natus Vincere",
+    "North",
+    "PENTA Sports",
+    "SK Gaming",
+    "Team Bardolph",
+    "Team ddk",
+    "Vega Squadron",
+    "Virtus.pro"
+   ],
+   "matches": 34
+  },
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "PGL/2017/Krakow",
+   "type": "bracket",
+   "teams": [
+    "Astralis",
+    "BIG",
+    "Fnatic",
+    "Gambit Esports",
+    "Immortals",
+    "North",
+    "SK Gaming",
+    "Virtus.pro"
+   ],
+   "matches": 7
+  }
+ ],
+ "matches": [
+  {
+   "id": "s1-W2LPONG6TS-M1",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-16T11:00:00Z",
+   "t1": "Gambit Esports",
+   "t2": "MOUZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-W2LPONG6TS-M2",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-16T13:00:00Z",
+   "t1": "Fnc",
+   "t2": "FlipSid3 Tactics",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-W2LPONG6TS-M3",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-16T14:40:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Vega Squadron",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 2,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-W2LPONG6TS-M4",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-16T15:55:00Z",
+   "t1": "SK Gaming",
+   "t2": "PENTA Sports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-W2LPONG6TS-M5",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-16T17:45:00Z",
+   "t1": "FaZe Clan",
+   "t2": "BIG",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-W2LPONG6TS-M6",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-16T19:15:00Z",
+   "t1": "North",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-W2LPONG6TS-M7",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-16T20:55:00Z",
+   "t1": "Natus Vincere",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-W2LPONG6TS-M8",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-16T22:15:00Z",
+   "t1": "Astralis",
+   "t2": "Immortals",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 19,
+     "s2": 17,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-EV6XTHH8N6-M1",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-17T09:00:00Z",
+   "t1": "PENTA Sports",
+   "t2": "North",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-EV6XTHH8N6-M2",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-17T10:15:00Z",
+   "t1": "MOUZ",
+   "t2": "FaZe Clan",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 19,
+     "s2": 15,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-EV6XTHH8N6-M3",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-17T12:30:00Z",
+   "t1": "FlipSid3 Tactics",
+   "t2": "Natus Vincere",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-EV6XTHH8N6-M4",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-17T14:45:00Z",
+   "t1": "Immortals",
+   "t2": "Vega Squadron",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-W1MIHHF91R-M1",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-17T16:00:00Z",
+   "t1": "BIG",
+   "t2": "Cloud9",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-W1MIHHF91R-M2",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-17T18:30:00Z",
+   "t1": "Gambit Esports",
+   "t2": "G2 Esports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-W1MIHHF91R-M3",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-17T19:30:00Z",
+   "t1": "SK Gaming",
+   "t2": "Astralis",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-W1MIHHF91R-M4",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-17T21:15:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Fnc",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-3EI2GDM1WJ-M1",
+   "stage": "s1",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-18T09:00:00Z",
+   "t1": "Vega Squadron",
+   "t2": "PENTA Sports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-3EI2GDM1WJ-M2",
+   "stage": "s1",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-18T10:35:00Z",
+   "t1": "FlipSid3 Tactics",
+   "t2": "FaZe Clan",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-OFL1EZ7TWY-M1",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-18T12:00:00Z",
+   "t1": "MOUZ",
+   "t2": "North",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 15,
+     "s2": 19,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-OFL1EZ7TWY-M2",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-18T13:30:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Immortals",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-OFL1EZ7TWY-M3",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-18T15:00:00Z",
+   "t1": "G2 Esports",
+   "t2": "Cloud9",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 19,
+     "s2": 17,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-OFL1EZ7TWY-M4",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-18T17:00:00Z",
+   "t1": "Fnc",
+   "t2": "Astralis",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-GQ082Y2OO5-M1",
+   "stage": "s1",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-18T18:30:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Gambit Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-GQ082Y2OO5-M2",
+   "stage": "s1",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-18T20:15:00Z",
+   "t1": "BIG",
+   "t2": "SK Gaming",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-K0KEIBIR6P-M1",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-19T08:00:00Z",
+   "t1": "MOUZ",
+   "t2": "Cloud9",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-K0KEIBIR6P-M2",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-19T09:30:00Z",
+   "t1": "PENTA Sports",
+   "t2": "FlipSid3 Tactics",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-K0KEIBIR6P-M3",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-19T11:30:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Fnc",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-BDUXV43R2U-M1",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-19T13:30:00Z",
+   "t1": "G2 Esports",
+   "t2": "Astralis",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-BDUXV43R2U-M2",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-19T15:00:00Z",
+   "t1": "North",
+   "t2": "Virtus.pro",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-BDUXV43R2U-M3",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-19T17:00:00Z",
+   "t1": "SK Gaming",
+   "t2": "Immortals",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-HJMM3P41AM-M1",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-19T20:45:00Z",
+   "t1": "Fnc",
+   "t2": "G2 Esports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-HJMM3P41AM-M2",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-19T22:00:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Cloud9",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-HJMM3P41AM-M3",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-19T23:45:00Z",
+   "t1": "FlipSid3 Tactics",
+   "t2": "Immortals",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "po-GFSP4OCPPBQuarterfinals-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2017-07-21T13:00:00Z",
+   "t1": "Gambit Esports",
+   "t2": "Fnatic",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1
+    },
+    {
+     "map": "Overpass",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-GFSP4OCPPBQuarterfinals-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2017-07-21T17:15:00Z",
+   "t1": "SK Gaming",
+   "t2": "Astralis",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Overpass",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-GFSP4OCPPBQuarterfinals-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2017-07-21T20:25:00Z",
+   "t1": "BIG",
+   "t2": "Immortals",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 19,
+     "s2": 17,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Train",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "po-GFSP4OCPPBQuarterfinals-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2017-07-22T13:00:00Z",
+   "t1": "North",
+   "t2": "Virtus.pro",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Nuke",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-GFSP4OCPPBQuarterfinals-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2017-07-22T15:30:00Z",
+   "t1": "Gambit Esports",
+   "t2": "Astralis",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "po-GFSP4OCPPBQuarterfinals-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2017-07-22T19:45:00Z",
+   "t1": "Immortals",
+   "t2": "Virtus.pro",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Cobblestone",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-Q4T6GYTH94-M1",
+   "stage": "s1",
+   "round": "Ronda 10",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2017-07-23T15:00:00Z",
+   "t1": "Team Bardolph",
+   "t2": "Team ddk",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "po-GFSP4OCPPBQuarterfinals-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2017-07-23T17:00:00Z",
+   "t1": "Gambit Esports",
+   "t2": "Immortals",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  }
+ ],
+ "checked": "2026-11-15T08:54:58Z",
+ "errors": []
+}

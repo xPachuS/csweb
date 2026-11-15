@@ -1,0 +1,28 @@
+{{DISPLAYTITLE:BLAST.tv Paris Major 2023: Champions Stage}}
+{{Paris Major 2023 Tabs|1}}<!--
+|tickername=BLAST Paris Major 2023: Champions Stage
+-->{{HiddenDataBox
+|name=BLAST.tv Paris Major 2023: Champions Stage
+|tickername=BLAST Paris Major 2023
+|liquipediatier=S-Tier
+|sdate=2023-05-18
+|edate=2023-05-21
+|publishertier=Major
+}}
+
+==Format==
+* '''The Champions Stage:''' ''May 18<sup>th</sup> - 21<sup>st</sup>, 2023''
+** Single-Elimination bracket
+** Seeded using final [[BLAST/Major/2023/Paris/Legends Stage|Legends Stage]] ranking
+** All matches are {{Abbr/Bo3}}
+
+==Results==
+{{ShowBracket|id=z8GFN6kpnw}}
+
+==Streams==
+{{#section:BLAST/Major/2023/Paris|streams-primary}}
+
+==References==
+{{Reflist}}
+<br/>
+{{Majors Navbox}}
