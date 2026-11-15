@@ -1,0 +1,1508 @@
+{
+ "event": {
+  "id": "2015-katowice",
+  "name": "ESL One Katowice 2015",
+  "page": "ESL/One/2015/Katowice",
+  "city": "Katowice",
+  "country": "PL"
+ },
+ "source": "Liquipedia (CC-BY-SA 3.0)",
+ "stages": [
+  {
+   "id": "s1",
+   "name": "Fase de grupos",
+   "page": "ESL/One/2015/Katowice",
+   "type": "groups",
+   "teams": [
+    "3DMAX",
+    "Cloud9",
+    "Counter Logic Gaming",
+    "FlipSid3 Tactics",
+    "Fnc",
+    "HellRaisers",
+    "Keyd Stars",
+    "LGB eSports",
+    "Natus Vincere",
+    "Ninjas in Pyjamas",
+    "PENTA Sports",
+    "TSM",
+    "Team EnVyUs",
+    "Titan",
+    "Virtus.pro",
+    "Vox Eminor"
+   ],
+   "matches": 20
+  },
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "ESL/One/2015/Katowice",
+   "type": "bracket",
+   "teams": [
+    "Fnc",
+    "Keyd Stars",
+    "Natus Vincere",
+    "Ninjas in Pyjamas",
+    "PENTA Sports",
+    "TSM",
+    "Team EnVyUs",
+    "Virtus.pro"
+   ],
+   "matches": 7
+  }
+ ],
+ "matches": [
+  {
+   "id": "s1-DDI4IWXKKS-M1",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T12:00:00Z",
+   "t1": "Team EnVyUs",
+   "t2": "Titan",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      8
+     ],
+     "first": "ct",
+     "hltv": 19237
+    }
+   ],
+   "hltv": 2294571
+  },
+  {
+   "id": "s1-DDI4IWXKKS-M2",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T12:00:00Z",
+   "t1": "LGB eSports",
+   "t2": "PENTA Sports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      1
+     ],
+     "first": "ct",
+     "hltv": 19236
+    }
+   ],
+   "hltv": 2294572
+  },
+  {
+   "id": "s1-RX9YOU8C9Y-M1",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T13:10:00Z",
+   "t1": "Fnc",
+   "t2": "Vox Eminor",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      1
+     ],
+     "first": "ct",
+     "hltv": 19238
+    }
+   ],
+   "hltv": 2294574
+  },
+  {
+   "id": "s1-RX9YOU8C9Y-M2",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T13:10:00Z",
+   "t1": "Natus Vincere",
+   "t2": "FlipSid3 Tactics",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 2,
+     "winner": 1,
+     "h": [
+      2,
+      14,
+      1,
+      1
+     ],
+     "first": "ct",
+     "hltv": 19239
+    }
+   ],
+   "hltv": 2294575
+  },
+  {
+   "id": "s1-DDI4IWXKKS-M3",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T13:50:00Z",
+   "t1": "Team EnVyUs",
+   "t2": "LGB eSports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      2
+     ],
+     "first": "ct",
+     "hltv": 19240
+    }
+   ],
+   "hltv": 2294601
+  },
+  {
+   "id": "s1-DDI4IWXKKS-M4",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T13:50:00Z",
+   "t1": "Titan",
+   "t2": "PENTA Sports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      0,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 19241
+    }
+   ],
+   "hltv": 2294602
+  },
+  {
+   "id": "s1-RX9YOU8C9Y-M4",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T15:00:00Z",
+   "t1": "Vox Eminor",
+   "t2": "FlipSid3 Tactics",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 2,
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      0
+     ],
+     "first": "ct",
+     "hltv": 19242
+    }
+   ],
+   "hltv": 2294605
+  },
+  {
+   "id": "s1-DDI4IWXKKS-M5",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T15:30:00Z",
+   "t1": "LGB eSports",
+   "t2": "PENTA Sports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      7,
+      5,
+      8,
+      8
+     ],
+     "first": "t",
+     "hltv": 19244
+    }
+   ],
+   "hltv": 2294603
+  },
+  {
+   "id": "s1-RX9YOU8C9Y-M3",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T15:30:00Z",
+   "t1": "Fnc",
+   "t2": "Natus Vincere",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      13,
+      3,
+      5,
+      2
+     ],
+     "first": "t",
+     "hltv": 19243
+    }
+   ],
+   "hltv": 2294604
+  },
+  {
+   "id": "s1-BM7Z1YZ9UY-M2",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T16:50:00Z",
+   "t1": "Counter Logic Gaming",
+   "t2": "HellRaisers",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      2,
+      14,
+      1,
+      13
+     ],
+     "first": "t",
+     "hltv": 19246
+    }
+   ],
+   "hltv": 2294578
+  },
+  {
+   "id": "s1-BM7Z1YZ9UY-M1",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T17:00:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "Keyd Stars",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      13,
+      3,
+      7,
+      2
+     ],
+     "first": "t",
+     "hltv": 19247
+    }
+   ],
+   "hltv": 2294577
+  },
+  {
+   "id": "s1-RX9YOU8C9Y-M5",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T17:00:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Vox Eminor",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1,
+     "h": [
+      2,
+      14,
+      1,
+      2
+     ],
+     "first": "ct",
+     "hltv": 19245
+    }
+   ],
+   "hltv": 2294606
+  },
+  {
+   "id": "s1-BM7Z1YZ9UY-M4",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T18:35:00Z",
+   "t1": "Keyd Stars",
+   "t2": "HellRaisers",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      2,
+      10
+     ],
+     "first": "t",
+     "hltv": 19250
+    }
+   ],
+   "hltv": 2294608
+  },
+  {
+   "id": "s1-HO5V4OTE8D-M1",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T18:35:00Z",
+   "t1": "Virtus.pro",
+   "t2": "3DMAX",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      2
+     ],
+     "first": "ct",
+     "hltv": 19248
+    }
+   ],
+   "hltv": 2294580
+  },
+  {
+   "id": "s1-HO5V4OTE8D-M2",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T18:35:00Z",
+   "t1": "Cloud9",
+   "t2": "TSM",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      2,
+      14,
+      1,
+      13
+     ],
+     "first": "t",
+     "hltv": 19249
+    }
+   ],
+   "hltv": 2294581
+  },
+  {
+   "id": "s1-BM7Z1YZ9UY-M3",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T19:00:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "Counter Logic Gaming",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      13,
+      3,
+      5,
+      2
+     ],
+     "first": "t",
+     "hltv": 19251
+    }
+   ],
+   "hltv": 2294607
+  },
+  {
+   "id": "s1-HO5V4OTE8D-M4",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T19:00:00Z",
+   "t1": "3DMAX",
+   "t2": "TSM",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      6,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 19254
+    }
+   ],
+   "hltv": 2294611
+  },
+  {
+   "id": "s1-BM7Z1YZ9UY-M5",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T20:30:00Z",
+   "t1": "Counter Logic Gaming",
+   "t2": "Keyd Stars",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      2,
+      13,
+      3
+     ],
+     "first": "ct",
+     "hltv": 19252
+    }
+   ],
+   "hltv": 2294609
+  },
+  {
+   "id": "s1-HO5V4OTE8D-M3",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T20:40:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Cloud9",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      8
+     ],
+     "first": "ct",
+     "hltv": 19253
+    }
+   ],
+   "hltv": 2294610
+  },
+  {
+   "id": "s1-HO5V4OTE8D-M5",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2015-03-12T22:00:00Z",
+   "t1": "Cloud9",
+   "t2": "TSM",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      2,
+      7,
+      9
+     ],
+     "first": "t",
+     "hltv": 19255
+    }
+   ],
+   "hltv": 2294612
+  },
+  {
+   "id": "po-LRUNU0IP7RQuarterfinals-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2015-03-13T12:00:00Z",
+   "t1": "Team EnVyUs",
+   "t2": "Natus Vincere",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      2,
+      10
+     ],
+     "first": "t",
+     "hltv": 19256
+    },
+    {
+     "map": "Dust II",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 19257
+    },
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      1
+     ],
+     "first": "ct",
+     "hltv": 19258
+    }
+   ],
+   "hltv": 2294623
+  },
+  {
+   "id": "po-LRUNU0IP7RQuarterfinals-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2015-03-13T16:00:00Z",
+   "t1": "Fnc",
+   "t2": "PENTA Sports",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      11,
+      5,
+      4,
+      4
+     ],
+     "first": "t",
+     "hltv": 19259
+    },
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      4
+     ],
+     "first": "ct",
+     "hltv": 19260
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ],
+   "hltv": 2294624
+  },
+  {
+   "id": "po-LRUNU0IP7RQuarterfinals-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2015-03-13T18:45:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Keyd Stars",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 4,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      1
+     ],
+     "first": "ct",
+     "hltv": 19261
+    },
+    {
+     "map": "Overpass",
+     "s1": 17,
+     "s2": 19,
+     "winner": 2,
+     "h": [
+      4,
+      11,
+      4,
+      11
+     ],
+     "ot": [
+      2,
+      4
+     ],
+     "first": "t",
+     "hltv": 19262
+    },
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 1,
+     "winner": 1,
+     "h": [
+      2,
+      14,
+      1,
+      0
+     ],
+     "first": "ct",
+     "hltv": 19264
+    }
+   ],
+   "hltv": 2294625
+  },
+  {
+   "id": "po-LRUNU0IP7RQuarterfinals-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2015-03-14T12:00:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "TSM",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      11,
+      5,
+      4,
+      4
+     ],
+     "first": "t",
+     "hltv": 19265
+    },
+    {
+     "map": "Inferno",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 19266
+    },
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      6
+     ],
+     "first": "ct",
+     "hltv": 19267
+    }
+   ],
+   "hltv": 2294626
+  },
+  {
+   "id": "po-LRUNU0IP7RQuarterfinals-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2015-03-14T16:00:00Z",
+   "t1": "Fnc",
+   "t2": "Virtus.pro",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 19,
+     "s2": 17,
+     "winner": 1,
+     "h": [
+      9,
+      6,
+      9,
+      6
+     ],
+     "ot": [
+      4,
+      2
+     ],
+     "first": "t",
+     "hltv": 19268
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      7,
+      1
+     ],
+     "first": "ct",
+     "hltv": 19270
+    },
+    {
+     "map": "Overpass",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ],
+   "hltv": 2294627
+  },
+  {
+   "id": "po-LRUNU0IP7RQuarterfinals-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2015-03-14T19:00:00Z",
+   "t1": "Team EnVyUs",
+   "t2": "Ninjas in Pyjamas",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 19271
+    },
+    {
+     "map": "Dust II",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      7,
+      8,
+      8
+     ],
+     "first": "ct",
+     "hltv": 19272
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ],
+   "hltv": 2294628
+  },
+  {
+   "id": "po-LRUNU0IP7RQuarterfinals-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2015-03-15T12:00:00Z",
+   "t1": "Fnc",
+   "t2": "Ninjas in Pyjamas",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      9
+     ],
+     "first": "ct",
+     "hltv": 19273
+    },
+    {
+     "map": "Cache",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      2,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 19274
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      9
+     ],
+     "first": "ct",
+     "hltv": 19275
+    }
+   ],
+   "hltv": 2294629
+  }
+ ],
+ "rosters": {
+  "Team EnVyUs": {
+   "players": [
+    {
+     "n": "Happy",
+     "flag": "fr"
+    },
+    {
+     "n": "NBK-",
+     "flag": "fr"
+    },
+    {
+     "n": "kioShiMa",
+     "flag": "fr"
+    },
+    {
+     "n": "shox",
+     "flag": "fr"
+    },
+    {
+     "n": "SmithZz",
+     "flag": "fr"
+    }
+   ],
+   "coach": {
+    "n": "Next",
+    "flag": ""
+   }
+  },
+  "Ninjas in Pyjamas": {
+   "players": [
+    {
+     "n": "f0rest",
+     "flag": "se"
+    },
+    {
+     "n": "GeT_RiGhT",
+     "flag": "se"
+    },
+    {
+     "n": "Xizt",
+     "flag": "se"
+    },
+    {
+     "n": "friberg",
+     "flag": "se"
+    },
+    {
+     "n": "allu",
+     "flag": "fi"
+    }
+   ]
+  },
+  "Virtus.pro": {
+   "players": [
+    {
+     "n": "TaZ",
+     "flag": "pl"
+    },
+    {
+     "n": "NEO",
+     "flag": "pl"
+    },
+    {
+     "n": "pashaBiceps",
+     "flag": "pl"
+    },
+    {
+     "n": "Snax",
+     "flag": "pl"
+    },
+    {
+     "n": "byali",
+     "flag": "pl"
+    }
+   ],
+   "coach": {
+    "n": "kuben",
+    "flag": "pl"
+   }
+  },
+  "Natus Vincere": {
+   "players": [
+    {
+     "n": "Zeus",
+     "flag": "ua"
+    },
+    {
+     "n": "starix",
+     "flag": "ua"
+    },
+    {
+     "n": "seized",
+     "flag": "ru"
+    },
+    {
+     "n": "Edward",
+     "flag": "ua"
+    },
+    {
+     "n": "GuardiaN",
+     "flag": "sk"
+    }
+   ],
+   "coach": {
+    "n": "Ugin",
+    "flag": "by"
+   }
+  },
+  "HellRaisers": {
+   "players": [
+    {
+     "n": "ANGE1",
+     "flag": "ua"
+    },
+    {
+     "n": "kUcheR",
+     "flag": "ua"
+    },
+    {
+     "n": "Dosia",
+     "flag": "ru"
+    },
+    {
+     "n": "AdreN",
+     "flag": "kz"
+    },
+    {
+     "n": "flamie",
+     "flag": "ru"
+    }
+   ]
+  },
+  "PENTA Sports": {
+   "players": [
+    {
+     "n": "Troubley",
+     "flag": "de"
+    },
+    {
+     "n": "kRYSTAL",
+     "flag": "de"
+    },
+    {
+     "n": "nex",
+     "flag": "de"
+    },
+    {
+     "n": "denis",
+     "flag": "de"
+    },
+    {
+     "n": "Spiidi",
+     "flag": "de"
+    }
+   ],
+   "coach": {
+    "n": "MooZE",
+    "flag": "de"
+   }
+  },
+  "Team SoloMid": {
+   "players": [
+    {
+     "n": "device",
+     "flag": "dk"
+    },
+    {
+     "n": "dupreeh",
+     "flag": "dk"
+    },
+    {
+     "n": "Xyp9x",
+     "flag": "dk"
+    },
+    {
+     "n": "cajunb",
+     "flag": "dk"
+    },
+    {
+     "n": "karrigan",
+     "flag": "dk"
+    }
+   ]
+  },
+  "Fnatic": {
+   "players": [
+    {
+     "n": "flusha",
+     "flag": "se"
+    },
+    {
+     "n": "JW",
+     "flag": "se"
+    },
+    {
+     "n": "pronax",
+     "flag": "se"
+    },
+    {
+     "n": "olofmeister",
+     "flag": "se"
+    },
+    {
+     "n": "KRIMZ",
+     "flag": "se"
+    }
+   ],
+   "coach": {
+    "n": "Devilwalk",
+    "flag": "se"
+   }
+  },
+  "Counter Logic Gaming": {
+   "players": [
+    {
+     "n": "reltuC",
+     "flag": "usa"
+    },
+    {
+     "n": "hazed",
+     "flag": "usa"
+    },
+    {
+     "n": "tarik",
+     "flag": "usa"
+    },
+    {
+     "n": "ptr",
+     "flag": "usa"
+    },
+    {
+     "n": "FNS",
+     "flag": "ca"
+    }
+   ]
+  },
+  "LGB eSports": {
+   "players": [
+    {
+     "n": "RUBINO",
+     "flag": "no"
+    },
+    {
+     "n": "rain",
+     "flag": "no"
+    },
+    {
+     "n": "jkaem",
+     "flag": "no"
+    },
+    {
+     "n": "zEVES",
+     "flag": "no"
+    },
+    {
+     "n": "Polly",
+     "flag": "no"
+    }
+   ]
+  },
+  "Cloud9": {
+   "players": [
+    {
+     "n": "n0thing",
+     "flag": "usa"
+    },
+    {
+     "n": "sgares",
+     "flag": "usa"
+    },
+    {
+     "n": "SEMPHIS",
+     "flag": "ca"
+    },
+    {
+     "n": "shroud",
+     "flag": "ca"
+    },
+    {
+     "n": "ShahZaM",
+     "flag": "us"
+    }
+   ]
+  },
+  "Vox Eminor": {
+   "players": [
+    {
+     "n": "AZR",
+     "flag": "au"
+    },
+    {
+     "n": "Havoc",
+     "flag": "au"
+    },
+    {
+     "n": "jks",
+     "flag": "au"
+    },
+    {
+     "n": "SPUNJ",
+     "flag": "au"
+    },
+    {
+     "n": "topguN",
+     "flag": "au"
+    }
+   ]
+  },
+  "FlipSid3 Tactics": {
+   "players": [
+    {
+     "n": "B1ad3",
+     "flag": "ua"
+    },
+    {
+     "n": "bondik",
+     "flag": "ua"
+    },
+    {
+     "n": "WorldEdit",
+     "flag": "ru"
+    },
+    {
+     "n": "markeloff",
+     "flag": "ua"
+    },
+    {
+     "n": "DavCost",
+     "flag": "ru"
+    }
+   ]
+  },
+  "Titan": {
+   "players": [
+    {
+     "n": "kennyS",
+     "flag": "fr"
+    },
+    {
+     "n": "Ex6TenZ",
+     "flag": "be"
+    },
+    {
+     "n": "apEX",
+     "flag": "fr"
+    },
+    {
+     "n": "Maniac",
+     "flag": "ch"
+    },
+    {
+     "n": "RpK",
+     "flag": "fr"
+    }
+   ]
+  },
+  "Keyd Stars": {
+   "players": [
+    {
+     "n": "FalleN",
+     "flag": "br"
+    },
+    {
+     "n": "fer",
+     "flag": "br"
+    },
+    {
+     "n": "steel",
+     "flag": "br"
+    },
+    {
+     "n": "zqk",
+     "flag": "br"
+    },
+    {
+     "n": "boltz",
+     "flag": "br"
+    }
+   ]
+  },
+  "3DMAX": {
+   "players": [
+    {
+     "n": "diSTURBED",
+     "flag": "fi"
+    },
+    {
+     "n": "natu",
+     "flag": "fi"
+    },
+    {
+     "n": "KHRN",
+     "flag": "fi"
+    },
+    {
+     "n": "stonde",
+     "flag": "fi"
+    },
+    {
+     "n": "xartE",
+     "flag": "fi"
+    }
+   ]
+  }
+ },
+ "checked": "2026-11-15T10:29:39Z",
+ "errors": []
+}

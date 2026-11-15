@@ -1,0 +1,1492 @@
+{
+ "event": {
+  "id": "2014-katowice",
+  "name": "EMS One Katowice 2014",
+  "page": "ESL/Major_Series_One/2014/Katowice",
+  "city": "Katowice",
+  "country": "PL"
+ },
+ "source": "Liquipedia (CC-BY-SA 3.0)",
+ "stages": [
+  {
+   "id": "s1",
+   "name": "Fase de grupos",
+   "page": "ESL/Major_Series_One/2014/Katowice",
+   "type": "groups",
+   "teams": [
+    "3DMAX",
+    "Clan-Mystik",
+    "Complexity",
+    "Dignitas",
+    "Fnatic",
+    "HellRaisers",
+    "LGB eSports",
+    "MOUZ",
+    "Natus Vincere",
+    "Ninjas in Pyjamas",
+    "Reason Gaming",
+    "Team LDLC.com",
+    "Team iBUYPOWER",
+    "Titan",
+    "Virtus.pro",
+    "Vox Eminor"
+   ],
+   "matches": 20
+  },
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "ESL/Major_Series_One/2014/Katowice",
+   "type": "bracket",
+   "teams": [
+    "Complexity",
+    "Dignitas",
+    "Fnatic",
+    "HellRaisers",
+    "LGB eSports",
+    "Ninjas in Pyjamas",
+    "Team LDLC.com",
+    "Virtus.pro"
+   ],
+   "matches": 7
+  }
+ ],
+ "matches": [
+  {
+   "id": "s1-T2A4SYWVM6-M1",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T12:00:00Z",
+   "t1": "Titan",
+   "t2": "MOUZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      0
+     ],
+     "first": "ct",
+     "hltv": 16483
+    }
+   ],
+   "hltv": 2290714
+  },
+  {
+   "id": "s1-VD98GFDUHU-M1",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T12:00:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "3DMAX",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1,
+     "h": [
+      4,
+      12,
+      3,
+      2
+     ],
+     "first": "ct",
+     "hltv": 16480
+    }
+   ],
+   "hltv": 2290715
+  },
+  {
+   "id": "s1-T2A4SYWVM6-M2",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T13:00:00Z",
+   "t1": "HellRaisers",
+   "t2": "Virtus.pro",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 19,
+     "winner": 2,
+     "h": [
+      5,
+      10,
+      5,
+      10
+     ],
+     "ot": [
+      1,
+      4
+     ],
+     "first": "t",
+     "hltv": 16481
+    }
+   ],
+   "hltv": 2290716
+  },
+  {
+   "id": "s1-VD98GFDUHU-M2",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T14:00:00Z",
+   "t1": "Team LDLC.com",
+   "t2": "Vox Eminor",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      7,
+      6
+     ],
+     "first": "ct",
+     "hltv": 16484
+    }
+   ],
+   "hltv": 2290717
+  },
+  {
+   "id": "s1-T2A4SYWVM6-M3",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T14:45:00Z",
+   "t1": "Titan",
+   "t2": "Virtus.pro",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      1,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 16485
+    }
+   ],
+   "hltv": 2290742
+  },
+  {
+   "id": "s1-VD98GFDUHU-M3",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T15:10:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "Team LDLC.com",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      2
+     ],
+     "first": "ct",
+     "hltv": 16486
+    }
+   ],
+   "hltv": 2290744
+  },
+  {
+   "id": "s1-T2A4SYWVM6-M4",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T16:00:00Z",
+   "t1": "MOUZ",
+   "t2": "HellRaisers",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      4,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 16487
+    }
+   ],
+   "hltv": 2290743
+  },
+  {
+   "id": "s1-VD98GFDUHU-M4",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T16:20:00Z",
+   "t1": "3DMAX",
+   "t2": "Vox Eminor",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      1,
+      6
+     ],
+     "first": "t",
+     "hltv": 16488
+    }
+   ],
+   "hltv": 2290745
+  },
+  {
+   "id": "s1-T2A4SYWVM6-M5",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T17:00:00Z",
+   "t1": "Titan",
+   "t2": "HellRaisers",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 16489
+    }
+   ],
+   "hltv": 2290746
+  },
+  {
+   "id": "s1-VD98GFDUHU-M5",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T17:50:00Z",
+   "t1": "Team LDLC.com",
+   "t2": "3DMAX",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      9,
+      4
+     ],
+     "first": "ct",
+     "hltv": 16490
+    }
+   ],
+   "hltv": 2290747
+  },
+  {
+   "id": "s1-5V3O51RM8Z-M1",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T20:30:00Z",
+   "t1": "Fnatic",
+   "t2": "Reason Gaming",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      8,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 16492
+    }
+   ],
+   "hltv": 2290718
+  },
+  {
+   "id": "s1-5V3O51RM8Z-M2",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T21:15:00Z",
+   "t1": "Dignitas",
+   "t2": "Team iBUYPOWER",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      2,
+      14,
+      1,
+      7
+     ],
+     "first": "ct",
+     "hltv": 16493
+    }
+   ],
+   "hltv": 2290720
+  },
+  {
+   "id": "s1-M0P790KFD7-M1",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T21:15:00Z",
+   "t1": "Complexity",
+   "t2": "Clan-Mystik",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1,
+     "h": [
+      12,
+      4,
+      3,
+      3
+     ],
+     "first": "t",
+     "hltv": 16494
+    }
+   ],
+   "hltv": 2290719
+  },
+  {
+   "id": "s1-M0P790KFD7-M2",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T21:15:00Z",
+   "t1": "LGB eSports",
+   "t2": "Natus Vincere",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      3
+     ],
+     "first": "ct",
+     "hltv": 16491
+    }
+   ],
+   "hltv": 2290721
+  },
+  {
+   "id": "s1-M0P790KFD7-M3",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T22:30:00Z",
+   "t1": "Complexity",
+   "t2": "LGB eSports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      7,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 16495
+    }
+   ],
+   "hltv": 2290748
+  },
+  {
+   "id": "s1-M0P790KFD7-M4",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T22:30:00Z",
+   "t1": "Clan-Mystik",
+   "t2": "Natus Vincere",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      8,
+      5
+     ],
+     "first": "t",
+     "hltv": 16500
+    }
+   ],
+   "hltv": 2290749
+  },
+  {
+   "id": "s1-5V3O51RM8Z-M3",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T22:40:00Z",
+   "t1": "Reason Gaming",
+   "t2": "Dignitas",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      3,
+      6,
+      10
+     ],
+     "first": "t",
+     "hltv": 16498
+    }
+   ],
+   "hltv": 2290750
+  },
+  {
+   "id": "s1-5V3O51RM8Z-M4",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T22:40:00Z",
+   "t1": "Fnatic",
+   "t2": "Team iBUYPOWER",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1,
+     "h": [
+      9,
+      7,
+      7,
+      6
+     ],
+     "first": "t",
+     "hltv": 16496
+    }
+   ],
+   "hltv": 2290751
+  },
+  {
+   "id": "s1-5V3O51RM8Z-M5",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T23:40:00Z",
+   "t1": "Reason Gaming",
+   "t2": "Fnatic",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 6,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      0,
+      6,
+      9,
+      7
+     ],
+     "first": "ct",
+     "hltv": 16497
+    }
+   ],
+   "hltv": 2290752
+  },
+  {
+   "id": "s1-M0P790KFD7-M5",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2014-03-13T23:40:00Z",
+   "t1": "Complexity",
+   "t2": "Clan-Mystik",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      8
+     ],
+     "first": "ct",
+     "hltv": 16499
+    }
+   ],
+   "hltv": 2290753
+  },
+  {
+   "id": "po-2S5GFQ82LAQuarterfinals-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2014-03-14T12:00:00Z",
+   "t1": "Dignitas",
+   "t2": "HellRaisers",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      6,
+      10,
+      5,
+      2
+     ],
+     "first": "ct",
+     "hltv": 16501
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      10,
+      6,
+      9,
+      2
+     ],
+     "first": "ct",
+     "hltv": 16502
+    },
+    {
+     "map": "Inferno",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ],
+   "hltv": 2290755
+  },
+  {
+   "id": "po-2S5GFQ82LAQuarterfinals-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2014-03-14T15:00:00Z",
+   "t1": "Virtus.pro",
+   "t2": "Team LDLC.com",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1,
+     "h": [
+      15,
+      1,
+      3,
+      0
+     ],
+     "first": "t",
+     "hltv": 16503
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      6
+     ],
+     "first": "ct",
+     "hltv": 16504
+    },
+    {
+     "map": "Train",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ],
+   "hltv": 2290757
+  },
+  {
+   "id": "po-2S5GFQ82LAQuarterfinals-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2014-03-14T17:55:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "Complexity",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      8,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 16505
+    },
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 2,
+     "winner": 1,
+     "h": [
+      13,
+      3,
+      0,
+      2
+     ],
+     "first": "t",
+     "hltv": 16506
+    },
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      6,
+      5
+     ],
+     "first": "ct",
+     "hltv": 16507
+    }
+   ],
+   "hltv": 2290758
+  },
+  {
+   "id": "po-2S5GFQ82LAQuarterfinals-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2014-03-15T12:00:00Z",
+   "t1": "Fnatic",
+   "t2": "LGB eSports",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      7,
+      9,
+      3,
+      8
+     ],
+     "first": "t",
+     "hltv": 16508
+    },
+    {
+     "map": "Mirage",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      3,
+      9,
+      6,
+      10
+     ],
+     "first": "ct",
+     "hltv": 16510
+    },
+    {
+     "map": "Train",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      6,
+      8,
+      7,
+      9
+     ],
+     "first": "ct",
+     "hltv": 16511
+    }
+   ],
+   "hltv": 2290759
+  },
+  {
+   "id": "po-2S5GFQ82LAQuarterfinals-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2014-03-15T16:05:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "Dignitas",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1,
+     "h": [
+      3,
+      13,
+      2,
+      4
+     ],
+     "first": "ct",
+     "hltv": 16512
+    },
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1,
+     "h": [
+      11,
+      5,
+      1,
+      4
+     ],
+     "first": "t",
+     "hltv": 16513
+    },
+    {
+     "map": "Unknown",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ],
+   "hltv": 2290760
+  },
+  {
+   "id": "po-2S5GFQ82LAQuarterfinals-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2014-03-15T18:00:00Z",
+   "t1": "Virtus.pro",
+   "t2": "LGB eSports",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      5,
+      11,
+      4,
+      4
+     ],
+     "first": "ct",
+     "hltv": 16514
+    },
+    {
+     "map": "Mirage",
+     "s1": 17,
+     "s2": 19,
+     "winner": 2,
+     "h": [
+      4,
+      11,
+      4,
+      11
+     ],
+     "ot": [
+      2,
+      4
+     ],
+     "first": "t",
+     "hltv": 16515
+    },
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1,
+     "h": [
+      8,
+      8,
+      0,
+      7
+     ],
+     "first": "t",
+     "hltv": 16518
+    }
+   ],
+   "hltv": 2290761
+  },
+  {
+   "id": "po-2S5GFQ82LAQuarterfinals-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2014-03-16T12:00:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "Virtus.pro",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      5,
+      4,
+      11,
+      5
+     ],
+     "first": "ct",
+     "hltv": 16519
+    },
+    {
+     "map": "Inferno",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2,
+     "h": [
+      4,
+      6,
+      5,
+      11
+     ],
+     "first": "t",
+     "hltv": 16520
+    },
+    {
+     "map": "Dust II",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ],
+   "hltv": 2290762
+  }
+ ],
+ "rosters": {
+  "Fnatic": {
+   "players": [
+    {
+     "n": "JW",
+     "flag": ""
+    },
+    {
+     "n": "flusha",
+     "flag": ""
+    },
+    {
+     "n": "schneider",
+     "flag": ""
+    },
+    {
+     "n": "Devilwalk",
+     "flag": ""
+    },
+    {
+     "n": "pronax",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "cArn",
+    "flag": ""
+   }
+  },
+  "Ninjas in Pyjamas": {
+   "players": [
+    {
+     "n": "f0rest",
+     "flag": ""
+    },
+    {
+     "n": "GeT_RiGhT",
+     "flag": ""
+    },
+    {
+     "n": "Xizt",
+     "flag": ""
+    },
+    {
+     "n": "Fifflaren",
+     "flag": ""
+    },
+    {
+     "n": "friberg",
+     "flag": ""
+    }
+   ]
+  },
+  "Complexity": {
+   "players": [
+    {
+     "n": "Hiko",
+     "flag": ""
+    },
+    {
+     "n": "Semphis",
+     "flag": ""
+    },
+    {
+     "n": "seang@res",
+     "flag": ""
+    },
+    {
+     "n": "swag",
+     "flag": ""
+    },
+    {
+     "n": "n0thing",
+     "flag": ""
+    }
+   ]
+  },
+  "Titan": {
+   "players": [
+    {
+     "n": "Ex6TenZ",
+     "flag": ""
+    },
+    {
+     "n": "NBK-",
+     "flag": ""
+    },
+    {
+     "n": "SmithZz",
+     "flag": ""
+    },
+    {
+     "n": "ScreaM",
+     "flag": ""
+    },
+    {
+     "n": "shox",
+     "flag": ""
+    }
+   ]
+  },
+  "LGB eSports": {
+   "players": [
+    {
+     "n": "KRiMZ",
+     "flag": ""
+    },
+    {
+     "n": "dennis",
+     "flag": ""
+    },
+    {
+     "n": "olofm",
+     "flag": ""
+    },
+    {
+     "n": "twist",
+     "flag": ""
+    },
+    {
+     "n": "cype",
+     "flag": ""
+    }
+   ]
+  },
+  "Team Dignitas": {
+   "players": [
+    {
+     "n": "FeTiSh",
+     "flag": ""
+    },
+    {
+     "n": "dupreeh",
+     "flag": ""
+    },
+    {
+     "n": "Xyp9x",
+     "flag": ""
+    },
+    {
+     "n": "device",
+     "flag": ""
+    },
+    {
+     "n": "cajunb",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "3k2",
+    "flag": ""
+   }
+  },
+  "Team LDLC.com": {
+   "players": [
+    {
+     "n": "Happy",
+     "flag": ""
+    },
+    {
+     "n": "Uzzziii",
+     "flag": ""
+    },
+    {
+     "n": "Maniac",
+     "flag": ""
+    },
+    {
+     "n": "KQLY",
+     "flag": ""
+    },
+    {
+     "n": "apEX",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "MoMaN",
+    "flag": ""
+   }
+  },
+  "HellRaisers": {
+   "players": [
+    {
+     "n": "ANGE1",
+     "flag": ""
+    },
+    {
+     "n": "Dosia",
+     "flag": ""
+    },
+    {
+     "n": "AdreN",
+     "flag": ""
+    },
+    {
+     "n": "markeloff",
+     "flag": ""
+    },
+    {
+     "n": "kUcheR",
+     "flag": ""
+    }
+   ]
+  },
+  "Natus Vincere": {
+   "players": [
+    {
+     "n": "Zeus",
+     "flag": ""
+    },
+    {
+     "n": "starix",
+     "flag": ""
+    },
+    {
+     "n": "seized",
+     "flag": ""
+    },
+    {
+     "n": "Edward",
+     "flag": ""
+    },
+    {
+     "n": "GuardiaN",
+     "flag": ""
+    }
+   ]
+  },
+  "Virtus.pro": {
+   "players": [
+    {
+     "n": "TaZ",
+     "flag": ""
+    },
+    {
+     "n": "NEO",
+     "flag": ""
+    },
+    {
+     "n": "pashaBiceps",
+     "flag": ""
+    },
+    {
+     "n": "Snax",
+     "flag": ""
+    },
+    {
+     "n": "byali",
+     "flag": ""
+    }
+   ]
+  },
+  "Reason Gaming": {
+   "players": [
+    {
+     "n": "EXR",
+     "flag": ""
+    },
+    {
+     "n": "LOMME",
+     "flag": ""
+    },
+    {
+     "n": "Friis",
+     "flag": ""
+    },
+    {
+     "n": "karrigan",
+     "flag": ""
+    },
+    {
+     "n": "smF",
+     "flag": ""
+    }
+   ]
+  },
+  "Clan-Mystik": {
+   "players": [
+    {
+     "n": "HaRts",
+     "flag": ""
+    },
+    {
+     "n": "kioShiMa",
+     "flag": ""
+    },
+    {
+     "n": "Sf",
+     "flag": ""
+    },
+    {
+     "n": "GMX",
+     "flag": ""
+    },
+    {
+     "n": "kennyS",
+     "flag": ""
+    }
+   ]
+  },
+  "3DMAX": {
+   "players": [
+    {
+     "n": "gla1ve",
+     "flag": ""
+    },
+    {
+     "n": "Pimp",
+     "flag": ""
+    },
+    {
+     "n": "raalz",
+     "flag": ""
+    },
+    {
+     "n": "MSL",
+     "flag": ""
+    },
+    {
+     "n": "aizy",
+     "flag": ""
+    }
+   ]
+  },
+  "MOUZ": {
+   "players": [
+    {
+     "n": "chrisJ",
+     "flag": ""
+    },
+    {
+     "n": "LEGIJA",
+     "flag": ""
+    },
+    {
+     "n": "tiziaN",
+     "flag": ""
+    },
+    {
+     "n": "cadiaN",
+     "flag": ""
+    },
+    {
+     "n": "tabseN",
+     "flag": ""
+    }
+   ]
+  },
+  "Team iBUYPOWER": {
+   "players": [
+    {
+     "n": "anger",
+     "flag": ""
+    },
+    {
+     "n": "Skadoodle",
+     "flag": ""
+    },
+    {
+     "n": "adreN",
+     "flag": ""
+    },
+    {
+     "n": "AZK",
+     "flag": ""
+    },
+    {
+     "n": "DaZeD",
+     "flag": ""
+    }
+   ]
+  },
+  "Vox Eminor": {
+   "players": [
+    {
+     "n": "SPUNJ",
+     "flag": ""
+    },
+    {
+     "n": "AZR",
+     "flag": ""
+    },
+    {
+     "n": "Havoc",
+     "flag": ""
+    },
+    {
+     "n": "SnypeR",
+     "flag": ""
+    },
+    {
+     "n": "TopguN",
+     "flag": ""
+    }
+   ]
+  }
+ },
+ "checked": "2026-11-15T10:29:39Z",
+ "errors": []
+}

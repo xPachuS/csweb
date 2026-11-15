@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T10:23:13Z",
- "calls": 23,
+ "checked": "2026-11-15T10:29:39Z",
+ "calls": 16,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -46,17 +46,16 @@
    "runnerup": "Ninjas in Pyjamas",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 250000,
+   "venue": "[http://www.spodekkatowice.pl/en/ Spodek]",
+   "teams": 16,
+   "page": "ESL/Major_Series_One/2014/Katowice",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:29:39Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2014-cologne",
@@ -70,20 +69,19 @@
    "game": "CS:GO",
    "status": "done",
    "champion": "Ninjas in Pyjamas",
-   "runnerup": "Fnatic",
+   "runnerup": "Fnc",
    "final": "2-1",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 250000,
+   "venue": "[http://www.koelnmesse.com/en/home/index.php Cologne Exhibition Centre]",
+   "teams": 16,
+   "page": "ESL/One/2014/Cologne",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:29:39Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2014-jonkoping",
@@ -100,17 +98,16 @@
    "runnerup": "Ninjas in Pyjamas",
    "final": "2-1",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 250000,
+   "venue": "[http://www.elmia.se Elmia]",
+   "teams": 16,
+   "page": "DreamHack/2014/Winter",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:29:39Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2015-katowice",
@@ -123,21 +120,20 @@
    "year": 2015,
    "game": "CS:GO",
    "status": "done",
-   "champion": "Fnatic",
+   "champion": "Fnc",
    "runnerup": "Ninjas in Pyjamas",
    "final": "2-1",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 250000,
+   "venue": "[http://www.spodekkatowice.pl/en/ Spodek]",
+   "teams": 16,
+   "page": "ESL/One/2015/Katowice",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:29:39Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2015-cologne",
@@ -151,20 +147,19 @@
    "game": "CS:GO",
    "status": "done",
    "champion": "Fnatic",
-   "runnerup": "Team EnVyUs",
+   "runnerup": "ENVY",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 250000,
+   "venue": "MMC Studios Cologne(Group Stages)[http://www.lanxess-arena.de/ Lanxess-Arena](Playoffs)",
+   "teams": 16,
+   "page": "ESL/One/2015/Cologne",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:29:39Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2015-cluj",
@@ -181,17 +176,16 @@
    "runnerup": "Natus Vincere",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 250000,
+   "venue": "Polyvalent Hall",
+   "teams": 16,
+   "page": "DreamHack/2015/Cluj-Napoca",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:29:39Z",
+   "parser": 4,
+   "tries": 0
   },
   {
    "id": "2016-columbus",
@@ -513,8 +507,9 @@
    "loaded": true,
    "frozen": false,
    "checked": "2026-11-15T10:23:13Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2024-copenhagen",
@@ -539,8 +534,9 @@
    "loaded": true,
    "frozen": false,
    "checked": "2026-11-15T10:23:13Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2024-shanghai",
@@ -565,8 +561,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:23:13Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2025-austin",
@@ -591,8 +588,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:23:13Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2025-budapest",
@@ -617,8 +615,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:23:13Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2026-cologne",
@@ -643,8 +642,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:23:13Z",
-   "parser": 4,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 4
   },
   {
    "id": "2026-singapore",
@@ -668,7 +668,7 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T10:23:13Z",
+   "checked": "2026-11-15T10:29:39Z",
    "parser": 4,
    "tries": 0
   },

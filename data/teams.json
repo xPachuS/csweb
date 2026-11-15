@@ -86,7 +86,7 @@
   },
   "BOT Bardolph": {
    "tpl": "bot bardolph",
-   "tries": 2
+   "tries": 3
   },
   "Bad News Eagles": {
    "tpl": "bne",
@@ -105,6 +105,10 @@
    "tpl": "bluejays",
    "logo": "img/teams/bluejays.png"
   },
+  "Bravado Gaming": {
+   "tpl": "bravado",
+   "logo": "img/teams/bravado.png"
+  },
   "CR4ZY": {
    "logo": "img/teams/cr4zy.png",
    "tpl": "cr4zy"
@@ -115,6 +119,11 @@
   "Chinggis Warriors": {
    "tpl": "chinggis",
    "logo": "img/teams/chinggis-warriors.png"
+  },
+  "Clan-Mystik": {
+   "tpl": "mystik",
+   "logo": "img/teams/mystik.png",
+   "dark": "img/teams/mystik-dark.png"
   },
   "Cloud9": {
    "tpl": "c9",
@@ -128,6 +137,10 @@
    "tpl": "cphf",
    "logo": "img/teams/cphf.png",
    "dark": "img/teams/cphf-dark.png"
+  },
+  "Copenhagen Wolves": {
+   "tpl": "cphw",
+   "logo": "img/teams/cphw.png"
   },
   "Counter Logic Gaming": {
    "tpl": "clg",
@@ -165,6 +178,15 @@
    "tpl": "ence",
    "logo": "img/teams/ence.png"
   },
+  "ENVY": {
+   "tpl": "envy",
+   "logo": "img/teams/envy.png",
+   "dark": "img/teams/envy-dark.png"
+  },
+  "ESC Gaming": {
+   "tpl": "esc",
+   "logo": "img/teams/esc.png"
+  },
   "Ecstatic": {
    "tpl": "ecstatic",
    "logo": "img/teams/ecstatic.png"
@@ -175,6 +197,11 @@
   "Entropiq": {
    "tpl": "entropiq",
    "logo": "img/teams/entropiq.png"
+  },
+  "Epsilon Esports": {
+   "tpl": "epsilon",
+   "logo": "img/teams/epsilon.png",
+   "dark": "img/teams/epsilon-dark.png"
   },
   "Eruption": {
    "tpl": "eruption",
@@ -337,9 +364,21 @@
    "tpl": "koi",
    "logo": "img/teams/koi.png"
   },
+  "Keyd Stars": {
+   "tpl": "keyd",
+   "logo": "img/teams/keyd.png"
+  },
+  "LGB eSports": {
+   "tpl": "lgb",
+   "logo": "img/teams/lgb.png"
+  },
   "Legacy": {
    "tpl": "legacy",
    "logo": "img/teams/legacy.png"
+  },
+  "London Conspiracy": {
+   "tpl": "lc",
+   "logo": "img/teams/lc.png"
   },
   "LookingForOrg": {
    "tpl": "l4o au",
@@ -446,6 +485,10 @@
    "dark": "img/teams/passion-ua-dark.png",
    "tpl": "passion ua"
   },
+  "Planetkey Dynamics": {
+   "tpl": "pkd",
+   "logo": "img/teams/pkd.png"
+  },
   "Poland": {
    "tpl": "poland",
    "logo": "img/teams/poland.png"
@@ -457,6 +500,10 @@
   "Rare Atom": {
    "tpl": "rare atom",
    "logo": "img/teams/rare-atom.png"
+  },
+  "Reason Gaming": {
+   "tpl": "reason",
+   "logo": "img/teams/reason.png"
   },
   "Renegades": {
    "tpl": "rng",
@@ -504,6 +551,11 @@
    "tpl": "talon",
    "logo": "img/teams/talon.png"
   },
+  "TSM": {
+   "tpl": "tsm",
+   "logo": "img/teams/tsm.png",
+   "dark": "img/teams/tsm-dark.png"
+  },
   "TYLOO": {
    "tpl": "tyloo",
    "logo": "img/teams/tyloo.png"
@@ -541,9 +593,18 @@
    "tpl": "team hai",
    "logo": "img/teams/team-hai.png"
   },
+  "Team Immunity": {
+   "tpl": "immunity",
+   "logo": "img/teams/immunity.png"
+  },
+  "Team Kinguin": {
+   "tpl": "kinguin",
+   "logo": "img/teams/kinguin.png"
+  },
   "Team LDLC.com": {
    "logo": "img/teams/team-ldlc-com.png",
-   "dark": "img/teams/team-ldlc-com-dark.png"
+   "dark": "img/teams/team-ldlc-com-dark.png",
+   "tpl": "ldlc"
   },
   "Team Liquid": {
    "tpl": "tl",
@@ -563,17 +624,35 @@
    "tpl": "team vaco",
    "tries": 3
   },
+  "Team Wolf": {
+   "tpl": "wolf",
+   "logo": "img/teams/wolf.png"
+  },
   "Team ddk": {
    "tpl": "team ddk",
    "tries": 3
   },
+  "Team eBettle": {
+   "tpl": "ebettle",
+   "logo": "img/teams/ebettle.png"
+  },
+  "Team iBUYPOWER": {
+   "tpl": "ibp",
+   "logo": "img/teams/ibp.png",
+   "dark": "img/teams/ibp-dark.png"
+  },
   "Team juliano": {
    "tpl": "team juliano",
-   "tries": 2
+   "tries": 3
   },
   "The MongolZ": {
    "tpl": "mongolz",
    "logo": "img/teams/the-mongolz.png"
+  },
+  "Titan": {
+   "tpl": "titan",
+   "logo": "img/teams/titan.png",
+   "dark": "img/teams/titan-dark.png"
   },
   "Twisted Minds": {
    "tpl": "twisted minds",
@@ -588,6 +667,10 @@
    "tpl": "vega",
    "logo": "img/teams/vega-squadron.png"
   },
+  "Vexed Gaming": {
+   "tpl": "vexed",
+   "logo": "img/teams/vexed.png"
+  },
   "Virtus.pro": {
    "tpl": "vp",
    "logo": "img/teams/virtus-pro.png"
@@ -601,14 +684,26 @@
    "logo": "img/teams/vit.png",
    "dark": "img/teams/vit-dark.png"
   },
+  "Vox Eminor": {
+   "tpl": "vox",
+   "logo": "img/teams/vox.png"
+  },
   "Wildcard": {
    "tpl": "wildcard",
    "logo": "img/teams/wildcard.png",
    "dark": "img/teams/wildcard-dark.png"
   },
+  "dAT Team": {
+   "tpl": "dat",
+   "logo": "img/teams/dat.png"
+  },
   "ex-TALON": {
    "tpl": "ex-talon",
    "tries": 3
+  },
+  "myXMG": {
+   "tpl": "myxmg",
+   "logo": "img/teams/myxmg.png"
   },
   "paiN Gaming": {
    "tpl": "pain",
@@ -621,31 +716,50 @@
   "blast dream team": "BLAST Dream Team",
   "bne": "Bad News Eagles",
   "bot bardolph": "BOT Bardolph",
+  "bravado": "Bravado Gaming",
   "col": "Complexity",
   "cph flames": "Copenhagen Flames",
   "cphf": "Copenhagen Flames",
+  "cphw": "Copenhagen Wolves",
   "cr4zy": "CR4ZY",
+  "cw": "Copenhagen Wolves",
+  "dat": "dAT Team",
   "dig": "Dignitas",
   "dreameaters": "DreamEaters",
   "drillas": "DRILLAS",
+  "ebettle": "Team eBettle",
+  "envy": "ENVY",
+  "epsilon": "Epsilon Esports",
+  "esc": "ESC Gaming",
   "ex-talon": "ex-TALON",
   "f3": "FlipSid3 Tactics",
   "forze": "FORZE Esports",
   "g2e": "G2 Esports",
   "ghg": "Grayhound Gaming",
   "hr": "HellRaisers",
+  "ibp": "Team iBUYPOWER",
   "ig int": "Invictus Gaming International",
   "ihc": "IHC Esports",
+  "immunity": "Team Immunity",
   "imt": "Immortals",
   "intz": "INTZ",
   "itb": "Into The Breach",
+  "keyd": "Keyd Stars",
+  "kinguin": "Team Kinguin",
   "l4o au": "LookingForOrg",
+  "lc": "London Conspiracy",
   "lg": "Luminosity Gaming",
+  "lgb": "LGB eSports",
   "monte.ua": "Monte",
   "movistar": "Movistar Riders",
+  "mystik": "Clan-Mystik",
+  "myxmg": "myXMG",
+  "na`vi": "Natus Vincere",
   "oddik": "ODDIK",
   "penta": "PENTA Sports",
+  "pkd": "Planetkey Dynamics",
   "pvision": "PARIVISION",
+  "reason": "Reason Gaming",
   "riders": "Movistar Riders",
   "rng": "Renegades",
   "sharks": "DENDELE CS",
@@ -662,6 +776,9 @@
   "team vaco": "Team VACO",
   "thunderdownunder": "Off Chops",
   "vega": "Vega Squadron",
-  "vertex": "VERTEX Esports Club"
+  "vertex": "VERTEX Esports Club",
+  "vexed": "Vexed Gaming",
+  "vox": "Vox Eminor",
+  "wolf": "Team Wolf"
  }
 }

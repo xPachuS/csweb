@@ -103,6 +103,34 @@
   "3DMAX": {
    "majors": [
     {
+     "id": "2014-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "gla1ve",
+      "Pimp",
+      "raalz",
+      "MSL",
+      "aizy"
+     ]
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "diSTURBED",
+      "natu",
+      "KHRN",
+      "stonde",
+      "xartE"
+     ]
+    },
+    {
      "id": "2024-shanghai",
      "rank": 19,
      "place": "Elimination Stage",
@@ -150,14 +178,29 @@
     }
    ],
    "maps": {
-    "Vertigo": [
+    "Dust II": [
+     2,
+     5,
+     0
+    ],
+    "Inferno": [
+     4,
+     6,
+     0
+    ],
+    "Overpass": [
      0,
      1,
      0
     ],
-    "Dust II": [
+    "Nuke": [
      2,
-     4,
+     6,
+     0
+    ],
+    "Vertigo": [
+     0,
+     1,
      0
     ],
     "Ancient": [
@@ -165,19 +208,9 @@
      2,
      0
     ],
-    "Nuke": [
-     2,
-     5,
-     0
-    ],
     "Anubis": [
      1,
      0,
-     0
-    ],
-    "Inferno": [
-     3,
-     5,
      0
     ],
     "Train": [
@@ -187,12 +220,12 @@
     ]
    },
    "rt": [
-    159,
-    173
+    187,
+    220
    ],
    "rct": [
-    153,
-    133
+    174,
+    157
    ],
    "titles": 0,
    "finals": 0
@@ -1263,6 +1296,46 @@
    "titles": 0,
    "finals": 0
   },
+  "Bravado Gaming": {
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "Cent",
+      "Detrony",
+      "Racno",
+      "bLacKpoisoN",
+      "deviaNt"
+     ]
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     0,
+     1,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    2,
+    28
+   ],
+   "rct": [
+    1,
+    4
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "CR4ZY": {
    "majors": [
     {
@@ -1387,8 +1460,125 @@
    "titles": 0,
    "finals": 0
   },
+  "Clan-Mystik": {
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "HaRts",
+      "kioShiMa",
+      "Sf",
+      "GMX",
+      "kennyS"
+     ]
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     0,
+     1,
+     0
+    ],
+    "Dust II": [
+     1,
+     0,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    17,
+    20
+   ],
+   "rct": [
+    17,
+    25
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "Cloud9": {
    "majors": [
+    {
+     "id": "2014-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 1,
+     "roster": [
+      "Hiko",
+      "SEMPHIS",
+      "seang@res",
+      "n0thing",
+      "shroud"
+     ]
+    },
+    {
+     "id": "2014-jonkoping",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "Hiko",
+      "seang@res",
+      "SEMPHIS",
+      "n0thing",
+      "shroud"
+     ]
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "n0thing",
+      "sgares",
+      "SEMPHIS",
+      "shroud",
+      "ShahZaM"
+     ]
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "sgares",
+      "n0thing",
+      "shroud",
+      "fREAKAZOiD",
+      "Skadoodle"
+     ],
+     "coach": "stunna"
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "n0thing",
+      "sgares",
+      "shroud",
+      "fREAKAZOiD",
+      "Skadoodle"
+     ],
+     "coach": "stunna"
+    },
     {
      "id": "2016-columbus",
      "rank": 20,
@@ -1449,38 +1639,43 @@
     }
    ],
    "maps": {
-    "Train": [
-     1,
-     2,
-     0
-    ],
     "Dust II": [
-     1,
      2,
+     7,
      0
     ],
     "Mirage": [
-     4,
+     5,
      2,
+     0
+    ],
+    "Nuke": [
+     3,
+     1,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     3,
      0
     ],
     "Inferno": [
      2,
-     3,
+     5,
      0
     ],
-    "Cobblestone": [
+    "Cache": [
+     1,
      0,
-     1,
-     0
-    ],
-    "Nuke": [
-     1,
-     1,
      0
     ],
     "Overpass": [
-     7,
+     8,
+     4,
+     0
+    ],
+    "Train": [
+     1,
      2,
      0
     ],
@@ -1501,18 +1696,32 @@
     ]
    },
    "rt": [
-    77,
-    81
+    173,
+    217
    ],
    "rct": [
-    99,
-    61
+    221,
+    176
    ],
    "titles": 0,
    "finals": 0
   },
   "Complexity": {
    "majors": [
+    {
+     "id": "2014-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "Hiko",
+      "Semphis",
+      "seang@res",
+      "swag",
+      "n0thing"
+     ]
+    },
     {
      "id": "2019-berlin",
      "rank": 20,
@@ -1590,8 +1799,23 @@
    ],
    "maps": {
     "Inferno": [
-     3,
+     4,
      8,
+     0
+    ],
+    "Dust II": [
+     1,
+     3,
+     0
+    ],
+    "Nuke": [
+     2,
+     3,
+     0
+    ],
+    "Train": [
+     0,
+     2,
      0
     ],
     "Overpass": [
@@ -1604,16 +1828,6 @@
      1,
      0
     ],
-    "Dust II": [
-     0,
-     2,
-     0
-    ],
-    "Nuke": [
-     1,
-     2,
-     0
-    ],
     "Ancient": [
      2,
      4,
@@ -1623,20 +1837,15 @@
      1,
      4,
      0
-    ],
-    "Train": [
-     0,
-     1,
-     0
     ]
    },
    "rt": [
-    117,
-    184
+    158,
+    216
    ],
    "rct": [
-    142,
-    143
+    173,
+    189
    ],
    "titles": 0,
    "finals": 0
@@ -1701,8 +1910,114 @@
    "titles": 0,
    "finals": 0
   },
+  "Copenhagen Wolves": {
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "gla1ve",
+      "karrigan",
+      "cajunb",
+      "Pimp",
+      "Nico"
+     ]
+    },
+    {
+     "id": "2014-jonkoping",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "gla1ve",
+      "Pimp",
+      "tenzki",
+      "Kjaerbye",
+      "cadiaN"
+     ]
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     0,
+     1,
+     0
+    ],
+    "Cache": [
+     1,
+     0,
+     0
+    ],
+    "Dust II": [
+     0,
+     2,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    26,
+    40
+   ],
+   "rct": [
+    27,
+    28
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "Counter Logic Gaming": {
    "majors": [
+    {
+     "id": "2015-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "reltuC",
+      "hazed",
+      "tarik",
+      "ptr",
+      "FNS"
+     ]
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "reltuC",
+      "FNS",
+      "hazed",
+      "tarik",
+      "jdm64"
+     ]
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "reltuC",
+      "FNS",
+      "hazed",
+      "tarik",
+      "jdm64"
+     ]
+    },
     {
      "id": "2016-columbus",
      "rank": 5,
@@ -1719,8 +2034,33 @@
     }
    ],
    "maps": {
-    "Cobblestone": [
+    "Nuke": [
+     1,
+     0,
+     0
+    ],
+    "Mirage": [
      2,
+     2,
+     0
+    ],
+    "Dust II": [
+     0,
+     3,
+     0
+    ],
+    "Cobblestone": [
+     4,
+     3,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ],
+    "Inferno": [
+     0,
      1,
      0
     ],
@@ -1733,25 +2073,15 @@
      0,
      2,
      0
-    ],
-    "Mirage": [
-     1,
-     1,
-     0
-    ],
-    "Dust II": [
-     0,
-     1,
-     0
     ]
    },
    "rt": [
-    0,
-    0
+    66,
+    82
    ],
    "rct": [
-    0,
-    0
+    69,
+    82
    ],
    "titles": 0,
    "finals": 0
@@ -1849,6 +2179,34 @@
   "Dignitas": {
    "majors": [
     {
+     "id": "2014-katowice",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2014-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 2
+    },
+    {
+     "id": "2014-jonkoping",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 1
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2
+    },
+    {
      "id": "2016-cologne",
      "rank": 20,
      "place": "Fase de grupos",
@@ -1857,19 +2215,44 @@
     }
    ],
    "maps": {
+    "Nuke": [
+     4,
+     1,
+     0
+    ],
+    "Inferno": [
+     2,
+     1,
+     0
+    ],
+    "Dust II": [
+     3,
+     1,
+     0
+    ],
+    "Mirage": [
+     1,
+     2,
+     0
+    ],
     "Overpass": [
      0,
-     1,
+     2,
+     0
+    ],
+    "Cobblestone": [
+     0,
+     3,
      0
     ]
    },
    "rt": [
-    0,
-    0
+    91,
+    127
    ],
    "rct": [
-    0,
-    0
+    155,
+    94
    ],
    "titles": 0,
    "finals": 0
@@ -2036,6 +2419,94 @@
    "titles": 0,
    "finals": 0
   },
+  "ENVY": {
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 1,
+     "l": 1
+    }
+   ],
+   "maps": {
+    "Cache": [
+     1,
+     0,
+     0
+    ],
+    "Dust II": [
+     0,
+     2,
+     0
+    ],
+    "Inferno": [
+     1,
+     0,
+     0
+    ],
+    "Cobblestone": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    35,
+    27
+   ],
+   "rct": [
+    27,
+    41
+   ],
+   "titles": 0,
+   "finals": 1
+  },
+  "ESC Gaming": {
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "innocent",
+      "SZPERO",
+      "mouz",
+      "MINISE",
+      "rallen"
+     ]
+    }
+   ],
+   "maps": {
+    "Cobblestone": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     1,
+     0,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    13,
+    32
+   ],
+   "rct": [
+    20,
+    13
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "Ecstatic": {
    "majors": [
     {
@@ -2138,6 +2609,44 @@
    "rct": [
     0,
     0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Epsilon Esports": {
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 1
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     1,
+     1,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     0,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    22,
+    19
+   ],
+   "rct": [
+    27,
+    20
    ],
    "titles": 0,
    "finals": 0
@@ -2786,6 +3295,64 @@
   "FlipSid3 Tactics": {
    "majors": [
     {
+     "id": "2014-jonkoping",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "twist",
+      "berg",
+      "zende",
+      "BENDJI",
+      "Dumas"
+     ]
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "B1ad3",
+      "bondik",
+      "WorldEdit",
+      "markeloff",
+      "DavCost"
+     ]
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "B1ad3",
+      "WorldEdit",
+      "bondik",
+      "markeloff",
+      "DavCost"
+     ],
+     "coach": "Johnta"
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "B1ad3",
+      "WorldEdit",
+      "bondik",
+      "markeloff",
+      "DavCost"
+     ],
+     "coach": "Johnta"
+    },
+    {
      "id": "2016-columbus",
      "rank": 20,
      "place": "Fase de grupos",
@@ -2815,29 +3382,34 @@
     }
    ],
    "maps": {
-    "Cache": [
-     1,
-     1,
-     0
-    ],
-    "Cobblestone": [
-     0,
-     1,
-     0
-    ],
-    "Train": [
-     2,
+    "Mirage": [
+     3,
      4,
      0
     ],
     "Overpass": [
      0,
+     4,
+     0
+    ],
+    "Cache": [
+     1,
+     3,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ],
+    "Cobblestone": [
+     1,
      2,
      0
     ],
-    "Mirage": [
+    "Train": [
      2,
-     2,
+     4,
      0
     ],
     "Nuke": [
@@ -2847,12 +3419,12 @@
     ]
    },
    "rt": [
-    0,
-    0
+    47,
+    86
    ],
    "rct": [
-    0,
-    0
+    44,
+    65
    ],
    "titles": 0,
    "finals": 0
@@ -3088,6 +3660,51 @@
   "Fnatic": {
    "majors": [
     {
+     "id": "2014-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "JW",
+      "flusha",
+      "schneider",
+      "Devilwalk",
+      "pronax"
+     ],
+     "coach": "cArn"
+    },
+    {
+     "id": "2014-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 2,
+     "l": 0,
+     "roster": [
+      "JW",
+      "flusha",
+      "pronax",
+      "olofmeister",
+      "KRIMZ"
+     ],
+     "coach": "Devilwalk"
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 2,
+     "l": 0,
+     "roster": [
+      "JW",
+      "flusha",
+      "pronax",
+      "olofmeister",
+      "KRIMZ"
+     ],
+     "coach": "vuggo"
+    },
+    {
      "id": "2016-cologne",
      "rank": 3,
      "place": "Semifinales",
@@ -3147,9 +3764,34 @@
     }
    ],
    "maps": {
-    "Cobblestone": [
+    "Inferno": [
+     4,
+     3,
+     0
+    ],
+    "Mirage": [
+     3,
+     5,
+     0
+    ],
+    "Train": [
+     0,
      2,
+     0
+    ],
+    "Cobblestone": [
+     4,
      1,
+     0
+    ],
+    "Overpass": [
+     1,
+     3,
+     0
+    ],
+    "Dust II": [
+     3,
+     0,
      0
     ],
     "Cache": [
@@ -3157,34 +3799,9 @@
      3,
      0
     ],
-    "Dust II": [
-     2,
-     0,
-     0
-    ],
-    "Overpass": [
-     0,
-     3,
-     0
-    ],
     "Nuke": [
      3,
      1,
-     0
-    ],
-    "Train": [
-     0,
-     1,
-     0
-    ],
-    "Inferno": [
-     1,
-     2,
-     0
-    ],
-    "Mirage": [
-     2,
-     4,
      0
     ],
     "Vertigo": [
@@ -3199,18 +3816,53 @@
     ]
    },
    "rt": [
-    21,
-    30
+    92,
+    103
    ],
    "rct": [
-    32,
-    25
+    125,
+    76
    ],
-   "titles": 0,
-   "finals": 0
+   "titles": 1,
+   "finals": 1
   },
   "Fnc": {
    "majors": [
+    {
+     "id": "2014-cologne",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 2,
+     "l": 1
+    },
+    {
+     "id": "2014-jonkoping",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 5,
+     "l": 0
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 0
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2
+    },
     {
      "id": "2016-columbus",
      "rank": 5,
@@ -3262,44 +3914,44 @@
     }
    ],
    "maps": {
-    "Train": [
-     4,
-     1,
+    "Inferno": [
+     11,
+     5,
      0
     ],
     "Dust II": [
-     1,
-     3,
-     0
-    ],
-    "Mirage": [
      5,
-     1,
-     0
-    ],
-    "Cobblestone": [
-     1,
-     0,
-     0
-    ],
-    "Overpass": [
-     2,
-     3,
-     0
-    ],
-    "Cache": [
-     2,
-     2,
+     5,
      0
     ],
     "Nuke": [
-     0,
+     1,
      1,
      0
     ],
-    "Inferno": [
-     5,
+    "Overpass": [
+     4,
      3,
+     0
+    ],
+    "Cobblestone": [
+     5,
+     2,
+     0
+    ],
+    "Cache": [
+     5,
+     4,
+     0
+    ],
+    "Mirage": [
+     9,
+     3,
+     0
+    ],
+    "Train": [
+     5,
+     1,
      0
     ],
     "Ancient": [
@@ -3314,15 +3966,15 @@
     ]
    },
    "rt": [
-    105,
-    130
+    304,
+    341
    ],
    "rct": [
-    117,
-    120
+    412,
+    296
    ],
-   "titles": 0,
-   "finals": 0
+   "titles": 1,
+   "finals": 2
   },
   "Fut": {
    "majors": [
@@ -3386,6 +4038,21 @@
   },
   "G2 Esports": {
    "majors": [
+    {
+     "id": "2015-cluj",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 2,
+     "roster": [
+      "Maikelele",
+      "fox",
+      "rain",
+      "dennis",
+      "jkaem"
+     ],
+     "coach": "zbM"
+    },
     {
      "id": "2016-columbus",
      "rank": 20,
@@ -3545,29 +4212,34 @@
     }
    ],
    "maps": {
-    "Train": [
-     1,
-     4,
+    "Inferno": [
+     22,
+     9,
      0
     ],
     "Dust II": [
-     11,
-     7,
+     12,
+     8,
      0
     ],
-    "Inferno": [
-     21,
-     7,
+    "Mirage": [
+     17,
+     3,
+     0
+    ],
+    "Cache": [
+     3,
+     2,
+     0
+    ],
+    "Train": [
+     2,
+     4,
      0
     ],
     "Cobblestone": [
      1,
      2,
-     0
-    ],
-    "Cache": [
-     1,
-     1,
      0
     ],
     "Nuke": [
@@ -3590,11 +4262,6 @@
      12,
      0
     ],
-    "Mirage": [
-     16,
-     3,
-     0
-    ],
     "Anubis": [
      4,
      3,
@@ -3602,12 +4269,12 @@
     ]
    },
    "rt": [
-    405,
-    355
+    475,
+    426
    ],
    "rct": [
-    396,
-    366
+    460,
+    421
    ],
    "titles": 0,
    "finals": 1
@@ -4257,6 +4924,63 @@
   "HellRaisers": {
    "majors": [
     {
+     "id": "2014-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "ANGE1",
+      "Dosia",
+      "AdreN",
+      "markeloff",
+      "kUcheR"
+     ]
+    },
+    {
+     "id": "2014-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "ANGE1",
+      "Dosia",
+      "AdreN",
+      "markeloff",
+      "kUcheR"
+     ]
+    },
+    {
+     "id": "2014-jonkoping",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 1,
+     "roster": [
+      "ANGE1",
+      "Dosia",
+      "markeloff",
+      "kUcheR",
+      "s1mple"
+     ],
+     "coach": "B1ad3"
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "ANGE1",
+      "kUcheR",
+      "Dosia",
+      "AdreN",
+      "flamie"
+     ]
+    },
+    {
      "id": "2017-atlanta",
      "rank": 20,
      "place": "Fase suiza",
@@ -4273,33 +4997,43 @@
    ],
    "maps": {
     "Mirage": [
-     0,
+     2,
+     5,
+     0
+    ],
+    "Dust II": [
+     1,
      3,
+     0
+    ],
+    "Inferno": [
+     3,
+     5,
+     0
+    ],
+    "Overpass": [
+     0,
+     1,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
      0
     ],
     "Cache": [
      0,
      1,
      0
-    ],
-    "Inferno": [
-     1,
-     2,
-     0
-    ],
-    "Dust II": [
-     0,
-     1,
-     0
     ]
    },
    "rt": [
-    0,
-    0
+    71,
+    113
    ],
    "rct": [
-    0,
-    0
+    91,
+    76
    ],
    "titles": 0,
    "finals": 0
@@ -4793,6 +5527,130 @@
    "titles": 0,
    "finals": 0
   },
+  "Keyd Stars": {
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "FalleN",
+      "fer",
+      "steel",
+      "zqk",
+      "boltz"
+     ]
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     1,
+     1,
+     0
+    ],
+    "Dust II": [
+     1,
+     0,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ],
+    "Overpass": [
+     1,
+     0,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    33,
+    52
+   ],
+   "rct": [
+    28,
+    31
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "LGB eSports": {
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1,
+     "roster": [
+      "KRiMZ",
+      "dennis",
+      "olofm",
+      "twist",
+      "cype"
+     ]
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "RUBINO",
+      "rain",
+      "jkaem",
+      "zEVES",
+      "Polly"
+     ]
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     1,
+     2,
+     0
+    ],
+    "Dust II": [
+     2,
+     1,
+     0
+    ],
+    "Mirage": [
+     2,
+     0,
+     0
+    ],
+    "Train": [
+     1,
+     1,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    57,
+    81
+   ],
+   "rct": [
+    84,
+    62
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "Legacy": {
    "majors": [
     {
@@ -4929,8 +5787,78 @@
    "titles": 0,
    "finals": 0
   },
+  "London Conspiracy": {
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "Polly",
+      "Skurk",
+      "RUBINO",
+      "rain",
+      "prb"
+     ]
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     0,
+     1,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    6,
+    24
+   ],
+   "rct": [
+    1,
+    8
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "Luminosity Gaming": {
    "majors": [
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "FalleN",
+      "fer",
+      "steel",
+      "boltz",
+      "coldzera"
+     ],
+     "coach": "nak"
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 1,
+     "roster": [
+      "FalleN",
+      "fer",
+      "boltz",
+      "steel",
+      "coldzera"
+     ],
+     "coach": "nak"
+    },
     {
      "id": "2016-columbus",
      "rank": 1,
@@ -4940,8 +5868,33 @@
     }
    ],
    "maps": {
+    "Overpass": [
+     3,
+     1,
+     0
+    ],
+    "Cobblestone": [
+     2,
+     1,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ],
     "Mirage": [
      4,
+     1,
+     0
+    ],
+    "Dust II": [
+     1,
+     1,
+     0
+    ],
+    "Inferno": [
+     1,
      0,
      0
     ],
@@ -4949,25 +5902,15 @@
      1,
      1,
      0
-    ],
-    "Cobblestone": [
-     1,
-     0,
-     0
-    ],
-    "Overpass": [
-     2,
-     0,
-     0
     ]
    },
    "rt": [
-    0,
-    0
+    56,
+    66
    ],
    "rct": [
-    0,
-    0
+    68,
+    58
    ],
    "titles": 1,
    "finals": 1
@@ -5357,6 +6300,49 @@
   "MOUZ": {
    "majors": [
     {
+     "id": "2014-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "chrisJ",
+      "LEGIJA",
+      "tiziaN",
+      "cadiaN",
+      "tabseN"
+     ]
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "chrisJ",
+      "gob b",
+      "denis",
+      "Spiidi",
+      "nex"
+     ]
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "chrisJ",
+      "gob b",
+      "NiKo",
+      "nex",
+      "denis"
+     ],
+     "coach": "PsYcHo"
+    },
+    {
      "id": "2016-columbus",
      "rank": 20,
      "place": "Fase de grupos",
@@ -5514,24 +6500,34 @@
     }
    ],
    "maps": {
-    "Mirage": [
+    "Dust II": [
+     6,
+     5,
+     0
+    ],
+    "Overpass": [
      7,
-     18,
+     6,
      0
     ],
     "Cobblestone": [
      1,
-     4,
+     5,
+     0
+    ],
+    "Inferno": [
+     13,
+     13,
+     0
+    ],
+    "Mirage": [
+     7,
+     19,
      0
     ],
     "Cache": [
      2,
-     0,
-     0
-    ],
-    "Overpass": [
-     6,
-     5,
+     1,
      0
     ],
     "Train": [
@@ -5539,19 +6535,9 @@
      4,
      0
     ],
-    "Dust II": [
-     6,
-     3,
-     0
-    ],
     "Nuke": [
      12,
      7,
-     0
-    ],
-    "Inferno": [
-     12,
-     12,
      0
     ],
     "Vertigo": [
@@ -5566,12 +6552,12 @@
     ]
    },
    "rt": [
-    289,
-    337
+    342,
+    407
    ],
    "rct": [
-    330,
-    273
+    375,
+    334
    ],
    "titles": 0,
    "finals": 0
@@ -5870,6 +6856,93 @@
   "Natus Vincere": {
    "majors": [
     {
+     "id": "2014-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "Zeus",
+      "starix",
+      "seized",
+      "Edward",
+      "GuardiaN"
+     ]
+    },
+    {
+     "id": "2014-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "Zeus",
+      "starix",
+      "seized",
+      "Edward",
+      "GuardiaN"
+     ]
+    },
+    {
+     "id": "2014-jonkoping",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 2,
+     "roster": [
+      "Zeus",
+      "starix",
+      "seized",
+      "Edward",
+      "GuardiaN"
+     ]
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "Zeus",
+      "starix",
+      "seized",
+      "Edward",
+      "GuardiaN"
+     ],
+     "coach": "Ugin"
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "Zeus",
+      "seized",
+      "Edward",
+      "GuardiaN",
+      "flamie"
+     ],
+     "coach": "starix"
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 4,
+     "l": 2,
+     "roster": [
+      "Zeus",
+      "seized",
+      "Edward",
+      "GuardiaN",
+      "flamie"
+     ],
+     "coach": "starix"
+    },
+    {
      "id": "2016-columbus",
      "rank": 2,
      "place": "Subcampeón",
@@ -6035,39 +7108,44 @@
     }
    ],
    "maps": {
-    "Train": [
-     9,
-     2,
-     0
-    ],
-    "Cobblestone": [
-     4,
-     1,
-     0
-    ],
     "Inferno": [
-     8,
-     8,
-     0
-    ],
-    "Mirage": [
-     18,
-     13,
+     11,
+     14,
      0
     ],
     "Dust II": [
-     7,
-     4,
-     0
-    ],
-    "Overpass": [
-     6,
+     12,
      6,
      0
     ],
     "Nuke": [
      14,
-     8,
+     10,
+     0
+    ],
+    "Mirage": [
+     21,
+     15,
+     0
+    ],
+    "Overpass": [
+     9,
+     6,
+     0
+    ],
+    "Cobblestone": [
+     7,
+     5,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ],
+    "Train": [
+     11,
+     3,
      0
     ],
     "Ancient": [
@@ -6082,15 +7160,15 @@
     ]
    },
    "rt": [
-    332,
-    353
+    513,
+    620
    ],
    "rct": [
-    356,
-    347
+    643,
+    548
    ],
    "titles": 2,
-   "finals": 4
+   "finals": 5
   },
   "Nemiga": {
    "majors": [
@@ -6154,6 +7232,93 @@
   },
   "Ninjas in Pyjamas": {
    "majors": [
+    {
+     "id": "2014-katowice",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 4,
+     "l": 1,
+     "roster": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "Fifflaren",
+      "friberg"
+     ]
+    },
+    {
+     "id": "2014-cologne",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 5,
+     "l": 1,
+     "roster": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "Fifflaren",
+      "friberg"
+     ],
+     "coach": "pita"
+    },
+    {
+     "id": "2014-jonkoping",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 4,
+     "l": 2,
+     "roster": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "Maikelele"
+     ],
+     "coach": "pita"
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 4,
+     "l": 1,
+     "roster": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "allu"
+     ]
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "allu"
+     ],
+     "coach": "natu"
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 2,
+     "roster": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "allu"
+     ]
+    },
     {
      "id": "2016-columbus",
      "rank": 5,
@@ -6244,42 +7409,42 @@
     }
    ],
    "maps": {
-    "Cache": [
-     1,
-     2,
-     0
-    ],
-    "Mirage": [
-     5,
-     5,
-     0
-    ],
-    "Cobblestone": [
-     1,
-     1,
-     0
-    ],
-    "Overpass": [
-     5,
-     3,
+    "Dust II": [
+     10,
+     8,
      0
     ],
     "Inferno": [
-     6,
-     7,
-     0
-    ],
-    "Dust II": [
-     1,
-     4,
-     0
-    ],
-    "Train": [
-     2,
-     4,
+     14,
+     12,
      0
     ],
     "Nuke": [
+     10,
+     6,
+     0
+    ],
+    "Train": [
+     4,
+     6,
+     0
+    ],
+    "Mirage": [
+     7,
+     6,
+     0
+    ],
+    "Cobblestone": [
+     4,
+     3,
+     0
+    ],
+    "Overpass": [
+     7,
+     5,
+     0
+    ],
+    "Cache": [
      5,
      5,
      0
@@ -6296,15 +7461,15 @@
     ]
    },
    "rt": [
-    137,
-    161
+    475,
+    497
    ],
    "rct": [
-    177,
-    114
+    584,
+    403
    ],
-   "titles": 0,
-   "finals": 0
+   "titles": 1,
+   "finals": 4
   },
   "North": {
    "majors": [
@@ -6727,6 +7892,35 @@
   "PENTA Sports": {
    "majors": [
     {
+     "id": "2014-jonkoping",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "fel1x",
+      "kRYSTAL",
+      "r0bs3n",
+      "denis",
+      "Spiidi"
+     ]
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "Troubley",
+      "kRYSTAL",
+      "nex",
+      "denis",
+      "Spiidi"
+     ],
+     "coach": "MooZE"
+    },
+    {
      "id": "2017-krakow",
      "rank": 20,
      "place": "Fase suiza",
@@ -6735,14 +7929,29 @@
     }
    ],
    "maps": {
-    "Inferno": [
+    "Nuke": [
      0,
      1,
      0
     ],
+    "Dust II": [
+     2,
+     1,
+     0
+    ],
+    "Inferno": [
+     1,
+     2,
+     0
+    ],
+    "Cache": [
+     1,
+     2,
+     0
+    ],
     "Mirage": [
      1,
-     1,
+     2,
      0
     ],
     "Train": [
@@ -6752,12 +7961,12 @@
     ]
    },
    "rt": [
-    0,
-    0
+    37,
+    84
    ],
    "rct": [
-    0,
-    0
+    68,
+    53
    ],
    "titles": 0,
    "finals": 0
@@ -6844,6 +8053,46 @@
    "rct": [
     148,
     113
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Planetkey Dynamics": {
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "strux1",
+      "stavros",
+      "alexRr",
+      "Troubley",
+      "nex"
+     ]
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    9,
+    20
+   ],
+   "rct": [
+    6,
+    12
    ],
    "titles": 0,
    "finals": 0
@@ -6981,8 +8230,57 @@
    "titles": 0,
    "finals": 0
   },
+  "Reason Gaming": {
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "EXR",
+      "LOMME",
+      "Friis",
+      "karrigan",
+      "smF"
+     ]
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     1,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    10,
+    25
+   ],
+   "rct": [
+    20,
+    19
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "Renegades": {
    "majors": [
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "SPUNJ",
+      "AZR",
+      "Havoc",
+      "jks",
+      "yam"
+     ]
+    },
     {
      "id": "2019-berlin",
      "rank": 3,
@@ -7006,6 +8304,21 @@
     }
    ],
    "maps": {
+    "Train": [
+     1,
+     1,
+     0
+    ],
+    "Mirage": [
+     5,
+     1,
+     0
+    ],
+    "Inferno": [
+     1,
+     4,
+     0
+    ],
     "Dust II": [
      0,
      4,
@@ -7016,34 +8329,19 @@
      3,
      0
     ],
-    "Mirage": [
-     4,
-     1,
-     0
-    ],
-    "Train": [
-     1,
-     0,
-     0
-    ],
     "Nuke": [
      2,
-     3,
-     0
-    ],
-    "Inferno": [
-     1,
      3,
      0
     ]
    },
    "rt": [
-    0,
-    0
+    15,
+    25
    ],
    "rct": [
-    0,
-    0
+    17,
+    16
    ],
    "titles": 0,
    "finals": 0
@@ -7299,6 +8597,73 @@
    "titles": 0,
    "finals": 0
   },
+  "TSM": {
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 1
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     1,
+     2,
+     0
+    ],
+    "Overpass": [
+     2,
+     0,
+     0
+    ],
+    "Dust II": [
+     3,
+     2,
+     0
+    ],
+    "Inferno": [
+     1,
+     1,
+     0
+    ],
+    "Train": [
+     1,
+     1,
+     0
+    ],
+    "Cache": [
+     2,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    117,
+    90
+   ],
+   "rct": [
+    116,
+    92
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "TYLOO": {
    "majors": [
     {
@@ -7484,6 +8849,51 @@
   "Team EnVyUs": {
    "majors": [
     {
+     "id": "2015-katowice",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1,
+     "roster": [
+      "Happy",
+      "NBK-",
+      "kioShiMa",
+      "shox",
+      "SmithZz"
+     ],
+     "coach": "Next"
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 0,
+     "roster": [
+      "Happy",
+      "NBK-",
+      "kioShiMa",
+      "kennyS",
+      "apEX"
+     ],
+     "coach": "Next"
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 5,
+     "l": 0,
+     "roster": [
+      "Happy",
+      "NBK-",
+      "kioShiMa",
+      "kennyS",
+      "apEX"
+     ],
+     "coach": "Next"
+    },
+    {
      "id": "2016-columbus",
      "rank": 20,
      "place": "Fase de grupos",
@@ -7507,17 +8917,32 @@
    ],
    "maps": {
     "Cobblestone": [
-     0,
+     6,
      3,
      0
     ],
     "Cache": [
+     6,
+     2,
+     0
+    ],
+    "Dust II": [
+     0,
+     3,
+     0
+    ],
+    "Inferno": [
+     3,
+     0,
+     0
+    ],
+    "Mirage": [
      2,
      1,
      0
     ],
     "Train": [
-     0,
+     1,
      2,
      0
     ],
@@ -7528,15 +8953,15 @@
     ]
    },
    "rt": [
-    0,
-    0
+    134,
+    111
    ],
    "rct": [
-    0,
-    0
+    172,
+    114
    ],
-   "titles": 0,
-   "finals": 0
+   "titles": 1,
+   "finals": 1
   },
   "Team Falcons": {
    "majors": [
@@ -7646,8 +9071,200 @@
    "titles": 1,
    "finals": 1
   },
+  "Team Immunity": {
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "SnypeR",
+      "Rickeh",
+      "James",
+      "emagine",
+      "USTILO"
+     ]
+    }
+   ],
+   "maps": {
+    "Cobblestone": [
+     0,
+     1,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    10,
+    19
+   ],
+   "rct": [
+    11,
+    13
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Team Kinguin": {
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "ScreaM",
+      "Maikelele",
+      "rain",
+      "fox",
+      "dennis"
+     ],
+     "coach": "LEGIJA"
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     0,
+     2,
+     0
+    ],
+    "Dust II": [
+     2,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    28,
+    40
+   ],
+   "rct": [
+    24,
+    34
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Team LDLC.com": {
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "Happy",
+      "Uzzziii",
+      "Maniac",
+      "KQLY",
+      "apEX"
+     ],
+     "coach": "MoMaN"
+    },
+    {
+     "id": "2014-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1,
+     "roster": [
+      "Happy",
+      "Uzzziii",
+      "Maniac",
+      "KQLY",
+      "apEX"
+     ],
+     "coach": "MoMaN"
+    },
+    {
+     "id": "2014-jonkoping",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 5,
+     "l": 0,
+     "roster": [
+      "NBK-",
+      "SmithZz",
+      "kioShiMa",
+      "shox",
+      "Happy"
+     ],
+     "coach": "MoMaN"
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     5,
+     3,
+     0
+    ],
+    "Mirage": [
+     1,
+     1,
+     0
+    ],
+    "Nuke": [
+     1,
+     1,
+     0
+    ],
+    "Dust II": [
+     4,
+     0,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     1,
+     0
+    ],
+    "Overpass": [
+     2,
+     0,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    118,
+    136
+   ],
+   "rct": [
+    155,
+    126
+   ],
+   "titles": 1,
+   "finals": 1
+  },
   "Team Liquid": {
    "majors": [
+    {
+     "id": "2015-cluj",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "adreN",
+      "nitr0",
+      "FugLy",
+      "EliGE",
+      "Hiko"
+     ],
+     "coach": "GBJame^s"
+    },
     {
      "id": "2016-columbus",
      "rank": 3,
@@ -7790,6 +9407,16 @@
     }
    ],
    "maps": {
+    "Cobblestone": [
+     3,
+     3,
+     0
+    ],
+    "Mirage": [
+     11,
+     9,
+     0
+    ],
     "Cache": [
      3,
      2,
@@ -7800,19 +9427,9 @@
      7,
      0
     ],
-    "Mirage": [
-     11,
-     8,
-     0
-    ],
     "Train": [
      2,
      4,
-     0
-    ],
-    "Cobblestone": [
-     3,
-     2,
      0
     ],
     "Nuke": [
@@ -7847,12 +9464,12 @@
     ]
    },
    "rt": [
-    278,
-    318
+    293,
+    330
    ],
    "rct": [
-    351,
-    268
+    362,
+    287
    ],
    "titles": 0,
    "finals": 1
@@ -8030,6 +9647,47 @@
    "titles": 1,
    "finals": 1
   },
+  "Team Wolf": {
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "RiTz",
+      "RiX",
+      "astaRR",
+      "Ace",
+      "MithilF"
+     ],
+     "coach": "kassad"
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    7,
+    16
+   ],
+   "rct": [
+    4,
+    16
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "Team ddk": {
    "majors": [
     {
@@ -8054,6 +9712,120 @@
    "rct": [
     0,
     0
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Team eBettle": {
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "Furlan",
+      "Hyper",
+      "GruBy",
+      "peet",
+      "rallen"
+     ]
+    }
+   ],
+   "maps": {
+    "Mirage": [
+     0,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    6,
+    24
+   ],
+   "rct": [
+    10,
+    8
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "Team iBUYPOWER": {
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "anger",
+      "Skadoodle",
+      "adreN",
+      "AZK",
+      "DaZeD"
+     ]
+    },
+    {
+     "id": "2014-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "Skadoodle",
+      "AZK",
+      "DaZeD",
+      "steel",
+      "swag"
+     ]
+    },
+    {
+     "id": "2014-jonkoping",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "AZK",
+      "Skadoodle",
+      "swag",
+      "nitr0",
+      "desi"
+     ],
+     "coach": "Irukandji"
+    }
+   ],
+   "maps": {
+    "Nuke": [
+     1,
+     2,
+     0
+    ],
+    "Inferno": [
+     0,
+     2,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     1,
+     0
+    ],
+    "Cache": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    26,
+    74
+   ],
+   "rct": [
+    56,
+    32
    ],
    "titles": 0,
    "finals": 0
@@ -8242,6 +10014,134 @@
    "titles": 0,
    "finals": 1
   },
+  "Titan": {
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "Ex6TenZ",
+      "NBK-",
+      "SmithZz",
+      "ScreaM",
+      "shox"
+     ]
+    },
+    {
+     "id": "2014-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "Ex6TenZ",
+      "NBK-",
+      "SmithZz",
+      "ScreaM",
+      "kennyS"
+     ]
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "kennyS",
+      "Ex6TenZ",
+      "apEX",
+      "Maniac",
+      "RpK"
+     ]
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "Ex6TenZ",
+      "Maniac",
+      "RpK",
+      "SmithZz",
+      "shox"
+     ],
+     "coach": "NiaK"
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "Ex6TenZ",
+      "RpK",
+      "shox",
+      "SmithZz",
+      "ScreaM"
+     ],
+     "coach": "NiaK"
+    }
+   ],
+   "maps": {
+    "Dust II": [
+     1,
+     2,
+     0
+    ],
+    "Mirage": [
+     0,
+     2,
+     0
+    ],
+    "Inferno": [
+     0,
+     1,
+     0
+    ],
+    "Nuke": [
+     1,
+     1,
+     0
+    ],
+    "Cobblestone": [
+     1,
+     1,
+     0
+    ],
+    "Cache": [
+     0,
+     2,
+     0
+    ],
+    "Overpass": [
+     0,
+     1,
+     0
+    ],
+    "Train": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    62,
+    118
+   ],
+   "rct": [
+    87,
+    75
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "Vega Squadron": {
    "majors": [
     {
@@ -8280,8 +10180,130 @@
    "titles": 0,
    "finals": 0
   },
+  "Vexed Gaming": {
+   "majors": [
+    {
+     "id": "2015-cluj",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "Furlan",
+      "Hyper",
+      "GruBy",
+      "peet",
+      "rallen"
+     ]
+    }
+   ],
+   "maps": {
+    "Cobblestone": [
+     0,
+     2,
+     0
+    ]
+   },
+   "rt": [
+    6,
+    19
+   ],
+   "rct": [
+    17,
+    13
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "Virtus.pro": {
    "majors": [
+    {
+     "id": "2014-katowice",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 5,
+     "l": 0,
+     "roster": [
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+     ]
+    },
+    {
+     "id": "2014-cologne",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+     ]
+    },
+    {
+     "id": "2014-jonkoping",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1,
+     "roster": [
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+     ]
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1,
+     "roster": [
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+     ],
+     "coach": "kuben"
+    },
+    {
+     "id": "2015-cologne",
+     "rank": 3,
+     "place": "Semifinales",
+     "w": 3,
+     "l": 1,
+     "roster": [
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+     ],
+     "coach": "kuben"
+    },
+    {
+     "id": "2015-cluj",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 1,
+     "roster": [
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+     ],
+     "coach": "kuben"
+    },
     {
      "id": "2016-columbus",
      "rank": 5,
@@ -8364,39 +10386,44 @@
     }
    ],
    "maps": {
-    "Train": [
-     7,
-     4,
-     0
-    ],
-    "Cobblestone": [
-     7,
-     2,
+    "Mirage": [
+     9,
+     10,
      0
     ],
     "Inferno": [
-     8,
-     8,
+     14,
+     10,
      0
     ],
-    "Cache": [
-     2,
-     1,
+    "Train": [
+     10,
+     5,
      0
     ],
     "Overpass": [
-     6,
+     8,
+     5,
+     0
+    ],
+    "Cache": [
+     5,
+     2,
+     0
+    ],
+    "Dust II": [
+     1,
      3,
      0
     ],
     "Nuke": [
-     4,
-     1,
+     6,
+     2,
      0
     ],
-    "Mirage": [
-     2,
-     7,
+    "Cobblestone": [
+     10,
+     4,
      0
     ],
     "Vertigo": [
@@ -8413,23 +10440,18 @@
      1,
      2,
      0
-    ],
-    "Dust II": [
-     1,
-     2,
-     0
     ]
    },
    "rt": [
-    144,
-    143
+    378,
+    363
    ],
    "rct": [
-    131,
-    154
+    474,
+    324
    ],
-   "titles": 0,
-   "finals": 1
+   "titles": 1,
+   "finals": 2
   },
   "Vitality": {
    "majors": [
@@ -8621,6 +10643,84 @@
    "titles": 3,
    "finals": 3
   },
+  "Vox Eminor": {
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "SPUNJ",
+      "AZR",
+      "Havoc",
+      "SnypeR",
+      "TopguN"
+     ]
+    },
+    {
+     "id": "2014-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "SPUNJ",
+      "AZR",
+      "Havoc",
+      "topguN",
+      "jks"
+     ]
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 1,
+     "l": 2,
+     "roster": [
+      "AZR",
+      "Havoc",
+      "jks",
+      "SPUNJ",
+      "topguN"
+     ]
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     0,
+     4,
+     0
+    ],
+    "Dust II": [
+     0,
+     1,
+     0
+    ],
+    "Nuke": [
+     0,
+     1,
+     0
+    ],
+    "Cache": [
+     1,
+     0,
+     0
+    ]
+   },
+   "rt": [
+    21,
+    65
+   ],
+   "rct": [
+    31,
+    33
+   ],
+   "titles": 0,
+   "finals": 0
+  },
   "Wildcard": {
    "majors": [
     {
@@ -8718,6 +10818,86 @@
    "rct": [
     120,
     122
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "dAT Team": {
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "B1ad3",
+      "WorldEdit",
+      "bondik",
+      "ub1que",
+      "flamie"
+     ]
+    }
+   ],
+   "maps": {
+    "Overpass": [
+     0,
+     1,
+     0
+    ],
+    "Cobblestone": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    9,
+    21
+   ],
+   "rct": [
+    4,
+    11
+   ],
+   "titles": 0,
+   "finals": 0
+  },
+  "myXMG": {
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "rank": 20,
+     "place": "Fase de grupos",
+     "w": 0,
+     "l": 2,
+     "roster": [
+      "MSL",
+      "HUNDEN",
+      "AcilioN",
+      "Friis",
+      "smF"
+     ]
+    }
+   ],
+   "maps": {
+    "Inferno": [
+     0,
+     1,
+     0
+    ],
+    "Mirage": [
+     0,
+     1,
+     0
+    ]
+   },
+   "rt": [
+    9,
+    21
+   ],
+   "rct": [
+    4,
+    11
    ],
    "titles": 0,
    "finals": 0
@@ -8889,6 +11069,32 @@
     }
    ]
   },
+  "3k2": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team Dignitas",
+     "role": "coach",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team Dignitas",
+     "role": "coach",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team Dignitas",
+     "role": "coach",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
   "910": {
    "flag": "",
    "majors": [
@@ -8945,6 +11151,30 @@
      "role": "coach",
      "rank": 20,
      "place": "Stage 1"
+    }
+   ]
+  },
+  "Ace": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Team Wolf",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "AcilioN": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "myXMG",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -9017,9 +11247,49 @@
     }
    ]
   },
+  "AdreN": {
+   "flag": "kz",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "adreN": {
    "flag": "",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2025-austin",
      "team": "Complexity",
@@ -9045,6 +11315,32 @@
      "role": "player",
      "rank": 18,
      "place": "Stage 3"
+    }
+   ]
+  },
+  "aizy": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "3DMAX",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
     }
    ]
   },
@@ -9128,6 +11424,18 @@
     }
    ]
   },
+  "alexRr": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Planetkey Dynamics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "aliStair": {
    "flag": "",
    "majors": [
@@ -9161,6 +11469,32 @@
     }
    ]
   },
+  "allu": {
+   "flag": "fi",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
   "Altekz": {
    "flag": "",
    "majors": [
@@ -9185,6 +11519,51 @@
     }
    ]
   },
+  "ANGE1": {
+   "flag": "ua",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "anger": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "ANNIHILATION": {
    "flag": "",
    "majors": [
@@ -9198,8 +11577,43 @@
    ]
   },
   "apEX": {
-   "flag": "",
+   "flag": "fr",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
     {
      "id": "2023-paris",
      "team": "Vitality",
@@ -9386,6 +11800,18 @@
     }
    ]
   },
+  "astaRR": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Team Wolf",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "Attacker": {
    "flag": "",
    "majors": [
@@ -9469,9 +11895,63 @@
     }
    ]
   },
-  "AZR": {
+  "AZK": {
    "flag": "",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "AZR": {
+   "flag": "au",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Renegades",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
     {
      "id": "2025-budapest",
      "team": "FlyQuest",
@@ -9508,8 +11988,43 @@
    ]
   },
   "B1ad3": {
-   "flag": "",
+   "flag": "ua",
    "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "dAT Team",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "HellRaisers",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2023-paris",
      "team": "Natus Vincere",
@@ -9684,6 +12199,30 @@
     }
    ]
   },
+  "BENDJI": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "berg": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "bfull": {
    "flag": "",
    "majors": [
@@ -9759,6 +12298,18 @@
      "role": "coach",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "bLacKpoisoN": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Bravado Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -9896,6 +12447,65 @@
      "role": "player",
      "rank": 18,
      "place": "Stage 3"
+    }
+   ]
+  },
+  "boltz": {
+   "flag": "br",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Keyd Stars",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
+  "bondik": {
+   "flag": "ua",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "dAT Team",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -10166,6 +12776,53 @@
     }
    ]
   },
+  "byali": {
+   "flag": "pl",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
   "Bymas": {
    "flag": "",
    "majors": [
@@ -10234,6 +12891,20 @@
    "flag": "",
    "majors": [
     {
+     "id": "2014-katowice",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Copenhagen Wolves",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
      "id": "2023-paris",
      "team": "HEROIC",
      "role": "player",
@@ -10249,6 +12920,53 @@
     }
    ]
   },
+  "cajunb": {
+   "flag": "dk",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Copenhagen Wolves",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
   "Calyx": {
    "flag": "",
    "majors": [
@@ -10258,6 +12976,18 @@
      "role": "player",
      "rank": 19,
      "place": "Elimination Stage"
+    }
+   ]
+  },
+  "cArn": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Fnatic",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
@@ -10301,6 +13031,18 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "Cent": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Bravado Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -10460,6 +13202,32 @@
     }
    ]
   },
+  "chrisJ": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "chucky": {
    "flag": "",
    "majors": [
@@ -10578,6 +13346,20 @@
    "flag": "",
    "majors": [
     {
+     "id": "2015-cologne",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2024-copenhagen",
      "team": "Legacy",
      "role": "player",
@@ -10664,6 +13446,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "cype": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "LGB eSports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     }
    ]
   },
@@ -10821,6 +13615,51 @@
     }
    ]
   },
+  "DavCost": {
+   "flag": "ru",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "DaZeD": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "decenty": {
    "flag": "",
    "majors": [
@@ -10935,6 +13774,65 @@
     }
    ]
   },
+  "denis": {
+   "flag": "de",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "PENTA Sports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "PENTA Sports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "dennis": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "LGB eSports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team Kinguin",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
   "dephh": {
    "flag": "",
    "majors": [
@@ -10968,6 +13866,30 @@
     }
    ]
   },
+  "desi": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "Detrony": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Bravado Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "dev1ce": {
    "flag": "",
    "majors": [
@@ -10987,9 +13909,96 @@
     }
    ]
   },
-  "Devilwalk": {
+  "deviaNt": {
    "flag": "",
    "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Bravado Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "device": {
+   "flag": "dk",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
+  "Devilwalk": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Fnatic",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Fnatic",
+     "role": "coach",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Fnatic",
+     "role": "coach",
+     "rank": null,
+     "place": ""
+    },
     {
      "id": "2023-paris",
      "team": "Bad News Eagles",
@@ -11055,6 +14064,18 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "diSTURBED": {
+   "flag": "fi",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "3DMAX",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -11172,6 +14193,39 @@
     }
    ]
   },
+  "Dosia": {
+   "flag": "ru",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "drop": {
    "flag": "",
    "majors": [
@@ -11195,6 +14249,18 @@
      "role": "player",
      "rank": 20,
      "place": "Stage 1"
+    }
+   ]
+  },
+  "Dumas": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -11239,8 +14305,50 @@
    ]
   },
   "dupreeh": {
-   "flag": "",
+   "flag": "dk",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
     {
      "id": "2023-paris",
      "team": "Vitality",
@@ -11285,6 +14393,53 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "Edward": {
+   "flag": "ua",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
     }
    ]
   },
@@ -11342,6 +14497,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2015-cluj",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
      "id": "2023-paris",
      "team": "Team Liquid",
      "role": "player",
@@ -11396,6 +14558,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "emagine": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Team Immunity",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
@@ -11560,6 +14734,46 @@
     }
    ]
   },
+  "Ex6TenZ": {
+   "flag": "be",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Titan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "exit": {
    "flag": "",
    "majors": [
@@ -11583,6 +14797,65 @@
      "role": "player",
      "rank": 19,
      "place": "Stage 2"
+    }
+   ]
+  },
+  "EXR": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Reason Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "f0rest": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     }
    ]
   },
@@ -11658,8 +14931,29 @@
    ]
   },
   "FalleN": {
-   "flag": "",
+   "flag": "br",
    "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Keyd Stars",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2024-copenhagen",
      "team": "FURIA",
@@ -11811,6 +15105,18 @@
     }
    ]
   },
+  "fel1x": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "PENTA Sports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
   "felps": {
    "flag": "",
    "majors": [
@@ -11844,6 +15150,58 @@
     }
    ]
   },
+  "fer": {
+   "flag": "br",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Keyd Stars",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
+  "FeTiSh": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
   "Fierce": {
    "flag": "",
    "majors": [
@@ -11867,6 +15225,25 @@
      "role": "coach",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "Fifflaren": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
     }
    ]
   },
@@ -11983,6 +15360,39 @@
     }
    ]
   },
+  "flamie": {
+   "flag": "ru",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "dAT Team",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    }
+   ]
+  },
   "flashie": {
    "flag": "",
    "majors": [
@@ -12035,6 +15445,79 @@
     }
    ]
   },
+  "flusha": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
+  "FNS": {
+   "flag": "ca",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "Forester": {
    "flag": "",
    "majors": [
@@ -12047,6 +15530,25 @@
     }
    ]
   },
+  "fox": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Team Kinguin",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
   "fr3nd": {
    "flag": "",
    "majors": [
@@ -12056,6 +15558,91 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "fREAKAZOiD": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "friberg": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
+  "Friis": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Reason Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "myXMG",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -12106,6 +15693,37 @@
     }
    ]
   },
+  "FugLy": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cluj",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "Furlan": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Team eBettle",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Vexed Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "fury5k": {
    "flag": "",
    "majors": [
@@ -12115,6 +15733,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "fxy0": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Epsilon eSports",
+     "role": "player",
+     "rank": null,
+     "place": ""
     }
    ]
   },
@@ -12156,9 +15786,63 @@
     }
    ]
   },
-  "GeT_RiGhT": {
+  "GBJame^s": {
    "flag": "",
    "majors": [
+    {
+     "id": "2015-cluj",
+     "team": "Team Liquid",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "GeT_RiGhT": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
     {
      "id": "2023-paris",
      "team": "BLAST Dream Team",
@@ -12191,6 +15875,27 @@
    "flag": "",
    "majors": [
     {
+     "id": "2014-katowice",
+     "team": "3DMAX",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Copenhagen Wolves",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Copenhagen Wolves",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
      "id": "2024-copenhagen",
      "team": "ENCE",
      "role": "player",
@@ -12215,6 +15920,44 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "GMX": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Clan-Mystik",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Epsilon eSports",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
+  "gob b": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -12383,11 +16126,72 @@
    "flag": "",
    "majors": [
     {
+     "id": "2015-cologne",
+     "team": "Team eBettle",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Vexed Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
      "id": "2026-singapore",
      "team": "FaZe Clan",
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "GuardiaN": {
+   "flag": "sk",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
     }
    ]
   },
@@ -12585,6 +16389,53 @@
     }
    ]
   },
+  "Happy": {
+   "flag": "fr",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    }
+   ]
+  },
   "hardzao": {
    "flag": "",
    "majors": [
@@ -12594,6 +16445,77 @@
      "role": "player",
      "rank": 20,
      "place": "Challengers Stage"
+    }
+   ]
+  },
+  "HaRts": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Clan-Mystik",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "Havoc": {
+   "flag": "au",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Renegades",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
+  "hazed": {
+   "flag": "usa",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -12705,6 +16627,39 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "Hiko": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Complexity",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -12827,6 +16782,18 @@
     }
    ]
   },
+  "HUNDEN": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "myXMG",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "huNter-": {
    "flag": "",
    "majors": [
@@ -12890,6 +16857,25 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "Hyper": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Team eBettle",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Vexed Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -13025,6 +17011,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2014-jonkoping",
+     "team": "ESC Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
      "id": "2026-cologne",
      "team": "Team Poland",
      "role": "player",
@@ -13117,6 +17110,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "Irukandji": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Team iBUYPOWER",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -13281,6 +17286,18 @@
     }
    ]
   },
+  "James": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Team Immunity",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
   "James Banks": {
    "flag": "",
    "majors": [
@@ -13423,6 +17440,25 @@
     }
    ]
   },
+  "jdm64": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "Jee": {
    "flag": "",
    "majors": [
@@ -13535,8 +17571,22 @@
    ]
   },
   "jkaem": {
-   "flag": "",
+   "flag": "no",
    "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "LGB eSports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
     {
      "id": "2023-paris",
      "team": "Apeks",
@@ -13554,8 +17604,29 @@
    ]
   },
   "jks": {
-   "flag": "",
+   "flag": "au",
    "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Renegades",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
     {
      "id": "2023-paris",
      "team": "G2 Esports",
@@ -13670,6 +17741,25 @@
      "role": "coach",
      "rank": 19,
      "place": "Stage 2"
+    }
+   ]
+  },
+  "Johnta": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "FlipSid3 Tactics",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -13825,6 +17915,53 @@
     }
    ]
   },
+  "JW": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
   "k0nfig": {
    "flag": "",
    "majors": [
@@ -13900,8 +18037,43 @@
    ]
   },
   "karrigan": {
-   "flag": "",
+   "flag": "dk",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Reason Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Copenhagen Wolves",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
     {
      "id": "2023-paris",
      "team": "FaZe Clan",
@@ -13943,6 +18115,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "kassad": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Team Wolf",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -14016,8 +18200,43 @@
    ]
   },
   "kennyS": {
-   "flag": "",
+   "flag": "fr",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Clan-Mystik",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
     {
      "id": "2023-paris",
      "team": "Team France",
@@ -14091,6 +18310,65 @@
     }
    ]
   },
+  "KHRN": {
+   "flag": "fi",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "3DMAX",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "kioShiMa": {
+   "flag": "fr",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Clan-Mystik",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Epsilon eSports",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    }
+   ]
+  },
   "kisserek": {
    "flag": "",
    "majors": [
@@ -14113,6 +18391,20 @@
   "Kjaerbye": {
    "flag": "",
    "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Copenhagen Wolves",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
     {
      "id": "2024-copenhagen",
      "team": "Danish Squad",
@@ -14157,6 +18449,25 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "KQLY": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     }
    ]
   },
@@ -14248,9 +18559,56 @@
     }
    ]
   },
-  "KRIMZ": {
+  "KRiMZ": {
    "flag": "",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "LGB eSports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
+  "KRIMZ": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
     {
      "id": "2023-paris",
      "team": "Fnatic",
@@ -14271,6 +18629,25 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "kRYSTAL": {
+   "flag": "de",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "PENTA Sports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "PENTA Sports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
@@ -14329,8 +18706,29 @@
    ]
   },
   "kuben": {
-   "flag": "",
+   "flag": "pl",
    "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Virtus.pro",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Virtus.pro",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Virtus.pro",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2023-paris",
      "team": "Apeks",
@@ -14344,6 +18742,39 @@
      "role": "coach",
      "rank": 20,
      "place": "Opening Stage"
+    }
+   ]
+  },
+  "kUcheR": {
+   "flag": "ua",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -14624,6 +19055,25 @@
     }
    ]
   },
+  "LEGIJA": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team Kinguin",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
   "LETN1": {
    "flag": "",
    "majors": [
@@ -14711,6 +19161,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "LOMME": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Reason Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -15137,6 +19599,32 @@
     }
    ]
   },
+  "Maikelele": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team Kinguin",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
   "MAJ3R": {
    "flag": "",
    "majors": [
@@ -15262,6 +19750,39 @@
     }
    ]
   },
+  "Maniac": {
+   "flag": "ch",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Titan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
   "Marek": {
    "flag": "",
    "majors": [
@@ -15271,6 +19792,53 @@
      "role": "player",
      "rank": 20,
      "place": "Stage 1"
+    }
+   ]
+  },
+  "markeloff": {
+   "flag": "ua",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -15492,6 +20060,18 @@
     }
    ]
   },
+  "MINISE": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "ESC Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "mir": {
    "flag": "",
    "majors": [
@@ -15513,6 +20093,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "MithilF": {
+   "flag": "in",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Team Wolf",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -15599,6 +20191,44 @@
     }
    ]
   },
+  "MoMaN": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team LDLC.com",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team LDLC.com",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team LDLC.com",
+     "role": "coach",
+     "rank": 1,
+     "place": "Campeón"
+    }
+   ]
+  },
+  "MooZE": {
+   "flag": "de",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "PENTA Sports",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
   "mopoz": {
    "flag": "",
    "majors": [
@@ -15634,6 +20264,44 @@
      "role": "player",
      "rank": 19,
      "place": "Stage 2"
+    }
+   ]
+  },
+  "mouz": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "ESC Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "MSL": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "3DMAX",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "myXMG",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
     }
    ]
   },
@@ -15728,8 +20396,50 @@
    ]
   },
   "n0thing": {
-   "flag": "",
+   "flag": "usa",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Complexity",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2025-austin",
      "team": "Team USA",
@@ -15854,11 +20564,44 @@
    "flag": "",
    "majors": [
     {
+     "id": "2015-cologne",
+     "team": "Luminosity Gaming",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Luminosity Gaming",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
      "id": "2024-shanghai",
      "team": "MIBR",
      "role": "coach",
      "rank": 19,
      "place": "Elimination Stage"
+    }
+   ]
+  },
+  "natu": {
+   "flag": "fi",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "3DMAX",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
     }
    ]
   },
@@ -15890,6 +20633,53 @@
      "role": "player",
      "rank": 20,
      "place": "Opening Stage"
+    }
+   ]
+  },
+  "NBK-": {
+   "flag": "fr",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
     }
    ]
   },
@@ -15944,8 +20734,50 @@
    ]
   },
   "NEO": {
-   "flag": "",
+   "flag": "pl",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2024-copenhagen",
      "team": "FaZe Clan",
@@ -16082,6 +20914,39 @@
     }
    ]
   },
+  "nex": {
+   "flag": "de",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Planetkey Dynamics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "PENTA Sports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "nexa": {
    "flag": "",
    "majors": [
@@ -16094,6 +20959,51 @@
     }
    ]
   },
+  "Next": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Team EnVyUs",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team EnVyUs",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team EnVyUs",
+     "role": "coach",
+     "rank": 1,
+     "place": "Campeón"
+    }
+   ]
+  },
+  "NiaK": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Titan",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Titan",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "NickelBack": {
    "flag": "",
    "majors": [
@@ -16103,6 +21013,18 @@
      "role": "player",
      "rank": 20,
      "place": "Opening Stage"
+    }
+   ]
+  },
+  "Nico": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Copenhagen Wolves",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -16154,6 +21076,13 @@
   "NiKo": {
    "flag": "",
    "majors": [
+    {
+     "id": "2015-cluj",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2023-paris",
      "team": "G2 Esports",
@@ -16270,6 +21199,20 @@
   "nitr0": {
    "flag": "",
    "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team Liquid",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2023-paris",
      "team": "Team Liquid",
@@ -16499,6 +21442,58 @@
     }
    ]
   },
+  "olofm": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "LGB eSports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
+  "olofmeister": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
   "oSee": {
    "flag": "",
    "majors": [
@@ -16526,8 +21521,50 @@
    ]
   },
   "pashaBiceps": {
-   "flag": "",
+   "flag": "pl",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2024-shanghai",
      "team": "Team HAI",
@@ -16558,6 +21595,25 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "peet": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Team eBettle",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Vexed Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -16620,6 +21676,39 @@
     }
    ]
   },
+  "Pimp": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "3DMAX",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Copenhagen Wolves",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Copenhagen Wolves",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
   "pino": {
    "flag": "",
    "majors": [
@@ -16651,6 +21740,25 @@
     }
    ]
   },
+  "pita": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "coach",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Ninjas in Pyjamas",
+     "role": "coach",
+     "rank": 2,
+     "place": "Subcampeón"
+    }
+   ]
+  },
   "Plopski": {
    "flag": "",
    "majors": [
@@ -16672,6 +21780,25 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "Polly": {
+   "flag": "no",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "London Conspiracy",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "LGB eSports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -16701,6 +21828,89 @@
     }
    ]
   },
+  "prb": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "London Conspiracy",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "pronax": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
+  "PsYcHo": {
+   "flag": "de",
+   "majors": [
+    {
+     "id": "2015-cluj",
+     "team": "MOUZ",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "ptr": {
+   "flag": "usa",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "Qikert": {
    "flag": "",
    "majors": [
@@ -16722,6 +21932,18 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "r0bs3n": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "PENTA Sports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
@@ -16756,6 +21978,30 @@
     }
    ]
   },
+  "raalz": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "3DMAX",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "Racno": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Bravado Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "RAiLWAY": {
    "flag": "",
    "majors": [
@@ -16769,8 +22015,36 @@
    ]
   },
   "rain": {
-   "flag": "",
+   "flag": "no",
    "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "London Conspiracy",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "LGB eSports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team Kinguin",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "G2 Esports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
     {
      "id": "2023-paris",
      "team": "FaZe Clan",
@@ -16831,6 +22105,27 @@
    "flag": "",
    "majors": [
     {
+     "id": "2014-jonkoping",
+     "team": "ESC Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team eBettle",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Vexed Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
      "id": "2023-paris",
      "team": "Into The Breach",
      "role": "player",
@@ -16855,6 +22150,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "realition": {
+   "flag": "dk",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Team SoloMid",
+     "role": "coach",
+     "rank": null,
+     "place": ""
     }
    ]
   },
@@ -16915,6 +22222,32 @@
     }
    ]
   },
+  "reltuC": {
+   "flag": "usa",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "REZ": {
    "flag": "",
    "majors": [
@@ -16938,6 +22271,18 @@
      "role": "player",
      "rank": 19,
      "place": "Stage 2"
+    }
+   ]
+  },
+  "Rickeh": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Team Immunity",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
@@ -17016,6 +22361,30 @@
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "RiTz": {
+   "flag": "in",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Team Wolf",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "RiX": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Team Wolf",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -17141,14 +22510,54 @@
    ]
   },
   "RpK": {
-   "flag": "",
+   "flag": "fr",
    "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Titan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2023-paris",
      "team": "Team France",
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "RUBINO": {
+   "flag": "no",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "London Conspiracy",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "LGB eSports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -17231,6 +22640,13 @@
   "s1mple": {
    "flag": "",
    "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "HellRaisers",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2023-paris",
      "team": "Natus Vincere",
@@ -17471,6 +22887,51 @@
     }
    ]
   },
+  "schneider": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Fnatic",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
+  "ScreaM": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team Kinguin",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "sdy": {
    "flag": "",
    "majors": [
@@ -17483,15 +22944,121 @@
     }
    ]
   },
-  "seized": {
+  "seang@res": {
    "flag": "",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Complexity",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "seized": {
+   "flag": "ru",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
     {
      "id": "2024-copenhagen",
      "team": "9Pandas",
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "Semphis": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Complexity",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
+  "SEMPHIS": {
+   "flag": "ca",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -17559,6 +23126,51 @@
     }
    ]
   },
+  "Sf": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Clan-Mystik",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Epsilon eSports",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
+  "sgares": {
+   "flag": "usa",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "sh1ro": {
    "flag": "",
    "majors": [
@@ -17618,6 +23230,18 @@
     }
    ]
   },
+  "ShahZaM": {
+   "flag": "us",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "shalfey": {
    "flag": "",
    "majors": [
@@ -17643,14 +23267,96 @@
    ]
   },
   "shox": {
-   "flag": "",
+   "flag": "fr",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Epsilon eSports",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Titan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2023-paris",
      "team": "Team France",
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "shroud": {
+   "flag": "ca",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -17854,6 +23560,41 @@
    "flag": "",
    "majors": [
     {
+     "id": "2014-katowice",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Cloud9",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
      "id": "2025-austin",
      "team": "Team USA",
      "role": "player",
@@ -17892,6 +23633,18 @@
      "role": "player",
      "rank": 18,
      "place": "Stage 3"
+    }
+   ]
+  },
+  "Skurk": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "London Conspiracy",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -17959,6 +23712,72 @@
     }
    ]
   },
+  "smF": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Reason Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "myXMG",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "SmithZz": {
+   "flag": "fr",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Team EnVyUs",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Titan",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Titan",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "smooya": {
    "flag": "",
    "majors": [
@@ -17998,8 +23817,50 @@
    ]
   },
   "Snax": {
-   "flag": "",
+   "flag": "pl",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2024-copenhagen",
      "team": "GamerLegion",
@@ -18060,6 +23921,25 @@
      "role": "player",
      "rank": 19,
      "place": "Stage 2"
+    }
+   ]
+  },
+  "SnypeR": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team Immunity",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
@@ -18131,6 +24011,32 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "Spiidi": {
+   "flag": "de",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "PENTA Sports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "PENTA Sports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
@@ -18212,6 +24118,39 @@
     }
    ]
   },
+  "SPUNJ": {
+   "flag": "au",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Renegades",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
   "stadodo": {
    "flag": "",
    "majors": [
@@ -18266,6 +24205,53 @@
      "role": "player",
      "rank": 20,
      "place": "Stage 1"
+    }
+   ]
+  },
+  "starix": {
+   "flag": "ua",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Natus Vincere",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Natus Vincere",
+     "role": "coach",
+     "rank": 2,
+     "place": "Subcampeón"
     }
    ]
   },
@@ -18328,6 +24314,63 @@
     }
    ]
   },
+  "stavros": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Planetkey Dynamics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "steel": {
+   "flag": "br",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Keyd Stars",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Luminosity Gaming",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
+  "stonde": {
+   "flag": "fi",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "3DMAX",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "story": {
    "flag": "",
    "majors": [
@@ -18356,6 +24399,37 @@
      "role": "player",
      "rank": 20,
      "place": "Stage 1"
+    }
+   ]
+  },
+  "strux1": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Planetkey Dynamics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "stunna": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Cloud9",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Cloud9",
+     "role": "coach",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -18501,6 +24575,32 @@
     }
    ]
   },
+  "swag": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Complexity",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team iBUYPOWER",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "Swani": {
    "flag": "",
    "majors": [
@@ -18642,6 +24742,13 @@
    "flag": "",
    "majors": [
     {
+     "id": "2014-jonkoping",
+     "team": "ESC Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
      "id": "2026-cologne",
      "team": "Team Poland",
      "role": "player",
@@ -18686,6 +24793,13 @@
   "tabseN": {
    "flag": "",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
     {
      "id": "2024-shanghai",
      "team": "BIG",
@@ -18766,6 +24880,32 @@
     }
    ]
   },
+  "tarik": {
+   "flag": "usa",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Counter Logic Gaming",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "Tauson": {
    "flag": "",
    "majors": [
@@ -18786,8 +24926,50 @@
    ]
   },
   "TaZ": {
-   "flag": "",
+   "flag": "pl",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Virtus.pro",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
     {
      "id": "2024-copenhagen",
      "team": "G2 Esports",
@@ -18869,6 +25051,25 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "tenzki": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Copenhagen Wolves",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
     }
    ]
   },
@@ -18998,6 +25199,18 @@
     }
    ]
   },
+  "tiziaN": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "MOUZ",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "TjP": {
    "flag": "",
    "majors": [
@@ -19067,6 +25280,37 @@
     }
    ]
   },
+  "TopguN": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "topguN": {
+   "flag": "au",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Vox Eminor",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "torzsi": {
    "flag": "",
    "majors": [
@@ -19133,6 +25377,25 @@
     }
    ]
   },
+  "Troubley": {
+   "flag": "de",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "Planetkey Dynamics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "PENTA Sports",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
   "try": {
    "flag": "",
    "majors": [
@@ -19163,6 +25426,25 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "twist": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "LGB eSports",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -19199,6 +25481,30 @@
     }
    ]
   },
+  "ub1que": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "dAT Team",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
+  "Ugin": {
+   "flag": "by",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Natus Vincere",
+     "role": "coach",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
   "ultimate": {
    "flag": "",
    "majors": [
@@ -19229,6 +25535,37 @@
      "role": "player",
      "rank": 20,
      "place": "Stage 1"
+    }
+   ]
+  },
+  "USTILO": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Team Immunity",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    }
+   ]
+  },
+  "Uzzziii": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team LDLC.com",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     }
    ]
   },
@@ -19421,6 +25758,25 @@
     }
    ]
   },
+  "vuggo": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Fnatic",
+     "role": "coach",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Fnatic",
+     "role": "coach",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
   "w0nderful": {
    "flag": "",
    "majors": [
@@ -19579,6 +25935,39 @@
     }
    ]
   },
+  "WorldEdit": {
+   "flag": "ru",
+   "majors": [
+    {
+     "id": "2014-cologne",
+     "team": "dAT Team",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "Woro2k": {
    "flag": "",
    "majors": [
@@ -19687,6 +26076,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "xartE": {
+   "flag": "fi",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "3DMAX",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -19852,8 +26253,50 @@
    ]
   },
   "Xizt": {
-   "flag": "",
+   "flag": "se",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 1,
+     "place": "Campeón"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Ninjas in Pyjamas",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
     {
      "id": "2023-paris",
      "team": "HEROIC",
@@ -19971,6 +26414,65 @@
      "role": "coach",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "Xyp9x": {
+   "flag": "dk",
+   "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Team Dignitas",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Team SoloMid",
+     "role": "player",
+     "rank": null,
+     "place": ""
+    }
+   ]
+  },
+  "yam": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2015-cologne",
+     "team": "Renegades",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
     }
    ]
   },
@@ -20208,6 +26710,30 @@
     }
    ]
   },
+  "zbM": {
+   "flag": "se",
+   "majors": [
+    {
+     "id": "2015-cluj",
+     "team": "G2 Esports",
+     "role": "coach",
+     "rank": 3,
+     "place": "Semifinales"
+    }
+   ]
+  },
+  "zende": {
+   "flag": "",
+   "majors": [
+    {
+     "id": "2014-jonkoping",
+     "team": "FlipSid3 Tactics",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    }
+   ]
+  },
   "Zero": {
    "flag": "",
    "majors": [
@@ -20233,14 +26759,68 @@
    ]
   },
   "Zeus": {
-   "flag": "",
+   "flag": "ua",
    "majors": [
+    {
+     "id": "2014-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
+    },
+    {
+     "id": "2014-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2014-jonkoping",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-katowice",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
+    },
+    {
+     "id": "2015-cologne",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 3,
+     "place": "Semifinales"
+    },
+    {
+     "id": "2015-cluj",
+     "team": "Natus Vincere",
+     "role": "player",
+     "rank": 2,
+     "place": "Subcampeón"
+    },
     {
      "id": "2024-shanghai",
      "team": "Team HAI",
      "role": "player",
      "rank": null,
      "place": ""
+    }
+   ]
+  },
+  "zEVES": {
+   "flag": "no",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "LGB eSports",
+     "role": "player",
+     "rank": 20,
+     "place": "Fase de grupos"
     }
    ]
   },
@@ -20323,6 +26903,13 @@
   "zonic": {
    "flag": "",
    "majors": [
+    {
+     "id": "2015-cluj",
+     "team": "Team Dignitas",
+     "role": "coach",
+     "rank": null,
+     "place": ""
+    },
     {
      "id": "2023-paris",
      "team": "Vitality",
@@ -20437,6 +27024,18 @@
      "role": "player",
      "rank": null,
      "place": "En juego"
+    }
+   ]
+  },
+  "zqk": {
+   "flag": "br",
+   "majors": [
+    {
+     "id": "2015-katowice",
+     "team": "Keyd Stars",
+     "role": "player",
+     "rank": 5,
+     "place": "Cuartos de final"
     }
    ]
   },
