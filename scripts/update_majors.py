@@ -1276,7 +1276,11 @@ def main(argv: list[str]) -> int:
     # orden: primero el actual, después los pendientes del más reciente al más antiguo
     # (los que menos intentos fallidos llevan antes, para que uno roto no frene a los demás)
     rest = [c for c in reversed(MAJORS) if c['id'] != cur]
-    order = [c for c in MAJORS if c['id'] == cur] + sorted(rest, key=lambda c: old_by.get(c['id'], {}).get('tries', 0))
+    # prioridad: los que nunca se han descargado, luego los leídos con un lector antiguo; en cada grupo, los de menos fallos
+    def prio(c):
+        o = old_by.get(c['id'], {})
+        return (o.get('tries', 0), 0 if not o.get('loaded') else 1 if o.get('parser') != PARSER else 2)
+    order = [c for c in MAJORS if c['id'] == cur] + sorted(rest, key=prio)
     results = {}
     for cfg in order:
         prev = old_by.get(cfg['id'], {})
