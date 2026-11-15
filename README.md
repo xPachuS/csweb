@@ -67,6 +67,15 @@ Sube el cambio. Después entra en la web, crea tu cuenta con el apodo que pusist
 - **El Major del Pick'em** cambia solo una semana después de que termine el anterior. Si quieres adelantarlo o retrasarlo, elígelo en **Admin → Ajustes → Major del Pick'em**.
 - En **Admin → Majors** ves qué se ha descargado y los avisos de cada Major, y puedes ponerle a cada uno el MVP y una nota.
 
+## Actualizar a mano
+
+En GitHub ve a **Actions → «Actualizar Majors» → Run workflow**. Si dejas las dos casillas vacías, hace una actualización normal en ese momento. Si las rellenas:
+
+- **Majors a volver a descargar:** los ids separados por comas (por ejemplo `2025-austin,2024-copenhagen`), o `todos` para releer todos los Majors ya jugados. Sirve si Liquipedia corrigió algo de un Major que ya estaba guardado. Con `todos` tarda unos minutos.
+- **Logos:** `faltan` vuelve a intentar los logos que no se encontraron; `todos` vuelve a bajar todos los logos, en tandas de 40.
+
+Los ids están en la lista `MAJORS` de `scripts/update_majors.py` y en la dirección de cada ficha (`#/majors/2025-austin`).
+
 ## Logos de los equipos
 
 - La misma acción descarga de Liquipedia el logo de cada equipo que aparece en los Majors. Guarda la versión para fondo oscuro si existe; si no, la normal sobre una chapa clara.

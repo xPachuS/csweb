@@ -16,6 +16,12 @@ Liquipedia se busca sola; si la encuentra mal, ponla a mano en «page».
 
 Pruebas sin conexión:  python scripts/update_majors.py --offline CARPETA
   (CARPETA con ficheros <titulo de la página con / cambiado por __>.wiki y opcional search.json)
+
+Volver a descargar a mano (también desde GitHub: Actions → «Actualizar Majors» → Run workflow):
+  --force 2024-copenhagen,2025-austin   relee esos Majors aunque ya estén guardados
+  --force todos                         relee todos los Majors ya jugados (tarda unos minutos)
+  --logos faltan                        reintenta los logos que no se encontraron
+  --logos todos                         vuelve a bajar todos los logos (en tandas de 40)
 """
 from __future__ import annotations
 
@@ -111,6 +117,7 @@ LOGOS = ROOT / 'img' / 'teams'
 TEAMS_JSON = ROOT / 'data' / 'teams.json'
 LOGO_BATCH = 50       # equipos por consulta a Liquipedia
 LOGO_DOWNLOADS = 40   # imágenes descargadas como mucho por ejecución
+RETRY_LOGOS = ''      # '' | 'faltan' | 'todos' (se cambia con --logos)
 TZ = {'UTC': 0, 'GMT': 0, 'CET': 1, 'CEST': 2, 'EET': 2, 'EEST': 3, 'MSK': 3, 'SGT': 8, 'CST': 8, 'KST': 9,
       'JST': 9, 'EST': -5, 'EDT': -4, 'PST': -8, 'PDT': -7, 'BRT': -3, 'ART': -3, 'AEST': 10, 'AEDT': 11,
       'WET': 0, 'WEST': 1, 'BST': 1, 'CDT': -5, 'MDT': -6}
@@ -700,6 +707,11 @@ def update_logos(src, teams_seen: set[str], log_only: bool = False):
         teams.setdefault(t, {})['tpl'] = tpl
     for t in teams_seen:
         teams.setdefault(t, {})
+    if RETRY_LOGOS:                                  # reintentar los que fallaron (y volver a bajar todos si se pide)
+        for v in teams.values():
+            v['tries'] = 0
+            if RETRY_LOGOS == 'todos':
+                v.pop('logo', None); v.pop('dark', None)
     todo = [t for t, v in teams.items() if not v.get('logo') and v.get('tries', 0) < 3 and t and t != 'TBD']
     found = {}
     for i in range(0, min(len(todo), LOGO_BATCH * 2), LOGO_BATCH):
@@ -755,7 +767,9 @@ def write_json(path: Path, obj) -> bool:
 
 def main(argv: list[str]) -> int:
     offline = argv[argv.index('--offline') + 1] if '--offline' in argv else None
-    force = set(argv[argv.index('--force') + 1].split(',')) if '--force' in argv else set()
+    force = {x.strip() for x in argv[argv.index('--force') + 1].split(',') if x.strip()} if '--force' in argv else set()
+    if force & {'todos', 'all'}:
+        force = {c['id'] for c in MAJORS if status_of(c) != 'upcoming'}
     src = Offline(offline) if offline else Live()
     OUT.mkdir(parents=True, exist_ok=True)
     idx_path = OUT / 'index.json'
@@ -830,6 +844,11 @@ def main(argv: list[str]) -> int:
             seen.update(st.get('teams', []))
     seen.update(m['champion'] for m in index['majors'] if m['champion'])
     seen.update(m['runnerup'] for m in index['majors'] if m['runnerup'])
+    global RETRY_LOGOS
+    if '--logos' in argv:
+        RETRY_LOGOS = argv[argv.index('--logos') + 1].strip().lower()
+        if RETRY_LOGOS not in ('faltan', 'todos'):
+            RETRY_LOGOS = ''
     if '--no-logos' not in argv:
         update_logos(src, seen)
     log(f'Hecho: {src.calls} consultas a Liquipedia · Pick\'em: {cur} · {sum(1 for m in index["majors"] if m["loaded"])}/{len(MAJORS)} Majors con datos')
