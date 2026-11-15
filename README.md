@@ -76,6 +76,14 @@ En GitHub ve a **Actions → «Actualizar Majors» → Run workflow**. Si dejas 
 
 Los ids están en la lista `MAJORS` de `scripts/update_majors.py` y en la dirección de cada ficha (`#/majors/2025-austin`).
 
+## Equipos, jugadores y partidos
+
+- **Equipos** (`#/equipos`): la trayectoria de cada equipo en los Majors (puesto, series ganadas y perdidas, plantilla de cada Major), sus mapas (jugados, victorias y veces que los eligió) y el porcentaje de rondas ganadas como T y como CT.
+- **Jugadores** (`#/jugadores`): en qué Majors ha jugado cada uno, con qué equipo, y sus títulos y finales. También salen los entrenadores.
+- **Partido desglosado** (al tocar cualquier partido): la selección de mapas, cada mapa con sus mitades (rondas como T y como CT), la prórroga y las plantillas de los dos equipos.
+- Todo sale de Liquipedia, que no guarda kills, muertes ni asistencias. Por eso cada partido y cada mapa tiene un botón que abre esas estadísticas en HLTV.
+- El script deja estos datos en `data/stats.json` en cada ejecución.
+
 ## Logos de los equipos
 
 - La misma acción descarga de Liquipedia el logo de cada equipo que aparece en los Majors. Guarda la versión para fondo oscuro si existe; si no, la normal sobre una chapa clara.

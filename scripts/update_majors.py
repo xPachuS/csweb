@@ -45,7 +45,7 @@ REPO = os.environ.get('GITHUB_REPOSITORY', 'clutch-pickem')
 USER_AGENT = f'ClutchPickem/1.1 (fan site; https://github.com/{REPO})'
 WAIT = 3.0            # segundos entre consultas a Liquipedia
 BACKFILL = 6          # Majors antiguos que se rellenan como mucho en cada ejecución
-PARSER = 3            # versión del lector: si sube, los Majors ya guardados se vuelven a leer solos
+PARSER = 4            # versión del lector: si sube, los Majors ya guardados se vuelven a leer solos
 PICKEM_FROM = '2026-singapore'   # desde este Major (incluido) hay Pick'em en la web
 
 # ---------------------------------------------------------------- lista de Majors
@@ -268,8 +268,46 @@ def parse_map(raw: str):
         name_ = strip_markup(p.get('map', ''))
         if not name_ and s1 is None and w is None:
             return None
-        return {'map': name_, 's1': s1, 's2': s2, 'winner': w if w in (1, 2) else 0}
+        out = {'map': name_, 's1': s1, 's2': s2, 'winner': w if w in (1, 2) else 0}
+        half = {k: to_int(p.get(k)) for k in ('t1t', 't1ct', 't2t', 't2ct')}
+        if all(v is not None for v in half.values()):                     # rondas por lado (sin prórroga)
+            out['h'] = [half['t1t'], half['t1ct'], half['t2t'], half['t2ct']]
+            ot1 = sum(to_int(v) or 0 for k, v in p.items() if re.fullmatch(r'o\d+t1(t|ct)', k))
+            ot2 = sum(to_int(v) or 0 for k, v in p.items() if re.fullmatch(r'o\d+t2(t|ct)', k))
+            if ot1 or ot2:
+                out['ot'] = [ot1, ot2]
+        first = str(p.get('t1firstside', '')).strip().lower()
+        if first in ('t', 'ct'):
+            out['first'] = first                                           # lado con el que empezó el equipo 1
+        st = to_int(p.get('stats'))
+        if st:
+            out['hltv'] = st                                               # id de las estadísticas del mapa en HLTV
+        return out
     return None
+
+
+def parse_veto(raw: str) -> list:
+    """{{MapVeto|firstpick=1|types=ban,ban,pick,…|t1map1=…|t2map1=…|decider=…}} -> [[equipo, 'ban'|'pick'|'decider', mapa]]"""
+    for name, inner in templates(raw or ''):
+        if name.lower() != 'mapveto':
+            continue
+        p = params(inner)
+        types = [t.strip().lower() for t in p.get('types', '').split(',') if t.strip()]
+        first = 2 if str(p.get('firstpick', '1')).strip() == '2' else 1
+        out, rnd = [], 0
+        for t in types:
+            if t == 'decider':
+                m = strip_markup(p.get('decider', ''))
+                if m:
+                    out.append([0, 'decider', m])
+                continue
+            rnd += 1
+            for team in (first, 3 - first):
+                m = strip_markup(p.get(f't{team}map{rnd}', ''))
+                if m:
+                    out.append([team, 'pick' if t == 'pick' else 'ban', m])
+        return out
+    return []
 
 
 def parse_match(inner: str, sid: str, stype: str, mid: str, round_name: str, slot: str = ''):
@@ -298,6 +336,8 @@ def parse_match(inner: str, sid: str, stype: str, mid: str, round_name: str, slo
         'date': parse_date(p.get('date', '')), 't1': o1['team'], 't2': o2['team'],
         's1': s1, 's2': s2, 'winner': w if w in (1, 2) else 0, 'done': bool(w in (1, 2)),
         'maps': [m for m in maps if m['map'] or m['winner']],
+        **({'hltv': to_int(p.get('hltv'))} if to_int(p.get('hltv')) else {}),
+        **({'veto': v} if (v := parse_veto(p.get('mapveto', ''))) else {}),
     }
 
 
@@ -442,6 +482,69 @@ def participants(wikitext: str) -> set[str]:
         out.add(m.group(1))
     names = {team_name(x.strip()) for x in out}
     return {t for t in names if t and t != 'TBD'}
+
+
+def parse_rosters(wikitext: str) -> dict:
+    """Plantillas de los equipos ({{TeamCard|team=…|p1=…}} o {{Opponent|equipo|players=…{{Person|nombre|flag=…}}}})."""
+    out = {}
+
+    def person(p, key):
+        n = strip_markup(p.get(key, ''))
+        n = re.sub(r'\s*\(.*?\)\s*$', '', n)
+        return {'n': n, 'flag': strip_markup(p.get(f'{key}flag', '') or p.get('flag', '')).lower()[:3]} if n and n.lower() not in TBD else None
+
+    def people(text: str, p: dict):
+        players, coach = [], None
+        for i in range(1, 8):                                   # p1=…|p1flag=…
+            x = person(p, f'p{i}')
+            if x:
+                players.append(x)
+        for k in ('c', 'coach', 'c1', 'headcoach'):
+            x = person(p, k)
+            if x and not coach:
+                coach = x
+        def walk(t, depth=0):                                   # {{Person|nombre|flag=xx|role=coach}}
+            nonlocal coach
+            for nm, inner in templates(t):
+                low = nm.lower()
+                if low in ('person', 'player', 'participant', 'opponentplayer'):
+                    q = params(inner)
+                    n = strip_markup(q.get('1') or q.get('name') or q.get('link') or '')
+                    if not n:
+                        continue
+                    x = {'n': re.sub(r'\s*\(.*?\)\s*$', '', n), 'flag': strip_markup(q.get('flag', '')).lower()[:3]}
+                    role = (q.get('role', '') + ' ' + q.get('type', '')).lower()
+                    if 'coach' in role or 'staff' in role:
+                        coach = coach or x
+                    elif 'sub' not in role and 'former' not in role and len(players) < 7:
+                        players.append(x)
+                elif depth < 4:
+                    walk(inner, depth + 1)
+        walk(text)
+        uniq, seen = [], set()
+        for x in players:
+            if x['n'].lower() not in seen:
+                seen.add(x['n'].lower()); uniq.append(x)
+        return uniq, coach
+
+    def visit(text: str, depth: int = 0):
+        for nm, inner in templates(text):
+            low = nm.lower()
+            p = params(inner)
+            team = ''
+            if low.startswith('teamcard') and p.get('team'):
+                team = p['team']
+            elif low in ('opponent', 'teamopponent') and ('players' in p or any(re.fullmatch(r'p\d', k) for k in p)):
+                team = p.get('1') or p.get('template') or ''
+            if team:
+                name = team_name(team)
+                players, coach = people(p.get('players', '') if 'players' in p else '', p)
+                if name != 'TBD' and players and name not in out:
+                    out[name] = {'players': players[:7], **({'coach': coach} if coach else {})}
+            elif depth < 5 and low not in ('match', 'map', 'matchlist', 'bracket'):
+                visit(inner, depth + 1)
+    visit(wikitext or '')
+    return out
 
 
 SWISS_HINT = re.compile(r'swiss|stage|opening|elimination|challengers|legends|champions stage', re.I)
@@ -777,6 +880,13 @@ def process(src, cfg: dict, prev: dict, prev_index: dict) -> dict | None:
         if hits:
             extra += [t for t in src.pages(hits[:3]).values() if t]
     data = build_major(cfg, text, pages, links, extra)
+    rosters = parse_rosters(text)
+    for t in pages.values():
+        for k, v in parse_rosters(t or '').items():
+            rosters.setdefault(k, v)
+    data['rosters'] = rosters
+    if len(rosters) < 4 and text:
+        DEBUG.append((page + '/__plantillas', text))       # no se reconocieron las plantillas: se guarda para revisarlo
     data['info'] = infobox(text)
     data['page'] = page
     data['links'] = links
@@ -928,6 +1038,8 @@ def rename_teams(renames: dict[str, str]):
                 m['t1'] = renames.get(m['t1'], m['t1']); m['t2'] = renames.get(m['t2'], m['t2'])
             for st in d.get('stages', []):
                 st['teams'] = sorted({renames.get(t, t) for t in st.get('teams', [])})
+            if d.get('rosters'):
+                d['rosters'] = {renames.get(t, t): v for t, v in d['rosters'].items()}
         write_json(f, d)
 
 
@@ -958,6 +1070,95 @@ def fix_saved_names():
             db['teams'] = dict(sorted(db['teams'].items()))
             write_json(TEAMS_JSON, db)
         log('Nombres corregidos: ' + ', '.join(f'{a} → {b}' for a, b in todo.items()))
+
+
+STATS_JSON = ROOT / 'data' / 'stats.json'
+PLACE_NAME = {1: 'Campeón', 2: 'Subcampeón', 3: 'Semifinales', 5: 'Cuartos de final', 9: 'Octavos de final'}
+
+
+def placements(d: dict) -> dict:
+    """Puesto de cada equipo en un Major: (orden, texto, victorias, derrotas)."""
+    ms = [m for m in d.get('matches', []) if m.get('done')]
+    stages = d.get('stages', [])
+    order = {s['id']: i for i, s in enumerate(stages)}
+    out = {}
+    teams = {t for s in stages for t in s.get('teams', [])} | {t for m in ms for t in (m['t1'], m['t2'])}
+    teams.discard('TBD')
+    for t in teams:
+        own = [m for m in ms if t in (m['t1'], m['t2'])]
+        w = sum(1 for m in own if (m['winner'] == 1) == (m['t1'] == t))
+        l = len(own) - w
+        po = [m for m in own if m['stage'] == 'po' and m.get('kind') in ('final', 'sf', 'qf', 'r16')]
+        if po:
+            last = max(po, key=lambda m: ['r16', 'qf', 'sf', 'final'].index(m['kind']))
+            won = (last['winner'] == 1) == (last['t1'] == t)
+            rank = {'final': 1 if won else 2, 'sf': 3, 'qf': 5, 'r16': 9}[last['kind']]
+            out[t] = [rank, PLACE_NAME[rank], w, l]
+            continue
+        st = [s for s in stages if t in s.get('teams', []) or any(t in (m['t1'], m['t2']) and m['stage'] == s['id'] for m in own)]
+        if not st:
+            continue
+        last = max(st, key=lambda s: order[s['id']])
+        out[t] = [20 - order[last['id']], f"{last['name']}", w, l]
+    return out
+
+
+def build_stats(index: dict):
+    """data/stats.json: historial de cada equipo y jugador en los Majors (para sus fichas)."""
+    teams, players = {}, {}
+    for m in index['majors']:
+        f = OUT / f"{m['id']}.json"
+        if not f.exists():
+            continue
+        d = json.loads(f.read_text('utf-8'))
+        done = m['status'] == 'done'
+        places = placements(d) if d.get('matches') else {}
+        if done and m.get('champion'):                                    # campeón según la ficha aunque falten partidos
+            places.setdefault(m['champion'], [1, 'Campeón', 0, 0])[:2] = [1, 'Campeón']
+            if m.get('runnerup'):
+                places.setdefault(m['runnerup'], [2, 'Subcampeón', 0, 0])[:2] = [2, 'Subcampeón']
+        for t, (rank, txt, w, l) in places.items():
+            T = teams.setdefault(t, {'majors': [], 'maps': {}, 'rt': [0, 0], 'rct': [0, 0], 'titles': 0, 'finals': 0})
+            T['majors'].append({'id': m['id'], 'rank': rank if done or rank <= 2 else None, 'place': txt if done or rank <= 2 else 'En juego', 'w': w, 'l': l})
+            if done and rank == 1:
+                T['titles'] += 1
+            if done and rank <= 2:
+                T['finals'] += 1
+        for mt in d.get('matches', []):
+            for x in mt.get('maps', []):
+                if not x.get('winner') or not x.get('map'):
+                    continue
+                for side, t in ((1, mt['t1']), (2, mt['t2'])):
+                    if t not in teams:
+                        continue
+                    T = teams[t]
+                    mm = T['maps'].setdefault(x['map'], [0, 0, 0])               # ganados, perdidos, elegidos
+                    mm[0 if x['winner'] == side else 1] += 1
+                    h = x.get('h')
+                    if h:
+                        tt, tct, ot, oct_ = (h[0], h[1], h[2], h[3]) if side == 1 else (h[2], h[3], h[0], h[1])
+                        T['rt'][0] += tt; T['rt'][1] += oct_                   # rondas como T: ganadas / perdidas
+                        T['rct'][0] += tct; T['rct'][1] += ot
+            for team, act, mp in mt.get('veto', []):
+                if act == 'pick' and team in (1, 2):
+                    t = mt['t1'] if team == 1 else mt['t2']
+                    if t in teams:
+                        teams[t]['maps'].setdefault(mp, [0, 0, 0])[2] += 1
+        for t, r in (d.get('rosters') or {}).items():
+            for role, lst in (('player', r.get('players', [])), ('coach', [r['coach']] if r.get('coach') else [])):
+                for x in lst:
+                    P = players.setdefault(x['n'], {'flag': x.get('flag', ''), 'majors': []})
+                    P['flag'] = P['flag'] or x.get('flag', '')
+                    pl = places.get(t)
+                    P['majors'].append({'id': m['id'], 'team': t, 'role': role, 'rank': pl[0] if pl and (done or pl[0] <= 2) else None,
+                                        'place': (pl[1] if done or pl[0] <= 2 else 'En juego') if pl else ''})
+            for e in teams.get(t, {}).get('majors', []):
+                if e['id'] == m['id']:
+                    e['roster'] = [x['n'] for x in r.get('players', [])]
+                    if r.get('coach'):
+                        e['coach'] = r['coach']['n']
+    write_json(STATS_JSON, {'teams': dict(sorted(teams.items())), 'players': dict(sorted(players.items(), key=lambda kv: kv[0].lower()))})
+    log(f'Estadísticas: {len(teams)} equipos, {len(players)} jugadores')
 
 
 def save_debug():
@@ -1043,6 +1244,7 @@ def main(argv: list[str]) -> int:
             detail = {
                 'event': {'id': cfg['id'], 'name': cfg['name'], 'page': data['page'], 'city': cfg['city'], 'country': cfg['country']},
                 'source': 'Liquipedia (CC-BY-SA 3.0)', 'stages': data['stages'], 'matches': data['matches'],
+                'rosters': data.get('rosters') or detail_prev.get('rosters') or {},
                 'checked': now, 'errors': [],
             }
             write_json(dpath, detail)
@@ -1085,6 +1287,7 @@ def main(argv: list[str]) -> int:
             RETRY_LOGOS = ''
     if '--no-logos' not in argv and not src.blocked:
         update_logos(src, seen)
+    build_stats(json.loads(idx_path.read_text('utf-8')))
     log(f'Hecho: {src.calls} consultas a Liquipedia · Pick\'em: {cur} · {sum(1 for m in index["majors"] if m["loaded"])}/{len(MAJORS)} Majors con datos')
     return 0
 

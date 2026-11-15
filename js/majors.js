@@ -84,10 +84,10 @@ export function createMajors(h) {
     const extra = M.extra[id] || {};
     if (M.id !== id) { M.id = id; M.stage = null; }
     const stages = (d?.stages || []).filter((s) => s.matches || (d.matches || []).some((x) => x.stage === s.id));
-    if (!M.stage || !stages.some((s) => s.id === M.stage)) M.stage = (stages.find((s) => s.id === 'po' && d.matches.some((x) => x.stage === 'po' && x.done)) || stages[stages.length - 1] || {}).id;
+    if (!M.stage || (M.stage !== '__teams' && !stages.some((s) => s.id === M.stage))) M.stage = (stages.find((s) => s.id === 'po' && d.matches.some((x) => x.stage === 'po' && x.done)) || stages[stages.length - 1] || {}).id;
     const fact = (l, v) => (v ? `<div class="fact"><small>${l}</small><b>${v}</b></div>` : '');
     const champ = m.champion
-      ? `<section class="mjchamp"><div class="mjchamp__cup" aria-hidden="true">🏆</div>${badge(m.champion, 'tb--xl')}<div><small>Campeón</small><h2>${esc(m.champion)}</h2>
+      ? `<section class="mjchamp"><div class="mjchamp__cup" aria-hidden="true">🏆</div>${badge(m.champion, 'tb--xl')}<div><small>Campeón</small><h2><a href="#/equipos/${encodeURIComponent(m.champion)}">${esc(m.champion)}</a></h2>
           <p>${m.final ? `Ganó la final <b>${esc(m.final.replace('-', '–'))}</b> a ` : 'Ganó la final a '}${badge(m.runnerup)} <b>${esc(m.runnerup)}</b></p></div></section>`
       : `<section class="mjchamp mjchamp--tbd"><div class="mjchamp__cup" aria-hidden="true">🏆</div><div><small>Campeón</small><h2>${m.status === 'upcoming' ? 'Por jugar' : 'Por decidir'}</h2>
           <p>${m.id === idx.current ? 'Es el Major del Pick\'em: <a href="#/">haz tus pronósticos</a>.' : 'Todavía no hay campeón.'}</p></div></section>`;
@@ -98,14 +98,23 @@ export function createMajors(h) {
           ${fact('Premios', esc(money(m.prize)))}${fact('Equipos', m.teams ? String(m.teams) : '')}${fact('MVP', esc(mvpOf(m)))}</div></header>
       ${champ}
       ${extra.note ? `<div class="notice"><span aria-hidden="true">📝</span><p>${esc(extra.note)}</p></div>` : ''}
-      ${stages.length ? `<div class="seg">${stages.map((s) => `<button type="button" class="${s.id === M.stage ? 'is-on' : ''}" data-mjs="${esc(s.id)}">${esc(stageLabel(s))}</button>`).join('')}</div>
-        <div id="mjStage">${stageHtml(d, stages.find((s) => s.id === M.stage))}</div>`
+      ${stages.length ? `<div class="seg">${stages.map((s) => `<button type="button" class="${s.id === M.stage ? 'is-on' : ''}" data-mjs="${esc(s.id)}">${esc(stageLabel(s))}</button>`).join('')}${Object.keys(d.rosters || {}).length ? `<button type="button" class="${M.stage === '__teams' ? 'is-on' : ''}" data-mjs="__teams">Equipos y plantillas</button>` : ''}</div>
+        <div id="mjStage">${stageHtml(d, M.stage === '__teams' ? { id: '__teams' } : stages.find((s) => s.id === M.stage))}</div>`
         : `<div class="empty">${m.status === 'upcoming' ? 'Este Major todavía no ha empezado: sus fases aparecerán aquí cuando Liquipedia publique los cruces.' : 'Los partidos de este Major todavía no se han descargado de Liquipedia. Se añaden poco a poco: vuelve en un rato.'}</div>`}
       <p class="hint mj__src">Datos de ${m.page ? `<a href="${lpUrl(m.page)}" target="_blank" rel="noopener">Liquipedia</a>` : 'Liquipedia'} (CC-BY-SA 3.0).</p>
     </div>`;
   }
   const stageLabel = (s) => (s.name === 'Principal' ? 'Fase de grupos' : s.name);
+  function rostersHtml(d) {
+    const r = Object.entries(d.rosters || {}).sort((a, b) => a[0].localeCompare(b[0]));
+    if (!r.length) return '<div class="empty">Liquipedia todavía no tiene las plantillas de este Major.</div>';
+    const fl = (c) => { const x = String(c || '').toLowerCase(); const k = { uk: 'gb' }[x] || x; return /^[a-z]{2}$/.test(k) ? flag(k.toUpperCase()) : ''; };
+    const pl = (x) => `<a class="plink" href="#/jugadores/${encodeURIComponent(x.n)}">${fl(x.flag)} ${esc(x.n)}</a>`;
+    return `<div class="rgrid">${r.map(([t, v]) => `<section class="card"><h3><a class="tlink" href="#/equipos/${encodeURIComponent(t)}">${badge(t)}<span>${esc(t)}</span></a></h3>
+        <div class="roster">${v.players.map(pl).join('')}${v.coach ? `<span class="roster__coach">Entrenador: ${pl(v.coach)}</span>` : ''}</div></section>`).join('')}</div>`;
+  }
   function stageHtml(d, s) {
+    if (s?.id === '__teams') return rostersHtml(d);
     if (!d || !s) return '';
     const ms = d.matches.filter((x) => x.stage === s.id);
     if (s.type === 'bracket') return bracketHtml(ms);
@@ -116,7 +125,7 @@ export function createMajors(h) {
     const w = winnerTeam(m);
     const side = (t, sc, right) => `<span class="mr__t ${w === t ? 'is-won' : w ? 'is-lost' : ''} ${right ? 'mr__t--r' : ''}">${badge(t)}<b>${esc(t)}</b></span>`;
     const maps = (m.maps || []).filter((x) => x.map || x.s1 != null);
-    return `<li class="mr">
+    return `<li class="mr"><a class="mr__link" href="#/majors/${esc(M.id)}/p/${esc(m.id)}" aria-label="Ver el partido ${esc(m.t1)} contra ${esc(m.t2)}"></a>
         <span class="mr__when">${m.time ? fmtDate(m.time) : ''}<small>Bo${m.bo}</small></span>
         ${side(m.t1, m.s1)}<span class="mr__score">${m.done ? `<b class="${m.winner === 1 ? 'w' : ''}">${m.s1}</b>–<b class="${m.winner === 2 ? 'w' : ''}">${m.s2}</b>` : '<i>vs</i>'}</span>${side(m.t2, m.s2, true)}
         ${maps.length > 1 || (maps.length === 1 && m.bo === 1) ? `<span class="mr__maps">${maps.map((x) => `${esc(x.map || 'Mapa')} ${x.s1 ?? ''}–${x.s2 ?? ''}`).join(' · ')}</span>` : ''}</li>`;
@@ -164,7 +173,7 @@ export function createMajors(h) {
     const box = (m) => {
       const w = winnerTeam(m);
       const t = (team, sc) => `<div class="bx__t ${w === team ? 'is-won' : w ? 'is-lost' : ''}">${team && team !== 'TBD' ? badge(team) : '<span class="tb tb--tbd">?</span>'}<span>${esc(team && team !== 'TBD' ? team : 'Por decidir')}</span><b>${m.done ? sc : ''}</b></div>`;
-      return `<div class="bx ${m.kind === 'final' ? 'bx--final' : ''}"><small>${m.time ? fmtDate(m.time) : ''} · Bo${m.bo}</small>${t(m.t1, m.s1)}${t(m.t2, m.s2)}</div>`;
+      return `<a class="bx ${m.kind === 'final' ? 'bx--final' : ''}" href="#/majors/${esc(M.id)}/p/${esc(m.id)}"><small>${m.time ? fmtDate(m.time) : ''} · Bo${m.bo}</small>${t(m.t1, m.s1)}${t(m.t2, m.s2)}</a>`;
     };
     return `<div class="mjbr" style="--cols:${cols.length}">${cols.map((c) => {
       const own = main.filter((m) => Number(m.slot.match(/^R(\d+)/)[1]) === c).sort((a, b) => Number(a.slot.split('M')[1]) - Number(b.slot.split('M')[1]));
@@ -185,7 +194,7 @@ export function createMajors(h) {
     M.stage = b.dataset.mjs;
     document.querySelectorAll('[data-mjs]').forEach((x) => x.classList.toggle('is-on', x === b));
     const d = await getDetail(M.id);
-    document.getElementById('mjStage').innerHTML = stageHtml(d, d.stages.find((s) => s.id === M.stage));
+    document.getElementById('mjStage').innerHTML = stageHtml(d, M.stage === '__teams' ? { id: '__teams' } : d.stages.find((s) => s.id === M.stage));
   });
-  return { list, detail, isOpen, getIndex, flag };
+  return { list, detail, isOpen, getIndex, getDetail, flag };
 }

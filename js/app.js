@@ -1,6 +1,7 @@
 import { call, getMatches, clearMatches, session, saveSession, ApiError } from './api.js';
 import { createAdmin } from './admin.js';
 import { createMajors } from './majors.js';
+import { createStats } from './stats.js';
 
 const $app = document.getElementById('app');
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -52,6 +53,7 @@ const S = {
 };
 let admin = null;
 const majors = createMajors({ esc, badge, fmtDate, fmtDayTime, call, $app });
+const stats = createStats({ esc, badge, fmtDate, fmtDayTime, $app, majors });
 const past = () => !!S.data && S.data.ev !== S.data.current;          // Major ya cerrado: solo lectura
 const adminView = () => (admin = admin || createAdmin({ call, esc, $app, badge, fmtDate, fmtTime, fmtDayTime, roundEs, getMatches, clearMatches, route, isTbd }));
 
@@ -59,13 +61,22 @@ const adminView = () => (admin = admin || createAdmin({ call, esc, $app, badge, 
 async function route() {
   await logosReady;
   const hash = location.hash.replace(/^#\/?/, '');
-  const [page, arg, arg2] = hash.split('/');
+  const [page, arg, arg2, arg3] = hash.split('/');
   document.body.dataset.page = page || 'home';
-  document.querySelectorAll('[data-nav]').forEach((a) => a.classList.toggle('is-on', a.dataset.nav === (page === 'majors' ? 'majors' : page === 'admin' ? '' : 'pickem')));
+  const nav = ['majors', 'equipos', 'jugadores'].includes(page) ? page : page === 'admin' ? '' : 'pickem';
+  document.querySelectorAll('[data-nav]').forEach((a) => a.classList.toggle('is-on', a.dataset.nav === nav));
   if (page === 'admin') { renderTop(); $app.innerHTML = await adminView().view(arg || 'resumen'); return; }
-  if (!admin?.isOpen?.() && !majors.isOpen()) $app.innerHTML = `<div class="loading" role="status"><span></span>Cargando…</div>`;
-  if (page === 'majors') {
-    try { $app.innerHTML = arg ? await majors.detail(decodeURIComponent(arg)) : await majors.list(); window.scrollTo(0, 0); } catch (err) {
+  if (!admin?.isOpen?.() && !majors.isOpen() && !stats.isOpen()) $app.innerHTML = `<div class="loading" role="status"><span></span>Cargando…</div>`;
+  if (['majors', 'equipos', 'jugadores'].includes(page)) {
+    const a = arg ? decodeURIComponent(arg) : '';
+    try {
+      $app.innerHTML = page === 'equipos' ? (a ? await stats.team(a) : await stats.teamsList())
+        : page === 'jugadores' ? (a ? await stats.player(a) : await stats.playersList())
+          : a && arg2 === 'p' && arg3 ? await stats.match(a, decodeURIComponent(arg3))
+            : a ? await majors.detail(a) : await majors.list();
+      if (!(page === 'majors' && a && !arg2 && S.lastMajor === a)) window.scrollTo(0, 0);
+      S.lastMajor = page === 'majors' && !arg2 ? a : S.lastMajor;
+    } catch (err) {
       $app.innerHTML = `<div class="state state--error"><p><b>No se pudo cargar el historial (${esc(err.message)}).</b></p><button class="btn" type="button" onclick="location.reload()">Reintentar</button></div>`;
     }
     if (!S.me && session().token) call('GET', '/me').then((me) => { S.me = me; renderTop(); }).catch(() => {});
@@ -98,7 +109,7 @@ window.addEventListener('hashchange', () => { S.board = null; S.stageDraft = {};
 function renderTop() {
   const me = S.me;
   document.getElementById('topUser').innerHTML = me
-    ? `${me.admin ? '<a class="btn btn--ghost btn--sm" href="#/admin">Admin</a>' : ''}<span class="top__nick" title="Tu cuenta">${badge(me.user.nick, 'tb--me')}<b>${esc(me.user.nick)}</b></span>`
+    ? `${me.admin ? '<a class="btn btn--ghost btn--sm top__admin" href="#/admin" aria-label="Administración">⚙<span>Admin</span></a>' : ''}<span class="top__nick" title="Tu cuenta">${badge(me.user.nick, 'tb--me')}<b>${esc(me.user.nick)}</b></span>`
     : '';
 }
 
@@ -481,6 +492,7 @@ function tabPlayed() {
       <header><span>${esc(stageName(m.stage))} · ${esc(roundEs(m.round))} · ${fmtDayTime(m.time)}</span>${m.done ? (m.fixed ? '<span class="pill pill--warn">corregido</span>' : '') : '<span class="pill pill--live">en juego</span>'}</header>
       <div class="pl__teams">${side(m.t1, m.s1)}<span class="pk__vs">vs</span>${side(m.t2, m.s2)}</div>
       ${m.maps?.length ? `<p class="pl__maps">${m.maps.map((x) => `${esc(x.map)} ${x.s1 ?? ''}–${x.s2 ?? ''}`).join(' · ')}</p>` : ''}
+      ${String(m.id).startsWith('x-') ? '' : `<a class="pl__more" href="#/majors/${esc(S.data.ev)}/p/${esc(m.id)}">Mapas, rondas y plantillas →</a>`}
       <footer>${p ? `Tu pronóstico: <b>${esc(p.team)}${p.score ? ' ' + p.score.replace('-', '–') : ''}</b>${r ? (r.ok ? ` <span class="ok">+${r.points}${r.exact ? ' exacto' : ''}</span>` : ' <span class="ko">0</span>') : ''}` : '<span class="hint">No lo pronosticaste</span>'}
         ${others.length ? `<span class="pl__others">${others.map((o) => `<span class="mini ${m.done ? (o.team === winnerTeam(m) ? 'is-ok' : 'is-ko') : ''}" title="${esc(o.team)}">${esc(o.nick)}: ${esc(shortOf(o.team))}${o.score ? ' ' + o.score.replace('-', '–') : ''}</span>`).join('')}</span>` : ''}</footer>
     </article>`;
@@ -630,7 +642,7 @@ $app.addEventListener('submit', async (e) => {
 
 // Refresco suave cada 2 minutos (si no se está editando nada)
 setInterval(() => {
-  if (document.hidden || admin?.isOpen?.() || majors.isOpen() || document.querySelector('.is-dirty') || document.activeElement?.matches('input, select, textarea')) return;
+  if (document.hidden || admin?.isOpen?.() || majors.isOpen() || stats.isOpen() || document.querySelector('.is-dirty') || document.activeElement?.matches('input, select, textarea')) return;
   clearMatches(); route();
 }, 120_000);
 
