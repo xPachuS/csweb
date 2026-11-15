@@ -47,8 +47,40 @@ export function createStats(h) {
           <small>${r.n} Major${r.n === 1 ? '' : 's'}${r.titles ? ` · ${'🏆'.repeat(Math.min(r.titles, 5))}` : r.finals ? ' · finalista' : best(r) <= 5 ? ` · mejor: ${best(r) === 3 ? 'semis' : 'cuartos'}` : ''}</small></span></a>`).join('') || '<div class="empty">Ningún equipo con ese nombre.</div>'}</div>
     </div>`;
   }
+  async function getSeries() {
+    if (X.series) return X.series;
+    try { const r = await fetch(`data/series.json?v=${Math.floor(Date.now() / 600_000)}`); X.series = r.ok ? (await r.json()).series : []; } catch { X.series = []; }
+    return X.series;
+  }
+  // línea de tiempo: un punto por Major (más arriba cuanto mejor quedó)
+  function timeline(T, idx) {
+    const played = idx.majors.filter((m) => m.status !== 'upcoming');
+    if (!played.length) return '';
+    const byId = Object.fromEntries(T.majors.map((e) => [e.id, e]));
+    const W = 1000; const H = 150; const step = W / Math.max(1, played.length - 1);
+    const lvl = (r) => (r == null ? null : r === 1 ? 0 : r === 2 ? 1 : r <= 3 ? 2 : r <= 5 ? 3 : r <= 9 ? 4 : 5);
+    const y = (l) => 18 + l * 22;
+    const pts = played.map((m, i) => ({ m, i, e: byId[m.id], l: byId[m.id] ? lvl(byId[m.id].rank) ?? 4 : null }));
+    const path = pts.filter((p) => p.l != null).map((p, k) => `${k ? 'L' : 'M'}${(p.i * step).toFixed(1)},${y(p.l)}`).join(' ');
+    const labels = ['Campeón', 'Final', 'Semis', 'Cuartos', 'Octavos', 'Fase'];
+    return `<section class="card tline"><h3>Trayectoria</h3><div class="tline__wrap"><svg viewBox="-30 0 ${W + 60} ${H}" preserveAspectRatio="none" role="img" aria-label="Resultados en cada Major">
+        ${labels.map((l, k) => `<line x1="0" x2="${W}" y1="${y(k)}" y2="${y(k)}" class="tline__grid"/>`).join('')}
+        <path d="${path}" class="tline__path" vector-effect="non-scaling-stroke"/>
+        ${pts.map((p) => (p.l == null ? `<circle cx="${p.i * step}" cy="${H - 8}" r="2.5" class="tline__miss"><title>${esc(p.m.city)} ${p.m.year}: no jugó</title></circle>`
+        : `<circle cx="${p.i * step}" cy="${y(p.l)}" r="${p.l === 0 ? 8 : 6}" class="tline__dot tline__dot--${p.l}"><title>${esc(p.m.city)} ${p.m.year}: ${esc(placeTxt(p.e))}</title></circle>`)).join('')}
+      </svg><div class="tline__y">${labels.map((l) => `<span>${l}</span>`).join('')}</div></div>
+      <div class="tline__x"><span>${played[0].year}</span><span>${played[played.length - 1].year}</span></div></section>`;
+  }
   async function team(name) {
-    const [st, idx] = await Promise.all([getStats(), majors.getIndex()]);
+    const [st, idx, series] = await Promise.all([getStats(), majors.getIndex(), getSeries()]);
+    const opp = {};
+    for (const s of series) {
+      if (s[2] !== name && s[3] !== name) continue;
+      const o = s[2] === name ? s[3] : s[2];
+      const won = (s[6] === 1 ? s[2] : s[3]) === name;
+      const x = opp[o] = opp[o] || [0, 0]; x[0]++; if (won) x[1]++;
+    }
+    const rivals = Object.entries(opp).map(([t, [n, w]]) => [t, n, w]).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
     const T = st.teams[name];
     if (!T) return `<div class="state state--error"><p><b>No hay datos de ${esc(name)}.</b></p><a class="btn" href="#/equipos">Ver equipos</a></div>`;
     const ms = T.majors.slice().sort((a, b) => b.id.localeCompare(a.id));
@@ -61,15 +93,19 @@ export function createStats(h) {
       <header class="sthead">${badge(name, 'tb--xl')}<div><p class="kicker">Equipo</p><h1 class="ghead__title">${esc(name)}</h1>
         <div class="facts">${fact('Majors', T.majors.length)}${fact('Títulos', T.titles ? `🏆 ${T.titles}` : '0')}${fact('Finales', T.finals)}${fact('Series', `${W}–${L}`)}
           ${maps.length ? fact('Mapas', `${maps.reduce((s, x) => s + x.w, 0)}–${maps.reduce((s, x) => s + x.l, 0)}`) : ''}</div></div></header>
+      ${timeline(T, idx)}
+      <div class="h2hpick"><label>Comparar con <select class="input" data-h2h-from="${esc(name)}"><option value="">Elige un equipo…</option>${rivals.map(([t, n]) => `<option value="${esc(t)}">${esc(t)} · ${n} serie${n === 1 ? '' : 's'}</option>`).join('')}</select></label></div>
       <div class="stcols">
         <section class="card"><h3>Trayectoria en Majors</h3><ol class="tl">${ms.map((e) => `<li class="${placeCls(e.rank)}"><a href="#/majors/${esc(e.id)}"><b>${esc(majorName(idx, e.id))}</b><span>${esc(placeTxt(e))}</span></a>
-            <small>${e.w || e.l ? `${e.w}–${e.l} en series` : ''}${e.roster?.length ? ` · ${e.roster.map((p) => `<a href="#/jugadores/${enc(p)}">${esc(p)}</a>`).join(', ')}` : ''}${e.coach ? ` · entrenador <a href="#/jugadores/${enc(e.coach)}">${esc(e.coach)}</a>` : ''}</small></li>`).join('')}</ol></section>
+            <small>${[e.w || e.l ? `${e.w}–${e.l} en series` : '', e.roster?.length ? e.roster.map((p) => `<a href="#/jugadores/${enc(p)}">${esc(p)}</a>`).join(', ') : '', e.coach ? `entrenador <a href="#/jugadores/${enc(e.coach)}">${esc(e.coach)}</a>` : ''].filter(Boolean).join(' · ')}</small></li>`).join('')}</ol></section>
         <div class="stside">
           ${lastRoster ? `<section class="card"><h3>Última plantilla <small>${esc(majorName(idx, lastRoster.id))}</small></h3><div class="roster">${lastRoster.roster.map((p) => pLink({ n: p, flag: st.players[p]?.flag })).join('')}${lastRoster.coach ? `<span class="roster__coach">Entrenador: ${pLink({ n: lastRoster.coach, flag: st.players[lastRoster.coach]?.flag })}</span>` : ''}</div></section>` : ''}
           ${T.rt[0] + T.rt[1] ? `<section class="card"><h3>Por lado</h3>${bar('Terrorista', T.rt[0], T.rt[1], 'is-t')}${bar('Antiterrorista', T.rct[0], T.rct[1], 'is-ct')}<p class="hint">Rondas ganadas sin contar prórrogas.</p></section>` : ''}
-          ${maps.length ? `<section class="card"><h3>Mapas</h3><table class="mtab"><thead><tr><th>Mapa</th><th>Jug.</th><th>Vict.</th><th></th><th>Elegido</th></tr></thead><tbody>
-            ${maps.map((x) => `<tr><td>${mapThumb(x.m)}${esc(x.m)}</td><td>${x.n}</td><td>${x.w}–${x.l}</td><td><span class="wbar"><i style="width:${pct(x.w, x.l)}%"></i></span>${pct(x.w, x.l)}%</td><td>${x.p || '—'}</td></tr>`).join('')}</tbody></table>
+          ${maps.length ? `<section class="card"><h3>Mapas</h3><div class="mcards">${maps.map((x) => `<div class="mcard ${MAPS[x.m]?.img ? '' : 'is-fake'}" style="${mapBg(x.m)}">
+              <b>${esc(x.m)}</b><span class="mcard__pct">${pct(x.w, x.l)}%</span><small>${x.w}–${x.l} en ${x.n} mapa${x.n === 1 ? '' : 's'}${x.p ? ` · elegido ${x.p}×` : ''}</small>
+              <span class="mcard__bar"><i style="width:${pct(x.w, x.l)}%"></i></span></div>`).join('')}</div>
             <p class="hint">«Elegido»: veces que lo eligió en la selección de mapas, cuando Liquipedia la tiene.</p></section>` : ''}
+          ${rivals.length ? `<section class="card"><h3>Rivales más frecuentes</h3><ol class="rk">${rivals.slice(0, 6).map(([t, n, w], i) => `<li><i>${i + 1}</i><a class="tlink" href="#/equipos/${enc(name)}/vs/${enc(t)}">${badge(t)}<span>${esc(t)}</span></a><b>${w}–${n - w}</b></li>`).join('')}</ol></section>` : ''}
         </div></div></div>`;
   }
 
@@ -116,6 +152,8 @@ export function createStats(h) {
     const stage = d.stages.find((s) => s.id === m.stage);
     // solo los mapas jugados (o en juego): fuera el 3.º de un 2-0, el 4.º y 5.º de un 3-0…
     const played = (m.maps || []).filter((x) => x.winner || x.s1 != null || x.s2 != null);
+    const live = !m.done && m.date && Date.parse(m.date) <= Date.now() && Date.now() - Date.parse(m.date) < 8 * 3600_000;
+    X.live = live ? `${id}/${mid}` : null;
     const w = m.winner === 1 ? m.t1 : m.winner === 2 ? m.t2 : null;
     const side = (n, team) => `<div class="mxteam ${w === team ? 'is-won' : w ? 'is-lost' : ''} ${n === 2 ? 'mxteam--r' : ''}">${team !== 'TBD' ? `<a href="#/equipos/${enc(team)}">${badge(team, 'tb--xl')}</a>` : badge('TBD', 'tb--xl')}<b>${esc(team === 'TBD' ? 'Por decidir' : team)}</b></div>`;
     const veto = (m.veto || []).map(([t, a, mp]) => `<li class="vt vt--${a}">${mapThumb(mp)}<span>${a === 'decider' ? 'Decisivo' : a === 'pick' ? 'Elige' : 'Veta'}</span><b>${esc(mp)}</b><small>${t ? esc(t === 1 ? m.t1 : m.t2) : 'el que queda'}</small></li>`).join('');
@@ -134,10 +172,11 @@ export function createStats(h) {
           <tr><td>${esc(m.t1)}</td><td>${h1[0]} ${lab(m.t1, f)}</td><td>${h2[0]} ${lab(m.t1, f === 't' ? 'ct' : 't')}</td>${x.ot ? `<td>${x.ot[0]}</td>` : ''}<td><b>${x.s1 ?? ''}</b></td></tr>
           <tr><td>${esc(m.t2)}</td><td>${h1[1]} ${lab(m.t2, f === 't' ? 'ct' : 't')}</td><td>${h2[1]} ${lab(m.t2, f)}</td>${x.ot ? `<td>${x.ot[1]}</td>` : ''}<td><b>${x.s2 ?? ''}</b></td></tr></tbody></table>`;
       }
-      return `<section class="mxmap ${x.winner ? '' : 'is-pending'}"><header class="mxmap__img ${MAPS[x.map]?.img ? '' : 'is-fake'}" style="${mapBg(x.map)}"><span class="mxmap__n">Mapa ${i + 1}${x.winner ? ` · gana ${esc(x.winner === 1 ? m.t1 : m.t2)}` : ''}</span><h3>${esc(x.map || 'Por decidir')}</h3>
-          ${pk ? `<span class="pill ${pk[1] === 'decider' ? 'pill--soft' : ''}">${pk[1] === 'decider' ? 'Decisivo' : `Elige ${esc(pk[0] === 1 ? m.t1 : m.t2)}`}</span>` : ''}
+      const rb = (x.s1 ?? 0) + (x.s2 ?? 0) ? `<div class="rbar" title="Rondas: ${esc(m.t1)} ${x.s1 ?? 0} – ${x.s2 ?? 0} ${esc(m.t2)}"><i style="flex:${x.s1 ?? 0}"></i><i style="flex:${x.s2 ?? 0}"></i></div>` : '';
+      return `<section class="mxmap ${x.winner ? '' : 'is-live'}"><header class="mxmap__img ${MAPS[x.map]?.img ? '' : 'is-fake'}" style="${mapBg(x.map)}"><span class="mxmap__n">Mapa ${i + 1}${x.winner ? ` · gana ${esc(x.winner === 1 ? m.t1 : m.t2)}` : ''}</span><h3>${esc(x.map || 'Por decidir')}</h3>
+          ${pk ? `<span class="pill ${pk[1] === 'decider' ? 'pill--soft' : ''}">${pk[1] === 'decider' ? 'Decisivo' : `Elige ${esc(pk[0] === 1 ? m.t1 : m.t2)}`}</span>` : ''}${x.winner ? '' : '<span class="pill pill--live">En juego</span>'}
           <span class="mxmap__score"><b class="${x.winner === 1 ? 'w' : ''}">${x.s1 ?? '–'}</b>–<b class="${x.winner === 2 ? 'w' : ''}">${x.s2 ?? '–'}</b></span></header>
-        ${halves}
+        ${rb}${halves}
         ${x.hltv ? `<a class="btn btn--sm btn--ghost" href="${hltvMap(x.hltv)}" target="_blank" rel="noopener">Kills, muertes y asistencias del mapa en HLTV ↗</a>` : ''}</section>`;
     };
     const roster = (team) => {
@@ -146,6 +185,7 @@ export function createStats(h) {
       return `<section class="card"><h3>${badge(team)} ${esc(team)}</h3><div class="roster">${r.players.map(pLink).join('')}${r.coach ? `<span class="roster__coach">Entrenador: ${pLink(r.coach)}</span>` : ''}</div></section>`;
     };
     return `<div class="st"><nav class="mjnav"><a href="#/majors/${esc(id)}">← ${esc(M.name)}</a></nav>
+      ${live ? '<div class="notice notice--live"><span class="pill pill--live">En directo</span><p>Este partido se está jugando. La página se actualiza sola cada minuto con lo último de Liquipedia (que suele ir unos minutos por detrás).</p></div>' : ''}
       <section class="mx"><p class="kicker">${esc(stage?.name || '')} · ${esc(m.round || '')} · Bo${m.bo}${m.date ? ` · ${fmtDayTime(new Date(m.date))}` : ''}</p>
         <div class="mxhead">${side(1, m.t1)}<div class="mxscore">${m.done ? `<b class="${m.winner === 1 ? 'w' : ''}">${m.s1}</b><i>–</i><b class="${m.winner === 2 ? 'w' : ''}">${m.s2}</b>` : '<i>vs</i>'}</div>${side(2, m.t2)}</div>
         ${m.hltv ? `<p class="mxlinks"><a class="btn btn--primary btn--sm" href="${hltvMatch(m.hltv)}" target="_blank" rel="noopener">Estadísticas completas en HLTV ↗</a></p>` : ''}</section>
@@ -172,5 +212,18 @@ export function createStats(h) {
       const el = document.querySelector(`[data-stq="${kind}"]`); if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); }
     }, 250);
   });
-  return { teamsList, team, playersList, player, match, isOpen, teamLink };
+  // refresco del partido en directo
+  setInterval(async () => {
+    if (!X.live || document.hidden || !location.hash.endsWith(X.live.split('/')[1])) return;
+    const [id, mid] = X.live.split('/');
+    majors.forget?.(id);
+    const y = window.scrollY;
+    $app.innerHTML = await match(id, mid);
+    window.scrollTo(0, y);
+  }, 60_000);
+  $app.addEventListener('change', (e) => {
+    const t = e.target.closest('[data-h2h-from]');
+    if (t && t.value) location.hash = `#/equipos/${enc(t.dataset.h2hFrom)}/vs/${enc(t.value)}`;
+  });
+  return { teamsList, team, playersList, player, match, isOpen, teamLink, getStats, mapThumb };
 }

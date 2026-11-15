@@ -72,10 +72,14 @@ export function createMajors(h) {
           <footer class="mjc__foot">${chips.map((c) => `<span>${esc(c)}</span>`).join('')}<span class="mjc__org">${esc(m.organizer)}</span></footer></a>`;
     };
     const cs2 = idx.majors.filter((m) => m.game === 'CS2' && m.status === 'done').length;
+    const hero = await currentHero(idx);
+    setTimeout(tick, 0);
     return `<div class="mj">
+      ${hero}
       <section class="mjhero">
         <div><p class="kicker">Historial</p><h1 class="hero__title">Todos los <span>Majors</span></h1>
-          <p class="lead">${done.length} Majors jugados desde DreamHack Winter 2013${cs2 ? `, ${cs2} ya con Counter-Strike 2` : ''}. Toca uno para ver sus fases, el cuadro y todos los partidos. Los nuevos se añaden solos.</p></div>
+          <p class="lead">${done.length} Majors jugados desde DreamHack Winter 2013${cs2 ? `, ${cs2} ya con Counter-Strike 2` : ''}. Toca uno para ver sus fases, el cuadro y todos los partidos. Los nuevos se añaden solos.</p>
+          <p class="hero__cta"><a class="btn" href="#/records">🏅 Récords</a><button class="btn btn--ghost" type="button" data-search>🔍 Buscar</button></p></div>
         ${top.length ? `<aside class="card palm"><h3>Más títulos</h3><ol class="palm__list">${top.map(([t, n]) => `<li>${badge(t)}<span>${esc(t)}</span><i style="--w:${Math.round((n / max) * 100)}%"></i><b>${n}</b></li>`).join('')}</ol></aside>` : ''}
       </section>
       <div class="seg">${games.map(([v, l]) => `<button type="button" class="${M.filter === v ? 'is-on' : ''}" data-mjf="${v}">${l}</button>`).join('')}</div>
@@ -83,6 +87,41 @@ export function createMajors(h) {
       <p class="hint mj__src">Datos de <a href="https://liquipedia.net/counterstrike/Majors" target="_blank" rel="noopener">Liquipedia</a> (CC-BY-SA 3.0)${idx.checked ? ` · actualizado ${fmtDayTime(new Date(idx.checked))}` : ''}.</p>
     </div>`;
   }
+
+  // ---------------------------------------------------------------- Major en curso (arriba de la portada)
+  async function currentHero(idx) {
+    const m = idx.majors.find((x) => x.id === idx.current);
+    if (!m || m.status === 'done') return '';
+    const d = await getDetail(m.id).catch(() => null);
+    const now = Date.now();
+    const ms = (d?.matches || []).filter((x) => x.date);
+    const live = ms.filter((x) => !x.done && Date.parse(x.date) <= now && now - Date.parse(x.date) < 8 * 3600_000);
+    const next = ms.filter((x) => !x.done && Date.parse(x.date) > now && x.t1 !== 'TBD' && x.t2 !== 'TBD').sort((a, b) => Date.parse(a.date) - Date.parse(b.date)).slice(0, 4);
+    const start = Date.parse(m.start + 'T00:00:00');
+    const target = next[0] ? Date.parse(next[0].date) : start > now ? start : null;
+    const stage = d?.stages?.find((s) => s.id === (live[0] || next[0])?.stage);
+    const mini = (x) => `<a class="hm" href="#/majors/${esc(m.id)}/p/${esc(x.id)}"><span class="hm__t">${badge(x.t1)}<b>${esc(x.t1)}</b></span>
+        <span class="hm__mid">${x.done || Date.parse(x.date) <= now ? `<b>${x.s1}–${x.s2}</b>` : `<small>${fmtDayTime(new Date(x.date))}</small>`}</span><span class="hm__t hm__t--r">${badge(x.t2)}<b>${esc(x.t2)}</b></span></a>`;
+    return `<section class="nowmj" style="--h:${hue(m.city)}">
+        <div class="nowmj__main"><p class="kicker">${m.status === 'live' ? '<span class="pill pill--live">En juego</span>' : 'Próximo Major'} ${flag(m.country)} ${esc(m.city)}</p>
+          <h2 class="nowmj__title">${esc(m.name)}</h2>
+          <p class="nowmj__sub">${esc(dRange(m.start, m.end))}${stage ? ` · ${esc(stage.name)}` : ''}${m.prize ? ` · ${esc(money(m.prize))}` : ''}</p>
+          ${target ? `<div class="cd" data-countdown="${target}"><div><b>–</b><small>días</small></div><div><b>–</b><small>horas</small></div><div><b>–</b><small>min</small></div><div><b>–</b><small>seg</small></div></div>
+            <p class="hint">${next[0] ? 'para el próximo partido' : 'para que empiece el Major'}</p>` : ''}
+          <p class="hero__cta"><a class="btn btn--primary" href="#/pickem">Jugar al Pick'em</a><a class="btn" href="#/majors/${esc(m.id)}">Ver el Major</a></p></div>
+        <div class="nowmj__side">${live.length ? `<h3>En directo</h3>${live.map(mini).join('')}` : ''}${next.length ? `<h3>Próximos partidos</h3>${next.map(mini).join('')}` : ''}
+          ${!live.length && !next.length ? '<p class="hint">Los cruces aparecerán aquí en cuanto se publiquen.</p>' : ''}</div>
+      </section>`;
+  }
+  // cuenta atrás
+  function tick() {
+    for (const el of document.querySelectorAll('[data-countdown]')) {
+      let left = Math.max(0, Number(el.dataset.countdown) - Date.now());
+      const parts = [86400e3, 3600e3, 60e3, 1e3].map((u) => { const v = Math.floor(left / u); left -= v * u; return v; });
+      el.querySelectorAll('b').forEach((b, i) => { b.textContent = String(parts[i]).padStart(i ? 2 : 1, '0'); });
+    }
+  }
+  setInterval(tick, 1000);
 
   // ---------------------------------------------------------------- ficha
   async function detail(id) {
@@ -207,5 +246,6 @@ export function createMajors(h) {
     const d = await getDetail(M.id);
     document.getElementById('mjStage').innerHTML = stageHtml(d, M.stage === '__teams' ? { id: '__teams' } : d.stages.find((s) => s.id === M.stage));
   });
-  return { list, detail, isOpen, getIndex, getDetail, flag };
+  const forget = (id) => { M.details.delete(id); M.t = 0; };
+  return { list, detail, isOpen, getIndex, getDetail, flag, forget };
 }

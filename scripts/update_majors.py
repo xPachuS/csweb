@@ -634,6 +634,8 @@ def build_major(cfg: dict, main_text: str, pages: dict[str, str], links: list[tu
         if brackets:
             sid = f'b{len([s for s in stages if s["type"] == "bracket"]) + 1}'
             nm = name if (name != 'Principal' and not lists) else 'Playoffs'
+            if lists and sum(len(b[1]) for b in brackets) <= 4:
+                nm = f'{name} · desempates' if name != 'Principal' else 'Desempates'
             stages.append({'id': sid, 'name': nm, 'page': page, 'type': 'bracket', 'text': text})
             matches += bracket_matches(brackets, sid)
         if not lists and not brackets and page != cfg['page'] and re.search(r'playoff|champions stage|knockout', name, re.I):
@@ -643,10 +645,26 @@ def build_major(cfg: dict, main_text: str, pages: dict[str, str], links: list[tu
             stages.append({'id': f's{n_list}', 'name': name, 'page': page, 'type': 'swiss' if not re.search(r'group', name, re.I) else 'groups', 'text': text})
         if not lists and not brackets and text and page != cfg['page']:
             DEBUG.append((page, text))                    # fase sin partidos reconocibles: se guarda para revisarla
+    # fases repetidas (dos páginas que en Liquipedia son la misma, p. ej. una redirige a la otra): se queda una
+    def sig(sid):
+        return sorted((m['t1'], m['t2'], m['s1'], m['s2'], m['date'] or '') for m in matches if m['stage'] == sid)
+    generic = re.compile(r'^(group stage|playoffs|fase de grupos|fase suiza)$', re.I)
+    keep = []
+    for st in stages:
+        twin = next((k for k in keep if k['type'] == st['type'] and sig(k['id']) and sig(k['id']) == sig(st['id'])), None)
+        if twin:
+            if generic.match(twin['name']) and not generic.match(st['name']):
+                twin['name'], twin['page'] = st['name'], st['page']
+            matches = [m for m in matches if m['stage'] != st['id']]
+            continue
+        keep.append(st)
+    stages = keep
     # el último cuadro es «po» (lo que usa el Pick'em); se renombran los ids de los partidos
     brk = [s for s in stages if s['type'] == 'bracket']
     if brk:
-        old = brk[-1]['id']; brk[-1]['id'] = 'po'
+        main = [b for b in brk if 'desempate' not in b['name']] or brk     # los desempates no son los playoffs
+        pick = main[-1]
+        old = pick['id']; pick['id'] = 'po'
         for m in matches:
             if m['stage'] == old:
                 m['stage'] = 'po'; m['id'] = 'po' + m['id'][len(old):]
@@ -1292,6 +1310,87 @@ def build_stats(index: dict):
                         e['coach'] = r['coach']['n']
     write_json(STATS_JSON, {'teams': dict(sorted(teams.items())), 'players': dict(sorted(players.items(), key=lambda kv: kv[0].lower()))})
     log(f'Estadísticas: {len(teams)} equipos, {len(players)} jugadores')
+    build_series_and_records(index, teams, players)
+
+
+SERIES_JSON = ROOT / 'data' / 'series.json'
+RECORDS_JSON = ROOT / 'data' / 'records.json'
+
+
+def build_series_and_records(index: dict, teams: dict, players: dict):
+    """data/series.json (todas las series terminadas, para el cara a cara) y data/records.json (récords del historial)."""
+    series, maps_era, longest, ot_max, finals, sweeps = [], {}, [], [], [], {}
+    for mj in index['majors']:
+        f = OUT / f"{mj['id']}.json"
+        if not f.exists():
+            continue
+        d = json.loads(f.read_text('utf-8'))
+        era = mj['game']
+        for m in d.get('matches', []):
+            if not m.get('done') or 'TBD' in (m['t1'], m['t2']):
+                continue
+            mp = [[x['map'], x['winner']] for x in m.get('maps', []) if x.get('winner') and x.get('map')]
+            series.append([mj['id'], m['id'], m['t1'], m['t2'], m['s1'], m['s2'], m['winner'], m.get('kind') or '', mp])
+            for x in m.get('maps', []):
+                if not x.get('winner') or not x.get('map') or x['map'].lower() == 'unknown':
+                    continue
+                maps_era.setdefault(era, {}).setdefault(x['map'], 0)
+                maps_era[era][x['map']] += 1
+                if x.get('s1') is not None and x.get('s2') is not None:
+                    tot = x['s1'] + x['s2']
+                    longest.append([tot, mj['id'], m['id'], m['t1'], m['t2'], x['map'], x['s1'], x['s2']])
+                    if x.get('ot'):
+                        ot_max.append([sum(x['ot']), mj['id'], m['id'], m['t1'], m['t2'], x['map'], x['s1'], x['s2']])
+            if m.get('kind') == 'final' and m['stage'] == 'po':
+                finals.append([mj['id'], m['t1'], m['t2'], m['s1'], m['s2'], m['winner'], len(mp)])
+        # 3-0 en fases suizas
+        for st in d.get('stages', []):
+            if st.get('type') != 'swiss':
+                continue
+            rec = {}
+            for m in d.get('matches', []):
+                if m['stage'] != st['id'] or not m.get('done'):
+                    continue
+                w, l = (m['t1'], m['t2']) if m['winner'] == 1 else (m['t2'], m['t1'])
+                rec.setdefault(w, [0, 0])[0] += 1; rec.setdefault(l, [0, 0])[1] += 1
+            for t, (w, l) in rec.items():
+                if w == 3 and l == 0:
+                    sweeps.setdefault(t, []).append(mj['id'])
+    write_json(SERIES_JSON, {'cols': ['major', 'partido', 'equipo1', 'equipo2', 's1', 's2', 'ganador', 'tipo', 'mapas'], 'series': series})
+    # rachas de Majors seguidos de cada equipo
+    order = [m['id'] for m in index['majors'] if m['status'] != 'upcoming']
+    streak = []
+    for t, v in teams.items():
+        got = {e['id'] for e in v['majors']}
+        best = cur = 0
+        for mid in order:
+            cur = cur + 1 if mid in got else 0
+            best = max(best, cur)
+        streak.append([best, t])
+    top = lambda rows, n=10: sorted(rows, key=lambda r: -r[0])[:n]
+    pl_titles = sorted(([sum(1 for e in v['majors'] if e['role'] == 'player' and e.get('rank') == 1), n] for n, v in players.items()), key=lambda r: -r[0])
+    pl_majors = sorted(([sum(1 for e in v['majors'] if e['role'] == 'player'), n] for n, v in players.items()), key=lambda r: -r[0])
+    pairs = {}
+    for f in finals:
+        k = ' vs '.join(sorted((f[1], f[2])))
+        pairs[k] = pairs.get(k, 0) + 1
+    rec = {
+        'teamTitles': top([[v['titles'], t] for t, v in teams.items() if v['titles']]),
+        'teamMajors': top([[len(v['majors']), t] for t, v in teams.items()]),
+        'teamFinals': top([[v['finals'], t] for t, v in teams.items() if v['finals']]),
+        'teamStreak': top(streak),
+        'teamSweeps': top([[len(v), t, v] for t, v in sweeps.items()]),
+        'playerTitles': [r for r in pl_titles[:10] if r[0]],
+        'playerMajors': pl_majors[:10],
+        'longestMaps': top(longest, 8),
+        'overtimes': top(ot_max, 8),
+        'mapsByEra': {era: sorted(([n, mp] for mp, n in v.items()), key=lambda r: -r[0]) for era, v in maps_era.items()},
+        'finalPairs': sorted(([n, k] for k, n in pairs.items() if n > 1), key=lambda r: -r[0]),
+        'finals': finals,
+        'series': len(series), 'maps': sum(sum(v.values()) for v in maps_era.values()),
+    }
+    write_json(RECORDS_JSON, rec)
+    log(f'Récords y series: {len(series)} series')
 
 
 def save_debug():
@@ -1411,8 +1510,18 @@ def main(argv: list[str]) -> int:
             s['empty'] = prev.get('empty', [])
             s['tries_empty'] = prev.get('tries_empty', 0)
         results[cfg['id']] = s
+    # alertas: problemas que siguen ahí después de varias ejecuciones (la acción falla y GitHub manda un correo)
+    alerts = []
+    cur_s = results.get(cur, {})
+    if errors and any(cur_s.get('name', '') in e for e in errors):
+        alerts.append(f"El Major del Pick'em no se pudo actualizar: {next(e for e in errors if cur_s.get('name', '') in e)}")
+    for m in results.values():
+        if m['status'] == 'done' and not m.get('loaded') and m.get('tries', 0) >= 3:
+            alerts.append(f"{m['name']}: no se ha podido descargar tras 3 intentos ({m.get('error') or 'sin detalle'})")
+    prev_alert = old_index.get('alertRuns', 0) if old_index.get('alerts') else 0
     index = {'current': cur, 'source': 'Liquipedia (CC-BY-SA 3.0)', 'checked': now, 'calls': src.calls,
-             'majors': [results[c['id']] for c in MAJORS], 'errors': errors}
+             'majors': [results[c['id']] for c in MAJORS], 'errors': errors,
+             'alerts': alerts, 'alertRuns': prev_alert + 1 if alerts else 0}
     write_json(idx_path, index)
     save_debug()
     fix_saved_names()
@@ -1434,6 +1543,12 @@ def main(argv: list[str]) -> int:
     if '--no-logos' not in argv and not src.blocked:
         update_maps(src)
     build_stats(json.loads(idx_path.read_text('utf-8')))
+    if alerts and index['alertRuns'] >= 3:
+        # se escribe un fichero que el workflow revisa al final para marcar la ejecución como fallida (GitHub avisa por correo)
+        (ROOT / 'data' / 'ALERTA.txt').write_text('\n'.join(alerts) + '\n', 'utf-8')
+        log('ALERTA: ' + ' | '.join(alerts))
+    elif (ROOT / 'data' / 'ALERTA.txt').exists():
+        (ROOT / 'data' / 'ALERTA.txt').unlink()
     log(f'Hecho: {src.calls} consultas a Liquipedia · Pick\'em: {cur} · {sum(1 for m in index["majors"] if m["loaded"])}/{len(MAJORS)} Majors con datos')
     return 0
 

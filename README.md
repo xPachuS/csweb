@@ -84,6 +84,29 @@ Los ids están en la lista `MAJORS` de `scripts/update_majors.py` y en la direcc
 - Todo sale de Liquipedia, que no guarda kills, muertes ni asistencias. Por eso cada partido y cada mapa tiene un botón que abre esas estadísticas en HLTV.
 - El script deja estos datos en `data/stats.json` en cada ejecución.
 
+## Más cosas de la web
+
+- **Buscador:** el botón 🔍 de arriba, o la tecla `/`, busca Majors, equipos y jugadores.
+- **Récords** (`#/records`): más títulos, más finales, más Majors (también seguidos), más 3-0, jugadores con más títulos y más Majors, mapas más largos, prórrogas y mapas más jugados en cada época.
+- **Cara a cara** (`#/equipos/A/vs/B`): todas las series entre dos equipos en Majors y quién gana en cada mapa. Se abre desde «Comparar con…» en la ficha de un equipo.
+- **Portada:** arriba sale el Major en curso o el próximo, con cuenta atrás, partidos en directo y próximos partidos.
+- **Ficha de equipo:** gráfico con su resultado en cada Major, sus mapas en tarjetas con imagen y sus rivales más frecuentes.
+- **Partido en directo:** la página se actualiza sola cada minuto, con el mapa en juego resaltado y una barra de rondas.
+- **Tema claro/oscuro:** el botón ☀/☾ de arriba. Se recuerda en cada navegador.
+- **Acerca de** (`#/acerca`): de dónde salen los datos, las marcas y qué se guarda.
+
+### En el Pick'em
+- **Pendientes:** un aviso dice lo que te falta por pronosticar. La pestaña «Pick'em» del menú lleva el número.
+- **Avisos del navegador:** con el botón 🔔 la web avisa 30 minutos antes de que se cierre algo pendiente. Funciona mientras la web esté abierta, aunque sea en otra pestaña o con la app instalada en segundo plano. Con el navegador cerrado no llegan, porque eso necesitaría un servidor de notificaciones.
+- **Votos del grupo:** en «Jugados», una barra muestra con qué equipo fue cada uno. Solo se ve cuando el partido ya ha empezado.
+- **Clasificación:** resumen de los puntos de la última ronda, flechas ▲▼ respecto a antes de esa ronda y medallas para el podio.
+- **Compartir:** botón 📤 para guardar o compartir tu Pick'em de una fase o tu cuadro como imagen (en el móvil se abre el menú de compartir, por ejemplo para WhatsApp).
+- **App instalable:** desde el menú del navegador, «Añadir a pantalla de inicio». Instalada se abre directamente en tu último grupo y funciona sin conexión con lo último que se vio.
+
+### Avisos de fallos y copias de seguridad
+- **Fallos de la descarga:** si el Major del Pick'em no se puede actualizar, o un Major antiguo no se descarga tras 3 intentos, y el problema sigue 3 ejecuciones seguidas, la acción de GitHub termina con error. GitHub manda entonces un correo al dueño del repositorio (es su opción por defecto en Settings → Notifications → Actions). El aviso también sale en **Admin → Resumen**.
+- **Copia semanal de la base de datos:** en Cloudflare, abre el Worker y ve a **Settings → Triggers → Cron Triggers → Add** con `0 4 * * 1` (los lunes a las 4:00 UTC). El Worker guarda una copia de cuentas, grupos y pronósticos en la propia base y conserva las 8 últimas. En **Admin → Ajustes → Copias de seguridad** se pueden descargar o hacer una a mano.
+
 ## Logos de los equipos
 
 - La misma acción descarga de Liquipedia el logo de cada equipo que aparece en los Majors. Guarda la versión para fondo oscuro si existe; si no, la normal sobre una chapa clara.

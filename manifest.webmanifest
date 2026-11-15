@@ -1,14 +1,42 @@
 {
   "name": "Clutch · Pick'em e historial de los Majors",
   "short_name": "Clutch",
-  "start_url": "./",
+  "start_url": "./?app=1",
   "display": "standalone",
   "background_color": "#0b0e13",
   "theme_color": "#0b0e13",
   "lang": "es",
   "icons": [
-    { "src": "img/icon.svg", "sizes": "any", "type": "image/svg+xml" },
-    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "img/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "scope": "./",
+  "description": "Historial de los Majors de Counter-Strike y Pick'em con amigos.",
+  "shortcuts": [
+    {
+      "name": "Pick'em",
+      "url": "./#/pickem"
+    },
+    {
+      "name": "Majors",
+      "url": "./#/majors"
+    },
+    {
+      "name": "Buscar equipo o jugador",
+      "url": "./#/equipos"
+    }
   ]
 }

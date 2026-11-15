@@ -2,6 +2,7 @@ import { call, getMatches, clearMatches, session, saveSession, ApiError } from '
 import { createAdmin } from './admin.js';
 import { createMajors } from './majors.js';
 import { createStats } from './stats.js';
+import { createExtras } from './extras.js';
 
 const $app = document.getElementById('app');
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -54,6 +55,12 @@ const S = {
 let admin = null;
 const majors = createMajors({ esc, badge, fmtDate, fmtDayTime, call, $app });
 const stats = createStats({ esc, badge, fmtDate, fmtDayTime, $app, majors });
+const extras = createExtras({ esc, badge, fmtDate, fmtDayTime, $app, majors, stats });
+const LAST = 'clutch:ultimo-grupo';
+const remember = (k, v) => { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch { /* */ } };
+const recall = (k) => { try { return localStorage.getItem(k); } catch { return null; } };
+// animación suave al cambiar de página
+function enter() { $app.classList.remove('enter'); void $app.offsetWidth; $app.classList.add('enter'); }
 const past = () => !!S.data && S.data.ev !== S.data.current;          // Major ya cerrado: solo lectura
 const adminView = () => (admin = admin || createAdmin({ call, esc, $app, badge, fmtDate, fmtTime, fmtDayTime, roundEs, getMatches, clearMatches, route, isTbd }));
 
@@ -62,25 +69,35 @@ async function route() {
   await logosReady;
   const hash = location.hash.replace(/^#\/?/, '');
   let [page, arg, arg2, arg3] = hash.split('/');
+  // abierta como app instalada: directa a tu último grupo
+  if (!page && !S.launched && (matchMedia('(display-mode: standalone)').matches || new URLSearchParams(location.search).has('app')) && recall(LAST)) {
+    S.launched = true; location.replace(`#/g/${recall(LAST)}`); return;
+  }
+  S.launched = true;
   if (!page) page = 'majors';                         // la portada es el historial de Majors; el Pick'em está en #/pickem
   document.body.dataset.page = page;
-  const nav = ['majors', 'equipos', 'jugadores'].includes(page) ? page : page === 'admin' ? '' : 'pickem';
+  const nav = ['majors', 'equipos', 'jugadores'].includes(page) ? page : page === 'records' ? 'majors' : ['admin', 'acerca'].includes(page) ? '' : 'pickem';
   document.querySelectorAll('[data-nav]').forEach((a) => a.classList.toggle('is-on', a.dataset.nav === nav));
   if (page === 'admin') { renderTop(); $app.innerHTML = await adminView().view(arg || 'resumen'); return; }
-  if (!admin?.isOpen?.() && !majors.isOpen() && !stats.isOpen()) $app.innerHTML = `<div class="loading" role="status"><span></span>Cargando…</div>`;
-  if (['majors', 'equipos', 'jugadores'].includes(page)) {
+  if (!admin?.isOpen?.() && !majors.isOpen() && !stats.isOpen() && !extras.isOpen()) $app.innerHTML = `<div class="loading" role="status"><span></span>Cargando…</div>`;
+  if (['majors', 'equipos', 'jugadores', 'records', 'acerca'].includes(page)) {
     const a = arg ? decodeURIComponent(arg) : '';
+    const sameMajor = page === 'majors' && a && !arg2 && S.lastMajor === a;
     try {
-      $app.innerHTML = page === 'equipos' ? (a ? await stats.team(a) : await stats.teamsList())
+      $app.innerHTML = page === 'records' ? await extras.recordsPage()
+        : page === 'acerca' ? extras.about()
+        : page === 'equipos' && a && arg2 === 'vs' && arg3 ? await extras.h2h(a, decodeURIComponent(arg3))
+        : page === 'equipos' ? (a ? await stats.team(a) : await stats.teamsList())
         : page === 'jugadores' ? (a ? await stats.player(a) : await stats.playersList())
           : a && arg2 === 'p' && arg3 ? await stats.match(a, decodeURIComponent(arg3))
             : a ? await majors.detail(a) : await majors.list();
-      if (!(page === 'majors' && a && !arg2 && S.lastMajor === a)) window.scrollTo(0, 0);
+      if (!sameMajor) { window.scrollTo(0, 0); enter(); }
       S.lastMajor = page === 'majors' && !arg2 ? a : S.lastMajor;
     } catch (err) {
       $app.innerHTML = `<div class="state state--error"><p><b>No se pudo cargar el historial (${esc(err.message)}).</b></p><button class="btn" type="button" onclick="location.reload()">Reintentar</button></div>`;
     }
     if (!S.me && session().token) call('GET', '/me').then((me) => { S.me = me; renderTop(); }).catch(() => {});
+    else renderTop();
     return;
   }
   try {
@@ -95,12 +112,15 @@ async function route() {
     renderTop();
     if (page === 'g' && arg) {
       const code = arg.toUpperCase();
-      if (S.me && S.me.leagues.some((l) => l.code === code)) { S.code = code; $app.innerHTML = await viewGroup(code); }
+      if (S.me && S.me.leagues.some((l) => l.code === code)) { S.code = code; remember(LAST, code); $app.innerHTML = await viewGroup(code); }
       else $app.innerHTML = await viewInvite(code);
     } else {
       const idx = await majors.getIndex().catch(() => null);
       $app.innerHTML = S.me ? viewHub(idx) : viewLanding(idx);
+      if (S.me && !S.me.leagues.length) remember(LAST, null);
     }
+    if (!S.quiet) enter();
+    updatePending();
   } catch (err) {
     $app.innerHTML = `<div class="state state--error"><p><b>${esc(err.message)}</b></p><button class="btn" type="button" onclick="location.reload()">Reintentar</button></div>`;
   }
@@ -173,6 +193,40 @@ function pointsHtml(title = 'Así se puntúa') {
       </div>
     </section>`;
 }
+// ---------------------------------------------------------------- lo que te falta por pronosticar
+function pendingItems() {
+  if (!S.me || !S.data || past() || !S.me.leagues.length || S.data.settings.picksOpen === false) return [];
+  const out = [];
+  for (const m of openMatches()) {
+    if (!pickOf(m.id) && m.time) out.push({ key: `m:${m.id}`, kind: 'match', closes: m.time.getTime(), title: `${m.t1} vs ${m.t2}`, body: `Cierra a las ${fmtTime(m.time)}: aún no lo has pronosticado.` });
+  }
+  if (S.data.settings.valve.enabled) {
+    for (const st of S.data.stages.filter((x) => x.type === 'swiss' && x.ready && !x.locked)) {
+      if (!S.me.stagepicks[st.id] && st.lockAt) out.push({ key: `s:${S.data.ev}:${st.id}`, kind: 'stage', closes: st.lockAt, title: `Pick'em de ${st.name}`, body: `Se cierra a las ${fmtTime(new Date(st.lockAt))} y aún no lo has hecho.` });
+    }
+  }
+  const b = S.data.bracket;
+  if (S.data.settings.bracket.enabled && b?.ready && !b.locked && !S.me.bracket && b.lockAt) out.push({ key: `b:${S.data.ev}`, kind: 'bracket', closes: b.lockAt, title: 'Cuadro de playoffs', body: `Se cierra a las ${fmtTime(new Date(b.lockAt))} y aún no lo has hecho.` });
+  if (S.data.start && S.data.start > S.now() && !S.me.champion) out.push({ key: `c:${S.data.ev}`, kind: 'champion', closes: S.data.start, title: 'Campeón del Major', body: 'Elige tu campeón antes del primer partido.' });
+  return out.sort((a, b) => a.closes - b.closes);
+}
+function updatePending() {
+  const items = pendingItems();
+  const nav = document.querySelector('[data-nav="pickem"]');
+  if (nav) nav.dataset.count = items.length ? String(items.length) : '';
+  extras.scheduleReminders(items);
+}
+function pendingHtml(code) {
+  const items = pendingItems();
+  const on = extras.notifOn();
+  if (!items.length && !('Notification' in window)) return '';
+  const n = items.filter((x) => x.kind === 'match').length;
+  const parts = [n ? `<b>${n}</b> partido${n === 1 ? '' : 's'} sin pronosticar` : '', ...items.filter((x) => x.kind !== 'match').map((x) => `<b>${esc(x.title)}</b> sin hacer`)].filter(Boolean);
+  const soon = items[0];
+  return `<div class="pend ${items.length ? '' : 'pend--ok'}"><span class="pend__icon" aria-hidden="true">${items.length ? '⏳' : '✅'}</span>
+      <p>${items.length ? `Pendiente: ${parts.join(' · ')}.${soon ? ` Lo próximo cierra ${fmtDayTime(new Date(soon.closes))}.` : ''}` : 'Lo tienes todo pronosticado.'}${code && items.length && S.tab !== 'partidos' && n ? ' <a href="#" data-tab-go="partidos">Ir a partidos</a>' : ''}</p>
+      ${'Notification' in window ? `<button class="btn btn--sm ${on ? '' : 'btn--primary'}" type="button" data-notif>${on ? '🔔 Avisos activados' : '🔔 Avisarme 30 min antes'}</button>` : ''}</div>`;
+}
 function bannerHtml() {
   const s = S.data.settings;
   return (s.banner ? `<div class="notice"><span aria-hidden="true">📣</span><p>${esc(s.banner)}</p></div>` : '')
@@ -223,7 +277,7 @@ function heroArt() {
 function viewHub(idx) {
   const me = S.me;
   const groups = me.leagues.map((l) => `<a class="group" href="#/g/${esc(l.code)}"><b>${esc(l.name)}</b><small>${plural(l.players, 'jugador', 'jugadores')} · código ${esc(l.code)}</small><span aria-hidden="true">›</span></a>`).join('');
-  return `${bannerHtml()}<section class="hero hero--hub">
+  return `${bannerHtml()}${pendingHtml()}<section class="hero hero--hub">
       <div class="hero__text">
         <p class="kicker">${esc(S.data.event?.name || '')} · ${esc(countdown())}</p>
         <h1 class="hero__title">Hola, <span>${esc(me.user.nick)}</span></h1>
@@ -275,7 +329,7 @@ async function viewGroup(code) {
   const evs = (S.data.events || []).filter((e) => e.status !== 'upcoming' || e.id === S.data.current);
   const evNav = evs.length > 1 ? `<div class="seg seg--ev">${evs.map((e) => `<a class="${e.id === S.data.ev ? 'is-on' : ''}" href="#/g/${esc(code)}${e.id === S.data.current ? '' : '/' + esc(e.id)}">${esc(e.city)} ${e.start.slice(0, 4)}${e.id === S.data.current ? '<small>actual</small>' : ''}</a>`).join('')}</div>` : '';
   const pend = past() ? 0 : openMatches().filter((m) => !pickOf(m.id)).length;
-  return `${bannerHtml()}<section class="ghead">
+  return `${bannerHtml()}${past() ? '' : pendingHtml(code)}<section class="ghead">
       <div class="ghead__main">
         <p class="kicker">${esc(S.data.event?.name || '')} · código <b class="code">${esc(code)}</b></p>
         ${evNav}
@@ -367,7 +421,7 @@ function tabStages() {
     const group = (S.board.stages?.[st.id] || []).filter((x) => x.nick !== S.me.user.nick);
     const rows = Object.entries(rec).sort((a, b) => b[1].w - a[1].w || a[1].l - b[1].l || a[0].localeCompare(b[0]));
     return seg + `<div class="duo duo--wide">
-        <section class="card"><h3>Tu Pick'em de ${esc(st.name)} <span class="pill">${ev.points} pts</span></h3>
+        <section class="card"><h3>Tu Pick'em de ${esc(st.name)} <span class="pill">${ev.points} pts</span>${ev.picks.length ? '<button class="btn btn--sm btn--ghost share-btn" type="button" data-share="stage">📤 Compartir</button>' : ''}</h3>
           ${ev.picks.length ? `<ul class="vpicks">${ev.picks.map((p) => `<li class="is-${p.state}">${badge(p.team)}<span><b>${esc(p.team)}</b><small>${KINDS.find((k) => k[0] === p.kind)[1]}${rec[p.team] ? ` · va ${rec[p.team].w}-${rec[p.team].l}` : ''}</small></span><i>${p.state === 'ok' ? `+${p.points}` : p.state === 'ko' ? '✗' : '…'}</i></li>`).join('')}</ul>` : '<p class="hint">No hiciste el Pick\'em de esta fase.</p>'}
         </section>
         <section class="card"><h3>Clasificación de ${esc(st.name)}</h3>
@@ -390,7 +444,7 @@ function tabStages() {
         <div class="vteam__btns">${KINDS.map(([kk, l, c]) => `<button type="button" class="vbtn vbtn--${c} ${k === kk ? 'is-on' : ''}" data-v="${kk}" data-vteam="${esc(t)}" ${k !== kk && d[kk].length >= counts[kk] ? 'disabled' : ''}>${l}</button>`).join('')}</div></article>`;
     }).join('')}</div>
     <div class="savebar ${dirty ? 'is-dirty' : ''}"><span>${dirty ? '<b>Cambios sin guardar</b>' : saved ? '<b>Guardado</b>' : '<b>Aún no has hecho este Pick\'em</b>'}<small>${full ? 'Lo tienes completo.' : 'Puedes guardarlo aunque no esté completo.'}</small></span>
-      <button class="btn btn--primary" type="button" data-save-stage="${st.id}" ${dirty ? '' : 'disabled'}>Guardar Pick'em</button></div>
+      <span class="savebar__act">${saved && !dirty ? '<button class="btn btn--ghost" type="button" data-share="stage">📤 Compartir</button>' : ''}<button class="btn btn--primary" type="button" data-save-stage="${st.id}" ${dirty ? '' : 'disabled'}>Guardar Pick'em</button></span></div>
     <p class="form__msg" id="stageMsg" role="alert"></p>`;
 }
 
@@ -424,7 +478,8 @@ function tabBracket() {
       <div class="bracket__col bracket__col--final"><h4>Gran final <small>${S.data.settings.bracket.final} pts</small></h4><div class="bracket__slots"><div class="bracket__slot">${box('R3M1', 'Campeón')}</div></div></div>
     </div>
     ${b.locked ? '' : `<div class="savebar ${dirty ? 'is-dirty' : ''}"><span><b>${dirty ? 'Cambios sin guardar' : saved ? 'Guardado' : 'Aún no has hecho el cuadro'}</b><small>Si cambias un cruce, los siguientes que dependan de él se vacían.</small></span>
-      <button class="btn btn--primary" type="button" data-save-bracket ${dirty ? '' : 'disabled'}>Guardar cuadro</button></div><p class="form__msg" id="bracketMsg" role="alert"></p>`}
+      <span class="savebar__act">${saved && !dirty ? '<button class="btn btn--ghost" type="button" data-share="bracket">📤 Compartir</button>' : ''}<button class="btn btn--primary" type="button" data-save-bracket ${dirty ? '' : 'disabled'}>Guardar cuadro</button></span></div><p class="form__msg" id="bracketMsg" role="alert"></p>`}
+    ${b.locked && saved ? '<p class="share-row"><button class="btn btn--ghost btn--sm" type="button" data-share="bracket">📤 Compartir mi cuadro</button></p>' : ''}
     ${others.length ? `<h3 class="day">El resto del grupo</h3><div class="others">${others.map((g) => `<article class="card other"><h4>${esc(g.nick)} <span class="pill">${g.points} pts</span></h4><p>${g.picks.filter((p) => p.slot !== 'R3M1').length ? '' : ''}Campeón: ${g.picks.find((p) => p.slot === 'R3M1') ? `${badge(g.picks.find((p) => p.slot === 'R3M1').team)} ${esc(g.picks.find((p) => p.slot === 'R3M1').team)}` : '—'}</p></article>`).join('')}</div>` : ''}`;
 }
 
@@ -470,9 +525,23 @@ function tabCombos() {
 // ---- clasificación
 function tabBoard() {
   const rows = S.board.board;
-  return `<div class="table-wrap"><table class="table">
+  const lr = S.board.lastRound && S.board.rounds?.find((r) => r.key === S.board.lastRound);
+  const medal = (pos) => (pos === 1 ? '🥇' : pos === 2 ? '🥈' : pos === 3 ? '🥉' : pos);
+  const move = (r) => {
+    if (r.prevPos == null || r.prevPos === r.pos) return '<span class="mv mv--eq" title="Igual que antes de la última ronda">–</span>';
+    const d = r.prevPos - r.pos;
+    return d > 0 ? `<span class="mv mv--up" title="Sube ${d} respecto a antes de la última ronda">▲${d}</span>` : `<span class="mv mv--down" title="Baja ${-d} respecto a antes de la última ronda">▼${-d}</span>`;
+  };
+  const summary = lr ? (() => {
+    const gains = rows.map((r) => [r.nick, r.byRound?.[lr.key] || 0]).sort((a, b) => b[1] - a[1]);
+    const best = gains[0];
+    return `<section class="card rsum"><h3>Última ronda: ${esc(stageName(lr.stage))} · ${esc(roundEs(lr.round))}</h3>
+      <div class="rsum__list">${gains.map(([n, g]) => `<span class="rsum__it ${n === S.me.user.nick ? 'is-me' : ''}">${badge(n, 'tb--me')}<b>${esc(n)}</b><i>+${g}</i></span>`).join('')}</div>
+      ${best && best[1] > 0 ? `<p class="hint">🔥 La ronda fue para <b>${esc(best[0])}</b> con +${best[1]} puntos en partidos.</p>` : '<p class="hint">Nadie sumó puntos en partidos esta ronda.</p>'}</section>`;
+  })() : '';
+  return `${summary}<div class="table-wrap"><table class="table">
       <thead><tr><th>#</th><th>Jugador</th><th>Puntos</th><th title="Partidos acertados / jugados">Partidos</th><th>Combin.</th><th>Fases</th><th>Cuadro</th><th>Campeón</th></tr></thead>
-      <tbody>${rows.map((r) => `<tr class="${r.nick === S.me.user.nick ? 'is-me' : ''}"><td class="pos">${r.pos}</td><td class="who">${badge(r.nick, 'tb--me')}<b>${esc(r.nick)}</b>${r.adjust ? `<span class="adj" title="${esc(r.adjustReason)}">${r.adjust > 0 ? '+' : ''}${r.adjust} ajuste</span>` : ''}</td>
+      <tbody>${rows.map((r) => `<tr class="${r.nick === S.me.user.nick ? 'is-me' : ''} ${r.pos <= 3 && r.points > 0 ? `is-top${r.pos}` : ''}"><td class="pos">${r.points > 0 ? medal(r.pos) : r.pos}${lr ? move(r) : ''}</td><td class="who">${badge(r.nick, 'tb--me')}<b>${esc(r.nick)}</b>${r.adjust ? `<span class="adj" title="${esc(r.adjustReason)}">${r.adjust > 0 ? '+' : ''}${r.adjust} ajuste</span>` : ''}</td>
         <td class="pts">${r.points}</td><td>${r.hits}/${r.played}<small>+${r.matches}</small></td><td>+${r.combos}</td><td>+${r.stages}</td><td>+${r.bracket}</td><td>+${r.champion}</td></tr>`).join('')}</tbody>
     </table></div>`;
 }
@@ -488,16 +557,37 @@ function tabPlayed() {
     <div class="played">${list.map((m) => {
     const p = pickOf(m.id); const r = p?.result;
     const others = (S.board.revealed[m.id] || []).filter((x) => x.nick !== S.me.user.nick);
+    const votes = [...others.map((o) => o.team), ...(p ? [p.team] : [])];
+    const v1 = votes.filter((x) => x === m.t1).length; const v2 = votes.length - v1;
+    const vbar = votes.length > 1 ? `<div class="votes" title="Votos del grupo"><span>${v1} con ${esc(shortOf(m.t1))}</span><div><i style="flex:${v1 || 0.001}"></i><i style="flex:${v2 || 0.001}"></i></div><span>${v2} con ${esc(shortOf(m.t2))}</span></div>` : '';
     const side = (t, s) => `<span class="pl__team ${m.done && winnerTeam(m) === t ? 'is-won' : ''}">${badge(t)}<b>${esc(t)}</b>${m.done ? `<i>${s}</i>` : ''}</span>`;
     return `<article class="pl">
       <header><span>${esc(stageName(m.stage))} · ${esc(roundEs(m.round))} · ${fmtDayTime(m.time)}</span>${m.done ? (m.fixed ? '<span class="pill pill--warn">corregido</span>' : '') : '<span class="pill pill--live">en juego</span>'}</header>
       <div class="pl__teams">${side(m.t1, m.s1)}<span class="pk__vs">vs</span>${side(m.t2, m.s2)}</div>
+      ${vbar}
       ${m.maps?.some((x) => x.winner || x.s1 != null) ? `<p class="pl__maps">${m.maps.filter((x) => x.winner || x.s1 != null).map((x) => `${esc(x.map)} ${x.s1 ?? ''}–${x.s2 ?? ''}`).join(' · ')}</p>` : ''}
       ${String(m.id).startsWith('x-') ? '' : `<a class="pl__more" href="#/majors/${esc(S.data.ev)}/p/${esc(m.id)}">Mapas, rondas y plantillas →</a>`}
       <footer>${p ? `Tu pronóstico: <b>${esc(p.team)}${p.score ? ' ' + p.score.replace('-', '–') : ''}</b>${r ? (r.ok ? ` <span class="ok">+${r.points}${r.exact ? ' exacto' : ''}</span>` : ' <span class="ko">0</span>') : ''}` : '<span class="hint">No lo pronosticaste</span>'}
         ${others.length ? `<span class="pl__others">${others.map((o) => `<span class="mini ${m.done ? (o.team === winnerTeam(m) ? 'is-ok' : 'is-ko') : ''}" title="${esc(o.team)}">${esc(o.nick)}: ${esc(shortOf(o.team))}${o.score ? ' ' + o.score.replace('-', '–') : ''}</span>`).join('')}</span>` : ''}</footer>
     </article>`;
   }).join('')}</div>`;
+}
+
+// ---------------------------------------------------------------- compartir como imagen
+function rerenderPending() { const el = document.querySelector('.pend'); if (el) el.outerHTML = pendingHtml(S.code); }
+async function shareCurrent(what) {
+  const ev = S.data.event?.name || 'Major';
+  if (what === 'stage') {
+    const st = S.data.stages.find((x) => x.id === S.stage);
+    const d = S.me.stagepicks[st.id]?.data || S.stageDraft[st.id] || {};
+    await extras.shareImage({ title: `Mi Pick'em · ${st.name}`, subtitle: `${ev} · ${S.me.user.nick}`, file: `pickem-${st.id}.png`,
+      sections: [{ label: '3-0', color: 'ct', items: d.w30 || [] }, { label: 'Pasan (3-1 / 3-2)', color: 'ok', items: d.adv || [] }, { label: '0-3', color: 't', items: d.l03 || [] }] });
+  } else if (what === 'bracket') {
+    const d = S.me.bracket?.data || S.bracketDraft || {};
+    await extras.shareImage({ title: 'Mi cuadro de playoffs', subtitle: `${ev} · ${S.me.user.nick}`, file: 'cuadro.png',
+      sections: [{ label: 'Campeón', color: 'gold', items: d.R3M1 ? [d.R3M1] : ['—'] }, { label: 'Finalistas', color: 'ct', items: [d.R2M1, d.R2M2].filter(Boolean) },
+        { label: 'Semifinalistas', color: 'ok', items: ['R1M1', 'R1M2', 'R1M3', 'R1M4'].map((k) => d[k]).filter(Boolean) }] });
+  }
 }
 
 // ---------------------------------------------------------------- acciones
@@ -508,6 +598,9 @@ $app.addEventListener('click', async (e) => {
   const t = e.target.closest('button, a');
   if (!t || admin?.isOpen?.()) return;
   const ds = t.dataset;
+  if (ds.notif !== undefined) { await extras.toggleNotifications(); updatePending(); rerenderPending(); return; }
+  if (ds.tabGo) { e.preventDefault(); S.tab = ds.tabGo; const el = document.querySelector(`[data-tab="${ds.tabGo}"]`); el?.click(); return; }
+  if (ds.share) { e.preventDefault(); await shareCurrent(ds.share); return; }
   if (ds.auth || ds.authGo) {
     const which = ds.auth || ds.authGo;
     document.querySelectorAll('[data-auth]').forEach((b) => b.classList.toggle('is-on', b.dataset.auth === which));
@@ -642,9 +735,11 @@ $app.addEventListener('submit', async (e) => {
 });
 
 // Refresco suave cada 2 minutos (si no se está editando nada)
-setInterval(() => {
-  if (document.hidden || admin?.isOpen?.() || majors.isOpen() || stats.isOpen() || document.querySelector('.is-dirty') || document.activeElement?.matches('input, select, textarea')) return;
-  clearMatches(); route();
+setInterval(async () => {
+  if (document.hidden || admin?.isOpen?.() || majors.isOpen() || stats.isOpen() || extras.isOpen() || document.querySelector('.is-dirty, dialog[open]') || document.activeElement?.matches('input, select, textarea')) return;
+  clearMatches(); S.quiet = true; const y = window.scrollY; await route(); S.quiet = false; window.scrollTo(0, y);
 }, 120_000);
+// app instalable (funciona sin conexión con lo último que se vio)
+if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js').catch(() => {});
 
 route();

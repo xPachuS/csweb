@@ -37,6 +37,7 @@ export function createAdmin(h) {
       }
       body = `<div class="state state--error"><p><b>${esc(err.message)}</b></p><button class="btn" data-adm="reload">Reintentar</button></div>`;
     }
+    if (A.section === 'ajustes') setTimeout(loadBackups, 0);
     const sec = SECTIONS.find((s) => s[0] === A.section);
     return `<div class="adm">
       <aside class="adm-side"><div class="adm-side__brand"><b>Admin</b><small>Clutch · Pick'em</small></div>
@@ -56,7 +57,7 @@ export function createAdmin(h) {
     if (!['resumen', 'partidos', 'fases', 'jugadores', 'grupos'].includes(A.section) || evs.length < 2) return '';
     return `<label class="adm-evpick"><span>Major</span><select class="input" data-adm-ev>${evs.map((e) => `<option value="${e.id === A.st.current ? '' : esc(e.id)}" ${e.id === A.st.cur ? 'selected' : ''}>${esc(e.name)}${e.id === A.st.current ? ' (actual)' : ''}</option>`).join('')}</select></label>`;
   }
-  async function reloadBody() { const el = document.getElementById('admBody'); if (el) el.innerHTML = await RENDER[A.section](); }
+  async function reloadBody() { const el = document.getElementById('admBody'); if (el) el.innerHTML = await RENDER[A.section](); if (A.section === 'ajustes') loadBackups(); }
   function toast(t, kind = 'ok') {
     const el = document.getElementById('admToast'); if (!el) return;
     el.textContent = t; el.className = `adm-toast is-on is-${kind}`;
@@ -82,7 +83,10 @@ export function createAdmin(h) {
     A.cache.settings = d.settings;
     const s = d.stats;
     const tile = (n, l, href) => `<a class="adm-tile" href="#/admin/${href}"><b>${n}</b>${l}</a>`;
-    return `<div class="adm-tiles">${tile(s.users, 'cuentas', 'jugadores')}${tile(s.leagues, 'grupos', 'grupos')}${tile(s.picks, 'pronósticos', 'partidos')}${tile(`${s.done}/${s.matches}`, 'partidos jugados', 'partidos')}</div>
+    const alerts = d.indexAlerts?.length ? `<section class="adm-card adm-alert"><h3 class="adm-card__title">⚠ La descarga de datos lleva un rato fallando</h3>
+        <ul class="adm-list">${d.indexAlerts.map((a) => `<li><span>${esc(a)}</span></li>`).join('')}</ul>
+        <p class="adm-hint">GitHub te habrá mandado un correo con la ejecución fallida. Revisa Actions → «Actualizar Majors».</p></section>` : '';
+    return `${alerts}<div class="adm-tiles">${tile(s.users, 'cuentas', 'jugadores')}${tile(s.leagues, 'grupos', 'grupos')}${tile(s.picks, 'pronósticos', 'partidos')}${tile(`${s.done}/${s.matches}`, 'partidos jugados', 'partidos')}</div>
       <section class="adm-card"><h3 class="adm-card__title">Datos de Liquipedia</h3>
         <p class="adm-sub">Última comprobación: ${d.checked ? `${fmtDayTime(new Date(d.checked))}` : 'nunca'} · ${s.fixes} correcciones manuales.</p>
         ${d.errors?.length ? `<ul class="adm-list">${d.errors.map((e) => `<li>${pill('aviso', 'warn')} ${esc(e)}</li>`).join('')}</ul>` : '<p class="adm-sub">Sin avisos.</p>'}</section>
@@ -288,9 +292,21 @@ export function createAdmin(h) {
           ${chk('bracket.enabled', 'Cuadro activado', 'Elegir ganadores de cuartos, semis y final.')}${num('bracket.qf', 'Cada cuarto acertado', 0, 50)}${num('bracket.sf', 'Cada semifinal acertada', 0, 50)}${num('bracket.final', 'Campeón del cuadro', 0, 100)}
           ${chk('combo.enabled', 'Combinadas activadas', '2 a 4 partidos de una misma ronda.')}${num('combo.p2', 'Combinada de 2', 0, 100)}${num('combo.p3', 'Combinada de 3', 0, 100)}${num('combo.p4', 'Combinada de 4', 0, 100)}${num('combo.exact', 'Extra por exacto', 0, 50)}${num('combo.koMult', 'Multiplicador en playoffs', 1, 10)}</section>
       </div>
+      <section class="adm-card"><h3 class="adm-card__title">Copias de seguridad</h3>
+        <p class="adm-sub">Se guarda una copia automática cada semana (si activaste la tarea programada en Cloudflare) y se conservan las 8 últimas.</p>
+        <div id="admBackups" class="adm-sub">Cargando…</div>
+        <div class="adm-actions"><button class="btn" type="button" data-adm="backup-now">Hacer una copia ahora</button></div></section>
       <div class="adm-actions adm-actions--end"><button class="btn" type="button" data-adm="export">Descargar copia (JSON)</button><button class="btn adm-danger" type="button" data-adm="sreset">Valores por defecto</button><button class="btn btn--primary" type="submit">Guardar ajustes</button></div></form>`;
   }
 
+  async function loadBackups() {
+    const el = document.getElementById('admBackups'); if (!el) return;
+    try {
+      const d = await get('backups');
+      el.innerHTML = d.backups.length ? `<ul class="adm-list">${d.backups.map((b) => `<li><span><b>${fmtDayTime(new Date(b.at))}</b><small>${b.kind === 'semanal' ? 'automática semanal' : 'hecha a mano'} · ${Math.round(b.size / 1024)} KB</small></span>
+          <button class="btn btn--sm" type="button" data-adm="backup-dl" data-id="${b.id}">Descargar</button></li>`).join('')}</ul>` : 'Todavía no hay copias guardadas.';
+    } catch (err) { el.textContent = err.message; }
+  }
   const RENDER = { resumen: renderResumen, partidos: renderPartidos, fases: renderFases, jugadores: renderJugadores, grupos: renderGrupos, registro: renderRegistro, majors: renderMajors, ajustes: renderAjustes };
 
   // ---------------------------------------------------------------- eventos
@@ -307,6 +323,16 @@ export function createAdmin(h) {
     if (k === 'fix') { await act(() => openFix(ds.id)); return; }
     if (k === 'add') { openAdd(); return; }
     if (k === 'mjedit') { openMajor(ds.id); return; }
+    if (k === 'backup-now') { if (await act(() => post('backup-now'), 'Copia guardada')) loadBackups(); return; }
+    if (k === 'backup-dl') {
+      await act(async () => {
+        const d = await get(`backup?id=${ds.id}`);
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(new Blob([JSON.stringify(d, null, 1)], { type: 'application/json' }));
+        a.download = `clutch-copia-${(d.exported || '').slice(0, 10)}.json`; a.click();
+      }, 'Copia descargada');
+      return;
+    }
     if (k === 'user') { await act(() => openUser(ds.id)); return; }
     if (k === 'league') { await act(() => openLeague(ds.code)); return; }
     if (k === 'hide') { if (confirm('¿Ocultar este partido? Desaparece de la web y no cuenta (se puede volver a mostrar).') && await act(() => post('fix', { mid: ds.id, hidden: true }), 'Partido ocultado')) { closeDialog(); changed(); } return; }

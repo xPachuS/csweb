@@ -17,6 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <script>try { document.documentElement.dataset.theme = localStorage.getItem('clutch:tema') || 'dark'; } catch (e) { document.documentElement.dataset.theme = 'dark'; }</script>
 </head>
 <body>
   <header class="top">
@@ -26,12 +27,14 @@
         <span>CLUTCH</span>
       </a>
       <nav class="topnav" aria-label="Secciones"><a href="#/majors" data-nav="majors">Majors</a><a href="#/equipos" data-nav="equipos">Equipos</a><a href="#/jugadores" data-nav="jugadores">Jugadores</a><a href="#/pickem" data-nav="pickem">Pick'em</a></nav>
+      <div class="top__tools"><button class="iconbtn" type="button" data-search aria-label="Buscar (tecla /)" title="Buscar (tecla /)">🔍</button><button class="iconbtn" type="button" data-theme-toggle aria-label="Tema claro">☀</button></div>
       <div class="top__user" id="topUser"></div>
     </div>
   </header>
   <main class="wrap" id="app"><div class="loading" role="status"><span></span>Cargando…</div></main>
   <footer class="foot">
     <p><b>Clutch</b> es una web de aficionados sin relación con PGL ni con Valve. Counter-Strike es una marca de Valve Corporation.</p>
+    <p><a href="#/acerca">Acerca de Clutch</a> · <a href="#/records">Récords</a> · <a href="#/pickem">Pick'em</a></p>
     <p>Datos de partidos: <a href="https://liquipedia.net/counterstrike/" rel="noopener" target="_blank">Liquipedia</a> (CC-BY-SA 3.0). Los logos son marcas de sus equipos. Sin apuestas ni dinero: solo puntos entre amigos.</p>
   </footer>
   <noscript><p class="wrap">Esta web necesita JavaScript.</p></noscript>
