@@ -31,6 +31,8 @@ import os
 import re
 import sys
 import time
+import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
@@ -41,8 +43,9 @@ OUT = ROOT / 'data' / 'majors'
 API = 'https://liquipedia.net/counterstrike/api.php'
 REPO = os.environ.get('GITHUB_REPOSITORY', 'clutch-pickem')
 USER_AGENT = f'ClutchPickem/1.1 (fan site; https://github.com/{REPO})'
-WAIT = 2.5            # segundos entre consultas a Liquipedia
-BACKFILL = 5          # Majors antiguos que se rellenan como mucho en cada ejecución
+WAIT = 3.0            # segundos entre consultas a Liquipedia
+BACKFILL = 6          # Majors antiguos que se rellenan como mucho en cada ejecución
+PARSER = 3            # versión del lector: si sube, los Majors ya guardados se vuelven a leer solos
 PICKEM_FROM = '2026-singapore'   # desde este Major (incluido) hay Pick'em en la web
 
 # ---------------------------------------------------------------- lista de Majors
@@ -444,12 +447,12 @@ def participants(wikitext: str) -> set[str]:
 SWISS_HINT = re.compile(r'swiss|stage|opening|elimination|challengers|legends|champions stage', re.I)
 
 
-def build_major(cfg: dict, main_text: str, pages: dict[str, str], links: list[tuple[str, str]]) -> dict:
+def build_major(cfg: dict, main_text: str, pages: dict[str, str], links: list[tuple[str, str]], extra=()) -> dict:
     """Fases y partidos de un Major a partir de su página principal y sus subpáginas."""
     stages, matches = [], []
     subs = [(lk, nm, pages.get(lk)) for lk, nm in links]
     known = {}                                             # cuadros por id, de todas las páginas (para {{ShowBracket}})
-    for t in [main_text] + [t for _, _, t in subs]:
+    for t in [main_text] + [t for _, _, t in subs] + list(extra):
         for bid, slots in scan_page(t or '')[1]:
             if slots:
                 known[bid] = slots
@@ -512,21 +515,39 @@ def final_of(data: dict):
 
 
 # ---------------------------------------------------------------- Liquipedia
+class RateLimited(RuntimeError):
+    pass
+
+
 class Live:
     def __init__(self):
         self.calls = 0
+        self.blocked = False
 
     def _get(self, q: dict):
-        if self.calls:
-            time.sleep(WAIT)
-        self.calls += 1
-        url = f'{API}?{urllib.parse.urlencode({**q, "format": "json", "formatversion": "2"})}'
-        req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT, 'Accept-Encoding': 'gzip'})
-        with urllib.request.urlopen(req, timeout=40) as r:
-            raw = r.read()
-            if r.headers.get('Content-Encoding') == 'gzip':
-                raw = gzip.decompress(raw)
-        return json.loads(raw)
+        if self.blocked:
+            raise RateLimited('Liquipedia pidió esperar; se sigue en la próxima ejecución')
+        for attempt in (1, 2):
+            if self.calls:
+                time.sleep(WAIT)
+            self.calls += 1
+            url = f'{API}?{urllib.parse.urlencode({**q, "format": "json", "formatversion": "2"})}'
+            req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT, 'Accept-Encoding': 'gzip'})
+            try:
+                with urllib.request.urlopen(req, timeout=40) as r:
+                    raw = r.read()
+                    if r.headers.get('Content-Encoding') == 'gzip':
+                        raw = gzip.decompress(raw)
+                return json.loads(raw)
+            except urllib.error.HTTPError as e:
+                if e.code != 429:
+                    raise
+                if attempt == 2:                             # dos avisos seguidos: se para hasta la próxima ejecución
+                    self.blocked = True
+                    raise RateLimited('Liquipedia pidió esperar (429); se sigue en la próxima ejecución') from e
+                wait = min(int(e.headers.get('Retry-After') or 60), 120)
+                log(f'  · Liquipedia pide esperar {wait} s')
+                time.sleep(wait)
 
     def pages(self, titles: list[str]) -> dict[str, str]:
         out = {}
@@ -581,7 +602,7 @@ class Live:
 class Offline:
     """Lee páginas de una carpeta (para probar sin conexión)."""
     def __init__(self, folder: str):
-        self.dir = Path(folder); self.calls = 0
+        self.dir = Path(folder); self.calls = 0; self.blocked = False
         sj = self.dir / 'search.json'
         self.searches = json.loads(sj.read_text('utf-8')) if sj.exists() else {}
 
@@ -645,13 +666,77 @@ def current_id() -> str:
     return pool[-1]['id']
 
 
+def fold(text: str) -> str:
+    t = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode().lower()
+    return re.sub(r'[^a-z0-9]+', ' ', t).strip()
+
+
+STOP = {'major', 'championship', 'championships', 'one', 'open', 'tv', 'the', 'of', 'cs', 'go', 'counter', 'strike'}
+
+
+def is_major_page(text: str, cfg: dict) -> bool:
+    """¿Es la página principal de ese Major? (infobox del año correcto)"""
+    if 'nfobox league' not in (text or ''):
+        return False
+    info = infobox(text)
+    year = cfg['start'][:4]
+    if info.get('start') or info.get('end'):
+        if year not in (info.get('start', '')[:4], info.get('end', '')[:4]):
+            return False
+    elif year not in text:
+        return False
+    if info.get('name'):                                   # el nombre tiene que compartir alguna palabra (ciudad, organizador…)
+        words = {w for w in fold(cfg['search'] + ' ' + cfg['name'] + ' ' + cfg['city']).split() if w not in STOP and not w.isdigit()}
+        return bool(words & set(fold(info['name']).split()))
+    return True
+
+
+NAVBOX: dict = {}
+
+
+def navbox_links(src) -> list[tuple[str, str]]:
+    """Enlaces de la plantilla «Majors Navbox» de Liquipedia (una consulta por ejecución)."""
+    if 'links' not in NAVBOX:
+        NAVBOX['links'] = []
+        for title in ('Template:Majors_Navbox', 'Template:Valve_Majors_Navbox'):
+            text = src.pages([title]).get(title, '')
+            if text:
+                for m in re.finditer(r'\[\[([^\]|#]+)(?:\|([^\]]*))?\]\]', text):
+                    page = m.group(1).strip().replace(' ', '_')
+                    if '/' in page and ':' not in page:
+                        NAVBOX['links'].append((page, strip_markup(m.group(2) or '')))
+                break
+    return NAVBOX['links']
+
+
+def navbox_candidates(src, cfg: dict) -> list[str]:
+    words = [w for w in fold(cfg['search']).split() if w not in STOP]
+    year = cfg['start'][:4]
+    city = [w for w in fold(cfg['city'] + ' ' + cfg['search']).split() if w not in STOP and not w.isdigit()]
+    out = []
+    for page, label in navbox_links(src):
+        hay = fold(page + ' ' + label)
+        if year not in hay:
+            continue
+        score = sum(1 for w in set(words + city) if w in hay.split() and not w.isdigit())
+        if score:
+            out.append((score, page))
+    return [p for _, p in sorted(out, key=lambda x: -x[0])][:6]
+
+
 def resolve_page(src, cfg: dict, known: str) -> tuple[str, str]:
     """Busca la página principal del Major. Devuelve (página, texto)."""
     tries = [x for x in (cfg.get('page'), known) if x]
     for t in tries:
         got = src.pages([t])
-        if got.get(t) and 'nfobox' in got[t]:
+        if is_major_page(got.get(t, ''), cfg):
             return t, got[t]
+    nav = navbox_candidates(src, cfg)                     # 1.º: la plantilla de navegación de los Majors
+    if nav:
+        got = src.pages(nav)
+        for c in nav:
+            if is_major_page(got.get(c, ''), cfg):
+                return c, got[c]
     found = src.search(cfg['search'])
     cands = []
     for t in found:
@@ -663,8 +748,7 @@ def resolve_page(src, cfg: dict, known: str) -> tuple[str, str]:
     if cands:
         got = src.pages(cands[:30])
         year = cfg['start'][:4]
-        ok = [c for c in cands[:30] if 'nfobox league' in got.get(c, '') and year in got[c]
-              and re.search(r'tier\s*=\s*1\b|major', got[c], re.I)]
+        ok = [c for c in cands[:30] if is_major_page(got.get(c, ''), cfg) and re.search(r'tier\s*=\s*(1\b|s-tier)|major', got[c], re.I)]
         if ok:
             best = ok[0]
             while best.rsplit('/', 1)[0] in ok and '/' in best:   # mejor la página principal que una fase
@@ -685,7 +769,14 @@ def process(src, cfg: dict, prev: dict, prev_index: dict) -> dict | None:
         subs = [s for s in src.subpages(page) if s.count('/') == page.count('/') + 1 and not STAGE_PAGE_SKIP.search(s)]
         links = main_event_links([(s, s.rsplit('/', 1)[-1].replace('_', ' ')) for s in subs])
     pages = src.pages([lk for lk, _ in links]) if links else {}
-    data = build_major(cfg, text, pages, links)
+    extra = []
+    have = {bid for t in [text] + list(pages.values()) for bid, slots in scan_page(t or '')[1] if slots}
+    refs = {bid for t in pages.values() for bid, slots in scan_page(t or '')[1] if not slots} - have
+    for bid in list(refs)[:2]:                               # {{ShowBracket|id=…}} de un cuadro guardado en otra página
+        hits = [h for h in src.search(f'insource:"{bid}"') if h not in pages and h != page]
+        if hits:
+            extra += [t for t in src.pages(hits[:3]).values() if t]
+    data = build_major(cfg, text, pages, links, extra)
     data['info'] = infobox(text)
     data['page'] = page
     data['links'] = links
@@ -924,7 +1015,9 @@ def main(argv: list[str]) -> int:
         is_cur = cfg['id'] == cur
         if is_cur or cfg['id'] in force:
             need = True
-        elif st == 'upcoming' or prev.get('frozen') or prev.get('tries', 0) >= 3:
+        elif src.blocked:
+            need = False
+        elif st == 'upcoming' or (prev.get('frozen') and prev.get('parser') == PARSER) or prev.get('tries', 0) >= 3:
             need = False                                  # congelado, futuro o sin página tras 3 intentos
         elif backfill < BACKFILL:
             need = True; backfill += 1
@@ -934,6 +1027,10 @@ def main(argv: list[str]) -> int:
         if need:
             try:
                 data = process(src, cfg, detail_prev, prev)
+            except RateLimited as e:
+                err = ''                                      # no cuenta como intento fallido
+                errors.append(f"{cfg['name']}: {e}")
+                log('  !', cfg['name'], e)
             except Exception as e:  # noqa: BLE001
                 err = f"{cfg['name']}: {e}"
                 errors.append(err)
@@ -941,7 +1038,7 @@ def main(argv: list[str]) -> int:
         if data:
             fin = final_of(data)
             frozen = st == 'done' and bool(fin and fin['done']) and date.fromisoformat(cfg['end']) + timedelta(days=3) < today()
-            if not data['matches'] and detail_prev.get('matches'):
+            if not data['matches'] and detail_prev.get('matches') and detail_prev.get('event', {}).get('page') == data['page']:
                 data = {**data, 'stages': detail_prev['stages'], 'matches': detail_prev['matches']}   # se conserva lo último bueno
             detail = {
                 'event': {'id': cfg['id'], 'name': cfg['name'], 'page': data['page'], 'city': cfg['city'], 'country': cfg['country']},
@@ -951,6 +1048,8 @@ def main(argv: list[str]) -> int:
             write_json(dpath, detail)
             s = summary(cfg, data, prev)
             s['frozen'] = frozen
+            s['parser'] = PARSER
+            s['tries'] = 0
             s['checked'] = now
             s['loaded'] = bool(data['matches'])
             log(f"{cfg['id']}: {len(data['matches'])} partidos · {data['page']}{' · congelado' if frozen else ''}")
@@ -964,6 +1063,7 @@ def main(argv: list[str]) -> int:
             s = summary(cfg, None, prev)
             s['error'] = (err or prev.get('error', '')) if not s['loaded'] else ''
             s['tries'] = prev.get('tries', 0) + (1 if err and not s['loaded'] else 0)
+            s['parser'] = prev.get('parser')
         results[cfg['id']] = s
     index = {'current': cur, 'source': 'Liquipedia (CC-BY-SA 3.0)', 'checked': now, 'calls': src.calls,
              'majors': [results[c['id']] for c in MAJORS], 'errors': errors}
@@ -983,7 +1083,7 @@ def main(argv: list[str]) -> int:
         RETRY_LOGOS = argv[argv.index('--logos') + 1].strip().lower()
         if RETRY_LOGOS not in ('faltan', 'todos'):
             RETRY_LOGOS = ''
-    if '--no-logos' not in argv:
+    if '--no-logos' not in argv and not src.blocked:
         update_logos(src, seen)
     log(f'Hecho: {src.calls} consultas a Liquipedia · Pick\'em: {cur} · {sum(1 for m in index["majors"] if m["loaded"])}/{len(MAJORS)} Majors con datos')
     return 0
