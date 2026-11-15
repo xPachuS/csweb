@@ -91,7 +91,8 @@
    "s2": 0,
    "winner": 0,
    "done": false,
-   "maps": []
+   "maps": [],
+   "hltv": 2400494
   },
   {
    "id": "s1-qYes0iRpTj-M2",
@@ -107,7 +108,8 @@
    "s2": 0,
    "winner": 0,
    "done": false,
-   "maps": []
+   "maps": [],
+   "hltv": 2400495
   },
   {
    "id": "s1-qYes0iRpTj-M3",
@@ -123,7 +125,8 @@
    "s2": 0,
    "winner": 0,
    "done": false,
-   "maps": []
+   "maps": [],
+   "hltv": 2400496
   },
   {
    "id": "s1-qYes0iRpTj-M4",
@@ -139,7 +142,8 @@
    "s2": 0,
    "winner": 0,
    "done": false,
-   "maps": []
+   "maps": [],
+   "hltv": 2400497
   },
   {
    "id": "s1-qYes0iRpTj-M5",
@@ -155,7 +159,8 @@
    "s2": 0,
    "winner": 0,
    "done": false,
-   "maps": []
+   "maps": [],
+   "hltv": 2400499
   },
   {
    "id": "s1-qYes0iRpTj-M6",
@@ -171,7 +176,8 @@
    "s2": 0,
    "winner": 0,
    "done": false,
-   "maps": []
+   "maps": [],
+   "hltv": 2400498
   },
   {
    "id": "s1-qYes0iRpTj-M7",
@@ -187,7 +193,8 @@
    "s2": 0,
    "winner": 0,
    "done": false,
-   "maps": []
+   "maps": [],
+   "hltv": 2400500
   },
   {
    "id": "s1-qYes0iRpTj-M8",
@@ -203,7 +210,8 @@
    "s2": 0,
    "winner": 0,
    "done": false,
-   "maps": []
+   "maps": [],
+   "hltv": 2400501
   },
   {
    "id": "po-2rF0kBRwaCQuarterfinals-R1M1",
@@ -1774,6 +1782,956 @@
    "maps": []
   }
  ],
- "checked": "2026-11-15T08:54:58Z",
+ "rosters": {
+  "MOUZ": {
+   "players": [
+    {
+     "n": "torzsi",
+     "flag": ""
+    },
+    {
+     "n": "xertioN",
+     "flag": ""
+    },
+    {
+     "n": "Spinx",
+     "flag": ""
+    },
+    {
+     "n": "xelex",
+     "flag": ""
+    },
+    {
+     "n": "PR",
+     "flag": ""
+    },
+    {
+     "n": "Nikodeon",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "sycrone",
+    "flag": ""
+   }
+  },
+  "Vitality": {
+   "players": [
+    {
+     "n": "ZywOo",
+     "flag": ""
+    },
+    {
+     "n": "flameZ",
+     "flag": ""
+    },
+    {
+     "n": "mezii",
+     "flag": ""
+    },
+    {
+     "n": "ropz",
+     "flag": ""
+    },
+    {
+     "n": "jL",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "XTQZZZ",
+    "flag": ""
+   }
+  },
+  "FURIA": {
+   "players": [
+    {
+     "n": "yuurih",
+     "flag": ""
+    },
+    {
+     "n": "KSCERATO",
+     "flag": ""
+    },
+    {
+     "n": "FalleN",
+     "flag": ""
+    },
+    {
+     "n": "molodoy",
+     "flag": ""
+    },
+    {
+     "n": "YEKINDAR",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "sidde",
+    "flag": ""
+   }
+  },
+  "Aurora": {
+   "players": [
+    {
+     "n": "XANTARES",
+     "flag": ""
+    },
+    {
+     "n": "Wicadia",
+     "flag": ""
+    },
+    {
+     "n": "woxic",
+     "flag": ""
+    },
+    {
+     "n": "Jimpphat",
+     "flag": ""
+    },
+    {
+     "n": "kyxsan",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "ashhh",
+    "flag": ""
+   }
+  },
+  "Team Spirit": {
+   "players": [
+    {
+     "n": "magixx",
+     "flag": ""
+    },
+    {
+     "n": "zont1x",
+     "flag": ""
+    },
+    {
+     "n": "donk",
+     "flag": ""
+    },
+    {
+     "n": "sh1ro",
+     "flag": ""
+    },
+    {
+     "n": "tN1R",
+     "flag": ""
+    },
+    {
+     "n": "S0tF1k",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "hally",
+    "flag": ""
+   }
+  },
+  "BetBoom Team": {
+   "players": [
+    {
+     "n": "s1ren",
+     "flag": ""
+    },
+    {
+     "n": "zorte",
+     "flag": ""
+    },
+    {
+     "n": "Magnojez",
+     "flag": ""
+    },
+    {
+     "n": "Boombl4",
+     "flag": ""
+    },
+    {
+     "n": "d1Ledez",
+     "flag": ""
+    },
+    {
+     "n": "dmrr",
+     "flag": "ru"
+    }
+   ],
+   "coach": {
+    "n": "Fierce",
+    "flag": ""
+   }
+  },
+  "Team Falcons": {
+   "players": [
+    {
+     "n": "NiKo",
+     "flag": ""
+    },
+    {
+     "n": "TeSeS",
+     "flag": ""
+    },
+    {
+     "n": "m0NESY",
+     "flag": ""
+    },
+    {
+     "n": "kyousuke",
+     "flag": ""
+    },
+    {
+     "n": "karrigan",
+     "flag": ""
+    },
+    {
+     "n": "Nucleonz",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "zonic",
+    "flag": ""
+   }
+  },
+  "Legacy": {
+   "players": [
+    {
+     "n": "latto",
+     "flag": ""
+    },
+    {
+     "n": "dumau",
+     "flag": ""
+    },
+    {
+     "n": "n1ssim",
+     "flag": ""
+    },
+    {
+     "n": "arT",
+     "flag": ""
+    },
+    {
+     "n": "try",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "adr",
+    "flag": ""
+   }
+  },
+  "FUT Esports": {
+   "players": [
+    {
+     "n": "dem0n",
+     "flag": ""
+    },
+    {
+     "n": "Krabeni",
+     "flag": ""
+    },
+    {
+     "n": "cmtry",
+     "flag": ""
+    },
+    {
+     "n": "dziugss",
+     "flag": ""
+    },
+    {
+     "n": "xfl0ud",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "coolio",
+    "flag": ""
+   }
+  },
+  "Nemiga Gaming": {
+   "players": [
+    {
+     "n": "khaN",
+     "flag": ""
+    },
+    {
+     "n": "SYPH0",
+     "flag": ""
+    },
+    {
+     "n": "KaiR0N-",
+     "flag": ""
+    },
+    {
+     "n": "robo",
+     "flag": ""
+    },
+    {
+     "n": "Xant3r",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "boX",
+    "flag": ""
+   }
+  },
+  "G2 Esports": {
+   "players": [
+    {
+     "n": "huNter-",
+     "flag": ""
+    },
+    {
+     "n": "HeavyGod",
+     "flag": ""
+    },
+    {
+     "n": "matys",
+     "flag": ""
+    },
+    {
+     "n": "NertZ",
+     "flag": ""
+    },
+    {
+     "n": "r1nkle",
+     "flag": ""
+    },
+    {
+     "n": "tAk",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "sAw",
+    "flag": ""
+   }
+  },
+  "The One": {
+   "players": [
+    {
+     "n": "nafany",
+     "flag": ""
+    },
+    {
+     "n": "Ax1Le",
+     "flag": ""
+    },
+    {
+     "n": "ArtFr0st",
+     "flag": ""
+    },
+    {
+     "n": "fame",
+     "flag": ""
+    },
+    {
+     "n": "BELCHONOKK",
+     "flag": ""
+    },
+    {
+     "n": "xeedo",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "groove",
+    "flag": ""
+   }
+  },
+  "Natus Vincere": {
+   "players": [
+    {
+     "n": "b1t",
+     "flag": ""
+    },
+    {
+     "n": "Aleksib",
+     "flag": ""
+    },
+    {
+     "n": "iM",
+     "flag": ""
+    },
+    {
+     "n": "w0nderful",
+     "flag": ""
+    },
+    {
+     "n": "makazze",
+     "flag": ""
+    },
+    {
+     "n": "FAZERY",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "B1ad3",
+    "flag": ""
+   }
+  },
+  "Astralis": {
+   "players": [
+    {
+     "n": "Staehr",
+     "flag": ""
+    },
+    {
+     "n": "jabbi",
+     "flag": ""
+    },
+    {
+     "n": "phzy",
+     "flag": ""
+    },
+    {
+     "n": "ryu",
+     "flag": ""
+    },
+    {
+     "n": "siuhy",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "NEO",
+    "flag": ""
+   }
+  },
+  "The MongolZ": {
+   "players": [
+    {
+     "n": "bLitz",
+     "flag": ""
+    },
+    {
+     "n": "Techno4K",
+     "flag": ""
+    },
+    {
+     "n": "910",
+     "flag": ""
+    },
+    {
+     "n": "cobrazera",
+     "flag": ""
+    },
+    {
+     "n": "nin9",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "maaRaa",
+    "flag": ""
+   }
+  },
+  "MIBR": {
+   "players": [
+    {
+     "n": "insani",
+     "flag": ""
+    },
+    {
+     "n": "LNZ",
+     "flag": ""
+    },
+    {
+     "n": "venomzera",
+     "flag": ""
+    },
+    {
+     "n": "nqz",
+     "flag": ""
+    },
+    {
+     "n": "tomaszin",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "LETN1",
+    "flag": ""
+   }
+  },
+  "Ninjas in Pyjamas": {
+   "players": [
+    {
+     "n": "sjuush",
+     "flag": ""
+    },
+    {
+     "n": "xKacpersky",
+     "flag": ""
+    },
+    {
+     "n": "stavn",
+     "flag": ""
+    },
+    {
+     "n": "Krimbo",
+     "flag": ""
+    },
+    {
+     "n": "adamb",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Xizt",
+    "flag": ""
+   }
+  },
+  "PARIVISION": {
+   "players": [
+    {
+     "n": "Jame",
+     "flag": ""
+    },
+    {
+     "n": "xiELO",
+     "flag": ""
+    },
+    {
+     "n": "zweih",
+     "flag": ""
+    },
+    {
+     "n": "FL1T",
+     "flag": ""
+    },
+    {
+     "n": "HObbit",
+     "flag": ""
+    },
+    {
+     "n": "slaxejezzz",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "dastan",
+    "flag": ""
+   }
+  },
+  "HEROIC": {
+   "players": [
+    {
+     "n": "nilo",
+     "flag": ""
+    },
+    {
+     "n": "Chr1zN",
+     "flag": ""
+    },
+    {
+     "n": "susp",
+     "flag": ""
+    },
+    {
+     "n": "Martinez",
+     "flag": ""
+    },
+    {
+     "n": "Brollan",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Snappi",
+    "flag": ""
+   }
+  },
+  "FaZe Clan": {
+   "players": [
+    {
+     "n": "frozen",
+     "flag": ""
+    },
+    {
+     "n": "jcobbb",
+     "flag": ""
+    },
+    {
+     "n": "Twistzz",
+     "flag": ""
+    },
+    {
+     "n": "JBOEN",
+     "flag": ""
+    },
+    {
+     "n": "Neityu",
+     "flag": ""
+    },
+    {
+     "n": "GruBy",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "enkay J",
+    "flag": ""
+   }
+  },
+  "Team Liquid": {
+   "players": [
+    {
+     "n": "NAF",
+     "flag": ""
+    },
+    {
+     "n": "EliGE",
+     "flag": ""
+    },
+    {
+     "n": "malbsMd",
+     "flag": ""
+    },
+    {
+     "n": "Jorko",
+     "flag": ""
+    },
+    {
+     "n": "JT",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "flashie",
+    "flag": ""
+   }
+  },
+  "Eternal Fire": {
+   "players": [
+    {
+     "n": "jottAAA",
+     "flag": ""
+    },
+    {
+     "n": "regali",
+     "flag": ""
+    },
+    {
+     "n": "MisteM",
+     "flag": ""
+    },
+    {
+     "n": "Kvem",
+     "flag": ""
+    },
+    {
+     "n": "soulfly",
+     "flag": ""
+    },
+    {
+     "n": "Hydro2K",
+     "flag": "tr"
+    }
+   ],
+   "coach": {
+    "n": "Fabre",
+    "flag": ""
+   }
+  },
+  "100 Thieves": {
+   "players": [
+    {
+     "n": "rain",
+     "flag": ""
+    },
+    {
+     "n": "poiii",
+     "flag": ""
+    },
+    {
+     "n": "sirah",
+     "flag": ""
+    },
+    {
+     "n": "dev1ce",
+     "flag": ""
+    },
+    {
+     "n": "Gizmy",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "gla1ve",
+    "flag": ""
+   }
+  },
+  "9z Team": {
+   "players": [
+    {
+     "n": "max",
+     "flag": ""
+    },
+    {
+     "n": "HUASOPEEK",
+     "flag": ""
+    },
+    {
+     "n": "luchov",
+     "flag": ""
+    },
+    {
+     "n": "meyern",
+     "flag": ""
+    },
+    {
+     "n": "dgt",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "BIT",
+    "flag": ""
+   }
+  },
+  "M80": {
+   "players": [
+    {
+     "n": "Swisher",
+     "flag": ""
+    },
+    {
+     "n": "slaxz-",
+     "flag": ""
+    },
+    {
+     "n": "s1n",
+     "flag": ""
+    },
+    {
+     "n": "Lake",
+     "flag": ""
+    },
+    {
+     "n": "JBa",
+     "flag": ""
+    },
+    {
+     "n": "M0nstr",
+     "flag": "us"
+    }
+   ],
+   "coach": {
+    "n": "dephh",
+    "flag": ""
+   }
+  },
+  "DENDELE CS": {
+   "players": [
+    {
+     "n": "gafolo",
+     "flag": ""
+    },
+    {
+     "n": "rdnzao",
+     "flag": ""
+    },
+    {
+     "n": "doc",
+     "flag": ""
+    },
+    {
+     "n": "koala",
+     "flag": ""
+    },
+    {
+     "n": "maxxkor",
+     "flag": ""
+    },
+    {
+     "n": "D10S",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "coachi",
+    "flag": ""
+   }
+  },
+  "Imperial": {
+   "players": [
+    {
+     "n": "VINI",
+     "flag": ""
+    },
+    {
+     "n": "noway",
+     "flag": ""
+    },
+    {
+     "n": "chelo",
+     "flag": ""
+    },
+    {
+     "n": "decenty",
+     "flag": ""
+    },
+    {
+     "n": "saadzin",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "tacitus",
+    "flag": ""
+   }
+  },
+  "Wildcard": {
+   "players": [
+    {
+     "n": "reck",
+     "flag": ""
+    },
+    {
+     "n": "HexT",
+     "flag": ""
+    },
+    {
+     "n": "nEMANHA",
+     "flag": ""
+    },
+    {
+     "n": "Cxzi",
+     "flag": ""
+    },
+    {
+     "n": "fr3nd",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "splawik",
+    "flag": ""
+   }
+  },
+  "GOSH": {
+   "players": [
+    {
+     "n": "s1mple",
+     "flag": ""
+    },
+    {
+     "n": "Senzu",
+     "flag": ""
+    },
+    {
+     "n": "Magisk",
+     "flag": ""
+    },
+    {
+     "n": "mzinho",
+     "flag": ""
+    },
+    {
+     "n": "asap",
+     "flag": ""
+    },
+    {
+     "n": "BnTeT",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "TaZ",
+    "flag": ""
+   }
+  },
+  "FlyQuest": {
+   "players": [
+    {
+     "n": "INS",
+     "flag": ""
+    },
+    {
+     "n": "Vexite",
+     "flag": ""
+    },
+    {
+     "n": "nettik",
+     "flag": ""
+    },
+    {
+     "n": "jks",
+     "flag": ""
+    },
+    {
+     "n": "aliStair",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "AZR",
+    "flag": ""
+   }
+  },
+  "Chinggis Warriors": {
+   "players": [
+    {
+     "n": "ROUX",
+     "flag": ""
+    },
+    {
+     "n": "cool4st",
+     "flag": ""
+    },
+    {
+     "n": "sk0R",
+     "flag": ""
+    },
+    {
+     "n": "fury5k",
+     "flag": ""
+    },
+    {
+     "n": "tikuak",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "Redka",
+    "flag": ""
+   }
+  },
+  "Lynn Vision": {
+   "players": [
+    {
+     "n": "westmelon",
+     "flag": ""
+    },
+    {
+     "n": "z4kr",
+     "flag": ""
+    },
+    {
+     "n": "EmiliaQAQ",
+     "flag": ""
+    },
+    {
+     "n": "Starry",
+     "flag": ""
+    },
+    {
+     "n": "C4LLM3SU3",
+     "flag": ""
+    }
+   ],
+   "coach": {
+    "n": "GUM",
+    "flag": ""
+   }
+  }
+ },
+ "checked": "2026-11-15T10:23:13Z",
  "errors": []
 }

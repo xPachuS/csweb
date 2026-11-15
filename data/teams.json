@@ -86,7 +86,7 @@
   },
   "BOT Bardolph": {
    "tpl": "bot bardolph",
-   "tries": 1
+   "tries": 2
   },
   "Bad News Eagles": {
    "tpl": "bne",
@@ -254,7 +254,7 @@
    "logo": "img/teams/gambit-esports.png"
   },
   "GamerLegion": {
-   "tpl": "gamerlegion",
+   "tpl": "gl",
    "logo": "img/teams/gamerlegion.png"
   },
   "Germany": {
@@ -485,7 +485,7 @@
    "logo": "img/teams/semperfi.png"
   },
   "Sharks Esports": {
-   "tpl": "sharks esports",
+   "tpl": "sharks",
    "logo": "img/teams/sharks-esports.png"
   },
   "Splyce": {
@@ -569,7 +569,7 @@
   },
   "Team juliano": {
    "tpl": "team juliano",
-   "tries": 1
+   "tries": 2
   },
   "The MongolZ": {
    "tpl": "mongolz",

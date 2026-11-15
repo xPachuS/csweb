@@ -1,0 +1,38 @@
+{
+ "source": "Liquipedia",
+ "maps": {
+  "Ancient": {
+   "img": "img/maps/ancient.jpg"
+  },
+  "Anubis": {
+   "img": "img/maps/anubis.jpg"
+  },
+  "Cache": {
+   "img": "img/maps/cache.png"
+  },
+  "Cobblestone": {
+   "img": "img/maps/cobblestone.jpg"
+  },
+  "Dust II": {
+   "tries": 1
+  },
+  "Inferno": {
+   "img": "img/maps/inferno.jpg"
+  },
+  "Mirage": {
+   "img": "img/maps/mirage.jpg"
+  },
+  "Nuke": {
+   "img": "img/maps/nuke.jpg"
+  },
+  "Overpass": {
+   "img": "img/maps/overpass.jpg"
+  },
+  "Train": {
+   "img": "img/maps/train.png"
+  },
+  "Vertigo": {
+   "img": "img/maps/vertigo.jpg"
+  }
+ }
+}
