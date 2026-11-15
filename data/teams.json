@@ -288,7 +288,7 @@
    "logo": "img/teams/gambit-esports.png"
   },
   "GamerLegion": {
-   "tpl": "gl",
+   "tpl": "gamerlegion",
    "logo": "img/teams/gamerlegion.png"
   },
   "Germany": {
@@ -555,7 +555,7 @@
    "logo": "img/teams/semperfi.png"
   },
   "Sharks Esports": {
-   "tpl": "sharks",
+   "tpl": "sharks esports",
    "logo": "img/teams/sharks-esports.png"
   },
   "Space Soldiers": {

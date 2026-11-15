@@ -1,7 +1,7 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T11:02:33Z",
+ "checked": "2026-11-15T11:28:52Z",
  "calls": 21,
  "majors": [
   {
@@ -374,12 +374,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:54:35Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:28:52Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2019-katowice",
@@ -403,12 +402,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:45:57Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:28:52Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2019-berlin",
@@ -432,12 +430,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:36:33Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:28:52Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2021-stockholm",
@@ -461,12 +458,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:36:33Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:28:52Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2022-antwerp",
@@ -490,12 +486,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:36:33Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:28:52Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2022-rio",
@@ -519,12 +514,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:36:33Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:28:52Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2023-paris",
@@ -549,10 +543,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:02:33Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2024-copenhagen",
@@ -577,10 +572,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:02:33Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2024-shanghai",
@@ -605,10 +601,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:02:33Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2025-austin",
@@ -633,10 +630,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:02:33Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2025-budapest",
@@ -661,10 +659,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:02:33Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2026-cologne",
@@ -689,10 +688,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:02:33Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2026-singapore",
@@ -716,7 +716,7 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T11:02:33Z",
+   "checked": "2026-11-15T11:28:52Z",
    "empty": [],
    "tries_empty": 0,
    "parser": 5,

@@ -831,12 +831,6 @@
      ],
      "first": "t",
      "hltv": 90659
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335537
@@ -1011,12 +1005,6 @@
      ],
      "first": "t",
      "hltv": 90679
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335541
@@ -1067,12 +1055,6 @@
      ],
      "first": "ct",
      "hltv": 90684
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335540
@@ -1119,12 +1101,6 @@
      ],
      "first": "t",
      "hltv": 90694
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335543
@@ -1171,12 +1147,6 @@
      ],
      "first": "ct",
      "hltv": 90696
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335542
@@ -1223,12 +1193,6 @@
      ],
      "first": "t",
      "hltv": 90710
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335545
@@ -1395,12 +1359,6 @@
      ],
      "first": "t",
      "hltv": 90750
-    },
-    {
-     "map": "Train",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335547
@@ -2159,12 +2117,6 @@
      ],
      "first": "ct",
      "hltv": 90804
-    },
-    {
-     "map": "Mirage",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335634
@@ -2211,12 +2163,6 @@
      ],
      "first": "ct",
      "hltv": 90806
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335635
@@ -2267,12 +2213,6 @@
      ],
      "first": "t",
      "hltv": 90818
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335636
@@ -2319,12 +2259,6 @@
      ],
      "first": "t",
      "hltv": 90816
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335637
@@ -2431,12 +2365,6 @@
      ],
      "first": "ct",
      "hltv": 90832
-    },
-    {
-     "map": "Train",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335638
@@ -2547,12 +2475,6 @@
      ],
      "first": "t",
      "hltv": 90849
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335642
@@ -2663,12 +2585,6 @@
      ],
      "first": "t",
      "hltv": 90861
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335640
@@ -2783,12 +2699,6 @@
      ],
      "first": "t",
      "hltv": 90918
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335645
@@ -2854,7 +2764,7 @@
    "hltv": 2335646
   },
   {
-   "id": "po-4WW368LJ55Quarterfinals-R1M1",
+   "id": "po-4WW368LJ55-R1M1",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M1",
@@ -2895,18 +2805,12 @@
      ],
      "first": "t",
      "hltv": 90988
-    },
-    {
-     "map": "Dust II",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335647
   },
   {
-   "id": "po-4WW368LJ55Quarterfinals-R1M2",
+   "id": "po-4WW368LJ55-R1M2",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M2",
@@ -2966,7 +2870,7 @@
    "hltv": 2335648
   },
   {
-   "id": "po-4WW368LJ55Quarterfinals-R1M3",
+   "id": "po-4WW368LJ55-R1M3",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M3",
@@ -3011,18 +2915,12 @@
      ],
      "first": "ct",
      "hltv": 91017
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335649
   },
   {
-   "id": "po-4WW368LJ55Quarterfinals-R1M4",
+   "id": "po-4WW368LJ55-R1M4",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M4",
@@ -3063,18 +2961,12 @@
      ],
      "first": "ct",
      "hltv": 91022
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335650
   },
   {
-   "id": "po-4WW368LJ55Quarterfinals-R2M1",
+   "id": "po-4WW368LJ55-R2M1",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M1",
@@ -3119,18 +3011,12 @@
      ],
      "first": "ct",
      "hltv": 91051
-    },
-    {
-     "map": "Train",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335651
   },
   {
-   "id": "po-4WW368LJ55Quarterfinals-R2M2",
+   "id": "po-4WW368LJ55-R2M2",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M2",
@@ -3171,18 +3057,12 @@
      ],
      "first": "ct",
      "hltv": 91071
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335652
   },
   {
-   "id": "po-4WW368LJ55Quarterfinals-R3M1",
+   "id": "po-4WW368LJ55-R3M1",
    "stage": "po",
    "round": "Gran final",
    "slot": "R3M1",
@@ -3223,12 +3103,6 @@
      ],
      "first": "t",
      "hltv": 91133
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2335653
@@ -3916,6 +3790,6 @@
    }
   }
  },
- "checked": "2026-11-15T10:36:33Z",
+ "checked": "2026-11-15T11:28:52Z",
  "errors": []
 }
