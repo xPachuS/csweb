@@ -1133,7 +1133,7 @@
    "hltv": 2307541
   },
   {
-   "id": "po-MDVK5NYYO6Quarterfinals-R1M1",
+   "id": "po-MDVK5NYYO6-R1M1",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M1",
@@ -1193,7 +1193,7 @@
    "hltv": 2307542
   },
   {
-   "id": "po-MDVK5NYYO6Quarterfinals-R1M2",
+   "id": "po-MDVK5NYYO6-R1M2",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M2",
@@ -1253,7 +1253,7 @@
    "hltv": 2307543
   },
   {
-   "id": "po-MDVK5NYYO6Quarterfinals-R1M3",
+   "id": "po-MDVK5NYYO6-R1M3",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M3",
@@ -1313,7 +1313,7 @@
    "hltv": 2307544
   },
   {
-   "id": "po-MDVK5NYYO6Quarterfinals-R1M4",
+   "id": "po-MDVK5NYYO6-R1M4",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M4",
@@ -1373,7 +1373,7 @@
    "hltv": 2307545
   },
   {
-   "id": "po-MDVK5NYYO6Quarterfinals-R2M1",
+   "id": "po-MDVK5NYYO6-R2M1",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M1",
@@ -1423,7 +1423,7 @@
    "hltv": 2307546
   },
   {
-   "id": "po-MDVK5NYYO6Quarterfinals-R2M2",
+   "id": "po-MDVK5NYYO6-R2M2",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M2",
@@ -1473,7 +1473,7 @@
    "hltv": 2307547
   },
   {
-   "id": "po-MDVK5NYYO6Quarterfinals-R3M1",
+   "id": "po-MDVK5NYYO6-R3M1",
    "stage": "po",
    "round": "Gran final",
    "slot": "R3M1",
@@ -1975,6 +1975,6 @@
    }
   }
  },
- "checked": "2026-11-15T10:45:57Z",
+ "checked": "2026-11-15T11:38:10Z",
  "errors": []
 }

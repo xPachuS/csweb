@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T11:28:52Z",
- "calls": 21,
+ "checked": "2026-11-15T11:38:10Z",
+ "calls": 16,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -200,12 +200,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:29:39Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:38:10Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2016-columbus",
@@ -229,12 +228,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:45:57Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:38:10Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2016-cologne",
@@ -258,12 +256,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:45:57Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:38:10Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2017-atlanta",
@@ -287,12 +284,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:45:57Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:38:10Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2017-krakow",
@@ -316,12 +312,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:36:33Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:38:10Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2018-boston",
@@ -345,12 +340,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:54:35Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:38:10Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2018-london",
@@ -375,10 +369,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:28:52Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2019-katowice",
@@ -403,10 +398,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:28:52Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2019-berlin",
@@ -431,10 +427,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:28:52Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2021-stockholm",
@@ -459,10 +456,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:28:52Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2022-antwerp",
@@ -487,10 +485,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:28:52Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2022-rio",
@@ -515,10 +514,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T11:28:52Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 5,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2023-paris",
@@ -716,7 +716,7 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T11:28:52Z",
+   "checked": "2026-11-15T11:38:10Z",
    "empty": [],
    "tries_empty": 0,
    "parser": 5,

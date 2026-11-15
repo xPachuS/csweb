@@ -1127,7 +1127,7 @@
    "hltv": 2312392
   },
   {
-   "id": "po-GFSP4OCPPBQuarterfinals-R1M1",
+   "id": "po-GFSP4OCPPB-R1M1",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M1",
@@ -1168,18 +1168,12 @@
      ],
      "first": "ct",
      "hltv": 49874
-    },
-    {
-     "map": "Overpass",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2312393
   },
   {
-   "id": "po-GFSP4OCPPBQuarterfinals-R1M2",
+   "id": "po-GFSP4OCPPB-R1M2",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M2",
@@ -1220,18 +1214,12 @@
      ],
      "first": "ct",
      "hltv": 49878
-    },
-    {
-     "map": "Mirage",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2312394
   },
   {
-   "id": "po-GFSP4OCPPBQuarterfinals-R1M3",
+   "id": "po-GFSP4OCPPB-R1M3",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M3",
@@ -1295,7 +1283,7 @@
    "hltv": 2312395
   },
   {
-   "id": "po-GFSP4OCPPBQuarterfinals-R1M4",
+   "id": "po-GFSP4OCPPB-R1M4",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M4",
@@ -1336,18 +1324,12 @@
      ],
      "first": "ct",
      "hltv": 49951
-    },
-    {
-     "map": "Mirage",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2312396
   },
   {
-   "id": "po-GFSP4OCPPBQuarterfinals-R2M1",
+   "id": "po-GFSP4OCPPB-R2M1",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M1",
@@ -1407,7 +1389,7 @@
    "hltv": 2312397
   },
   {
-   "id": "po-GFSP4OCPPBQuarterfinals-R2M2",
+   "id": "po-GFSP4OCPPB-R2M2",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M2",
@@ -1448,12 +1430,6 @@
      ],
      "first": "ct",
      "hltv": 49956
-    },
-    {
-     "map": "Cobblestone",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2312398
@@ -1491,7 +1467,7 @@
    "hltv": 2312845
   },
   {
-   "id": "po-GFSP4OCPPBQuarterfinals-R3M1",
+   "id": "po-GFSP4OCPPB-R3M1",
    "stage": "po",
    "round": "Gran final",
    "slot": "R3M1",
@@ -2041,6 +2017,6 @@
    }
   }
  },
- "checked": "2026-11-15T10:36:33Z",
+ "checked": "2026-11-15T11:38:10Z",
  "errors": []
 }
