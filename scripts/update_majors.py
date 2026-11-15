@@ -106,6 +106,11 @@ TEAM_NAMES = {
     'godsent': 'GODSENT', 'mibr (2018)': 'MIBR', 'evil geniuses': 'Evil Geniuses', 'eg': 'Evil Geniuses',
 }
 TBD = {'', 'tbd', 'tba', 'bye', 'definitions'}
+TEAM_TPL: dict[str, str] = {}          # nombre bonito -> plantilla de Liquipedia (se rellena al leer partidos)
+LOGOS = ROOT / 'img' / 'teams'
+TEAMS_JSON = ROOT / 'data' / 'teams.json'
+LOGO_BATCH = 50       # equipos por consulta a Liquipedia
+LOGO_DOWNLOADS = 40   # imágenes descargadas como mucho por ejecución
 TZ = {'UTC': 0, 'GMT': 0, 'CET': 1, 'CEST': 2, 'EET': 2, 'EEST': 3, 'MSK': 3, 'SGT': 8, 'CST': 8, 'KST': 9,
       'JST': 9, 'EST': -5, 'EDT': -4, 'PST': -8, 'PDT': -7, 'BRT': -3, 'ART': -3, 'AEST': 10, 'AEDT': 11,
       'WET': 0, 'WEST': 1, 'BST': 1, 'CDT': -5, 'MDT': -6}
@@ -193,7 +198,11 @@ def opponent(raw: str) -> dict:
         if 'opponent' in name.lower():
             p = params(inner)
             team = p.get('1') or p.get('template') or p.get('name') or ''
-            return {'team': team_name(team), 'score': p.get('score', '').strip()}
+            name_ = team_name(team)
+            key = strip_markup(team).lower().strip()
+            if name_ != 'TBD' and key and name_ not in TEAM_TPL:
+                TEAM_TPL[name_] = key                 # plantilla de Liquipedia del equipo (para su logo)
+            return {'team': name_, 'score': p.get('score', '').strip()}
     return {'team': team_name(raw or ''), 'score': ''}
 
 
@@ -488,6 +497,28 @@ class Live:
         data = self._get({'action': 'query', 'list': 'allpages', 'apprefix': main.replace('_', ' ') + '/', 'aplimit': '50'})
         return [x['title'].replace(' ', '_') for x in data.get('query', {}).get('allpages', [])]
 
+    def parse(self, text: str) -> str:
+        """HTML de un trozo de wikitext (una sola consulta; Liquipedia pide no más de una cada 30 s)."""
+        if self.calls:
+            time.sleep(max(WAIT, 30 - (time.time() - self.last_parse)) if getattr(self, 'last_parse', 0) else WAIT)
+        self.calls += 1
+        body = urllib.parse.urlencode({'action': 'parse', 'text': text, 'contentmodel': 'wikitext', 'prop': 'text',
+                                       'disablelimitreport': '1', 'format': 'json', 'formatversion': '2'}).encode()
+        req = urllib.request.Request(API, data=body, headers={'User-Agent': USER_AGENT, 'Accept-Encoding': 'gzip',
+                                                               'Content-Type': 'application/x-www-form-urlencoded'})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            raw = r.read()
+            if r.headers.get('Content-Encoding') == 'gzip':
+                raw = gzip.decompress(raw)
+        self.last_parse = time.time()
+        return json.loads(raw).get('parse', {}).get('text', '')
+
+    def download(self, url: str) -> bytes:
+        time.sleep(1.5)
+        req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
+        with urllib.request.urlopen(req, timeout=40) as r:
+            return r.read()
+
 
 class Offline:
     """Lee páginas de una carpeta (para probar sin conexión)."""
@@ -511,6 +542,23 @@ class Offline:
         self.calls += 1
         pre = main.replace('/', '__') + '__'
         return sorted(f.stem.replace('__', '/') for f in self.dir.glob(pre + '*.wiki'))
+
+    def parse(self, text):
+        """Imita la respuesta de Liquipedia para {{TeamIcon|x}}: un logo claro y otro oscuro por equipo conocido."""
+        self.calls += 1
+        def one(m):
+            k = m.group(1)
+            if k.startswith('zz'):
+                return '<span class="team-template-team-icon"><a href="/counterstrike/Template:TeamIcon/' + k + '" class="new">Template:TeamIcon/' + k + '</a></span>'
+            f = k.replace(' ', '_').title()
+            return (f'<span class="team-template-team-icon team-template-lightmode"><span class="team-template-image-icon"><a href="/counterstrike/{f}">'
+                    f'<img alt="" src="/commons/images/thumb/a/ab/{f}_lightmode.png/50px-{f}_lightmode.png" srcset="/commons/images/thumb/a/ab/{f}_lightmode.png/100px-{f}_lightmode.png 2x" width="50" height="50"></a></span></span>'
+                    f'<span class="team-template-team-icon team-template-darkmode"><span class="team-template-image-icon"><a href="/counterstrike/{f}">'
+                    f'<img alt="" src="/commons/images/thumb/c/cd/{f}_darkmode.png/50px-{f}_darkmode.png" width="50" height="50"></a></span></span>')
+        return re.sub(r'\{\{TeamIcon\|([^}]+)\}\}', one, text)
+
+    def download(self, url):
+        return b'\x89PNG\r\n\x1a\n' + url.encode()
 
 
 # ---------------------------------------------------------------- proceso
@@ -612,6 +660,87 @@ def summary(cfg: dict, data: dict | None, prev: dict) -> dict:
     }
 
 
+def slug(name: str) -> str:
+    s = re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+    return s or 'equipo'
+
+
+def team_logos(html: str, keys: list[str]) -> dict[int, dict]:
+    """Del HTML de <span data-k="i">{{TeamIcon|plantilla}}</span>… saca los logos claro y oscuro de cada equipo."""
+    out = {}
+    parts = re.split(r'<span[^>]*\bdata-k="(\d+)"[^>]*>', html)
+    for i in range(1, len(parts) - 1, 2):
+        k, chunk = int(parts[i]), parts[i + 1]
+        found = {}
+        for m in re.finditer(r'<span[^>]*class="([^"]*)"[^>]*>(?:(?!</span>).)*?<img([^>]*)>', chunk, re.S):
+            cls, img = m.group(1), m.group(2)
+            src = re.search(r'\bsrc="([^"]+)"', img)
+            if not src:
+                continue
+            best = src.group(1)
+            ss = re.search(r'\bsrcset="([^"]+)"', img)
+            if ss:
+                cands = [c.strip().split(' ')[0] for c in ss.group(1).split(',') if c.strip()]
+                if cands:
+                    best = cands[-1]
+            if re.search(r'filler|logo_?tbd|/tbd|default', best, re.I):
+                continue
+            mode = 'dark' if 'darkmode' in cls else 'light'
+            found.setdefault(mode, best if best.startswith('http') else 'https://liquipedia.net' + best)
+        if found:
+            out[k] = found
+    return out
+
+
+def update_logos(src, teams_seen: set[str], log_only: bool = False):
+    """Descarga los logos de los equipos que aún no tienen (en tandas, sin pasarse con Liquipedia)."""
+    db = json.loads(TEAMS_JSON.read_text('utf-8')) if TEAMS_JSON.exists() else {}
+    teams = db.get('teams', {})
+    for t, tpl in TEAM_TPL.items():
+        teams.setdefault(t, {})['tpl'] = tpl
+    for t in teams_seen:
+        teams.setdefault(t, {})
+    todo = [t for t, v in teams.items() if not v.get('logo') and v.get('tries', 0) < 3 and t and t != 'TBD']
+    found = {}
+    for i in range(0, min(len(todo), LOGO_BATCH * 2), LOGO_BATCH):
+        batch = todo[i:i + LOGO_BATCH]
+        keys = [teams[t].get('tpl') or t.lower() for t in batch]
+        text = ''.join(f'<span class="clutch-t" data-k="{n}">{{{{TeamIcon|{k}}}}}</span>' for n, k in enumerate(keys))
+        try:
+            html = src.parse(text)
+        except Exception as e:  # noqa: BLE001
+            log(f'  ! logos: Liquipedia no responde ({e})')
+            break
+        res = team_logos(html, keys)
+        for n, t in enumerate(batch):
+            if n in res:
+                found[t] = res[n]
+            else:
+                teams[t]['tries'] = teams[t].get('tries', 0) + 1
+    downloads = 0
+    LOGOS.mkdir(parents=True, exist_ok=True)
+    for t, urls in found.items():
+        if downloads >= LOGO_DOWNLOADS:
+            break
+        for mode in ('light', 'dark'):
+            url = urls.get(mode)
+            if not url:
+                continue
+            m_ext = re.search(r'\.(png|svg|jpe?g|webp|gif)$', url.split('?')[0].rsplit('/', 1)[-1], re.I)
+            ext = m_ext.group(1).lower().replace('jpeg', 'jpg') if m_ext else 'png'
+            path = LOGOS / f"{slug(t)}{'-dark' if mode == 'dark' else ''}.{ext}"
+            try:
+                path.write_bytes(src.download(url))
+                downloads += 1
+                teams[t]['logo' if mode == 'light' else 'dark'] = f'img/teams/{path.name}'
+            except Exception as e:  # noqa: BLE001
+                log(f'  ! logo de {t}: {e}')
+    db = {'source': 'Liquipedia · los logos son marcas de sus equipos', 'teams': dict(sorted(teams.items()))}
+    write_json(TEAMS_JSON, db)
+    have = sum(1 for v in teams.values() if v.get('logo'))
+    log(f'Logos: {have}/{len(teams)} equipos con logo ({downloads} imágenes nuevas)')
+
+
 def write_json(path: Path, obj) -> bool:
     text = json.dumps(obj, ensure_ascii=False, indent=1) + '\n'
     if path.exists():
@@ -693,6 +822,16 @@ def main(argv: list[str]) -> int:
     index = {'current': cur, 'source': 'Liquipedia (CC-BY-SA 3.0)', 'checked': now, 'calls': src.calls,
              'majors': [results[c['id']] for c in MAJORS], 'errors': errors}
     write_json(idx_path, index)
+    seen = set()
+    for f in OUT.glob('*.json'):
+        if f.name == 'index.json':
+            continue
+        for st in json.loads(f.read_text('utf-8')).get('stages', []):
+            seen.update(st.get('teams', []))
+    seen.update(m['champion'] for m in index['majors'] if m['champion'])
+    seen.update(m['runnerup'] for m in index['majors'] if m['runnerup'])
+    if '--no-logos' not in argv:
+        update_logos(src, seen)
     log(f'Hecho: {src.calls} consultas a Liquipedia · Pick\'em: {cur} · {sum(1 for m in index["majors"] if m["loaded"])}/{len(MAJORS)} Majors con datos')
     return 0
 

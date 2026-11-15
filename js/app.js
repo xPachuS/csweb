@@ -21,8 +21,17 @@ const SHORT = {
 };
 const shortOf = (t) => (isTbd(t) ? 'TBD' : SHORT[t] || t.replace(/^(Team|The)\s+/i, '').replace(/[^A-Za-z0-9]/g, '').slice(0, 4).toUpperCase());
 const hue = (s) => [...String(s)].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
-const badge = (t, cls = '') => (isTbd(t) ? `<span class="tb tb--tbd ${cls}" aria-hidden="true">?</span>`
-  : `<span class="tb ${cls}" style="--h:${hue(t)}" aria-hidden="true">${esc(shortOf(t))}</span>`);
+// Logos descargados de Liquipedia (data/teams.json). Si un equipo no tiene, se ven sus iniciales.
+const LOGOS = {};
+const logosReady = fetch(`data/teams.json?v=${Math.floor(Date.now() / 600_000)}`).then((r) => (r.ok ? r.json() : {})).then((d) => {
+  for (const [name, v] of Object.entries(d.teams || {})) if (v.logo || v.dark) LOGOS[name] = v;
+}).catch(() => {});
+const badge = (t, cls = '') => {
+  if (isTbd(t)) return `<span class="tb tb--tbd ${cls}" aria-hidden="true">?</span>`;
+  const lg = !cls.includes('tb--me') && LOGOS[t];
+  if (lg) return `<span class="tb tb--logo ${lg.dark ? '' : 'tb--light'} ${cls}" aria-hidden="true"><img src="${esc(lg.dark || lg.logo)}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.remove('tb--logo','tb--light');this.parentNode.style.setProperty('--h',${hue(t)});this.replaceWith(${JSON.stringify(shortOf(t)).replace(/"/g, '&quot;')})"></span>`;
+  return `<span class="tb ${cls}" style="--h:${hue(t)}" aria-hidden="true">${esc(shortOf(t))}</span>`;
+};
 /** «Round 2: High Matches» → «Ronda 2 · alta» */
 function roundEs(r) {
   return String(r || '')
@@ -48,6 +57,7 @@ const adminView = () => (admin = admin || createAdmin({ call, esc, $app, badge, 
 
 // ---------------------------------------------------------------- router
 async function route() {
+  await logosReady;
   const hash = location.hash.replace(/^#\/?/, '');
   const [page, arg, arg2] = hash.split('/');
   document.body.dataset.page = page || 'home';

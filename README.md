@@ -67,6 +67,14 @@ Sube el cambio. Después entra en la web, crea tu cuenta con el apodo que pusist
 - **El Major del Pick'em** cambia solo una semana después de que termine el anterior. Si quieres adelantarlo o retrasarlo, elígelo en **Admin → Ajustes → Major del Pick'em**.
 - En **Admin → Majors** ves qué se ha descargado y los avisos de cada Major, y puedes ponerle a cada uno el MVP y una nota.
 
+## Logos de los equipos
+
+- La misma acción descarga de Liquipedia el logo de cada equipo que aparece en los Majors. Guarda la versión para fondo oscuro si existe; si no, la normal sobre una chapa clara.
+- Los logos van a `img/teams/` y la lista a `data/teams.json`. Cada ejecución descarga como mucho 40 imágenes, así que la primera vez tardan un rato en estar todos.
+- Para saber el logo de cada equipo hace falta una consulta `parse` (Liquipedia pide no más de una cada 30 segundos), y solo se hace mientras falten logos.
+- Si un equipo no tiene logo, se ven sus iniciales, como antes.
+- Los logos son marcas de sus equipos. La web solo los muestra para identificarlos, como hace Liquipedia.
+
 ## Si Liquipedia no tiene algo
 
 Al principio Liquipedia solo tiene los equipos y cruces que ya se conocen, y las páginas de cada fase aparecen poco a poco. Mientras falte algo, puedes resolverlo desde el panel:
