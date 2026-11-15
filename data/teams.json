@@ -1,6 +1,10 @@
 {
  "source": "Liquipedia · los logos son marcas de sus equipos",
  "teams": {
+  "00 Nation": {
+   "tpl": "00 nation",
+   "logo": "img/teams/00-nation.png"
+  },
   "100 Thieves": {
    "tpl": "100t",
    "logo": "img/teams/100-thieves.png",
@@ -90,7 +94,8 @@
    "logo": "img/teams/bluejays.png"
   },
   "CR4ZY": {
-   "logo": "img/teams/cr4zy.png"
+   "logo": "img/teams/cr4zy.png",
+   "tpl": "cr4zy"
   },
   "Chinggis": {
    "logo": "img/teams/chinggis.png"
@@ -133,7 +138,8 @@
   },
   "DreamEaters": {
    "logo": "img/teams/dreameaters.png",
-   "dark": "img/teams/dreameaters-dark.png"
+   "dark": "img/teams/dreameaters-dark.png",
+   "tpl": "dreameaters"
   },
   "ENCE": {
    "tpl": "ence",
@@ -145,6 +151,10 @@
   },
   "Ef": {
    "logo": "img/teams/ef.png"
+  },
+  "Entropiq": {
+   "tpl": "entropiq",
+   "logo": "img/teams/entropiq.png"
   },
   "Eruption": {
    "tpl": "eruption",
@@ -206,6 +216,11 @@
    "logo": "img/teams/g2-esports.png",
    "dark": "img/teams/g2-esports-dark.png"
   },
+  "GODSENT": {
+   "tpl": "godsent",
+   "logo": "img/teams/godsent.png",
+   "dark": "img/teams/godsent-dark.png"
+  },
   "GOSH": {
    "tpl": "gosh",
    "logo": "img/teams/gosh.png"
@@ -219,7 +234,7 @@
    "logo": "img/teams/gambit-esports.png"
   },
   "GamerLegion": {
-   "tpl": "gl",
+   "tpl": "gamerlegion",
    "logo": "img/teams/gamerlegion.png"
   },
   "Germany": {
@@ -254,7 +269,8 @@
    "logo": "img/teams/heroic.png"
   },
   "HellRaisers": {
-   "logo": "img/teams/hellraisers.png"
+   "logo": "img/teams/hellraisers.png",
+   "tpl": "hr"
   },
   "Huns": {
    "tpl": "huns",
@@ -265,7 +281,8 @@
    "logo": "img/teams/ihc.png"
   },
   "INTZ": {
-   "logo": "img/teams/intz.png"
+   "logo": "img/teams/intz.png",
+   "tpl": "intz"
   },
   "Immortals": {
    "tpl": "imt",
@@ -293,7 +310,8 @@
   },
   "K23": {
    "logo": "img/teams/k23.png",
-   "dark": "img/teams/k23-dark.png"
+   "dark": "img/teams/k23-dark.png",
+   "tpl": "syman"
   },
   "KOI": {
    "tpl": "koi",
@@ -339,6 +357,10 @@
    "tpl": "monte",
    "logo": "img/teams/monte.png"
   },
+  "Movistar Riders": {
+   "tpl": "movistar",
+   "logo": "img/teams/movistar.png"
+  },
   "Myth Avenue Gaming": {
    "tpl": "myth avenue gaming",
    "logo": "img/teams/myth-avenue-gaming.png"
@@ -381,7 +403,8 @@
    "tpl": "thunderdownunder"
   },
   "Outsiders": {
-   "logo": "img/teams/outsiders.png"
+   "logo": "img/teams/outsiders.png",
+   "tpl": "outsiders"
   },
   "PARIVISION": {
    "logo": "img/teams/parivision.png",
@@ -410,7 +433,7 @@
    "logo": "img/teams/rare-atom.png"
   },
   "Renegades": {
-   "tpl": "renegades",
+   "tpl": "rng",
    "logo": "img/teams/renegades.png"
   },
   "Rooster": {
@@ -436,8 +459,12 @@
    "logo": "img/teams/semperfi.png"
   },
   "Sharks Esports": {
-   "tpl": "sharks",
+   "tpl": "sharks esports",
    "logo": "img/teams/sharks-esports.png"
+  },
+  "Sprout": {
+   "tpl": "sprout",
+   "logo": "img/teams/sprout.png"
   },
   "Stream Team": {
    "tpl": "stream team",
@@ -457,7 +484,7 @@
   },
   "Team Bardolph": {
    "tpl": "team bardolph",
-   "tries": 2
+   "tries": 3
   },
   "Team EnVyUs": {
    "logo": "img/teams/team-envyus.png",
@@ -503,7 +530,7 @@
   },
   "Team ddk": {
    "tpl": "team ddk",
-   "tries": 2
+   "tries": 3
   },
   "The MongolZ": {
    "tpl": "mongolz",
@@ -555,6 +582,7 @@
   "blast dream team": "BLAST Dream Team",
   "bne": "Bad News Eagles",
   "col": "Complexity",
+  "cph flames": "Copenhagen Flames",
   "cphf": "Copenhagen Flames",
   "cr4zy": "CR4ZY",
   "dreameaters": "DreamEaters",
@@ -571,9 +599,11 @@
   "itb": "Into The Breach",
   "l4o au": "LookingForOrg",
   "monte.ua": "Monte",
+  "movistar": "Movistar Riders",
   "oddik": "ODDIK",
   "penta": "PENTA Sports",
   "pvision": "PARIVISION",
+  "riders": "Movistar Riders",
   "rng": "Renegades",
   "sharks": "DENDELE CS",
   "sharks esports": "DENDELE CS",

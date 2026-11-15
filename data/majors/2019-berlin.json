@@ -31,7 +31,7 @@
     "TYLOO",
     "Vitality"
    ],
-   "matches": 0
+   "matches": 33
   },
   {
    "id": "s2",
@@ -56,7 +56,7 @@
     "Team Liquid",
     "Vitality"
    ],
-   "matches": 0
+   "matches": 33
   },
   {
    "id": "po",
@@ -77,6 +77,1836 @@
   }
  ],
  "matches": [
+  {
+   "id": "s1-QTRHXZVY7O-M1",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T11:10:00Z",
+   "t1": "Vitality",
+   "t2": "K23",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-QTRHXZVY7O-M2",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T11:20:00Z",
+   "t1": "NRG",
+   "t2": "DreamEaters",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 17,
+     "s2": 19,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-QTRHXZVY7O-M3",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T13:00:00Z",
+   "t1": "G2 Esports",
+   "t2": "TYLOO",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-QTRHXZVY7O-M4",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T13:30:00Z",
+   "t1": "North",
+   "t2": "INTZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-QTRHXZVY7O-M5",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T14:30:00Z",
+   "t1": "FURIA",
+   "t2": "HellRaisers",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-QTRHXZVY7O-M6",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T15:00:00Z",
+   "t1": "MOUZ",
+   "t2": "FORZE Esports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-QTRHXZVY7O-M7",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T15:50:00Z",
+   "t1": "AVANGAR",
+   "t2": "Complexity",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-QTRHXZVY7O-M8",
+   "stage": "s1",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T17:00:00Z",
+   "t1": "CR4ZY",
+   "t2": "Grayhound Gaming",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-RPOIRR9ZLS-M1",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T17:25:00Z",
+   "t1": "North",
+   "t2": "K23",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-9RB375ENBE-M1",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T18:35:00Z",
+   "t1": "NRG",
+   "t2": "TYLOO",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-RPOIRR9ZLS-M2",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T19:00:00Z",
+   "t1": "G2 Esports",
+   "t2": "DreamEaters",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-9RB375ENBE-M2",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T19:45:00Z",
+   "t1": "Vitality",
+   "t2": "INTZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-RPOIRR9ZLS-M3",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T20:20:00Z",
+   "t1": "MOUZ",
+   "t2": "AVANGAR",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 19,
+     "s2": 17,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-9RB375ENBE-M3",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T20:45:00Z",
+   "t1": "Complexity",
+   "t2": "HellRaisers",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 5,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-RPOIRR9ZLS-M4",
+   "stage": "s1",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T22:00:00Z",
+   "t1": "FURIA",
+   "t2": "CR4ZY",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-9RB375ENBE-M4",
+   "stage": "s1",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-23T22:10:00Z",
+   "t1": "Grayhound Gaming",
+   "t2": "FORZE Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-ENLO6HWC7B-M1",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-24T11:00:00Z",
+   "t1": "Vitality",
+   "t2": "DreamEaters",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-ENLO6HWC7B-M2",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-24T11:00:00Z",
+   "t1": "NRG",
+   "t2": "K23",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 4,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-ENLO6HWC7B-M4",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-24T12:15:00Z",
+   "t1": "AVANGAR",
+   "t2": "HellRaisers",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-ENLO6HWC7B-M3",
+   "stage": "s1",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-24T12:40:00Z",
+   "t1": "FURIA",
+   "t2": "FORZE Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-VOC142D3VG-M1",
+   "stage": "s1",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-24T13:45:00Z",
+   "t1": "G2 Esports",
+   "t2": "MOUZ",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Vertigo",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-JH0YBTTRDO-M1",
+   "stage": "s1",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-24T13:55:00Z",
+   "t1": "Complexity",
+   "t2": "TYLOO",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 22,
+     "s2": 20,
+     "winner": 1
+    },
+    {
+     "map": "Vertigo",
+     "s1": 16,
+     "s2": 2,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-JH0YBTTRDO-M2",
+   "stage": "s1",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-24T16:45:00Z",
+   "t1": "Grayhound Gaming",
+   "t2": "INTZ",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Nuke",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-VOC142D3VG-M2",
+   "stage": "s1",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-24T18:00:00Z",
+   "t1": "North",
+   "t2": "CR4ZY",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 28,
+     "s2": 26,
+     "winner": 1
+    },
+    {
+     "map": "Train",
+     "s1": 19,
+     "s2": 15,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-3CUWBJ3BHR-M1",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-25T10:00:00Z",
+   "t1": "FURIA",
+   "t2": "K23",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Overpass",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-R06BHK1FQ6-M1",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-25T10:00:00Z",
+   "t1": "G2 Esports",
+   "t2": "FORZE Esports",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 28,
+     "s2": 25,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1
+    },
+    {
+     "map": "Overpass",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-3CUWBJ3BHR-M2",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-25T13:15:00Z",
+   "t1": "Complexity",
+   "t2": "Grayhound Gaming",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Overpass",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-R06BHK1FQ6-M2",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-25T13:30:00Z",
+   "t1": "NRG",
+   "t2": "AVANGAR",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 4,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-3CUWBJ3BHR-M3",
+   "stage": "s1",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-25T16:30:00Z",
+   "t1": "Vitality",
+   "t2": "HellRaisers",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Overpass",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-R06BHK1FQ6-M3",
+   "stage": "s1",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-25T16:30:00Z",
+   "t1": "CR4ZY",
+   "t2": "DreamEaters",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-KMMKPPBCN7-M1",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-26T10:00:00Z",
+   "t1": "AVANGAR",
+   "t2": "K23",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-KMMKPPBCN7-M2",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-26T13:30:00Z",
+   "t1": "FORZE Esports",
+   "t2": "DreamEaters",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Mirage",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Train",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-KMMKPPBCN7-M3",
+   "stage": "s1",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-26T16:30:00Z",
+   "t1": "Vitality",
+   "t2": "Grayhound Gaming",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Overpass",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-HJJHQPUFM9-M1",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-28T10:00:00Z",
+   "t1": "ENCE",
+   "t2": "AVANGAR",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-HJJHQPUFM9-M2",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-28T11:15:00Z",
+   "t1": "Astralis",
+   "t2": "DreamEaters",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-HJJHQPUFM9-M3",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-28T12:30:00Z",
+   "t1": "NRG",
+   "t2": "Renegades",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-HJJHQPUFM9-M4",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-28T13:55:00Z",
+   "t1": "Team Liquid",
+   "t2": "CR4ZY",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-HJJHQPUFM9-M5",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-28T15:20:00Z",
+   "t1": "Vitality",
+   "t2": "North",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-HJJHQPUFM9-M6",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-28T16:35:00Z",
+   "t1": "FaZe Clan",
+   "t2": "MOUZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-HJJHQPUFM9-M7",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-28T18:00:00Z",
+   "t1": "Natus Vincere",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 17,
+     "s2": 19,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-HJJHQPUFM9-M8",
+   "stage": "s2",
+   "round": "Round 1",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-28T19:55:00Z",
+   "t1": "MIBR",
+   "t2": "Ninjas in Pyjamas",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-D66DAL49SH-M1",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-29T10:00:00Z",
+   "t1": "Renegades",
+   "t2": "AVANGAR",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-D66DAL49SH-M2",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-29T11:30:00Z",
+   "t1": "Natus Vincere",
+   "t2": "DreamEaters",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-D66DAL49SH-M3",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-29T12:40:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "CR4ZY",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 10,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-D66DAL49SH-M4",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-29T14:00:00Z",
+   "t1": "North",
+   "t2": "MOUZ",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-QP7H3UAZSY-M1",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-29T15:35:00Z",
+   "t1": "Team Liquid",
+   "t2": "NRG",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-QP7H3UAZSY-M2",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-29T16:45:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Vitality",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 7,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-QP7H3UAZSY-M3",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-29T17:55:00Z",
+   "t1": "ENCE",
+   "t2": "MIBR",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-QP7H3UAZSY-M4",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-29T19:10:00Z",
+   "t1": "Astralis",
+   "t2": "G2 Esports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-XH2AJ1DG3P-M1",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-30T11:05:00Z",
+   "t1": "Natus Vincere",
+   "t2": "MOUZ",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 17,
+     "s2": 19,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-XH2AJ1DG3P-M2",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-30T11:05:00Z",
+   "t1": "Team Liquid",
+   "t2": "AVANGAR",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 18,
+     "s2": 22,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-XH2AJ1DG3P-M3",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-30T12:40:00Z",
+   "t1": "MIBR",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-XH2AJ1DG3P-M4",
+   "stage": "s2",
+   "round": "Round 3 Mid",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2019-08-30T13:25:00Z",
+   "t1": "FaZe Clan",
+   "t2": "CR4ZY",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-X22TFJ1698-M1",
+   "stage": "s2",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-30T13:55:00Z",
+   "t1": "ENCE",
+   "t2": "Vitality",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s2-OV7J41CVNP-M1",
+   "stage": "s2",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-30T14:55:00Z",
+   "t1": "Renegades",
+   "t2": "DreamEaters",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 8,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s2-X22TFJ1698-M2",
+   "stage": "s2",
+   "round": "Round 3 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-30T16:45:00Z",
+   "t1": "Astralis",
+   "t2": "NRG",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 28,
+     "s2": 31,
+     "winner": 2
+    },
+    {
+     "map": "Nuke",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Overpass",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s2-OV7J41CVNP-M2",
+   "stage": "s2",
+   "round": "Round 3 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-30T17:30:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "North",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Dust II",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Nuke",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s2-XCOS4V47FO-M1",
+   "stage": "s2",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-31T10:00:00Z",
+   "t1": "G2 Esports",
+   "t2": "AVANGAR",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Overpass",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-8KRHUW8M8A-M1",
+   "stage": "s2",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-31T10:10:00Z",
+   "t1": "MIBR",
+   "t2": "Natus Vincere",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 4,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Train",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s2-8KRHUW8M8A-M2",
+   "stage": "s2",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-31T13:25:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Renegades",
+   "s1": 1,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 19,
+     "s2": 22,
+     "winner": 2
+    },
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1
+    },
+    {
+     "map": "Vertigo",
+     "s1": 14,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s2-XCOS4V47FO-M2",
+   "stage": "s2",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-31T14:00:00Z",
+   "t1": "Vitality",
+   "t2": "MOUZ",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s2-XCOS4V47FO-M3",
+   "stage": "s2",
+   "round": "Round 4 High",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-31T16:30:00Z",
+   "t1": "Astralis",
+   "t2": "CR4ZY",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 29,
+     "s2": 31,
+     "winner": 2
+    },
+    {
+     "map": "Vertigo",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-8KRHUW8M8A-M3",
+   "stage": "s2",
+   "round": "Round 4 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-08-31T17:50:00Z",
+   "t1": "Team Liquid",
+   "t2": "North",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1
+    },
+    {
+     "map": "Overpass",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s2-G13YDO0R9P-M1",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-09-01T10:00:00Z",
+   "t1": "Renegades",
+   "t2": "G2 Esports",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Vertigo",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s2-G13YDO0R9P-M2",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-09-01T14:00:00Z",
+   "t1": "Team Liquid",
+   "t2": "MOUZ",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 19,
+     "s2": 17,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 22,
+     "s2": 20,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s2-G13YDO0R9P-M3",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2019-09-01T17:25:00Z",
+   "t1": "Natus Vincere",
+   "t2": "CR4ZY",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 12,
+     "winner": 1
+    },
+    {
+     "map": "Nuke",
+     "s1": 16,
+     "s2": 4,
+     "winner": 1
+    }
+   ]
+  },
   {
    "id": "po-4WW368LJ55Quarterfinals-R1M1",
    "stage": "po",
@@ -323,6 +2153,6 @@
    ]
   }
  ],
- "checked": "2026-11-15T02:10:31Z",
+ "checked": "2026-11-15T10:01:09Z",
  "errors": []
 }

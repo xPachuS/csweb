@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T09:52:20Z",
- "calls": 23,
+ "checked": "2026-11-15T10:01:09Z",
+ "calls": 25,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -404,10 +404,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T02:10:31Z",
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "checked": "2026-11-15T10:01:09Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2021-stockholm",
@@ -431,10 +430,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T02:01:52Z",
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "checked": "2026-11-15T10:01:09Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2022-antwerp",
@@ -458,10 +456,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T02:10:31Z",
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "checked": "2026-11-15T10:01:09Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2022-rio",
@@ -481,14 +478,13 @@
    "prize": 1250000,
    "venue": "",
    "teams": 24,
-   "page": "BLAST/Major/2023/Paris",
+   "page": "Intel_Extreme_Masters/2022/Rio",
    "pickem": false,
    "loaded": true,
-   "frozen": false,
-   "checked": "2026-11-15T08:54:58Z",
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "frozen": true,
+   "checked": "2026-11-15T10:01:09Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2023-paris",
@@ -512,7 +508,7 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T09:52:20Z",
+   "checked": "2026-11-15T10:01:09Z",
    "parser": 3,
    "tries": 0
   },
@@ -538,7 +534,7 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T09:52:20Z",
+   "checked": "2026-11-15T10:01:09Z",
    "parser": 3,
    "tries": 0
   },
@@ -565,8 +561,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T09:52:20Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2025-austin",
@@ -591,8 +588,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T09:52:20Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2025-budapest",
@@ -617,8 +615,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T09:52:20Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2026-cologne",
@@ -643,8 +642,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T09:52:20Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2026-singapore",
@@ -668,7 +668,7 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T09:52:20Z",
+   "checked": "2026-11-15T10:01:09Z",
    "parser": 3,
    "tries": 0
   },
