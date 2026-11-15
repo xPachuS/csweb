@@ -1,0 +1,836 @@
+{
+ "event": {
+  "id": "2016-columbus",
+  "name": "MLG Major Championship: Columbus 2016",
+  "page": "MLG/2016/Columbus",
+  "city": "Columbus",
+  "country": "US"
+ },
+ "source": "Liquipedia (CC-BY-SA 3.0)",
+ "stages": [
+  {
+   "id": "s1",
+   "name": "Fase de grupos",
+   "page": "MLG/2016/Columbus",
+   "type": "groups",
+   "teams": [
+    "All-Stars Europe",
+    "All-Stars North America",
+    "Astralis",
+    "Cloud9",
+    "Counter Logic Gaming",
+    "FaZe Clan",
+    "FlipSid3 Tactics",
+    "Fnc",
+    "G2 Esports",
+    "Gambit Esports",
+    "Luminosity Gaming",
+    "MOUZ",
+    "Natus Vincere",
+    "Ninjas in Pyjamas",
+    "Splyce",
+    "Team EnVyUs",
+    "Team Liquid",
+    "Virtus.pro"
+   ],
+   "matches": 21
+  },
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "MLG/2016/Columbus",
+   "type": "bracket",
+   "teams": [
+    "Astralis",
+    "Counter Logic Gaming",
+    "Fnc",
+    "Luminosity Gaming",
+    "Natus Vincere",
+    "Ninjas in Pyjamas",
+    "Team Liquid",
+    "Virtus.pro"
+   ],
+   "matches": 7
+  }
+ ],
+ "matches": [
+  {
+   "id": "s1-WPRACQZW6J-M1",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-29T14:25:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "FlipSid3 Tactics",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 19,
+     "s2": 17,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-WPRACQZW6J-M2",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-29T16:20:00Z",
+   "t1": "Luminosity Gaming",
+   "t2": "MOUZ",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-RTZAHLG805-M1",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-29T17:50:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Team Liquid",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 11,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-RTZAHLG805-M2",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-29T19:15:00Z",
+   "t1": "Fnc",
+   "t2": "Splyce",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-Y6TPEXUVXN-M1",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-29T20:30:00Z",
+   "t1": "Team EnVyUs",
+   "t2": "Counter Logic Gaming",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 8,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-Y6TPEXUVXN-M2",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-29T21:45:00Z",
+   "t1": "Astralis",
+   "t2": "Gambit Esports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-FE9ZH3H4DQ-M1",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-29T23:15:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Cloud9",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-FE9ZH3H4DQ-M2",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-30T00:30:00Z",
+   "t1": "Virtus.pro",
+   "t2": "G2 Esports",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 1,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-WPRACQZW6J-M3",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-30T14:00:00Z",
+   "t1": "FlipSid3 Tactics",
+   "t2": "MOUZ",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 28,
+     "s2": 31,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-RTZAHLG805-M3",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-30T17:15:00Z",
+   "t1": "FaZe Clan",
+   "t2": "Splyce",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 3,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-Y6TPEXUVXN-M3",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-30T18:20:00Z",
+   "t1": "Team EnVyUs",
+   "t2": "Gambit Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-FE9ZH3H4DQ-M3",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-30T19:40:00Z",
+   "t1": "Cloud9",
+   "t2": "G2 Esports",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 3,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-WPRACQZW6J-M4",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-30T20:30:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "Luminosity Gaming",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 5,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-RTZAHLG805-M4",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-30T21:30:00Z",
+   "t1": "Team Liquid",
+   "t2": "Fnc",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Dust II",
+     "s1": 22,
+     "s2": 19,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-Y6TPEXUVXN-M4",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-30T23:25:00Z",
+   "t1": "Counter Logic Gaming",
+   "t2": "Astralis",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2
+    }
+   ]
+  },
+  {
+   "id": "s1-FE9ZH3H4DQ-M4",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-03-31T00:45:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Virtus.pro",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 4,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-WPRACQZW6J-M5",
+   "stage": "s1",
+   "round": "Group A",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2016-03-31T14:00:00Z",
+   "t1": "Ninjas in Pyjamas",
+   "t2": "MOUZ",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Cache",
+     "s1": 12,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-RTZAHLG805-M5",
+   "stage": "s1",
+   "round": "Group B",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2016-03-31T17:40:00Z",
+   "t1": "Fnc",
+   "t2": "FaZe Clan",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1
+    },
+    {
+     "map": "Cache",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-Y6TPEXUVXN-M5",
+   "stage": "s1",
+   "round": "Group C",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2016-03-31T20:00:00Z",
+   "t1": "Counter Logic Gaming",
+   "t2": "Gambit Esports",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 13,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "s1-FE9ZH3H4DQ-M5",
+   "stage": "s1",
+   "round": "Group D",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2016-04-01T00:00:00Z",
+   "t1": "Virtus.pro",
+   "t2": "G2 Esports",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Train",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    },
+    {
+     "map": "Inferno",
+     "s1": 9,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 7,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "po-YO4AEXUT36Quarterfinals-R1M1",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M1",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2016-04-01T14:00:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Ninjas in Pyjamas",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 9,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Overpass",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-YO4AEXUT36Quarterfinals-R1M2",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M2",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2016-04-01T17:30:00Z",
+   "t1": "Astralis",
+   "t2": "Fnc",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-YO4AEXUT36Quarterfinals-R1M3",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M3",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2016-04-01T20:20:00Z",
+   "t1": "Team Liquid",
+   "t2": "Counter Logic Gaming",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 13,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": 16,
+     "s2": 6,
+     "winner": 1
+    },
+    {
+     "map": "Train",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-YO4AEXUT36Quarterfinals-R1M4",
+   "stage": "po",
+   "round": "Cuartos de final",
+   "slot": "R1M4",
+   "kind": "qf",
+   "bo": 3,
+   "date": "2016-04-02T14:30:00Z",
+   "t1": "Luminosity Gaming",
+   "t2": "Virtus.pro",
+   "s1": 2,
+   "s2": 1,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 17,
+     "s2": 19,
+     "winner": 2
+    },
+    {
+     "map": "Cobblestone",
+     "s1": 16,
+     "s2": 10,
+     "winner": 1
+    },
+    {
+     "map": "Overpass",
+     "s1": 16,
+     "s2": 11,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "po-YO4AEXUT36Quarterfinals-R2M1",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M1",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2016-04-02T19:15:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Astralis",
+   "s1": 2,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 16,
+     "s2": 14,
+     "winner": 1
+    },
+    {
+     "map": "Dust II",
+     "s1": 16,
+     "s2": 5,
+     "winner": 1
+    },
+    {
+     "map": "Mirage",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "po-YO4AEXUT36Quarterfinals-R2M2",
+   "stage": "po",
+   "round": "Semifinales",
+   "slot": "R2M2",
+   "kind": "sf",
+   "bo": 3,
+   "date": "2016-04-02T22:15:00Z",
+   "t1": "Team Liquid",
+   "t2": "Luminosity Gaming",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 15,
+     "s2": 19,
+     "winner": 2
+    },
+    {
+     "map": "Cache",
+     "s1": 16,
+     "s2": 19,
+     "winner": 2
+    },
+    {
+     "map": "Cobblestone",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  },
+  {
+   "id": "s1-867C6G9AJR-M1",
+   "stage": "s1",
+   "round": "Grupo E",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2016-04-03T16:00:00Z",
+   "t1": "All-Stars North America",
+   "t2": "All-Stars Europe",
+   "s1": 1,
+   "s2": 0,
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 22,
+     "s2": 19,
+     "winner": 1
+    }
+   ]
+  },
+  {
+   "id": "po-YO4AEXUT36Quarterfinals-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 3,
+   "date": "2016-04-03T18:15:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Luminosity Gaming",
+   "s1": 0,
+   "s2": 2,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 17,
+     "s2": 19,
+     "winner": 2
+    },
+    {
+     "map": "Overpass",
+     "s1": 2,
+     "s2": 16,
+     "winner": 2
+    },
+    {
+     "map": "Train",
+     "s1": null,
+     "s2": null,
+     "winner": 0
+    }
+   ]
+  }
+ ],
+ "checked": "2026-11-15T10:08:46Z",
+ "errors": []
+}

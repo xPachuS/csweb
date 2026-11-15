@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T10:01:09Z",
- "calls": 25,
+ "checked": "2026-11-15T10:08:46Z",
+ "calls": 20,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -208,17 +208,16 @@
    "runnerup": "Natus Vincere",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 1000000,
+   "venue": "[https://www.nationwidearena.com/ Nationwide Arena]",
+   "teams": 16,
+   "page": "MLG/2016/Columbus",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:08:46Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2016-cologne",
@@ -235,17 +234,16 @@
    "runnerup": "Team Liquid",
    "final": "2-0",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 1000000,
+   "venue": "[http://www.lanxess-arena.de/ Lanxess-Arena]",
+   "teams": 16,
+   "page": "ESL/One/2016/Cologne",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:08:46Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2017-atlanta",
@@ -262,17 +260,16 @@
    "runnerup": "Virtus.pro",
    "final": "2-1",
    "mvp": "",
-   "prize": null,
-   "venue": "",
-   "teams": null,
-   "page": "",
+   "prize": 1000000,
+   "venue": "[http://www.eleague.com/news/state-of-the-art-tournament-facility G-FUEL ELEAGUE Arena]",
+   "teams": 16,
+   "page": "ELEAGUE/2017/Major",
    "pickem": false,
-   "loaded": false,
-   "frozen": false,
-   "checked": null,
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "loaded": true,
+   "frozen": true,
+   "checked": "2026-11-15T10:08:46Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2017-krakow",
@@ -296,10 +293,9 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T08:54:58Z",
-   "error": "",
-   "tries": 0,
-   "parser": null
+   "checked": "2026-11-15T10:08:46Z",
+   "parser": 3,
+   "tries": 0
   },
   {
    "id": "2018-boston",
@@ -405,8 +401,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:01:09Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2021-stockholm",
@@ -431,8 +428,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:01:09Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2022-antwerp",
@@ -457,8 +455,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:01:09Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2022-rio",
@@ -483,8 +482,9 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:01:09Z",
-   "parser": 3,
-   "tries": 0
+   "error": "",
+   "tries": 0,
+   "parser": 3
   },
   {
    "id": "2023-paris",
@@ -508,7 +508,7 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T10:01:09Z",
+   "checked": "2026-11-15T10:08:46Z",
    "parser": 3,
    "tries": 0
   },
@@ -534,7 +534,7 @@
    "pickem": false,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T10:01:09Z",
+   "checked": "2026-11-15T10:08:46Z",
    "parser": 3,
    "tries": 0
   },
@@ -668,7 +668,7 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T10:01:09Z",
+   "checked": "2026-11-15T10:08:46Z",
    "parser": 3,
    "tries": 0
   },

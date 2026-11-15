@@ -36,6 +36,14 @@
    "logo": "img/teams/avangar.png",
    "tpl": "avangar"
   },
+  "All-Stars Europe": {
+   "tpl": "all-stars europe",
+   "logo": "img/teams/all-stars-europe.png"
+  },
+  "All-Stars North America": {
+   "tpl": "all-stars north america",
+   "logo": "img/teams/all-stars-north-america.png"
+  },
   "Alter Ego": {
    "tpl": "alter ego",
    "logo": "img/teams/alter-ego.png"
@@ -75,6 +83,10 @@
   "BLAST Dream Team": {
    "tpl": "blast dream team",
    "logo": "img/teams/blast-dream-team.png"
+  },
+  "BOT Bardolph": {
+   "tpl": "bot bardolph",
+   "tries": 1
   },
   "Bad News Eagles": {
    "tpl": "bne",
@@ -117,6 +129,10 @@
    "logo": "img/teams/cphf.png",
    "dark": "img/teams/cphf-dark.png"
   },
+  "Counter Logic Gaming": {
+   "tpl": "clg",
+   "logo": "img/teams/counter-logic-gaming.png"
+  },
   "DENDELE CS": {
    "tpl": "dendele",
    "logo": "img/teams/sharks.png"
@@ -131,6 +147,10 @@
   },
   "Dendele": {
    "logo": "img/teams/dendele.png"
+  },
+  "Dignitas": {
+   "tpl": "dig",
+   "logo": "img/teams/dig.png"
   },
   "Dogevil": {
    "tpl": "dogevil",
@@ -326,6 +346,7 @@
    "logo": "img/teams/l4o-au.png"
   },
   "Luminosity Gaming": {
+   "tpl": "lg",
    "logo": "img/teams/luminosity-gaming.png"
   },
   "Lynn Vision": {
@@ -402,6 +423,11 @@
    "dark": "img/teams/off-chops-dark.png",
    "tpl": "thunderdownunder"
   },
+  "OpTic Gaming": {
+   "tpl": "optic",
+   "logo": "img/teams/optic-gaming.png",
+   "dark": "img/teams/optic-gaming-dark.png"
+  },
   "Outsiders": {
    "logo": "img/teams/outsiders.png",
    "tpl": "outsiders"
@@ -462,6 +488,10 @@
    "tpl": "sharks esports",
    "logo": "img/teams/sharks-esports.png"
   },
+  "Splyce": {
+   "tpl": "splyce",
+   "logo": "img/teams/splyce.png"
+  },
   "Sprout": {
    "tpl": "sprout",
    "logo": "img/teams/sprout.png"
@@ -486,9 +516,14 @@
    "tpl": "team bardolph",
    "tries": 3
   },
+  "Team Dignitas": {
+   "tpl": "dignitas",
+   "logo": "img/teams/team-dignitas.png"
+  },
   "Team EnVyUs": {
    "logo": "img/teams/team-envyus.png",
-   "dark": "img/teams/team-envyus-dark.png"
+   "dark": "img/teams/team-envyus-dark.png",
+   "tpl": "nv"
   },
   "Team Falcons": {
    "tpl": "falcons",
@@ -531,6 +566,10 @@
   "Team ddk": {
    "tpl": "team ddk",
    "tries": 3
+  },
+  "Team juliano": {
+   "tpl": "team juliano",
+   "tries": 1
   },
   "The MongolZ": {
    "tpl": "mongolz",
@@ -581,15 +620,18 @@
   "9ine": "9INE",
   "blast dream team": "BLAST Dream Team",
   "bne": "Bad News Eagles",
+  "bot bardolph": "BOT Bardolph",
   "col": "Complexity",
   "cph flames": "Copenhagen Flames",
   "cphf": "Copenhagen Flames",
   "cr4zy": "CR4ZY",
+  "dig": "Dignitas",
   "dreameaters": "DreamEaters",
   "drillas": "DRILLAS",
   "ex-talon": "ex-TALON",
   "f3": "FlipSid3 Tactics",
   "forze": "FORZE Esports",
+  "g2e": "G2 Esports",
   "ghg": "Grayhound Gaming",
   "hr": "HellRaisers",
   "ig int": "Invictus Gaming International",
@@ -598,6 +640,7 @@
   "intz": "INTZ",
   "itb": "Into The Breach",
   "l4o au": "LookingForOrg",
+  "lg": "Luminosity Gaming",
   "monte.ua": "Monte",
   "movistar": "Movistar Riders",
   "oddik": "ODDIK",
@@ -615,6 +658,7 @@
   "team france blast": "Team France",
   "team goat": "Team GOAT",
   "team hai": "Team HAI",
+  "team juliano": "Team juliano",
   "team vaco": "Team VACO",
   "thunderdownunder": "Off Chops",
   "vega": "Vega Squadron",
