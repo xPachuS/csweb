@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-15T10:54:35Z",
- "calls": 15,
+ "checked": "2026-11-15T11:02:33Z",
+ "calls": 21,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -15,7 +15,7 @@
    "year": 2013,
    "game": "CS:GO",
    "status": "done",
-   "champion": "Fnc",
+   "champion": "Fnatic",
    "runnerup": "Ninjas in Pyjamas",
    "final": "2-1",
    "mvp": "",
@@ -74,7 +74,7 @@
    "game": "CS:GO",
    "status": "done",
    "champion": "Ninjas in Pyjamas",
-   "runnerup": "Fnc",
+   "runnerup": "Fnatic",
    "final": "2-1",
    "mvp": "",
    "prize": 250000,
@@ -131,7 +131,7 @@
    "year": 2015,
    "game": "CS:GO",
    "status": "done",
-   "champion": "Fnc",
+   "champion": "Fnatic",
    "runnerup": "Ninjas in Pyjamas",
    "final": "2-1",
    "mvp": "",
@@ -346,10 +346,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:54:35Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 4,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2018-london",
@@ -374,10 +375,11 @@
    "loaded": true,
    "frozen": true,
    "checked": "2026-11-15T10:54:35Z",
-   "empty": [],
-   "tries_empty": 0,
+   "error": "",
+   "tries": 0,
    "parser": 4,
-   "tries": 0
+   "empty": [],
+   "tries_empty": 0
   },
   {
    "id": "2019-katowice",
@@ -546,10 +548,10 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:54:35Z",
+   "checked": "2026-11-15T11:02:33Z",
    "empty": [],
    "tries_empty": 0,
-   "parser": 4,
+   "parser": 5,
    "tries": 0
   },
   {
@@ -574,10 +576,10 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:54:35Z",
+   "checked": "2026-11-15T11:02:33Z",
    "empty": [],
    "tries_empty": 0,
-   "parser": 4,
+   "parser": 5,
    "tries": 0
   },
   {
@@ -602,12 +604,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:23:13Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:02:33Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2025-austin",
@@ -631,12 +632,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:23:13Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:02:33Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2025-budapest",
@@ -660,12 +660,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:23:13Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:02:33Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2026-cologne",
@@ -689,12 +688,11 @@
    "pickem": false,
    "loaded": true,
    "frozen": true,
-   "checked": "2026-11-15T10:23:13Z",
-   "error": "",
-   "tries": 0,
-   "parser": 4,
+   "checked": "2026-11-15T11:02:33Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2026-singapore",
@@ -718,10 +716,10 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-15T10:54:35Z",
+   "checked": "2026-11-15T11:02:33Z",
    "empty": [],
    "tries_empty": 0,
-   "parser": 4,
+   "parser": 5,
    "tries": 0
   },
   {

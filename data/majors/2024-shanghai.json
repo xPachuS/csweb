@@ -20,7 +20,6 @@
     "FURIA",
     "FlyQuest",
     "Fnatic",
-    "Fnc",
     "GamerLegion",
     "Imperial",
     "MIBR",
@@ -342,7 +341,7 @@
    "kind": "",
    "bo": 1,
    "date": "2024-11-30T08:50:00Z",
-   "t1": "Fnc",
+   "t1": "Fnatic",
    "t2": "Cloud9",
    "s1": 0,
    "s2": 1,
@@ -791,7 +790,7 @@
    "bo": 3,
    "date": "2024-12-01T05:25:00Z",
    "t1": "Rare Atom",
-   "t2": "Fnc",
+   "t2": "Fnatic",
    "s1": 2,
    "s2": 1,
    "winner": 1,
@@ -884,12 +883,6 @@
      ],
      "first": "t",
      "hltv": 188924
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377686
@@ -936,12 +929,6 @@
      ],
      "first": "ct",
      "hltv": 188927
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377685
@@ -1112,12 +1099,6 @@
      ],
      "first": "t",
      "hltv": 188970
-    },
-    {
-     "map": "Anubis",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377689
@@ -1168,12 +1149,6 @@
      ],
      "first": "t",
      "hltv": 188969
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377690
@@ -1400,12 +1375,6 @@
      ],
      "first": "t",
      "hltv": 189026
-    },
-    {
-     "map": "Anubis",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377694
@@ -2224,12 +2193,6 @@
      ],
      "first": "ct",
      "hltv": 189188
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377717
@@ -2400,12 +2363,6 @@
      ],
      "first": "t",
      "hltv": 189258
-    },
-    {
-     "map": "Dust II",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377721
@@ -2452,12 +2409,6 @@
      ],
      "first": "t",
      "hltv": 189265
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377720
@@ -2564,12 +2515,6 @@
      ],
      "first": "ct",
      "hltv": 189269
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377723
@@ -2740,12 +2685,6 @@
      ],
      "first": "t",
      "hltv": 189352
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377726
@@ -2871,7 +2810,7 @@
    "hltv": 2377728
   },
   {
-   "id": "po-RSTxQ88PoQQuarterfinals-R1M1",
+   "id": "po-RSTxQ88PoQ-R1M1",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M1",
@@ -2916,18 +2855,12 @@
      ],
      "first": "ct",
      "hltv": 189514
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377729
   },
   {
-   "id": "po-RSTxQ88PoQQuarterfinals-R1M2",
+   "id": "po-RSTxQ88PoQ-R1M2",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M2",
@@ -2968,18 +2901,12 @@
      ],
      "first": "ct",
      "hltv": 189521
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377730
   },
   {
-   "id": "po-RSTxQ88PoQQuarterfinals-R1M3",
+   "id": "po-RSTxQ88PoQ-R1M3",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M3",
@@ -3043,7 +2970,7 @@
    "hltv": 2377731
   },
   {
-   "id": "po-RSTxQ88PoQQuarterfinals-R1M4",
+   "id": "po-RSTxQ88PoQ-R1M4",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M4",
@@ -3103,7 +3030,7 @@
    "hltv": 2377732
   },
   {
-   "id": "po-RSTxQ88PoQQuarterfinals-R2M1",
+   "id": "po-RSTxQ88PoQ-R2M1",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M1",
@@ -3163,7 +3090,7 @@
    "hltv": 2377733
   },
   {
-   "id": "po-RSTxQ88PoQQuarterfinals-R2M2",
+   "id": "po-RSTxQ88PoQ-R2M2",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M2",
@@ -3208,18 +3135,12 @@
      ],
      "first": "t",
      "hltv": 189628
-    },
-    {
-     "map": "Anubis",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2377734
   },
   {
-   "id": "po-RSTxQ88PoQQuarterfinals-R3M1",
+   "id": "po-RSTxQ88PoQ-R3M1",
    "stage": "po",
    "round": "Gran final",
    "slot": "R3M1",
@@ -4001,6 +3922,6 @@
    ]
   }
  },
- "checked": "2026-11-15T10:23:13Z",
+ "checked": "2026-11-15T11:02:33Z",
  "errors": []
 }

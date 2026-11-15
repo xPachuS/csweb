@@ -4542,6 +4542,21 @@
   "Fnatic": {
    "majors": [
     {
+     "id": "2013-jonkoping",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 5,
+     "l": 0,
+     "roster": [
+      "JW",
+      "flusha",
+      "schneider",
+      "Devilwalk",
+      "pronax"
+     ],
+     "coach": "cArn"
+    },
+    {
      "id": "2014-katowice",
      "rank": 5,
      "place": "Cuartos de final",
@@ -4558,10 +4573,10 @@
     },
     {
      "id": "2014-cologne",
-     "rank": 20,
-     "place": "Fase de grupos",
-     "w": 2,
-     "l": 0,
+     "rank": 2,
+     "place": "Subcampeón",
+     "w": 4,
+     "l": 1,
      "roster": [
       "JW",
       "flusha",
@@ -4572,10 +4587,40 @@
      "coach": "Devilwalk"
     },
     {
+     "id": "2014-jonkoping",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "JW",
+      "flusha",
+      "pronax",
+      "olofmeister",
+      "KRIMZ"
+     ],
+     "coach": "Devilwalk"
+    },
+    {
+     "id": "2015-katowice",
+     "rank": 1,
+     "place": "Campeón",
+     "w": 5,
+     "l": 0,
+     "roster": [
+      "flusha",
+      "JW",
+      "pronax",
+      "olofmeister",
+      "KRIMZ"
+     ],
+     "coach": "Devilwalk"
+    },
+    {
      "id": "2015-cologne",
      "rank": 1,
      "place": "Campeón",
-     "w": 2,
+     "w": 5,
      "l": 0,
      "roster": [
       "JW",
@@ -4587,11 +4632,41 @@
      "coach": "vuggo"
     },
     {
+     "id": "2015-cluj",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "JW",
+      "flusha",
+      "pronax",
+      "olofmeister",
+      "KRIMZ"
+     ],
+     "coach": "vuggo"
+    },
+    {
+     "id": "2016-columbus",
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 2,
+     "l": 2,
+     "roster": [
+      "flusha",
+      "JW",
+      "olofmeister",
+      "KRIMZ",
+      "dennis"
+     ],
+     "coach": "vuggo"
+    },
+    {
      "id": "2016-cologne",
      "rank": 3,
      "place": "Semifinales",
-     "w": 0,
-     "l": 1,
+     "w": 3,
+     "l": 2,
      "roster": [
       "JW",
       "flusha",
@@ -4620,8 +4695,8 @@
      "id": "2017-krakow",
      "rank": 5,
      "place": "Cuartos de final",
-     "w": 0,
-     "l": 1,
+     "w": 3,
+     "l": 3,
      "roster": [
       "olofmeister",
       "dennis",
@@ -4633,10 +4708,10 @@
     },
     {
      "id": "2018-boston",
-     "rank": 17,
-     "place": "Legends Stage",
-     "w": 2,
-     "l": 2,
+     "rank": 5,
+     "place": "Cuartos de final",
+     "w": 6,
+     "l": 6,
      "roster": [
       "KRIMZ",
       "JW",
@@ -4647,10 +4722,40 @@
      "coach": "Jumpy"
     },
     {
+     "id": "2018-london",
+     "rank": 19,
+     "place": "Legends Stage",
+     "w": 2,
+     "l": 3,
+     "roster": [
+      "KRIMZ",
+      "JW",
+      "flusha",
+      "Xizt",
+      "draken"
+     ],
+     "coach": "Jumpy"
+    },
+    {
+     "id": "2019-katowice",
+     "rank": 20,
+     "place": "Challengers Stage",
+     "w": 1,
+     "l": 3,
+     "roster": [
+      "KRIMZ",
+      "JW",
+      "Xizt",
+      "twist",
+      "Brollan"
+     ],
+     "coach": "Jumpy"
+    },
+    {
      "id": "2022-rio",
      "rank": 5,
      "place": "Cuartos de final",
-     "w": 3,
+     "w": 6,
      "l": 4,
      "roster": [
       "KRIMZ",
@@ -4665,8 +4770,8 @@
      "id": "2023-paris",
      "rank": 19,
      "place": "Legends Stage",
-     "w": 1,
-     "l": 2,
+     "w": 2,
+     "l": 3,
      "roster": [
       "KRIMZ",
       "mezii",
@@ -4681,7 +4786,7 @@
      "rank": 20,
      "place": "Opening Stage",
      "w": 0,
-     "l": 1,
+     "l": 3,
      "roster": [
       "KRIMZ",
       "afro",
@@ -4690,248 +4795,85 @@
       "blameF"
      ],
      "coach": "keita"
-    }
-   ],
-   "maps": {
-    "Inferno": [
-     4,
-     5,
-     0
-    ],
-    "Mirage": [
-     5,
-     5,
-     0
-    ],
-    "Train": [
-     0,
-     2,
-     0
-    ],
-    "Cobblestone": [
-     4,
-     1,
-     0
-    ],
-    "Overpass": [
-     1,
-     3,
-     0
-    ],
-    "Dust II": [
-     3,
-     0,
-     0
-    ],
-    "Cache": [
-     1,
-     3,
-     0
-    ],
-    "Nuke": [
-     3,
-     1,
-     0
-    ],
-    "Vertigo": [
-     0,
-     2,
-     0
-    ],
-    "Ancient": [
-     0,
-     1,
-     0
-    ]
-   },
-   "rt": [
-    273,
-    318
-   ],
-   "rct": [
-    288,
-    239
-   ],
-   "titles": 1,
-   "finals": 1
-  },
-  "Fnc": {
-   "majors": [
-    {
-     "id": "2013-jonkoping",
-     "rank": 1,
-     "place": "Campeón",
-     "w": 5,
-     "l": 0
-    },
-    {
-     "id": "2014-cologne",
-     "rank": 2,
-     "place": "Subcampeón",
-     "w": 2,
-     "l": 1
-    },
-    {
-     "id": "2014-jonkoping",
-     "rank": 5,
-     "place": "Cuartos de final",
-     "w": 2,
-     "l": 2
-    },
-    {
-     "id": "2015-katowice",
-     "rank": 1,
-     "place": "Campeón",
-     "w": 5,
-     "l": 0
-    },
-    {
-     "id": "2015-cologne",
-     "rank": 3,
-     "place": "Semifinales",
-     "w": 3,
-     "l": 0
-    },
-    {
-     "id": "2015-cluj",
-     "rank": 5,
-     "place": "Cuartos de final",
-     "w": 2,
-     "l": 2
-    },
-    {
-     "id": "2016-columbus",
-     "rank": 5,
-     "place": "Cuartos de final",
-     "w": 2,
-     "l": 2
-    },
-    {
-     "id": "2016-cologne",
-     "rank": 5,
-     "place": "Cuartos de final",
-     "w": 3,
-     "l": 1
-    },
-    {
-     "id": "2017-krakow",
-     "rank": 20,
-     "place": "Fase suiza",
-     "w": 3,
-     "l": 2
-    },
-    {
-     "id": "2018-boston",
-     "rank": 5,
-     "place": "Cuartos de final",
-     "w": 4,
-     "l": 4
-    },
-    {
-     "id": "2018-london",
-     "rank": 19,
-     "place": "Legends Stage",
-     "w": 2,
-     "l": 3
-    },
-    {
-     "id": "2019-katowice",
-     "rank": 20,
-     "place": "Challengers Stage",
-     "w": 1,
-     "l": 3
-    },
-    {
-     "id": "2022-rio",
-     "rank": 19,
-     "place": "Legends Stage",
-     "w": 3,
-     "l": 0
-    },
-    {
-     "id": "2023-paris",
-     "rank": 19,
-     "place": "Legends Stage",
-     "w": 1,
-     "l": 1
-    },
-    {
-     "id": "2024-shanghai",
-     "rank": 20,
-     "place": "Opening Stage",
-     "w": 0,
-     "l": 2
     },
     {
      "id": "2025-budapest",
      "rank": 19,
      "place": "Stage 2",
      "w": 4,
-     "l": 4
+     "l": 4,
+     "roster": [
+      "KRIMZ",
+      "blameF",
+      "fear",
+      "jambo",
+      "CYPHER"
+     ],
+     "coach": "Independent"
     }
    ],
    "maps": {
     "Mirage": [
-     15,
-     6,
+     20,
+     11,
      0
     ],
     "Inferno": [
-     21,
-     7,
+     25,
+     12,
      0
     ],
     "Dust II": [
-     6,
+     9,
      8,
      0
     ],
     "Train": [
      7,
-     2,
-     0
-    ],
-    "Nuke": [
-     1,
-     1,
-     0
-    ],
-    "Overpass": [
-     5,
-     7,
+     4,
      0
     ],
     "Cobblestone": [
-     5,
+     9,
+     3,
+     0
+    ],
+    "Overpass": [
+     6,
+     10,
+     0
+    ],
+    "Nuke": [
+     4,
      2,
      0
     ],
     "Cache": [
-     5,
-     7,
-     0
-    ],
-    "Ancient": [
-     3,
-     2,
+     6,
+     10,
      0
     ],
     "Vertigo": [
      1,
-     2,
+     4,
+     0
+    ],
+    "Ancient": [
+     3,
+     3,
      0
     ]
    },
    "rt": [
-    706,
-    690
+    979,
+    1008
    ],
    "rct": [
-    779,
-    625
+    1067,
+    864
    ],
-   "titles": 2,
-   "finals": 3
+   "titles": 3,
+   "finals": 4
   },
   "Fut": {
    "majors": [
@@ -16437,8 +16379,8 @@
      "id": "2025-budapest",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Stage 2"
     },
     {
      "id": "2026-cologne",
@@ -17058,8 +17000,8 @@
      "id": "2019-katowice",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 20,
+     "place": "Challengers Stage"
     },
     {
      "id": "2022-antwerp",
@@ -17585,8 +17527,8 @@
      "id": "2013-jonkoping",
      "team": "Fnatic",
      "role": "coach",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2014-katowice",
@@ -18446,8 +18388,8 @@
      "id": "2025-budapest",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Stage 2"
     }
    ]
   },
@@ -19124,8 +19066,8 @@
      "id": "2016-columbus",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-cologne",
@@ -19428,8 +19370,8 @@
      "id": "2013-jonkoping",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2014-katowice",
@@ -19442,22 +19384,22 @@
      "id": "2014-cologne",
      "team": "Fnatic",
      "role": "coach",
-     "rank": 20,
-     "place": "Fase de grupos"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2014-jonkoping",
      "team": "Fnatic",
      "role": "coach",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-katowice",
      "team": "Fnatic",
      "role": "coach",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2023-paris",
@@ -19891,8 +19833,8 @@
      "id": "2018-london",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Legends Stage"
     }
    ]
   },
@@ -21457,8 +21399,8 @@
      "id": "2025-budapest",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Stage 2"
     }
    ]
   },
@@ -22097,8 +22039,8 @@
      "id": "2013-jonkoping",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2014-katowice",
@@ -22111,22 +22053,22 @@
      "id": "2014-cologne",
      "team": "Fnatic",
      "role": "player",
-     "rank": 20,
-     "place": "Fase de grupos"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2014-jonkoping",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-katowice",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2015-cologne",
@@ -22139,15 +22081,15 @@
      "id": "2015-cluj",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-columbus",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-cologne",
@@ -22174,15 +22116,15 @@
      "id": "2018-boston",
      "team": "Fnatic",
      "role": "player",
-     "rank": 17,
-     "place": "Legends Stage"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2018-london",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-katowice",
@@ -23067,8 +23009,8 @@
      "id": "2018-boston",
      "team": "Fnatic",
      "role": "player",
-     "rank": 17,
-     "place": "Legends Stage"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2018-london",
@@ -24738,8 +24680,8 @@
      "id": "2025-budapest",
      "team": "Fnatic",
      "role": "coach",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Stage 2"
     }
    ]
   },
@@ -25173,8 +25115,8 @@
      "id": "2025-budapest",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Stage 2"
     }
    ]
   },
@@ -26177,22 +26119,22 @@
      "id": "2018-boston",
      "team": "Fnatic",
      "role": "coach",
-     "rank": 17,
-     "place": "Legends Stage"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2018-london",
      "team": "Fnatic",
      "role": "coach",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-katowice",
      "team": "Fnatic",
      "role": "coach",
-     "rank": null,
-     "place": ""
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -26239,8 +26181,8 @@
      "id": "2013-jonkoping",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2014-katowice",
@@ -26253,22 +26195,22 @@
      "id": "2014-cologne",
      "team": "Fnatic",
      "role": "player",
-     "rank": 20,
-     "place": "Fase de grupos"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2014-jonkoping",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-katowice",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2015-cologne",
@@ -26281,15 +26223,15 @@
      "id": "2015-cluj",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-columbus",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-cologne",
@@ -26316,22 +26258,22 @@
      "id": "2018-boston",
      "team": "Fnatic",
      "role": "player",
-     "rank": 17,
-     "place": "Legends Stage"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2018-london",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-katowice",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -27660,22 +27602,22 @@
      "id": "2014-cologne",
      "team": "Fnatic",
      "role": "player",
-     "rank": 20,
-     "place": "Fase de grupos"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2014-jonkoping",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-katowice",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2015-cologne",
@@ -27688,15 +27630,15 @@
      "id": "2015-cluj",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-columbus",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-cologne",
@@ -27723,22 +27665,22 @@
      "id": "2018-boston",
      "team": "Fnatic",
      "role": "player",
-     "rank": 17,
-     "place": "Legends Stage"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2018-london",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-katowice",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 20,
+     "place": "Challengers Stage"
     },
     {
      "id": "2022-rio",
@@ -27765,8 +27707,8 @@
      "id": "2025-budapest",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Stage 2"
     }
    ]
   },
@@ -28454,8 +28396,8 @@
      "id": "2018-boston",
      "team": "Fnatic",
      "role": "player",
-     "rank": 17,
-     "place": "Legends Stage"
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2018-london",
@@ -32303,22 +32245,22 @@
      "id": "2014-cologne",
      "team": "Fnatic",
      "role": "player",
-     "rank": 20,
-     "place": "Fase de grupos"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2014-jonkoping",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-katowice",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2015-cologne",
@@ -32331,15 +32273,15 @@
      "id": "2015-cluj",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-columbus",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-cologne",
@@ -33103,8 +33045,8 @@
      "id": "2013-jonkoping",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2014-katowice",
@@ -33117,22 +33059,22 @@
      "id": "2014-cologne",
      "team": "Fnatic",
      "role": "player",
-     "rank": 20,
-     "place": "Fase de grupos"
+     "rank": 2,
+     "place": "Subcampeón"
     },
     {
      "id": "2014-jonkoping",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2015-katowice",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2015-cologne",
@@ -33145,8 +33087,8 @@
      "id": "2015-cluj",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2017-atlanta",
@@ -35014,8 +34956,8 @@
      "id": "2013-jonkoping",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 1,
+     "place": "Campeón"
     },
     {
      "id": "2014-katowice",
@@ -39256,8 +39198,8 @@
      "id": "2019-katowice",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 20,
+     "place": "Challengers Stage"
     }
    ]
   },
@@ -39830,15 +39772,15 @@
      "id": "2015-cluj",
      "team": "Fnatic",
      "role": "coach",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-columbus",
      "team": "Fnatic",
      "role": "coach",
-     "rank": null,
-     "place": ""
+     "rank": 5,
+     "place": "Cuartos de final"
     },
     {
      "id": "2016-cologne",
@@ -40641,15 +40583,15 @@
      "id": "2018-london",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 19,
+     "place": "Legends Stage"
     },
     {
      "id": "2019-katowice",
      "team": "Fnatic",
      "role": "player",
-     "rank": null,
-     "place": ""
+     "rank": 20,
+     "place": "Challengers Stage"
     },
     {
      "id": "2021-stockholm",

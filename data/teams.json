@@ -255,11 +255,10 @@
   },
   "Fnatic": {
    "logo": "img/teams/fnatic.png",
-   "tpl": "fnatic"
+   "tpl": "fnc"
   },
   "Fnc": {
-   "logo": "img/teams/fnc.png",
-   "tpl": "fnc"
+   "logo": "img/teams/fnc.png"
   },
   "Fut": {
    "logo": "img/teams/fut.png",
@@ -289,7 +288,7 @@
    "logo": "img/teams/gambit-esports.png"
   },
   "GamerLegion": {
-   "tpl": "gamerlegion",
+   "tpl": "gl",
    "logo": "img/teams/gamerlegion.png"
   },
   "Germany": {
@@ -556,7 +555,7 @@
    "logo": "img/teams/semperfi.png"
   },
   "Sharks Esports": {
-   "tpl": "sharks esports",
+   "tpl": "sharks",
    "logo": "img/teams/sharks-esports.png"
   },
   "Space Soldiers": {

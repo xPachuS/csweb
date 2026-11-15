@@ -46,7 +46,6 @@
     "FURIA",
     "FaZe Clan",
     "Fnatic",
-    "Fnc",
     "G2 Esports",
     "GamerLegion",
     "HEROIC",
@@ -2396,7 +2395,7 @@
    "kind": "",
    "bo": 3,
    "date": "2023-05-15T13:45:00Z",
-   "t1": "Fnc",
+   "t1": "Fnatic",
    "t2": "G2 Esports",
    "s1": 2,
    "s2": 1,
@@ -2620,7 +2619,7 @@
    "kind": "",
    "bo": 3,
    "date": "2023-05-16T13:45:00Z",
-   "t1": "Fnc",
+   "t1": "Fnatic",
    "t2": "Into The Breach",
    "s1": 1,
    "s2": 2,
@@ -3799,6 +3798,6 @@
    }
   }
  },
- "checked": "2026-11-15T10:54:35Z",
+ "checked": "2026-11-15T11:02:33Z",
  "errors": []
 }

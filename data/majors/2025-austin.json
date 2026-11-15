@@ -916,12 +916,6 @@
      ],
      "first": "t",
      "hltv": 200978
-    },
-    {
-     "map": "Mirage",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382360
@@ -1088,12 +1082,6 @@
      ],
      "first": "ct",
      "hltv": 201006
-    },
-    {
-     "map": "Anubis",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382361
@@ -1140,12 +1128,6 @@
      ],
      "first": "t",
      "hltv": 201015
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382363
@@ -1264,12 +1246,6 @@
      ],
      "first": "ct",
      "hltv": 201027
-    },
-    {
-     "map": "Train",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382365
@@ -1316,12 +1292,6 @@
      ],
      "first": "t",
      "hltv": 201030
-    },
-    {
-     "map": "Anubis",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382366
@@ -1372,12 +1342,6 @@
      ],
      "first": "ct",
      "hltv": 201059
-    },
-    {
-     "map": "Anubis",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382367
@@ -1424,12 +1388,6 @@
      ],
      "first": "t",
      "hltv": 201067
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382368
@@ -2184,12 +2142,6 @@
      ],
      "first": "t",
      "hltv": 201153
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382575
@@ -2240,12 +2192,6 @@
      ],
      "first": "t",
      "hltv": 201155
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382576
@@ -2352,12 +2298,6 @@
      ],
      "first": "ct",
      "hltv": 201160
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382578
@@ -2404,12 +2344,6 @@
      ],
      "first": "t",
      "hltv": 201181
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382580
@@ -2520,12 +2454,6 @@
      ],
      "first": "t",
      "hltv": 201188
-    },
-    {
-     "map": "Anubis",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382581
@@ -2696,12 +2624,6 @@
      ],
      "first": "ct",
      "hltv": 201203
-    },
-    {
-     "map": "Anubis",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382583
@@ -2748,12 +2670,6 @@
      ],
      "first": "t",
      "hltv": 201235
-    },
-    {
-     "map": "Train",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382585
@@ -2864,12 +2780,6 @@
      ],
      "first": "t",
      "hltv": 201248
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382587
@@ -3560,12 +3470,6 @@
      ],
      "first": "ct",
      "hltv": 201389
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382600
@@ -3612,12 +3516,6 @@
      ],
      "first": "t",
      "hltv": 201388
-    },
-    {
-     "map": "Dust II",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382601
@@ -3852,12 +3750,6 @@
      ],
      "first": "ct",
      "hltv": 201508
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382605
@@ -3964,12 +3856,6 @@
      ],
      "first": "t",
      "hltv": 201532
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382606
@@ -4080,12 +3966,6 @@
      ],
      "first": "t",
      "hltv": 201553
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382608
@@ -4196,12 +4076,6 @@
      ],
      "first": "ct",
      "hltv": 201640
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382611
@@ -4267,7 +4141,7 @@
    "hltv": 2382612
   },
   {
-   "id": "po-SDdbinOPFpQuarterfinals-R1M1",
+   "id": "po-SDdbinOPFp-R1M1",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M1",
@@ -4331,7 +4205,7 @@
    "hltv": 2382614
   },
   {
-   "id": "po-SDdbinOPFpQuarterfinals-R1M4",
+   "id": "po-SDdbinOPFp-R1M4",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M4",
@@ -4395,7 +4269,7 @@
    "hltv": 2382613
   },
   {
-   "id": "po-SDdbinOPFpQuarterfinals-R1M2",
+   "id": "po-SDdbinOPFp-R1M2",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M2",
@@ -4436,18 +4310,12 @@
      ],
      "first": "t",
      "hltv": 201898
-    },
-    {
-     "map": "Inferno",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382616
   },
   {
-   "id": "po-SDdbinOPFpQuarterfinals-R1M3",
+   "id": "po-SDdbinOPFp-R1M3",
    "stage": "po",
    "round": "Cuartos de final",
    "slot": "R1M3",
@@ -4488,18 +4356,12 @@
      ],
      "first": "ct",
      "hltv": 201907
-    },
-    {
-     "map": "Ancient",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382615
   },
   {
-   "id": "po-SDdbinOPFpQuarterfinals-R2M1",
+   "id": "po-SDdbinOPFp-R2M1",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M1",
@@ -4559,7 +4421,7 @@
    "hltv": 2382618
   },
   {
-   "id": "po-SDdbinOPFpQuarterfinals-R2M2",
+   "id": "po-SDdbinOPFp-R2M2",
    "stage": "po",
    "round": "Semifinales",
    "slot": "R2M2",
@@ -4600,18 +4462,12 @@
      ],
      "first": "t",
      "hltv": 201953
-    },
-    {
-     "map": "Nuke",
-     "s1": null,
-     "s2": null,
-     "winner": 0
     }
    ],
    "hltv": 2382617
   },
   {
-   "id": "po-SDdbinOPFpQuarterfinals-R3M1",
+   "id": "po-SDdbinOPFp-R3M1",
    "stage": "po",
    "round": "Gran final",
    "slot": "R3M1",
@@ -5645,6 +5501,6 @@
    ]
   }
  },
- "checked": "2026-11-15T10:23:13Z",
+ "checked": "2026-11-15T11:02:33Z",
  "errors": []
 }
