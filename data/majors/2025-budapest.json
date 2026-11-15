@@ -14,8 +14,8 @@
    "page": "StarLadder/2025/Major",
    "type": "swiss",
    "teams": [
-    "Team Goat",
-    "Team Vaco"
+    "Team GOAT",
+    "Team VACO"
    ],
    "matches": 1
   },
@@ -314,8 +314,8 @@
    "kind": "",
    "bo": 1,
    "date": "2025-12-14T15:00:00Z",
-   "t1": "Team Goat",
-   "t2": "Team Vaco",
+   "t1": "Team GOAT",
+   "t2": "Team VACO",
    "s1": 1,
    "s2": 0,
    "winner": 1,

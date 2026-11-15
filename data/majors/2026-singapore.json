@@ -9,14 +9,6 @@
  "source": "Liquipedia (CC-BY-SA 3.0)",
  "stages": [
   {
-   "id": "po",
-   "name": "Playoffs",
-   "page": "PGL/2026/Singapore/Playoffs",
-   "type": "bracket",
-   "teams": [],
-   "matches": 7
-  },
-  {
    "id": "s1",
    "name": "Stage 1",
    "page": "PGL/2026/Singapore/Stage_1",
@@ -26,17 +18,17 @@
     "9Z",
     "Chinggis",
     "Dendele",
-    "Ef",
+    "Eternal Fire",
     "FaZe Clan",
-    "Fq",
+    "FlyQuest",
     "Gosh",
     "HEROIC",
     "Imp",
-    "Lvg",
+    "Lynn Vision",
     "M80",
     "Ninjas in Pyjamas",
-    "Pvision",
-    "Tl",
+    "PARIVISION",
+    "Team Liquid",
     "Wildcard"
    ],
    "matches": 0
@@ -65,15 +57,23 @@
    "type": "swiss",
    "teams": [
     "Aurora",
-    "Bb Team",
+    "BetBoom Team",
     "FURIA",
     "Legacy",
     "MOUZ",
     "Team Falcons",
     "Team Spirit",
-    "Vit"
+    "Vitality"
    ],
    "matches": 0
+  },
+  {
+   "id": "po",
+   "name": "Playoffs",
+   "page": "PGL/2026/Singapore/Playoffs",
+   "type": "bracket",
+   "teams": [],
+   "matches": 7
   }
  ],
  "matches": [
@@ -190,6 +190,6 @@
    "maps": []
   }
  ],
- "checked": "2026-11-15T01:55:56Z",
+ "checked": "2026-11-15T02:10:31Z",
  "errors": []
 }

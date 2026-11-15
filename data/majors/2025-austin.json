@@ -89,10 +89,10 @@
    "page": "BLAST/Major/2025/Austin/Oceania_and_Southeast_Asia",
    "type": "bracket",
    "teams": [
-    "Ex-Talon",
     "Fq",
     "Rooster",
-    "Semperfi"
+    "Semperfi",
+    "ex-TALON"
    ],
    "matches": 6
   },
@@ -120,9 +120,9 @@
    "type": "bracket",
    "teams": [
     "Bestia",
+    "DENDELE CS",
     "Legacy",
-    "Oddik",
-    "Sharks Esports"
+    "ODDIK"
    ],
    "matches": 3
   },
@@ -178,7 +178,7 @@
    "bo": 3,
    "date": "2025-04-15T02:35:00Z",
    "t1": "Semperfi",
-   "t2": "Ex-Talon",
+   "t2": "ex-TALON",
    "s1": 2,
    "s2": 0,
    "winner": 1,
@@ -473,7 +473,7 @@
    "kind": "qf",
    "bo": 3,
    "date": "2025-04-16T04:40:00Z",
-   "t1": "Ex-Talon",
+   "t1": "ex-TALON",
    "t2": "Rooster",
    "s1": 2,
    "s2": 1,
@@ -700,7 +700,7 @@
    "bo": 3,
    "date": "2025-04-17T02:00:00Z",
    "t1": "Semperfi",
-   "t2": "Ex-Talon",
+   "t2": "ex-TALON",
    "s1": 2,
    "s2": 0,
    "winner": 1,
@@ -1014,7 +1014,7 @@
    "kind": "sf",
    "bo": 3,
    "date": "2025-04-17T15:00:00Z",
-   "t1": "Sharks Esports",
+   "t1": "DENDELE CS",
    "t2": "Bestia",
    "s1": 0,
    "s2": 2,
@@ -1084,7 +1084,7 @@
    "kind": "sf",
    "bo": 3,
    "date": "2025-04-17T17:20:00Z",
-   "t1": "Oddik",
+   "t1": "ODDIK",
    "t2": "Legacy",
    "s1": 1,
    "s2": 2,

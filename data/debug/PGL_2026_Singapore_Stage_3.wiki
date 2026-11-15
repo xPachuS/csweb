@@ -1,0 +1,624 @@
+{{DISPLAYTITLE:PGL Major Singapore 2026: Stage 3}}
+{{PGL Major 2026 Tabs}}<!--
+|tickername=PGL Major Singapore 2026: Stage 3
+-->{{HiddenDataBox
+|name=PGL Major Singapore 2026: Stage 3
+|tickername=PGL Major Singapore 2026
+|liquipediatier=S-Tier
+|sdate=2026-12-02
+|edate=2026-12-06
+}}
+
+==Format==
+* '''16 Team Swiss System:''' ''December 2<sup>nd</sup> - December 6<sup>th</sup>, 2026''
+** Rounds 2 to 5 are seeded using the {{Abbr|Buchholz system|Ranking based on opponents' performance}} & teams' initial seeds
+** All matches are {{Abbr/Bo3}}
+* Top 8 Teams proceed to '''[[PGL/2026/Singapore/Playoffs|Playoffs]]'''
+* Bottom 8 Teams are eliminated
+* {{Swiss Explained|width=790px|margin=45px|seeding=
+** The initial match-ups are seeded using the below seeding:
+*** Invited teams are seeded 1st–8th using their ranking on the Valve Global Standings.
+*** Teams from Stage 2 are seeded 9th–16th using their Swiss & Buchholz scores from Stage 2.
+}}
+
+==Results==
+===Overview===
+<section begin="Results"/>
+{{SwissStandings|format=swiss3
+|tiebreakers={{Json|matchscore|buchholz}}
+|bg=1-2=up,3-5=stayup,6-8=stay,9-16=down
+|placements=1-2;3-5;6-8;9-11;12-14;15-16
+
+|round1={{Round|matchgroups=fivDVaXpZu}}
+|round2={{Round|matchgroups=z6CMLNsnXH,rN0aadHcGr}}
+|round3={{Round|matchgroups=cZX9mejbzu,75GBQNvYqV,DQUrheCrcq}}
+|round4={{Round|matchgroups=ThjoCafcYb,BNpYwOwObe}}
+|round5={{Round|matchgroups=nMAS81fhHV}}
+
+|{{TeamOpponent|mouz|tiebreaker=16}}
+|{{TeamOpponent|vit|tiebreaker=15}}
+|{{TeamOpponent|furia|tiebreaker=14}}
+|{{TeamOpponent|aurora|tiebreaker=13}}
+|{{TeamOpponent|spirit|tiebreaker=12}}
+|{{TeamOpponent|bb team|tiebreaker=11}}
+|{{TeamOpponent|falcons|tiebreaker=10}}
+|{{TeamOpponent|legacy|tiebreaker=9}}
+|{{TeamOpponent||tiebreaker=8}}
+|{{TeamOpponent||tiebreaker=7}}
+|{{TeamOpponent||tiebreaker=6}}
+|{{TeamOpponent||tiebreaker=5}}
+|{{TeamOpponent||tiebreaker=4}}
+|{{TeamOpponent||tiebreaker=3}}
+|{{TeamOpponent||tiebreaker=2}}
+|{{TeamOpponent||tiebreaker=1}}
+}}<section end="Results"/>
+
+===Detailed Results===
+{{Toggle group start|state=hide}}
+====Round 1====
+{{Matchlist|id=fivDVaXpZu|width=380px|collapsed=false|title=Round 1 Matches|matchsection=Round 1
+|M1header=
+|{{Match
+	|opponent1={{TeamOpponent|mouz}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|vit}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|furia}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|aurora}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|spirit}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|bb team}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|falcons}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|legacy}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+}}
+
+====Round 2====
+{{Toggle group start|state=hide}}
+{{box|start|padding=2em}}
+=====High=====
+{{Matchlist|id=z6CMLNsnXH|width=380px|collapsed=false|title=Round 2 High Matches|matchsection=Round 2
+|M1header=
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+}}
+{{box|break|padding=2em}}
+
+=====Low=====
+{{Matchlist|id=rN0aadHcGr|width=380px|collapsed=false|title=Round 2 Low Matches|matchsection=Round 2
+|M1header=
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+}}
+{{box|end}}
+{{Toggle group end}}
+
+====Round 3====
+{{Toggle group start|state=hide}}
+{{box|start|padding=2em}}
+=====High=====
+{{Matchlist|id=cZX9mejbzu|width=380px|collapsed=false|title=Round 3 High Matches|matchsection=Round 3
+|M1header=
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+}}
+{{box|break|padding=2em}}
+
+=====Mid=====
+{{Matchlist|id=75GBQNvYqV|width=380px|collapsed=false|title=Round 3 Mid Matches|matchsection=Round 3
+|M1header=
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+}}
+{{box|break|padding=2em}}
+
+=====Low=====
+{{Matchlist|id=DQUrheCrcq|width=380px|collapsed=false|title=Round 3 Low Matches|matchsection=Round 3
+|M1header=
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+}}
+{{box|end}}
+{{Toggle group end}}
+
+====Round 4====
+{{Toggle group start|state=hide}}
+{{box|start|padding=2em}}
+=====High=====
+{{Matchlist|id=ThjoCafcYb|width=380px|collapsed=false|title=Round 4 High Matches|matchsection=Round 4
+|M1header=
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+}}
+{{box|break|padding=2em}}
+
+=====Low=====
+{{Matchlist|id=BNpYwOwObe|width=380px|collapsed=false|title=Round 4 Low Matches|matchsection=Round 4
+|M1header=
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+}}
+{{box|end}}
+{{Toggle group end}}
+
+====Round 5====
+{{Matchlist|id=nMAS81fhHV|width=380px|collapsed=false|title=Round 5 Matches|matchsection=Round 5
+|M1header=
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+|{{Match
+	|opponent1={{TeamOpponent|}}|opponent2={{TeamOpponent|}}
+	|date= |finished=
+	|twitch=PGL |youtube=PGL |kick=PGL
+	|map1={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map2={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|map3={{Map|map=|finished=
+		|t1firstside=|t1t=|t1ct=|t2t=|t2ct=
+		|stats=|vod=}}
+	|hltv=
+	}}
+}}
+{{Toggle group end}}
+
+==Streams==
+{{#section:PGL/2026/Singapore|streams}}
+
+==References==
+{{Reflist}}
+<br/>
+{{Majors Navbox}}
