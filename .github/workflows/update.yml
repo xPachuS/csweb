@@ -46,3 +46,9 @@ jobs:
           else
             echo "Sin cambios"
           fi
+      - name: Avisar si algo lleva tiempo fallando
+        run: |
+          if [ -f data/ALERTA.txt ]; then
+            echo "::error::$(tr '\n' ' ' < data/ALERTA.txt)"
+            exit 1
+          fi
