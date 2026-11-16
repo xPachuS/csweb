@@ -214,6 +214,22 @@
    "hltv": 2400501
   },
   {
+   "id": "po-2rF0kBRwaC-R3M1",
+   "stage": "po",
+   "round": "Gran final",
+   "slot": "R3M1",
+   "kind": "final",
+   "bo": 5,
+   "date": "2026-12-13T10:00:00Z",
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": []
+  },
+  {
    "id": "po-2rF0kBRwaC-R1M1",
    "stage": "po",
    "round": "Cuartos de final",
@@ -300,22 +316,6 @@
    "slot": "R2M2",
    "kind": "sf",
    "bo": 3,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "po-2rF0kBRwaC-R3M1",
-   "stage": "po",
-   "round": "Gran final",
-   "slot": "R3M1",
-   "kind": "final",
-   "bo": 5,
    "date": null,
    "t1": "TBD",
    "t2": "TBD",
@@ -2732,6 +2732,6 @@
    }
   }
  },
- "checked": "2026-11-15T10:54:35Z",
+ "checked": "2026-11-16T18:00:10Z",
  "errors": []
 }
