@@ -1,7 +1,7 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-17T19:15:10Z",
+ "checked": "2026-11-18T01:40:37Z",
  "calls": 2,
  "majors": [
   {
@@ -794,5 +794,5 @@
  "alerts": [
   "El Major del Pick'em no se pudo actualizar: PGL Major Singapore 2026: Liquipedia pidió esperar (429); se sigue en la próxima ejecución"
  ],
- "alertRuns": 1
+ "alertRuns": 2
 }
