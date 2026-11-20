@@ -1,7 +1,7 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-20T04:16:34Z",
+ "checked": "2026-11-20T13:12:20Z",
  "calls": 3,
  "majors": [
   {
@@ -722,7 +722,7 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-20T04:16:34Z",
+   "checked": "2026-11-20T13:12:20Z",
    "empty": [],
    "tries_empty": 0,
    "parser": 5,
