@@ -18,11 +18,11 @@
   ],
   [
    1,
-   "Ninjas in Pyjamas"
+   "SK Gaming"
   ],
   [
    1,
-   "SK Gaming"
+   "Ninjas in Pyjamas"
   ],
   [
    1,
@@ -52,11 +52,11 @@
   ],
   [
    18,
-   "Fnatic"
+   "Ninjas in Pyjamas"
   ],
   [
    18,
-   "Ninjas in Pyjamas"
+   "Fnatic"
   ],
   [
    18,
@@ -570,7 +570,7 @@
   ],
   "CS2": [
    [
-    139,
+    141,
     "Mirage"
    ],
    [
@@ -578,11 +578,11 @@
     "Inferno"
    ],
    [
-    125,
+    126,
     "Nuke"
    ],
    [
-    117,
+    118,
     "Dust II"
    ],
    [
@@ -590,7 +590,7 @@
     "Ancient"
    ],
    [
-    67,
+    68,
     "Anubis"
    ],
    [
@@ -835,6 +835,6 @@
    3
   ]
  ],
- "series": 1430,
- "maps": 2206
+ "series": 1435,
+ "maps": 2211
 }

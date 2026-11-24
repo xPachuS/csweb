@@ -25821,22 +25821,6 @@
   ],
   [
    "2026-singapore",
-   "s1-qYes0iRpTj-M2",
-   "9Z",
-   "Lynn Vision",
-   0,
-   1,
-   2,
-   "",
-   [
-    [
-     "Inferno",
-     2
-    ]
-   ]
-  ],
-  [
-   "2026-singapore",
    "s1-qYes0iRpTj-M1",
    "HEROIC",
    "Imperial",
@@ -25847,6 +25831,22 @@
    [
     [
      "Mirage",
+     2
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-qYes0iRpTj-M2",
+   "9Z",
+   "Lynn Vision",
+   0,
+   1,
+   2,
+   "",
+   [
+    [
+     "Inferno",
      2
     ]
    ]
@@ -25992,6 +25992,86 @@
     [
      "Mirage",
      2
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-LP7mmVSfz0-M2",
+   "100 Thieves",
+   "Imperial",
+   0,
+   1,
+   2,
+   "",
+   [
+    [
+     "Nuke",
+     2
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-JRTmcHTDxV-M3",
+   "Eternal Fire",
+   "DENDELE CS",
+   1,
+   0,
+   1,
+   "",
+   [
+    [
+     "Anubis",
+     1
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-LP7mmVSfz0-M3",
+   "PARIVISION",
+   "FlyQuest",
+   0,
+   1,
+   2,
+   "",
+   [
+    [
+     "Dust II",
+     2
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-LP7mmVSfz0-M4",
+   "Team Liquid",
+   "Wildcard",
+   1,
+   0,
+   1,
+   "",
+   [
+    [
+     "Mirage",
+     1
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-JRTmcHTDxV-M4",
+   "FaZe Clan",
+   "GOSH",
+   1,
+   0,
+   1,
+   "",
+   [
+    [
+     "Mirage",
+     1
     ]
    ]
   ]
