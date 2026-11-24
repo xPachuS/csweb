@@ -26,11 +26,11 @@
   ],
   [
    1,
-   "Virtus.pro"
+   "Team LDLC.com"
   ],
   [
    1,
-   "Team LDLC.com"
+   "Virtus.pro"
   ],
   [
    1,
@@ -570,23 +570,23 @@
   ],
   "CS2": [
    [
-    136,
+    139,
     "Mirage"
    ],
    [
-    132,
+    133,
     "Inferno"
    ],
    [
-    122,
+    125,
     "Nuke"
    ],
    [
-    115,
+    117,
     "Dust II"
    ],
    [
-    104,
+    106,
     "Ancient"
    ],
    [
@@ -835,6 +835,6 @@
    3
   ]
  ],
- "series": 1419,
- "maps": 2195
+ "series": 1430,
+ "maps": 2206
 }
