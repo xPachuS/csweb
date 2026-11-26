@@ -18,19 +18,19 @@
   ],
   [
    1,
-   "Ninjas in Pyjamas"
-  ],
-  [
-   1,
    "SK Gaming"
   ],
   [
    1,
-   "Team LDLC.com"
+   "Ninjas in Pyjamas"
   ],
   [
    1,
    "Virtus.pro"
+  ],
+  [
+   1,
+   "Team LDLC.com"
   ],
   [
    1,
@@ -52,11 +52,11 @@
   ],
   [
    18,
-   "Fnatic"
+   "Ninjas in Pyjamas"
   ],
   [
    18,
-   "Ninjas in Pyjamas"
+   "Fnatic"
   ],
   [
    18,
@@ -570,7 +570,7 @@
   ],
   "CS2": [
    [
-    144,
+    145,
     "Mirage"
    ],
    [
@@ -578,19 +578,19 @@
     "Inferno"
    ],
    [
-    127,
+    130,
     "Nuke"
    ],
    [
-    121,
+    125,
     "Dust II"
    ],
    [
-    108,
+    111,
     "Ancient"
    ],
    [
-    68,
+    70,
     "Anubis"
    ],
    [
@@ -606,7 +606,7 @@
     "Vertigo"
    ],
    [
-    2,
+    5,
     "Cache"
    ]
   ]
@@ -839,6 +839,6 @@
    3
   ]
  ],
- "series": 1443,
- "maps": 2224
+ "series": 1449,
+ "maps": 2240
 }

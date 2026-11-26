@@ -1,8 +1,8 @@
 {
  "current": "2026-singapore",
  "source": "Liquipedia (CC-BY-SA 3.0)",
- "checked": "2026-11-26T15:29:17Z",
- "calls": 2,
+ "checked": "2026-11-26T23:58:36Z",
+ "calls": 3,
  "majors": [
   {
    "id": "2013-jonkoping",
@@ -722,12 +722,11 @@
    "pickem": true,
    "loaded": true,
    "frozen": false,
-   "checked": "2026-11-26T05:19:10Z",
-   "error": "",
-   "tries": 0,
-   "parser": 5,
+   "checked": "2026-11-26T23:58:36Z",
    "empty": [],
-   "tries_empty": 0
+   "tries_empty": 0,
+   "parser": 5,
+   "tries": 0
   },
   {
    "id": "2027-buenos-aires",
@@ -788,11 +787,7 @@
    "tries_empty": 0
   }
  ],
- "errors": [
-  "PGL Major Singapore 2026: Liquipedia pidió esperar (429); se sigue en la próxima ejecución"
- ],
- "alerts": [
-  "El Major del Pick'em no se pudo actualizar: PGL Major Singapore 2026: Liquipedia pidió esperar (429); se sigue en la próxima ejecución"
- ],
- "alertRuns": 1
+ "errors": [],
+ "alerts": [],
+ "alertRuns": 0
 }

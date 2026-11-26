@@ -26222,6 +26222,142 @@
      1
     ]
    ]
+  ],
+  [
+   "2026-singapore",
+   "s1-PqjSMr1RRE-M1",
+   "HEROIC",
+   "FaZe Clan",
+   2,
+   1,
+   1,
+   "",
+   [
+    [
+     "Mirage",
+     1
+    ],
+    [
+     "Ancient",
+     2
+    ],
+    [
+     "Nuke",
+     1
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-TbId6m7sSx-M1",
+   "M80",
+   "Eternal Fire",
+   1,
+   2,
+   2,
+   "",
+   [
+    [
+     "Dust II",
+     1
+    ],
+    [
+     "Anubis",
+     2
+    ],
+    [
+     "Cache",
+     2
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-TbId6m7sSx-M2",
+   "Lynn Vision",
+   "PARIVISION",
+   0,
+   2,
+   2,
+   "",
+   [
+    [
+     "Ancient",
+     2
+    ],
+    [
+     "Dust II",
+     2
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-PqjSMr1RRE-M2",
+   "100 Thieves",
+   "9Z",
+   2,
+   1,
+   1,
+   "",
+   [
+    [
+     "Nuke",
+     2
+    ],
+    [
+     "Dust II",
+     1
+    ],
+    [
+     "Ancient",
+     1
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-TbId6m7sSx-M3",
+   "Imperial",
+   "Team Liquid",
+   0,
+   2,
+   2,
+   "",
+   [
+    [
+     "Anubis",
+     2
+    ],
+    [
+     "Cache",
+     2
+    ]
+   ]
+  ],
+  [
+   "2026-singapore",
+   "s1-PqjSMr1RRE-M3",
+   "Wildcard",
+   "Chinggis Warriors",
+   2,
+   1,
+   1,
+   "",
+   [
+    [
+     "Dust II",
+     1
+    ],
+    [
+     "Cache",
+     2
+    ],
+    [
+     "Nuke",
+     1
+    ]
+   ]
   ]
  ]
 }
