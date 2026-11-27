@@ -52,11 +52,11 @@
   ],
   [
    18,
-   "Ninjas in Pyjamas"
+   "Fnatic"
   ],
   [
    18,
-   "Fnatic"
+   "Ninjas in Pyjamas"
   ],
   [
    18,
@@ -144,11 +144,11 @@
   ],
   [
    12,
-   "Vitality"
+   "FURIA"
   ],
   [
    12,
-   "FURIA"
+   "Vitality"
   ],
   [
    11,
@@ -570,11 +570,11 @@
   ],
   "CS2": [
    [
-    145,
+    147,
     "Mirage"
    ],
    [
-    135,
+    136,
     "Inferno"
    ],
    [
@@ -582,7 +582,7 @@
     "Nuke"
    ],
    [
-    126,
+    128,
     "Dust II"
    ],
    [
@@ -606,7 +606,7 @@
     "Vertigo"
    ],
    [
-    5,
+    6,
     "Cache"
    ]
   ]
@@ -839,6 +839,6 @@
    3
   ]
  ],
- "series": 1450,
- "maps": 2242
+ "series": 1452,
+ "maps": 2248
 }
