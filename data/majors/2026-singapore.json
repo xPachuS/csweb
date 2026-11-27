@@ -1268,11 +1268,40 @@
    "date": "2026-11-27T06:00:00Z",
    "t1": "Lynn Vision",
    "t2": "HEROIC",
-   "s1": 0,
+   "s1": 2,
    "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": [],
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Nuke",
+     "s1": 13,
+     "s2": 11,
+     "winner": 1,
+     "h": [
+      3,
+      10,
+      2,
+      9
+     ],
+     "first": "ct",
+     "hltv": 245103
+    },
+    {
+     "map": "Dust II",
+     "s1": 13,
+     "s2": 6,
+     "winner": 1,
+     "h": [
+      10,
+      3,
+      4,
+      2
+     ],
+     "first": "t",
+     "hltv": 245104
+    }
+   ],
    "hltv": 2400579
   },
   {
@@ -1308,6 +1337,57 @@
    "done": false,
    "maps": [],
    "hltv": 2400581
+  },
+  {
+   "id": "s2-JYUxtaSXrS-M1",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2026-12-01T06:00:00Z",
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": [],
+   "hltv": 2400612
+  },
+  {
+   "id": "s2-JYUxtaSXrS-M2",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2026-12-01T08:30:00Z",
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": [],
+   "hltv": 2400613
+  },
+  {
+   "id": "s2-JYUxtaSXrS-M3",
+   "stage": "s2",
+   "round": "Round 5",
+   "slot": "",
+   "kind": "",
+   "bo": 3,
+   "date": "2026-12-01T11:00:00Z",
+   "t1": "TBD",
+   "t2": "TBD",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": [],
+   "hltv": 2400614
   },
   {
    "id": "po-2rF0kBRwaC-R3M1",
@@ -1586,54 +1666,6 @@
    "id": "s2-JRnxESJMIZ-M3",
    "stage": "s2",
    "round": "Round 4 Low",
-   "slot": "",
-   "kind": "",
-   "bo": 3,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-JYUxtaSXrS-M1",
-   "stage": "s2",
-   "round": "Round 5",
-   "slot": "",
-   "kind": "",
-   "bo": 3,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-JYUxtaSXrS-M2",
-   "stage": "s2",
-   "round": "Round 5",
-   "slot": "",
-   "kind": "",
-   "bo": 3,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-JYUxtaSXrS-M3",
-   "stage": "s2",
-   "round": "Round 5",
    "slot": "",
    "kind": "",
    "bo": 3,
@@ -3429,6 +3461,6 @@
    }
   }
  },
- "checked": "2026-11-26T23:58:36Z",
+ "checked": "2026-11-27T08:04:41Z",
  "errors": []
 }
