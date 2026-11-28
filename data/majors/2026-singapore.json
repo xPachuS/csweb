@@ -1439,11 +1439,26 @@
    "date": "2026-11-28T04:00:00Z",
    "t1": "Fut",
    "t2": "FlyQuest",
-   "s1": 0,
+   "s1": 1,
    "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": [],
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 13,
+     "s2": 10,
+     "winner": 1,
+     "h": [
+      8,
+      5,
+      7,
+      3
+     ],
+     "first": "ct",
+     "hltv": 245151
+    }
+   ],
    "hltv": 2400582
   },
   {
@@ -1456,11 +1471,26 @@
    "date": "2026-11-28T04:00:00Z",
    "t1": "The MongolZ",
    "t2": "Lynn Vision",
-   "s1": 0,
+   "s1": 1,
    "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": [],
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      6,
+      7,
+      5,
+      4
+     ],
+     "first": "ct",
+     "hltv": 245150
+    }
+   ],
    "hltv": 2400583
   },
   {
@@ -1470,14 +1500,29 @@
    "slot": "",
    "kind": "",
    "bo": 1,
-   "date": "2026-11-28T05:00:00Z",
+   "date": "2026-11-28T05:10:00Z",
    "t1": "Nemiga",
    "t2": "Ninjas in Pyjamas",
    "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": [],
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 7,
+     "s2": 13,
+     "winner": 2,
+     "h": [
+      3,
+      4,
+      8,
+      5
+     ],
+     "first": "ct",
+     "hltv": 245152
+    }
+   ],
    "hltv": 2400585
   },
   {
@@ -1487,14 +1532,29 @@
    "slot": "",
    "kind": "",
    "bo": 1,
-   "date": "2026-11-28T05:00:00Z",
+   "date": "2026-11-28T05:10:00Z",
    "t1": "Astralis",
    "t2": "Imperial",
-   "s1": 0,
+   "s1": 1,
    "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": [],
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Inferno",
+     "s1": 13,
+     "s2": 9,
+     "winner": 1,
+     "h": [
+      4,
+      9,
+      3,
+      6
+     ],
+     "first": "ct",
+     "hltv": 245153
+    }
+   ],
    "hltv": 2400584
   },
   {
@@ -1504,14 +1564,29 @@
    "slot": "",
    "kind": "",
    "bo": 1,
-   "date": "2026-11-28T06:00:00Z",
+   "date": "2026-11-28T06:15:00Z",
    "t1": "G2 Esports",
    "t2": "Team Liquid",
-   "s1": 0,
+   "s1": 1,
    "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": [],
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Mirage",
+     "s1": 13,
+     "s2": 8,
+     "winner": 1,
+     "h": [
+      4,
+      9,
+      3,
+      5
+     ],
+     "first": "ct",
+     "hltv": 245154
+    }
+   ],
    "hltv": 2400586
   },
   {
@@ -1521,14 +1596,29 @@
    "slot": "",
    "kind": "",
    "bo": 1,
-   "date": "2026-11-28T06:00:00Z",
+   "date": "2026-11-28T06:15:00Z",
    "t1": "1W",
    "t2": "Eternal Fire",
-   "s1": 0,
+   "s1": 1,
    "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": [],
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 13,
+     "s2": 10,
+     "winner": 1,
+     "h": [
+      7,
+      6,
+      5,
+      5
+     ],
+     "first": "t",
+     "hltv": 245155
+    }
+   ],
    "hltv": 2400587
   },
   {
@@ -1538,14 +1628,29 @@
    "slot": "",
    "kind": "",
    "bo": 1,
-   "date": "2026-11-28T07:00:00Z",
+   "date": "2026-11-28T07:20:00Z",
    "t1": "Natus Vincere",
    "t2": "PARIVISION",
-   "s1": 0,
+   "s1": 1,
    "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": [],
+   "winner": 1,
+   "done": true,
+   "maps": [
+    {
+     "map": "Ancient",
+     "s1": 13,
+     "s2": 10,
+     "winner": 1,
+     "h": [
+      4,
+      9,
+      3,
+      7
+     ],
+     "first": "ct",
+     "hltv": 245156
+    }
+   ],
    "hltv": 2400588
   },
   {
@@ -1555,15 +1660,166 @@
    "slot": "",
    "kind": "",
    "bo": 1,
-   "date": "2026-11-28T07:00:00Z",
+   "date": "2026-11-28T07:25:00Z",
    "t1": "MIBR",
+   "t2": "100 Thieves",
+   "s1": 0,
+   "s2": 1,
+   "winner": 2,
+   "done": true,
+   "maps": [
+    {
+     "map": "Cache",
+     "s1": 11,
+     "s2": 13,
+     "winner": 2,
+     "h": [
+      7,
+      4,
+      8,
+      5
+     ],
+     "first": "ct",
+     "hltv": 245157
+    }
+   ],
+   "hltv": 2400589
+  },
+  {
+   "id": "s2-kaPmbCV2mU-M1",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2026-11-28T09:20:00Z",
+   "t1": "G2 Esports",
+   "t2": "Ninjas in Pyjamas",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": [],
+   "hltv": 2400590
+  },
+  {
+   "id": "s2-odOTCkwfGX-M1",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2026-11-28T09:20:00Z",
+   "t1": "Nemiga",
+   "t2": "Lynn Vision",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": [],
+   "hltv": 2400591
+  },
+  {
+   "id": "s2-kaPmbCV2mU-M2",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2026-11-28T10:30:00Z",
+   "t1": "1W",
+   "t2": "The MongolZ",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": [],
+   "hltv": 2400592
+  },
+  {
+   "id": "s2-odOTCkwfGX-M2",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2026-11-28T10:30:00Z",
+   "t1": "Team Liquid",
+   "t2": "Eternal Fire",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": [],
+   "hltv": 2400593
+  },
+  {
+   "id": "s2-kaPmbCV2mU-M3",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2026-11-28T11:30:00Z",
+   "t1": "Fut",
    "t2": "100 Thieves",
    "s1": 0,
    "s2": 0,
    "winner": 0,
    "done": false,
    "maps": [],
-   "hltv": 2400589
+   "hltv": 2400594
+  },
+  {
+   "id": "s2-odOTCkwfGX-M3",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2026-11-28T11:30:00Z",
+   "t1": "MIBR",
+   "t2": "Imperial",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": [],
+   "hltv": 2400595
+  },
+  {
+   "id": "s2-kaPmbCV2mU-M4",
+   "stage": "s2",
+   "round": "Round 2 High",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2026-11-28T12:30:00Z",
+   "t1": "Natus Vincere",
+   "t2": "Astralis",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": [],
+   "hltv": 2400596
+  },
+  {
+   "id": "s2-odOTCkwfGX-M4",
+   "stage": "s2",
+   "round": "Round 2 Low",
+   "slot": "",
+   "kind": "",
+   "bo": 1,
+   "date": "2026-11-28T12:30:00Z",
+   "t1": "FlyQuest",
+   "t2": "PARIVISION",
+   "s1": 0,
+   "s2": 0,
+   "winner": 0,
+   "done": false,
+   "maps": [],
+   "hltv": 2400597
   },
   {
    "id": "s2-JYUxtaSXrS-M1",
@@ -1896,134 +2152,6 @@
    "slot": "",
    "kind": "",
    "bo": 3,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-kaPmbCV2mU-M1",
-   "stage": "s2",
-   "round": "Round 2 High",
-   "slot": "",
-   "kind": "",
-   "bo": 1,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-kaPmbCV2mU-M2",
-   "stage": "s2",
-   "round": "Round 2 High",
-   "slot": "",
-   "kind": "",
-   "bo": 1,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-kaPmbCV2mU-M3",
-   "stage": "s2",
-   "round": "Round 2 High",
-   "slot": "",
-   "kind": "",
-   "bo": 1,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-kaPmbCV2mU-M4",
-   "stage": "s2",
-   "round": "Round 2 High",
-   "slot": "",
-   "kind": "",
-   "bo": 1,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-odOTCkwfGX-M1",
-   "stage": "s2",
-   "round": "Round 2 Low",
-   "slot": "",
-   "kind": "",
-   "bo": 1,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-odOTCkwfGX-M2",
-   "stage": "s2",
-   "round": "Round 2 Low",
-   "slot": "",
-   "kind": "",
-   "bo": 1,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-odOTCkwfGX-M3",
-   "stage": "s2",
-   "round": "Round 2 Low",
-   "slot": "",
-   "kind": "",
-   "bo": 1,
-   "date": null,
-   "t1": "TBD",
-   "t2": "TBD",
-   "s1": 0,
-   "s2": 0,
-   "winner": 0,
-   "done": false,
-   "maps": []
-  },
-  {
-   "id": "s2-odOTCkwfGX-M4",
-   "stage": "s2",
-   "round": "Round 2 Low",
-   "slot": "",
-   "kind": "",
-   "bo": 1,
    "date": null,
    "t1": "TBD",
    "t2": "TBD",
@@ -3560,6 +3688,6 @@
    }
   }
  },
- "checked": "2026-11-28T01:27:14Z",
+ "checked": "2026-11-28T09:20:57Z",
  "errors": []
 }

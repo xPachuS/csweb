@@ -18,11 +18,11 @@
   ],
   [
    1,
-   "SK Gaming"
+   "Ninjas in Pyjamas"
   ],
   [
    1,
-   "Ninjas in Pyjamas"
+   "SK Gaming"
   ],
   [
    1,
@@ -52,11 +52,11 @@
   ],
   [
    18,
-   "Fnatic"
+   "Ninjas in Pyjamas"
   ],
   [
    18,
-   "Ninjas in Pyjamas"
+   "Fnatic"
   ],
   [
    18,
@@ -570,11 +570,11 @@
   ],
   "CS2": [
    [
-    147,
+    149,
     "Mirage"
    ],
    [
-    136,
+    138,
     "Inferno"
    ],
    [
@@ -586,7 +586,7 @@
     "Dust II"
    ],
    [
-    111,
+    112,
     "Ancient"
    ],
    [
@@ -606,7 +606,7 @@
     "Vertigo"
    ],
    [
-    6,
+    9,
     "Cache"
    ]
   ]
@@ -839,6 +839,6 @@
    3
   ]
  ],
- "series": 1452,
- "maps": 2248
+ "series": 1460,
+ "maps": 2256
 }
